@@ -13,3 +13,6 @@
     
     --blue: #3EA6FF;
     --red: #FF0000;
+
+## DEFAULT PROFILE PICTURES
+default pfp's should be the first letter of the channel name and a random solid color background
