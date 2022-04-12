@@ -15,4 +15,4 @@
     --red: #FF0000;
 
 ## DEFAULT PROFILE PICTURES
-default pfp's should be the first letter of the channel name and a random solid color background
+figure out if you can store relative paths to the default image for the corresponding letter or if you should just store the S3 URL
