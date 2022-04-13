@@ -6,6 +6,7 @@ import hamburger from '../../static/icons/hamburger.png';
 import newVideo from '../../static/icons/new-video.png';
 import appsMenu from '../../static/icons/apps-menu.png';
 import bellIcon from '../../static/icons/bell-icon.png';
+import ProfileIcon from '../ProfileIcon/ProfileIcon';
 
 export default function Header() {
 	return (
@@ -23,7 +24,7 @@ export default function Header() {
 			<div id='header__middle' className='test'></div>
 
 
-			<div id='header__right' className='row-space-even test'>
+			<div id='header__right' className='row-space-even'>
 				<div className='svg-wrapper'>
 					<img src={newVideo} alt='bell-icon' className='svg' />
 				</div>
@@ -34,8 +35,8 @@ export default function Header() {
 				<div className='svg-wrapper'>
 					<img src={bellIcon} alt='bell-icon' className='svg' />
 				</div>
-				<div className='svg-wrapper'>
-
+				<div className='pfp-wrapper-nav'>
+					<ProfileIcon />
 				</div>
 			</div>
 		</header>

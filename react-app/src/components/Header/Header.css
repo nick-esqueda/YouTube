@@ -9,9 +9,7 @@
 }
 
 /* LEFT ********************************************/
-#header__left {
-    
-}
+#header__left {}
 
 .logo-wrapper {
     padding: 18px 14px 18px 16px;
@@ -33,9 +31,13 @@
 
 
 
-
 /* RIGHT ********************************************/
 #header__right {
-    height: 100%;
-    
+    width: 220px;
+}
+
+.pfp-wrapper-nav {
+    margin: 0 12px;
+    width: 32px;
+    height: 32px;
 }

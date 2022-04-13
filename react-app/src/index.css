@@ -69,16 +69,14 @@ button {
 }
 
 .svg {
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(290deg) brightness(103%) contrast(103%);
-    width: 24px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(290deg) brightness(105%) contrast(103%);
+    width: 26px;
 }
 
 .svg-wrapper {
     width: 40px;
     height: 40px;
 }
-
-
 
 
 
