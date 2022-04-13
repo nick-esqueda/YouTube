@@ -19,7 +19,7 @@ class Channel(db.Model, UserMixin):
 
     @property
     def password(self):
-        return self.hashed_password
+        return self.hashedPassword
 
     @password.setter
     def password(self, password):
