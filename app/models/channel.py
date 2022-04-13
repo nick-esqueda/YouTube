@@ -10,7 +10,7 @@ class Channel(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True)
     channelName = db.Column(db.String(50), nullable=False, unique=True)
     profileImageUrl = db.Column(db.String(255), nullable=False)
-    about = db.Column(db.String(255), nullable=True)
+    about = db.Column(db.String(5000), nullable=True)
     email = db.Column(db.String(150), nullable=False, unique=True)
     hashedPassword = db.Column(db.String(255), nullable=False)
     createdAt = db.Column(db.DateTime(timezone=True), server_default=func.now(), nullable=False)
@@ -23,7 +23,7 @@ class Channel(db.Model, UserMixin):
 
     @password.setter
     def password(self, password):
-        self.hashed_password = generate_password_hash(password)
+        self.hashedPassword = generate_password_hash(password)
 
     def check_password(self, password):
         return check_password_hash(self.password, password)

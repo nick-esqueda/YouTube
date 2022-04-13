@@ -22,7 +22,7 @@ def upgrade():
     sa.Column('id', sa.Integer(), nullable=False),
     sa.Column('channelName', sa.String(length=50), nullable=False),
     sa.Column('profileImageUrl', sa.String(length=255), nullable=False),
-    sa.Column('about', sa.String(length=255), nullable=True),
+    sa.Column('about', sa.String(length=5000), nullable=True),
     sa.Column('email', sa.String(length=150), nullable=False),
     sa.Column('hashedPassword', sa.String(length=255), nullable=False),
     sa.Column('createdAt', sa.DateTime(timezone=True), server_default=sa.text('now()'), nullable=False),
