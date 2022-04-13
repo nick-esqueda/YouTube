@@ -42,6 +42,7 @@ function App() {
 				</ProtectedRoute>
 				<ProtectedRoute path='/' exact={true} >
 					<h1>My Home Page</h1>
+					<button className='btn btn--red'>subscribe</button>
 				</ProtectedRoute>
 			</Switch>
 		</BrowserRouter>
