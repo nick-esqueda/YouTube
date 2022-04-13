@@ -10,6 +10,7 @@ import User from './components/User';
 import { authenticate } from './store/session';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
+import ChannelPage from './components/ChannelPage/ChannelPage';
 
 function App() {
 	const [loaded, setLoaded] = useState(false);
@@ -41,7 +42,8 @@ function App() {
 				<ProtectedRoute path='/users' exact={true} >
 					<UsersList />
 				</ProtectedRoute>
-				<ProtectedRoute path='/users/:userId' exact={true} >
+				<ProtectedRoute path='/channels/:channelId' exact={true} >
+					<ChannelPage />
 					<User />
 				</ProtectedRoute>
 				<ProtectedRoute path='/' exact={true} >
