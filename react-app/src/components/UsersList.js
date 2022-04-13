@@ -6,9 +6,9 @@ function UsersList() {
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch('/api/users/');
+      const response = await fetch('/api/channels/');
       const responseData = await response.json();
-      setUsers(responseData.users);
+      setUsers(responseData.channels);
     }
     fetchData();
   }, []);
@@ -16,7 +16,7 @@ function UsersList() {
   const userComponents = users.map((user) => {
     return (
       <li key={user.id}>
-        <NavLink to={`/users/${user.id}`}>{user.username}</NavLink>
+        <NavLink to={`/channels/${user.id}`}>{user.channelName}</NavLink>
       </li>
     );
   });
