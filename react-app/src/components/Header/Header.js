@@ -8,6 +8,7 @@ import appsMenu from '../../static/icons/apps-menu.png';
 import bellIcon from '../../static/icons/bell-icon.png';
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 import SearchHeader from '../SearchHeader/SearchHeader';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
 	return (
@@ -17,9 +18,9 @@ export default function Header() {
 					<img src={hamburger} alt="menu-icon" className="svg" />
 				</div>
 
-				<div className="logo-wrapper">
+				<Link to={`/`} className="logo-wrapper">
 					<img src={logo} alt='logo' id='header__logo' className='' />
-				</div>
+				</Link>
 			</div>
 
 			<div id='header__middle' className=''>
