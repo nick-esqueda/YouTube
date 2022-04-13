@@ -8,12 +8,15 @@
     top: 0;
 }
 
+#header img {
+    cursor: not-allowed;
+}
+
 /* LEFT ********************************************/
 .logo-wrapper {
     padding: 18px 14px 18px 16px;
     width: 120px;
     height: 56px;
-    
 }
 
 #header__logo {
