@@ -7,6 +7,7 @@ import newVideo from '../../static/icons/new-video.png';
 import appsMenu from '../../static/icons/apps-menu.png';
 import bellIcon from '../../static/icons/bell-icon.png';
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
+import SearchHeader from '../SearchHeader/SearchHeader';
 
 export default function Header() {
 	return (
@@ -21,7 +22,9 @@ export default function Header() {
 				</div>
 			</div>
 
-			<div id='header__middle' className='test'></div>
+			<div id='header__middle' className='test'>
+				<SearchHeader />
+			</div>
 
 
 			<div id='header__right' className='row-space-even'>
