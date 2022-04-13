@@ -1,4 +1,21 @@
-.search form,
-.search input {
-    background-color: transparent;
+.search {
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgb(48, 48, 48);
+    border-radius: 2px;
+    overflow: hidden;
+    background-color: var(--black);
+}
+
+.header__search input {
+    padding: 0 8px;
+    background-color: var(--black);
+    font-size: 16px;
+    border: none;
+}
+
+.search-submit-button {
+    width: 64px;
+    height: 40px;
+    background-color: #313131;
 }

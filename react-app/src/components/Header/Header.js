@@ -22,7 +22,7 @@ export default function Header() {
 				</div>
 			</div>
 
-			<div id='header__middle' className='test'>
+			<div id='header__middle' className=''>
 				<SearchHeader />
 			</div>
 

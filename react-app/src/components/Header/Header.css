@@ -26,7 +26,8 @@
 
 /* MIDDLE ******************************************/
 #header__middle {
-    width: 650px;
+    max-width: 650px;
+    width: 50%;
 }
 
 

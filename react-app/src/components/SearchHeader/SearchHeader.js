@@ -1,22 +1,25 @@
 import React from 'react'
 
-import './SearchHeader';
+import './SearchHeader.css';
 import searchIcon from '../../static/icons/search.png';
 
 export default function SearchHeader() {
-    
+
     const onSubmit = e => {
         e.preventDefault();
         console.log('search submission');
     }
-    
+
     return (
-        <div className='search'>
-            <form className="header__search" onSubmit={onSubmit}>
-                <input type="text" placeholder="search"
+        <div className='search full-size'>
+            <form className="header__search row-space-between full-size" onSubmit={onSubmit}>
+                <input type="text" placeholder="Search"
                     className=""
                 />
-                <img src={searchIcon} alt='search-icon' className='svg' />
+
+                <button type='submit' className='search-submit-button'>
+                    <img src={searchIcon} alt='search-icon' className='svg' style={{ width: '24px', height: '24px' }} />
+                </button>
             </form>
         </div>
     )
