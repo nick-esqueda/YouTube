@@ -3,21 +3,16 @@
     height: 56px;
     padding: 0 16px;
     background-color: #202020;
+    
+    position: fixed;
+    top: 0;
 }
 
 /* LEFT ********************************************/
 #header__left {
-    width: 170px;
-    height: 100%;
+    
 }
 
-.svg {
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(290deg) brightness(103%) contrast(103%);
-    width: 24px;
-}
-
-
-/* LOGO */
 .logo-wrapper {
     padding: 18px 14px 18px 16px;
     width: 120px;
@@ -27,13 +22,20 @@
 
 #header__logo {
     width: 100%;
-    /* height: 56px; */
     object-fit: cover;
 }
 
 
-/* HAMBURGER */
-.hamburger {
-    width: 40px;
-    height: 40px;
+/* MIDDLE ******************************************/
+#header__middle {
+    width:  650px;
+}
+
+
+
+
+/* RIGHT ********************************************/
+#header__right {
+    height: 100%;
+    
 }
