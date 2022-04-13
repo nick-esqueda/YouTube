@@ -4,8 +4,10 @@ import './ChannelPage.css';
 
 export default function ChannelPage() {
   return (
-    <div id='channel-page'>
-        ChannelPage
+    <div id='channel-page' className='test'>
+        <div id='channel-header'>
+            header
+        </div>
     </div>
   )
 }

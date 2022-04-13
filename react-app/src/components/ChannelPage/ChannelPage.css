@@ -1,3 +1,10 @@
 #channel-page {
-    
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#channel-header {
+    height: 200px;
 }
