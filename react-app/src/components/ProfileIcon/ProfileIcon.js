@@ -1,6 +1,6 @@
 import React from 'react'
 
-import n from '../../static/N.png';
+import n from '../../static/default-pfps/A.png';
 import './ProfileIcon.css';
 
 export default function ProfileIcon() {
