@@ -10,6 +10,7 @@ class Channel(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True)
     channelName = db.Column(db.String(50), nullable=False, unique=True)
     profileImageUrl = db.Column(db.String(255), nullable=False)
+    bannerImageUrl = db.Column(db.String(255), nullable=True)
     about = db.Column(db.String(5000), nullable=True)
     email = db.Column(db.String(150), nullable=False, unique=True)
     hashedPassword = db.Column(db.String(255), nullable=False)
