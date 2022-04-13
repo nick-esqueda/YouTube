@@ -14,7 +14,7 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    (async() => {
+    (async () => {
       await dispatch(authenticate());
       setLoaded(true);
     })();
@@ -35,13 +35,21 @@ function App() {
           <SignUpForm />
         </Route>
         <ProtectedRoute path='/users' exact={true} >
-          <UsersList/>
+          <UsersList />
         </ProtectedRoute>
         <ProtectedRoute path='/users/:userId' exact={true} >
           <User />
         </ProtectedRoute>
         <ProtectedRoute path='/' exact={true} >
           <h1>My Home Page</h1>
+          <div
+            style={{ width: "1000px", height: "1000px"}}
+            className="col-top test"
+          >
+            <div style={{ width: '200px', transition: 'opacity 2s' }} className="line-clamp2">just testing out a div just testing out a div just testing out a div just testing out a div just testing out a div</div>
+            <div>oh hey</div>
+            <div>aifha fasdjfasd</div>
+          </div>
         </ProtectedRoute>
       </Switch>
     </BrowserRouter>
