@@ -1,8 +1,7 @@
 import React from 'react'
 
 import './SearchHeader';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import searchIcon from '../../static/icons/search.png';
 
 export default function SearchHeader() {
     
@@ -17,7 +16,7 @@ export default function SearchHeader() {
                 <input type="text" placeholder="search"
                     className=""
                 />
-                <FontAwesomeIcon icon={faSearch} style={{ color: 'var(--color-dark-gray)' }} />
+                <img src={searchIcon} alt='search-icon' className='svg' />
             </form>
         </div>
     )
