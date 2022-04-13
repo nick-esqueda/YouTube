@@ -31,6 +31,11 @@ body {
     letter-spacing: 0.1px;
 }
 
+/* TEMPORARY: TO PREVENT NAVBAR OVERLAPPING OTHER ELEMENTS  */
+#root > *:not(header):not(nav#nav) {
+    margin-left: 72px;
+}
+
 #root {
     display: block;
 }
