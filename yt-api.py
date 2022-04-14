@@ -75,14 +75,53 @@ channels3 = [
 api_key = "AIzaSyDWpRXqmeXAlCEGrwPbO6K_8SNIwSDYJEI"
 yt_api = build("youtube", "v3", developerKey=api_key)
 
-request = yt_api.channels().list(
-    part="brandingSettings, snippet",
-    id="UC9CoOnJkIBMdeijd9qYoT_g"
+# CHANNELS ##########################################
+# request = yt_api.channels().list(
+#     part="brandingSettings, snippet",
+#     id="UC9CoOnJkIBMdeijd9qYoT_g"
+# )
+
+# VIDEOS ##########################################
+# request = yt_api.channels().list(
+#     part="contentDetails",
+#     id=channels3
+# )
+# response = request.execute()
+# uploadsPlaylistIds = [channel["contentDetails"]["relatedPlaylists"]["uploads"]  for channel in response["items"]] # ["contentDetails"]["relatedPlaylists"]["uploads"]
+# print(uploadsPlaylistIds)
+
+# get the videos in each playlist (by playlist id)
+request = yt_api.playlistItems().list(
+    part="contentDetails, snippet",
+    playlistId="UUgPClNr5VSYC3syrDUIlzLw",
+    maxResults=10
 )
-
 response = request.execute()
-print(json.dumps(response, sort_keys=True, indent=4))
 
+# print(json.dumps(response, sort_keys=True, indent=4))
+    
+# VIDEOS PRINT OUT #################################################################################
+allChannels = channels1 + channels2 + channels3
+for video in response["items"]:
+    channelId = allChannels.index(video["snippet"]["channelId"]) + 1
+    title = video["snippet"]["title"]
+    description = video["snippet"]["description"]
+    videoUrl = video["contentDetails"]["videoId"]
+    try:
+        thumbnailUrl = video["snippet"]["thumbnails"]["maxres"]["url"]
+    except:
+        thumbnailUrl = video["snippet"]["thumbnails"]["high"]["url"]
+        
+    createdAt = video["snippet"]["publishedAt"]
+    
+    print(f"""{title.split()[0]} = Video(channelId="{channelId}", title='''{title}''', description='''{description}''', videoUrl="{videoUrl}", thumbnailUrl="{thumbnailUrl}", createdAt="{createdAt}")""")
+
+
+# UNDO ALL THE SEEDS AND PUT YOURSELF AND DEMO AT THE END SO THAT THE CHANNEL IDS WILL LINE UP
+
+
+
+# CHANNELS PRINT 0UT ###############################################################################
 # for channel in response["items"]:
 #     channelName = channel["brandingSettings"]["channel"]["title"]
 #     profileImageUrl = channel["snippet"]["thumbnails"]["high"]["url"]
