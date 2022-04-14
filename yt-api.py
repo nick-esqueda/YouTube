@@ -1,7 +1,7 @@
 import json
 from googleapiclient.discovery import build
 
-channels = [
+channels1 = [
 "UCUaT_39o1x6qWjz7K2pWcgw",
 "UCo8bcnLyZH8tBIH9V1mLgqQ",
 "UCSReacwdlGHHyTIyuROhVdQ",
@@ -28,6 +28,9 @@ channels = [
 "UCAY_M9HyJb8oMKPV1utQQyA",
 "UCDlQwv99CovKafGvxyaiNDA",
 "UCXGgrKt94gR6lmN4aN3mYTg",
+]
+
+channels2 = [
 "UCgyqtNWZmIxTx3b6OxTSALw",
 "UChd1FPXykD4pust3ljzq6hQ",
 "UC-lHJZR3Gqxm24_Vd_AJ5Yw",
@@ -53,6 +56,9 @@ channels = [
 "UCJb7_Qsz9pNQDcOA4YA6TxA",
 "UClhEIA4NgUey4ty9h8AllHw",
 "UCR-QYzXrZF8yFarK8wZbHog",
+]
+
+channels3 = [
 "UCgPClNr5VSYC3syrDUIlzLw",
 "UCp6etHEelnOOd3m9CFsCSgg",
 "UCrOgQZYG0olMJaMlNQPjLYw",
@@ -66,12 +72,14 @@ channels = [
 "UC9CoOnJkIBMdeijd9qYoT_g",
 ]
 
+string = ', '.join(channels1)
+
 api_key = "AIzaSyDWpRXqmeXAlCEGrwPbO6K_8SNIwSDYJEI"
 yt_api = build("youtube", "v3", developerKey=api_key)
 
 request = yt_api.channels().list(
     part="brandingSettings, snippet",
-    id=channels
+    id=channels1
 )
 
 response = request.execute()
@@ -81,8 +89,15 @@ for channel in response["items"]:
     channelName = channel["brandingSettings"]["channel"]["title"]
     profileImageUrl = channel["snippet"]["thumbnails"]["high"]["url"]
     bannerImageUrl = channel["brandingSettings"]["image"]["bannerExternalUrl"]
-    channelTrailerId = channel["brandingSettings"]["channel"]["unsubscribedTrailer"]
+    try:
+        channelTrailerId = channel["brandingSettings"]["channel"]["unsubscribedTrailer"]
+    except:
+        channelTrailerId = None
     createdAt = channel["snippet"]["publishedAt"]
-    about = channel["brandingSettings"]["channel"]["description"]
+    try:
+        about = channel["brandingSettings"]["channel"]["description"]
+    except:
+        about = None
     
-    print(f"""{channelName.split()[0]} = Channel(channelName="{channelName}", profileImageUrl="{profileImageUrl}", bannerImageUrl="{bannerImageUrl}", channelTrailerId="{channelTrailerId}", createdAt="{createdAt}", email="{'_'.join(channelName.lower().split())}@{'_'.join(channelName.lower().split())}.com", about="{about}")""")
+    print(f"""{channelName.split()[0]} = Channel(channelName="{channelName}", profileImageUrl="{profileImageUrl}", bannerImageUrl="{bannerImageUrl}", channelTrailerId="{channelTrailerId}", createdAt="{createdAt}", email="{'_'.join(channelName.lower().split())}@{'_'.join(channelName.lower().split())}.com", about='''{about}''')""")
+    
