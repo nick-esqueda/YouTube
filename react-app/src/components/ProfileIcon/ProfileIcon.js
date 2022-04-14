@@ -14,7 +14,7 @@ export default function ProfileIcon({ channel }) {
             <img
                 className='profile-icon'
                 src={channel.profileImageUrl}
-                alt="profile icon"
+                alt="profile-icon"
             />
         </div>
     )

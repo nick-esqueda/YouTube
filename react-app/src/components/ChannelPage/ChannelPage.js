@@ -24,7 +24,7 @@ export default function ChannelPage() {
 	}, [channelId]);
 
 	return (
-		<div id='channel-page' className='test'>
+		<div id='channel-page' className=''>
 			<div id='channel-header'>
 				{!channel.bannerImageUrl ? null : (
 					<div id='channel-banner'>
@@ -48,7 +48,7 @@ export default function ChannelPage() {
 						</button>
 					</div>
 
-					<div className='tabs row-space-between test4'>
+					<div className='tabs row-space-between'>
 						<div id='channel__tabs-container' className='row-space-even'>
 							<NavLink to={`${url}/home`}
 								className={activeTab === 1 ? 'tab active-tab' : 'tab'}
@@ -81,11 +81,11 @@ export default function ChannelPage() {
 				<Route exact path={`${path}/videos`}>
 					route 3
 				</Route>
-				<Route exact path={`${path}/channels`}>
-					route 4
-				</Route>
 				<Route exact path={`${path}/about`}>
 					route 5
+				</Route>
+				<Route exact path={`${path}/channels`}>
+					route 4
 				</Route>
 			</Switch>
 		</div>
