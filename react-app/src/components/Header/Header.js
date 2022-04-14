@@ -21,12 +21,12 @@ export default function Header() {
 				<img src={appsMenu} alt='apps-menu' className='svg' />
 			</div>
 			<div className='pfp-wrapper-nav'>
-				<button className='btn btn--blue-outline sign-in-btn'>
+				<Link to={`/login`} className='btn btn--blue-outline sign-in-btn'>
 					<div className='svg-wrapper' style={{ width: 'auto', marginRight: '8px' }}>
 						<img src={avatar} alt='apps-menu' className='svg-blue' />
 					</div>
-					SIGN IN
-				</button>
+					<span>SIGN IN</span>
+				</Link>
 			</div>
 		</div>
 
