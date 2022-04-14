@@ -42,3 +42,13 @@
     width: 32px;
     height: 32px;
 }
+
+.sign-in-btn {
+    padding: 0 1em;
+    font-weight: 500;
+}
+
+.svg-blue {
+    filter: invert(61%) sepia(100%) saturate(2282%) hue-rotate(183deg) brightness(97%) contrast(110%);
+    width: 26px;
+}

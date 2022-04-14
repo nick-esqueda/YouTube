@@ -293,6 +293,11 @@ span.subcount {
     color: var(--black)
 }
 
+.btn--blue-outline {
+    border: 1px solid var(--blue);
+    color: var(--blue);
+}
+
 .btn--red {
     background-color: var(--red-btn);
     color: var(--white)
