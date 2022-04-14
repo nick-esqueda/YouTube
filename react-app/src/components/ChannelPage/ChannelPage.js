@@ -3,6 +3,7 @@ import { NavLink, Route, Router, Switch, useParams, useRouteMatch } from 'react-
 
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 import User from '../User';
+import AboutTab from './AboutTab';
 
 import './ChannelPage.css';
 
@@ -63,8 +64,8 @@ export default function ChannelPage() {
 								onClick={() => setActiveTab(3)}
 							>CHANNELS</NavLink>
 							<NavLink to={`${url}/about`}
-								className={activeTab === 3 ? 'tab active-tab' : 'tab'}
-								onClick={() => setActiveTab(3)}
+								className={activeTab === 4 ? 'tab active-tab' : 'tab'}
+								onClick={() => setActiveTab(4)}
 							>ABOUT</NavLink>
 						</div>
 					</div>
@@ -72,20 +73,17 @@ export default function ChannelPage() {
 			</div>
 
 			<Switch>
-				<Route exact path={path}>
-					route 1
-				</Route>
 				<Route exact path={`${path}/home`}>
 					<User />
 				</Route>
 				<Route exact path={`${path}/videos`}>
+					route 2
+				</Route>
+				<Route exact path={`${path}/channels`}>
 					route 3
 				</Route>
 				<Route exact path={`${path}/about`}>
-					route 5
-				</Route>
-				<Route exact path={`${path}/channels`}>
-					route 4
+					<AboutTab channel={channel} />
 				</Route>
 			</Switch>
 		</div>
