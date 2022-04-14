@@ -33,7 +33,7 @@ export default function ChannelPage() {
 				<div id='channel-header__actions' className='test2'>
 					<div className='channel-info row-space-between full-size test3'>
 						<div style={{ width: "80px", height: "80px" }}>
-							<ProfileIcon />
+							<ProfileIcon channel={channel} />
 						</div>
 					</div>
 					<div className='tabs row-space-between test4'>

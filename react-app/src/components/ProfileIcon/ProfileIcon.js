@@ -1,9 +1,8 @@
 import React from 'react'
 
-import n from '../../static/default-pfps/A.png';
 import './ProfileIcon.css';
 
-export default function ProfileIcon() {
+export default function ProfileIcon({ channel }) {
     return (
         <div
             className='profile-icon-border'
@@ -14,8 +13,8 @@ export default function ProfileIcon() {
         >
             <img
                 className='profile-icon'
-                src={n}
-                alt="profile preview"
+                src={channel.profileImageUrl}
+                alt="profile icon"
             />
         </div>
     )

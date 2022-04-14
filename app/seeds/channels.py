@@ -3,9 +3,9 @@ from app.models import db, Channel
 def get_pfp(channelName):
     try:
         letter = channelName[0].upper()
-        return f"../../static/default-pfps/{letter}.png"
+        return f"/default-pfps/{letter}.png"
     except:
-        return f"../../static/default-pfps/default.jpg"
+        return f"/default-pfps/default.jpg"
 
 # Adds a demo user, you can add other users here if you want
 def seed_channels():

@@ -9,8 +9,12 @@ import bellIcon from '../../static/icons/bell-icon.png';
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 import SearchHeader from '../SearchHeader/SearchHeader';
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
 export default function Header() {
+	const sessionUser = useSelector(state => state.session.user);
+	console.log(sessionUser);
+	
 	return (
 		<header id='header' className='row-space-between'>
 			<div id='header__left' className='row-space-even'>
@@ -40,7 +44,7 @@ export default function Header() {
 					<img src={bellIcon} alt='bell-icon' className='svg' />
 				</div>
 				<div className='pfp-wrapper-nav'>
-					<ProfileIcon />
+					<ProfileIcon channel={sessionUser} />
 				</div>
 			</div>
 		</header>
