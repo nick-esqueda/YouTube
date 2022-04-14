@@ -20,11 +20,17 @@ export default function ChannelPage() {
 
 	return (
 		<div id='channel-page' className='test'>
-			{!channel.bannerImageUrl ? null : (
-				<div id='channel-header'>
-					<img src={channel.bannerImageUrl} alt="banner" />
+			<div id='channel-header'>
+				{!channel.bannerImageUrl ? null : (
+					<div id='channel-banner'>
+						<img src={channel.bannerImageUrl} alt="banner" />
+					</div>
+				)}
+				
+				<div id='channel-header__actions' className='test'>
+					
 				</div>
-			)}
+			</div>
 		</div>
 	)
 }
