@@ -1,4 +1,5 @@
 #about-tab {
+    max-width: 1280px;
     width: 100%;
     padding: 50px 60px;
     display: grid;
