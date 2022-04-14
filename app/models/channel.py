@@ -33,5 +33,9 @@ class Channel(db.Model, UserMixin):
         return {
             'id': self.id,
             'channelName': self.channelName,
-            'email': self.email
+            'profileImageUrl': self.profileImageUrl,
+            'bannerImageUrl': self.bannerImageUrl,
+            'about': self.about,
+            'email': self.email,
+            'createdAt': self.createdAt
         }

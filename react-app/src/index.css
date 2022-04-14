@@ -34,6 +34,7 @@ body {
 /* TEMPORARY: TO PREVENT NAVBAR OVERLAPPING OTHER ELEMENTS  */
 #root > *:not(header):not(nav#nav) {
     margin-left: 72px;
+    padding-right: 72px;
 }
 
 #root {
@@ -73,6 +74,8 @@ button {
     white-space: nowrap;
 }
 
+
+/* FOR SPECIFIC ELEMENTS */
 .svg {
     filter: brightness(0) invert(1);
     width: 26px;
@@ -81,6 +84,16 @@ button {
 .svg-wrapper {
     width: 40px;
     height: 40px;
+}
+
+span.subcount {
+    padding: 2px 0;
+    color: var(--gray-light);
+    font-size: 14px;
+}
+
+.active {
+    color: red;
 }
 
 
@@ -97,6 +110,18 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+
+.row-top {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.row-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
 }
 
 .row-space-between {
@@ -131,6 +156,12 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+.col-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .col-space-between {
@@ -195,8 +226,20 @@ button {
 }
 
 /* MISC */
-.test {
+.test1 {
     border: 1px solid red;
+}
+.test2 {
+    border: 1px solid rgb(0, 183, 255);
+}
+.test3 {
+    border: 1px solid green;
+}
+.test4 {
+    border: 1px solid purple;
+}
+.test5 {
+    border: 1px solid orange;
 }
 
 .line-clamp1 {
