@@ -8,7 +8,6 @@
     height: 350px;
 }
 
-
 #channel-banner {
     height: 200px;
     overflow: hidden;
@@ -17,8 +16,28 @@
     width: 100%;
 }
 
-
+/* BOTTOM OF HEADER / BUTTONS */
 #channel-header__actions {
     height: 150px;
     width: 100%;
+}
+
+.channel-info {
+    height: 100px;
+    /* padding-top: 20px; */
+}
+
+
+
+
+#channel__tabs-container {
+    height: 48px;
+}
+
+.tab {
+    
+}
+
+.active-tab {
+    
 }

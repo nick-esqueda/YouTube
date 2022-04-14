@@ -198,6 +198,18 @@ button {
 .test {
     border: 1px solid red;
 }
+.test2 {
+    border: 1px solid rgb(0, 183, 255);
+}
+.test3 {
+    border: 1px solid green;
+}
+.test4 {
+    border: 1px solid purple;
+}
+.test5 {
+    border: 1px solid orange;
+}
 
 .line-clamp1 {
     overflow: hidden;
