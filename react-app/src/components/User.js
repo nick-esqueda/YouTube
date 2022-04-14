@@ -26,7 +26,7 @@ function User() {
         <strong>User Id</strong> {channelId}
       </li>
       <li>
-        <strong>Username</strong> {user.username}
+        <strong>Username</strong> {user.channelName}
       </li>
       <li>
         <strong>Email</strong> {user.email}

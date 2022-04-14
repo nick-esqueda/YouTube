@@ -6,6 +6,7 @@ import User from '../User';
 import AboutTab from './AboutTab';
 
 import './ChannelPage.css';
+import VideosTab from './VideosTab';
 
 export default function ChannelPage() {
 	const { path, url } = useRouteMatch();
@@ -77,7 +78,7 @@ export default function ChannelPage() {
 					<User />
 				</Route>
 				<Route exact path={`${path}/videos`}>
-					route 2
+					<VideosTab channel={channel} />
 				</Route>
 				<Route exact path={`${path}/channels`}>
 					route 3
