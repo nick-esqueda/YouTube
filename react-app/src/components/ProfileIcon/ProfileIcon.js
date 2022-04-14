@@ -10,7 +10,7 @@ export default function ProfileIcon({ channel }) {
             className='profile-icon-border'
             onClick={(e) => {
                 window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-                history.push(`/channels/${channel.id}`);
+                history.push(`/channels/${channel.id}/home`);
             }}
         >
             <img
