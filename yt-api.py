@@ -71,7 +71,7 @@ yt_api = build("youtube", "v3", developerKey=api_key)
 
 request = yt_api.channels().list(
     part="brandingSettings, snippet",
-    id=["UCfM3zsQsOnfWNUppiycmBuw", "UC9CoOnJkIBMdeijd9qYoT_g"]
+    id=channels
 )
 
 response = request.execute()
@@ -81,8 +81,8 @@ for channel in response["items"]:
     channelName = channel["brandingSettings"]["channel"]["title"]
     profileImageUrl = channel["snippet"]["thumbnails"]["high"]["url"]
     bannerImageUrl = channel["brandingSettings"]["image"]["bannerExternalUrl"]
-    # channelTrailerId = channel["brandingSettings"]["channel"]["unsubscribedTrailer"]
+    channelTrailerId = channel["brandingSettings"]["channel"]["unsubscribedTrailer"]
     createdAt = channel["snippet"]["publishedAt"]
     about = channel["brandingSettings"]["channel"]["description"]
     
-    print(f"""{channelName.split()[0]} = Channel(channelName="{channelName}", profileImageUrl="{profileImageUrl}", bannerImageUrl="{bannerImageUrl}", createdAt="{createdAt}", email="{'_'.join(channelName.lower().split())}@{'_'.join(channelName.lower().split())}.com", about="{about}")""")
+    print(f"""{channelName.split()[0]} = Channel(channelName="{channelName}", profileImageUrl="{profileImageUrl}", bannerImageUrl="{bannerImageUrl}", channelTrailerId="{channelTrailerId}", createdAt="{createdAt}", email="{'_'.join(channelName.lower().split())}@{'_'.join(channelName.lower().split())}.com", about="{about}")""")
