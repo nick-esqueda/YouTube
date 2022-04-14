@@ -5,7 +5,6 @@ import './ProfileIcon.css';
 import defaultPfp from '../../static/default-profile-image.png';
 
 export default function ProfileIcon({ channel }) {
-    console.log(channel);
     const history = useHistory();
     return (
         <div
