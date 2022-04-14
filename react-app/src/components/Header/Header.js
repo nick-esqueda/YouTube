@@ -51,14 +51,14 @@ export default function Header() {
 
 			{!sessionUser ? loggedOut : (
 				<div id='header__right' className='row-space-even'>
-					<div className='svg-wrapper'>
+					<div className='svg-wrapper disabled'>
 						<img src={newVideo} alt='bell-icon' className='svg' />
 					</div>
-					<div className='svg-wrapper'>
+					<div className='svg-wrapper disabled'>
 						<img src={appsMenu} alt='apps-menu' className='svg' />
 
 					</div>
-					<div className='svg-wrapper'>
+					<div className='svg-wrapper disabled'>
 						<img src={bellIcon} alt='bell-icon' className='svg' />
 					</div>
 					<div className='pfp-wrapper-nav'>
