@@ -6,6 +6,7 @@ import explore from '../../static/icons/explore.png';
 import subscriptions from '../../static/icons/subscriptions.png';
 import library from '../../static/icons/library.png';
 import { Link } from 'react-router-dom';
+import NavBar from '../NavBar';
 
 export default function Navbar() {
     return (
@@ -34,6 +35,8 @@ export default function Navbar() {
                     Library
                 </div>
             </Link>
+            
+            <NavBar />
 
         </nav>
     )

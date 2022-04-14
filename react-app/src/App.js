@@ -31,7 +31,6 @@ function App() {
 		<BrowserRouter>
 			<Header />
 			<Navbar />
-			<NavBar /> {/* this is the starter's navbar */}
 			<Switch>
 				<Route path='/login' exact={true}>
 					<LoginForm />
