@@ -461,10 +461,10 @@ def seed_channels():
         channelName='Nick Esqueda', email='ne@ne.com', password='password', profileImageUrl=get_pfp("Nick"))
 
 
-    db.session.add(demo)
-    db.session.add(nick)
     for channel in channels:
         db.session.add(channel)
+    db.session.add(demo)
+    db.session.add(nick)
 
     db.session.commit()
 
