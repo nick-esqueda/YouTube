@@ -15,8 +15,6 @@
     align-items: center;
 
     transition: background .05s;
-    
-    cursor: not-allowed;
 }
 
 #nav .svg-wrapper {
