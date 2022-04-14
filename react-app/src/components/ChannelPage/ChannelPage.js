@@ -6,6 +6,7 @@ import User from '../User';
 import AboutTab from './AboutTab';
 
 import './ChannelPage.css';
+import ChannelsTab from './ChannelsTab';
 import VideosTab from './VideosTab';
 
 export default function ChannelPage() {
@@ -81,7 +82,7 @@ export default function ChannelPage() {
 					<VideosTab channel={channel} />
 				</Route>
 				<Route exact path={`${path}/channels`}>
-					route 3
+					<ChannelsTab channel={channel} />
 				</Route>
 				<Route exact path={`${path}/about`}>
 					<AboutTab channel={channel} />
