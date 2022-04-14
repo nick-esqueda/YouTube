@@ -31,13 +31,12 @@
 
 
 
-
 #channel__tabs-container {
     height: 48px;
 }
 
 .tab {
-    
+    padding: 0 32px;
 }
 
 .active-tab {

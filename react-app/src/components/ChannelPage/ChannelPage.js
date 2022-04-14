@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom';
+import { NavLink, Route, Router, Switch, useParams, useRouteMatch } from 'react-router-dom';
 
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 
 import './ChannelPage.css';
 
 export default function ChannelPage() {
+	const { path, url } = useRouteMatch();
 	const [channel, setChannel] = useState({});
 	const [activeTab, setActiveTab] = useState(1);
 	const { channelId } = useParams();
@@ -30,7 +31,7 @@ export default function ChannelPage() {
 					</div>
 				)}
 
-				<div id='channel-header__actions' className=''>
+				<div id='channel-header__actions' className='col-left'>
 					<div className='channel-info row-space-between full-size'>
 						<div style={{ minWidth: "80px", height: "80px", marginRight: '20px' }}>
 							<ProfileIcon channel={channel} />
@@ -48,27 +49,44 @@ export default function ChannelPage() {
 					
 					<div className='tabs row-space-between test4'>
 						<div id='channel__tabs-container' className='row-space-even'>
-							<div
+							<NavLink to={`${url}/home`}
 								className={activeTab === 1 ? 'tab active-tab' : 'tab'}
 								onClick={() => setActiveTab(1)}
-							>HOME</div>
-							<div
+							>HOME</NavLink>
+							<NavLink to={`${url}/videos`}
 								className={activeTab === 2 ? 'tab active-tab' : 'tab'}
 								onClick={() => setActiveTab(2)}
-							>VIDEOS</div>
-							<div
+							>VIDEOS</NavLink>
+							<NavLink to={`${url}/channels`}
 								className={activeTab === 3 ? 'tab active-tab' : 'tab'}
 								onClick={() => setActiveTab(3)}
-							>CHANNELS</div>
-							<div
+							>CHANNELS</NavLink>
+							<NavLink to={`${url}/about`}
 								className={activeTab === 3 ? 'tab active-tab' : 'tab'}
 								onClick={() => setActiveTab(3)}
-							>ABOUT</div>
+							>ABOUT</NavLink>
 						</div>
-
 					</div>
 				</div>
 			</div>
+			
+			<Switch>
+				<Route exact path={path}>
+					route 1
+				</Route>
+				<Route exact path={`${path}/home`}>
+					<h1>route 2</h1>
+				</Route>
+				<Route exact path={`${path}/videos`}>
+					route 3
+				</Route>
+				<Route exact path={`${path}/channels`}>
+					route 4
+				</Route>
+				<Route exact path={`${path}/about`}>
+					route 5
+				</Route>
+			</Switch>
 		</div>
 	)
 }

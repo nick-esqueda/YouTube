@@ -92,6 +92,10 @@ span.subcount {
     font-size: 14px;
 }
 
+.active {
+    color: red;
+}
+
 
 
 /* CLASSES ************************************/
