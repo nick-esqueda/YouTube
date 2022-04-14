@@ -8,6 +8,9 @@ import ProtectedRoute from './components/auth/ProtectedRoute';
 import UsersList from './components/UsersList';
 import User from './components/User';
 import { authenticate } from './store/session';
+import Header from './components/Header/Header';
+import Navbar from './components/Navbar/Navbar';
+import ChannelPage from './components/ChannelPage/ChannelPage';
 
 function App() {
 	const [loaded, setLoaded] = useState(false);
@@ -26,7 +29,8 @@ function App() {
 
 	return (
 		<BrowserRouter>
-			<NavBar />
+			<Header />
+			<Navbar />
 			<Switch>
 				<Route path='/login' exact={true}>
 					<LoginForm />
@@ -37,8 +41,8 @@ function App() {
 				<ProtectedRoute path='/users' exact={true} >
 					<UsersList />
 				</ProtectedRoute>
-				<ProtectedRoute path='/users/:userId' exact={true} >
-					<User />
+				<ProtectedRoute path='/channels/:channelId'>
+					<ChannelPage />
 				</ProtectedRoute>
 				<ProtectedRoute path='/' exact={true} >
 					<h1>My Home Page</h1>

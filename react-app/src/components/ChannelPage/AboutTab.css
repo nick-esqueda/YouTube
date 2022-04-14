@@ -1,0 +1,32 @@
+#about-tab {
+    max-width: 1280px;
+    width: 100%;
+    padding: 50px 60px;
+    display: grid;
+    grid-template-columns: 65% 25%;
+    gap: 10%;
+    grid-template-areas: 'left right';
+}
+
+#about-tab-left {
+    grid-area: left;
+}
+#about-tab-left p {
+    width: 100%;
+    font-size: 14px;
+    padding: 32px 0;
+    border-bottom: 2px solid var(--gray-dark);
+}
+
+#about-tab-right {
+    grid-area: right;
+}
+#about-tab-right span {
+    width: 100%;
+    padding: 16px 0;
+    border-bottom: 2px solid var(--gray-dark);
+    color: var(--white-text)
+}
+#about-tab-right span + span {
+    font-size: 14px;
+}
