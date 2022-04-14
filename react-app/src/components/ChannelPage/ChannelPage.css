@@ -19,12 +19,14 @@
 /* BOTTOM OF HEADER / BUTTONS */
 #channel-header__actions {
     height: 150px;
-    width: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
 }
 
 .channel-info {
     height: 100px;
-    /* padding-top: 20px; */
+    /* width: 80%; */
 }
 
 

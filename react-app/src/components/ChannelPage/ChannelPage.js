@@ -30,12 +30,22 @@ export default function ChannelPage() {
 					</div>
 				)}
 
-				<div id='channel-header__actions' className='test2'>
-					<div className='channel-info row-space-between full-size test3'>
-						<div style={{ width: "80px", height: "80px" }}>
+				<div id='channel-header__actions' className=''>
+					<div className='channel-info row-space-between full-size'>
+						<div style={{ minWidth: "80px", height: "80px", marginRight: '20px' }}>
 							<ProfileIcon channel={channel} />
 						</div>
+						
+						<div className='col-left full-size'>
+							<h2>{channel.channelName}</h2>
+							<span className='subcount'>[# of subscribers]</span>
+						</div>
+						
+						<button className='btn btn--red disabled'>
+							subscribe
+						</button>
 					</div>
+					
 					<div className='tabs row-space-between test4'>
 						<div id='channel__tabs-container' className='row-space-even'>
 							<div

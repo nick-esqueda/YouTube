@@ -13,7 +13,6 @@ import { useSelector } from 'react-redux';
 
 export default function Header() {
 	const sessionUser = useSelector(state => state.session.user);
-	console.log(sessionUser);
 	
 	return (
 		<header id='header' className='row-space-between'>
