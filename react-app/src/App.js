@@ -42,9 +42,8 @@ function App() {
 				<ProtectedRoute path='/users' exact={true} >
 					<UsersList />
 				</ProtectedRoute>
-				<ProtectedRoute path='/channels/:channelId' exact={true} >
+				<ProtectedRoute path='/channels/:channelId'>
 					<ChannelPage />
-					<User />
 				</ProtectedRoute>
 				<ProtectedRoute path='/' exact={true} >
 					<h1>My Home Page</h1>

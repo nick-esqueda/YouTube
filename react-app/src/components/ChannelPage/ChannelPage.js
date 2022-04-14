@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { NavLink, Route, Router, Switch, useParams, useRouteMatch } from 'react-router-dom';
 
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
+import User from '../User';
 
 import './ChannelPage.css';
 
@@ -36,17 +37,17 @@ export default function ChannelPage() {
 						<div style={{ minWidth: "80px", height: "80px", marginRight: '20px' }}>
 							<ProfileIcon channel={channel} />
 						</div>
-						
+
 						<div className='col-left full-size'>
 							<h2>{channel.channelName}</h2>
 							<span className='subcount'>[# of subscribers]</span>
 						</div>
-						
+
 						<button className='btn btn--red disabled'>
-							subscribe
+							SUBSCRIBE
 						</button>
 					</div>
-					
+
 					<div className='tabs row-space-between test4'>
 						<div id='channel__tabs-container' className='row-space-even'>
 							<NavLink to={`${url}/home`}
@@ -69,13 +70,13 @@ export default function ChannelPage() {
 					</div>
 				</div>
 			</div>
-			
+
 			<Switch>
 				<Route exact path={path}>
 					route 1
 				</Route>
 				<Route exact path={`${path}/home`}>
-					<h1>route 2</h1>
+					<User />
 				</Route>
 				<Route exact path={`${path}/videos`}>
 					route 3
