@@ -77,25 +77,25 @@ yt_api = build("youtube", "v3", developerKey=api_key)
 
 request = yt_api.channels().list(
     part="brandingSettings, snippet",
-    id=channels3
+    id="UC9CoOnJkIBMdeijd9qYoT_g"
 )
 
 response = request.execute()
-# print(json.dumps(response, sort_keys=True, indent=4))
+print(json.dumps(response, sort_keys=True, indent=4))
 
-for channel in response["items"]:
-    channelName = channel["brandingSettings"]["channel"]["title"]
-    profileImageUrl = channel["snippet"]["thumbnails"]["high"]["url"]
-    bannerImageUrl = channel["brandingSettings"]["image"]["bannerExternalUrl"]
-    try:
-        channelTrailerId = channel["brandingSettings"]["channel"]["unsubscribedTrailer"]
-    except:
-        channelTrailerId = None
-    createdAt = channel["snippet"]["publishedAt"]
-    try:
-        about = channel["brandingSettings"]["channel"]["description"]
-    except:
-        about = None
+# for channel in response["items"]:
+#     channelName = channel["brandingSettings"]["channel"]["title"]
+#     profileImageUrl = channel["snippet"]["thumbnails"]["high"]["url"]
+#     bannerImageUrl = channel["brandingSettings"]["image"]["bannerExternalUrl"]
+#     try:
+#         channelTrailerId = channel["brandingSettings"]["channel"]["unsubscribedTrailer"]
+#     except:
+#         channelTrailerId = None
+#     createdAt = channel["snippet"]["publishedAt"]
+#     try:
+#         about = channel["brandingSettings"]["channel"]["description"]
+#     except:
+#         about = None
     
-    print(f"""{channelName.split()[0]} = Channel(channelName="{channelName}", profileImageUrl="{profileImageUrl}", bannerImageUrl="{bannerImageUrl}", channelTrailerId="{channelTrailerId}", createdAt="{createdAt}", email="{'_'.join(channelName.lower().split())}@{'_'.join(channelName.lower().split())}.com", about='''{about}''')""")
+#     print(f"""{channelName.split()[0]} = Channel(channelName="{channelName}", profileImageUrl="{profileImageUrl}", bannerImageUrl="{bannerImageUrl}", channelTrailerId="{channelTrailerId}", createdAt="{createdAt}", email="{'_'.join(channelName.lower().split())}@{'_'.join(channelName.lower().split())}.com", about='''{about}''')""")
     
