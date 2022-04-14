@@ -2,6 +2,7 @@ import React from 'react'
 import { useHistory } from 'react-router-dom';
 
 import './ProfileIcon.css';
+import defaultPfp from '../../static/default-profile-image.png';
 
 export default function ProfileIcon({ channel }) {
     const history = useHistory();
@@ -15,7 +16,7 @@ export default function ProfileIcon({ channel }) {
         >
             <img
                 className='profile-icon'
-                src={channel.profileImageUrl}
+                src={channel?.profileImageUrl?.startsWith('https') ? channel.profileImageUrl : defaultPfp}
                 alt="profile-icon"
             />
         </div>
