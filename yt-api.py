@@ -72,14 +72,12 @@ channels3 = [
 "UC9CoOnJkIBMdeijd9qYoT_g",
 ]
 
-string = ', '.join(channels1)
-
 api_key = "AIzaSyDWpRXqmeXAlCEGrwPbO6K_8SNIwSDYJEI"
 yt_api = build("youtube", "v3", developerKey=api_key)
 
 request = yt_api.channels().list(
     part="brandingSettings, snippet",
-    id=channels1
+    id=channels3
 )
 
 response = request.execute()
