@@ -76,27 +76,31 @@ api_key = "AIzaSyDWpRXqmeXAlCEGrwPbO6K_8SNIwSDYJEI"
 yt_api = build("youtube", "v3", developerKey=api_key)
 
 # CHANNELS ########################################################################################
-# request = yt_api.channels().list(
-#     part="brandingSettings, snippet",
-#     id="UC9CoOnJkIBMdeijd9qYoT_g"
-# )
+for channelId in channels3:
+    request = yt_api.channels().list(
+        part="brandingSettings, snippet",
+        id=channelId
+    )
+    response = request.execute()
 
-# CHANNELS PRINT 0UT ######################################
-# for channel in response["items"]:
-#     channelName = channel["brandingSettings"]["channel"]["title"]
-#     profileImageUrl = channel["snippet"]["thumbnails"]["high"]["url"]
-#     bannerImageUrl = channel["brandingSettings"]["image"]["bannerExternalUrl"]
-#     try:
-#         channelTrailerId = channel["brandingSettings"]["channel"]["unsubscribedTrailer"]
-#     except:
-#         channelTrailerId = None
-#     createdAt = channel["snippet"]["publishedAt"]
-#     try:
-#         about = channel["brandingSettings"]["channel"]["description"]
-#     except:
-#         about = None
-    
-#     print(f"""{channelName.split()[0]} = Channel(channelName="{channelName}", profileImageUrl="{profileImageUrl}", bannerImageUrl="{bannerImageUrl}", channelTrailerId="{channelTrailerId}", createdAt="{createdAt}", email="{'_'.join(channelName.lower().split())}@{'_'.join(channelName.lower().split())}.com", about='''{about}''')""")
+    # CHANNELS PRINT 0UT ######################################
+    # this for loop doesn't need to exist but i'm too lazy to refactor from how i did it before
+    for channel in response["items"]:
+        channelName = channel["brandingSettings"]["channel"]["title"]
+        profileImageUrl = channel["snippet"]["thumbnails"]["high"]["url"]
+        bannerImageUrl = channel["brandingSettings"]["image"]["bannerExternalUrl"]
+        try:
+            channelTrailerId = channel["brandingSettings"]["channel"]["unsubscribedTrailer"]
+        except:
+            channelTrailerId = None
+        createdAt = channel["snippet"]["publishedAt"]
+        try:
+            about = channel["brandingSettings"]["channel"]["description"]
+        except:
+            about = None
+        
+        print('\n\n')
+        print(f"""{channelName.split()[0]} = Channel(channelName="{channelName}", profileImageUrl="{profileImageUrl}", bannerImageUrl="{bannerImageUrl}", channelTrailerId="{channelTrailerId}", createdAt="{createdAt}", email="{'_'.join(channelName.lower().split())}@{'_'.join(channelName.lower().split())}.com", about='''{about}''')""")
     
     
     
@@ -114,30 +118,30 @@ channels3uploadsPlaylistIds = ['UUR-QYzXrZF8yFarK8wZbHog', 'UUfM3zsQsOnfWNUppiyc
 # uploadsPlaylistIds = [channel["contentDetails"]["relatedPlaylists"]["uploads"]  for channel in response["items"]] # ["contentDetails"]["relatedPlaylists"]["uploads"]
 # print(uploadsPlaylistIds) # this will be channelsX's 'uploads' playlist id array (these are not in the same order as they were when the request was sent off)
 
-# NOTE: get the videos in each playlist (by playlist id)
-for playlistId in channels1uploadsPlaylistIds:
-    request = yt_api.playlistItems().list(
-        part="contentDetails, snippet",
-        playlistId=playlistId,
-        maxResults=10
-    )
-    response = request.execute()
-    # print(json.dumps(response, sort_keys=True, indent=4))
-    # print('\n\n\n\n')
+# # NOTE: get the videos in each playlist (by playlist id)
+# for playlistId in channels1uploadsPlaylistIds:
+#     request = yt_api.playlistItems().list(
+#         part="contentDetails, snippet",
+#         playlistId=playlistId,
+#         maxResults=10
+#     )
+#     response = request.execute()
+#     # print(json.dumps(response, sort_keys=True, indent=4))
+#     # print('\n\n\n\n')
         
-    # VIDEOS PRINT OUT ######################################
-    allChannels = channels1 + channels2 + channels3
-    for video in response["items"]:
-        channelId = allChannels.index(video["snippet"]["channelId"]) + 1
-        title = video["snippet"]["title"]
-        description = video["snippet"]["description"]
-        videoUrl = video["contentDetails"]["videoId"]
-        try:
-            thumbnailUrl = video["snippet"]["thumbnails"]["maxres"]["url"]
-        except:
-            thumbnailUrl = video["snippet"]["thumbnails"]["high"]["url"]
+#     # VIDEOS PRINT OUT ######################################
+#     allChannels = channels1 + channels2 + channels3
+#     for video in response["items"]:
+#         channelId = allChannels.index(video["snippet"]["channelId"]) + 1
+#         title = video["snippet"]["title"]
+#         description = video["snippet"]["description"]
+#         videoUrl = video["contentDetails"]["videoId"]
+#         try:
+#             thumbnailUrl = video["snippet"]["thumbnails"]["maxres"]["url"]
+#         except:
+#             thumbnailUrl = video["snippet"]["thumbnails"]["high"]["url"]
             
-        createdAt = video["snippet"]["publishedAt"]
+#         createdAt = video["snippet"]["publishedAt"]
         
-        print('\n\n\n')
-        print(f"""{title.split()[0]} = Video(channelId="{channelId}", title='''{title}''', description='''{description}''', videoUrl="{videoUrl}", thumbnailUrl="{thumbnailUrl}", createdAt="{createdAt}")""")
+#         print('\n\n\n')
+#         print(f"""{title.split()[0]} = Video(channelId="{channelId}", title='''{title}''', description='''{description}''', videoUrl="{videoUrl}", thumbnailUrl="{thumbnailUrl}", createdAt="{createdAt}")""")
