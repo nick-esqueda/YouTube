@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { fetchHomeVideos } from '../../store/videos';
+import ProfileIcon from '../ProfileIcon/ProfileIcon';
 
 import './HomePage.css';
 
@@ -52,9 +53,15 @@ export default function HomePage() {
                             />
                         </div>
 
-                        <div className='video-thumbnail-details col-left'>
-                            <h4 className='line-clamp2'>{video.title}</h4>
-                            <span className='line-clamp2'>{video.channelId}</span>
+                        <div className='video-thumbnail-details row-left row-top'>
+                            <div style={{ width: "36px", minWidth: '36px', height: "36px", marginRight: '12px' }}>
+                                <ProfileIcon channel={video.channel} />
+                            </div>
+                            <div className='col-left'>
+                                <h4 className='line-clamp2'>{video.title}</h4>
+                                <span className='line-clamp2'>{video.channel.channelName}</span>
+                                <span className='line-clamp2'>[# of views] * {video.createdAt}</span>
+                            </div>
                         </div>
                     </div>
                 ))}

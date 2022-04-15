@@ -18,7 +18,7 @@ class Channel(db.Model, UserMixin):
     createdAt = db.Column(db.DateTime(timezone=True), server_default=func.now(), nullable=False)
     updatedAt = db.Column(db.DateTime(timezone=True), server_onupdate=func.now(), server_default=func.now())
     
-    videos = db.relationship('Video', back_populates='user', cascade="all, delete")
+    videos = db.relationship('Video', back_populates='channel', cascade="all, delete")
 
     @property
     def password(self):
