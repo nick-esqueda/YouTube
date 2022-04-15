@@ -1,0 +1,8 @@
+#home-page {
+    width: calc(100% - 72px);
+    height: 500px;
+}
+
+.video-row-grid {
+    width: 100%;
+}
