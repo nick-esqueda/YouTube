@@ -96,6 +96,12 @@ span.subcount {
     color: red;
 }
 
+.link {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--blue);
+}
+
 
 
 /* CLASSES ************************************/
