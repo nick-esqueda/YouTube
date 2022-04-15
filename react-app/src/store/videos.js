@@ -1,7 +1,7 @@
 import { normalizeOneLevel } from "./utils";
 
 // ACTION VARIABLES ***************************************
-const ADD_VIDEO = 'videos/LOAD_VIDEOS';
+const ADD_VIDEO = 'videos/ADD_VIDEOS';
 const LOAD_VIDEOS = 'videos/LOAD_VIDEOS';
 const LOAD_ADDITIONAL_VIDEOS = 'videos/LOAD_ADDITIONAL_VIDEOS';
 const REMOVE_VIDEO = 'videos/REMOVE_VIDEO';
