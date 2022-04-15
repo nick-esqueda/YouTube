@@ -23,10 +23,9 @@ export default function HomePage() {
     }, [dispatch]);
 
     useEffect(() => {
-        // try setting a new isLoaded to false then true to display loading spinner when getting next page?
+        // TODO try setting a new isLoaded to false then true to display loading spinner when getting next page?
         const scrolling_function = async () => {
             if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-                console.log('adfakdsfjasdf;ajsd');
                 window.removeEventListener('scroll', scrolling_function);
                 const newVideos = await dispatch(fetchHomeVideos(nextPage));
                 setVideos(prevVideos => [...prevVideos, ...newVideos]);
@@ -40,18 +39,24 @@ export default function HomePage() {
             window.removeEventListener('scroll', scrolling_function);
         }
     }, [nextPage]);
-    
+
 
     return !isLoaded ? null : (
-        <div id='home-page' className='test1 col-space-even'>
-            <div className='video-row-grid test2'>
+        <div id='home-page' className='col-space-even'>
+            <div className='video-row-grid'>
                 {videos.map(video => (
-                    <div key={video.id} className='video-grid-item-container'>
-                        <img src={video.thumbnailUrl} alt='thumbnail'
-                            className='thumbnail'
-                        />
-                    </div>
+                    <div key={video.id} className='video-grid-item col-top'>
+                        <div className='thumbnail-wrapper col-top'>
+                            <img src={video.thumbnailUrl} alt='thumbnail'
+                                className='thumbnail'
+                            />
+                        </div>
 
+                        <div className='video-thumbnail-details col-left'>
+                            <h4 className='line-clamp2'>{video.title}</h4>
+                            <span className='line-clamp2'>{video.channelId}</span>
+                        </div>
+                    </div>
                 ))}
             </div>
         </div>
