@@ -40,5 +40,5 @@ class Channel(db.Model, UserMixin):
             'about': self.about,
             'email': self.email,
             'createdAt': self.createdAt,
-            'videos': [video.to_dict() for video in self.videos]
+            'videos': [video.to_dict_channel() for video in self.videos]
         }

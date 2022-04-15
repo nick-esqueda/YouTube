@@ -26,3 +26,15 @@ class Video(db.Model):
             'createdAt': self.createdAt,
             'user': self.user.to_dict()
         }
+        
+    def to_dict_channel(self):
+        return {
+            'id': self.id,
+            'channelId': self.channelId,
+            'title': self.title,
+            'description': self.description,
+            'videoUrl': self.videoUrl,
+            'thumbnailUrl': self.thumbnailUrl,
+            'createdAt': self.createdAt,
+        }
+        
