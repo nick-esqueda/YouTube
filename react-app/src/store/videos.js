@@ -14,12 +14,12 @@ const addVideo = (video) => {
     }
 }
 
-// const loadVideos = (videos) => {
-//     return {
-//         type: LOAD_VIDEOS,
-//         videos
-//     }
-// }
+const loadVideos = (videos) => {
+    return {
+        type: LOAD_VIDEOS,
+        videos
+    }
+}
 
 const loadAdditionalVideos = (videos) => {
     return {
@@ -38,7 +38,27 @@ const removeVideo = (videoId) => {
 
 
 // THUNK ACTION CREATORS **********************************
+export const fetchHomeVideos = (pageNum = 1) => async dispatch => {
+    const res = await fetch(`/api/videos/pages/${pageNum}/`);
+    
+    if (res.ok) {
+        const videos = await res.json();
+        if (pageNum === 1) dispatch(loadVideos(videos));
+        else dispatch(loadAdditionalVideos(videos));
+        return videos;
+    }
+}
 
+export const fetchChannelVideos = (channelId, pageNum = 1) => async dispatch => {
+    const res = await fetch(`/api/channels/videos/${channelId}/pages/${pageNum}/`);
+    
+    if (res.ok) {
+        const videos = await res.json();
+        if (pageNum === 1) dispatch(loadVideos(videos));
+        else dispatch(loadAdditionalVideos(videos));
+        return videos;
+    }
+}
 
 
 // REDUCER ************************************************

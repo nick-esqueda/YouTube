@@ -18,7 +18,7 @@ def get_video(videoId):
     return jsonify(video)
 
 
-@video_routes.route('pages/<int:pageNum>/')
+@video_routes.route('/pages/<int:pageNum>/')
 def get_videos(pageNum):
     """
     GET /api/videos/pages/:pageNum \n
