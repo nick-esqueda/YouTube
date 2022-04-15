@@ -6,8 +6,9 @@ from flask_wtf.csrf import CSRFProtect, generate_csrf
 from flask_login import LoginManager
 
 from .models import db, Channel
-from .api.channel_routes import channel_routes
 from .api.auth_routes import auth_routes
+from .api.channel_routes import channel_routes
+from .api.video_routes import video_routes
 
 from .seeds import seed_commands
 
@@ -29,8 +30,9 @@ def load_user(id):
 app.cli.add_command(seed_commands)
 
 app.config.from_object(Config)
-app.register_blueprint(channel_routes, url_prefix='/api/channels')
 app.register_blueprint(auth_routes, url_prefix='/api/auth')
+app.register_blueprint(channel_routes, url_prefix='/api/channels')
+app.register_blueprint(video_routes, url_prefix='/api/videos')
 db.init_app(app)
 Migrate(app, db)
 
