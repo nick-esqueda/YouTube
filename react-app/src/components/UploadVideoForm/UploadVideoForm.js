@@ -33,7 +33,7 @@ export default function UploadVideoForm() {
 
 		const res = await axios.post("/api/s3/upload/", formData);
 
-		return res.data
+		return res.data;
 	}
 
     
