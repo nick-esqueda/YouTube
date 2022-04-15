@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { NavLink, Route, Router, Switch, useParams, useRouteMatch } from 'react-router-dom';
+import { NavLink, Route, Switch, useParams, useRouteMatch } from 'react-router-dom';
 
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 import User from '../User';
