@@ -3,9 +3,15 @@ import { Link, useHistory } from 'react-router-dom';
 
 import './ProfileIcon.css';
 import defaultPfp from '../../static/default-profile-image.png';
+import channelIcon from '../../static/icons/channel.png';
+import logoutIcon from '../../static/icons/logout.png';
+import settingsIcon from '../../static/icons/settings.png';
+import { useDispatch } from 'react-redux';
+import { logout } from '../../store/session';
 
 export default function ProfileIcon({ channel, isNav }) {
     const history = useHistory();
+    const dispatch = useDispatch();
     const [showMenu, setShowMenu] = useState(false);
 
     useEffect(() => {
@@ -32,6 +38,20 @@ export default function ProfileIcon({ channel, isNav }) {
         window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
         history.push(`/channels/${channel.id}/home`);
     }
+    
+    const linkToSettings = () => {
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+        history.push(`/channels/${channel.id}/settings`);
+    }
+
+    const logoutUser = (e) => {
+        setShowMenu(false);
+        if (window.confirm('Are you sure you want to log out?')) {
+            dispatch(logout());
+            window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+            history.push('/login');
+        }
+    };
 
     return (
         <div
@@ -67,14 +87,21 @@ export default function ProfileIcon({ channel, isNav }) {
 
                     <div className='dropdown-section'>
                         <div onClick={linkToProfile}>
+                            <div className='svg-wrapper'>
+                                <img src={channelIcon} alt="channel" className='svg' />
+                            </div>
                             Your Channel
                         </div>
-                        <div>
-                            <Link to={`/users/settings`} onClick={() => window.scrollTo(0, 0)} style={{ width: '100%' }}>
-                                Channel Appearance
-                            </Link>
+                        <div onClick={linkToSettings}>
+                            <div className='svg-wrapper'>
+                                <img src={settingsIcon} alt="settings" className='svg' />
+                            </div>
+                            Customize Channel
                         </div>
-                        <div>
+                        <div onClick={logoutUser}>
+                            <div className='svg-wrapper'>
+                                <img src={logoutIcon} alt="logout" className='svg' />
+                            </div>
                             Sign Out
                         </div>
                     </div>
