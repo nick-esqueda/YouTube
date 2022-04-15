@@ -40,6 +40,16 @@ const removeVideo = (videoId) => {
 
 
 // THUNK ACTION CREATORS **********************************
+export const fetchVideo = (videoId) => async dispatch => {
+    const res = await fetch(`/api/videos/${videoId}`);
+    
+    if (res.ok) {
+        const video = await res.json();
+        dispatch(addVideo(video));
+        return video;
+    }
+}
+
 export const fetchHomeVideos = (pageNum = 1) => async dispatch => {
     const res = await fetch(`/api/videos/pages/${pageNum}/`);
 
