@@ -13,6 +13,7 @@ import Navbar from './components/Navbar/Navbar';
 import ChannelPage from './components/ChannelPage/ChannelPage';
 import VideoPage from './components/VideoPage/VideoPage';
 import HomePage from './components/HomePage/HomePage';
+import UploadVideoForm from './components/UploadVideoForm/UploadVideoForm';
 
 function App() {
 	const [loaded, setLoaded] = useState(false);
@@ -49,6 +50,10 @@ function App() {
 				<Route path='/watch/:videoId' exact={true}>
 					<VideoPage />
 				</Route>
+				
+				<ProtectedRoute path='/upload' exact={true}>
+					<UploadVideoForm />
+				</ProtectedRoute>
 				
 				<ProtectedRoute path='/channels/:channelId'>
 					<ChannelPage />
