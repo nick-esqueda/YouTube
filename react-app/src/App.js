@@ -3,10 +3,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import LoginForm from './components/auth/LoginForm';
 import SignUpForm from './components/auth/SignUpForm';
-import NavBar from './components/NavBar';
 import ProtectedRoute from './components/auth/ProtectedRoute';
 import UsersList from './components/UsersList';
-import User from './components/User';
 import { authenticate } from './store/session';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
@@ -44,9 +42,16 @@ function App() {
 				<ProtectedRoute path='/channels/:channelId'>
 					<ChannelPage />
 				</ProtectedRoute>
+				<ProtectedRoute path="/settings/:channelId">
+					<h2>settings page</h2>
+				</ProtectedRoute>
 				<ProtectedRoute path='/' exact={true} >
 					<h1>My Home Page</h1>
 				</ProtectedRoute>
+				
+				<Route>
+					<h2>Sorry! We could not find the page you were looking for.</h2>
+				</Route>
 			</Switch>
 		</BrowserRouter>
 	);

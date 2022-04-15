@@ -41,7 +41,7 @@ export default function ProfileIcon({ channel, isNav }) {
     
     const linkToSettings = () => {
         window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-        history.push(`/channels/${channel.id}/settings`);
+        history.push(`/settings/${channel.id}`);
     }
 
     const logoutUser = (e) => {
