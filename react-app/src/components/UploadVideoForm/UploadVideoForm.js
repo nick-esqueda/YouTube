@@ -33,9 +33,9 @@ export default function UploadVideoForm() {
 
         formData.append('file', file)
 
-        const res = await axios.post("/api/s3/upload/", formData);
+        const { data: url } = await axios.post("/api/s3/upload/", formData);
 
-        return res.data;
+        setThumbnailUrl(url);
     }
 
 

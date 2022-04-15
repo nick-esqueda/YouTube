@@ -4,7 +4,7 @@ import requests
 import random
 import string
 from flask import Blueprint, jsonify, request
-from botocore.config import Config
+# from botocore.config import Config
 
 
 s3_routes = Blueprint('s3_routes', __name__)
