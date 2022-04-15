@@ -40,9 +40,7 @@ def create_video():
     """
     POST /api/videos/ \n
     Create a new video, and return the newly created video. \n
-    TODO: CREATE THE NEW VIDEO FORM! \n
     """
-    # TODO CREATE THIS FORM
     form = CreateVideoForm()
 
     form['csrf_token'].data = request.cookies['csrf_token']
@@ -71,7 +69,6 @@ def edit_post(videoId):
     """
     PATCH /api/videos/ \n
     Update a video by :videoId, then return the updated video. \n
-    TODO: CREATE THE EDIT VIDEO FORM! \n
     """
     form = EditVideoForm()
 
@@ -110,4 +107,4 @@ def delete_post(videoId):
         db.session.commit()
         return jsonify(videoId)
     else:
-        return { 'not authorized': 'you are not authorized to update this video.' }, 403
+        return { 'notAuthorized': 'you are not authorized to update this video.' }, 403

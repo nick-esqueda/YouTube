@@ -1,16 +1,16 @@
 // ACTION VARIABLES ***************************************
 const ADD_VIDEO = 'videos/LOAD_VIDEOS';
-const LOAD_VIDEOS = 'posts/LOAD_VIDEOS';
+const LOAD_VIDEOS = 'videos/LOAD_VIDEOS';
 const LOAD_ADDITIONAL_VIDEOS = 'videos/LOAD_ADDITIONAL_VIDEOS';
 const REMOVE_VIDEO = 'videos/REMOVE_VIDEO';
 
 
 // ACTION CREATORS ****************************************
-// POSTS
+// VIDEOS
 const addVideo = (video) => {
     return {
         type: ADD_VIDEO,
-        post
+        video
     }
 }
 
@@ -31,7 +31,7 @@ const loadAdditionalVideos = (videos) => {
 const removeVideo = (videoId) => {
     return {
         type: REMOVE_VIDEO,
-        postId
+        videoId
     }
 }
 
@@ -59,6 +59,56 @@ export const fetchChannelVideos = (channelId, pageNum = 1) => async dispatch => 
         return videos;
     }
 }
+
+export const createVideo = video => async dispatch => {
+    const res = await fetch('/api/videos/', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(video)
+    });
+
+    if (res.ok) {
+        const newVideo = await res.json();
+        dispatch(addVideo(newVideo));
+        return newVideo;
+    }
+}
+
+export const editVideo = video => async dispatch => {
+    const res = await fetch(`/api/videos/${video.id}/`, {
+        method: "PATCH",
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(video)
+    });
+
+    if (res.ok) {
+        const editedVideo = await res.json();
+        dispatch(addVideo(editedVideo));
+        return editedVideo;
+    }
+}
+
+export const deleteVideo = (videoId) => async dispatch => {
+    const res = await fetch(`/api/videos/${videoId}/`, {
+        method: 'DELETE',
+    });
+
+    if (res.ok) {
+        const data = await res.json();
+        // if delete is authorized, data will be an integer (videoId)
+        if (data.notAuthorized === undefined) {
+            dispatch(removeVideo(videoId));
+            return videoId;
+        } else {
+            console.error(data);
+        }
+    }
+}
+
 
 
 // REDUCER ************************************************
