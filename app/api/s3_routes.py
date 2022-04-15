@@ -25,7 +25,10 @@ def upload_image():
     response = s3_client.generate_presigned_post(
         os.environ.get('AWS_BUCKET_NAME'),
         OBJECT_NAME,
-        Fields=None,
+        # Fields={
+        #     "ContentType": "video/mp4"
+        #     # "ContentType": "multipart/form-data"
+        # },
         Conditions=None,
         ExpiresIn=60
     )

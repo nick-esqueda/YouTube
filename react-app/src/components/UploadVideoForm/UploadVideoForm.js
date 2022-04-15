@@ -27,27 +27,33 @@ export default function UploadVideoForm() {
         setValidationErrors(errors);
     }, [title, description, videoUrl, thumbnailUrl]);
 
-    const s3Upload = async (file) => {
+    const s3Upload = async (file, type) => {
         if (!file) return console.log('upload a file first');
         const formData = new FormData()
 
         formData.append('file', file)
 
         const { data: url } = await axios.post("/api/s3/upload/", formData);
+        console.log(url, 'a;jkjdsafjkjdf');
 
-        setThumbnailUrl(url);
+        if (type === "video") {
+            setVideoUrl(url);
+        } else {
+            setThumbnailUrl(url);
+        }
     }
 
-
+    console.log(videoUrl, 'outside');
     return (
         <div>
             <div>
                 <iframe width="560" height="315"
-                    src={`https://youtube-bucket-nick-esqueda.s3.amazonaws.com/lizard-vibing.mp4`}
+                    src={videoUrl}
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
+                    className='test1 video-preview'
                 ></iframe>
             </div>
 
@@ -74,7 +80,16 @@ export default function UploadVideoForm() {
                         name="artwork"
                         ref={thumbnailInputRef}
                         hidden={true}
-                        onChange={e => s3Upload(e.target.files[0])}
+                        onChange={e => s3Upload(e.target.files[0], 'image')}
+                    />
+                </div>
+                
+                <div id='video-upload'>
+                    UPLOAD VIDEO HERE
+                    <input type="file"
+                        accept=".mp4, .mov, .wmv"
+                        name="video"
+                        onChange={e => s3Upload(e.target.files[0], 'video')}
                     />
                 </div>
             </form>
