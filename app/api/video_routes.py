@@ -29,7 +29,7 @@ def get_videos(pageNum):
     # id = int(session['_user_id'])
     # sessionUser = Channel.query.get(id)
 
-    videos = Video.query.order_by(desc(Video.createdAt)).paginate(page=pageNum, per_page=10, error_out=False)
+    videos = Video.query.order_by(desc(Video.createdAt)).paginate(page=pageNum, per_page=20, error_out=False)
     videos = [video.to_dict() for video in videos.items]
 
     return jsonify(videos)
