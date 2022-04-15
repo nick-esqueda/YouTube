@@ -34,7 +34,8 @@ body {
 /* TEMPORARY: TO PREVENT NAVBAR OVERLAPPING OTHER ELEMENTS  */
 #root > *:not(header):not(nav#nav) {
     margin-left: 72px;
-    padding-right: 72px;
+    /* padding-right: 72px; */
+    /* ^ instead of using this padding, use "calc(100% - 72px)" instead */
 }
 
 #root {

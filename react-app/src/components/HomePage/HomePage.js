@@ -12,7 +12,7 @@ export default function HomePage() {
     const [videos, setVideos] = useState([]);
     const [isLoaded, setIsLoaded] = useState(false);
     const [pageNum, setPageNum] = useState(2);
-    
+
     useEffect(() => {
         (async () => {
             const videoArr = await dispatch(fetchHomeVideos(1))
@@ -21,20 +21,22 @@ export default function HomePage() {
             setIsLoaded(true);
         })()
     }, [dispatch]);
-    
+
     useEffect(() => {
         // try setting a new isLoaded to false then true to display loading spinner when getting next page?
-             
+
     }, [pageNum])
-    
-    return isLoaded ? null : (
+
+    return !isLoaded ? null : (
         <div id='home-page' className='test1 col-space-even'>
-            <div className='video-row-grid test1'>
+            <div className='video-row-grid test2'>
                 {videos.map(video => (
-                    <div key={video.id}>
-                        {video.title}
+                    <div key={video.id} className='video-grid-item-container'>
+                        <img src={video.thumbnailUrl} alt='thumbnail'
+                            className='thumbnail'
+                        />
                     </div>
-                        
+
                 ))}
             </div>
         </div>
