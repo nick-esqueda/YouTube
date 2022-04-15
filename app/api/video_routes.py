@@ -1,6 +1,7 @@
-from flask import Blueprint, jsonify, session
+from flask import Blueprint, jsonify, session, request
 from sqlalchemy import desc
-from app.models import Video, Channel
+from app.api.utils import validation_errors_to_error_messages
+from app.models import db, Video, Channel
 
 video_routes = Blueprint('videos', __name__)
 
@@ -19,7 +20,7 @@ def get_video(videoId):
 @video_routes.route('pages/<int:pageNum>/')
 def get_videos(pageNum):
     """
-    GET /api/videos/ \n
+    GET /api/videos/pages/:pageNum \n
     Get all videos, for the home page. \n
     NOTE: for now, just respond with all videos, paginated. \n
     goal is to send suggested videos based on session user id
@@ -32,3 +33,32 @@ def get_videos(pageNum):
 
     return jsonify(videos)
     
+
+@video_routes.route('/', methods=["POST"])
+def create_video():
+    """
+    POST /api/videos/ \n
+    Create a new video, and return the newly created video. \n
+    TODO: CREATE THE NEW VIDEO FORM! \n
+    """
+    # TODO CREATE THIS FORM
+    form = CreateVideoForm()
+
+    form['csrf_token'].data = request.cookies['csrf_token']
+
+    if form.validate_on_submit():
+        data = {
+            "channelId": session['_user_id'],
+            "title": form.data["title"],
+            "description": form.data["description"],
+            "videoUrl": form.data["videoUrl"],
+            "thumbnailUrl": form.data["thumbnailUrl"],
+        }
+
+        video = Video(**data)
+        db.session.add(video)
+        db.session.commit()
+        return jsonify(video.to_dict())
+        
+    print('\n\n\n FORM ERRORS HERE:', form.errors, '\n\n\n')
+    return {'errors': validation_errors_to_error_messages(form.errors)}, 401
