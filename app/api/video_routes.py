@@ -77,7 +77,7 @@ def edit_post(videoId):
     form['csrf_token'].data = request.cookies['csrf_token']
 
     if form.validate_on_submit():
-        sessionUserId = session['_user_id']
+        sessionUserId = int(session['_user_id'])
 
         video = Video.query.get(videoId)
         # checking to make sure the reqest is made by the owner of the video
@@ -93,3 +93,20 @@ def edit_post(videoId):
 
     print('\n\n\n FORM ERRORS HERE:', form.errors, '\n\n\n')
     return {'errors': validation_errors_to_error_messages(form.errors)}, 401
+
+
+@video_routes.route('/<int:videoId>/', methods=["DELETE"])
+def delete_post(videoId):
+    """
+    DELETE /api/videos/:videoId \n
+    Delete a video by :videoId, then respond with the same :videoId.
+    """
+    sessionUserId = int(session['_user_id'])
+    video = Video.query.get(videoId)
+
+    if video.to_dict()['userId'] == sessionUserId:
+        db.session.delete(video)
+        db.session.commit()
+        return jsonify(videoId)
+    else:
+        return { 'not authorized': 'you are not authorized to update this video.' }, 403
