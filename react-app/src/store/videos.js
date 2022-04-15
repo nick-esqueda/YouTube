@@ -1,3 +1,5 @@
+import { normalizeOneLevel } from "./utils";
+
 // ACTION VARIABLES ***************************************
 const ADD_VIDEO = 'videos/LOAD_VIDEOS';
 const LOAD_VIDEOS = 'videos/LOAD_VIDEOS';
@@ -40,7 +42,7 @@ const removeVideo = (videoId) => {
 // THUNK ACTION CREATORS **********************************
 export const fetchHomeVideos = (pageNum = 1) => async dispatch => {
     const res = await fetch(`/api/videos/pages/${pageNum}/`);
-    
+
     if (res.ok) {
         const videos = await res.json();
         if (pageNum === 1) dispatch(loadVideos(videos));
@@ -51,7 +53,7 @@ export const fetchHomeVideos = (pageNum = 1) => async dispatch => {
 
 export const fetchChannelVideos = (channelId, pageNum = 1) => async dispatch => {
     const res = await fetch(`/api/channels/videos/${channelId}/pages/${pageNum}/`);
-    
+
     if (res.ok) {
         const videos = await res.json();
         if (pageNum === 1) dispatch(loadVideos(videos));
@@ -113,9 +115,33 @@ export const deleteVideo = (videoId) => async dispatch => {
 
 // REDUCER ************************************************
 const videosReducer = (state = {}, action) => {
-    
+    let newState = { ...state }
+
     switch (action.type) {
-        
+
+        case LOAD_VIDEOS: {
+            return {
+                ...normalizeOneLevel(action.videos)
+            }
+        }
+
+        case LOAD_ADDITIONAL_VIDEOS: {
+            return {
+                ...state,
+                ...normalizeOneLevel(action.videos)
+            }
+        }
+
+        case ADD_VIDEO: {
+            newState[action.video.id] = action.video
+            return newState;
+        }    
+
+        case REMOVE_VIDEO: {
+            delete newState[action.videoId];
+            return newState;
+        }
+
         default:
             return state;
     }
