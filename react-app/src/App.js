@@ -11,6 +11,7 @@ import { authenticate } from './store/session';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import ChannelPage from './components/ChannelPage/ChannelPage';
+import VideoPage from './components/VideoPage/VideoPage';
 
 function App() {
 	const [loaded, setLoaded] = useState(false);
@@ -35,18 +36,27 @@ function App() {
 				<Route path='/login' exact={true}>
 					<LoginForm />
 				</Route>
+				
 				<Route path='/sign-up' exact={true}>
 					<SignUpForm />
 				</Route>
+				
 				<ProtectedRoute path='/users' exact={true} >
 					<UsersList />
 				</ProtectedRoute>
+				
+				<Route path='/watch/:videoId' exact={true}>
+					<VideoPage />
+				</Route>
+				
 				<ProtectedRoute path='/channels/:channelId'>
 					<ChannelPage />
 				</ProtectedRoute>
+				
 				<ProtectedRoute path='/' exact={true} >
 					<h1>My Home Page</h1>
 				</ProtectedRoute>
+				
 			</Switch>
 		</BrowserRouter>
 	);
