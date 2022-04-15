@@ -9,6 +9,7 @@ import { authenticate } from './store/session';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import ChannelPage from './components/ChannelPage/ChannelPage';
+import SettingsPage from './components/SettingsPage/SettingsPage';
 
 function App() {
 	const [loaded, setLoaded] = useState(false);
@@ -43,7 +44,7 @@ function App() {
 					<ChannelPage />
 				</ProtectedRoute>
 				<ProtectedRoute path="/settings/:channelId">
-					<h2>settings page</h2>
+					<SettingsPage />
 				</ProtectedRoute>
 				<ProtectedRoute path='/' exact={true} >
 					<h1>My Home Page</h1>
