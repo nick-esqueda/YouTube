@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { fetchHomeVideos } from '../../store/videos';
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 
@@ -47,11 +48,11 @@ export default function HomePage() {
             <div className='video-row-grid'>
                 {videos.map(video => (
                     <div key={video.id} className='video-grid-item col-top'>
-                        <div className='thumbnail-wrapper col-top'>
+                        <Link to={`/watch/${video.id}`} className='thumbnail-wrapper col-top'>
                             <img src={video.thumbnailUrl} alt='thumbnail'
                                 className='thumbnail'
                             />
-                        </div>
+                        </Link>
 
                         <div className='video-thumbnail-details row-left row-top'>
                             <div style={{ width: "36px", minWidth: '36px', height: "36px", marginRight: '12px' }}>
