@@ -62,3 +62,34 @@ def create_video():
         
     print('\n\n\n FORM ERRORS HERE:', form.errors, '\n\n\n')
     return {'errors': validation_errors_to_error_messages(form.errors)}, 401
+
+
+@video_routes.route('/<int:videoId>/', methods=["PATCH"])
+# TODO!!! check and make sure PATCH is supported just like PUT 
+def edit_post(videoId):
+    """
+    PATCH /api/videos/ \n
+    Update a video by :videoId, then return the updated video. \n
+    TODO: CREATE THE EDIT VIDEO FORM! \n
+    """
+    form = EditVideoForm()
+
+    form['csrf_token'].data = request.cookies['csrf_token']
+
+    if form.validate_on_submit():
+        sessionUserId = session['_user_id']
+
+        video = Video.query.get(videoId)
+        # checking to make sure the reqest is made by the owner of the video
+        if video.id != sessionUserId:
+            return { 'not authorized': 'you are not authorized to update this video.' }, 403
+        
+        video.title = form['title'].data
+        video.description = form['description'].data
+        video.thumbnailUrl = form['thumbnailUrl'].data
+        db.session.commit()
+        
+        return jsonify(video.to_dict())
+
+    print('\n\n\n FORM ERRORS HERE:', form.errors, '\n\n\n')
+    return {'errors': validation_errors_to_error_messages(form.errors)}, 401
