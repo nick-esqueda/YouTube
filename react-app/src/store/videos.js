@@ -144,6 +144,7 @@ const videosReducer = (state = {}, action) => {
 
         default:
             return state;
+            
     }
 }
 
