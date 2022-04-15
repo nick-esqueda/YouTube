@@ -12,6 +12,7 @@ import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import ChannelPage from './components/ChannelPage/ChannelPage';
 import VideoPage from './components/VideoPage/VideoPage';
+import HomePage from './components/HomePage/HomePage';
 
 function App() {
 	const [loaded, setLoaded] = useState(false);
@@ -54,7 +55,7 @@ function App() {
 				</ProtectedRoute>
 				
 				<ProtectedRoute path='/' exact={true} >
-					<h1>My Home Page</h1>
+					<HomePage />
 				</ProtectedRoute>
 				
 			</Switch>
