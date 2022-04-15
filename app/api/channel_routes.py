@@ -23,7 +23,7 @@ def channel(id):
 @channel_routes.route('/videos/<int:channelId>/pages/<int:pageNum>')
 def get_videos_for_channel(channelId, pageNum):
     """
-    GET /api/channels/videos \n
+    GET /api/channels/videos/:channelId/pages/:pageNum \n
     Get a paginated collection of a channel's videos. \n
     NOTE: right now, only returns videos in order of 'createdAt' descending
     goal is to return two sets of videos, one in order of 'popular uploads (most viewed)'
