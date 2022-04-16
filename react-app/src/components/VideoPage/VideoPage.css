@@ -25,3 +25,11 @@
 .video-description {
     padding: 16px;
 }
+.show-more {
+    height: auto;
+    overflow: auto;
+}
+.show-less {
+    height: 100px;
+    overflow: hidden;
+}

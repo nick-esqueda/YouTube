@@ -10,6 +10,7 @@ export default function VideoPage() {
     const dispatch = useDispatch();
 
     const video = useSelector(state => state.videos[videoId]);
+    const [showMore, setShowMore] = useState(false);
     const [isLoaded, setIsLoaded] = useState(false);
 
     useEffect(() => {
@@ -37,13 +38,23 @@ export default function VideoPage() {
                     <h4>{video.title}</h4>
                     <span className='subcount'>[# of views] * {video.createdAt}</span>
                 </div>
-                
-                <div className='video-description test4'>
-                    <span>{video.description}</span>
-                    
+
+                <div className='video-description col-left test4'>
+                    <p className={showMore ? "show-more" : "show-less"}>{video.description}</p>
+                    {!showMore
+                        ? <span
+                            className='subcount pointer'
+                            onClick={e => setShowMore(true)}
+                        >SHOW MORE</span>
+                        : <span
+                            className='subcount pointer'
+                            onClick={e => setShowMore(false)}
+                        >SHOW LESS</span>
+                    }
+
                 </div>
             </div>
-            
+
             <div className='right test1'>
                 fj adfjaadjajkfjkfd adf
             </div>
