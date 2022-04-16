@@ -51,7 +51,6 @@ export default function VideoPage() {
                             onClick={e => setShowMore(false)}
                         >SHOW LESS</span>
                     }
-
                 </div>
             </div>
 
