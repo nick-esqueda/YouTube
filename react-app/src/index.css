@@ -75,6 +75,10 @@ button {
     white-space: nowrap;
 }
 
+p {
+    line-height: 20px;
+}
+
 
 /* FOR SPECIFIC ELEMENTS */
 .svg {

@@ -28,10 +28,19 @@
 .video-info {
     width: 100%;
     padding: 16px;
+    border-bottom: 2px solid var(--gray-dark)
     
 }
 .video-info h4 {
+    margin: 10px 0;
+    font-size: 18px;
     font-weight: 500;
+}
+
+.channel-and-subs {
+    height: 52px;
+    margin-bottom: 16px;
+    align-items: flex-start;
 }
 
 .video-description {
@@ -42,6 +51,11 @@
     overflow: auto;
 }
 .show-less {
-    height: 100px;
+    height: 82px;
     overflow: hidden;
+}
+
+.subcount.show {
+    margin: 8px 0;
+    /* font-size: 12px; */
 }
