@@ -1,7 +1,7 @@
 import { normalizeOneLevel } from "./utils";
 
 // ACTION VARIABLES ***************************************
-const ADD_VIDEO = 'videos/ADD_VIDEOS';
+const ADD_VIDEO = 'videos/ADD_VIDEO';
 const LOAD_VIDEOS = 'videos/LOAD_VIDEOS';
 const LOAD_ADDITIONAL_VIDEOS = 'videos/LOAD_ADDITIONAL_VIDEOS';
 const REMOVE_VIDEO = 'videos/REMOVE_VIDEO';
@@ -143,6 +143,8 @@ const videosReducer = (state = {}, action) => {
         }
 
         case ADD_VIDEO: {
+            const dateParts = action.video.createdAt.split(' ');
+            action.video.createdAt = `${dateParts[2]} ${dateParts[1]}, ${dateParts[3]}`;
             newState[action.video.id] = action.video
             return newState;
         }    
