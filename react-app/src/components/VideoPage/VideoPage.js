@@ -22,10 +22,10 @@ export default function VideoPage() {
     }, [dispatch])
 
     return !isLoaded ? null : (
-        <div id='video-page' className='test2'>
+        <div id='video-page' className=''>
             <div className='left'>
                 <div className='video-wrapper'>
-                    <iframe width="560" height="315"
+                    <iframe
                         src={`https://www.youtube.com/embed/${video.videoUrl}`}
                         title="YouTube video player"
                         frameBorder="0"
