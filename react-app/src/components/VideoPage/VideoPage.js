@@ -3,6 +3,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom'
 import { fetchVideo } from '../../store/videos';
 
+import './VideoPage.css';
+
 export default function VideoPage() {
     const { videoId } = useParams();
     const dispatch = useDispatch();
@@ -19,23 +21,31 @@ export default function VideoPage() {
     }, [dispatch])
 
     return !isLoaded ? null : (
-        <div>
-            <div>VideoPage - Video ID: {videoId}</div>
+        <div id='video-page' className='test2'>
+            <div className='left'>
+                <div className='video-wrapper'>
+                    <iframe width="560" height="315"
+                        src={`https://www.youtube.com/embed/${video.videoUrl}`}
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                    ></iframe>
+                </div>
 
-            <div className='video-wrapper'>
-                <iframe width="560" height="315"
-                    src={`https://www.youtube.com/embed/${video.videoUrl}`}
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                ></iframe>
+                <div className='video-info col-left test3'>
+                    <h4>{video.title}</h4>
+                    <span className='subcount'>[# of views] * {video.createdAt}</span>
+                </div>
+                
+                <div className='video-description test4'>
+                    <span>{video.description}</span>
+                    
+                </div>
             </div>
-
-            <div className='video-info'>
-                <span>{video.title}</span>
-                <span>{video.description}</span>
-                <img src={video.thumbnailUrl} alt='thumbnail' />
+            
+            <div className='right test1'>
+                fj adfjaadjajkfjkfd adf
             </div>
         </div>
     )
