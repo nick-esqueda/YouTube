@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 
 import './UploadVideoForm.css';
+import { createVideo } from '../../store/videos';
 
 export default function UploadVideoForm() {
     const history = useHistory();
@@ -44,6 +45,31 @@ export default function UploadVideoForm() {
         }
     }
 
+    const onSubmit = e => {
+        e.preventDefault();
+
+        if (validationErrors.length) return setShowErrors(true);
+
+        const video = {
+            title, description, videoUrl, thumbnailUrl
+        }
+
+        dispatch(createVideo(video))
+            .then(async video => {
+                window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+                return history.push(`/watch/${video.id}`);
+            })
+            .catch(async (res) => {
+                console.log(res);
+                const data = await res.json();
+                if (data && data.errors) {
+                    setValidationErrors(data.errors);
+                    setShowErrors(true);
+                }
+            });
+
+    }
+
 
     return (
         <div id='upload-page'>
@@ -69,7 +95,7 @@ export default function UploadVideoForm() {
             )}
 
 
-            <form>
+            <form onSubmit={onSubmit} id='video-upload-form'>
                 <div>
                     <button
                         type="button"
@@ -131,14 +157,14 @@ export default function UploadVideoForm() {
                     >{description.length}/5000</small>
                 </div>
             </form>
-            
+
             {showErrors && (
-				<div className='error-container'>
-					{validationErrors.map(err => (
-						<div key={err}>{err}</div>
-					))}
-				</div>
-			)}
+                <div className='error-container'>
+                    {validationErrors.map(err => (
+                        <div key={err}>{err}</div>
+                    ))}
+                </div>
+            )}
         </div>
     )
 }
