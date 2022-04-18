@@ -32,9 +32,10 @@ body {
 }
 
 /* TEMPORARY: TO PREVENT NAVBAR OVERLAPPING OTHER ELEMENTS  */
-#root > *:not(header):not(nav#nav) {
+#root > *:not(header):not(nav#nav):not(#video-page) {
     margin-left: 72px;
-    padding-right: 72px;
+    /* padding-right: 72px; */
+    /* ^ instead of using this padding, use "calc(100% - 72px)" instead */
 }
 
 #root {
@@ -72,6 +73,10 @@ button {
     border: none;
     cursor: pointer;
     white-space: nowrap;
+}
+
+p {
+    line-height: 20px;
 }
 
 
@@ -272,6 +277,10 @@ span.subcount {
     cursor: not-allowed;
 }
 
+.red-outline {
+    border: 1px solid red;
+}
+
 
 /* BUTTONS **********************************/
 .btn {
@@ -290,7 +299,7 @@ span.subcount {
 
 .btn--blue {
     background-color: var(--blue);
-    color: var(--black)
+    color: var(--black);
 }
 
 .btn--blue-outline {
@@ -301,4 +310,9 @@ span.subcount {
 .btn--red {
     background-color: var(--red-btn);
     color: var(--white)
+}
+
+.btn--red-outline {
+    border: 1px solid var(--red);
+    color: var(--red);
 }

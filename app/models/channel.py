@@ -17,7 +17,8 @@ class Channel(db.Model, UserMixin):
     hashedPassword = db.Column(db.String(255), nullable=False)
     createdAt = db.Column(db.DateTime(timezone=True), server_default=func.now(), nullable=False)
     updatedAt = db.Column(db.DateTime(timezone=True), server_onupdate=func.now(), server_default=func.now())
-
+    
+    videos = db.relationship('Video', back_populates='channel', cascade="all, delete")
 
     @property
     def password(self):
@@ -38,5 +39,6 @@ class Channel(db.Model, UserMixin):
             'bannerImageUrl': self.bannerImageUrl,
             'about': self.about,
             'email': self.email,
-            'createdAt': self.createdAt
+            'createdAt': self.createdAt,
+            'videos': [video.to_dict_channel() for video in self.videos]
         }
