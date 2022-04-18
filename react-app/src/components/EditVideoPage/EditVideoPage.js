@@ -57,7 +57,7 @@ export default function EditVideoPage() {
         if (validationErrors.length) return setShowErrors(true);
 
         const editedVideo = {
-            title, description, thumbnailUrl
+            id: video.id, title, description, thumbnailUrl
         }
 
         dispatch(editVideo(editedVideo))

@@ -79,7 +79,7 @@ def edit_post(videoId):
 
         video = Video.query.get(videoId)
         # checking to make sure the reqest is made by the owner of the video
-        if video.id != sessionUserId:
+        if video.channelId != sessionUserId:
             return { 'not authorized': 'you are not authorized to update this video.' }, 403
         
         video.title = form['title'].data
