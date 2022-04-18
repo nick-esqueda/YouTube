@@ -1,0 +1,31 @@
+#settings-page {
+    width: 100%;
+    
+    display: grid;
+    grid-template-columns: 55% 45%;
+    /* grid-gap: 10%; */
+    grid-template-areas: 
+        "left1 right"
+        "left2 right";
+}
+
+.image-upload-container {
+    height: 236px;
+    padding: 12px;   
+}
+
+
+
+
+#settings-page .left1 {
+    grid-area: left1;
+}
+
+#settings-page .left2 {
+    grid-area: left2;
+}
+
+#settings-page .right {
+    grid-area: right;
+    height: 100%;
+}

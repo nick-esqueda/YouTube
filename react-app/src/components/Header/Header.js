@@ -62,7 +62,7 @@ export default function Header() {
 						<img src={bellIcon} alt='bell-icon' className='svg' />
 					</div>
 					<div className='pfp-wrapper-nav'>
-						<ProfileIcon channel={sessionUser} />
+						<ProfileIcon channel={sessionUser} isNav={true} />
 					</div>
 				</div>
 			)}

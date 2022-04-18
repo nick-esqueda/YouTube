@@ -9,6 +9,7 @@ import { authenticate } from './store/session';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import ChannelPage from './components/ChannelPage/ChannelPage';
+import SettingsPage from './components/SettingsPage/SettingsPage';
 import VideoPage from './components/VideoPage/VideoPage';
 import HomePage from './components/HomePage/HomePage';
 import UploadVideoForm from './components/UploadVideoForm/UploadVideoForm';
@@ -64,11 +65,18 @@ function App() {
 					<ChannelPage />
 				</ProtectedRoute>
 
+				<ProtectedRoute path="/settings/:channelId">
+					<SettingsPage />
+				</ProtectedRoute>
+
 				<ProtectedRoute path='/' exact={true} >
 					<Navbar />
 					<HomePage />
 				</ProtectedRoute>
-
+				
+				<Route>
+					<h2>Sorry! We could not find the page you were looking for.</h2>
+				</Route>
 			</Switch>
 		</BrowserRouter>
 	);
