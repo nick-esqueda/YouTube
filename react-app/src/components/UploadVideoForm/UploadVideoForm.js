@@ -14,7 +14,7 @@ export default function UploadVideoForm() {
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
     const [videoUrl, setVideoUrl] = useState('');
-    const [thumbnailImageUrl, setThumbnailImageUrl] = useState(''); // can put a default image before image upload here
+    const [thumbnailUrl, setThumbnailUrl] = useState(''); // can put a default image before image upload here
     const [showErrors, setShowErrors] = useState(false);
     const [validationErrors, setValidationErrors] = useState([]);
 
@@ -23,12 +23,12 @@ export default function UploadVideoForm() {
         if (title.length > 100) errors.push('Title must be shorter than 100 characters');
         if (!title) errors.push('Please provide a title for your video.');
         if (description.length > 5000) errors.push('Sorry! Descriptions must be shorter than 5000 characters')
-        if (!thumbnailImageUrl) errors.push('Please choose a thumbnail first before uploading.')
+        if (!thumbnailUrl) errors.push('Please choose a thumbnail first before uploading.')
         if (!videoUrl) errors.push('Please upload a video first before submitting.')
         setValidationErrors(errors);
         if (errors.length) setShowErrors(true);
         else setShowErrors(false);
-    }, [title, description, videoUrl, thumbnailImageUrl]);
+    }, [title, description, videoUrl, thumbnailUrl]);
 
     const s3Upload = async (file, type) => {
         if (!file) return console.log('upload a file first');
@@ -41,7 +41,7 @@ export default function UploadVideoForm() {
             setVideoUrl(url);
         } else if (type === "image") {
             const { data: url } = await axios.post("/api/s3/upload/image", formData);
-            setThumbnailImageUrl(url);
+            setThumbnailUrl(url);
         }
     }
 
@@ -51,7 +51,7 @@ export default function UploadVideoForm() {
         if (validationErrors.length) return setShowErrors(true);
 
         const video = {
-            title, description, videoUrl, thumbnailImageUrl
+            title, description, videoUrl, thumbnailUrl
         }
 
         dispatch(createVideo(video))
@@ -83,10 +83,10 @@ export default function UploadVideoForm() {
                 ></iframe>
             </div>
 
-            {thumbnailImageUrl && (
+            {thumbnailUrl && (
                 <div className="image-preview">
                     <img
-                        src={thumbnailImageUrl}
+                        src={thumbnailUrl}
                         alt="thumbnail-preview"
                         className=""
                     />
