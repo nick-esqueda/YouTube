@@ -15,20 +15,13 @@ export default function ChannelPage() {
 	const { channelId } = useParams();
 	const { path, url } = useRouteMatch();
 	const dispatch = useDispatch();
-	// const [channel, setChannel] = useState({});
 	const channel = useSelector(state => state.channels[channelId]);
-	console.log(channel, '\n\n\n');
 	const [isLoaded, setIsLoaded] = useState(false);
 	const [activeTab, setActiveTab] = useState(1);
 
 	useEffect(() => {
-		if (!channelId) {
-			return;
-		}
+		if (!channelId) return;
 		(async () => {
-			// const response = await fetch(`/api/channels/${channelId}`);
-			// const channel = await response.json();
-			// setChannel(channel);
 			await dispatch(fetchChannel(channelId));
 			setIsLoaded(true);
 		})();
