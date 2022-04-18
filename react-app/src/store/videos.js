@@ -6,6 +6,10 @@ const LOAD_VIDEOS = 'videos/LOAD_VIDEOS';
 const LOAD_ADDITIONAL_VIDEOS = 'videos/LOAD_ADDITIONAL_VIDEOS';
 const REMOVE_VIDEO = 'videos/REMOVE_VIDEO';
 
+const ADD_COMMENT = 'comments/ADD_COMMENT';
+const UPDATE_COMMENT = 'comments/UPDATE_COMMENT';
+const REMOVE_COMMENT = 'comments/REMOVE_COMMENT';
+
 
 // ACTION CREATORS ****************************************
 // VIDEOS
@@ -37,12 +41,35 @@ const removeVideo = (videoId) => {
     }
 }
 
+// COMMENTS
+const addComment = (comment) => {
+    return {
+        type: ADD_COMMENT,
+        comment
+    }
+}
+
+const updateComment = (comment) => {
+    return {
+        type: UPDATE_COMMENT,
+        comment
+    }
+}
+
+const removeComment = (videoId, commentId) => {
+    return {
+        type: REMOVE_COMMENT,
+        videoId,
+        commentId
+    }
+}
+
 
 
 // THUNK ACTION CREATORS **********************************
 export const fetchVideo = (videoId) => async dispatch => {
     const res = await fetch(`/api/videos/${videoId}`);
-    
+
     if (res.ok) {
         const video = await res.json();
         dispatch(addVideo(video));
@@ -124,6 +151,55 @@ export const deleteVideo = (videoId) => async dispatch => {
     }
 }
 
+// COMMENTS ///////////////////
+export const createComment = comment => async dispatch => {
+    const res = await fetch(`/api/videos/${comment.videoId}/comments/`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(comment)
+    });
+
+    if (res.ok) {
+        const newComment = await res.json();
+        dispatch(addComment(newComment));
+        return newComment;
+    }
+}
+
+export const editComment = comment => async dispatch => {
+    const res = await fetch(`/api/videos/${comment.videoId}/comments/${comment.id}/`, {
+        method: "PUT",
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(comment)
+    });
+
+    if (res.ok) {
+        const editedComment = await res.json();
+        dispatch(updateComment(editedComment));
+        return editedComment;
+    }
+}
+
+export const deleteComment = (commentId, videoId) => async dispatch => {
+    const res = await fetch(`/api/videos/${videoId}/comments/${commentId}/`, {
+        method: 'DELETE',
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    });
+
+    if (res.ok) {
+        const commentId = await res.json();
+        dispatch(removeComment(videoId, commentId));
+        return { videoId, commentId };
+    }
+}
+
+
 
 
 // REDUCER ************************************************
@@ -150,16 +226,54 @@ const videosReducer = (state = {}, action) => {
             action.video.createdAt = `${dateParts[2]} ${dateParts[1]}, ${dateParts[3]}`;
             newState[action.video.id] = action.video
             return newState;
-        }    
+        }
 
         case REMOVE_VIDEO: {
             delete newState[action.videoId];
             return newState;
         }
 
+        // COMMENTS //////////////////////////
+        case ADD_COMMENT: {
+            const videoId = action.comment.videoId;
+            return {
+                ...state,
+                [videoId]: {
+                    ...state[videoId],
+                    comments: [action.comment, ...state[videoId].comments]
+                }
+            }
+        }
+
+        case UPDATE_COMMENT: {
+            const commentId = action.comment.id;
+            const newCommentsArray = [...state[commentId].comments];
+            const commentIndex = newCommentsArray.findIndex(comment => comment.id === commentId);
+            newCommentsArray[commentIndex] = action.comment;
+
+            return {
+                ...state,
+                [action.comment.videoId]: {
+                    ...state[action.comment.videoId],
+                    comments: newCommentsArray
+                }
+            }
+        }
+
+        case REMOVE_COMMENT: {
+            const arrayWithoutComment = state[action.videoId].comments.filter(comment => comment.id !== action.commentId);
+            return {
+                ...state,
+                [action.videoId]: {
+                    ...state[action.videoId],
+                    comments: arrayWithoutComment
+                }
+            }
+        }
+
         default:
             return state;
-            
+
     }
 }
 
