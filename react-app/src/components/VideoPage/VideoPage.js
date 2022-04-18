@@ -11,6 +11,7 @@ export default function VideoPage() {
     const dispatch = useDispatch();
     const history = useHistory();
 
+    const sessionUser = useSelector(state => state.session.user);
     const video = useSelector(state => state.videos[videoId]);
     const [showMore, setShowMore] = useState(false);
     const [isLoaded, setIsLoaded] = useState(false);
@@ -41,13 +42,17 @@ export default function VideoPage() {
                         <span className='subcount'>{video.createdAt}</span>
                     </div>
                     <div className='row-space-between'>
-                        <button 
-                            className='btn btn--blue-outline'
-                            onClick={e => history.push(`/videos/${video.id}/edit`)}
-                        >edit</button>
-                        <button 
-                            className='btn btn--red-outline'
-                        >delete</button>
+                        {sessionUser.id !== video.channel.id ? null : (
+                            <>
+                                <button
+                                    className='btn btn--blue-outline'
+                                    onClick={e => history.push(`/videos/${video.id}/edit`)}
+                                >edit</button>
+                                <button
+                                    className='btn btn--red-outline'
+                                >delete</button>
+                            </>
+                        )}
                     </div>
                 </div>
 
