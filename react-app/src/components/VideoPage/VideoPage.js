@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { useParams } from 'react-router-dom'
+import { useHistory, useParams } from 'react-router-dom'
 import { fetchVideo } from '../../store/videos';
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 
@@ -9,6 +9,7 @@ import './VideoPage.css';
 export default function VideoPage() {
     const { videoId } = useParams();
     const dispatch = useDispatch();
+    const history = useHistory();
 
     const video = useSelector(state => state.videos[videoId]);
     const [showMore, setShowMore] = useState(false);
@@ -34,9 +35,20 @@ export default function VideoPage() {
                     ></iframe>
                 </div>
 
-                <div className='video-info col-left'>
-                    <h4>{video.title}</h4>
-                    <span className='subcount'>{video.createdAt}</span>
+                <div className='video-info row-space-between'>
+                    <div className='col-left'>
+                        <h4>{video.title}</h4>
+                        <span className='subcount'>{video.createdAt}</span>
+                    </div>
+                    <div className='row-space-between'>
+                        <button 
+                            className='btn btn--blue-outline'
+                            onClick={e => history.push(`/videos/${video.id}/edit`)}
+                        >edit</button>
+                        <button 
+                            className='btn btn--red-outline'
+                        >delete</button>
+                    </div>
                 </div>
 
 
@@ -51,7 +63,7 @@ export default function VideoPage() {
                             <h4>{video.channel.channelName}</h4>
                             <span className='subcount'>[# of subscribers]</span>
                         </div>
-                        
+
                         <p className={showMore ? "show-more" : "show-less"}>{video.description}</p>
                         {!showMore
                             ? <span
