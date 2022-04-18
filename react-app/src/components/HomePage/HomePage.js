@@ -61,7 +61,7 @@ export default function HomePage() {
                             <div className='col-left'>
                                 <h4 className='line-clamp2'>{video.title}</h4>
                                 <span className='line-clamp2'>{video.channel.channelName}</span>
-                                <span className='line-clamp2'>[# of views] * {video.createdAt}</span>
+                                <span className='line-clamp2'>{video.createdAt}</span>
                             </div>
                         </div>
                     </div>
