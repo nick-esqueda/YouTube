@@ -85,6 +85,9 @@ export const createVideo = video => async dispatch => {
         const newVideo = await res.json();
         dispatch(addVideo(newVideo));
         return newVideo;
+    } else {
+        const errors = await res.json();
+        throw errors
     }
 }
 

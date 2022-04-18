@@ -14,7 +14,7 @@ export default function UploadVideoForm() {
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
     const [videoUrl, setVideoUrl] = useState('');
-    const [thumbnailUrl, setThumbnailUrl] = useState(''); // can put a default image before image upload here
+    const [thumbnailImageUrl, setThumbnailImageUrl] = useState(''); // can put a default image before image upload here
     const [showErrors, setShowErrors] = useState(false);
     const [validationErrors, setValidationErrors] = useState([]);
 
@@ -23,12 +23,12 @@ export default function UploadVideoForm() {
         if (title.length > 100) errors.push('Title must be shorter than 100 characters');
         if (!title) errors.push('Please provide a title for your video.');
         if (description.length > 5000) errors.push('Sorry! Descriptions must be shorter than 5000 characters')
-        if (!thumbnailUrl) errors.push('Please choose a thumbnail first before uploading.')
+        if (!thumbnailImageUrl) errors.push('Please choose a thumbnail first before uploading.')
         if (!videoUrl) errors.push('Please upload a video first before submitting.')
         setValidationErrors(errors);
         if (errors.length) setShowErrors(true);
         else setShowErrors(false);
-    }, [title, description, videoUrl, thumbnailUrl]);
+    }, [title, description, videoUrl, thumbnailImageUrl]);
 
     const s3Upload = async (file, type) => {
         if (!file) return console.log('upload a file first');
@@ -41,7 +41,7 @@ export default function UploadVideoForm() {
             setVideoUrl(url);
         } else if (type === "image") {
             const { data: url } = await axios.post("/api/s3/upload/image", formData);
-            setThumbnailUrl(url);
+            setThumbnailImageUrl(url);
         }
     }
 
@@ -51,17 +51,16 @@ export default function UploadVideoForm() {
         if (validationErrors.length) return setShowErrors(true);
 
         const video = {
-            title, description, videoUrl, thumbnailUrl
+            title, description, videoUrl, thumbnailImageUrl
         }
 
         dispatch(createVideo(video))
             .then(async video => {
+                // if (video.errors !== undefined) throw 'aksjdfkj'
                 window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
                 return history.push(`/watch/${video.id}`);
             })
-            .catch(async (res) => {
-                console.log(res);
-                const data = await res.json();
+            .catch(async (data) => {
                 if (data && data.errors) {
                     setValidationErrors(data.errors);
                     setShowErrors(true);
@@ -84,10 +83,10 @@ export default function UploadVideoForm() {
                 ></iframe>
             </div>
 
-            {thumbnailUrl && (
+            {thumbnailImageUrl && (
                 <div className="image-preview">
                     <img
-                        src={thumbnailUrl}
+                        src={thumbnailImageUrl}
                         alt="thumbnail-preview"
                         className=""
                     />
@@ -155,6 +154,10 @@ export default function UploadVideoForm() {
                     <small className='character-count'
                         style={description.length > 255 ? { color: 'red' } : {}}
                     >{description.length}/5000</small>
+                </div>
+                
+                <div>
+                    <button type='submit' className='btn btn--blue-outline'>Submit</button>
                 </div>
             </form>
 
