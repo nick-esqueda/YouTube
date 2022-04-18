@@ -35,3 +35,28 @@ def upload_video():
     
     url  = response['url'] + response['fields']['key']
     return jsonify(url)
+    
+    
+@s3_routes.route('/upload/image', methods=['POST'])
+def upload_image():
+    if 'file' not in request.files:
+        return jsonify('error')
+
+    file = request.files['file']
+
+    OBJECT_NAME= ''.join(random.choices(string.ascii_lowercase + string.digits, k=30))
+
+    s3_client = boto3.client('s3')
+
+    response = s3_client.generate_presigned_post(
+        Bucket=os.environ.get('AWS_BUCKET_NAME'),
+        Key=OBJECT_NAME,
+        ExpiresIn=60
+    )
+
+    uploadFile = {'file': (OBJECT_NAME, file)}
+    
+    requests.post(response['url'], data=response['fields'], files=uploadFile)
+    
+    url  = response['url'] + response['fields']['key']
+    return jsonify(url)
