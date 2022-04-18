@@ -1,0 +1,17 @@
+#videos-tab {
+    width: 100%;
+    padding: 32px;
+}
+
+#videos-tab > h4 {
+    width: 100%;
+    padding-left: 24px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+#videos-tab .video-row-grid {
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 8px;
+}

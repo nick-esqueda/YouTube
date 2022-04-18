@@ -10,10 +10,14 @@ import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import ChannelPage from './components/ChannelPage/ChannelPage';
 import SettingsPage from './components/SettingsPage/SettingsPage';
+import VideoPage from './components/VideoPage/VideoPage';
+import HomePage from './components/HomePage/HomePage';
+import UploadVideoForm from './components/UploadVideoForm/UploadVideoForm';
+import EditVideoPage from './components/EditVideoPage/EditVideoPage';
 
 function App() {
-	const [loaded, setLoaded] = useState(false);
 	const dispatch = useDispatch();
+	const [loaded, setLoaded] = useState(false);
 
 	useEffect(() => {
 		(async () => {
@@ -22,32 +26,52 @@ function App() {
 		})();
 	}, [dispatch]);
 
-	if (!loaded) {
-		return null;
-	}
 
-	return (
+	return !loaded ? null : (
 		<BrowserRouter>
 			<Header />
-			<Navbar />
 			<Switch>
 				<Route path='/login' exact={true}>
+					<Navbar />
 					<LoginForm />
 				</Route>
+
 				<Route path='/sign-up' exact={true}>
+					<Navbar />
 					<SignUpForm />
 				</Route>
+
 				<ProtectedRoute path='/users' exact={true} >
+					<Navbar />
 					<UsersList />
 				</ProtectedRoute>
+
+				<Route path='/watch/:videoId' exact={true}>
+					<VideoPage />
+				</Route>
+				
+				<ProtectedRoute path='/videos/:videoId/edit' exact={true}>
+					<EditVideoPage />
+				</ProtectedRoute>
+
+				<ProtectedRoute path='/upload' exact={true}>
+					<Navbar />
+					<UploadVideoForm />
+				</ProtectedRoute>
+
 				<ProtectedRoute path='/channels/:channelId'>
+					<Navbar />
+					<Navbar />
 					<ChannelPage />
 				</ProtectedRoute>
+
 				<ProtectedRoute path="/settings/:channelId">
 					<SettingsPage />
 				</ProtectedRoute>
+
 				<ProtectedRoute path='/' exact={true} >
-					<h1>My Home Page</h1>
+					<Navbar />
+					<HomePage />
 				</ProtectedRoute>
 				
 				<Route>
