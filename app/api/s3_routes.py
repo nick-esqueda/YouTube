@@ -10,9 +10,8 @@ from flask import Blueprint, jsonify, request
 s3_routes = Blueprint('s3_routes', __name__)
 
 
-@s3_routes.route('/upload/', methods=['POST'])
-def upload_image():
-
+@s3_routes.route('/upload/video', methods=['POST'])
+def upload_video():
     if 'file' not in request.files:
         return jsonify('error')
 
@@ -23,17 +22,16 @@ def upload_image():
     s3_client = boto3.client('s3')
 
     response = s3_client.generate_presigned_post(
-        os.environ.get('AWS_BUCKET_NAME'),
-        OBJECT_NAME,
-        # Fields={
-        #     "ContentType": "video/mp4"
-        #     # "ContentType": "multipart/form-data"
-        # },
-        Conditions=None,
+        Bucket=os.environ.get('AWS_BUCKET_NAME'),
+        Key=OBJECT_NAME,
+        Fields={ "Content-Type": "video/mp4" },
+        Conditions=[{ "Content-Type": "video/mp4" }],
         ExpiresIn=60
     )
 
     uploadFile = {'file': (OBJECT_NAME, file)}
-    http_response = requests.post(response['url'], data=response['fields'], files=uploadFile)
+    
+    requests.post(response['url'], data=response['fields'], files=uploadFile)
+    
     url  = response['url'] + response['fields']['key']
     return jsonify(url)

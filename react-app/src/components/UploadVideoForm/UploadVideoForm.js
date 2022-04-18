@@ -33,17 +33,16 @@ export default function UploadVideoForm() {
 
         formData.append('file', file)
 
-        const { data: url } = await axios.post("/api/s3/upload/", formData);
-        console.log(url, 'a;jkjdsafjkjdf');
-
         if (type === "video") {
+            const { data: url } = await axios.post("/api/s3/upload/video", formData);
             setVideoUrl(url);
-        } else {
+        } else if (type === "image") {
+            const { data: url } = await axios.post("/api/s3/upload/image", formData);
             setThumbnailUrl(url);
         }
     }
 
-    console.log(videoUrl, 'outside');
+    
     return (
         <div>
             <div>
@@ -83,7 +82,7 @@ export default function UploadVideoForm() {
                         onChange={e => s3Upload(e.target.files[0], 'image')}
                     />
                 </div>
-                
+
                 <div id='video-upload'>
                     UPLOAD VIDEO HERE
                     <input type="file"
