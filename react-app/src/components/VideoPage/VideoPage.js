@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory, useParams } from 'react-router-dom'
 import { deleteVideo, fetchVideo } from '../../store/videos';
+import CommentCard from '../CommentCard/CommentCard';
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 
 import './VideoPage.css';
@@ -93,6 +94,14 @@ export default function VideoPage() {
                         }
                     </div>
                 </div>
+                
+                
+                <div id='comments-section'>
+                    {video.comments.map(comment => (
+                        <CommentCard />
+                    ))}
+                </div>
+                
             </div>
 
         </div>
