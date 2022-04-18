@@ -16,8 +16,7 @@ export default function VideoPage() {
 
     useEffect(() => {
         (async () => {
-            const video = await dispatch(fetchVideo(videoId));
-            console.log(video);
+            await dispatch(fetchVideo(videoId));
             setIsLoaded(true);
         })()
     }, [dispatch])
@@ -27,7 +26,7 @@ export default function VideoPage() {
             <div className='left'>
                 <div className='video-wrapper'>
                     <iframe
-                        src={`https://www.youtube.com/embed/${video.videoUrl}`}
+                        src={video.videoUrl.includes('amazonaws') ? video.videoUrl : `https://www.youtube.com/embed/${video.videoUrl}`}
                         title="YouTube video player"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -39,11 +38,6 @@ export default function VideoPage() {
                     <h4>{video.title}</h4>
                     <span className='subcount'>[# of views] * {video.createdAt}</span>
                 </div>
-
-                {/* <div className='test1 '>
-
-                </div> */}
-
 
 
                 <div className='video-description row-left row-top'>
@@ -74,9 +68,9 @@ export default function VideoPage() {
             </div>
 
 
-            <div className='right test1'>
+            {/* <div className='right test1'>
                 fj adfjaadjajkfjkfd adf
-            </div>
+            </div> */}
         </div>
     )
 }
