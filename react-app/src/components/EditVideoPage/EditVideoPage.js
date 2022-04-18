@@ -47,10 +47,8 @@ export default function EditVideoPage() {
 
         formData.append('file', file)
 
-        if (type === "image") {
-            const { data: url } = await axios.post("/api/s3/upload/image", formData);
-            setThumbnailUrl(url);
-        }
+        const { data: url } = await axios.post("/api/s3/upload/image", formData);
+        setThumbnailUrl(url);
     }
 
     const onSubmit = e => {
@@ -153,6 +151,10 @@ export default function EditVideoPage() {
                 </div>
 
                 <div>
+                    <button type='button' 
+                        className='btn' 
+                        onClick={e => history.push(`/watch/${video.id}`)}
+                    >Cancel Changes</button>
                     <button type='submit' className='btn btn--blue-outline'>Submit</button>
                 </div>
             </form>
