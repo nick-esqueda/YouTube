@@ -56,7 +56,6 @@ export default function UploadVideoForm() {
 
         dispatch(createVideo(video))
             .then(async video => {
-                // if (video.errors !== undefined) throw 'aksjdfkj'
                 window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
                 return history.push(`/watch/${video.id}`);
             })
