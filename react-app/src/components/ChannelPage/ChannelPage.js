@@ -10,10 +10,10 @@ import ChannelsTab from './ChannelsTab';
 import VideosTab from './VideosTab';
 
 export default function ChannelPage() {
+	const { channelId } = useParams();
 	const { path, url } = useRouteMatch();
 	const [channel, setChannel] = useState({});
 	const [activeTab, setActiveTab] = useState(1);
-	const { channelId } = useParams();
 
 	useEffect(() => {
 		if (!channelId) {

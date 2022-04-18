@@ -29,5 +29,7 @@ def get_videos_for_channel(channelId, pageNum):
     goal is to return two sets of videos, one in order of 'popular uploads (most viewed)'
     and 'latest uploads' 
     """
+    # videos = Video.query.filter(Video.channelId == channelId).order_by(desc(Video.createdAt)).paginate(page=pageNum, per_page=5, error_out=False)
+    # videos = [video.to_dict() for video in videos.items]
     videos = Video.query.filter(Video.channelId == channelId).order_by(desc(Video.createdAt)).paginate(page=pageNum, per_page=5, error_out=False)
     videos = [video.to_dict() for video in videos.items]
