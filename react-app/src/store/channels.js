@@ -33,6 +33,10 @@ const channelsReducer = (state = {}, action) => {
             newState[action.channel.id] = action.channel;
             return newState;
         }
+        
+        default: {
+            return state;
+        }
     }
 }
 

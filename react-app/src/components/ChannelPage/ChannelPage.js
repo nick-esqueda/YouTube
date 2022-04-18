@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
+import { useDispatch, useSelector } from 'react-redux';
 import { NavLink, Route, Router, Switch, useParams, useRouteMatch } from 'react-router-dom';
+import { fetchChannel } from '../../store/channels';
 
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 import User from '../User';
@@ -12,7 +14,11 @@ import VideosTab from './VideosTab';
 export default function ChannelPage() {
 	const { channelId } = useParams();
 	const { path, url } = useRouteMatch();
-	const [channel, setChannel] = useState({});
+	const dispatch = useDispatch();
+	// const [channel, setChannel] = useState({});
+	const channel = useSelector(state => state.channels[channelId]);
+	console.log(channel, '\n\n\n');
+	const [isLoaded, setIsLoaded] = useState(false);
 	const [activeTab, setActiveTab] = useState(1);
 
 	useEffect(() => {
@@ -20,13 +26,15 @@ export default function ChannelPage() {
 			return;
 		}
 		(async () => {
-			const response = await fetch(`/api/channels/${channelId}`);
-			const channel = await response.json();
-			setChannel(channel);
+			// const response = await fetch(`/api/channels/${channelId}`);
+			// const channel = await response.json();
+			// setChannel(channel);
+			await dispatch(fetchChannel(channelId));
+			setIsLoaded(true);
 		})();
 	}, [channelId]);
 
-	return (
+	return !isLoaded ? null : (
 		<div id='channel-page' className=''>
 			<div id='channel-header'>
 				{!channel.bannerImageUrl ? null : (
@@ -78,7 +86,7 @@ export default function ChannelPage() {
 
 			<Switch>
 				<Route exact path={`${path}/home`}>
-					<User />
+					{/* <User /> */}
 				</Route>
 				<Route exact path={`${path}/videos`}>
 					<VideosTab channel={channel} />

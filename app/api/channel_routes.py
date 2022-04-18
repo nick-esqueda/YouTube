@@ -13,11 +13,17 @@ def channels():
     return {'channels': [channel.to_dict() for channel in channels]}
 
 
-@channel_routes.route('/<int:id>')
+@channel_routes.route('/<int:id>/')
 @login_required
 def channel(id):
     channel = Channel.query.get(id)
     return channel.to_dict()
+    
+    
+# @channel_routes.route('/other/<int:id>/')
+# def get_other_channel(id):
+#     channel = Channel.query.get(id)
+#     return channel.to_dict()
 
 
 @channel_routes.route('/videos/<int:channelId>/pages/<int:pageNum>')

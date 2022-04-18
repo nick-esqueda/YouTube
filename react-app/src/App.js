@@ -14,7 +14,6 @@ import ChannelPage from './components/ChannelPage/ChannelPage';
 import VideoPage from './components/VideoPage/VideoPage';
 import HomePage from './components/HomePage/HomePage';
 import UploadVideoForm from './components/UploadVideoForm/UploadVideoForm';
-import PathnameProvider from './components/context/PathnameContext';
 
 function App() {
 	const dispatch = useDispatch();
