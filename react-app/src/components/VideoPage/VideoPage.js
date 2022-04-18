@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory, useParams } from 'react-router-dom'
-import { fetchVideo } from '../../store/videos';
+import { deleteVideo, fetchVideo } from '../../store/videos';
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 
 import './VideoPage.css';
@@ -23,6 +23,16 @@ export default function VideoPage() {
         })()
     }, [dispatch])
 
+    const confirmDelete = async e => {
+		if (window.confirm('Are you sure you want to delete your video?')) {
+            if (window.confirm('Video deletion is permanent and cannot be undone. Do you wish to continue?')) {
+                setIsLoaded(false);
+                await dispatch(deleteVideo(video.id));
+                return history.push('/');
+            }
+		}
+	}
+    
     return !isLoaded ? null : (
         <div id='video-page' className=''>
             <div className='left'>
@@ -50,6 +60,7 @@ export default function VideoPage() {
                                 >edit</button>
                                 <button
                                     className='btn btn--red-outline'
+                                    onClick={confirmDelete}
                                 >delete</button>
                             </>
                         )}

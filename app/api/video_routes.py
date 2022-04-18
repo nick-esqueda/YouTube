@@ -102,7 +102,7 @@ def delete_post(videoId):
     sessionUserId = int(session['_user_id'])
     video = Video.query.get(videoId)
 
-    if video.to_dict()['userId'] == sessionUserId:
+    if video.to_dict()['channelId'] == sessionUserId:
         db.session.delete(video)
         db.session.commit()
         return jsonify(videoId)

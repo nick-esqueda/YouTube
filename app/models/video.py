@@ -13,7 +13,7 @@ class Video(db.Model):
     createdAt = db.Column(db.DateTime(timezone=True), server_default=func.now(), nullable=False)
     updatedAt = db.Column(db.DateTime(timezone=True), server_onupdate=func.now(), server_default=func.now())
 
-    channel = db.relationship('Channel', back_populates='videos', cascade="all, delete")
+    channel = db.relationship('Channel', back_populates='videos')
 
     def to_dict(self):
         return {
