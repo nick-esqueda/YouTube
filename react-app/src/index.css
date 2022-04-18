@@ -277,6 +277,10 @@ span.subcount {
     cursor: not-allowed;
 }
 
+.red-outline {
+    border: 1px solid red;
+}
+
 
 /* BUTTONS **********************************/
 .btn {

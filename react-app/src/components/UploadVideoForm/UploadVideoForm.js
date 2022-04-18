@@ -19,9 +19,9 @@ export default function UploadVideoForm() {
 
     useEffect(() => {
         const errors = [];
-        if (title.length > 100) errors.push('Title must be less than 100 characters');
+        if (title.length > 100) errors.push('Title must be shorter than 100 characters');
         if (!title) errors.push('Please provide a title for your video.');
-        if (description.length > 5000) errors.push('Sorry! Descriptions must be shorter than 5000 characters.')
+        if (description.length > 5000) errors.push('Sorry! Descriptions must be shorter than 5000 characters')
         if (!thumbnailUrl) errors.push('Please choose a thumbnail first before uploading.')
         if (!videoUrl) errors.push('Please upload a video first before submitting.')
         setValidationErrors(errors);
@@ -42,9 +42,9 @@ export default function UploadVideoForm() {
         }
     }
 
-    
+
     return (
-        <div>
+        <div id='upload-page'>
             <div>
                 <iframe width="560" height="315"
                     src={videoUrl}
@@ -56,15 +56,19 @@ export default function UploadVideoForm() {
                 ></iframe>
             </div>
 
-
-            <form>
-                <div className="image_preview">
+            {thumbnailUrl && (
+                <div className="image-preview">
                     <img
                         src={thumbnailUrl}
                         alt="thumbnail-preview"
                         className=""
-                    >
-                    </img>
+                    />
+                </div>
+            )}
+
+
+            <form>
+                <div>
                     <button
                         type="button"
                         className="btn"
@@ -73,15 +77,16 @@ export default function UploadVideoForm() {
                     >
                         upload image
                     </button>
-
-                    <input type="file"
-                        accept=".jpg, .jpeg, .png"
-                        name="artwork"
-                        ref={thumbnailInputRef}
-                        hidden={true}
-                        onChange={e => s3Upload(e.target.files[0], 'image')}
-                    />
                 </div>
+
+                <input type="file"
+                    accept="image/*"
+                    name="artwork"
+                    ref={thumbnailInputRef}
+                    hidden={true}
+                    onChange={e => s3Upload(e.target.files[0], 'image')}
+                />
+
 
                 <div id='video-upload'>
                     UPLOAD VIDEO HERE
@@ -90,6 +95,38 @@ export default function UploadVideoForm() {
                         name="video"
                         onChange={e => s3Upload(e.target.files[0], 'video')}
                     />
+                </div>
+
+
+                <div>
+                    <input type='text'
+                        id='title-input'
+                        name="title"
+                        className={validationErrors.includes('Title must be shorter than 100 characters') ? 'red-outline' : ''}
+                        placeholder="Add a title that describes your video."
+                        value={title}
+                        onChange={(e) => setTitle(e.target.value)}
+                    />
+                    <small className='character-count'
+                        style={title.length > 100 ? { color: 'red' } : {}}
+                    >{title.length}/100</small>
+                </div>
+
+
+                <div>
+                    <textarea
+                        type='text'
+                        id='description-input'
+                        className={validationErrors.includes('Sorry! Descriptions must be shorter than 5000 characters') ? 'red-outline' : ''}
+                        rows={4}
+                        placeholder='Tell viewers about your video'
+                        name='description'
+                        value={description}
+                        onChange={(e) => setDescription(e.target.value)}
+                    ></textarea>
+                    <small className='character-count'
+                        style={description.length > 255 ? { color: 'red' } : {}}
+                    >{description.length}/5000</small>
                 </div>
             </form>
         </div>
