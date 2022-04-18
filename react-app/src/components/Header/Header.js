@@ -9,10 +9,11 @@ import bellIcon from '../../static/icons/bell-icon.png';
 import avatar from '../../static/icons/avatar.png';
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 import SearchHeader from '../SearchHeader/SearchHeader';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 export default function Header() {
+	const history = useHistory();
 	const sessionUser = useSelector(state => state.session.user);
 
 	const loggedOut = (
@@ -51,7 +52,7 @@ export default function Header() {
 
 			{!sessionUser ? loggedOut : (
 				<div id='header__right' className='row-space-even'>
-					<div className='svg-wrapper disabled'>
+					<div className='svg-wrapper pointer' onClick={_ => history.push('/upload')}>
 						<img src={newVideo} alt='bell-icon' className='svg' />
 					</div>
 					<div className='svg-wrapper disabled'>
