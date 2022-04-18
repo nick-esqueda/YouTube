@@ -25,6 +25,8 @@ export default function UploadVideoForm() {
         if (!thumbnailUrl) errors.push('Please choose a thumbnail first before uploading.')
         if (!videoUrl) errors.push('Please upload a video first before submitting.')
         setValidationErrors(errors);
+        if (errors.length) setShowErrors(true);
+        else setShowErrors(false);
     }, [title, description, videoUrl, thumbnailUrl]);
 
     const s3Upload = async (file, type) => {
@@ -129,6 +131,14 @@ export default function UploadVideoForm() {
                     >{description.length}/5000</small>
                 </div>
             </form>
+            
+            {showErrors && (
+				<div className='error-container'>
+					{validationErrors.map(err => (
+						<div key={err}>{err}</div>
+					))}
+				</div>
+			)}
         </div>
     )
 }
