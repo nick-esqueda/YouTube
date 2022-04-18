@@ -52,7 +52,7 @@
     overflow: auto;
 }
 .show-less {
-    height: 82px;
+    max-height: 82px;
     overflow: hidden;
 }
 

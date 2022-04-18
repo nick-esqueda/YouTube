@@ -36,7 +36,7 @@ export default function VideoPage() {
 
                 <div className='video-info col-left'>
                     <h4>{video.title}</h4>
-                    <span className='subcount'>[# of views] * {video.createdAt}</span>
+                    <span className='subcount'>{video.createdAt}</span>
                 </div>
 
 
@@ -67,10 +67,6 @@ export default function VideoPage() {
                 </div>
             </div>
 
-
-            {/* <div className='right test1'>
-                fj adfjaadjajkfjkfd adf
-            </div> */}
         </div>
     )
 }
