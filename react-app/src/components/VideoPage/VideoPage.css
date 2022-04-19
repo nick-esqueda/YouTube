@@ -63,6 +63,18 @@
 }
 
 
+/* DROPDOWN *********************/
+#video-dropdown {
+    width: 150px;
+    
+    background-color: rgb(33, 33, 33);
+    
+    position: absolute;
+    top: 64px; right: 24px;
+    z-index: 10;
+}
+
+
 
 /* COMMENTS SECTION ********************/
 #comments-section {

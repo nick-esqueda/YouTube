@@ -100,18 +100,18 @@ export default function VideoPage() {
                     )}
 
                     {showMenu && (
-                        <div id='comment-dropdown' className='col-left dropdown-section'>
+                        <div id='video-dropdown' className='col-left dropdown-section'>
                             <div onClick={() => history.push(`/videos/${video.id}/edit`)} className='row-space-between'>
                                 <div className='svg-wrapper'>
                                     <img src={pencil} alt="edit" className='svg' />
                                 </div>
-                                Edit
+                                Edit Video
                             </div>
                             <div onClick={confirmDelete} className='row-space-between'>
                                 <div className='svg-wrapper'>
                                     <img src={trash} alt="delete" className='svg' />
                                 </div>
-                                Delete
+                                Delete Video
                             </div>
                         </div>
                     )}
