@@ -44,6 +44,10 @@
 /* IMAGE PREVIEW */
 .image-preview {
     width: 200px;
+    height: 100%;
+    aspect-ratio: 16/9;
+    border: 2px solid var(--gray-dark);
+    border-radius: 4px;
 }
 .image-preview img {
     width: 100%;

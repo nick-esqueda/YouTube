@@ -161,6 +161,13 @@ span.subcount {
 }
 
 /* FLEX COLUMN */
+.col-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .col-top {
     display: flex;
     flex-direction: column;

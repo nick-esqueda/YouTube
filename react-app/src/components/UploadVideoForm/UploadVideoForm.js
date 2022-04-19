@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 
 import './UploadVideoForm.css';
+import addThumbnail from '../../static/icons/add-thumbnail.png';
 import { createVideo } from '../../store/videos';
 
 export default function UploadVideoForm() {
@@ -14,7 +15,7 @@ export default function UploadVideoForm() {
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
     const [videoUrl, setVideoUrl] = useState('');
-    const [thumbnailUrl, setThumbnailUrl] = useState(''); // can put a default image before image upload here
+    const [thumbnailUrl, setThumbnailUrl] = useState(addThumbnail); // can put a default image before image upload here
     const [showErrors, setShowErrors] = useState(false);
     const [validationErrors, setValidationErrors] = useState([]);
 
@@ -67,7 +68,7 @@ export default function UploadVideoForm() {
             });
 
     }
-    
+
     const autoGrow = (e) => {
         e.target.style.height = "36px";
         e.target.style.height = (e.target.scrollHeight) + "px";
@@ -117,7 +118,31 @@ export default function UploadVideoForm() {
                         </div>
                     </div>
 
-                    <div>
+                    <div className='col-left'>
+                        <h4>Thumbnail</h4>
+                        <span className='subcount'>Upload a picture that shows what's in your video. A good thumbnail stands out and draws viewers' attention.</span>
+
+                        <div className="image-preview col-center pointer" onClick={e => thumbnailInputRef.current.click()}>
+                            {thumbnailUrl.startsWith('https://') ? (
+                                <img
+                                    src={thumbnailUrl}
+                                    alt="thumbnail-preview"
+                                    className=""
+                                />
+                            ) : (
+                                <>
+                                    <div className='svg-wrapper' style={{ width: "32px" }}>
+                                        <img
+                                            src={thumbnailUrl}
+                                            alt="thumbnail-preview"
+                                            className="svg"
+                                        />
+                                    </div>
+                                    <span className='subcount'>Upload Thumbnail</span>
+                                </>
+                            )}
+                        </div>
+
                         <button
                             type="button"
                             className="btn"
@@ -134,16 +159,6 @@ export default function UploadVideoForm() {
                             hidden={true}
                             onChange={e => s3Upload(e.target.files[0], 'image')}
                         />
-
-                        {thumbnailUrl && (
-                            <div className="image-preview">
-                                <img
-                                    src={thumbnailUrl}
-                                    alt="thumbnail-preview"
-                                    className=""
-                                />
-                            </div>
-                        )}
                     </div>
                 </div>
 
@@ -173,7 +188,7 @@ export default function UploadVideoForm() {
                     </div>
                 </div>
 
-            </form>
+            </form >
 
 
             {showErrors && (
@@ -182,7 +197,8 @@ export default function UploadVideoForm() {
                         <div key={err}>{err}</div>
                     ))}
                 </div>
-            )}
-        </div>
+            )
+            }
+        </div >
     )
 }
