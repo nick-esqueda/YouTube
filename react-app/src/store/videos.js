@@ -165,6 +165,9 @@ export const createComment = comment => async dispatch => {
         const newComment = await res.json();
         dispatch(addComment(newComment));
         return newComment;
+    } else {
+        const errors = await res.json();
+        throw errors;
     }
 }
 
