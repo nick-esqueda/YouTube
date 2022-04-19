@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory, useParams } from 'react-router-dom';
 
-import './UploadVideoForm.css';
+import './VideoForm.css';
 import addThumbnail from '../../static/icons/add-thumbnail.png';
 import uploadVideo from '../../static/icons/upload-video.png';
 import { createVideo, editVideo, fetchVideo } from '../../store/videos';
