@@ -5,6 +5,7 @@ import { useHistory } from 'react-router-dom';
 
 import './UploadVideoForm.css';
 import addThumbnail from '../../static/icons/add-thumbnail.png';
+import uploadVideo from '../../static/icons/upload-video.png';
 import { createVideo } from '../../store/videos';
 
 export default function UploadVideoForm() {
@@ -155,14 +156,31 @@ export default function UploadVideoForm() {
                 </div>
 
                 <div className='right'>
-                    <iframe
-                        src={videoUrl}
-                        title="YouTube video player"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                        className='test1 video-preview pointer'
-                    ></iframe>
+                    <div className='video-preview-wrapper'>
+                        {videoUrl
+                            ? (
+                                <iframe
+                                    src={videoUrl ? videoUrl : uploadVideo}
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
+                                    className='test1'
+                                ></iframe>
+                            ) : (
+                                <div className='pointer' onClick={e => videoInputRef.current.click()}>
+                                    <div className='svg-wrapper' style={{ height: "50px" }}>
+                                        <img
+                                            src={uploadVideo}
+                                            alt="thumbnail-preview"
+                                            className="svg"
+                                            style={{ width: "40px", height: "40px" }}
+                                        />
+                                    </div>
+                                    <span className='subcount'>Select Video</span>
+                                </div>
+                            )}
+                    </div>
 
                     <div className='row-space-between full-size'>
                         <div className='col-left'>
