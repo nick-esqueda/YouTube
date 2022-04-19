@@ -14,6 +14,7 @@ class Video(db.Model):
     updatedAt = db.Column(db.DateTime(timezone=True), server_onupdate=func.now(), server_default=func.now())
 
     channel = db.relationship('Channel', back_populates='videos')
+    comments = db.relationship('Comment', back_populates='video', cascade="all, delete")
 
     def to_dict(self):
         return {
@@ -24,7 +25,8 @@ class Video(db.Model):
             'videoUrl': self.videoUrl,
             'thumbnailUrl': self.thumbnailUrl,
             'createdAt': self.createdAt,
-            'channel': self.channel.to_dict()
+            'channel': self.channel.to_dict(),
+            'comments': [comment.to_dict() for comment in self.comments]
         }
         
     def to_dict_channel(self):

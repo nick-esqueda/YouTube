@@ -1,0 +1,41 @@
+.comment-container {
+    width: 100%;
+    min-height: 50px;
+    position: relative;
+}
+/* PROF IMG **********************/
+.comment-profile-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+
+.comment-body {
+    width: 100%;
+    padding: 0 10px;
+    
+    font-size: 13px;
+    
+    position: relative;
+}
+
+
+.comment-user-handle {
+    font-weight: 500;
+}
+.comment-text {
+    padding: 0 0 10px;
+}
+
+
+/* DROPDOWN *********************/
+#comment-dropdown {
+    width: 120px;
+    
+    background-color: rgb(33, 33, 33);
+    
+    position: absolute;
+    top: 36px; right: 0;
+    z-index: 10;
+}
