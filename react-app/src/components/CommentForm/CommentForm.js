@@ -61,6 +61,19 @@ export default function CommentForm({ videoId, comment, setShowEdit }) {
             });
     }
 
+    const cancelSubmitCreate = (e) => {
+        e.preventDefault();
+        setContent('');
+        setShowCharCount(false);
+    }
+    
+    const cancelSubmitEdit = (e) => {
+        e.preventDefault();
+        setContent(comment.content);
+        setShowCharCount(false);
+        setShowEdit(false);        
+    }
+    
 
     return (
         <div id='comment-form-wrapper' className='row-left'>
@@ -71,7 +84,7 @@ export default function CommentForm({ videoId, comment, setShowEdit }) {
             )}
 
 
-            <form onSubmit={comment ? onSubmitEdit : onSubmitCreate} onFocus={() => setShowCharCount(true)} onBlur={() => setShowCharCount(false)}
+            <form onSubmit={comment ? onSubmitEdit : onSubmitCreate} onFocus={() => setShowCharCount(true)}
                 className=''
             >
                 <input
@@ -89,7 +102,9 @@ export default function CommentForm({ videoId, comment, setShowEdit }) {
                             <button type='button'
                                 id='comment-cancel'
                                 className='btn'
+                                onClick={comment ? cancelSubmitEdit : cancelSubmitCreate}
                             >CANCEL</button>
+                            
                             <button type='submit'
                                 id='comment-submit'
                                 style={{ cursor: validationErrors.length ? 'not-allowed' : 'pointer' }}
