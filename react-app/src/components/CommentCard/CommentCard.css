@@ -1,6 +1,7 @@
 .comment-container {
     width: 100%;
     min-height: 50px;
+    margin: 8px 0;
     position: relative;
 }
 /* PROF IMG **********************/
@@ -21,10 +22,18 @@
 }
 
 
-.comment-user-handle {
+.comment-channel-name {
     font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 6px;
 }
-.comment-text {
+.comment-time-elapsed {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--gray-light);
+}
+.comment-content {
+    font-size: 14px;
     padding: 0 0 10px;
 }
 

@@ -58,10 +58,10 @@ export default function CommentCard({ comment, video }) {
                 ) : (
                     <>
                         <div className='col-left'>
-                            <span className='comment-user-handle'>{comment.channel.channelName}</span>
-                            <span style={{ color: 'var(--color-gray)' }}>{comment.createdAt}</span>
+                            <span className='comment-channel-name'>{comment.channel.channelName} &nbsp;<span className='comment-time-elapsed'>{comment.createdAt}</span></span>
+                            
                         </div>
-                        <span className='comment-text'>{comment.content}</span>
+                        <span className='comment-content'>{comment.content}</span>
                     </>
                 )}
             </div>

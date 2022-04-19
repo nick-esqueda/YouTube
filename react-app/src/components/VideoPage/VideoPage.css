@@ -46,6 +46,7 @@
 .video-description {
     width: 100%;
     padding: 16px;
+    border-bottom: 2px solid var(--gray-dark)
 }
 .show-more {
     height: auto;

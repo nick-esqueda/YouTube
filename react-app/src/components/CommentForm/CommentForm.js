@@ -66,17 +66,17 @@ export default function CommentForm({ videoId, comment, setShowEdit, editInputRe
         setContent('');
         setShowCharCount(false);
     }
-    
+
     const cancelSubmitEdit = (e) => {
         e.preventDefault();
         setContent(comment.content);
         setShowCharCount(false);
-        setShowEdit(false);        
+        setShowEdit(false);
     }
-    
+
 
     return (
-        <div id='comment-form-wrapper' className='row-left'>
+        <div id='comment-form-wrapper' className='row-left row-top' style={comment ? { margin: 0 } : {}}>
             {comment ? null : (
                 <div style={{ minWidth: "40px", height: "40px", marginRight: '20px' }}>
                     <ProfileIcon channel={sessionUser} />
@@ -85,7 +85,7 @@ export default function CommentForm({ videoId, comment, setShowEdit, editInputRe
 
 
             <form onSubmit={comment ? onSubmitEdit : onSubmitCreate} onFocus={() => setShowCharCount(true)}
-                className=''
+                id='comment-form'
             >
                 <input
                     id='comment-input'
@@ -98,24 +98,24 @@ export default function CommentForm({ videoId, comment, setShowEdit, editInputRe
                 />
 
                 {showCharCount && (
-                    <>
-                        <div className='row-space-between'>
+                    <div className='row-space-between'>
+                        <small style={content.length > 255 || content.length === 0 ? { color: '#fe3b3b' } : { color: 'var(--gray-light)' }}
+                        >{content.length}/255</small>
+
+                        <div className='row-right'>
                             <button type='button'
                                 id='comment-cancel'
                                 className='btn'
                                 onClick={comment ? cancelSubmitEdit : cancelSubmitCreate}
                             >CANCEL</button>
-                            
+
                             <button type='submit'
                                 id='comment-submit'
                                 style={{ cursor: validationErrors.length ? 'not-allowed' : 'pointer' }}
                                 className='btn btn--blue'
                             >{comment ? "SAVE" : "COMMENT"}</button>
                         </div>
-
-                        <small style={content.length > 255 || content.length === 0 ? { color: 'var(--red)' } : {}}
-                        >{content.length}/255</small>
-                    </>
+                    </div>
                 )}
             </form>
         </div>
