@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 
@@ -12,6 +12,7 @@ import CommentForm from '../CommentForm/CommentForm';
 export default function CommentCard({ comment, video }) {
     const dispatch = useDispatch();
     const sessionUser = useSelector(state => state.session.user);
+    const editInputRef = useRef();
     const [showDots, setShowDots] = useState(false);
     const [showMenu, setShowMenu] = useState(false);
     const [showEdit, setShowEdit] = useState(false);
@@ -30,18 +31,21 @@ export default function CommentCard({ comment, video }) {
             document.removeEventListener("click", closeMenu);
         }
     }, [showMenu]);
+    
+    useEffect(() => editInputRef.current?.focus(), [showEdit]);
 
     const openMenu = () => {
         if (showMenu) return;
         setShowMenu(true);
     };
-
+    
     const confirmDelete = e => {
         if (window.confirm('Are you sure you would like to delete your comment?')) {
             dispatch(deleteComment(comment.id, video.id));
         }
     }
 
+    
     return (
         <div className='comment-container row-top' onMouseEnter={() => setShowDots(true)} onMouseLeave={() => setShowDots(false)}>
             <div style={{ width: '40px', height: '40px', minWidth: '40px', minHeight: '40px' }}>
@@ -50,7 +54,7 @@ export default function CommentCard({ comment, video }) {
 
             <div className='comment-body col-left'>
                 {showEdit ? (
-                    <CommentForm videoId={video.id} comment={comment} setShowEdit={setShowEdit} />
+                    <CommentForm comment={comment} setShowEdit={setShowEdit} editInputRef={editInputRef} />
                 ) : (
                     <>
                         <div className='col-left'>
@@ -70,7 +74,7 @@ export default function CommentCard({ comment, video }) {
 
             {showMenu && (
                 <div id='comment-dropdown' className='col-left dropdown-section'>
-                    <div onClick={e => setShowEdit(true)} className='row-space-between'>
+                    <div onClick={() => setShowEdit(true)} className='row-space-between'>
                         <div className='svg-wrapper'>
                             <img src={pencil} alt="edit" className='svg' />
                         </div>

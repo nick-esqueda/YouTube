@@ -5,11 +5,11 @@ import ProfileIcon from '../ProfileIcon/ProfileIcon';
 
 import './CommentForm.css';
 
-export default function CommentForm({ videoId, comment, setShowEdit }) {
+export default function CommentForm({ videoId, comment, setShowEdit, editInputRef }) {
     const dispatch = useDispatch();
     const sessionUser = useSelector(state => state.session.user);
     const [content, setContent] = useState(comment ? comment.content : '');
-    const [showCharCount, setShowCharCount] = useState(false);
+    const [showCharCount, setShowCharCount] = useState(comment ? true : false);
     const [validationErrors, setValidationErrors] = useState([]);
 
     useEffect(() => {
@@ -90,10 +90,11 @@ export default function CommentForm({ videoId, comment, setShowEdit }) {
                 <input
                     id='comment-input'
                     name='content'
-                    value={content}
-                    onChange={(e) => setContent(e.target.value)}
                     placeholder='Add a comment...'
                     autoComplete='off'
+                    value={content}
+                    onChange={(e) => setContent(e.target.value)}
+                    ref={editInputRef}
                 />
 
                 {showCharCount && (
