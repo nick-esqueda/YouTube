@@ -14,7 +14,8 @@
 }
 #video-upload-form .right {
     width: 40%;
-    padding: 44px 0;
+    height: 100%;
+    padding-top: 44px;
     justify-content: flex-end;
     align-items: flex-end;
 }
@@ -75,4 +76,18 @@
     margin-bottom: 16px;
     border-radius: 4px;
     aspect-ratio: 16/9;
+}
+
+
+
+/* ERROR CONTAINER */
+.error-container {
+    height: 220px;
+    width: 100%;
+    padding: 16px 0;
+}
+.error-container > div {
+    padding: 4px 0;
+    font-size: 16px;
+    color: var(--gray-light);
 }

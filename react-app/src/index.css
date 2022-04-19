@@ -186,6 +186,12 @@ span.subcount {
     align-items: flex-start;
 }
 
+.col-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 .col-space-between {
     display: flex;
     flex-direction: column;

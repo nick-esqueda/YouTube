@@ -24,9 +24,9 @@ export default function UploadVideoForm() {
         const errors = [];
         if (title.length > 100) errors.push('Title must be shorter than 100 characters');
         if (!title) errors.push('Please provide a title for your video.');
-        if (description.length > 5000) errors.push('Sorry! Descriptions must be shorter than 5000 characters')
-        if (!thumbnailUrl) errors.push('Please choose a thumbnail first before uploading.')
-        if (!videoUrl) errors.push('Please upload a video first before submitting.')
+        if (description.length > 5000) errors.push('Sorry! Descriptions must be shorter than 5000 characters');
+        if (!thumbnailUrl.startsWith('https://')) errors.push('Please choose a thumbnail first before uploading.');
+        if (!videoUrl) errors.push('Please choose a video first before submitting.');
         setValidationErrors(errors);
         if (errors.length) setShowErrors(true);
         else setShowErrors(false);
@@ -120,7 +120,7 @@ export default function UploadVideoForm() {
                     </div>
 
                     <div className='col-left'>
-                        <h4 style={{ fontWeight: 500, margin: '10px 0' }}>Thumbnail</h4>
+                        <h4 style={{ fontWeight: 500, margin: '10px 0' }}>Thumbnail&nbsp;<span className='subcount'>(required)</span></h4>
                         <span className='subcount'>Upload a picture that shows what's in your video. A good thumbnail stands out and draws viewers' attention.</span>
 
                         <div className="image-preview col-center pointer" onClick={e => thumbnailInputRef.current.click()}>
@@ -187,6 +187,12 @@ export default function UploadVideoForm() {
                         />
                     </div>
 
+                    <div className='error-container col-right col-bottom'>
+                        {validationErrors.map(err => (
+                            <div key={err}>{err}</div>
+                        ))}
+                    </div>
+
                     <div>
                         <button type='submit' className='btn btn--blue-outline'>UPLOAD VIDEO</button>
                     </div>
@@ -195,14 +201,6 @@ export default function UploadVideoForm() {
             </form >
 
 
-            {showErrors && (
-                <div className='error-container'>
-                    {validationErrors.map(err => (
-                        <div key={err}>{err}</div>
-                    ))}
-                </div>
-            )
-            }
         </div >
     )
 }
