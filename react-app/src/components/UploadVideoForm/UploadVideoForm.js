@@ -11,6 +11,7 @@ export default function UploadVideoForm() {
     const history = useHistory();
     const dispatch = useDispatch();
     const thumbnailInputRef = useRef();
+    const videoInputRef = useRef();
 
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
@@ -77,8 +78,8 @@ export default function UploadVideoForm() {
 
     return (
         <div id='upload-page'>
-            <form onSubmit={onSubmit} id='video-upload-form' className='row-space-between row-top'>
-                <div className='left full-size col-left'>
+            <form onSubmit={onSubmit} id='video-upload-form' className='row-space-between'>
+                <div className='left col-left'>
                     <h2>Details</h2>
 
                     <div className='input-wrapper col-left'>
@@ -150,42 +151,44 @@ export default function UploadVideoForm() {
                             hidden={true}
                             onChange={e => s3Upload(e.target.files[0], 'image')}
                         />
-                        
-                        {/* <button
-                            type="button"
-                            className="btn"
-                            style={{ width: '150px' }}
-                            onClick={e => thumbnailInputRef.current.click()}
-                        >
-                            upload image
-                        </button> */}
-
                     </div>
                 </div>
 
-                <div className='right full-size'>
-                    <div>
-                        <iframe width="304" height="171"
-                            src={videoUrl}
-                            title="YouTube video player"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                            className='test1 video-preview'
-                        ></iframe>
-                    </div>
+                <div className='right'>
+                    <iframe
+                        src={videoUrl}
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        className='test1 video-preview pointer'
+                    ></iframe>
 
-                    <div id='video-upload'>
-                        UPLOAD VIDEO HERE
+                    <div className='row-space-between full-size'>
+                        <div className='col-left'>
+                            <h4 style={{ fontWeight: 500, margin: '10px 0' }}>Choose a video file to upload</h4>
+                            <span className='subcount'>Your video won't be posted just yet.</span>
+                        </div>
+
+                        <button
+                            type="button"
+                            className="btn btn--blue"
+                            onClick={e => videoInputRef.current.click()}
+                        >
+                            SELECT FILE
+                        </button>
+
                         <input type="file"
                             accept=".mp4, .mov, .wmv"
                             name="video"
+                            ref={videoInputRef}
+                            hidden={true}
                             onChange={e => s3Upload(e.target.files[0], 'video')}
                         />
                     </div>
 
                     <div>
-                        <button type='submit' className='btn btn--blue-outline'>Submit</button>
+                        <button type='submit' className='btn btn--blue-outline'>UPLOAD VIDEO</button>
                     </div>
                 </div>
 

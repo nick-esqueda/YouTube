@@ -6,7 +6,17 @@
 #video-upload-form {
     width: 70%;
     min-width: 600px;
+    align-items: flex-start;
     gap: 24px;
+}
+#video-upload-form .left {
+    width: 60%;
+}
+#video-upload-form .right {
+    width: 40%;
+    padding: 44px 0;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 
@@ -55,4 +65,14 @@
 .image-preview img {
     width: 100%;
     object-fit: cover;
+}
+
+
+
+/* VIDEO PREVIEW */
+#video-upload-form iframe {
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    aspect-ratio: 16/9;
 }
