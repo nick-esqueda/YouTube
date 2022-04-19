@@ -13,6 +13,10 @@ export default function UploadVideoForm() {
     const dispatch = useDispatch();
     const thumbnailInputRef = useRef();
     const videoInputRef = useRef();
+    const descriptionWrapperRef = useRef();
+    const titleWrapperRef = useRef();
+    const descriptionSpanRef = useRef();
+    const titleSpanRef = useRef();
 
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
@@ -28,9 +32,8 @@ export default function UploadVideoForm() {
         if (description.length > 5000) errors.push('Sorry! Descriptions must be shorter than 5000 characters');
         if (!thumbnailUrl.startsWith('https://')) errors.push('Please choose a thumbnail first before uploading.');
         if (!videoUrl) errors.push('Please choose a video first before submitting.');
+
         setValidationErrors(errors);
-        if (errors.length) setShowErrors(true);
-        else setShowErrors(false);
     }, [title, description, videoUrl, thumbnailUrl]);
 
     const s3Upload = async (file, type) => {
@@ -83,16 +86,24 @@ export default function UploadVideoForm() {
                 <div className='left col-left'>
                     <h2>Details</h2>
 
-                    <div className='input-wrapper col-left'>
-                        <span className='subcount'>Title (required)</span>
+                    <div className='input-wrapper col-left' ref={titleWrapperRef}>
+                        <span className='subcount' ref={titleSpanRef}>Title (required)</span>
                         <textarea type='text'
                             id='title-input'
                             name="title"
                             className={validationErrors.includes('Title must be shorter than 100 characters') ? 'red-outline' : ''}
                             placeholder="Add a title that describes your video"
                             value={title}
-                            onChange={(e) => setTitle(e.target.value)}
+                            onChange={e => setTitle(e.target.value)}
                             onInput={autoGrow}
+                            onFocus={e => {
+                                titleWrapperRef.current.style.borderColor = 'var(--blue)';
+                                titleSpanRef.current.style.color = 'var(--blue)';
+                            }}
+                            onBlur={e => {
+                                titleWrapperRef.current.style.borderColor = ''
+                                titleSpanRef.current.style.color = '';
+                            }}
                         />
                         <div className='full-size row-right'>
                             <small className='character-count'
@@ -101,8 +112,8 @@ export default function UploadVideoForm() {
                         </div>
                     </div>
 
-                    <div className='input-wrapper col-left'>
-                        <span className='subcount'>Description</span>
+                    <div className='input-wrapper col-left' ref={descriptionWrapperRef}>
+                        <span className='subcount' ref={descriptionSpanRef}>Description</span>
                         <textarea
                             type='text'
                             id='description-input'
@@ -112,6 +123,14 @@ export default function UploadVideoForm() {
                             value={description}
                             onChange={(e) => setDescription(e.target.value)}
                             onInput={autoGrow}
+                            onFocus={e => {
+                                descriptionWrapperRef.current.style.borderColor = 'var(--blue)';
+                                descriptionSpanRef.current.style.color = 'var(--blue)';
+                            }}
+                            onBlur={e => {
+                                descriptionWrapperRef.current.style.borderColor = ''
+                                descriptionSpanRef.current.style.color = '';
+                            }}
                         ></textarea>
                         <div className='full-size row-right'>
                             <small className='character-count'
@@ -206,7 +225,7 @@ export default function UploadVideoForm() {
                     </div>
 
                     <div className='error-container col-right col-bottom'>
-                        {validationErrors.map(err => (
+                        {showErrors && validationErrors.map(err => (
                             <div key={err}>{err}</div>
                         ))}
                     </div>
