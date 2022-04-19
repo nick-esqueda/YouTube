@@ -1,0 +1,27 @@
+#comment-form-wrapper {
+    width: 100%;
+    margin: 24px 0;
+}
+
+
+#comment-form {
+    width: 100%;
+}
+#comment-form input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 4px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid var(--gray-light);
+    
+    outline: none;
+    background-color: transparent;
+    font-size: 14px;
+    color: white;
+    transition: border-bottom .12s ease-in-out, margin-bottom .12s ease-in-out;
+}
+#comment-form input:focus {
+    margin-bottom: 8px;
+    border-bottom: 3px solid white;
+}
