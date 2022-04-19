@@ -67,98 +67,114 @@ export default function UploadVideoForm() {
             });
 
     }
+    
+    const autoGrow = (e) => {
+        e.target.style.height = "36px";
+        e.target.style.height = (e.target.scrollHeight) + "px";
+    }
 
 
     return (
         <div id='upload-page'>
-            <div>
-                <iframe width="560" height="315"
-                    src={videoUrl}
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    className='test1 video-preview'
-                ></iframe>
-            </div>
+            <form onSubmit={onSubmit} id='video-upload-form' className='row-space-between row-top'>
+                <div className='left full-size col-left'>
+                    <h2>Details</h2>
 
-            {thumbnailUrl && (
-                <div className="image-preview">
-                    <img
-                        src={thumbnailUrl}
-                        alt="thumbnail-preview"
-                        className=""
-                    />
+                    <div className='input-wrapper col-left'>
+                        <span className='subcount'>Title (required)</span>
+                        <textarea type='text'
+                            id='title-input'
+                            name="title"
+                            className={validationErrors.includes('Title must be shorter than 100 characters') ? 'red-outline' : ''}
+                            placeholder="Add a title that describes your video"
+                            value={title}
+                            onChange={(e) => setTitle(e.target.value)}
+                            onInput={autoGrow}
+                        />
+                        <div className='full-size row-right'>
+                            <small className='character-count'
+                                style={title.length > 100 ? { color: 'red' } : {}}
+                            >{title.length}/100</small>
+                        </div>
+                    </div>
+
+                    <div className='input-wrapper col-left'>
+                        <span className='subcount'>Description</span>
+                        <textarea
+                            type='text'
+                            id='description-input'
+                            className={validationErrors.includes('Sorry! Descriptions must be shorter than 5000 characters') ? 'red-outline' : ''}
+                            placeholder='Tell viewers about your video'
+                            name='description'
+                            value={description}
+                            onChange={(e) => setDescription(e.target.value)}
+                            onInput={autoGrow}
+                        ></textarea>
+                        <div className='full-size row-right'>
+                            <small className='character-count'
+                                style={description.length > 5000 ? { color: 'red' } : {}}
+                            >{description.length}/5000</small>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button
+                            type="button"
+                            className="btn"
+                            style={{ width: '150px' }}
+                            onClick={e => thumbnailInputRef.current.click()}
+                        >
+                            upload image
+                        </button>
+
+                        <input type="file"
+                            accept="image/*"
+                            name="artwork"
+                            ref={thumbnailInputRef}
+                            hidden={true}
+                            onChange={e => s3Upload(e.target.files[0], 'image')}
+                        />
+
+                        {thumbnailUrl && (
+                            <div className="image-preview">
+                                <img
+                                    src={thumbnailUrl}
+                                    alt="thumbnail-preview"
+                                    className=""
+                                />
+                            </div>
+                        )}
+                    </div>
                 </div>
-            )}
 
+                <div className='right full-size'>
+                    <div>
+                        <iframe width="304" height="171"
+                            src={videoUrl}
+                            title="YouTube video player"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                            className='test1 video-preview'
+                        ></iframe>
+                    </div>
 
-            <form onSubmit={onSubmit} id='video-upload-form'>
-                <div>
-                    <button
-                        type="button"
-                        className="btn"
-                        style={{ width: '150px' }}
-                        onClick={e => thumbnailInputRef.current.click()}
-                    >
-                        upload image
-                    </button>
+                    <div id='video-upload'>
+                        UPLOAD VIDEO HERE
+                        <input type="file"
+                            accept=".mp4, .mov, .wmv"
+                            name="video"
+                            onChange={e => s3Upload(e.target.files[0], 'video')}
+                        />
+                    </div>
+
+                    <div>
+                        <button type='submit' className='btn btn--blue-outline'>Submit</button>
+                    </div>
                 </div>
 
-                <input type="file"
-                    accept="image/*"
-                    name="artwork"
-                    ref={thumbnailInputRef}
-                    hidden={true}
-                    onChange={e => s3Upload(e.target.files[0], 'image')}
-                />
-
-
-                <div id='video-upload'>
-                    UPLOAD VIDEO HERE
-                    <input type="file"
-                        accept=".mp4, .mov, .wmv"
-                        name="video"
-                        onChange={e => s3Upload(e.target.files[0], 'video')}
-                    />
-                </div>
-
-
-                <div>
-                    <input type='text'
-                        id='title-input'
-                        name="title"
-                        className={validationErrors.includes('Title must be shorter than 100 characters') ? 'red-outline' : ''}
-                        placeholder="Add a title that describes your video."
-                        value={title}
-                        onChange={(e) => setTitle(e.target.value)}
-                    />
-                    <small className='character-count'
-                        style={title.length > 100 ? { color: 'red' } : {}}
-                    >{title.length}/100</small>
-                </div>
-
-
-                <div>
-                    <textarea
-                        type='text'
-                        id='description-input'
-                        className={validationErrors.includes('Sorry! Descriptions must be shorter than 5000 characters') ? 'red-outline' : ''}
-                        rows={4}
-                        placeholder='Tell viewers about your video'
-                        name='description'
-                        value={description}
-                        onChange={(e) => setDescription(e.target.value)}
-                    ></textarea>
-                    <small className='character-count'
-                        style={description.length > 255 ? { color: 'red' } : {}}
-                    >{description.length}/5000</small>
-                </div>
-                
-                <div>
-                    <button type='submit' className='btn btn--blue-outline'>Submit</button>
-                </div>
             </form>
+
 
             {showErrors && (
                 <div className='error-container'>

@@ -107,6 +107,10 @@ span.subcount {
     color: var(--blue);
 }
 
+.character-count {
+    color: var(--gray-light);
+}
+
 
 
 /* CLASSES ************************************/
