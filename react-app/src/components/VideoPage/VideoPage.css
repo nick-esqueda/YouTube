@@ -28,8 +28,8 @@
 .video-info {
     width: 100%;
     padding: 16px;
-    border-bottom: 2px solid var(--gray-dark)
-    
+    border-bottom: 2px solid var(--gray-dark);
+    position: relative;
 }
 .video-info h4 {
     margin: 10px 0;
