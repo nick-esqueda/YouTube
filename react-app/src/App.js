@@ -51,7 +51,8 @@ function App() {
 				</Route>
 				
 				<ProtectedRoute path='/videos/:videoId/edit' exact={true}>
-					<EditVideoPage />
+					{/* <EditVideoPage /> */}
+					<UploadVideoForm />
 				</ProtectedRoute>
 
 				<ProtectedRoute path='/upload' exact={true}>

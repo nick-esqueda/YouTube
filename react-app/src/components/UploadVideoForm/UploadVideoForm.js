@@ -1,14 +1,15 @@
 import React, { useEffect, useRef, useState } from 'react'
 import axios from 'axios';
-import { useDispatch } from 'react-redux';
-import { useHistory } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { useHistory, useParams } from 'react-router-dom';
 
 import './UploadVideoForm.css';
 import addThumbnail from '../../static/icons/add-thumbnail.png';
 import uploadVideo from '../../static/icons/upload-video.png';
-import { createVideo } from '../../store/videos';
+import { createVideo, editVideo, fetchVideo } from '../../store/videos';
 
 export default function UploadVideoForm() {
+    const { videoId } = useParams();
     const history = useHistory();
     const dispatch = useDispatch();
     const thumbnailInputRef = useRef();
@@ -18,10 +19,12 @@ export default function UploadVideoForm() {
     const descriptionSpanRef = useRef();
     const titleSpanRef = useRef();
 
+    const video = useSelector(state => state.videos[videoId]);
+    const [isLoaded, setIsLoaded] = useState(false);
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
     const [videoUrl, setVideoUrl] = useState('');
-    const [thumbnailUrl, setThumbnailUrl] = useState(addThumbnail); // can put a default image before image upload here
+    const [thumbnailUrl, setThumbnailUrl] = useState(addThumbnail);
     const [showErrors, setShowErrors] = useState(false);
     const [validationErrors, setValidationErrors] = useState([]);
 
@@ -35,6 +38,19 @@ export default function UploadVideoForm() {
 
         setValidationErrors(errors);
     }, [title, description, videoUrl, thumbnailUrl]);
+
+    useEffect(() => {
+        (async () => {
+            if (videoId) {
+                const video = await dispatch(fetchVideo(videoId));
+                setTitle(video.title);
+                setDescription(video.description);
+                setThumbnailUrl(video.thumbnailUrl);
+                setVideoUrl(video.videoUrl);
+            }
+            setIsLoaded(true);
+        })()
+    }, [dispatch]);
 
     const s3Upload = async (file, type) => {
         if (!file) return console.log('upload a file first');
@@ -56,22 +72,42 @@ export default function UploadVideoForm() {
 
         if (validationErrors.length) return setShowErrors(true);
 
-        const video = {
-            title, description, videoUrl, thumbnailUrl
+        if (!video) {
+            // FOR VIDEO UPLOAD *******************************
+            const video = {
+                title, description, videoUrl, thumbnailUrl
+            }
+
+            dispatch(createVideo(video))
+                .then(async video => {
+                    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+                    return history.push(`/watch/${video.id}`);
+                })
+                .catch(async (data) => {
+                    if (data && data.errors) {
+                        setValidationErrors(data.errors);
+                        setShowErrors(true);
+                    }
+                });
+
+        } else {
+            // FOR VIDEO EDIT **********************************
+            const editedVideo = {
+                id: video.id, title, description, thumbnailUrl
+            }
+        
+            dispatch(editVideo(editedVideo))
+                .then(async video => {
+                    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+                    return history.push(`/watch/${video.id}`);
+                })
+                .catch(async (data) => {
+                    if (data && data.errors) {
+                        setValidationErrors(data.errors);
+                        setShowErrors(true);
+                    }
+                });
         }
-
-        dispatch(createVideo(video))
-            .then(async video => {
-                window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-                return history.push(`/watch/${video.id}`);
-            })
-            .catch(async (data) => {
-                if (data && data.errors) {
-                    setValidationErrors(data.errors);
-                    setShowErrors(true);
-                }
-            });
-
     }
 
     const autoGrow = (e) => {
@@ -80,7 +116,7 @@ export default function UploadVideoForm() {
     }
 
 
-    return (
+    return !isLoaded ? null : (
         <div id='upload-page'>
             <form onSubmit={onSubmit} id='video-upload-form' className='row-space-between'>
                 <div className='left col-left'>
@@ -202,7 +238,7 @@ export default function UploadVideoForm() {
                             )}
                     </div>
 
-                    <div className='row-space-between full-size'>
+                    <div className='row-space-between full-size' style={video ? { visibility: 'hidden' } : {}}>
                         <div className='col-left'>
                             <h4 style={{ fontWeight: 500, margin: '10px 0' }}>Choose a video file to upload</h4>
                             <span className='subcount'>Your video won't be posted just yet.</span>
@@ -235,7 +271,7 @@ export default function UploadVideoForm() {
                     </div>
 
                     <div>
-                        <button type='submit' className='btn btn--blue-outline'>UPLOAD VIDEO</button>
+                        <button type='submit' className='btn btn--blue-outline'>{video ? "SUBMIT CHANGES" : "UPLOAD VIDEO"}</button>
                     </div>
                 </div>
 
