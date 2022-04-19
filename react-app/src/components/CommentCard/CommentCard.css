@@ -1,0 +1,28 @@
+.comment-container {
+    width: 100%;
+    min-height: 50px;
+}
+/* PROF IMG */
+.comment-profile-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+
+.comment-body {
+    width: 100%;
+    padding: 0 10px;
+    
+    font-size: 13px;
+    
+    position: relative;
+}
+
+
+.comment-user-handle {
+    font-weight: 500;
+}
+.comment-text {
+    padding: 0 0 10px;
+}

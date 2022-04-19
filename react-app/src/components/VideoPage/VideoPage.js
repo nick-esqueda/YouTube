@@ -96,9 +96,9 @@ export default function VideoPage() {
                 </div>
                 
                 
-                <div id='comments-section'>
+                <div id='comments-section' className='full-size col-left'>
                     {video.comments.map(comment => (
-                        <CommentCard />
+                        <CommentCard key={comment.id} comment={comment} />
                     ))}
                 </div>
                 
