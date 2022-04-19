@@ -119,7 +119,7 @@ export default function UploadVideoForm() {
                     </div>
 
                     <div className='col-left'>
-                        <h4>Thumbnail</h4>
+                        <h4 style={{ fontWeight: 500, margin: '10px 0' }}>Thumbnail</h4>
                         <span className='subcount'>Upload a picture that shows what's in your video. A good thumbnail stands out and draws viewers' attention.</span>
 
                         <div className="image-preview col-center pointer" onClick={e => thumbnailInputRef.current.click()}>
@@ -143,15 +143,6 @@ export default function UploadVideoForm() {
                             )}
                         </div>
 
-                        <button
-                            type="button"
-                            className="btn"
-                            style={{ width: '150px' }}
-                            onClick={e => thumbnailInputRef.current.click()}
-                        >
-                            upload image
-                        </button>
-
                         <input type="file"
                             accept="image/*"
                             name="artwork"
@@ -159,6 +150,16 @@ export default function UploadVideoForm() {
                             hidden={true}
                             onChange={e => s3Upload(e.target.files[0], 'image')}
                         />
+                        
+                        {/* <button
+                            type="button"
+                            className="btn"
+                            style={{ width: '150px' }}
+                            onClick={e => thumbnailInputRef.current.click()}
+                        >
+                            upload image
+                        </button> */}
+
                     </div>
                 </div>
 

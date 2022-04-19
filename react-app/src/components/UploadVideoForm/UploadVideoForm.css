@@ -43,8 +43,11 @@
 
 /* IMAGE PREVIEW */
 .image-preview {
-    width: 200px;
+    width: 260px;
     height: 100%;
+    margin: 12px 0;    
+    
+    overflow: hidden;
     aspect-ratio: 16/9;
     border: 2px solid var(--gray-dark);
     border-radius: 4px;
