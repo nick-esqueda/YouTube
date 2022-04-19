@@ -98,6 +98,8 @@ export default function VideoPage() {
                 
                 
                 <div id='comments-section' className='full-size col-left'>
+                    {video.comments.length} comments
+                    
                     <CommentForm videoId={video.id} />
                     
                     {video.comments.map(comment => (

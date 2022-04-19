@@ -261,6 +261,7 @@ const videosReducer = (state = {}, action) => {
             const videoId = action.comment.videoId;
             const newCommentsArray = [...state[videoId].comments];
             const commentIndex = newCommentsArray.findIndex(comment => comment.id === commentId);
+            action.comment.createdAt = getTimeElapsed(action.comment.createdAt);
             newCommentsArray[commentIndex] = action.comment;
 
             return {

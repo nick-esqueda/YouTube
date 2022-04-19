@@ -19,7 +19,7 @@
     background-color: transparent;
     font-size: 14px;
     color: white;
-    transition: border-bottom .12s ease-in-out, margin-bottom .12s ease-in-out;
+    transition: border-bottom .10s ease-in-out, margin-bottom .10s ease-in-out;
 }
 #comment-form input:focus {
     margin-bottom: 8px;

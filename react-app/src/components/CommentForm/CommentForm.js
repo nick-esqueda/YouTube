@@ -76,7 +76,7 @@ export default function CommentForm({ videoId, comment, setShowEdit, editInputRe
 
 
     return (
-        <div id='comment-form-wrapper' className='row-left row-top'>
+        <div id='comment-form-wrapper' className='row-left row-top' style={comment ? { margin: 0 } : {}}>
             {comment ? null : (
                 <div style={{ minWidth: "40px", height: "40px", marginRight: '20px' }}>
                     <ProfileIcon channel={sessionUser} />
