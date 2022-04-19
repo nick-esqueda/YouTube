@@ -27,11 +27,11 @@ export default function UploadVideoForm() {
 
     useEffect(() => {
         const errors = [];
+        if (!title) errors.push('Please provide a title for your video');
         if (title.length > 100) errors.push('Title must be shorter than 100 characters');
-        if (!title) errors.push('Please provide a title for your video.');
         if (description.length > 5000) errors.push('Sorry! Descriptions must be shorter than 5000 characters');
-        if (!thumbnailUrl.startsWith('https://')) errors.push('Please choose a thumbnail first before uploading.');
-        if (!videoUrl) errors.push('Please choose a video first before submitting.');
+        if (!thumbnailUrl.startsWith('https://')) errors.push('Please choose a thumbnail first before uploading');
+        if (!videoUrl) errors.push('Please choose a video first before submitting');
 
         setValidationErrors(errors);
     }, [title, description, videoUrl, thumbnailUrl]);
@@ -86,12 +86,12 @@ export default function UploadVideoForm() {
                 <div className='left col-left'>
                     <h2>Details</h2>
 
-                    <div className='input-wrapper col-left' ref={titleWrapperRef}>
-                        <span className='subcount' ref={titleSpanRef}>Title (required)</span>
+                    <div className='input-wrapper col-left' ref={titleWrapperRef} style={(validationErrors.includes('Title must be shorter than 100 characters') || validationErrors.includes('Please provide a title for your video')) && showErrors ? { borderColor: 'var(--red)' } : {}}>
+                        <span className='subcount' ref={titleSpanRef} style={(validationErrors.includes('Title must be shorter than 100 characters') || validationErrors.includes('Please provide a title for your video')) && showErrors ? { color: 'var(--red)' } : {}}
+                        >Title (required)</span>
                         <textarea type='text'
                             id='title-input'
                             name="title"
-                            className={validationErrors.includes('Title must be shorter than 100 characters') ? 'red-outline' : ''}
                             placeholder="Add a title that describes your video"
                             value={title}
                             onChange={e => setTitle(e.target.value)}
@@ -112,8 +112,9 @@ export default function UploadVideoForm() {
                         </div>
                     </div>
 
-                    <div className='input-wrapper col-left' ref={descriptionWrapperRef}>
-                        <span className='subcount' ref={descriptionSpanRef}>Description</span>
+                    <div className='input-wrapper col-left' ref={descriptionWrapperRef} style={validationErrors.includes('Sorry! Descriptions must be shorter than 5000 characters') && showErrors ? { borderColor: 'var(--red)' } : {}}>
+                        <span className='subcount' ref={descriptionSpanRef}  style={validationErrors.includes('Sorry! Descriptions must be shorter than 5000 characters') && showErrors ? { color: 'var(--red)' } : {}}
+                        >Description</span>
                         <textarea
                             type='text'
                             id='description-input'
