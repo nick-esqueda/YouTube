@@ -101,7 +101,7 @@ export default function VideoPage() {
                     <CommentForm videoId={video.id} />
                     
                     {video.comments.map(comment => (
-                        <CommentCard key={comment.id} comment={comment} />
+                        <CommentCard key={comment.id} comment={comment} video={video} />
                     ))}
                 </div>
                 

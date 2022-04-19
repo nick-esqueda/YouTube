@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { createComment } from '../../store/videos';
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 
-
 import './CommentForm.css';
 
 export default function CommentForm({ videoId }) {
