@@ -113,7 +113,7 @@ export default function UploadVideoForm() {
                     </div>
 
                     <div className='input-wrapper col-left' ref={descriptionWrapperRef} style={validationErrors.includes('Sorry! Descriptions must be shorter than 5000 characters') && showErrors ? { borderColor: 'var(--red)' } : {}}>
-                        <span className='subcount' ref={descriptionSpanRef}  style={validationErrors.includes('Sorry! Descriptions must be shorter than 5000 characters') && showErrors ? { color: 'var(--red)' } : {}}
+                        <span className='subcount' ref={descriptionSpanRef} style={validationErrors.includes('Sorry! Descriptions must be shorter than 5000 characters') && showErrors ? { color: 'var(--red)' } : {}}
                         >Description</span>
                         <textarea
                             type='text'
@@ -176,7 +176,7 @@ export default function UploadVideoForm() {
                 </div>
 
                 <div className='right'>
-                    <div className='video-preview-wrapper'>
+                    <div className='video-preview-wrapper' style={validationErrors.includes('Please choose a video first before submitting') && showErrors ? { borderColor: 'var(--red)' } : {}}>
                         {videoUrl
                             ? (
                                 <iframe
@@ -185,7 +185,7 @@ export default function UploadVideoForm() {
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen
-                                    className='test1'
+                                    className=''
                                 ></iframe>
                             ) : (
                                 <div className='pointer' onClick={e => videoInputRef.current.click()}>
@@ -213,7 +213,10 @@ export default function UploadVideoForm() {
                             className="btn btn--blue"
                             onClick={e => videoInputRef.current.click()}
                         >
-                            SELECT FILE
+                            {!videoUrl
+                                ? "SELECT FILE"
+                                : "CHANGE FILE"
+                            }
                         </button>
 
                         <input type="file"
