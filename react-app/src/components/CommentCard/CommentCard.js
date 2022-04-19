@@ -7,6 +7,7 @@ import pencil from '../../static/icons/pencil.png';
 import trash from '../../static/icons/trash.png';
 import './CommentCard.css';
 import { deleteComment } from '../../store/videos';
+import CommentForm from '../CommentForm/CommentForm';
 
 export default function CommentCard({ comment, video }) {
     const dispatch = useDispatch();
@@ -48,18 +49,22 @@ export default function CommentCard({ comment, video }) {
             </div>
 
             <div className='comment-body col-left'>
-                <div className='col-left'>
-                    <span className='comment-user-handle'>{comment.channel.channelName}</span>
-                    <span style={{ color: 'var(--color-gray)' }}>{comment.createdAt}</span>
-                </div>
-                <span className='comment-text'>{comment.content}</span>
+                {showEdit ? (
+                    <CommentForm videoId={video.id} comment={comment} setShowEdit={setShowEdit} />
+                ) : (
+                    <>
+                        <div className='col-left'>
+                            <span className='comment-user-handle'>{comment.channel.channelName}</span>
+                            <span style={{ color: 'var(--color-gray)' }}>{comment.createdAt}</span>
+                        </div>
+                        <span className='comment-text'>{comment.content}</span>
+                    </>
+                )}
             </div>
 
             {comment.channel.id === sessionUser.id && showDots && (
                 <div className='svg-wrapper pointer' onClick={openMenu}>
                     <img src={threeDots} alt="menu-icon" className="svg" />
-
-
                 </div>
             )}
 

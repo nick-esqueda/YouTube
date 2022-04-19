@@ -250,14 +250,15 @@ const videosReducer = (state = {}, action) => {
 
         case UPDATE_COMMENT: {
             const commentId = action.comment.id;
-            const newCommentsArray = [...state[commentId].comments];
+            const videoId = action.comment.videoId;
+            const newCommentsArray = [...state[videoId].comments];
             const commentIndex = newCommentsArray.findIndex(comment => comment.id === commentId);
             newCommentsArray[commentIndex] = action.comment;
 
             return {
                 ...state,
-                [action.comment.videoId]: {
-                    ...state[action.comment.videoId],
+                [videoId]: {
+                    ...state[videoId],
                     comments: newCommentsArray
                 }
             }

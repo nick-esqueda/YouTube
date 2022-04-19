@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { createComment } from '../../store/videos';
+import { createComment, editComment } from '../../store/videos';
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 
 import './CommentForm.css';
 
-export default function CommentForm({ videoId }) {
+export default function CommentForm({ videoId, comment, setShowEdit }) {
     const dispatch = useDispatch();
     const sessionUser = useSelector(state => state.session.user);
-    const [content, setContent] = useState('');
+    const [content, setContent] = useState(comment ? comment.content : '');
     const [showCharCount, setShowCharCount] = useState(false);
     const [validationErrors, setValidationErrors] = useState([]);
 
@@ -20,7 +20,7 @@ export default function CommentForm({ videoId }) {
         setValidationErrors(errors);
     }, [content]);
 
-    const onSubmit = (e) => {
+    const onSubmitCreate = (e) => {
         e.preventDefault();
         if (validationErrors.length) return;
 
@@ -40,15 +40,38 @@ export default function CommentForm({ videoId }) {
             });
     }
 
+    const onSubmitEdit = (e) => {
+        e.preventDefault();
+        if (validationErrors.length) return;
+
+        const editedComment = {
+            ...comment, content
+        }
+
+        dispatch(editComment(editedComment))
+            .then(_ => {
+                setContent('');
+                setShowCharCount(false);
+                if (comment) setShowEdit(false);
+            })
+            .catch(async (data) => {
+                if (data && data.errors) {
+                    setValidationErrors(data.errors);
+                }
+            });
+    }
+
 
     return (
         <div id='comment-form-wrapper' className='row-left'>
-            <div style={{ minWidth: "40px", height: "40px", marginRight: '20px' }}>
-                <ProfileIcon channel={sessionUser} />
-            </div>
+            {comment ? null : (
+                <div style={{ minWidth: "40px", height: "40px", marginRight: '20px' }}>
+                    <ProfileIcon channel={sessionUser} />
+                </div>
+            )}
 
 
-            <form onSubmit={onSubmit} onFocus={() => setShowCharCount(true)} onBlur={() => setShowCharCount(false)}
+            <form onSubmit={comment ? onSubmitEdit : onSubmitCreate} onFocus={() => setShowCharCount(true)} onBlur={() => setShowCharCount(false)}
                 className=''
             >
                 <input
@@ -71,7 +94,7 @@ export default function CommentForm({ videoId }) {
                                 id='comment-submit'
                                 style={{ cursor: validationErrors.length ? 'not-allowed' : 'pointer' }}
                                 className='btn btn--blue'
-                            >COMMENT</button>
+                            >{comment ? "SAVE" : "COMMENT"}</button>
                         </div>
 
                         <small style={content.length > 255 || content.length === 0 ? { color: 'var(--red)' } : {}}
