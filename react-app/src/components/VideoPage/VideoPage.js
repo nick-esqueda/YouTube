@@ -127,7 +127,7 @@ export default function VideoPage() {
                     <div className='col-left'>
                         <div className='col-space-even full-size channel-and-subs'>
                             <h4>{video.channel.channelName}</h4>
-                            <span className='subcount'>[# of subscribers]</span>
+                            <span className='subcount' style={{ visibility: 'hidden' }}>[# of subscribers]</span>
                         </div>
 
                         <p className={showMore ? "show-more" : "show-less"}>{video.description}</p>
