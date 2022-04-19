@@ -32,6 +32,7 @@ export default function CommentForm({ videoId }) {
         dispatch(createComment(comment))
             .then(_ => {
                 setContent('');
+                setShowCharCount(false);
             })
             .catch(async (data) => {
                 if (data && data.errors) {
