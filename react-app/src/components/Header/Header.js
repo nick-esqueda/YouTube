@@ -18,7 +18,7 @@ export default function Header() {
 
 	const loggedOut = (
 		<div id='header__right' className='row-space-even'>
-			<div>
+			<div style={{ visibility: 'hidden' }}>
 				<img src={appsMenu} alt='apps-menu' className='svg' />
 			</div>
 			<div className='pfp-wrapper-nav'>
@@ -45,7 +45,7 @@ export default function Header() {
 				</Link>
 			</div>
 
-			<div id='header__middle' className=''>
+			<div id='header__middle' style={{ visibility: 'hidden' }}>
 				<SearchHeader />
 			</div>
 

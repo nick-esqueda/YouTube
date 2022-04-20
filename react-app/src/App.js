@@ -69,10 +69,10 @@ function App() {
 					<SettingsPage />
 				</ProtectedRoute>
 
-				<ProtectedRoute path='/' exact={true} >
+				<Route path='/' exact={true} >
 					<Navbar />
 					<HomePage />
-				</ProtectedRoute>
+				</Route>
 				
 				<Route>
 					<h2>Sorry! We could not find the page you were looking for.</h2>

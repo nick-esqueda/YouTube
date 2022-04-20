@@ -93,7 +93,7 @@ export default function VideoPage() {
                         )}
                     </div> */}
                     
-                    {video.channelId === sessionUser.id && (
+                    {video.channelId === sessionUser?.id && (
                         <div className='svg-wrapper pointer' onClick={openMenu}>
                             <img src={threeDots} alt="menu-icon" className="svg" />
                         </div>
