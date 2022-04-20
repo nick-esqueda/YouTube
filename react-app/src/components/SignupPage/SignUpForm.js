@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux'
-import { Redirect } from 'react-router-dom';
-import { signUp } from '../../store/session';
+import { Link, Redirect } from 'react-router-dom';
+import { login, signUp } from '../../store/session';
 
 import './SignupPage.css';
 
@@ -23,6 +23,10 @@ const SignUpForm = () => {
       }
     }
   };
+  
+  const loginDemoUser = async () => {
+    await dispatch(login('demo@aa.io', 'password'))
+  }
 
   const updateUsername = (e) => {
     setUsername(e.target.value);
@@ -87,8 +91,16 @@ const SignUpForm = () => {
           value={repeatPassword}
           required={true}
         ></input>
+        <button type='submit' className='btn btn--blue-outline'>Sign Up</button>
       </div>
-      <button type='submit'>Sign Up</button>
+
+      <div>
+        <Link to='/login' style={{ color: 'var(--blue)' }}>Already have an account?</Link>
+      </div>
+      
+      <div>
+        <button type='button' onClick={loginDemoUser} className='btn btn--blue-outline'>demo</button>
+      </div>
     </form>
   );
 };

@@ -19,6 +19,10 @@ const LoginForm = () => {
       setErrors(data);
     }
   };
+  
+  const loginDemoUser = async () => {
+    await dispatch(login('demo@aa.io', 'password'));
+  }
 
   const updateEmail = (e) => {
     setEmail(e.target.value);
@@ -58,11 +62,15 @@ const LoginForm = () => {
           value={password}
           onChange={updatePassword}
         />
-        <button type='submit'>Login</button>
+        <button type='submit' className='btn btn--blue-outline'>Login</button>
       </div>
 
       <div>
-        <Link to='/signup'>Don't have an account yet?</Link>
+        <Link to='/signup' style={{ color: 'var(--blue)' }}>Don't have an account yet?</Link>
+      </div>
+
+      <div>
+        <button type='button' onClick={loginDemoUser} className='btn btn--blue-outline'>demo</button>
       </div>
     </form>
   );
