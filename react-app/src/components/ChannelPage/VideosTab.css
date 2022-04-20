@@ -1,5 +1,6 @@
 #videos-tab {
     width: 100%;
+    max-width: 1280px;
     padding: 32px;
 }
 
@@ -12,6 +13,11 @@
 
 
 #videos-tab .video-row-grid {
-    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    grid-template-columns: repeat(auto-fit, 210px);
     gap: 8px;
+}
+
+.thumbnail {
+    aspect-ratio: 16/9;
+    
 }

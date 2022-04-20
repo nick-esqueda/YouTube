@@ -45,7 +45,7 @@ export default function ChannelPage() {
 
 							<div className='col-left full-size'>
 								<h2>{channel.channelName}</h2>
-								<span className='subcount'>[# of subscribers]</span>
+								<span className='subcount' style={{ visibility: 'hidden' }}>[# of subscribers]</span>
 							</div>
 
 							<button className='btn btn--red disabled'>
