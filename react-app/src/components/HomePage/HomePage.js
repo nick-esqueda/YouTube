@@ -9,8 +9,6 @@ import './HomePage.css';
 export default function HomePage() {
     const dispatch = useDispatch();
 
-    // trading this out so that we don't have to Object.values the useSelector
-    // const videos = useSelector(state => state.videos);
     const [videos, setVideos] = useState([]);
     const [isLoaded, setIsLoaded] = useState(false);
     const [nextPage, setNextPage] = useState(2);
@@ -18,7 +16,6 @@ export default function HomePage() {
     useEffect(() => {
         (async () => {
             const videoArr = await dispatch(fetchHomeVideos(1))
-            console.log(videoArr, '\n\n\n');
             setVideos(videoArr);
             setIsLoaded(true);
         })()
