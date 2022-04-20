@@ -4,6 +4,7 @@ import { Link, Redirect } from 'react-router-dom';
 import { login } from '../../store/session';
 
 import './LoginPage.css';
+import logo from '../../static/yt_logo_rgb_dark.png'
 
 const LoginForm = () => {
 	const [errors, setErrors] = useState([]);
@@ -39,6 +40,10 @@ const LoginForm = () => {
 	return (
 		<div id="login-page">
 			<form onSubmit={onLogin} id='login-form'>
+				<div style={{ marginBottom: '42px' }}>
+					<img src={logo} alt='logo' style={{ width: '160px' }} />
+				</div>
+
 				<div className='col-right'>
 					{errors.map((error, ind) => (
 						<span key={ind} className="subcount">{error.toUpperCase()}</span>

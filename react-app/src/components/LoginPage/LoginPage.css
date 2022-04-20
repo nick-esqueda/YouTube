@@ -6,11 +6,18 @@
 #login-form {
     min-width: 300px;
     width: 40%;
+    max-width: 560px;
+    padding: 64px 32px;
+    border-radius: 4px;
+    border: 1px solid var(--gray-dark);
+    
+    background-color: var(--gray-darkest);
+    box-shadow: 4px 6px 16px 16px #21212129;
     
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-38%, -70%);
+    transform: translate(-50%, -50%);
 }
 
 
@@ -18,7 +25,7 @@
 #login-form input {
     width: 100%;
     padding: 12px;
-    margin: 16px 0;
+    margin: 16px 0 36px;
     border: 1px solid var(--gray-light);
     border-radius: 4px;
     
