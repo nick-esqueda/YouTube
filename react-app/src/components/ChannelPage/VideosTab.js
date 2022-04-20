@@ -4,11 +4,14 @@ import { Link } from 'react-router-dom';
 import './VideosTab.css';
 
 export default function VideosTab({ channel }) {
-	
-	
+
+
 	return (
 		<div id="videos-tab">
-			<h4>Uploads</h4>
+			{channel.videos.length === 0
+				? <span className='subcount'>This channel does not have any videos yet.</span>
+				: <h4>Uploads</h4>
+			}
 
 			<div className='video-row-grid row-left'>
 				{channel.videos.map(video => (
