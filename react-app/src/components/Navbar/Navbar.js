@@ -22,18 +22,18 @@ export default function Navbar() {
                     Explore
                 </div>
             </Link>
-            <Link to={`/`}>
+            {/* <Link to={`/`}>
                 <div className='svg-wrapper disabled'>
                     <img src={subscriptions} alt='bell-icon' className='svg' />
                     Subscriptions
                 </div>
-            </Link>
-            <Link to={`/`}>
+            </Link> */}
+            {/* <Link to={`/`}>
                 <div className='svg-wrapper disabled'>
                     <img src={library} alt='bell-icon' className='svg' />
                     Library
                 </div>
-            </Link>
+            </Link> */}
         </nav>
     )
 }

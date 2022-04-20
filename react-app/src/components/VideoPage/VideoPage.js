@@ -6,6 +6,9 @@ import CommentCard from '../CommentCard/CommentCard';
 import CommentForm from '../CommentForm/CommentForm';
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 
+import threeDots from '../../static/icons/three-dots.png';
+import pencil from '../../static/icons/pencil.png';
+import trash from '../../static/icons/trash.png';
 import './VideoPage.css';
 
 export default function VideoPage() {
@@ -15,6 +18,7 @@ export default function VideoPage() {
 
     const sessionUser = useSelector(state => state.session.user);
     const video = useSelector(state => state.videos[videoId]);
+    const [showMenu, setShowMenu] = useState(false);
     const [showMore, setShowMore] = useState(false);
     const [isLoaded, setIsLoaded] = useState(false);
 
@@ -23,18 +27,38 @@ export default function VideoPage() {
             await dispatch(fetchVideo(videoId));
             setIsLoaded(true);
         })()
-    }, [dispatch])
+    }, [dispatch]);
+
+    useEffect(() => {
+        if (!showMenu) return;
+
+        const closeMenu = () => {
+            setShowMenu(false);
+        };
+
+        document.addEventListener('click', closeMenu);
+
+        return () => {
+            setShowMenu(false);
+            document.removeEventListener("click", closeMenu);
+        }
+    }, [showMenu]);
+
+    const openMenu = () => {
+        if (showMenu) return;
+        setShowMenu(true);
+    };
 
     const confirmDelete = async e => {
-		if (window.confirm('Are you sure you want to delete your video?')) {
+        if (window.confirm('Are you sure you want to delete your video?')) {
             if (window.confirm('Video deletion is permanent and cannot be undone. Do you wish to continue?')) {
                 setIsLoaded(false);
                 await dispatch(deleteVideo(video.id));
                 return history.push('/');
             }
-		}
-	}
-    
+        }
+    }
+
     return !isLoaded ? null : (
         <div id='video-page' className=''>
             <div className='left'>
@@ -53,7 +77,8 @@ export default function VideoPage() {
                         <h4>{video.title}</h4>
                         <span className='subcount'>{video.createdAt}</span>
                     </div>
-                    <div className='row-space-between'>
+                    
+                    {/* <div className='row-space-between'>
                         {sessionUser.id !== video.channel.id ? null : (
                             <>
                                 <button
@@ -66,7 +91,30 @@ export default function VideoPage() {
                                 >delete</button>
                             </>
                         )}
-                    </div>
+                    </div> */}
+                    
+                    {video.channelId === sessionUser.id && (
+                        <div className='svg-wrapper pointer' onClick={openMenu}>
+                            <img src={threeDots} alt="menu-icon" className="svg" />
+                        </div>
+                    )}
+
+                    {showMenu && (
+                        <div id='video-dropdown' className='col-left dropdown-section'>
+                            <div onClick={() => history.push(`/videos/${video.id}/edit`)} className='row-space-between'>
+                                <div className='svg-wrapper'>
+                                    <img src={pencil} alt="edit" className='svg' />
+                                </div>
+                                Edit Video
+                            </div>
+                            <div onClick={confirmDelete} className='row-space-between'>
+                                <div className='svg-wrapper'>
+                                    <img src={trash} alt="delete" className='svg' />
+                                </div>
+                                Delete Video
+                            </div>
+                        </div>
+                    )}
                 </div>
 
 
@@ -79,7 +127,7 @@ export default function VideoPage() {
                     <div className='col-left'>
                         <div className='col-space-even full-size channel-and-subs'>
                             <h4>{video.channel.channelName}</h4>
-                            <span className='subcount'>[# of subscribers]</span>
+                            <span className='subcount' style={{ visibility: 'hidden' }}>[# of subscribers]</span>
                         </div>
 
                         <p className={showMore ? "show-more" : "show-less"}>{video.description}</p>
@@ -95,18 +143,18 @@ export default function VideoPage() {
                         }
                     </div>
                 </div>
-                
-                
+
+
                 <div id='comments-section' className='full-size col-left'>
                     {video.comments.length} comments
-                    
+
                     <CommentForm videoId={video.id} />
-                    
+
                     {video.comments.map(comment => (
                         <CommentCard key={comment.id} comment={comment} video={video} />
                     ))}
                 </div>
-                
+
             </div>
 
         </div>

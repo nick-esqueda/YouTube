@@ -28,8 +28,8 @@
 .video-info {
     width: 100%;
     padding: 16px;
-    border-bottom: 2px solid var(--gray-dark)
-    
+    border-bottom: 2px solid var(--gray-dark);
+    position: relative;
 }
 .video-info h4 {
     margin: 10px 0;
@@ -60,6 +60,18 @@
 .subcount.show {
     margin: 8px 0;
     /* font-size: 12px; */
+}
+
+
+/* DROPDOWN *********************/
+#video-dropdown {
+    width: 150px;
+    
+    background-color: rgb(33, 33, 33);
+    
+    position: absolute;
+    top: 64px; right: 24px;
+    z-index: 10;
 }
 
 

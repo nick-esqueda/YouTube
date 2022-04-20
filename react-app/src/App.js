@@ -12,8 +12,7 @@ import ChannelPage from './components/ChannelPage/ChannelPage';
 import SettingsPage from './components/SettingsPage/SettingsPage';
 import VideoPage from './components/VideoPage/VideoPage';
 import HomePage from './components/HomePage/HomePage';
-import UploadVideoForm from './components/UploadVideoForm/UploadVideoForm';
-import EditVideoPage from './components/EditVideoPage/EditVideoPage';
+import VideoForm from './components/VideoForm/VideoForm';
 
 function App() {
 	const dispatch = useDispatch();
@@ -49,14 +48,15 @@ function App() {
 				<Route path='/watch/:videoId' exact={true}>
 					<VideoPage />
 				</Route>
-				
-				<ProtectedRoute path='/videos/:videoId/edit' exact={true}>
-					<EditVideoPage />
-				</ProtectedRoute>
 
 				<ProtectedRoute path='/upload' exact={true}>
 					<Navbar />
-					<UploadVideoForm />
+					<VideoForm />
+				</ProtectedRoute>
+				
+				<ProtectedRoute path='/videos/:videoId/edit' exact={true}>
+					<Navbar />
+					<VideoForm />
 				</ProtectedRoute>
 
 				<ProtectedRoute path='/channels/:channelId'>

@@ -12,7 +12,7 @@ export default function AboutTab({ channel }) {
             <div id='about-tab-right' className='col-left'>
                 <span style={{ paddingTop: '0' }}>Stats</span>
                 <span>Joined {channel.createdAt}</span>
-                <span>[view count]</span>
+                {/* <span>[view count]</span> */}
             </div>
         </div>
     )

@@ -36,7 +36,7 @@ export default function ProfileIcon({ channel, isNav }) {
 
     const linkToProfile = () => {
         window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-        history.push(`/channels/${channel.id}/home`);
+        history.push(`/channels/${channel.id}/videos`);
     }
     
     const linkToSettings = () => {
@@ -80,7 +80,7 @@ export default function ProfileIcon({ channel, isNav }) {
 
                         <div className="left-align col-left" style={{ height: '100%', justifyContent: 'space-between', fontWeight: '500' }}>
                             {channel.channelName}
-                            <a href='https://www.linkedin.com/in/nick-esqueda/' className='link'>Looking for help?</a>
+                            <a href='https://www.linkedin.com/in/nick-esqueda/' className='link' target="_blank" >Looking for help?</a>
                         </div>
                     </div>
 

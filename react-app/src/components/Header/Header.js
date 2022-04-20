@@ -36,7 +36,7 @@ export default function Header() {
 	return (
 		<header id='header' className='row-space-between'>
 			<div id='header__left' className='row-space-even'>
-				<div className='svg-wrapper'>
+				<div className='svg-wrapper' style={{ visibility: 'hidden' }}>
 					<img src={hamburger} alt="menu-icon" className="svg" />
 				</div>
 
@@ -51,17 +51,16 @@ export default function Header() {
 
 
 			{!sessionUser ? loggedOut : (
-				<div id='header__right' className='row-space-even'>
+				<div id='header__right' className='row-right'>
 					<div className='svg-wrapper pointer' onClick={_ => history.push('/upload')}>
 						<img src={newVideo} alt='bell-icon' className='svg' />
 					</div>
-					<div className='svg-wrapper disabled'>
+					{/* <div className='svg-wrapper disabled'>
 						<img src={appsMenu} alt='apps-menu' className='svg' />
-
-					</div>
-					<div className='svg-wrapper disabled'>
+					</div> */}
+					{/* <div className='svg-wrapper disabled'>
 						<img src={bellIcon} alt='bell-icon' className='svg' />
-					</div>
+					</div> */}
 					<div className='pfp-wrapper-nav'>
 						<ProfileIcon channel={sessionUser} isNav={true} />
 					</div>

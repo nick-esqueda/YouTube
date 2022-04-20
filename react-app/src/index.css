@@ -107,6 +107,10 @@ span.subcount {
     color: var(--blue);
 }
 
+.character-count {
+    color: var(--gray-light);
+}
+
 
 
 /* CLASSES ************************************/
@@ -157,6 +161,13 @@ span.subcount {
 }
 
 /* FLEX COLUMN */
+.col-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .col-top {
     display: flex;
     flex-direction: column;
@@ -173,6 +184,12 @@ span.subcount {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.col-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .col-space-between {
@@ -284,7 +301,7 @@ span.subcount {
 }
 
 .red-outline {
-    border: 1px solid red;
+    border: 1px solid var(--red);
 }
 
 

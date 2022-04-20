@@ -10,7 +10,7 @@ export default function VideosTab({ channel }) {
 		<div id="videos-tab">
 			<h4>Uploads</h4>
 
-			<div className='video-row-grid'>
+			<div className='video-row-grid row-left'>
 				{channel.videos.map(video => (
 					<div key={video.id} className='video-grid-item col-top'>
 						<Link to={`/watch/${video.id}`} className='thumbnail-wrapper col-top'>

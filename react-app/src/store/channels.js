@@ -1,3 +1,5 @@
+import { getTimeElapsed } from "../utils";
+
 // ACTION VARIABLES ***************************************
 const ADD_CHANNEL = 'channels/ADD_CHANNEL';
 
@@ -30,6 +32,13 @@ const channelsReducer = (state = {}, action) => {
     switch (action.type) {
         
         case ADD_CHANNEL: {
+            const dateParts = action.channel.createdAt.split(' ');
+            action.channel.createdAt = `${dateParts[2]} ${dateParts[1]}, ${dateParts[3]}`;
+            
+            action.channel.videos.forEach(video => {
+                video.createdAt = getTimeElapsed(video.createdAt);
+            })
+            
             newState[action.channel.id] = action.channel;
             return newState;
         }
