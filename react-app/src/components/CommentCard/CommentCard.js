@@ -66,7 +66,7 @@ export default function CommentCard({ comment, video }) {
                 )}
             </div>
 
-            {comment.channel.id === sessionUser.id && showDots && (
+            {comment.channel.id === sessionUser?.id && showDots && (
                 <div className='svg-wrapper pointer' onClick={openMenu}>
                     <img src={threeDots} alt="menu-icon" className="svg" />
                 </div>
