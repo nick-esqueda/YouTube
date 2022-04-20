@@ -32,6 +32,9 @@ const channelsReducer = (state = {}, action) => {
     switch (action.type) {
         
         case ADD_CHANNEL: {
+            const dateParts = action.channel.createdAt.split(' ');
+            action.channel.createdAt = `${dateParts[2]} ${dateParts[1]}, ${dateParts[3]}`;
+            
             action.channel.videos.forEach(video => {
                 video.createdAt = getTimeElapsed(video.createdAt);
             })

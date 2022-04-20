@@ -36,7 +36,7 @@ export default function ProfileIcon({ channel, isNav }) {
 
     const linkToProfile = () => {
         window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-        history.push(`/channels/${channel.id}/home`);
+        history.push(`/channels/${channel.id}/videos`);
     }
     
     const linkToSettings = () => {

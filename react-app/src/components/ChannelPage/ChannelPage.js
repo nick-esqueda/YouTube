@@ -4,7 +4,6 @@ import { NavLink, Route, Router, Switch, useParams, useRouteMatch } from 'react-
 import { fetchChannel } from '../../store/channels';
 
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
-import User from '../User';
 import AboutTab from './AboutTab';
 
 import './ChannelPage.css';
@@ -17,7 +16,7 @@ export default function ChannelPage() {
 	const dispatch = useDispatch();
 	const channel = useSelector(state => state.channels[channelId]);
 	const [isLoaded, setIsLoaded] = useState(false);
-	const [activeTab, setActiveTab] = useState(1);
+	// const [activeTab, setActiveTab] = useState(1);
 
 	useEffect(() => {
 		if (!channelId) return;
@@ -48,28 +47,28 @@ export default function ChannelPage() {
 								<span className='subcount' style={{ visibility: 'hidden' }}>[# of subscribers]</span>
 							</div>
 
-							<button className='btn btn--red disabled'>
+							{/* <button className='btn btn--red disabled'>
 								SUBSCRIBE
-							</button>
+							</button> */}
 						</div>
 
 						<div className='tabs row-space-between'>
 							<div id='channel__tabs-container' className='row-space-even'>
-								<NavLink to={`${url}/home`}
-									className={activeTab === 1 ? 'tab active-tab' : 'tab'}
-									onClick={() => setActiveTab(1)}
-								>HOME</NavLink>
+								{/* <NavLink to={`${url}/home`}
+									className='tab'
+									activeClassName="active-tab"
+								>HOME</NavLink> */}
 								<NavLink to={`${url}/videos`}
-									className={activeTab === 2 ? 'tab active-tab' : 'tab'}
-									onClick={() => setActiveTab(2)}
+									className='tab'
+									activeClassName="active-tab"
 								>VIDEOS</NavLink>
-								<NavLink to={`${url}/channels`}
-									className={activeTab === 3 ? 'tab active-tab' : 'tab'}
-									onClick={() => setActiveTab(3)}
-								>CHANNELS</NavLink>
+								{/* <NavLink to={`${url}/channels`}
+									className='tab'
+									activeClassName="active-tab"
+								>CHANNELS</NavLink> */}
 								<NavLink to={`${url}/about`}
-									className={activeTab === 4 ? 'tab active-tab' : 'tab'}
-									onClick={() => setActiveTab(4)}
+									className='tab'
+									activeClassName="active-tab"
 								>ABOUT</NavLink>
 							</div>
 						</div>
