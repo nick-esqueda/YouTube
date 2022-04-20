@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { useHistory } from 'react-router-dom';
 
 import './ProfileIcon.css';
@@ -12,6 +12,7 @@ import { logout } from '../../store/session';
 export default function ProfileIcon({ channel, isNav }) {
     const history = useHistory();
     const dispatch = useDispatch();
+    const pfpRef = useRef();
     const [showMenu, setShowMenu] = useState(false);
 
     useEffect(() => {
@@ -59,8 +60,11 @@ export default function ProfileIcon({ channel, isNav }) {
             onClick={isNav ? openMenu : linkToProfile}
         >
             <img
+                id='profile-icon-image'
+                ref={pfpRef}
                 className='profile-icon'
                 src={channel?.profileImageUrl?.startsWith('https') ? channel.profileImageUrl : defaultPfp}
+                onError={() => pfpRef.current.src = defaultPfp}
                 alt="profile-icon"
             />
 
