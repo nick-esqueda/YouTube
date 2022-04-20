@@ -11573,217 +11573,217 @@ def seed_videos():
 
 
 
-#     c93b3131c3063a48f622339d9d8c4e9a = Video(channelId="55", title='''10 Things WWE Wants You To Forget About WrestleMania 38''', description='''WWE WrestleMania 38. Featuring: Botches! Burials! THE WORST STUNNER EVER! Annnnnnd...it's gone.
+    c93b3131c3063a48f622339d9d8c4e9a = Video(channelId="55", title='''10 Things WWE Wants You To Forget About WrestleMania 38''', description='''WWE WrestleMania 38. Featuring: Botches! Burials! THE WORST STUNNER EVER! Annnnnnd...it's gone.
 
-#     For more awesome content, check out: http://whatculture.com/wwe 
-#     Listen to our free podcasts: http://www.whatculture.com/wrestleculture 
+    For more awesome content, check out: http://whatculture.com/wwe 
+    Listen to our free podcasts: http://www.whatculture.com/wrestleculture 
 
-#     Follow us! 
-#     Facebook: https://www.facebook.com/whatculturewwe 
-#     Twitter: https://www.twitter.com/whatculturewwe 
-#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="yYHkeSY56Nw", thumbnailUrl="https://i.ytimg.com/vi/yYHkeSY56Nw/hqdefault.jpg", createdAt="2022-04-14T21:30:09Z")
+    Follow us! 
+    Facebook: https://www.facebook.com/whatculturewwe 
+    Twitter: https://www.twitter.com/whatculturewwe 
+    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="yYHkeSY56Nw", thumbnailUrl="https://i.ytimg.com/vi/yYHkeSY56Nw/hqdefault.jpg", createdAt="2022-04-14T21:30:09Z")
 
 
 
-#     c687f1558710fa46afe21e518a7e6555 = Video(channelId="55", title='''Ups & Downs From AEW Dynamite (Apr 13)''', description='''Our AEW Dynamite review as Simon Miller talks about Samoa Joe vs Minoru Suzuki, CM Punk vs Penta Oscuro, Jungle Express vs ReDRagon, Chris Jericho, Jake Hagar and Daniel Garcia vs Eddie Kingston, Santana and Ortiz, Keith Lee and Swerve Strickland vs Ricky Starks and Powerhouse Hobbs, MJF and Wardlow and more. 
+    c687f1558710fa46afe21e518a7e6555 = Video(channelId="55", title='''Ups & Downs From AEW Dynamite (Apr 13)''', description='''Our AEW Dynamite review as Simon Miller talks about Samoa Joe vs Minoru Suzuki, CM Punk vs Penta Oscuro, Jungle Express vs ReDRagon, Chris Jericho, Jake Hagar and Daniel Garcia vs Eddie Kingston, Santana and Ortiz, Keith Lee and Swerve Strickland vs Ricky Starks and Powerhouse Hobbs, MJF and Wardlow and more. 
 
-#     For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
-#     Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
+    For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
+    Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
 
-#     Follow us!
-#     Facebook: https://www.facebook.com/whatculturewwe 
-#     Twitter: https://twitter.com/whatculturewwe 
-#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="9PnmNwVJBEo", thumbnailUrl="https://i.ytimg.com/vi/9PnmNwVJBEo/maxresdefault.jpg", createdAt="2022-04-14T13:39:16Z")
+    Follow us!
+    Facebook: https://www.facebook.com/whatculturewwe 
+    Twitter: https://twitter.com/whatculturewwe 
+    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="9PnmNwVJBEo", thumbnailUrl="https://i.ytimg.com/vi/9PnmNwVJBEo/maxresdefault.jpg", createdAt="2022-04-14T13:39:16Z")
 
 
 
-#     c4dbfaad625449f4627b3b1dc7e203b5 = Video(channelId="55", title='''7ft3 GIANT Debuts, Title Change AEW Dynamite''', description='''In Today's #AEW & #WWE Wrestling News:
+    c4dbfaad625449f4627b3b1dc7e203b5 = Video(channelId="55", title='''7ft3 GIANT Debuts, Title Change AEW Dynamite''', description='''In Today's #AEW & #WWE Wrestling News:
 
-#     0:00 Roundup
-#     00:54 7ft3 GIANT Debuts On AEW Dynamite
-#     05:19 Title Change On AEW Dynamite
-#     07:27 Big AEW Video Game Update: Release Date Revealed?!
-#     09:12 WWE's UK Stadium Show Is In HUGE Demand
-#     10:58 Twitter Questions
+    0:00 Roundup
+    00:54 7ft3 GIANT Debuts On AEW Dynamite
+    05:19 Title Change On AEW Dynamite
+    07:27 Big AEW Video Game Update: Release Date Revealed?!
+    09:12 WWE's UK Stadium Show Is In HUGE Demand
+    10:58 Twitter Questions
 
-#     For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
-#     Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
+    For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
+    Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
 
-#     Follow us!
-#     Facebook: https://www.facebook.com/whatculturewwe 
-#     Twitter: https://twitter.com/whatculturewwe 
-#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="KHZGh1rghW8", thumbnailUrl="https://i.ytimg.com/vi/KHZGh1rghW8/maxresdefault.jpg", createdAt="2022-04-14T10:49:58Z")
+    Follow us!
+    Facebook: https://www.facebook.com/whatculturewwe 
+    Twitter: https://twitter.com/whatculturewwe 
+    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="KHZGh1rghW8", thumbnailUrl="https://i.ytimg.com/vi/KHZGh1rghW8/maxresdefault.jpg", createdAt="2022-04-14T10:49:58Z")
 
 
 
-#     ccfe5e93cf8c2330957b8be2664d2d5e = Video(channelId="55", title='''10 Wrestlers Who Lost Touch With Humanity''', description='''On this day, we grow weary, starring Mad Edge, Bad Cody Rhodes and Sad Seth Rollins.
+    ccfe5e93cf8c2330957b8be2664d2d5e = Video(channelId="55", title='''10 Wrestlers Who Lost Touch With Humanity''', description='''On this day, we grow weary, starring Mad Edge, Bad Cody Rhodes and Sad Seth Rollins.
 
-#     For more awesome content, check out: http://whatculture.com/wwe 
-#     Listen to our free podcasts: http://www.whatculture.com/wrestleculture 
+    For more awesome content, check out: http://whatculture.com/wwe 
+    Listen to our free podcasts: http://www.whatculture.com/wrestleculture 
 
-#     Follow us! 
-#     Facebook: https://www.facebook.com/whatculturewwe 
-#     Twitter: https://www.twitter.com/whatculturewwe 
-#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="PE4ajp4PeLA", thumbnailUrl="https://i.ytimg.com/vi/PE4ajp4PeLA/hqdefault.jpg", createdAt="2022-04-13T19:15:01Z")
+    Follow us! 
+    Facebook: https://www.facebook.com/whatculturewwe 
+    Twitter: https://www.twitter.com/whatculturewwe 
+    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="PE4ajp4PeLA", thumbnailUrl="https://i.ytimg.com/vi/PE4ajp4PeLA/hqdefault.jpg", createdAt="2022-04-13T19:15:01Z")
 
 
 
-#     c40b71355e561564f66821bf7cd506de = Video(channelId="55", title='''AEW's Danhausen - Why He Can't Curse Hook, How The Curse Works, Wants To Own ROH, Hires Simon Miller''', description='''AEW's Danhausen talks about how his curse works, why he can't curse Hook, wanting to own ROH and wanting Britt Baker to give him teeth, then he hires Simon Miller and steals his money.
+    c40b71355e561564f66821bf7cd506de = Video(channelId="55", title='''AEW's Danhausen - Why He Can't Curse Hook, How The Curse Works, Wants To Own ROH, Hires Simon Miller''', description='''AEW's Danhausen talks about how his curse works, why he can't curse Hook, wanting to own ROH and wanting Britt Baker to give him teeth, then he hires Simon Miller and steals his money.
 
-#     For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
-#     Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
+    For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
+    Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
 
-#     Follow us!
-#     Facebook: https://www.facebook.com/whatculturewwe 
-#     Twitter: https://twitter.com/whatculturewwe 
-#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="4yKqg8fe_aE", thumbnailUrl="https://i.ytimg.com/vi/4yKqg8fe_aE/maxresdefault.jpg", createdAt="2022-04-13T16:03:59Z")
+    Follow us!
+    Facebook: https://www.facebook.com/whatculturewwe 
+    Twitter: https://twitter.com/whatculturewwe 
+    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="4yKqg8fe_aE", thumbnailUrl="https://i.ytimg.com/vi/4yKqg8fe_aE/maxresdefault.jpg", createdAt="2022-04-13T16:03:59Z")
 
 
 
-#     ce429cce63ddb03eb3b787aaa28fad04 = Video(channelId="55", title='''Kurt Angle Has Offers From Both WWE And AEW, Being Better In IMPACT Than WWE, Samoa Joe & More''', description='''Simon Miller talks to Kurt Angle at Wrestlecon about receiving offers from both AEW and WWE, What it will take for him to return, his IMPACT run being better than his WWE one, the differences between today's wrestlers and the past, creating the Kurt Angle character, being funny vs being serious, Samoa Joe returning to ROH and AEW, AJ Styles and more. 
+    ce429cce63ddb03eb3b787aaa28fad04 = Video(channelId="55", title='''Kurt Angle Has Offers From Both WWE And AEW, Being Better In IMPACT Than WWE, Samoa Joe & More''', description='''Simon Miller talks to Kurt Angle at Wrestlecon about receiving offers from both AEW and WWE, What it will take for him to return, his IMPACT run being better than his WWE one, the differences between today's wrestlers and the past, creating the Kurt Angle character, being funny vs being serious, Samoa Joe returning to ROH and AEW, AJ Styles and more. 
 
-#     For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
-#     Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
+    For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
+    Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
 
-#     Follow us!
-#     Facebook: https://www.facebook.com/whatculturewwe 
-#     Twitter: https://twitter.com/whatculturewwe 
-#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="YHgW_HqdCIg", thumbnailUrl="https://i.ytimg.com/vi/YHgW_HqdCIg/maxresdefault.jpg", createdAt="2022-04-13T13:43:28Z")
+    Follow us!
+    Facebook: https://www.facebook.com/whatculturewwe 
+    Twitter: https://twitter.com/whatculturewwe 
+    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="YHgW_HqdCIg", thumbnailUrl="https://i.ytimg.com/vi/YHgW_HqdCIg/maxresdefault.jpg", createdAt="2022-04-13T13:43:28Z")
 
 
 
-#     c1710aa1ab26f56e1363dd1623bf7dff = Video(channelId="55", title='''What WWE Really Thinks Of Cody Rhodes''', description='''Today's wrestling news:
-#     0:00 Intro
-#     0:28 Who Do WWE Class As Their Top Heels and Faces?
-#     3:10 WWE Stacking Money In The Bank card?
-#     4:44 New NXT 2.0 Tag Team Champions Crowned
-#     8:00 Young Rock Teases Roman Reigns vs The Rock At WrestleMania
-#     9:58 Twitter Questions
-#     16:06 And Finally...
+    c1710aa1ab26f56e1363dd1623bf7dff = Video(channelId="55", title='''What WWE Really Thinks Of Cody Rhodes''', description='''Today's wrestling news:
+    0:00 Intro
+    0:28 Who Do WWE Class As Their Top Heels and Faces?
+    3:10 WWE Stacking Money In The Bank card?
+    4:44 New NXT 2.0 Tag Team Champions Crowned
+    8:00 Young Rock Teases Roman Reigns vs The Rock At WrestleMania
+    9:58 Twitter Questions
+    16:06 And Finally...
 
-#     For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
-#     Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
+    For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
+    Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
 
-#     Follow us!
-#     Facebook: https://www.facebook.com/whatculturewwe 
-#     Twitter: https://twitter.com/whatculturewwe 
-#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="tDO_FUZJQSg", thumbnailUrl="https://i.ytimg.com/vi/tDO_FUZJQSg/hqdefault.jpg", createdAt="2022-04-13T09:33:19Z")
+    Follow us!
+    Facebook: https://www.facebook.com/whatculturewwe 
+    Twitter: https://twitter.com/whatculturewwe 
+    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="tDO_FUZJQSg", thumbnailUrl="https://i.ytimg.com/vi/tDO_FUZJQSg/hqdefault.jpg", createdAt="2022-04-13T09:33:19Z")
 
 
 
-#     c9123a3737897db50af638ae17606dc2 = Video(channelId="55", title='''10 AEW Stars Who Desperately Need New Gimmicks''', description='''Penta Oscuro, Kris Statlander, and other AEW wrestlers in need of a character tweak...
+    c9123a3737897db50af638ae17606dc2 = Video(channelId="55", title='''10 AEW Stars Who Desperately Need New Gimmicks''', description='''Penta Oscuro, Kris Statlander, and other AEW wrestlers in need of a character tweak...
 
-#     For more awesome content, check out: http://whatculture.com/wwe 
-#     Listen to our free podcasts: http://www.whatculture.com/wrestleculture 
+    For more awesome content, check out: http://whatculture.com/wwe 
+    Listen to our free podcasts: http://www.whatculture.com/wrestleculture 
 
-#     Follow us! 
-#     Facebook: https://www.facebook.com/whatculturewwe 
-#     Twitter: https://www.twitter.com/whatculturewwe 
-#     Instagram: https://www.instagram.com/whatculturewrestling
+    Follow us! 
+    Facebook: https://www.facebook.com/whatculturewwe 
+    Twitter: https://www.twitter.com/whatculturewwe 
+    Instagram: https://www.instagram.com/whatculturewrestling
 
-#     #AEW''', videoUrl="KYaIVRDBQX8", thumbnailUrl="https://i.ytimg.com/vi/KYaIVRDBQX8/maxresdefault.jpg", createdAt="2022-04-12T18:45:00Z")
+    #AEW''', videoUrl="KYaIVRDBQX8", thumbnailUrl="https://i.ytimg.com/vi/KYaIVRDBQX8/maxresdefault.jpg", createdAt="2022-04-12T18:45:00Z")
 
 
 
-#     c6f31cb983cffbb489c9f66a237ef8ad = Video(channelId="55", title='''We Tried To Interview WWE's Street Profits But Montez Ford Had Other Ideas''', description='''Adam Wilbourn tried to interview the Street Profits at Walemania before WWE WrestleMania 38 but it didn't go very well. Montez Ford just wanted to steal his shirt.
+    c6f31cb983cffbb489c9f66a237ef8ad = Video(channelId="55", title='''We Tried To Interview WWE's Street Profits But Montez Ford Had Other Ideas''', description='''Adam Wilbourn tried to interview the Street Profits at Walemania before WWE WrestleMania 38 but it didn't go very well. Montez Ford just wanted to steal his shirt.
 
-#     For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
-#     Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
+    For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
+    Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
 
-#     Follow us!
-#     Facebook: https://www.facebook.com/whatculturewwe 
-#     Twitter: https://twitter.com/whatculturewwe 
-#     Instagram: https://www.instagram.com/whatculturewrestling
+    Follow us!
+    Facebook: https://www.facebook.com/whatculturewwe 
+    Twitter: https://twitter.com/whatculturewwe 
+    Instagram: https://www.instagram.com/whatculturewrestling
 
-#     #wwe''', videoUrl="gsvgwpw0Tuc", thumbnailUrl="https://i.ytimg.com/vi/gsvgwpw0Tuc/maxresdefault.jpg", createdAt="2022-04-12T15:30:13Z")
+    #wwe''', videoUrl="gsvgwpw0Tuc", thumbnailUrl="https://i.ytimg.com/vi/gsvgwpw0Tuc/maxresdefault.jpg", createdAt="2022-04-12T15:30:13Z")
 
 
 
-#     c206f2fb1d364c43a094a5a208dcab59 = Video(channelId="55", title='''Ups & DownsFrom WWE Raw (Apr 11)''', description='''Our WWE Raw review as Simon Miller talks about Cody Rhodes vs The Miz, Veer vs Dominic Mysterio, AJ Styles vs Damien Priest, Naomi vs Liv Morgan, Sonya Deville attacking Bianca Belair, RK-Bro vs Alpha Academy, Usos vs Street Profits and much more. 
+    c206f2fb1d364c43a094a5a208dcab59 = Video(channelId="55", title='''Ups & DownsFrom WWE Raw (Apr 11)''', description='''Our WWE Raw review as Simon Miller talks about Cody Rhodes vs The Miz, Veer vs Dominic Mysterio, AJ Styles vs Damien Priest, Naomi vs Liv Morgan, Sonya Deville attacking Bianca Belair, RK-Bro vs Alpha Academy, Usos vs Street Profits and much more. 
 
-#     For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
-#     Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
+    For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
+    Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
 
-#     Follow us!
-#     Facebook: https://www.facebook.com/whatculturewwe 
-#     Twitter: https://twitter.com/whatculturewwe 
-#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="4b6i9cn7kyk", thumbnailUrl="https://i.ytimg.com/vi/4b6i9cn7kyk/hqdefault.jpg", createdAt="2022-04-12T13:00:05Z")
+    Follow us!
+    Facebook: https://www.facebook.com/whatculturewwe 
+    Twitter: https://twitter.com/whatculturewwe 
+    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="4b6i9cn7kyk", thumbnailUrl="https://i.ytimg.com/vi/4b6i9cn7kyk/hqdefault.jpg", createdAt="2022-04-12T13:00:05Z")
 
 
 
-#     c5c980892a1e9f8ecb3fbfd105212c47 = Video(channelId="55", title='''Secret Reddit Theory Claims Cesaro Has Debuted In AEW Already (And You Didn’t Notice)''', description='''In Today's #WWE & #AEW Wrestling News:
+    c5c980892a1e9f8ecb3fbfd105212c47 = Video(channelId="55", title='''Secret Reddit Theory Claims Cesaro Has Debuted In AEW Already (And You Didn’t Notice)''', description='''In Today's #WWE & #AEW Wrestling News:
 
-#     0:00 Roundup
-#     00:36 Reddit Theory Claims Cesaro Has Debuted In AEW Already
-#     03:47 Real Reason Behind Gunther's Incredible WWE Body Transformation
-#     06:40 New AEW Signing Confirmed
-#     09:25 Raw Star Undergoes Name Change
-#     11:02 Twitter Questions
+    0:00 Roundup
+    00:36 Reddit Theory Claims Cesaro Has Debuted In AEW Already
+    03:47 Real Reason Behind Gunther's Incredible WWE Body Transformation
+    06:40 New AEW Signing Confirmed
+    09:25 Raw Star Undergoes Name Change
+    11:02 Twitter Questions
 
-#     For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
-#     Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
+    For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
+    Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
 
-#     Follow us!
-#     Facebook: https://www.facebook.com/whatculturewwe 
-#     Twitter: https://twitter.com/whatculturewwe 
-#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="puvssDDjjx8", thumbnailUrl="https://i.ytimg.com/vi/puvssDDjjx8/hqdefault.jpg", createdAt="2022-04-12T10:29:49Z")
+    Follow us!
+    Facebook: https://www.facebook.com/whatculturewwe 
+    Twitter: https://twitter.com/whatculturewwe 
+    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="puvssDDjjx8", thumbnailUrl="https://i.ytimg.com/vi/puvssDDjjx8/hqdefault.jpg", createdAt="2022-04-12T10:29:49Z")
 
 
 
-#     c762def0d79d4ec3e996ef705152a612 = Video(channelId="55", title='''10 Times WWE Leaked Top Secret Information''', description='''Featuring damning rehearsals, bizarre company guidelines and the Undertaker breaking character. These are 10 times that WWE leaked top secret information.
+    c762def0d79d4ec3e996ef705152a612 = Video(channelId="55", title='''10 Times WWE Leaked Top Secret Information''', description='''Featuring damning rehearsals, bizarre company guidelines and the Undertaker breaking character. These are 10 times that WWE leaked top secret information.
 
-#     For more awesome content, check out: http://whatculture.com/wwe 
-#     Listen to our free podcasts: http://www.whatculture.com/wrestleculture 
+    For more awesome content, check out: http://whatculture.com/wwe 
+    Listen to our free podcasts: http://www.whatculture.com/wrestleculture 
 
-#     Follow us! 
-#     Facebook: https://www.facebook.com/whatculturewwe 
-#     Twitter: https://www.twitter.com/whatculturewwe 
-#     Instagram: https://www.instagram.com/whatculturewrestling
+    Follow us! 
+    Facebook: https://www.facebook.com/whatculturewwe 
+    Twitter: https://www.twitter.com/whatculturewwe 
+    Instagram: https://www.instagram.com/whatculturewrestling
 
-#     #WWE''', videoUrl="P4LKBw0RSNE", thumbnailUrl="https://i.ytimg.com/vi/P4LKBw0RSNE/hqdefault.jpg", createdAt="2022-04-11T20:00:11Z")
+    #WWE''', videoUrl="P4LKBw0RSNE", thumbnailUrl="https://i.ytimg.com/vi/P4LKBw0RSNE/hqdefault.jpg", createdAt="2022-04-11T20:00:11Z")
 
 
 
-#     c7964318a4996f2c75fa138651bf202e = Video(channelId="55", title='''How Roman Reigns Should Lose His WWE Unified Title''', description='''Simon Miller is back from WrestleMania 38 week with his take on how WWE should play out Roman Reigns' future. 
+    c7964318a4996f2c75fa138651bf202e = Video(channelId="55", title='''How Roman Reigns Should Lose His WWE Unified Title''', description='''Simon Miller is back from WrestleMania 38 week with his take on how WWE should play out Roman Reigns' future. 
 
-#     For more awesome content, check out: http://whatculture.com/wwe 
-#     Listen to our free podcasts: http://www.whatculture.com/wrestleculture 
+    For more awesome content, check out: http://whatculture.com/wwe 
+    Listen to our free podcasts: http://www.whatculture.com/wrestleculture 
 
-#     Follow us! 
-#     Facebook: https://www.facebook.com/whatculturewwe 
-#     Twitter: https://www.twitter.com/whatculturewwe 
-#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="6gX71nhiSQA", thumbnailUrl="https://i.ytimg.com/vi/6gX71nhiSQA/hqdefault.jpg", createdAt="2022-04-11T17:58:16Z")
+    Follow us! 
+    Facebook: https://www.facebook.com/whatculturewwe 
+    Twitter: https://www.twitter.com/whatculturewwe 
+    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="6gX71nhiSQA", thumbnailUrl="https://i.ytimg.com/vi/6gX71nhiSQA/hqdefault.jpg", createdAt="2022-04-11T17:58:16Z")
 
 
 
-#     c700b6d1ff9c05d68e918912e44a8e33 = Video(channelId="55", title='''Matt Cardona Gets Pissed At Us For Wanting An Interview''', description='''Simon Miller tried to interview Matt Cardona at Wrestlecon but it didn't go well.
+    c700b6d1ff9c05d68e918912e44a8e33 = Video(channelId="55", title='''Matt Cardona Gets Pissed At Us For Wanting An Interview''', description='''Simon Miller tried to interview Matt Cardona at Wrestlecon but it didn't go well.
 
-#     For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
-#     Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
+    For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
+    Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
 
-#     Follow us!
-#     Facebook: https://www.facebook.com/whatculturewwe 
-#     Twitter: https://twitter.com/whatculturewwe 
-#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="ge4kz5u1EPw", thumbnailUrl="https://i.ytimg.com/vi/ge4kz5u1EPw/maxresdefault.jpg", createdAt="2022-04-11T13:30:08Z")
+    Follow us!
+    Facebook: https://www.facebook.com/whatculturewwe 
+    Twitter: https://twitter.com/whatculturewwe 
+    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="ge4kz5u1EPw", thumbnailUrl="https://i.ytimg.com/vi/ge4kz5u1EPw/maxresdefault.jpg", createdAt="2022-04-11T13:30:08Z")
 
 
 
-#     cd069248d97c94689966331729a67fcc = Video(channelId="55", title='''Cesaro To AEW Teased, Former Wrestler In Secret WWE Talks''', description='''All of today's wrestling news including:
+    cd069248d97c94689966331729a67fcc = Video(channelId="55", title='''Cesaro To AEW Teased, Former Wrestler In Secret WWE Talks''', description='''All of today's wrestling news including:
 
-#     Intro (0:00)
-#     Backstage Secrets Behind Cody Rhodes’ First Week Back In WWE (0:25)
-#     AEW’s Mark Henry Teases “Cesaro Sighting” (5:33)
-#     Adam Scherr Accuses AEW’s Tony Khan Of “Paying Dirt Sheets” (7:53)
-#     Several Wrestlers No-Show GCW ‘Devil In A New Dress’ Show (12:01)
-#     Twitter Questions (13:29)
+    Intro (0:00)
+    Backstage Secrets Behind Cody Rhodes’ First Week Back In WWE (0:25)
+    AEW’s Mark Henry Teases “Cesaro Sighting” (5:33)
+    Adam Scherr Accuses AEW’s Tony Khan Of “Paying Dirt Sheets” (7:53)
+    Several Wrestlers No-Show GCW ‘Devil In A New Dress’ Show (12:01)
+    Twitter Questions (13:29)
 
-#     For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
-#     Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
+    For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
+    Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
 
-#     Follow us!
-#     Facebook: https://www.facebook.com/whatculturewwe 
-#     Twitter: https://twitter.com/whatculturewwe 
-#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="k7OJH3o0J9A", thumbnailUrl="https://i.ytimg.com/vi/k7OJH3o0J9A/hqdefault.jpg", createdAt="2022-04-11T11:15:01Z")
+    Follow us!
+    Facebook: https://www.facebook.com/whatculturewwe 
+    Twitter: https://twitter.com/whatculturewwe 
+    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="k7OJH3o0J9A", thumbnailUrl="https://i.ytimg.com/vi/k7OJH3o0J9A/hqdefault.jpg", createdAt="2022-04-11T11:15:01Z")
 
 
 
@@ -12279,1152 +12279,1152 @@ def seed_videos():
 
 
 
-#     c29ca780b616258f6a4e1436c26db30a = Video(channelId="52", title='''The Hamlet Factory: Famlet | adult swim smalls''', description='''The gang discuss the ups and downs of eternally writing Hamlet.
+    c29ca780b616258f6a4e1436c26db30a = Video(channelId="52", title='''The Hamlet Factory: Famlet | adult swim smalls''', description='''The gang discuss the ups and downs of eternally writing Hamlet.
     
-#     Co-created by Phil Jamesson and Jeremy Kaplowitz
-#     Art and animation by Jackie Gorman
-#     VO by Jeremy Kaplowitz, Phil Jamesson, Natalie Walker
+    Co-created by Phil Jamesson and Jeremy Kaplowitz
+    Art and animation by Jackie Gorman
+    VO by Jeremy Kaplowitz, Phil Jamesson, Natalie Walker
     
-#     Jeremy and Phil are comedians and writers in NYC who created The Hamlet Factory. They've worked together so much that they now finish each other’s sentences. Both of them wrote this so it looks less impressive, but trust us, it was very cool. Anyway, how are you?
+    Jeremy and Phil are comedians and writers in NYC who created The Hamlet Factory. They've worked together so much that they now finish each other’s sentences. Both of them wrote this so it looks less impressive, but trust us, it was very cool. Anyway, how are you?
     
-#     Jackie Gorman is an LA-based design artist and animator, originally from Maui, Hawai’i. She loves working with a variety of mediums, her most recent interest being needle felt.
+    Jackie Gorman is an LA-based design artist and animator, originally from Maui, Hawai’i. She loves working with a variety of mediums, her most recent interest being needle felt.
 
-#     Follow Jeremy on Instagram: https://www.instagram.com/lizardpeopleny/
-#     Follow Phil on Instagram: https://www.instagram.com/philjamesson/ 
+    Follow Jeremy on Instagram: https://www.instagram.com/lizardpeopleny/
+    Follow Phil on Instagram: https://www.instagram.com/philjamesson/ 
 
-#     #AdultSwim #AdultSwimSmalls​
+    #AdultSwim #AdultSwimSmalls​
 
-#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
+    Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
 
-#     About Adult Swim:
-#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+    About Adult Swim:
+    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-#     Connect with Adult Swim Online:
-#     Download the APPS: http://www.adultswim.com/apps/
-#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
-#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+    Connect with Adult Swim Online:
+    Download the APPS: http://www.adultswim.com/apps/
+    Visit Adult Swim WEBSITE: http://www.adultswim.com 
+    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-#     Watch Adult Swim in your country:
-#     United Kingdom: https://bit.ly/AS_UK
-#     Republic of Ireland: https://bit.ly/AS_UK
-#     France: https://bit.ly/AS_FR
-#     Spain: https://bit.ly/AS_SPA
-#     Germany: https://bit.ly/AS_GE
-#     Sweden: https://bit.ly/AS_NORDIC
-#     Norway: https://bit.ly/AS_NORDIC
-#     Denmark: https://bit.ly/AS_NORDIC
-#     Finland: https://bit.ly/AS_NORDIC
-#     South Africa: https://bit.ly/AS_SA
+    Watch Adult Swim in your country:
+    United Kingdom: https://bit.ly/AS_UK
+    Republic of Ireland: https://bit.ly/AS_UK
+    France: https://bit.ly/AS_FR
+    Spain: https://bit.ly/AS_SPA
+    Germany: https://bit.ly/AS_GE
+    Sweden: https://bit.ly/AS_NORDIC
+    Norway: https://bit.ly/AS_NORDIC
+    Denmark: https://bit.ly/AS_NORDIC
+    Finland: https://bit.ly/AS_NORDIC
+    South Africa: https://bit.ly/AS_SA
 
-#     The Hamlet Factory: Famlet | adult swim smalls''', videoUrl="IkLeto3RZrk", thumbnailUrl="https://i.ytimg.com/vi/IkLeto3RZrk/hqdefault.jpg", createdAt="2022-04-15T00:00:04Z")
+    The Hamlet Factory: Famlet | adult swim smalls''', videoUrl="IkLeto3RZrk", thumbnailUrl="https://i.ytimg.com/vi/IkLeto3RZrk/hqdefault.jpg", createdAt="2022-04-15T00:00:04Z")
 
 
 
-#     c2873da67663940852bbe18e89c3134e = Video(channelId="52", title='''Eric Overdoses on WaitMate | Tim and Eric Awesome Show, Great Job! | adult swim''', description='''In his excitement for Tim's birthday party, Eric overdoses on a wonder drug promoted by Jeff Goldblum called "WaitMate". Watch more Tim and Eric Awesome Show, Great Job! on HBO Max: http://bit.ly/3hRw9rU 
+    c2873da67663940852bbe18e89c3134e = Video(channelId="52", title='''Eric Overdoses on WaitMate | Tim and Eric Awesome Show, Great Job! | adult swim''', description='''In his excitement for Tim's birthday party, Eric overdoses on a wonder drug promoted by Jeff Goldblum called "WaitMate". Watch more Tim and Eric Awesome Show, Great Job! on HBO Max: http://bit.ly/3hRw9rU 
 
-#     #AdultSwim #TImAndEric #AwesomeShow
+    #AdultSwim #TImAndEric #AwesomeShow
 
-#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-#     What to watch next: More Tim and Eric! 
-#     https://youtube.com/playlist?list=PLQl8zBB7bPvLn-S1doBsiWkm7CzThEBDV 
+    What to watch next: More Tim and Eric! 
+    https://youtube.com/playlist?list=PLQl8zBB7bPvLn-S1doBsiWkm7CzThEBDV 
 
-#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
+    Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
 
-#     About Adult Swim:
-#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, The Eric Andre Show, Aqua Teen Hunger Force, and many more. 
+    About Adult Swim:
+    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, The Eric Andre Show, Aqua Teen Hunger Force, and many more. 
 
-#     Connect with Adult Swim Online:
-#     Download the APPS: http://www.adultswim.com/apps/
-#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
-#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+    Connect with Adult Swim Online:
+    Download the APPS: http://www.adultswim.com/apps/
+    Visit Adult Swim WEBSITE: http://www.adultswim.com 
+    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-#     Watch Adult Swim in your country:
-#     Canada: https://bit.ly/3gLYNeu 
-#     United Kingdom: https://bit.ly/AS_UK
-#     Republic of Ireland: https://bit.ly/AS_UK
-#     France: https://bit.ly/AS_FR
-#     Spain: https://bit.ly/AS_SPA
-#     Germany: https://bit.ly/AS_GE
-#     Sweden: https://bit.ly/AS_NORDIC
-#     Norway: https://bit.ly/AS_NORDIC
-#     Denmark: https://bit.ly/AS_NORDIC
-#     Finland: https://bit.ly/AS_NORDIC
-#     South Africa: https://bit.ly/AS_SA
+    Watch Adult Swim in your country:
+    Canada: https://bit.ly/3gLYNeu 
+    United Kingdom: https://bit.ly/AS_UK
+    Republic of Ireland: https://bit.ly/AS_UK
+    France: https://bit.ly/AS_FR
+    Spain: https://bit.ly/AS_SPA
+    Germany: https://bit.ly/AS_GE
+    Sweden: https://bit.ly/AS_NORDIC
+    Norway: https://bit.ly/AS_NORDIC
+    Denmark: https://bit.ly/AS_NORDIC
+    Finland: https://bit.ly/AS_NORDIC
+    South Africa: https://bit.ly/AS_SA
 
-#     Eric Overdoses on WaitMate | Tim and Eric Awesome Show, Great Job! | adult swim''', videoUrl="p8bSiydZvEU", thumbnailUrl="https://i.ytimg.com/vi/p8bSiydZvEU/maxresdefault.jpg", createdAt="2022-04-14T16:00:23Z")
+    Eric Overdoses on WaitMate | Tim and Eric Awesome Show, Great Job! | adult swim''', videoUrl="p8bSiydZvEU", thumbnailUrl="https://i.ytimg.com/vi/p8bSiydZvEU/maxresdefault.jpg", createdAt="2022-04-14T16:00:23Z")
 
 
 
-#     cedf3c2e2ac135be5186d8343ed955fc = Video(channelId="52", title='''Summoning Mr. Meeseeks | Rick and Morty | adult swim''', description='''I’m a compilation of all the best Mr. Meeseeks moments, look at me! Stream seasons 1-5 now on HBO Max: http://bit.ly/3hRw9rU 
+    cedf3c2e2ac135be5186d8343ed955fc = Video(channelId="52", title='''Summoning Mr. Meeseeks | Rick and Morty | adult swim''', description='''I’m a compilation of all the best Mr. Meeseeks moments, look at me! Stream seasons 1-5 now on HBO Max: http://bit.ly/3hRw9rU 
 
-#     #AdultSwim #RickAndMorty 
+    #AdultSwim #RickAndMorty 
 
-#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-#     What to watch next: more Rick and Morty clips!
-#     https://youtube.com/playlist?list=PLQl8zBB7bPvI_iYCe4LT8HHfjonOog4u3
+    What to watch next: more Rick and Morty clips!
+    https://youtube.com/playlist?list=PLQl8zBB7bPvI_iYCe4LT8HHfjonOog4u3
 
-#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3Gy0aXA 
+    Watch the Adult Swim hub on HBO Max: http://bit.ly/3Gy0aXA 
 
-#     About Adult Swim:
-#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+    About Adult Swim:
+    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-#     Connect with Adult Swim Online:
-#     Download the APPS: http://www.adultswim.com/apps/
-#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
-#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+    Connect with Adult Swim Online:
+    Download the APPS: http://www.adultswim.com/apps/
+    Visit Adult Swim WEBSITE: http://www.adultswim.com 
+    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-#     Watch Adult Swim in your country:
-#     United Kingdom: https://bit.ly/AS_UK
-#     Republic of Ireland: https://bit.ly/AS_UK
-#     France: https://bit.ly/AS_FR
-#     Spain: https://bit.ly/AS_SPA
-#     Germany: https://bit.ly/AS_GE
-#     Sweden: https://bit.ly/AS_NORDIC
-#     Norway: https://bit.ly/AS_NORDIC
-#     Denmark: https://bit.ly/AS_NORDIC
-#     Finland: https://bit.ly/AS_NORDIC
-#     South Africa: https://bit.ly/AS_SA
+    Watch Adult Swim in your country:
+    United Kingdom: https://bit.ly/AS_UK
+    Republic of Ireland: https://bit.ly/AS_UK
+    France: https://bit.ly/AS_FR
+    Spain: https://bit.ly/AS_SPA
+    Germany: https://bit.ly/AS_GE
+    Sweden: https://bit.ly/AS_NORDIC
+    Norway: https://bit.ly/AS_NORDIC
+    Denmark: https://bit.ly/AS_NORDIC
+    Finland: https://bit.ly/AS_NORDIC
+    South Africa: https://bit.ly/AS_SA
 
-#     Summoning Mr. Meeseeks | Rick and Morty | adult swim''', videoUrl="l5wvqKcqL7c", thumbnailUrl="https://i.ytimg.com/vi/l5wvqKcqL7c/maxresdefault.jpg", createdAt="2022-04-13T16:00:27Z")
+    Summoning Mr. Meeseeks | Rick and Morty | adult swim''', videoUrl="l5wvqKcqL7c", thumbnailUrl="https://i.ytimg.com/vi/l5wvqKcqL7c/maxresdefault.jpg", createdAt="2022-04-13T16:00:27Z")
 
 
 
-#     c3ba458bd985441b0a1b126847da39ca = Video(channelId="52", title='''Spear Grieves His Family | Primal | adult swim''', description='''Standing atop a cliff, Spear mourns the loss of his wife and children. Watch more episodes of Primal on HBO Max: http://bit.ly/3Gy0aXA 
+    c3ba458bd985441b0a1b126847da39ca = Video(channelId="52", title='''Spear Grieves His Family | Primal | adult swim''', description='''Standing atop a cliff, Spear mourns the loss of his wife and children. Watch more episodes of Primal on HBO Max: http://bit.ly/3Gy0aXA 
 
-#     #adultswim #Primal
+    #adultswim #Primal
 
-#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-#     What to watch next: more Primal: https://youtube.com/playlist?list=PLQl8zBB7bPvK6USLkQ43zsQdu3GT6jp4D 
+    What to watch next: more Primal: https://youtube.com/playlist?list=PLQl8zBB7bPvK6USLkQ43zsQdu3GT6jp4D 
 
-#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3Gy0aXA 
+    Watch the Adult Swim hub on HBO Max: http://bit.ly/3Gy0aXA 
 
-#     About Adult Swim:
-#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+    About Adult Swim:
+    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-#     Connect with Adult Swim Online:
-#     Download the APPS: http://www.adultswim.com/apps/
-#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
-#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+    Connect with Adult Swim Online:
+    Download the APPS: http://www.adultswim.com/apps/
+    Visit Adult Swim WEBSITE: http://www.adultswim.com 
+    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-#     Watch Adult Swim in your country:
-#     United Kingdom: https://bit.ly/AS_UK
-#     Republic of Ireland: https://bit.ly/AS_UK
-#     France: https://bit.ly/AS_FR
-#     Spain: https://bit.ly/AS_SPA
-#     Germany: https://bit.ly/AS_GE
-#     Sweden: https://bit.ly/AS_NORDIC
-#     Norway: https://bit.ly/AS_NORDIC
-#     Denmark: https://bit.ly/AS_NORDIC
-#     Finland: https://bit.ly/AS_NORDIC
-#     South Africa: https://bit.ly/AS_SA
+    Watch Adult Swim in your country:
+    United Kingdom: https://bit.ly/AS_UK
+    Republic of Ireland: https://bit.ly/AS_UK
+    France: https://bit.ly/AS_FR
+    Spain: https://bit.ly/AS_SPA
+    Germany: https://bit.ly/AS_GE
+    Sweden: https://bit.ly/AS_NORDIC
+    Norway: https://bit.ly/AS_NORDIC
+    Denmark: https://bit.ly/AS_NORDIC
+    Finland: https://bit.ly/AS_NORDIC
+    South Africa: https://bit.ly/AS_SA
 
-#     Spear Grieves His Family | Primal | adult swim''', videoUrl="vIKNlmLqu9o", thumbnailUrl="https://i.ytimg.com/vi/vIKNlmLqu9o/maxresdefault.jpg", createdAt="2022-04-12T16:00:32Z")
+    Spear Grieves His Family | Primal | adult swim''', videoUrl="vIKNlmLqu9o", thumbnailUrl="https://i.ytimg.com/vi/vIKNlmLqu9o/maxresdefault.jpg", createdAt="2022-04-12T16:00:32Z")
 
 
 
-#     c38aea5057b690f032368e786e1f5d69 = Video(channelId="52", title='''The Lord's Prayer | Moral Orel | adult swim''', description='''A dinner between the Puppingtons and the Posabules ends in a heated argument when each family recites a different version of the Lord's prayer. Watch more Moral Orel on HBO Max: http://bit.ly/3hRw9rU 
+    c38aea5057b690f032368e786e1f5d69 = Video(channelId="52", title='''The Lord's Prayer | Moral Orel | adult swim''', description='''A dinner between the Puppingtons and the Posabules ends in a heated argument when each family recites a different version of the Lord's prayer. Watch more Moral Orel on HBO Max: http://bit.ly/3hRw9rU 
 
-#     #AdultSwim #MoralOrel
+    #AdultSwim #MoralOrel
 
-#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-#     What to watch next: more Moral Orel:
-#     https://youtube.com/playlist?list=PLQl8zBB7bPvKYI9VxH6NOldhEq-lq-Rjc 
+    What to watch next: more Moral Orel:
+    https://youtube.com/playlist?list=PLQl8zBB7bPvKYI9VxH6NOldhEq-lq-Rjc 
 
-#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
+    Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
 
-#     About Adult Swim:
-#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, The Eric Andre Show, Aqua Teen Hunger Force, and many more. 
+    About Adult Swim:
+    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, The Eric Andre Show, Aqua Teen Hunger Force, and many more. 
 
-#     Connect with Adult Swim Online:
-#     Download the APPS: http://www.adultswim.com/apps/
-#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
-#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+    Connect with Adult Swim Online:
+    Download the APPS: http://www.adultswim.com/apps/
+    Visit Adult Swim WEBSITE: http://www.adultswim.com 
+    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-#     Watch Adult Swim in your country:
-#     Canada: https://bit.ly/3gLYNeu 
-#     United Kingdom: https://bit.ly/AS_UK
-#     Republic of Ireland: https://bit.ly/AS_UK
-#     France: https://bit.ly/AS_FR
-#     Spain: https://bit.ly/AS_SPA
-#     Germany: https://bit.ly/AS_GE
-#     Sweden: https://bit.ly/AS_NORDIC
-#     Norway: https://bit.ly/AS_NORDIC
-#     Denmark: https://bit.ly/AS_NORDIC
-#     Finland: https://bit.ly/AS_NORDIC
-#     South Africa: https://bit.ly/AS_SA
+    Watch Adult Swim in your country:
+    Canada: https://bit.ly/3gLYNeu 
+    United Kingdom: https://bit.ly/AS_UK
+    Republic of Ireland: https://bit.ly/AS_UK
+    France: https://bit.ly/AS_FR
+    Spain: https://bit.ly/AS_SPA
+    Germany: https://bit.ly/AS_GE
+    Sweden: https://bit.ly/AS_NORDIC
+    Norway: https://bit.ly/AS_NORDIC
+    Denmark: https://bit.ly/AS_NORDIC
+    Finland: https://bit.ly/AS_NORDIC
+    South Africa: https://bit.ly/AS_SA
 
-#     The Lord's Prayer | Moral Orel | adult swim''', videoUrl="h8BkkEGkZZI", thumbnailUrl="https://i.ytimg.com/vi/h8BkkEGkZZI/maxresdefault.jpg", createdAt="2022-04-11T20:00:07Z")
+    The Lord's Prayer | Moral Orel | adult swim''', videoUrl="h8BkkEGkZZI", thumbnailUrl="https://i.ytimg.com/vi/h8BkkEGkZZI/maxresdefault.jpg", createdAt="2022-04-11T20:00:07Z")
 
 
 
-#     c58e6cda0f67f5f0640b3008c8324c91 = Video(channelId="52", title='''The Nelson Mandela Effect | Robot Chicken | adult swim''', description='''When the ghost of Nelson Mandela tells Arthur about the Mandela Effect, he takes it upon himself to "correct" several movies. Watch more Robot Chicken on HBO Max: http://bit.ly/3hRw9rU 
+    c58e6cda0f67f5f0640b3008c8324c91 = Video(channelId="52", title='''The Nelson Mandela Effect | Robot Chicken | adult swim''', description='''When the ghost of Nelson Mandela tells Arthur about the Mandela Effect, he takes it upon himself to "correct" several movies. Watch more Robot Chicken on HBO Max: http://bit.ly/3hRw9rU 
 
-#     #AdultSwim #RobotChicken
+    #AdultSwim #RobotChicken
 
-#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-#     What to watch next: more Robot Chicken clips!
-#     https://youtube.com/playlist?list=PLQl8zBB7bPvJ6w2_gU67cQtSP4OhaPenc 
+    What to watch next: more Robot Chicken clips!
+    https://youtube.com/playlist?list=PLQl8zBB7bPvJ6w2_gU67cQtSP4OhaPenc 
 
-#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
+    Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
 
-#     About Adult Swim:
-#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+    About Adult Swim:
+    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-#     Connect with Adult Swim Online:
-#     Download the APPS: http://www.adultswim.com/apps/
-#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
-#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+    Connect with Adult Swim Online:
+    Download the APPS: http://www.adultswim.com/apps/
+    Visit Adult Swim WEBSITE: http://www.adultswim.com 
+    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-#     Watch Adult Swim in your country:
-#     United Kingdom: https://bit.ly/AS_UK
-#     Republic of Ireland: https://bit.ly/AS_UK
-#     France: https://bit.ly/AS_FR
-#     Spain: https://bit.ly/AS_SPA
-#     Germany: https://bit.ly/AS_GE
-#     Sweden: https://bit.ly/AS_NORDIC
-#     Norway: https://bit.ly/AS_NORDIC
-#     Denmark: https://bit.ly/AS_NORDIC
-#     Finland: https://bit.ly/AS_NORDIC
-#     South Africa: https://bit.ly/AS_SA
+    Watch Adult Swim in your country:
+    United Kingdom: https://bit.ly/AS_UK
+    Republic of Ireland: https://bit.ly/AS_UK
+    France: https://bit.ly/AS_FR
+    Spain: https://bit.ly/AS_SPA
+    Germany: https://bit.ly/AS_GE
+    Sweden: https://bit.ly/AS_NORDIC
+    Norway: https://bit.ly/AS_NORDIC
+    Denmark: https://bit.ly/AS_NORDIC
+    Finland: https://bit.ly/AS_NORDIC
+    South Africa: https://bit.ly/AS_SA
 
-#     The Nelson Mandela Effect | Robot Chicken | adult swim''', videoUrl="TwSp6u0aPXE", thumbnailUrl="https://i.ytimg.com/vi/TwSp6u0aPXE/maxresdefault.jpg", createdAt="2022-04-11T16:00:22Z")
+    The Nelson Mandela Effect | Robot Chicken | adult swim''', videoUrl="TwSp6u0aPXE", thumbnailUrl="https://i.ytimg.com/vi/TwSp6u0aPXE/maxresdefault.jpg", createdAt="2022-04-11T16:00:22Z")
 
 
 
-#     c02c379173605079f70dcc18f0732ed5 = Video(channelId="52", title='''Touched by a Birdcat | Birdgirl | adult swim''', description='''Birdcat finds a family in crisis and helps an alcoholic father see the error of his ways. Watch more Birdgirl on HBO Max: http://bit.ly/3hRw9rU 
+    c02c379173605079f70dcc18f0732ed5 = Video(channelId="52", title='''Touched by a Birdcat | Birdgirl | adult swim''', description='''Birdcat finds a family in crisis and helps an alcoholic father see the error of his ways. Watch more Birdgirl on HBO Max: http://bit.ly/3hRw9rU 
 
-#     #Birdgirl #AdultSwim
+    #Birdgirl #AdultSwim
 
-#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-#     What to watch next: more Birdgirl: 
-#     https://youtube.com/playlist?list=PLQl8zBB7bPvK5u3k7UMysje-TKB-6pSaE 
+    What to watch next: more Birdgirl: 
+    https://youtube.com/playlist?list=PLQl8zBB7bPvK5u3k7UMysje-TKB-6pSaE 
 
-#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
+    Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
 
-#     About Adult Swim:
-#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+    About Adult Swim:
+    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-#     Connect with Adult Swim Online:
-#     Download the APPS: http://www.adultswim.com/apps/
-#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
-#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim 
-#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim 
-#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+    Connect with Adult Swim Online:
+    Download the APPS: http://www.adultswim.com/apps/
+    Visit Adult Swim WEBSITE: http://www.adultswim.com 
+    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim 
+    Follow Adult Swim on TWITTER: https://twitter.com/adultswim 
+    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-#     Watch Adult Swim in your country:
-#     United Kingdom: https://bit.ly/AS_UK
-#     Republic of Ireland: https://bit.ly/AS_UK
-#     France: https://bit.ly/AS_FR
-#     Spain: https://bit.ly/AS_SPA
-#     Germany: https://bit.ly/AS_GE
-#     Sweden: https://bit.ly/AS_NORDIC
-#     Norway: https://bit.ly/AS_NORDIC
-#     Denmark: https://bit.ly/AS_NORDIC
-#     Finland: https://bit.ly/AS_NORDIC
-#     South Africa: https://bit.ly/AS_SA
+    Watch Adult Swim in your country:
+    United Kingdom: https://bit.ly/AS_UK
+    Republic of Ireland: https://bit.ly/AS_UK
+    France: https://bit.ly/AS_FR
+    Spain: https://bit.ly/AS_SPA
+    Germany: https://bit.ly/AS_GE
+    Sweden: https://bit.ly/AS_NORDIC
+    Norway: https://bit.ly/AS_NORDIC
+    Denmark: https://bit.ly/AS_NORDIC
+    Finland: https://bit.ly/AS_NORDIC
+    South Africa: https://bit.ly/AS_SA
 
-#     Touched by a Birdcat | Birdgirl | adult swim''', videoUrl="5XjpG1iU1L0", thumbnailUrl="https://i.ytimg.com/vi/5XjpG1iU1L0/hqdefault.jpg", createdAt="2022-04-10T19:00:03Z")
+    Touched by a Birdcat | Birdgirl | adult swim''', videoUrl="5XjpG1iU1L0", thumbnailUrl="https://i.ytimg.com/vi/5XjpG1iU1L0/hqdefault.jpg", createdAt="2022-04-10T19:00:03Z")
 
 
 
-#     c672aa05aac1485d0632e14dbe33800b = Video(channelId="52", title='''TRAILER | Three Busy Debras Season 2 | adult swim''', description='''This season couldn’t get anymore Debra. Season 2 of Three Busy Debras premieres Sunday, April 24th at Midnight on adult swim, next day on HBO Max: http://bit.ly/3hRw9rU 
+    c672aa05aac1485d0632e14dbe33800b = Video(channelId="52", title='''TRAILER | Three Busy Debras Season 2 | adult swim''', description='''This season couldn’t get anymore Debra. Season 2 of Three Busy Debras premieres Sunday, April 24th at Midnight on adult swim, next day on HBO Max: http://bit.ly/3hRw9rU 
 
-#     #AdultSwim #ThreeBusyDebras
+    #AdultSwim #ThreeBusyDebras
 
-#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-#     What to watch next: More Three Busy Debras! 
-#     https://youtube.com/playlist?list=PLQl8zBB7bPvKzEQYMmtF-03eqCOtDsfJz 
+    What to watch next: More Three Busy Debras! 
+    https://youtube.com/playlist?list=PLQl8zBB7bPvKzEQYMmtF-03eqCOtDsfJz 
 
-#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
+    Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
 
-#     About Adult Swim:
-#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, The Eric Andre Show, Aqua Teen Hunger Force, and many more. 
+    About Adult Swim:
+    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, The Eric Andre Show, Aqua Teen Hunger Force, and many more. 
 
-#     Connect with Adult Swim Online:
-#     Download the APPS: http://www.adultswim.com/apps/
-#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
-#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+    Connect with Adult Swim Online:
+    Download the APPS: http://www.adultswim.com/apps/
+    Visit Adult Swim WEBSITE: http://www.adultswim.com 
+    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-#     Watch Adult Swim in your country:
-#     Canada: https://bit.ly/3gLYNeu 
-#     United Kingdom: https://bit.ly/AS_UK
-#     Republic of Ireland: https://bit.ly/AS_UK
-#     France: https://bit.ly/AS_FR
-#     Spain: https://bit.ly/AS_SPA
-#     Germany: https://bit.ly/AS_GE
-#     Sweden: https://bit.ly/AS_NORDIC
-#     Norway: https://bit.ly/AS_NORDIC
-#     Denmark: https://bit.ly/AS_NORDIC
-#     Finland: https://bit.ly/AS_NORDIC
-#     South Africa: https://bit.ly/AS_SA
+    Watch Adult Swim in your country:
+    Canada: https://bit.ly/3gLYNeu 
+    United Kingdom: https://bit.ly/AS_UK
+    Republic of Ireland: https://bit.ly/AS_UK
+    France: https://bit.ly/AS_FR
+    Spain: https://bit.ly/AS_SPA
+    Germany: https://bit.ly/AS_GE
+    Sweden: https://bit.ly/AS_NORDIC
+    Norway: https://bit.ly/AS_NORDIC
+    Denmark: https://bit.ly/AS_NORDIC
+    Finland: https://bit.ly/AS_NORDIC
+    South Africa: https://bit.ly/AS_SA
 
-#     TRAILER | Three Busy Debras Season 2 | adult swim''', videoUrl="FH-isOCrqEc", thumbnailUrl="https://i.ytimg.com/vi/FH-isOCrqEc/maxresdefault.jpg", createdAt="2022-04-10T15:00:13Z")
+    TRAILER | Three Busy Debras Season 2 | adult swim''', videoUrl="FH-isOCrqEc", thumbnailUrl="https://i.ytimg.com/vi/FH-isOCrqEc/maxresdefault.jpg", createdAt="2022-04-10T15:00:13Z")
 
 
 
-#     c918806f79afc1ecfb9b24f4fa73f6f7 = Video(channelId="52", title='''Bob the Cannibal | Bob's Burgers | adult swim''', description='''Bob gives a confusing speech after an angry mob accuses him of using human meat in his burgers. 
-#     #AdultSwim #BobsBurgers
+    c918806f79afc1ecfb9b24f4fa73f6f7 = Video(channelId="52", title='''Bob the Cannibal | Bob's Burgers | adult swim''', description='''Bob gives a confusing speech after an angry mob accuses him of using human meat in his burgers. 
+    #AdultSwim #BobsBurgers
 
-#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-#     What to watch next: more Bob's Burgers clips! https://youtube.com/playlist?list=PLQl8zBB7bPvIeGWrlaFoqTZOSInrbvnf- 
+    What to watch next: more Bob's Burgers clips! https://youtube.com/playlist?list=PLQl8zBB7bPvIeGWrlaFoqTZOSInrbvnf- 
 
-#     Find Bob's Burgers on Adult Swim: https://www.adultswim.com/videos/bobs-burgers 
+    Find Bob's Burgers on Adult Swim: https://www.adultswim.com/videos/bobs-burgers 
 
-#     Watch Adult Swim on HBO Max: http://bit.ly/3hRw9rU 
+    Watch Adult Swim on HBO Max: http://bit.ly/3hRw9rU 
 
-#     About Adult Swim:
-#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+    About Adult Swim:
+    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-#     Connect with Adult Swim Online:
-#     Download the APPS: http://www.adultswim.com/apps/
-#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
-#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+    Connect with Adult Swim Online:
+    Download the APPS: http://www.adultswim.com/apps/
+    Visit Adult Swim WEBSITE: http://www.adultswim.com 
+    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-#     Watch Adult Swim in your country:
-#     United Kingdom: https://bit.ly/AS_UK
-#     Republic of Ireland: https://bit.ly/AS_UK
-#     France: https://bit.ly/AS_FR
-#     Spain: https://bit.ly/AS_SPA
-#     Germany: https://bit.ly/AS_GE
-#     Sweden: https://bit.ly/AS_NORDIC
-#     Norway: https://bit.ly/AS_NORDIC
-#     Denmark: https://bit.ly/AS_NORDIC
-#     Finland: https://bit.ly/AS_NORDIC
-#     South Africa: https://bit.ly/AS_SA
+    Watch Adult Swim in your country:
+    United Kingdom: https://bit.ly/AS_UK
+    Republic of Ireland: https://bit.ly/AS_UK
+    France: https://bit.ly/AS_FR
+    Spain: https://bit.ly/AS_SPA
+    Germany: https://bit.ly/AS_GE
+    Sweden: https://bit.ly/AS_NORDIC
+    Norway: https://bit.ly/AS_NORDIC
+    Denmark: https://bit.ly/AS_NORDIC
+    Finland: https://bit.ly/AS_NORDIC
+    South Africa: https://bit.ly/AS_SA
 
-#     Bob the Cannibal | Bob's Burgers | adult swim''', videoUrl="ZnrR_5NQ4wM", thumbnailUrl="https://i.ytimg.com/vi/ZnrR_5NQ4wM/maxresdefault.jpg", createdAt="2022-04-09T16:00:15Z")
+    Bob the Cannibal | Bob's Burgers | adult swim''', videoUrl="ZnrR_5NQ4wM", thumbnailUrl="https://i.ytimg.com/vi/ZnrR_5NQ4wM/maxresdefault.jpg", createdAt="2022-04-09T16:00:15Z")
 
 
 
-#     c221b13059abc9300768a905126335a5 = Video(channelId="52", title='''Anger | TOM Speeches | Toonami Vintage''', description='''TOM talks about anger and its power to either motivate you or, in Vegeta’s case, consume you. 
+    c221b13059abc9300768a905126335a5 = Video(channelId="52", title='''Anger | TOM Speeches | Toonami Vintage''', description='''TOM talks about anger and its power to either motivate you or, in Vegeta’s case, consume you. 
 
-#     Remastered by @SlimD716
+    Remastered by @SlimD716
 
-#     Watch Adult Swim on HBO Max: http://bit.ly/3hRw9rU 
+    Watch Adult Swim on HBO Max: http://bit.ly/3hRw9rU 
 
-#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-#     About Adult Swim:
-#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+    About Adult Swim:
+    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-#     Connect with Adult Swim Online:
-#     Download the APPS: http://www.adultswim.com/apps/
-#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
-#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+    Connect with Adult Swim Online:
+    Download the APPS: http://www.adultswim.com/apps/
+    Visit Adult Swim WEBSITE: http://www.adultswim.com 
+    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-#     Watch Adult Swim in your country:
-#     United Kingdom: https://bit.ly/AS_UK
-#     Republic of Ireland: https://bit.ly/AS_UK
-#     France: https://bit.ly/AS_FR
-#     Spain: https://bit.ly/AS_SPA
-#     Germany: https://bit.ly/AS_GE
-#     Sweden: https://bit.ly/AS_NORDIC
-#     Norway: https://bit.ly/AS_NORDIC
-#     Denmark: https://bit.ly/AS_NORDIC
-#     Finland: https://bit.ly/AS_NORDIC
-#     South Africa: https://bit.ly/AS_SA
+    Watch Adult Swim in your country:
+    United Kingdom: https://bit.ly/AS_UK
+    Republic of Ireland: https://bit.ly/AS_UK
+    France: https://bit.ly/AS_FR
+    Spain: https://bit.ly/AS_SPA
+    Germany: https://bit.ly/AS_GE
+    Sweden: https://bit.ly/AS_NORDIC
+    Norway: https://bit.ly/AS_NORDIC
+    Denmark: https://bit.ly/AS_NORDIC
+    Finland: https://bit.ly/AS_NORDIC
+    South Africa: https://bit.ly/AS_SA
 
-#     Anger | TOM Speeches | Toonami Vintage''', videoUrl="f6vDcEN1sK8", thumbnailUrl="https://i.ytimg.com/vi/f6vDcEN1sK8/hqdefault.jpg", createdAt="2022-04-08T19:00:13Z")
+    Anger | TOM Speeches | Toonami Vintage''', videoUrl="f6vDcEN1sK8", thumbnailUrl="https://i.ytimg.com/vi/f6vDcEN1sK8/hqdefault.jpg", createdAt="2022-04-08T19:00:13Z")
 
 
 
-#     cffb9e51672cacf72e18357364a1b76d = Video(channelId="52", title='''Shenmue the Animation | S1E10 Sneak Peek: Ryo and Ren are Ambushed | adult swim''', description='''Ryo and Ren are tricked into entering the den of Dou Niu and the Yellow Heads. Toonami and Crunchyroll bring you Shenmue the Animation, Saturdays on Adult Swim.
+    cffb9e51672cacf72e18357364a1b76d = Video(channelId="52", title='''Shenmue the Animation | S1E10 Sneak Peek: Ryo and Ren are Ambushed | adult swim''', description='''Ryo and Ren are tricked into entering the den of Dou Niu and the Yellow Heads. Toonami and Crunchyroll bring you Shenmue the Animation, Saturdays on Adult Swim.
 
-#     #AdultSwim #ShenmueTheAnimation
+    #AdultSwim #ShenmueTheAnimation
 
-#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-#     What to watch next: more Shenmue clips! https://youtube.com/playlist?list=PLQl8zBB7bPvLEOTOGcx8hKecOaqDBKHq8 
+    What to watch next: more Shenmue clips! https://youtube.com/playlist?list=PLQl8zBB7bPvLEOTOGcx8hKecOaqDBKHq8 
 
-#     Find Shenmue on Adult Swim: https://www.adultswim.com/videos/shenmue-the-animation 
+    Find Shenmue on Adult Swim: https://www.adultswim.com/videos/shenmue-the-animation 
 
-#     About Adult Swim:
-#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+    About Adult Swim:
+    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-#     Connect with Adult Swim Online:
-#     Download the APPS: http://www.adultswim.com/apps/
-#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
-#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+    Connect with Adult Swim Online:
+    Download the APPS: http://www.adultswim.com/apps/
+    Visit Adult Swim WEBSITE: http://www.adultswim.com 
+    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-#     Watch Adult Swim in your country:
-#     United Kingdom: https://bit.ly/AS_UK
-#     Republic of Ireland: https://bit.ly/AS_UK
-#     France: https://bit.ly/AS_FR
-#     Spain: https://bit.ly/AS_SPA
-#     Germany: https://bit.ly/AS_GE
-#     Sweden: https://bit.ly/AS_NORDIC
-#     Norway: https://bit.ly/AS_NORDIC
-#     Denmark: https://bit.ly/AS_NORDIC
-#     Finland: https://bit.ly/AS_NORDIC
-#     South Africa: https://bit.ly/AS_SA
+    Watch Adult Swim in your country:
+    United Kingdom: https://bit.ly/AS_UK
+    Republic of Ireland: https://bit.ly/AS_UK
+    France: https://bit.ly/AS_FR
+    Spain: https://bit.ly/AS_SPA
+    Germany: https://bit.ly/AS_GE
+    Sweden: https://bit.ly/AS_NORDIC
+    Norway: https://bit.ly/AS_NORDIC
+    Denmark: https://bit.ly/AS_NORDIC
+    Finland: https://bit.ly/AS_NORDIC
+    South Africa: https://bit.ly/AS_SA
 
-#     Shenmue the Animation | S1E10 Sneak Peek: Ryo and Ren are Ambushed | adult swim''', videoUrl="WGXuWghyDyY", thumbnailUrl="https://i.ytimg.com/vi/WGXuWghyDyY/maxresdefault.jpg", createdAt="2022-04-08T15:00:30Z")
+    Shenmue the Animation | S1E10 Sneak Peek: Ryo and Ren are Ambushed | adult swim''', videoUrl="WGXuWghyDyY", thumbnailUrl="https://i.ytimg.com/vi/WGXuWghyDyY/maxresdefault.jpg", createdAt="2022-04-08T15:00:30Z")
 
 
 
-#     c99d0f53980d84458166ad16c46cfdfe = Video(channelId="52", title='''Hairy Situations | adult swim smalls''', description='''A hairdresser is making magic by turning her clients’ messy hair into extravagant looks.
+    c99d0f53980d84458166ad16c46cfdfe = Video(channelId="52", title='''Hairy Situations | adult swim smalls''', description='''A hairdresser is making magic by turning her clients’ messy hair into extravagant looks.
 
-#     Created by Dal Park
-#     Music, Sound Design and VO by Phil Brookes
+    Created by Dal Park
+    Music, Sound Design and VO by Phil Brookes
 
-#     Dal Park is an animation director based in Berlin, Germany. Her shorts combine humor and odd characters living in the everyday life. 
+    Dal Park is an animation director based in Berlin, Germany. Her shorts combine humor and odd characters living in the everyday life. 
 
-#     Follow Dal Park on Instagram: https://www.instagram.com/dal____park/ 
-#     Follow Phil Brookes on Instagram: https://www.instagram.com/philbrookesuk/ 
+    Follow Dal Park on Instagram: https://www.instagram.com/dal____park/ 
+    Follow Phil Brookes on Instagram: https://www.instagram.com/philbrookesuk/ 
 
-#     #AdultSwim #AdultSwimSmalls
+    #AdultSwim #AdultSwimSmalls
 
-#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
+    Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
 
-#     About Adult Swim:
-#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+    About Adult Swim:
+    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-#     Connect with Adult Swim Online:
-#     Download the APPS: http://www.adultswim.com/apps/
-#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
-#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+    Connect with Adult Swim Online:
+    Download the APPS: http://www.adultswim.com/apps/
+    Visit Adult Swim WEBSITE: http://www.adultswim.com 
+    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-#     Watch Adult Swim in your country:
-#     United Kingdom: https://bit.ly/AS_UK
-#     Republic of Ireland: https://bit.ly/AS_UK
-#     France: https://bit.ly/AS_FR
-#     Spain: https://bit.ly/AS_SPA
-#     Germany: https://bit.ly/AS_GE
-#     Sweden: https://bit.ly/AS_NORDIC
-#     Norway: https://bit.ly/AS_NORDIC
-#     Denmark: https://bit.ly/AS_NORDIC
-#     Finland: https://bit.ly/AS_NORDIC
-#     South Africa: https://bit.ly/AS_SA
+    Watch Adult Swim in your country:
+    United Kingdom: https://bit.ly/AS_UK
+    Republic of Ireland: https://bit.ly/AS_UK
+    France: https://bit.ly/AS_FR
+    Spain: https://bit.ly/AS_SPA
+    Germany: https://bit.ly/AS_GE
+    Sweden: https://bit.ly/AS_NORDIC
+    Norway: https://bit.ly/AS_NORDIC
+    Denmark: https://bit.ly/AS_NORDIC
+    Finland: https://bit.ly/AS_NORDIC
+    South Africa: https://bit.ly/AS_SA
 
-#     Hairy Situations | adult swim smalls''', videoUrl="YMIyCW_q-G4", thumbnailUrl="https://i.ytimg.com/vi/YMIyCW_q-G4/hqdefault.jpg", createdAt="2022-04-08T00:00:06Z")
+    Hairy Situations | adult swim smalls''', videoUrl="YMIyCW_q-G4", thumbnailUrl="https://i.ytimg.com/vi/YMIyCW_q-G4/hqdefault.jpg", createdAt="2022-04-08T00:00:06Z")
 
 
 
-#     c26edb8e7c4ad3f98873b5755e941f76 = Video(channelId="52", title='''(Not) The Beatles | Space Ghost | adult swim''', description='''Space Ghost introduces the band Pavement as The Beatles, then tries to interview Goldie Hawn while they play. Watch more Space Ghost on HBO Max: http://bit.ly/3hRw9rU 
+    c26edb8e7c4ad3f98873b5755e941f76 = Video(channelId="52", title='''(Not) The Beatles | Space Ghost | adult swim''', description='''Space Ghost introduces the band Pavement as The Beatles, then tries to interview Goldie Hawn while they play. Watch more Space Ghost on HBO Max: http://bit.ly/3hRw9rU 
 
-#     #AdultSwim #SpaceGhost
+    #AdultSwim #SpaceGhost
 
-#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-#     What to watch next: More Space Ghost: https://youtube.com/playlist?list=PLQl8zBB7bPvL0UmITun9SqMDc883UgLTP 
+    What to watch next: More Space Ghost: https://youtube.com/playlist?list=PLQl8zBB7bPvL0UmITun9SqMDc883UgLTP 
 
-#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
+    Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
 
-#     About Adult Swim:
-#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, The Eric Andre Show, Aqua Teen Hunger Force, and many more. 
+    About Adult Swim:
+    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, The Eric Andre Show, Aqua Teen Hunger Force, and many more. 
 
-#     Connect with Adult Swim Online:
-#     Download the APPS: http://www.adultswim.com/apps/
-#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
-#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+    Connect with Adult Swim Online:
+    Download the APPS: http://www.adultswim.com/apps/
+    Visit Adult Swim WEBSITE: http://www.adultswim.com 
+    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-#     Watch Adult Swim in your country:
-#     Canada: https://bit.ly/3gLYNeu 
-#     United Kingdom: https://bit.ly/AS_UK
-#     Republic of Ireland: https://bit.ly/AS_UK
-#     France: https://bit.ly/AS_FR
-#     Spain: https://bit.ly/AS_SPA
-#     Germany: https://bit.ly/AS_GE
-#     Sweden: https://bit.ly/AS_NORDIC
-#     Norway: https://bit.ly/AS_NORDIC
-#     Denmark: https://bit.ly/AS_NORDIC
-#     Finland: https://bit.ly/AS_NORDIC
-#     South Africa: https://bit.ly/AS_SA
+    Watch Adult Swim in your country:
+    Canada: https://bit.ly/3gLYNeu 
+    United Kingdom: https://bit.ly/AS_UK
+    Republic of Ireland: https://bit.ly/AS_UK
+    France: https://bit.ly/AS_FR
+    Spain: https://bit.ly/AS_SPA
+    Germany: https://bit.ly/AS_GE
+    Sweden: https://bit.ly/AS_NORDIC
+    Norway: https://bit.ly/AS_NORDIC
+    Denmark: https://bit.ly/AS_NORDIC
+    Finland: https://bit.ly/AS_NORDIC
+    South Africa: https://bit.ly/AS_SA
 
-#     (Not) The Beatles | Space Ghost | adult swim''', videoUrl="rQim2_oUUFY", thumbnailUrl="https://i.ytimg.com/vi/rQim2_oUUFY/maxresdefault.jpg", createdAt="2022-04-07T20:00:22Z")
+    (Not) The Beatles | Space Ghost | adult swim''', videoUrl="rQim2_oUUFY", thumbnailUrl="https://i.ytimg.com/vi/rQim2_oUUFY/maxresdefault.jpg", createdAt="2022-04-07T20:00:22Z")
 
 
 
-#     c8f6fb50cc4acc32bb0fe52e1e016b20 = Video(channelId="52", title='''Touch | Off the Air | adult swim''', description='''To touch can be to give life.
+    c8f6fb50cc4acc32bb0fe52e1e016b20 = Video(channelId="52", title='''Touch | Off the Air | adult swim''', description='''To touch can be to give life.
 
-#     Featured Videos: 
-#     1. “Heart to Mouth” by Bart Hess
-#     2. “Born, Never Asked” song by Laurie Anderson
-#     3. “Quentin’s Secret Pelican Button” by Sean Reynard
-#     4. “The Galactic Trial” by Joel Haver
-#     5. “Absence” by Alex Goddard
-#     6. “Manipulation 6” by Baron Lanteigne, music by Eduardo Noya Schreus
-#     7. “Kaduna” by Jonas The Company & Critics Company
-#     8. “Color Me” song by Active Child, music video by Martin de Thurah
-#     9. “Contour” by WOW Inc.
-#     10. “ULTRAPOP” song by The Armed
+    Featured Videos: 
+    1. “Heart to Mouth” by Bart Hess
+    2. “Born, Never Asked” song by Laurie Anderson
+    3. “Quentin’s Secret Pelican Button” by Sean Reynard
+    4. “The Galactic Trial” by Joel Haver
+    5. “Absence” by Alex Goddard
+    6. “Manipulation 6” by Baron Lanteigne, music by Eduardo Noya Schreus
+    7. “Kaduna” by Jonas The Company & Critics Company
+    8. “Color Me” song by Active Child, music video by Martin de Thurah
+    9. “Contour” by WOW Inc.
+    10. “ULTRAPOP” song by The Armed
 
-#     This episode of Off the Air was created by Dave Hughes and guest curated and produced by Alan Steadman.
+    This episode of Off the Air was created by Dave Hughes and guest curated and produced by Alan Steadman.
 
-#     Watch more episodes of #OffTheAir on HBO Max: http://bit.ly/3hRw9rU 
+    Watch more episodes of #OffTheAir on HBO Max: http://bit.ly/3hRw9rU 
 
-#     #adultswim #OffTheAir
+    #adultswim #OffTheAir
 
-#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-#     What to watch next: more Off The Air clips!
-#     https://youtube.com/playlist?list=PLQl8zBB7bPvLWfGCVicg_kVmSVTGml2y4 
+    What to watch next: more Off The Air clips!
+    https://youtube.com/playlist?list=PLQl8zBB7bPvLWfGCVicg_kVmSVTGml2y4 
 
-#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
+    Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
 
-#     About Adult Swim:
-#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+    About Adult Swim:
+    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-#     Connect with Adult Swim Online:
-#     Download the APPS: http://www.adultswim.com/apps/
-#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
-#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+    Connect with Adult Swim Online:
+    Download the APPS: http://www.adultswim.com/apps/
+    Visit Adult Swim WEBSITE: http://www.adultswim.com 
+    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-#     Watch Adult Swim in your country:
-#     United Kingdom: https://bit.ly/AS_UK
-#     Republic of Ireland: https://bit.ly/AS_UK
-#     France: https://bit.ly/AS_FR
-#     Spain: https://bit.ly/AS_SPA
-#     Germany: https://bit.ly/AS_GE
-#     Sweden: https://bit.ly/AS_NORDIC
-#     Norway: https://bit.ly/AS_NORDIC
-#     Denmark: https://bit.ly/AS_NORDIC
-#     Finland: https://bit.ly/AS_NORDIC
-#     South Africa: https://bit.ly/AS_SA
+    Watch Adult Swim in your country:
+    United Kingdom: https://bit.ly/AS_UK
+    Republic of Ireland: https://bit.ly/AS_UK
+    France: https://bit.ly/AS_FR
+    Spain: https://bit.ly/AS_SPA
+    Germany: https://bit.ly/AS_GE
+    Sweden: https://bit.ly/AS_NORDIC
+    Norway: https://bit.ly/AS_NORDIC
+    Denmark: https://bit.ly/AS_NORDIC
+    Finland: https://bit.ly/AS_NORDIC
+    South Africa: https://bit.ly/AS_SA
 
-#     Touch | Off the Air | adult swim''', videoUrl="vfZ6jywNSNQ", thumbnailUrl="https://i.ytimg.com/vi/vfZ6jywNSNQ/maxresdefault.jpg", createdAt="2022-04-07T15:00:29Z")
+    Touch | Off the Air | adult swim''', videoUrl="vfZ6jywNSNQ", thumbnailUrl="https://i.ytimg.com/vi/vfZ6jywNSNQ/maxresdefault.jpg", createdAt="2022-04-07T15:00:29Z")
 
 
 
-#     c2e2f9789de1f29bc916e1ce5ac12d32 = Video(channelId="52", title='''Floaty Jerry | Rick and Morty | adult swim''', description='''Rick and Beth try to rescue floaty Jerry, but Jerry refuses their help. Stream seasons 1-5 now on HBO Max: http://bit.ly/3hRw9rU 
+    c2e2f9789de1f29bc916e1ce5ac12d32 = Video(channelId="52", title='''Floaty Jerry | Rick and Morty | adult swim''', description='''Rick and Beth try to rescue floaty Jerry, but Jerry refuses their help. Stream seasons 1-5 now on HBO Max: http://bit.ly/3hRw9rU 
 
-#     #AdultSwim #RickAndMorty 
+    #AdultSwim #RickAndMorty 
 
-#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-#     What to watch next: more Rick and Morty clips!
-#     https://youtube.com/playlist?list=PLQl8zBB7bPvI_iYCe4LT8HHfjonOog4u3
+    What to watch next: more Rick and Morty clips!
+    https://youtube.com/playlist?list=PLQl8zBB7bPvI_iYCe4LT8HHfjonOog4u3
 
-#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
+    Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
 
-#     About Adult Swim:
-#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+    About Adult Swim:
+    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-#     Connect with Adult Swim Online:
-#     Download the APPS: http://www.adultswim.com/apps/
-#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
-#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+    Connect with Adult Swim Online:
+    Download the APPS: http://www.adultswim.com/apps/
+    Visit Adult Swim WEBSITE: http://www.adultswim.com 
+    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-#     Watch Adult Swim in your country:
-#     United Kingdom: https://bit.ly/AS_UK
-#     Republic of Ireland: https://bit.ly/AS_UK
-#     France: https://bit.ly/AS_FR
-#     Spain: https://bit.ly/AS_SPA
-#     Germany: https://bit.ly/AS_GE
-#     Sweden: https://bit.ly/AS_NORDIC
-#     Norway: https://bit.ly/AS_NORDIC
-#     Denmark: https://bit.ly/AS_NORDIC
-#     Finland: https://bit.ly/AS_NORDIC
-#     South Africa: https://bit.ly/AS_SA
+    Watch Adult Swim in your country:
+    United Kingdom: https://bit.ly/AS_UK
+    Republic of Ireland: https://bit.ly/AS_UK
+    France: https://bit.ly/AS_FR
+    Spain: https://bit.ly/AS_SPA
+    Germany: https://bit.ly/AS_GE
+    Sweden: https://bit.ly/AS_NORDIC
+    Norway: https://bit.ly/AS_NORDIC
+    Denmark: https://bit.ly/AS_NORDIC
+    Finland: https://bit.ly/AS_NORDIC
+    South Africa: https://bit.ly/AS_SA
 
-#     Floaty Jerry | Rick and Morty | adult swim''', videoUrl="OjOcb3aBJBo", thumbnailUrl="https://i.ytimg.com/vi/OjOcb3aBJBo/maxresdefault.jpg", createdAt="2022-04-06T16:00:24Z")
+    Floaty Jerry | Rick and Morty | adult swim''', videoUrl="OjOcb3aBJBo", thumbnailUrl="https://i.ytimg.com/vi/OjOcb3aBJBo/maxresdefault.jpg", createdAt="2022-04-06T16:00:24Z")
 
 
 
-#     c98d20e0ebb1c74d4185759499f85ee1 = Video(channelId="58", title='''Wiz Khalifa - Iced Out Necklace [Official Music Video]''', description='''Wiz Khalifa - Iced Out Necklace [Official Music Video]
-#     🎶Stream → https://wizkhalifa.lnk.to/IcedOutNecklace
-#     Music Produced by: Sledgren
+    c98d20e0ebb1c74d4185759499f85ee1 = Video(channelId="58", title='''Wiz Khalifa - Iced Out Necklace [Official Music Video]''', description='''Wiz Khalifa - Iced Out Necklace [Official Music Video]
+    🎶Stream → https://wizkhalifa.lnk.to/IcedOutNecklace
+    Music Produced by: Sledgren
 
-#     📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install
-#     🍁Khalifa Kush available now → http://khalifakush.com
-#     📺Taylor Gang Playlist → https://fanlink.to/tgytp
-#     👕Taylor Gang merch → http://store.taylorgang.com
+    📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install
+    🍁Khalifa Kush available now → http://khalifakush.com
+    📺Taylor Gang Playlist → https://fanlink.to/tgytp
+    👕Taylor Gang merch → http://store.taylorgang.com
 
-#     Follow Wiz ↙️
-#     ►Subscribe to channel: http://goo.gl/y3Bnno
-#     ►Instagram - https://instagram.com/wizkhalifa
-#     ►Twitter - https://twitter.com/wizkhalifa
-#     ►Facebook - https://facebook.com/wizkhalifa
-#     ►Snapchat - https://snapchat.com/add/khalifathecap
-#     ►Soundcloud - https://soundcloud.com/wizkhalifa
-#     ►Website: http://wizkhalifa.com
+    Follow Wiz ↙️
+    ►Subscribe to channel: http://goo.gl/y3Bnno
+    ►Instagram - https://instagram.com/wizkhalifa
+    ►Twitter - https://twitter.com/wizkhalifa
+    ►Facebook - https://facebook.com/wizkhalifa
+    ►Snapchat - https://snapchat.com/add/khalifathecap
+    ►Soundcloud - https://soundcloud.com/wizkhalifa
+    ►Website: http://wizkhalifa.com
 
-#     Follow Taylor Gang ↙️
-#     ►Text - (412) 226-4201
-#     ►Twitter - https://twitter.com/taylorgang​​​
-#     ►Instagram - https://instagram.com/taylorgang​​​
-#     ►Facebook - https://facebook.com/TaylorGang​​​
-#     ►Soundcloud - https://soundcloud.com/taylorgang​​​
+    Follow Taylor Gang ↙️
+    ►Text - (412) 226-4201
+    ►Twitter - https://twitter.com/taylorgang​​​
+    ►Instagram - https://instagram.com/taylorgang​​​
+    ►Facebook - https://facebook.com/TaylorGang​​​
+    ►Soundcloud - https://soundcloud.com/taylorgang​​​
 
-#     Director: Andrea Saavedra @producedbydre 
-#     DOP: Mike Marasco @mikemarasco
-#     1st AD: Kelo @Kelo_of_Dopeness
-#     Creative Director : David Muniz @davemuniz
-#     Executive Producer: Andrea Saavedra 
-#     Executive Producer: Keilon Thompson 
-#     Executive Producer: Lyric Aaliyah Thompson 
-#     Producer: Brant Kantor
-#     Production Manager: Nataly Arroyo 
-#     2nd AD: Henrii Coleman
-#     2nd 2nd AD: Chijoke Akujoubi
-#     1st AC: Taylor Ross
-#     1st AC: Spenser Wood 
-#     2nd AC: Amber B 
-#     Steadicam: Thor Wixom 
-#     DIT/AE: Nick Alvarez 
-#     BTS: Samuel Flores
-#     BTS: Steven Olguin 
-#     Gaffer: Robert Julin 
-#     BBE: Chirstopher Oh 
-#     Electric: Noah Shettel 
-#     Electric: Maile Edwards 
-#     Electric: Jake Glaviano 
-#     Electric: Zach White 
-#     Electric: Jack Thomas 
-#     Electric: Zinedine Huarta 
-#     Key Grip: Omar Pena 
-#     BBG: Josh Andersen 
-#     Grip: Gavin Samples 
-#     Grip: Yoni Coen
-#     Grip: Paul Martin
-#     Grip: Niklas Tosian
-#     Grip: Alejandro Zambrano
-#     Grip: Kyle Schumacher
-#     Production Designer: Jevon Dismuke 
-#     Art Coord: Daniella Nikolic
-#     Set Dresser: Eden Vanetek
-#     Set Dresser: Fabian Suarez
-#     Set Dresser: Mckay LeDuke
-#     Set Dresser: Richard Murray
-#     Set Dresser: Tyler Dillon
-#     Head of Glam: Lizzy Arroyo
-#     Office PA: Harper Royal
-#     Truck PA: Jeffrey
-#     Set PA: RB
-#     Set PA: Isaiah Wright
-#     Set PA: Ryan Davis
-#     Set PA: Damian Arroyo
-#     Playback: Kaidontrap
-#     Crafty: Whitney Smith
-#     Crafty Asst: Madison Blue
-#     Set Medic: Tony Washington
-#     Casting Director: Sarah May Levy
-#     Casting: Big Apple Casting
-#     Taylor Gang EP: Brad Johnson
-#     Project Manager: Michelle Fafard
-#     Management: Nisha Bhagat
-#     Production Co: Moonlight Cinema @amoonlightcinema
+    Director: Andrea Saavedra @producedbydre 
+    DOP: Mike Marasco @mikemarasco
+    1st AD: Kelo @Kelo_of_Dopeness
+    Creative Director : David Muniz @davemuniz
+    Executive Producer: Andrea Saavedra 
+    Executive Producer: Keilon Thompson 
+    Executive Producer: Lyric Aaliyah Thompson 
+    Producer: Brant Kantor
+    Production Manager: Nataly Arroyo 
+    2nd AD: Henrii Coleman
+    2nd 2nd AD: Chijoke Akujoubi
+    1st AC: Taylor Ross
+    1st AC: Spenser Wood 
+    2nd AC: Amber B 
+    Steadicam: Thor Wixom 
+    DIT/AE: Nick Alvarez 
+    BTS: Samuel Flores
+    BTS: Steven Olguin 
+    Gaffer: Robert Julin 
+    BBE: Chirstopher Oh 
+    Electric: Noah Shettel 
+    Electric: Maile Edwards 
+    Electric: Jake Glaviano 
+    Electric: Zach White 
+    Electric: Jack Thomas 
+    Electric: Zinedine Huarta 
+    Key Grip: Omar Pena 
+    BBG: Josh Andersen 
+    Grip: Gavin Samples 
+    Grip: Yoni Coen
+    Grip: Paul Martin
+    Grip: Niklas Tosian
+    Grip: Alejandro Zambrano
+    Grip: Kyle Schumacher
+    Production Designer: Jevon Dismuke 
+    Art Coord: Daniella Nikolic
+    Set Dresser: Eden Vanetek
+    Set Dresser: Fabian Suarez
+    Set Dresser: Mckay LeDuke
+    Set Dresser: Richard Murray
+    Set Dresser: Tyler Dillon
+    Head of Glam: Lizzy Arroyo
+    Office PA: Harper Royal
+    Truck PA: Jeffrey
+    Set PA: RB
+    Set PA: Isaiah Wright
+    Set PA: Ryan Davis
+    Set PA: Damian Arroyo
+    Playback: Kaidontrap
+    Crafty: Whitney Smith
+    Crafty Asst: Madison Blue
+    Set Medic: Tony Washington
+    Casting Director: Sarah May Levy
+    Casting: Big Apple Casting
+    Taylor Gang EP: Brad Johnson
+    Project Manager: Michelle Fafard
+    Management: Nisha Bhagat
+    Production Co: Moonlight Cinema @amoonlightcinema
 
-#     #WizKhalifa #IcedOutNecklace #TaylorGang 
-#     © 2022 Taylor Gang Ent., LLC''', videoUrl="LNPnz5LDbr8", thumbnailUrl="https://i.ytimg.com/vi/LNPnz5LDbr8/maxresdefault.jpg", createdAt="2022-04-11T19:00:12Z")
+    #WizKhalifa #IcedOutNecklace #TaylorGang 
+    © 2022 Taylor Gang Ent., LLC''', videoUrl="LNPnz5LDbr8", thumbnailUrl="https://i.ytimg.com/vi/LNPnz5LDbr8/maxresdefault.jpg", createdAt="2022-04-11T19:00:12Z")
 
 
 
-#     c63f87ef61af79c75f9a7117cb96263a = Video(channelId="58", title='''Wiz Khalifa - Still Rolling Papers | After Party''', description='''Watch the full Still Rolling Papers Documentary at https://www.youtube.com/watch?v=7PexSCqzXQQ''', videoUrl="tzXerrJAujA", thumbnailUrl="https://i.ytimg.com/vi/tzXerrJAujA/hqdefault.jpg", createdAt="2022-04-02T00:24:36Z")
+    c63f87ef61af79c75f9a7117cb96263a = Video(channelId="58", title='''Wiz Khalifa - Still Rolling Papers | After Party''', description='''Watch the full Still Rolling Papers Documentary at https://www.youtube.com/watch?v=7PexSCqzXQQ''', videoUrl="tzXerrJAujA", thumbnailUrl="https://i.ytimg.com/vi/tzXerrJAujA/hqdefault.jpg", createdAt="2022-04-02T00:24:36Z")
 
 
 
-#     c4d4912bea0e17df3281b871131e4545 = Video(channelId="58", title='''Wiz Khalifa - Still Rolling Papers | Documentary''', description='''Still Rolling Papers is a 30-minute documentary about Wiz Khalifa’s journey from hometown hero to global superstar. It’s the story of how a crew of friends took their dreams into their own hands and built one of the most impactful movements within Hip Hop. It’s a story of resilience, self belief, taking risks and ignoring outside pressure. The doc features interviews from Chevy Woods, Curren$y Snoop Dogg, Wiz Khalifa and more as they reflect on 10+ years of Taylor Gang. Thank you to all the fans who have been a part of the journey along the way.
+    c4d4912bea0e17df3281b871131e4545 = Video(channelId="58", title='''Wiz Khalifa - Still Rolling Papers | Documentary''', description='''Still Rolling Papers is a 30-minute documentary about Wiz Khalifa’s journey from hometown hero to global superstar. It’s the story of how a crew of friends took their dreams into their own hands and built one of the most impactful movements within Hip Hop. It’s a story of resilience, self belief, taking risks and ignoring outside pressure. The doc features interviews from Chevy Woods, Curren$y Snoop Dogg, Wiz Khalifa and more as they reflect on 10+ years of Taylor Gang. Thank you to all the fans who have been a part of the journey along the way.
 
-#     HipHopDX Presents Still Rolling Papers Starring Wiz Khalifa and Taylor Gang 
-#     Executive Produced By Wiz Khalifa, Will Dzombak, Kevin Hofman & Sharath Cherian
-#     In Association With Atlantic Records/ Warner Music Group, SMAC Entertainment
-#     Directed By Blair Avery (@createdbyba)
-#     Produced By & Interviews By Jeremy Hecht (@jeremy_hecht)
-#     Produced By Jordan Saint-Pierre (@jordansaintpierre)
-#     Thumbnail design by JR Martinez (@zxmbiac)
+    HipHopDX Presents Still Rolling Papers Starring Wiz Khalifa and Taylor Gang 
+    Executive Produced By Wiz Khalifa, Will Dzombak, Kevin Hofman & Sharath Cherian
+    In Association With Atlantic Records/ Warner Music Group, SMAC Entertainment
+    Directed By Blair Avery (@createdbyba)
+    Produced By & Interviews By Jeremy Hecht (@jeremy_hecht)
+    Produced By Jordan Saint-Pierre (@jordansaintpierre)
+    Thumbnail design by JR Martinez (@zxmbiac)
 
-#     Timecodes - 0:00
-#     0:30 - Wiz Khalifa reflects on the past decade in the game
-#     1:30 - Wiz talks about growing up in Hazelwood, Pittsburgh
-#     2:00 - How Chevy Woods and Wiz Khalifa connected in the studio
-#     2:00 - Sledgren talks about connecting with Wiz
-#     3:00 - How Taylor Gang and Wiz Khalifa started wearing chucks
-#     3:30 - Wiz Khalifa on taking music seriously and recording at ID Labs
-#     4:00 - E. Dan talks about working with Wiz Khalifa
-#     5:00 - Curren$y talks about meeting Wiz Khalifa and connecting through music
-#     6:00 - How Curren$y and Wiz Khalifa started smoking papers
-#     8:00 - Wiz Khalifa’s crew and the origins of Taylor Gang
-#     10:00 - Wiz signs his deal and goes on tour
-#     12:00 - Wiz Khalifa and Taylor Gang partying on tour - On My Level
-#     13:00 - Wiz talks about bringing smoking to his brand
-#     14:00 - Wiz Khalifa talks about Creating Rolling Papers
-#     16:00 - Wiz talks about dying his hair blonde
-#     17:00 - Wiz Khalifa talks about making “Black And Yellow”
-#     20:00 - How Snoop Dogg met Wiz Khalifa
-#     21:00 - Wiz Khalifa’s Rolling Stone Cover and becoming a superstar
-#     23:00 - Wiz Khalifa on returning to Pittsburgh to finish the album
-#     24:00 - Wiz and Taylor Gang talk about making “The Race”
-#     26:00 - What Rolling Papers means to the world
-#     27:00 - Who is Wiz Khalifa
+    Timecodes - 0:00
+    0:30 - Wiz Khalifa reflects on the past decade in the game
+    1:30 - Wiz talks about growing up in Hazelwood, Pittsburgh
+    2:00 - How Chevy Woods and Wiz Khalifa connected in the studio
+    2:00 - Sledgren talks about connecting with Wiz
+    3:00 - How Taylor Gang and Wiz Khalifa started wearing chucks
+    3:30 - Wiz Khalifa on taking music seriously and recording at ID Labs
+    4:00 - E. Dan talks about working with Wiz Khalifa
+    5:00 - Curren$y talks about meeting Wiz Khalifa and connecting through music
+    6:00 - How Curren$y and Wiz Khalifa started smoking papers
+    8:00 - Wiz Khalifa’s crew and the origins of Taylor Gang
+    10:00 - Wiz signs his deal and goes on tour
+    12:00 - Wiz Khalifa and Taylor Gang partying on tour - On My Level
+    13:00 - Wiz talks about bringing smoking to his brand
+    14:00 - Wiz Khalifa talks about Creating Rolling Papers
+    16:00 - Wiz talks about dying his hair blonde
+    17:00 - Wiz Khalifa talks about making “Black And Yellow”
+    20:00 - How Snoop Dogg met Wiz Khalifa
+    21:00 - Wiz Khalifa’s Rolling Stone Cover and becoming a superstar
+    23:00 - Wiz Khalifa on returning to Pittsburgh to finish the album
+    24:00 - Wiz and Taylor Gang talk about making “The Race”
+    26:00 - What Rolling Papers means to the world
+    27:00 - Who is Wiz Khalifa
 
-#     Featured Cast:
+    Featured Cast:
 
-#     Big Jerm - Producer & Engineer
-#     Chevy Woods - Rapper/ Taylor Gang OG
-#     Curren$y - Rapper & Entrepreneur
-#     DJ Bonics - Wiz’s Tour DJ
-#     E. Dan - Producer and Owner of I.D. Labs Studio 
-#     LaMarr Woodley - Pittsburgh Steelers Super Bowl Champion
-#     Light aka “Loody Boy” - Merchandise Manager and Director of Meet & Greets
-#     Marsha St. Hubert - VP, Marketing. Atlantic Records
-#     Matt Young - President, Warner Music Artist Services
-#     Motor - Wiz’s Uncle/ Merchandise Director
-#     Peachie - Wiz’s Mom
-#     Stargate - Black & Yellow Producers
-#     Sledgren - Producer
-#     Snoop Dogg - Rap Legend
-#     Sydney Margetson - Senior VP of Publicity, Atlantic Records
-#     Will Dzombak - Wiz’s Manager/ CEO Taylor Gang
+    Big Jerm - Producer & Engineer
+    Chevy Woods - Rapper/ Taylor Gang OG
+    Curren$y - Rapper & Entrepreneur
+    DJ Bonics - Wiz’s Tour DJ
+    E. Dan - Producer and Owner of I.D. Labs Studio 
+    LaMarr Woodley - Pittsburgh Steelers Super Bowl Champion
+    Light aka “Loody Boy” - Merchandise Manager and Director of Meet & Greets
+    Marsha St. Hubert - VP, Marketing. Atlantic Records
+    Matt Young - President, Warner Music Artist Services
+    Motor - Wiz’s Uncle/ Merchandise Director
+    Peachie - Wiz’s Mom
+    Stargate - Black & Yellow Producers
+    Sledgren - Producer
+    Snoop Dogg - Rap Legend
+    Sydney Margetson - Senior VP of Publicity, Atlantic Records
+    Will Dzombak - Wiz’s Manager/ CEO Taylor Gang
 
 
-#     Credits:
-#     Director of Photography: Joey Koch
-#     Sound Recording, Mix, and Master by
-#     Fabian G. Rios
-#     Color Correction: Nathan Girard
-#     Special Effects & Video Art: Pax & Q
+    Credits:
+    Director of Photography: Joey Koch
+    Sound Recording, Mix, and Master by
+    Fabian G. Rios
+    Color Correction: Nathan Girard
+    Special Effects & Video Art: Pax & Q
     
-#     Graphics & Design
-#     Pax & Q - Intro/Outro Graphics & Lower Thirds 
-#     JR Martinez - Textual Design
+    Graphics & Design
+    Pax & Q - Intro/Outro Graphics & Lower Thirds 
+    JR Martinez - Textual Design
     
 
-#     Crew:
-
-#     Los Angeles Shoots:
-#     Joey Koch - Director of Photography
-#     Blair Avery - First Camera
-#     Jordan Saint-Pierre - Production Lead
-#     Jeremy Hecht - Interviews, Research & Production
-#     Sergio Mejia - Sound & lighting production
-#     Kai Chu - Production Assistant 
-#     Braden Walker - Additional shots and footage provided
-
-#     Pittsburgh Shoots:
-#     Blair Avery - Director of Photography
-#     Seth Welch - Lead Camera Operator
-#     Andy Qu - Camera Operator
-#     Brian Jones - Production Coordinator 
-#     Jeremy Hecht - Interviews & Research
-#     Shawn Painter - Production Assistant
-
-#     Las Vegas Shoots:
-#     Blair Avery - Director of Photography
-#     Braden Walker - Additional Camera
-#     Nathan Ball - Production Coordinator
-
-
-#     Line Producers:
-#     Elise Ricks
-#     Ali Darwish
-#     Nathan Ball 
-
-#     Commissioned By Atlantic Records:
-#     Blake Foster - Senior Vice President, Global Catalog Development & Marketing at Warner Music Group
-#     Alvin Akintimehin - Director, Marketing, HipHop/R&B Catalog at Warner Music Group
-#     Marsha St. Hubert - VP, Marketing at Atlantic Records
-#     Kevin Hofman - Vice President, Content Development & Production at Warner Music Group
-
-#     For more of HipHopDX:
-#     http://www.hiphopdx.com
-#     https://twitter.com/hiphopdx
-#     https://www.facebook.com/hiphopdx
-#     http://instagram.com/hiphopdx
-
-#     Rest In Peace To Nipsey Hussle & Mac Miller
-#     Special thank you to the fans who have been on this journey for a decade plus
-
-#     #WizKhalifa #StillRollingPapers #TaylorGang''', videoUrl="7PexSCqzXQQ", thumbnailUrl="https://i.ytimg.com/vi/7PexSCqzXQQ/hqdefault.jpg", createdAt="2022-03-30T00:00:11Z")
-
-
-
-#     c5aeb9aa50f898479a30e4cad497e495 = Video(channelId="58", title='''Wiz Khalifa & Juicy J - Weak (feat. Big 30) [Official Music Video]''', description='''Wiz Khalifa & Juicy J - Weak (feat. Big 30) [Official Music Video]
-#     🎶  https://ffm.to/stonersnight
-#     🤯  https://store.taylorgang.com/collections/stoners-night
-
-#     📺Taylor Gang Playlist → https://fanlink.to/tgytp
-#     👕Taylor Gang merch → http://store.taylorgang.com
-
-#     Follow Wiz ↙️
-#     ►Subscribe to channel: http://goo.gl/y3Bnno
-#     ►Instagram - https://instagram.com/wizkhalifa
-#     ►Twitter - https://twitter.com/wizkhalifa
-#     ►Facebook - https://facebook.com/wizkhalifa
-#     ►Snapchat - https://snapchat.com/add/khalifathecap
-#     ►Soundcloud - https://soundcloud.com/wizkhalifa
-#     ►Website: http://wizkhalifa.com
-
-#     Follow Juicy J ↙️
-#     ►Twitter - https://twitter.com/therealjuicyj
-#     ►Facebook - https://facebook.com/wizkhalifa
-#     ►Instagram - https://instagram.com/juicyj
-#     ►Soundcloud - https://soundcloud.com/juicyjmusic
-#     ►Website - https://thejuicyj.com/
-
-#     Follow Taylor Gang ↙️
-#     ►Text - (412) 226-4201
-#     ►Twitter - https://twitter.com/taylorgang​​​
-#     ►Instagram - https://instagram.com/taylorgang​​​
-#     ►Facebook - https://facebook.com/TaylorGang​​​
-#     ►Soundcloud - https://soundcloud.com/taylorgang​​​
-
-#     #WizKhalifa #JuicyJ #TaylorGang
-#     © 2021 Taylor Gang Ent., LLC''', videoUrl="FRQwVBvfcGk", thumbnailUrl="https://i.ytimg.com/vi/FRQwVBvfcGk/maxresdefault.jpg", createdAt="2022-02-16T14:00:56Z")
-
-
-
-#     c920e0e2e9a108722fabbbd60756914a = Video(channelId="58", title='''Wiz Khalifa - Wiz Got Wings [Official Music Video]''', description='''Wiz Khalifa - Wiz Got Wings [Official Music Video]
-#     🎶Stream → https://fanlink.to/wizgotwings
-#     Music Produced by: Sledgren & Chris Dreamer
-
-#     📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install
-#     🍁Khalifa Kush available now → http://khalifakush.com
-#     📺Taylor Gang Playlist → https://fanlink.to/tgytp
-#     👕Taylor Gang merch → http://store.taylorgang.com
-
-#     Follow Wiz ↙️
-#     ►Subscribe to channel: http://goo.gl/y3Bnno
-#     ►Instagram - https://instagram.com/wizkhalifa
-#     ►Twitter - https://twitter.com/wizkhalifa
-#     ►Facebook - https://facebook.com/wizkhalifa
-#     ►Snapchat - https://snapchat.com/add/khalifathecap
-#     ►Soundcloud - https://soundcloud.com/wizkhalifa
-#     ►Website: http://wizkhalifa.com
-
-#     Follow Taylor Gang ↙️
-#     ►Text - (412) 226-4201
-#     ►Twitter - https://twitter.com/taylorgang​​​
-#     ►Instagram - https://instagram.com/taylorgang​​​
-#     ►Facebook - https://facebook.com/TaylorGang​​​
-#     ►Soundcloud - https://soundcloud.com/taylorgang​​​
-
-#     #WizKhalifa #TaylorGang #WizGotWings
-#     © 2022 Taylor Gang Ent., LLC''', videoUrl="Mz4LYspnvk4", thumbnailUrl="https://i.ytimg.com/vi/Mz4LYspnvk4/maxresdefault.jpg", createdAt="2022-02-02T02:49:56Z")
-
+    Crew:
+
+    Los Angeles Shoots:
+    Joey Koch - Director of Photography
+    Blair Avery - First Camera
+    Jordan Saint-Pierre - Production Lead
+    Jeremy Hecht - Interviews, Research & Production
+    Sergio Mejia - Sound & lighting production
+    Kai Chu - Production Assistant 
+    Braden Walker - Additional shots and footage provided
+
+    Pittsburgh Shoots:
+    Blair Avery - Director of Photography
+    Seth Welch - Lead Camera Operator
+    Andy Qu - Camera Operator
+    Brian Jones - Production Coordinator 
+    Jeremy Hecht - Interviews & Research
+    Shawn Painter - Production Assistant
+
+    Las Vegas Shoots:
+    Blair Avery - Director of Photography
+    Braden Walker - Additional Camera
+    Nathan Ball - Production Coordinator
+
+
+    Line Producers:
+    Elise Ricks
+    Ali Darwish
+    Nathan Ball 
+
+    Commissioned By Atlantic Records:
+    Blake Foster - Senior Vice President, Global Catalog Development & Marketing at Warner Music Group
+    Alvin Akintimehin - Director, Marketing, HipHop/R&B Catalog at Warner Music Group
+    Marsha St. Hubert - VP, Marketing at Atlantic Records
+    Kevin Hofman - Vice President, Content Development & Production at Warner Music Group
+
+    For more of HipHopDX:
+    http://www.hiphopdx.com
+    https://twitter.com/hiphopdx
+    https://www.facebook.com/hiphopdx
+    http://instagram.com/hiphopdx
+
+    Rest In Peace To Nipsey Hussle & Mac Miller
+    Special thank you to the fans who have been on this journey for a decade plus
+
+    #WizKhalifa #StillRollingPapers #TaylorGang''', videoUrl="7PexSCqzXQQ", thumbnailUrl="https://i.ytimg.com/vi/7PexSCqzXQQ/hqdefault.jpg", createdAt="2022-03-30T00:00:11Z")
+
+
+
+    c5aeb9aa50f898479a30e4cad497e495 = Video(channelId="58", title='''Wiz Khalifa & Juicy J - Weak (feat. Big 30) [Official Music Video]''', description='''Wiz Khalifa & Juicy J - Weak (feat. Big 30) [Official Music Video]
+    🎶  https://ffm.to/stonersnight
+    🤯  https://store.taylorgang.com/collections/stoners-night
+
+    📺Taylor Gang Playlist → https://fanlink.to/tgytp
+    👕Taylor Gang merch → http://store.taylorgang.com
+
+    Follow Wiz ↙️
+    ►Subscribe to channel: http://goo.gl/y3Bnno
+    ►Instagram - https://instagram.com/wizkhalifa
+    ►Twitter - https://twitter.com/wizkhalifa
+    ►Facebook - https://facebook.com/wizkhalifa
+    ►Snapchat - https://snapchat.com/add/khalifathecap
+    ►Soundcloud - https://soundcloud.com/wizkhalifa
+    ►Website: http://wizkhalifa.com
+
+    Follow Juicy J ↙️
+    ►Twitter - https://twitter.com/therealjuicyj
+    ►Facebook - https://facebook.com/wizkhalifa
+    ►Instagram - https://instagram.com/juicyj
+    ►Soundcloud - https://soundcloud.com/juicyjmusic
+    ►Website - https://thejuicyj.com/
+
+    Follow Taylor Gang ↙️
+    ►Text - (412) 226-4201
+    ►Twitter - https://twitter.com/taylorgang​​​
+    ►Instagram - https://instagram.com/taylorgang​​​
+    ►Facebook - https://facebook.com/TaylorGang​​​
+    ►Soundcloud - https://soundcloud.com/taylorgang​​​
+
+    #WizKhalifa #JuicyJ #TaylorGang
+    © 2021 Taylor Gang Ent., LLC''', videoUrl="FRQwVBvfcGk", thumbnailUrl="https://i.ytimg.com/vi/FRQwVBvfcGk/maxresdefault.jpg", createdAt="2022-02-16T14:00:56Z")
+
+
+
+    c920e0e2e9a108722fabbbd60756914a = Video(channelId="58", title='''Wiz Khalifa - Wiz Got Wings [Official Music Video]''', description='''Wiz Khalifa - Wiz Got Wings [Official Music Video]
+    🎶Stream → https://fanlink.to/wizgotwings
+    Music Produced by: Sledgren & Chris Dreamer
+
+    📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install
+    🍁Khalifa Kush available now → http://khalifakush.com
+    📺Taylor Gang Playlist → https://fanlink.to/tgytp
+    👕Taylor Gang merch → http://store.taylorgang.com
+
+    Follow Wiz ↙️
+    ►Subscribe to channel: http://goo.gl/y3Bnno
+    ►Instagram - https://instagram.com/wizkhalifa
+    ►Twitter - https://twitter.com/wizkhalifa
+    ►Facebook - https://facebook.com/wizkhalifa
+    ►Snapchat - https://snapchat.com/add/khalifathecap
+    ►Soundcloud - https://soundcloud.com/wizkhalifa
+    ►Website: http://wizkhalifa.com
+
+    Follow Taylor Gang ↙️
+    ►Text - (412) 226-4201
+    ►Twitter - https://twitter.com/taylorgang​​​
+    ►Instagram - https://instagram.com/taylorgang​​​
+    ►Facebook - https://facebook.com/TaylorGang​​​
+    ►Soundcloud - https://soundcloud.com/taylorgang​​​
+
+    #WizKhalifa #TaylorGang #WizGotWings
+    © 2022 Taylor Gang Ent., LLC''', videoUrl="Mz4LYspnvk4", thumbnailUrl="https://i.ytimg.com/vi/Mz4LYspnvk4/maxresdefault.jpg", createdAt="2022-02-02T02:49:56Z")
+
 
-
-#     cef82514398bb11dcd760333eccb9057 = Video(channelId="58", title='''Wiz Khalifa - Dr. Dankenstien (ft. Fedd The God) [Official Music Video]''', description='''Wiz Khalifa - Dr. Dankenstien [Official Music Video]
-#     🎶Stream → https://fanlink.to/wizgotwings
-#     Music Produced by: Sledgren
-
-#     📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install
-#     🍁Khalifa Kush available now → http://khalifakush.com
-#     📺Taylor Gang Playlist → https://fanlink.to/tgytp
-#     👕Taylor Gang merch → http://store.taylorgang.com
-
-#     Follow Wiz ↙️
-#     ►Subscribe to channel: http://goo.gl/y3Bnno
-#     ►Instagram - https://instagram.com/wizkhalifa
-#     ►Twitter - https://twitter.com/wizkhalifa
-#     ►Facebook - https://facebook.com/wizkhalifa
-#     ►Snapchat - https://snapchat.com/add/khalifathecap
-#     ►Soundcloud - https://soundcloud.com/wizkhalifa
-#     ►Website: http://wizkhalifa.com
-
-#     Follow Taylor Gang ↙️
-#     ►Text - (412) 226-4201
-#     ►Twitter - https://twitter.com/taylorgang​​​
-#     ►Instagram - https://instagram.com/taylorgang​​​
-#     ►Facebook - https://facebook.com/TaylorGang​​​
-#     ►Soundcloud - https://soundcloud.com/taylorgang​​​
-
-#     #WizKhalifa #TaylorGang #WizGotWings
-#     © 2022 Taylor Gang Ent., LLC''', videoUrl="za9n5_WzpFo", thumbnailUrl="https://i.ytimg.com/vi/za9n5_WzpFo/maxresdefault.jpg", createdAt="2022-01-31T16:14:54Z")
-
+
+    cef82514398bb11dcd760333eccb9057 = Video(channelId="58", title='''Wiz Khalifa - Dr. Dankenstien (ft. Fedd The God) [Official Music Video]''', description='''Wiz Khalifa - Dr. Dankenstien [Official Music Video]
+    🎶Stream → https://fanlink.to/wizgotwings
+    Music Produced by: Sledgren
+
+    📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install
+    🍁Khalifa Kush available now → http://khalifakush.com
+    📺Taylor Gang Playlist → https://fanlink.to/tgytp
+    👕Taylor Gang merch → http://store.taylorgang.com
+
+    Follow Wiz ↙️
+    ►Subscribe to channel: http://goo.gl/y3Bnno
+    ►Instagram - https://instagram.com/wizkhalifa
+    ►Twitter - https://twitter.com/wizkhalifa
+    ►Facebook - https://facebook.com/wizkhalifa
+    ►Snapchat - https://snapchat.com/add/khalifathecap
+    ►Soundcloud - https://soundcloud.com/wizkhalifa
+    ►Website: http://wizkhalifa.com
+
+    Follow Taylor Gang ↙️
+    ►Text - (412) 226-4201
+    ►Twitter - https://twitter.com/taylorgang​​​
+    ►Instagram - https://instagram.com/taylorgang​​​
+    ►Facebook - https://facebook.com/TaylorGang​​​
+    ►Soundcloud - https://soundcloud.com/taylorgang​​​
+
+    #WizKhalifa #TaylorGang #WizGotWings
+    © 2022 Taylor Gang Ent., LLC''', videoUrl="za9n5_WzpFo", thumbnailUrl="https://i.ytimg.com/vi/za9n5_WzpFo/maxresdefault.jpg", createdAt="2022-01-31T16:14:54Z")
+
 
 
-#     c6d25a42a1f89a88c1fddc80aac1995b = Video(channelId="58", title='''Wiz Khalifa & Juicy J - Backseat (feat. Project Pat) [Official Music Video]''', description='''Wiz Khalifa & Juicy J - Backseat (feat. Project Pat) [Official Music Video]
-#     🎶  https://ffm.to/-backseat
-#     📲  https://ffm.to/stonersnight
+    c6d25a42a1f89a88c1fddc80aac1995b = Video(channelId="58", title='''Wiz Khalifa & Juicy J - Backseat (feat. Project Pat) [Official Music Video]''', description='''Wiz Khalifa & Juicy J - Backseat (feat. Project Pat) [Official Music Video]
+    🎶  https://ffm.to/-backseat
+    📲  https://ffm.to/stonersnight
 
-#     📺Taylor Gang Playlist → https://fanlink.to/tgytp
-#     👕Taylor Gang merch → http://store.taylorgang.com
+    📺Taylor Gang Playlist → https://fanlink.to/tgytp
+    👕Taylor Gang merch → http://store.taylorgang.com
 
-#     Follow Wiz ↙️
-#     ►Subscribe to channel: http://goo.gl/y3Bnno
-#     ►Instagram - https://instagram.com/wizkhalifa
-#     ►Twitter - https://twitter.com/wizkhalifa
-#     ►Facebook - https://facebook.com/wizkhalifa
-#     ►Snapchat - https://snapchat.com/add/khalifathecap
-#     ►Soundcloud - https://soundcloud.com/wizkhalifa
-#     ►Website: http://wizkhalifa.com
+    Follow Wiz ↙️
+    ►Subscribe to channel: http://goo.gl/y3Bnno
+    ►Instagram - https://instagram.com/wizkhalifa
+    ►Twitter - https://twitter.com/wizkhalifa
+    ►Facebook - https://facebook.com/wizkhalifa
+    ►Snapchat - https://snapchat.com/add/khalifathecap
+    ►Soundcloud - https://soundcloud.com/wizkhalifa
+    ►Website: http://wizkhalifa.com
 
-#     Follow Juicy J ↙️
-#     ►Twitter - https://twitter.com/therealjuicyj
-#     ►Facebook - https://facebook.com/wizkhalifa
-#     ►Instagram - https://instagram.com/juicyj
-#     ►Soundcloud - https://soundcloud.com/juicyjmusic
-#     ►Website - https://thejuicyj.com/
+    Follow Juicy J ↙️
+    ►Twitter - https://twitter.com/therealjuicyj
+    ►Facebook - https://facebook.com/wizkhalifa
+    ►Instagram - https://instagram.com/juicyj
+    ►Soundcloud - https://soundcloud.com/juicyjmusic
+    ►Website - https://thejuicyj.com/
 
-#     Follow Taylor Gang ↙️
-#     ►Text - (412) 226-4201
-#     ►Twitter - https://twitter.com/taylorgang​​​
-#     ►Instagram - https://instagram.com/taylorgang​​​
-#     ►Facebook - https://facebook.com/TaylorGang​​​
-#     ►Soundcloud - https://soundcloud.com/taylorgang​​​
-
-#     #WizKhalifa #JuicyJ #TaylorGang
-#     © 2021 Taylor Gang Ent., LLC''', videoUrl="Aeoa5ZsJ02U", thumbnailUrl="https://i.ytimg.com/vi/Aeoa5ZsJ02U/maxresdefault.jpg", createdAt="2022-01-26T17:00:10Z")
+    Follow Taylor Gang ↙️
+    ►Text - (412) 226-4201
+    ►Twitter - https://twitter.com/taylorgang​​​
+    ►Instagram - https://instagram.com/taylorgang​​​
+    ►Facebook - https://facebook.com/TaylorGang​​​
+    ►Soundcloud - https://soundcloud.com/taylorgang​​​
+
+    #WizKhalifa #JuicyJ #TaylorGang
+    © 2021 Taylor Gang Ent., LLC''', videoUrl="Aeoa5ZsJ02U", thumbnailUrl="https://i.ytimg.com/vi/Aeoa5ZsJ02U/maxresdefault.jpg", createdAt="2022-01-26T17:00:10Z")
 
 
 
-#     c4d37f8e6964772862815edd502002d5 = Video(channelId="58", title='''Sledgren, Wiz Khalifa, & Larry June - Chill With Me [Official Music Video]''', description='''Sledgren, Wiz Khalifa, & Larry June - Chill With Me [Official Music Video]
-#     🎶Stream/Download → https://music.empi.re/chillwithme
+    c4d37f8e6964772862815edd502002d5 = Video(channelId="58", title='''Sledgren, Wiz Khalifa, & Larry June - Chill With Me [Official Music Video]''', description='''Sledgren, Wiz Khalifa, & Larry June - Chill With Me [Official Music Video]
+    🎶Stream/Download → https://music.empi.re/chillwithme
 
-#     📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install
-#     🍁Khalifa Kush available now → http://khalifakush.com
-#     📺Taylor Gang Playlist → https://fanlink.to/tgytp
-#     👕Taylor Gang merch → http://store.taylorgang.com
+    📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install
+    🍁Khalifa Kush available now → http://khalifakush.com
+    📺Taylor Gang Playlist → https://fanlink.to/tgytp
+    👕Taylor Gang merch → http://store.taylorgang.com
 
-#     Follow Wiz ↙️
-#     ►Subscribe to channel: http://goo.gl/y3Bnno
-#     ►Snapchat - https://www.snapchat.com/add/khalifat...
-#     ►Twitter - https://twitter.com/wizkhalifa
-#     ►Facebook - https://facebook.com/wizkhalifa
-#     ►Instagram - https://instagram.com/wizkhalifa
-#     ►Soundcloud - https://soundcloud.com/wizkhalifa
-#     ►Website: http://wizkhalifa.com
+    Follow Wiz ↙️
+    ►Subscribe to channel: http://goo.gl/y3Bnno
+    ►Snapchat - https://www.snapchat.com/add/khalifat...
+    ►Twitter - https://twitter.com/wizkhalifa
+    ►Facebook - https://facebook.com/wizkhalifa
+    ►Instagram - https://instagram.com/wizkhalifa
+    ►Soundcloud - https://soundcloud.com/wizkhalifa
+    ►Website: http://wizkhalifa.com
 
-#     Follow Sledgren ↙️
-#     ►Twitter - https://twitter.com/imsledgren
-#     ►Instagram - https://instagram.com/sledgren
-#     ►Soundcloud - https://soundcloud.com/sledgren
-
-#     Follow Taylor Gang ↙️
-#     ►YouTube - https://youtube.com/taylorgang
-#     ►Twitter - https://twitter.com/taylorgang
-#     ►Instagram - https://www.instagram.com/taylorgang
-#     ►Facebook - https://www.facebook.com/TaylorGang
-#     ►Soundcloud - https://soundcloud.com/taylorgang
-
-#     #Sledgren #WizKhalifa #LarryJune''', videoUrl="p0gRoOLp1kQ", thumbnailUrl="https://i.ytimg.com/vi/p0gRoOLp1kQ/maxresdefault.jpg", createdAt="2022-01-14T05:00:09Z")
-
-
-
-#     c8f0d56cb4356aea2c75724892267af1 = Video(channelId="58", title='''Wiz Khalifa - Can't Stay Sober [Official Music Video]''', description='''Wiz Khalifa - Can't Stay Sober [Official Music Video]
-#     🎶Stream → https://fanlink.to/wizgotwings
-#     Music Produced by Cardo & Foley
+    Follow Sledgren ↙️
+    ►Twitter - https://twitter.com/imsledgren
+    ►Instagram - https://instagram.com/sledgren
+    ►Soundcloud - https://soundcloud.com/sledgren
+
+    Follow Taylor Gang ↙️
+    ►YouTube - https://youtube.com/taylorgang
+    ►Twitter - https://twitter.com/taylorgang
+    ►Instagram - https://www.instagram.com/taylorgang
+    ►Facebook - https://www.facebook.com/TaylorGang
+    ►Soundcloud - https://soundcloud.com/taylorgang
+
+    #Sledgren #WizKhalifa #LarryJune''', videoUrl="p0gRoOLp1kQ", thumbnailUrl="https://i.ytimg.com/vi/p0gRoOLp1kQ/maxresdefault.jpg", createdAt="2022-01-14T05:00:09Z")
+
+
+
+    c8f0d56cb4356aea2c75724892267af1 = Video(channelId="58", title='''Wiz Khalifa - Can't Stay Sober [Official Music Video]''', description='''Wiz Khalifa - Can't Stay Sober [Official Music Video]
+    🎶Stream → https://fanlink.to/wizgotwings
+    Music Produced by Cardo & Foley
 
-#     📺Taylor Gang Playlist → https://fanlink.to/tgytp
-#     👕Taylor Gang merch → http://store.taylorgang.com
+    📺Taylor Gang Playlist → https://fanlink.to/tgytp
+    👕Taylor Gang merch → http://store.taylorgang.com
 
-#     Follow Wiz ↙️
-#     ►Subscribe to channel: http://goo.gl/y3Bnno
-#     ►Instagram - https://instagram.com/wizkhalifa
-#     ►Twitter - https://twitter.com/wizkhalifa
-#     ►Facebook - https://facebook.com/wizkhalifa
-#     ►Snapchat - https://snapchat.com/add/khalifathecap
-#     ►Soundcloud - https://soundcloud.com/wizkhalifa
-#     ►Website: http://wizkhalifa.com
+    Follow Wiz ↙️
+    ►Subscribe to channel: http://goo.gl/y3Bnno
+    ►Instagram - https://instagram.com/wizkhalifa
+    ►Twitter - https://twitter.com/wizkhalifa
+    ►Facebook - https://facebook.com/wizkhalifa
+    ►Snapchat - https://snapchat.com/add/khalifathecap
+    ►Soundcloud - https://soundcloud.com/wizkhalifa
+    ►Website: http://wizkhalifa.com
 
-#     Follow Taylor Gang ↙️
-#     ►Text - (412) 226-4201
-#     ►Twitter - https://twitter.com/taylorgang​​​
-#     ►Instagram - https://instagram.com/taylorgang​​​
-#     ►Facebook - https://facebook.com/TaylorGang​​​
-#     ►Soundcloud - https://soundcloud.com/taylorgang​​​
-
-#     #WizKhalifa #TaylorGang #WizGotWings
-#     © 2021 Taylor Gang Ent., LLC''', videoUrl="1DcUUUYe8Ug", thumbnailUrl="https://i.ytimg.com/vi/1DcUUUYe8Ug/maxresdefault.jpg", createdAt="2021-12-24T18:42:33Z")
-
-
-
-#     c235c28cb2920c2cc921daa11ab88ec1 = Video(channelId="58", title='''Wiz Khalifa: Heavy Liquid Death User''', description='''Bosses like me only fill their glass with one water. Because when you’re at the highest level, you demand the best. Take it from someone who really, really knows his hydro. Be just like me at liquiddeath.com.''', videoUrl="Ciz1rguPPdU", thumbnailUrl="https://i.ytimg.com/vi/Ciz1rguPPdU/maxresdefault.jpg", createdAt="2021-12-07T17:00:06Z")
-
-
-
-#     c96e4da70b8ecaa68d0ed3b04d01b8d6 = Video(channelId="58", title='''Wiz Khalifa - DayToday - Vegas to party. Pittsburgh for Lalaween''', description='''Wiz Khalifa - DayToday - Vegas to party:Pittsburgh for Lalaween
-#     📼 Watch more episodes of DayToday → http://tgod.com/DayToday
-
-#     🕶 New Video out now → https://youtu.be/OClzPGchFwU
-#     📀 New Music out now → https://Wiz.lnk.to/SagaOfWizKhalifaDe...
+    Follow Taylor Gang ↙️
+    ►Text - (412) 226-4201
+    ►Twitter - https://twitter.com/taylorgang​​​
+    ►Instagram - https://instagram.com/taylorgang​​​
+    ►Facebook - https://facebook.com/TaylorGang​​​
+    ►Soundcloud - https://soundcloud.com/taylorgang​​​
+
+    #WizKhalifa #TaylorGang #WizGotWings
+    © 2021 Taylor Gang Ent., LLC''', videoUrl="1DcUUUYe8Ug", thumbnailUrl="https://i.ytimg.com/vi/1DcUUUYe8Ug/maxresdefault.jpg", createdAt="2021-12-24T18:42:33Z")
+
+
+
+    c235c28cb2920c2cc921daa11ab88ec1 = Video(channelId="58", title='''Wiz Khalifa: Heavy Liquid Death User''', description='''Bosses like me only fill their glass with one water. Because when you’re at the highest level, you demand the best. Take it from someone who really, really knows his hydro. Be just like me at liquiddeath.com.''', videoUrl="Ciz1rguPPdU", thumbnailUrl="https://i.ytimg.com/vi/Ciz1rguPPdU/maxresdefault.jpg", createdAt="2021-12-07T17:00:06Z")
+
+
+
+    c96e4da70b8ecaa68d0ed3b04d01b8d6 = Video(channelId="58", title='''Wiz Khalifa - DayToday - Vegas to party. Pittsburgh for Lalaween''', description='''Wiz Khalifa - DayToday - Vegas to party:Pittsburgh for Lalaween
+    📼 Watch more episodes of DayToday → http://tgod.com/DayToday
+
+    🕶 New Video out now → https://youtu.be/OClzPGchFwU
+    📀 New Music out now → https://Wiz.lnk.to/SagaOfWizKhalifaDe...
 
-#     📺Taylor Gang Playlist → https://tgod.com/YTP​​
-#     👕Taylor Gang merch → http://store.taylorgang.com​​
-#     🍁Khalifa Kush available now → http://khalifakush.com​​
-#     📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install​​
+    📺Taylor Gang Playlist → https://tgod.com/YTP​​
+    👕Taylor Gang merch → http://store.taylorgang.com​​
+    🍁Khalifa Kush available now → http://khalifakush.com​​
+    📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install​​
 
-#     Follow Wiz ↙️
-#     ►Updates: http://linktr.ee/WizKhalifa​​
-#     ►Subscribe on YouTube: https://tgod.com/WizYT​​
-#     ►Snapchat - https://snapchat.com/add/khalifat​​hecap
-#     ►Twitter - https://twitter.com/wizkhalifa​​
-#     ►Facebook - https://facebook.com/wizkhalifa​​
-#     ►Instagram - https://instagram.com/wizkhalifa​​
-#     ►Soundcloud - https://soundcloud.com/wizkhalifa​​
-#     ►Website & Merch: http://wizkhalifa.com​​
-
-#     Follow Taylor Gang  ↙️
-#     ►Text - (412) 226-4201
-#     ►Store - http://store.taylorgang.com​​
-#     ►YouTube - https://youtube.com/taylorgang
-#     ►Twitter - https://twitter.com/taylorgang
-#     ►Instagram - https://instagram.com/taylorgang
-#     ►Facebook - https://facebook.com/taylorgang
-#     ►Soundcloud - https://soundcloud.com/taylorgang
-
-#     #WizKhalifa​​ #TaylorGang​​ #DayToday​''', videoUrl="srol-t3R0PY", thumbnailUrl="https://i.ytimg.com/vi/srol-t3R0PY/hqdefault.jpg", createdAt="2021-12-07T01:52:53Z")
+    Follow Wiz ↙️
+    ►Updates: http://linktr.ee/WizKhalifa​​
+    ►Subscribe on YouTube: https://tgod.com/WizYT​​
+    ►Snapchat - https://snapchat.com/add/khalifat​​hecap
+    ►Twitter - https://twitter.com/wizkhalifa​​
+    ►Facebook - https://facebook.com/wizkhalifa​​
+    ►Instagram - https://instagram.com/wizkhalifa​​
+    ►Soundcloud - https://soundcloud.com/wizkhalifa​​
+    ►Website & Merch: http://wizkhalifa.com​​
+
+    Follow Taylor Gang  ↙️
+    ►Text - (412) 226-4201
+    ►Store - http://store.taylorgang.com​​
+    ►YouTube - https://youtube.com/taylorgang
+    ►Twitter - https://twitter.com/taylorgang
+    ►Instagram - https://instagram.com/taylorgang
+    ►Facebook - https://facebook.com/taylorgang
+    ►Soundcloud - https://soundcloud.com/taylorgang
+
+    #WizKhalifa​​ #TaylorGang​​ #DayToday​''', videoUrl="srol-t3R0PY", thumbnailUrl="https://i.ytimg.com/vi/srol-t3R0PY/hqdefault.jpg", createdAt="2021-12-07T01:52:53Z")
 
 
 
-#     c5f013ec64076eb10dec5da78bf62260 = Video(channelId="58", title='''Wiz Khalifa & Juicy J - Pop That Trunk [Official Music Video]''', description='''Wiz Khalifa & Juicy J - Pop That Trunk [Official Music Video]
-#     🎶Stream → https://ffm.to/popthattrunk
-#     🤯  POP THAT TRUNK MERCH → https://store.taylorgang.com/stonersnight
+    c5f013ec64076eb10dec5da78bf62260 = Video(channelId="58", title='''Wiz Khalifa & Juicy J - Pop That Trunk [Official Music Video]''', description='''Wiz Khalifa & Juicy J - Pop That Trunk [Official Music Video]
+    🎶Stream → https://ffm.to/popthattrunk
+    🤯  POP THAT TRUNK MERCH → https://store.taylorgang.com/stonersnight
 
-#     📺Taylor Gang Playlist → https://fanlink.to/tgytp
-#     👕Taylor Gang merch → http://store.taylorgang.com
+    📺Taylor Gang Playlist → https://fanlink.to/tgytp
+    👕Taylor Gang merch → http://store.taylorgang.com
 
-#     Follow Wiz ↙️
-#     ►Subscribe to channel: http://goo.gl/y3Bnno
-#     ►Instagram - https://instagram.com/wizkhalifa
-#     ►Twitter - https://twitter.com/wizkhalifa
-#     ►Facebook - https://facebook.com/wizkhalifa
-#     ►Snapchat - https://snapchat.com/add/khalifathecap
-#     ►Soundcloud - https://soundcloud.com/wizkhalifa
-#     ►Website: http://wizkhalifa.com
-
-#     Follow Juicy J ↙️
-#     ►Twitter - https://twitter.com/therealjuicyj
-#     ►Facebook - https://facebook.com/wizkhalifa
-#     ►Instagram - https://instagram.com/juicyj
-#     ►Soundcloud - https://soundcloud.com/juicyjmusic
-#     ►Website - https://thejuicyj.com/
-
-#     Follow Taylor Gang ↙️
-#     ►Text - (412) 226-4201
-#     ►Twitter - https://twitter.com/taylorgang​​​
-#     ►Instagram - https://instagram.com/taylorgang​​​
-#     ►Facebook - https://facebook.com/TaylorGang​​​
-#     ►Soundcloud - https://soundcloud.com/taylorgang​​​
-
-#     #WizKhalifa #JuicyJ #TaylorGang
-#     © 2021 Taylor Gang Ent., LLC''', videoUrl="99SHU7vaucs", thumbnailUrl="https://i.ytimg.com/vi/99SHU7vaucs/hqdefault.jpg", createdAt="2021-12-03T14:00:09Z")
-
-
-
-#     c93fd89591e73415e437bb7823d24dd9 = Video(channelId="58", title='''Wiz Khalifa - DayToday - Leaving LA to Get Stoned in Miami''', description='''Wiz Khalifa - DayToday - Leaving LA to Get Stoned in Miami
-#     📼 Watch more episodes of DayToday → http://tgod.com/DayToday
-
-#     🕶 New Video out now → https://youtu.be/OClzPGchFwU
-#     📀 New Music out now → https://Wiz.lnk.to/SagaOfWizKhalifaDe...
-
-#     📺Taylor Gang Playlist → https://tgod.com/YTP​​
-#     👕Taylor Gang merch → http://store.taylorgang.com​​
-#     🍁Khalifa Kush available now → http://khalifakush.com​​
-#     📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install​​
-
-#     Follow Wiz ↙️
-#     ►Updates: http://linktr.ee/WizKhalifa​​
-#     ►Subscribe on YouTube: https://tgod.com/WizYT​​
-#     ►Snapchat - https://snapchat.com/add/khalifat​​hecap
-#     ►Twitter - https://twitter.com/wizkhalifa​​
-#     ►Facebook - https://facebook.com/wizkhalifa​​
-#     ►Instagram - https://instagram.com/wizkhalifa​​
-#     ►Soundcloud - https://soundcloud.com/wizkhalifa​​
-#     ►Website & Merch: http://wizkhalifa.com​​
-
-#     Follow Taylor Gang  ↙️
-#     ►Text - (412) 226-4201
-#     ►Store - http://store.taylorgang.com​​
-#     ►YouTube - https://youtube.com/taylorgang
-#     ►Twitter - https://twitter.com/taylorgang
-#     ►Instagram - https://instagram.com/taylorgang
-#     ►Facebook - https://facebook.com/taylorgang
-#     ►Soundcloud - https://soundcloud.com/taylorgang
-
-#     #WizKhalifa​​ #TaylorGang​​ #DayToday​''', videoUrl="yEgXTG4cozI", thumbnailUrl="https://i.ytimg.com/vi/yEgXTG4cozI/hqdefault.jpg", createdAt="2021-11-29T21:58:07Z")
-
-
-
-#     cf96ece51a9598d174b5d737ace388ea = Video(channelId="58", title='''Wiz Khalifa ft. Young Deji - Potent (chosen weed mix)''', description='''Wiz Khalifa ft. Young Deji - Potent (chosen weed mix)
-
-#     📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install
-#     🍁Khalifa Kush available now → http://khalifakush.com
-#     📺Taylor Gang Playlist → https://fanlink.to/tgytp
-#     👕Taylor Gang merch → http://store.taylorgang.com
-
-#     Follow Wiz ↙️
-#     ►Subscribe to channel: http://goo.gl/y3Bnno
-#     ►Snapchat - https://www.snapchat.com/add/khalifat...
-#     ►Twitter - https://twitter.com/wizkhalifa
-#     ►Facebook - https://facebook.com/wizkhalifa
-#     ►Instagram - https://instagram.com/wizkhalifa
-#     ►Soundcloud - https://soundcloud.com/wizkhalifa
-#     ►Website: http://wizkhalifa.com
-
-#     Follow  Taylor Gang   ↙️
-#     ►YouTube - https://youtube.com/taylorgang
-#     ►Twitter - https://twitter.com/taylorgang
-#     ►Instagram - https://www.instagram.com/taylorgang
-#     ►Facebook - https://www.facebook.com/TaylorGang
-#     ►Soundcloud - https://soundcloud.com/taylorgang
-
-#     #WizKhalifa #Weedmix #YoungDeji''', videoUrl="euJNc4l_d7w", thumbnailUrl="https://i.ytimg.com/vi/euJNc4l_d7w/maxresdefault.jpg", createdAt="2021-11-26T17:58:21Z")
-
-
-
-#     c2fe9caafc04373d3ab51dd2bd7d31cf = Video(channelId="58", title='''Wiz Khalifa - DayToday - Always Makin Plays''', description='''Wiz Khalifa - DayToday - Always Makin Plays 
-#     📼 Watch more episodes of DayToday → http://tgod.com/DayToday
-
-#     🕶 New Video out now → https://youtu.be/OClzPGchFwU
-#     📀 New Music out now → https://Wiz.lnk.to/SagaOfWizKhalifaDe...
-
-#     📺Taylor Gang Playlist → https://tgod.com/YTP​​
-#     👕Taylor Gang merch → http://store.taylorgang.com​​
-#     🍁Khalifa Kush available now → http://khalifakush.com​​
-#     📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install​​
-
-#     Follow Wiz ↙️
-#     ►Updates: http://linktr.ee/WizKhalifa​​
-#     ►Subscribe on YouTube: https://tgod.com/WizYT​​
-#     ►Snapchat - https://snapchat.com/add/khalifat​​hecap
-#     ►Twitter - https://twitter.com/wizkhalifa​​
-#     ►Facebook - https://facebook.com/wizkhalifa​​
-#     ►Instagram - https://instagram.com/wizkhalifa​​
-#     ►Soundcloud - https://soundcloud.com/wizkhalifa​​
-#     ►Website & Merch: http://wizkhalifa.com​​
-
-#     Follow Taylor Gang  ↙️
-#     ►Text - (412) 226-4201
-#     ►Store - http://store.taylorgang.com​​
-#     ►YouTube - https://youtube.com/taylorgang
-#     ►Twitter - https://twitter.com/taylorgang
-#     ►Instagram - https://instagram.com/taylorgang
-#     ►Facebook - https://facebook.com/taylorgang
-#     ►Soundcloud - https://soundcloud.com/taylorgang
-
-#     #WizKhalifa​​ #TaylorGang​​ #DayToday​''', videoUrl="HNwYLos3vC8", thumbnailUrl="https://i.ytimg.com/vi/HNwYLos3vC8/hqdefault.jpg", createdAt="2021-11-24T17:52:56Z")
+    Follow Wiz ↙️
+    ►Subscribe to channel: http://goo.gl/y3Bnno
+    ►Instagram - https://instagram.com/wizkhalifa
+    ►Twitter - https://twitter.com/wizkhalifa
+    ►Facebook - https://facebook.com/wizkhalifa
+    ►Snapchat - https://snapchat.com/add/khalifathecap
+    ►Soundcloud - https://soundcloud.com/wizkhalifa
+    ►Website: http://wizkhalifa.com
+
+    Follow Juicy J ↙️
+    ►Twitter - https://twitter.com/therealjuicyj
+    ►Facebook - https://facebook.com/wizkhalifa
+    ►Instagram - https://instagram.com/juicyj
+    ►Soundcloud - https://soundcloud.com/juicyjmusic
+    ►Website - https://thejuicyj.com/
+
+    Follow Taylor Gang ↙️
+    ►Text - (412) 226-4201
+    ►Twitter - https://twitter.com/taylorgang​​​
+    ►Instagram - https://instagram.com/taylorgang​​​
+    ►Facebook - https://facebook.com/TaylorGang​​​
+    ►Soundcloud - https://soundcloud.com/taylorgang​​​
+
+    #WizKhalifa #JuicyJ #TaylorGang
+    © 2021 Taylor Gang Ent., LLC''', videoUrl="99SHU7vaucs", thumbnailUrl="https://i.ytimg.com/vi/99SHU7vaucs/hqdefault.jpg", createdAt="2021-12-03T14:00:09Z")
+
+
+
+    c93fd89591e73415e437bb7823d24dd9 = Video(channelId="58", title='''Wiz Khalifa - DayToday - Leaving LA to Get Stoned in Miami''', description='''Wiz Khalifa - DayToday - Leaving LA to Get Stoned in Miami
+    📼 Watch more episodes of DayToday → http://tgod.com/DayToday
+
+    🕶 New Video out now → https://youtu.be/OClzPGchFwU
+    📀 New Music out now → https://Wiz.lnk.to/SagaOfWizKhalifaDe...
+
+    📺Taylor Gang Playlist → https://tgod.com/YTP​​
+    👕Taylor Gang merch → http://store.taylorgang.com​​
+    🍁Khalifa Kush available now → http://khalifakush.com​​
+    📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install​​
+
+    Follow Wiz ↙️
+    ►Updates: http://linktr.ee/WizKhalifa​​
+    ►Subscribe on YouTube: https://tgod.com/WizYT​​
+    ►Snapchat - https://snapchat.com/add/khalifat​​hecap
+    ►Twitter - https://twitter.com/wizkhalifa​​
+    ►Facebook - https://facebook.com/wizkhalifa​​
+    ►Instagram - https://instagram.com/wizkhalifa​​
+    ►Soundcloud - https://soundcloud.com/wizkhalifa​​
+    ►Website & Merch: http://wizkhalifa.com​​
+
+    Follow Taylor Gang  ↙️
+    ►Text - (412) 226-4201
+    ►Store - http://store.taylorgang.com​​
+    ►YouTube - https://youtube.com/taylorgang
+    ►Twitter - https://twitter.com/taylorgang
+    ►Instagram - https://instagram.com/taylorgang
+    ►Facebook - https://facebook.com/taylorgang
+    ►Soundcloud - https://soundcloud.com/taylorgang
+
+    #WizKhalifa​​ #TaylorGang​​ #DayToday​''', videoUrl="yEgXTG4cozI", thumbnailUrl="https://i.ytimg.com/vi/yEgXTG4cozI/hqdefault.jpg", createdAt="2021-11-29T21:58:07Z")
+
+
+
+    cf96ece51a9598d174b5d737ace388ea = Video(channelId="58", title='''Wiz Khalifa ft. Young Deji - Potent (chosen weed mix)''', description='''Wiz Khalifa ft. Young Deji - Potent (chosen weed mix)
+
+    📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install
+    🍁Khalifa Kush available now → http://khalifakush.com
+    📺Taylor Gang Playlist → https://fanlink.to/tgytp
+    👕Taylor Gang merch → http://store.taylorgang.com
+
+    Follow Wiz ↙️
+    ►Subscribe to channel: http://goo.gl/y3Bnno
+    ►Snapchat - https://www.snapchat.com/add/khalifat...
+    ►Twitter - https://twitter.com/wizkhalifa
+    ►Facebook - https://facebook.com/wizkhalifa
+    ►Instagram - https://instagram.com/wizkhalifa
+    ►Soundcloud - https://soundcloud.com/wizkhalifa
+    ►Website: http://wizkhalifa.com
+
+    Follow  Taylor Gang   ↙️
+    ►YouTube - https://youtube.com/taylorgang
+    ►Twitter - https://twitter.com/taylorgang
+    ►Instagram - https://www.instagram.com/taylorgang
+    ►Facebook - https://www.facebook.com/TaylorGang
+    ►Soundcloud - https://soundcloud.com/taylorgang
+
+    #WizKhalifa #Weedmix #YoungDeji''', videoUrl="euJNc4l_d7w", thumbnailUrl="https://i.ytimg.com/vi/euJNc4l_d7w/maxresdefault.jpg", createdAt="2021-11-26T17:58:21Z")
+
+
+
+    c2fe9caafc04373d3ab51dd2bd7d31cf = Video(channelId="58", title='''Wiz Khalifa - DayToday - Always Makin Plays''', description='''Wiz Khalifa - DayToday - Always Makin Plays 
+    📼 Watch more episodes of DayToday → http://tgod.com/DayToday
+
+    🕶 New Video out now → https://youtu.be/OClzPGchFwU
+    📀 New Music out now → https://Wiz.lnk.to/SagaOfWizKhalifaDe...
+
+    📺Taylor Gang Playlist → https://tgod.com/YTP​​
+    👕Taylor Gang merch → http://store.taylorgang.com​​
+    🍁Khalifa Kush available now → http://khalifakush.com​​
+    📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install​​
+
+    Follow Wiz ↙️
+    ►Updates: http://linktr.ee/WizKhalifa​​
+    ►Subscribe on YouTube: https://tgod.com/WizYT​​
+    ►Snapchat - https://snapchat.com/add/khalifat​​hecap
+    ►Twitter - https://twitter.com/wizkhalifa​​
+    ►Facebook - https://facebook.com/wizkhalifa​​
+    ►Instagram - https://instagram.com/wizkhalifa​​
+    ►Soundcloud - https://soundcloud.com/wizkhalifa​​
+    ►Website & Merch: http://wizkhalifa.com​​
+
+    Follow Taylor Gang  ↙️
+    ►Text - (412) 226-4201
+    ►Store - http://store.taylorgang.com​​
+    ►YouTube - https://youtube.com/taylorgang
+    ►Twitter - https://twitter.com/taylorgang
+    ►Instagram - https://instagram.com/taylorgang
+    ►Facebook - https://facebook.com/taylorgang
+    ►Soundcloud - https://soundcloud.com/taylorgang
+
+    #WizKhalifa​​ #TaylorGang​​ #DayToday​''', videoUrl="HNwYLos3vC8", thumbnailUrl="https://i.ytimg.com/vi/HNwYLos3vC8/hqdefault.jpg", createdAt="2021-11-24T17:52:56Z")
 
 
 
@@ -15490,6 +15490,7440 @@ def seed_videos():
     Follow us on Instagram: http://www.instagram.com/nbagleague''', videoUrl="X2A0M5QUvHI", thumbnailUrl="https://i.ytimg.com/vi/X2A0M5QUvHI/hqdefault.jpg", createdAt="2022-04-11T14:04:13Z")
     
     
+    ######################################################################################################################
+    ######################################################################################################################
+    ######################################################################################################################
+    ######################################################################################################################
+    ######################################################################################################################
+    ######################################################################################################################
+    ######################################################################################################################
+    ######################################################################################################################
+	######################################################################################################################
+    ######################################################################################################################
+    # VIDEOS FOR: channels4uploadsPlaylistIds (10 videos per channel)
+
+
+    d8fc8429ac764899987ba01ea436c548 = Video(channelId="81", title='''Garbage Boss Answers Trash Questions From Twitter | Tech Support | WIRED''', description='''Former New York City Sanitation Commissioner Ed Grayson is here to answer the internet's burning questions about garbage. Where does garbage go after it's sent to the landfill? What happens if we run out of space in the landfills? Why do they still put garbage out on the streets in New York City? How does recycling ACTUALLY work? Ed answers all these questions and much more!
+    
+    Still haven’t subscribed to WIRED on YouTube? ►► http://wrd.cm/15fP7B7 
+    Listen to the Get WIRED podcast  ►► https://link.chtbl.com/wired-ytc-desc
+    Want more WIRED? Get the magazine ►► https://subscribe.wired.com/subscribe/splits/wired/WIR_YouTube?source=EDT_WIR_YouTube_0_Video_Description_ZZ
+    
+    Follow WIRED:
+    
+    Instagram ►►https://instagram.com/wired
+    Twitter ►►http://www.twitter.com/wired
+    Facebook ►►https://www.facebook.com/wired
+    
+    Get more incredible stories on science and tech with our daily newsletter: https://wrd.cm/DailyYT
+    
+    Also, check out the free WIRED channel on Roku, Apple TV, Amazon Fire TV, and Android TV. 
+    
+    ABOUT WIRED
+    WIRED is where tomorrow is realized. Through thought-provoking stories and videos, WIRED explores the future of business, innovation, and culture.''', videoUrl="bnGBqzqA9mo", thumbnailUrl="https://i.ytimg.com/vi/bnGBqzqA9mo/hqdefault.jpg", createdAt="2022-04-20T16:00:02Z")
+    
+    
+    
+    d256ab67823b7ac4020471c93ae404f5 = Video(channelId="81", title='''How Puppy Dog Eyes Evolved to Match Humans | WIRED''', description='''Dogs are our companions, but they're also living proof of artificial selection. Dogs have coevolved and adapted to live in a human world. Dr. Sarah Byosiere, a dog cognition researcher, walks through canine behaviors that demonstrate our coevolution with dogs.
+    
+    Still haven’t subscribed to WIRED on YouTube? ►► http://wrd.cm/15fP7B7 
+    Listen to the Get WIRED podcast  ►► https://link.chtbl.com/wired-ytc-desc
+    Want more WIRED? Get the magazine ►► https://subscribe.wired.com/subscribe/splits/wired/WIR_YouTube?source=EDT_WIR_YouTube_0_Video_Description_ZZ
+    
+    Follow WIRED:
+    
+    Instagram ►►https://instagram.com/wired
+    Twitter ►►http://www.twitter.com/wired
+    Facebook ►►https://www.facebook.com/wired
+    
+    Get more incredible stories on science and tech with our daily newsletter: https://wrd.cm/DailyYT
+    
+    Also, check out the free WIRED channel on Roku, Apple TV, Amazon Fire TV, and Android TV. 
+    
+    ABOUT WIRED
+    WIRED is where tomorrow is realized. Through thought-provoking stories and videos, WIRED explores the future of business, innovation, and culture.''', videoUrl="JrA5c3vllks", thumbnailUrl="https://i.ytimg.com/vi/JrA5c3vllks/maxresdefault.jpg", createdAt="2022-04-14T16:00:02Z")
+    
+    
+    
+    d7dc57605df800bb8b36d9e17502f1c2 = Video(channelId="81", title='''Waste Expert Answers Garbage Questions From Twitter | Tech Support | WIRED''', description='''Everyone's favorite garbage nerd, Meredith Danberg-Ficarelli, is here to answer the internet's burning (well, maybe we'll ease up on the burning) questions about waste. Why don't we just throw all our garbage into a volcano? What does zero waste actually mean? Does recycling actually do anything? Meredith answers all these questions and much, much more!
+    
+    Still haven’t subscribed to WIRED on YouTube? ►► http://wrd.cm/15fP7B7 
+    Listen to the Get WIRED podcast  ►► https://link.chtbl.com/wired-ytc-desc
+    Want more WIRED? Get the magazine ►► https://subscribe.wired.com/subscribe/splits/wired/WIR_YouTube?source=EDT_WIR_YouTube_0_Video_Description_ZZ
+    
+    Follow WIRED:
+    
+    Instagram ►►https://instagram.com/wired
+    Twitter ►►http://www.twitter.com/wired
+    Facebook ►►https://www.facebook.com/wired
+    
+    Get more incredible stories on science and tech with our daily newsletter: https://wrd.cm/DailyYT
+    
+    Also, check out the free WIRED channel on Roku, Apple TV, Amazon Fire TV, and Android TV. 
+    
+    ABOUT WIRED
+    WIRED is where tomorrow is realized. Through thought-provoking stories and videos, WIRED explores the future of business, innovation, and culture.''', videoUrl="FUBHyTM3VEg", thumbnailUrl="https://i.ytimg.com/vi/FUBHyTM3VEg/maxresdefault.jpg", createdAt="2022-04-12T16:00:04Z")
+    
+    
+    
+    db042edc3edcb9784bec5f8d368aef3c = Video(channelId="81", title='''How a 5-Person Team Made Blockbuster-Level Movie Effects | WIRED''', description=''''Everything Everywhere All at Once' directors Daniel Kwan and Daniel Scheinert (also know as DANIELS) sit down with visual effects artist Zak Stoltz to talk about the special and visual effects used in their astonishing new movie. The Michelle Yeoh sci-fi vehicle is capturing audiences and critics with its distinctive take on the action genre. Stoltz and DANIELS explain how their small budget forced them to get creative to create something truly unique.
+    
+    Everything Everwhere All at Once is in theaters now
+    
+    Still haven’t subscribed to WIRED on YouTube? ►► http://wrd.cm/15fP7B7 
+    Listen to the Get WIRED podcast  ►► https://link.chtbl.com/wired-ytc-desc
+    Want more WIRED? Get the magazine ►► https://subscribe.wired.com/subscribe/splits/wired/WIR_YouTube?source=EDT_WIR_YouTube_0_Video_Description_ZZ
+    
+    Follow WIRED:
+    
+    Instagram ►►https://instagram.com/wired
+    Twitter ►►http://www.twitter.com/wired
+    Facebook ►►https://www.facebook.com/wired
+    
+    Get more incredible stories on science and tech with our daily newsletter: https://wrd.cm/DailyYT
+    
+    Also, check out the free WIRED channel on Roku, Apple TV, Amazon Fire TV, and Android TV. 
+    
+    ABOUT WIRED
+    WIRED is where tomorrow is realized. Through thought-provoking stories and videos, WIRED explores the future of business, innovation, and culture.''', videoUrl="hFFopPPrGiE", thumbnailUrl="https://i.ytimg.com/vi/hFFopPPrGiE/hqdefault.jpg", createdAt="2022-04-07T16:00:03Z")
+    
+    
+    
+    d5a3ad03dcec1d89ac5fa3b6e2f08a7d = Video(channelId="81", title='''Former FBI Agent Answers Body Language Questions From Twitter...Again! | WIRED''', description='''Former FBI agent and body language expert Joe Navarro once again answers the internet's burning questions about body language. Are micro expressions more pronounced over Zoom? Does eye contact mean something different in other cultures? What does it mean if your leg shakes? 
+    
+    Check out Joe's book "Be Exceptional"
+    https://www.amazon.com/Be-Exceptional-Master-Traits-Extraordinary-ebook/dp/B08K93BLQP/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=
+    
+    https://www.jnforensics.com/ 
+    
+    Books By Joe Navarro: https://www.jnforensics.com/books
+    Joe Navarro Body Language Academy: https://jnbodylanguageacademy.com
+    
+    Still haven’t subscribed to WIRED on YouTube? ►► http://wrd.cm/15fP7B7 
+    Listen to the Get WIRED podcast  ►► https://link.chtbl.com/wired-ytc-desc
+    Want more WIRED? Get the magazine ►► https://subscribe.wired.com/subscribe/splits/wired/WIR_YouTube?source=EDT_WIR_YouTube_0_Video_Description_ZZ
+    
+    Follow WIRED:
+    
+    Instagram ►►https://instagram.com/wired
+    Twitter ►►http://www.twitter.com/wired
+    Facebook ►►https://www.facebook.com/wired
+    
+    Get more incredible stories on science and tech with our daily newsletter: https://wrd.cm/DailyYT
+    
+    Also, check out the free WIRED channel on Roku, Apple TV, Amazon Fire TV, and Android TV. 
+    
+    ABOUT WIRED
+    WIRED is where tomorrow is realized. Through thought-provoking stories and videos, WIRED explores the future of business, innovation, and culture.''', videoUrl="tL0vtPSl-yc", thumbnailUrl="https://i.ytimg.com/vi/tL0vtPSl-yc/hqdefault.jpg", createdAt="2022-04-06T16:00:09Z")
+    
+    
+    
+    d2144f8f66489286cadf6f3ec5056132 = Video(channelId="81", title='''Cole Sprouse Answers the Web's Most Searched Questions | WIRED''', description='''Cole Sprouse takes the WIRED Autocomplete Interview and answers the internet's burning questions about himself. What color are Cole Sprouse's eyes? When did Cole start doing photography? How can you tell the difference between Cole and his brother, Dylan? Cole answers all these questions and much more.
+    
+    Still haven’t subscribed to WIRED on YouTube? ►► http://wrd.cm/15fP7B7 
+    Listen to the Get WIRED podcast  ►► https://link.chtbl.com/wired-ytc-desc
+    Want more WIRED? Get the magazine ►► https://subscribe.wired.com/subscribe/splits/wired/WIR_YouTube?source=EDT_WIR_YouTube_0_Video_Description_ZZ
+    
+    Follow WIRED:
+    
+    Instagram ►►https://instagram.com/wired
+    Twitter ►►http://www.twitter.com/wired
+    Facebook ►►https://www.facebook.com/wired
+    
+    Get more incredible stories on science and tech with our daily newsletter: https://wrd.cm/DailyYT
+    
+    Also, check out the free WIRED channel on Roku, Apple TV, Amazon Fire TV, and Android TV. 
+    
+    ABOUT WIRED
+    WIRED is where tomorrow is realized. Through thought-provoking stories and videos, WIRED explores the future of business, innovation, and culture.
+    
+    Cole Sprouse Answers the Web's Most Searched Questions | WIRED''', videoUrl="ftj119sYgxw", thumbnailUrl="https://i.ytimg.com/vi/ftj119sYgxw/hqdefault.jpg", createdAt="2022-04-05T16:00:03Z")
+    
+    
+    
+    d0e79880af9115b2df000886e1205b60 = Video(channelId="81", title='''WIRED Autocomplete: New & Improved! Introducing WIRED Autocomplete Glue!''', description='''Have you ever watched an episode of WIRED Autocomplete Interview and been frustrated and annoyed when the papers covering the questions don't rip off correctly? Ugh, it's awful, and dozens of celebrities agree. But, what if there's a better way? Introducing WIRED Autocomplete Glue, a brand new adhesive invented by a world-renowned chemist that's perfect for gluing tiny strips of paper on a large foam placard. Never again will The Rock have to struggle with a maddeningly stubborn piece of paper, embarrassing the entire WIRED production team in the process. 
+    
+    Buy today at http://www.wired.com *
+    
+    Featuring scientist and author Kate Biberdorf.
+    TikTok: @katethechemist
+    Instagram: @katethechemist
+    Twitter: @k8thechemist
+    
+    *This product is not real. Don't visit http://www.wired.com for this product, but do go for our incredible journalism and insights into all things tech. Happy April 1st!
+    
+    Still haven’t subscribed to WIRED on YouTube? ►► http://wrd.cm/15fP7B7 
+    Listen to the Get WIRED podcast  ►► https://link.chtbl.com/wired-ytc-desc
+    Want more WIRED? Get the magazine ►► https://subscribe.wired.com/subscribe/splits/wired/WIR_YouTube?source=EDT_WIR_YouTube_0_Video_Description_ZZ
+    
+    Follow WIRED:
+    
+    Instagram ►►https://instagram.com/wired
+    Twitter ►►http://www.twitter.com/wired
+    Facebook ►►https://www.facebook.com/wired
+    
+    Get more incredible stories on science and tech with our daily newsletter: https://wrd.cm/DailyYT
+    
+    Also, check out the free WIRED channel on Roku, Apple TV, Amazon Fire TV, and Android TV. 
+    
+    ABOUT WIRED
+    WIRED is where tomorrow is realized. Through thought-provoking stories and videos, WIRED explores the future of business, innovation, and culture.
+    
+    WIRED Autocomplete: New & Improved! Introducing WIRED Autocomplete Glue!''', videoUrl="tMv5xAS9vbQ", thumbnailUrl="https://i.ytimg.com/vi/tMv5xAS9vbQ/hqdefault.jpg", createdAt="2022-04-01T16:00:03Z")
+    
+    
+    
+    d557a7ba16e467b0a497f832ef700f38 = Video(channelId="81", title='''Alex Honnold Answers MORE Rock Climbing Questions From Twitter | Tech Support | WIRED''', description='''Alex Honnold once again uses the power of Twitter to answer common questions about climbing. How do professional climbers make a living? What's the best season for climbing? Does climbing a mountain mess up the mountain? Alex answers all these question and much, much more!
+    
+    "Alex Honnold: The Soloist VR," a two part series following Alex Honnold’s soloing adventures, is available exclusively on Meta Quest VR headsets. Visit https://thesoloist-vr.com/ for more information. 
+    
+    Still haven’t subscribed to WIRED on YouTube? ►► http://wrd.cm/15fP7B7 
+    Listen to the Get WIRED podcast  ►► https://link.chtbl.com/wired-ytc-desc
+    Want more WIRED? Get the magazine ►► https://subscribe.wired.com/subscribe/splits/wired/WIR_YouTube?source=EDT_WIR_YouTube_0_Video_Description_ZZ
+    
+    Follow WIRED:
+    
+    Instagram ►►https://instagram.com/wired
+    Twitter ►►http://www.twitter.com/wired
+    Facebook ►►https://www.facebook.com/wired
+    
+    Get more incredible stories on science and tech with our daily newsletter: https://wrd.cm/DailyYT
+    
+    Also, check out the free WIRED channel on Roku, Apple TV, Amazon Fire TV, and Android TV. 
+    
+    ABOUT WIRED
+    WIRED is where tomorrow is realized. Through thought-provoking stories and videos, WIRED explores the future of business, innovation, and culture.
+    
+    Alex Honnold Answers MORE Rock Climbing Questions From Twitter | Tech Support | WIRED''', videoUrl="JdMQdxFGKB4", thumbnailUrl="https://i.ytimg.com/vi/JdMQdxFGKB4/maxresdefault.jpg", createdAt="2022-03-31T16:00:11Z")
+    
+    
+    
+    d28c264db5a570445aa0a2bfb2fb05e8 = Video(channelId="81", title='''Leslie Mann & Judd Apatow Answer the Web's Most Searched Questions | WIRED''', description='''Married couple and all-around funny people Judd Apatow and Leslie Mann take the WIRED Autocomplete Interview and answers the internet's most searched questions about themselves. Did Judd Apatow enjoy Euphoria? Is Leslie Mann in Big Daddy? What movies has Judd directed? Is Leslie actually married to Paul Rudd? Why did they name their daughters Maude and Iris? Judd and Leslie answers all these questions and much more!
+    
+    Still haven’t subscribed to WIRED on YouTube? ►► http://wrd.cm/15fP7B7 
+    Listen to the Get WIRED podcast  ►► https://link.chtbl.com/wired-ytc-desc
+    Want more WIRED? Get the magazine ►► https://subscribe.wired.com/subscribe/splits/wired/WIR_YouTube?source=EDT_WIR_YouTube_0_Video_Description_ZZ
+    
+    Follow WIRED:
+    
+    Instagram ►►https://instagram.com/wired
+    Twitter ►►http://www.twitter.com/wired
+    Facebook ►►https://www.facebook.com/wired
+    
+    Get more incredible stories on science and tech with our daily newsletter: https://wrd.cm/DailyYT
+    
+    Also, check out the free WIRED channel on Roku, Apple TV, Amazon Fire TV, and Android TV. 
+    
+    ABOUT WIRED
+    WIRED is where tomorrow is realized. Through thought-provoking stories and videos, WIRED explores the future of business, innovation, and culture.
+    
+    Leslie Mann & Judd Apatow Answer the Web's Most Searched Questions | WIRED''', videoUrl="zOp4TTznSqc", thumbnailUrl="https://i.ytimg.com/vi/zOp4TTznSqc/hqdefault.jpg", createdAt="2022-03-30T16:00:05Z")
+    
+    
+    
+    d06b0a2db37f1aedf67aa57b6e5e11ef = Video(channelId="81", title='''How This Woman Mastered Jump Rope | WIRED''', description='''For most of us, jumping rope may seem like a simple childhood pastime, but for this woman, it's a way of life. Tori Boggs is a professional jump roper, and as you may expect, she's really good at jumping rope. Tori explains what her jump rope life is like, and breaks down how she's helping take the sport to the next level. 
+    
+    Check out Tori here: 
+    
+    YouTube ► https://www.youtube.com/c/ToriBoggsJumpRope
+    Instagram ► https://www.instagram.com/snorib/?hl=en
+    TikTok ► https://bit.ly/Tori-TikTok
+    Facebook ► https://bit.ly/Tori-Facebook
+    Website ► http://toriboggs.com
+    
+    Still haven’t subscribed to WIRED on YouTube? ►► http://wrd.cm/15fP7B7 
+    Listen to the Get WIRED podcast  ►► https://link.chtbl.com/wired-ytc-desc
+    Want more WIRED? Get the magazine ►► https://subscribe.wired.com/subscribe/splits/wired/WIR_YouTube?source=EDT_WIR_YouTube_0_Video_Description_ZZ
+    
+    Follow WIRED:
+    
+    Instagram ►►https://instagram.com/wired
+    Twitter ►►http://www.twitter.com/wired
+    Facebook ►►https://www.facebook.com/wired
+    
+    Get more incredible stories on science and tech with our daily newsletter: https://wrd.cm/DailyYT
+    
+    Also, check out the free WIRED channel on Roku, Apple TV, Amazon Fire TV, and Android TV. 
+    
+    ABOUT WIRED
+    WIRED is where tomorrow is realized. Through thought-provoking stories and videos, WIRED explores the future of business, innovation, and culture.
+    
+    How This Woman Mastered Jump Rope | WIRED''', videoUrl="JLC_T1jQ5Lk", thumbnailUrl="https://i.ytimg.com/vi/JLC_T1jQ5Lk/hqdefault.jpg", createdAt="2022-03-29T16:00:14Z")
+    
+    
+    
+    d5da415606c030289b0413bc537de013 = Video(channelId="80", title='''Why Does Metal Have To Be So Loud?''', description='''Metal has always been one of my favorite genres, and like most metalheads, I've never listened to it quietly. Turning the volume down on a brutal metal riff feels almost sacrilegious, like it's disrespectful to the music to hear it at anything but full volume. But why? Many genres can be enjoyed perfectly fine at a nice, comfortably quiet level, but metal resists that, and metalheads reject those efforts. So what's going on? Why does metal only work when it's loud as hell?
+    
+    0:00 Intro
+    0:41 Fletcher-Munson Curve
+    4:04 Listener Collapse
+    7:33 Imagined Loudness
+    10:46 Noise Occupation
+    
+    Patreon: https://www.patreon.com/12tonevideos
+    Merch: http://standard.tv/12tone
+    Discord: https://discord.gg/pq2QBEw
+    Facebook: https://www.facebook.com/12tonevideos
+    Twitter: https://twitter.com/12tonevideos
+    Twitch: https://www.twitch.tv/12tonevideos
+    Email: 12tonevideos@gmail.com
+    
+    Last: https://youtu.be/jLEeETqgSFA
+    Dr. Heller's paper: https://tinyurl.com/5b7w92va
+    
+    Script: https://tinyurl.com/27vvyaty
+    
+    Huge thanks to our Elephant Club members:
+    
+    Susan Jones
+    Jill Jones
+    Duck 
+    Howard Levine
+    Brian Etheredge
+    Len Lanphar
+    Ken Arnold
+    Elaine Pratt
+    William (Bill) Boston
+    Chris Prentice
+    Jack Carlson
+    Warren Huart
+    Christopher Lucas
+    Andrew Beals
+    Dov Zazkis
+    Hendrik P
+    Thomas Morley
+    Jacob Helwig
+    Kevin Wilamowski
+    Grant Aldonas
+    Davis Sprague
+    Alex Knauth
+    Braum Meakes
+    Hendrik Stüwe
+    Kelly Christoffersen
+    Dan Bonelli
+    Kevin Boyce
+    Donal Botkin
+    Stephen Cook
+    Scott Howarth
+    Luke
+    David Bartz
+    Dhruv Monga
+    Ken Jones
+    Obadiah Wright
+    Carlos Rendon
+    Aleksandar Milojković
+    Kylie McInnes
+    Jody 
+    Daniel Reaman
+    Tom
+    PhilRosas 
+    Reiji Kobayashi
+    MISLS
+    Catherine Berry
+    Neil Moore
+    Yahir Perez
+    
+    And thanks as well to Henry Reich, Gabi Ghita, Gene Lushtak, Owen Campbell-Moore, Eugene Bulkin, Logan Jones, Oliver, Anna Work, Adam Neely, Rick Lees, Dave Mayer, CodenaCrow, Arnas, Caroline Simpson, Michael Alan Dorman, Blake Boyd, Charles Gaskell, Ian Seymour, Trevor Sullivan, Tom Evans, Lamadesbois, JH, David Conrad, Ducky, Chris Borland, Todd Davidson, Elliot Burke, Jake Lizzio, Tim S., Elias Simon, Jerry D. Brown, Aaron Epstein, Chris Connett, Ohad Lutzky, Symmetry, Peter Leventis, Kenneth Kousen, James, h2g2guy, W. Dennis Sorrell, James A. Thornton, Professor Elliot, Stefan Strohmaier, Shadow Kat, Adam Wurstmann, Angela Flierman, Richard T. Anderson, Andrew Engel, Kevin Johnson, Joshua La Macchia, Peter Brinkmann, Ryan, Rodrigo "rrc2soft" Roman, Jeremy Zolner, Patrick Callier, Danny, Francois LaPlante, Volker Wegert, Britt Ratliff, Darzzr, Alex Keeny, John Bejarano, Gary Butterfield, naomio, Alex Mole, Steve Brand, Rene Miklas, Red Uncle, Doug Nottingham, Betsy, Tonya Custis, Dave Shapiro, Jacopo Cascioli, Nicholas Wolf, Rafael Martinez Salas, Walther, Robert Beach, Jason Nebergall, Graeme Lewis, Jake Sand, Mathew Wolak, Aditya Baradwaj, S, Lincoln Mendell, Sam Rezek, Destros, Lucas Augusto, Jim Hayes, Evan Satinsky, RaptorCat, Scott Albertine, Jigglypuffer, leftaroundabout, Jens Schäfer, Mikely Whiplash, Austin Amberg, Francisco Rodrigues, Elizabeth, Michael Tsuk, רועי סיני, Conor Stuart Roe, ThoraSTooth, Brandon Legawiec, Dragix PL, Evgeni Kunev, Hikaru Katayamma, Gary Evesson, Kottolett, Dylan Vidas, Rob Hardy, Patrick Chieppe, Eric Stark, David Haughn, Gordon Dell, Byron DeLaBarre, Matty Crocker, anemamata, Brian Miller, Lee-orr Orbach, Eric Plume, Kevin Pierce, Jon Hancock, Jason Peterson, Peggy Youell, EJ Hambleton, Bryn Davis, Pamela O'Neill, Jos Mulder, Daryl Banttari, J.T. Vandenbree, Thomas Morgan, Ludwick Kennedy, John Castle, Wayne Robinson, Gabriel Totusek, Ridley Kemp, Mark James, Mnemosyne Music, AkselA, Adam Ziegenhals, Mark, Amelia Lewis, sonicolasj, Sam Plotkin, David MacDonald, Nellie Speirs Baron, Charles R., Joshua Lewis, PatSandmann, Sam, DialMForManning, Wayne Weil, Michael Wehling, Kristofer Hill, William Merryman, Ryan Mayle, Brandon Peckham, Justin St John-Brooks, Mark Lacey, James, David T Peterson, Bryan C. Mills, Jaren Tilford, XCompWiz, Michael Blaby, Fernando Felix, Joseph Satin, Piush Dahal, Matthew Moore, Bean, A Devoted Servant, Milan Brezovsky, Edmund Horner, NinoDoko, M. Bock, Daniel Joseph Moynihan, Andrew Wyld, JD White, Josh Witkowski, STOP, Graham Orndorff, Jeffrey Mann, Michael Sacksteder, Jason McPherson, Chris Robson, A.J. Yates, Matt Moulder, Leander Tietjen, Joe Johnston, Jordan Friendshuh, Alex Tafur, Chris Davis, findRED, Howl’s one-handed, Gary Backaus, Hakim C, gunnito, מתן אריאל-הברון, Claymore Alexander, Dixon Roberts, Eugen Lounkine, Fernando Gros, Geoffrey Barnett, OVB_2nd, William, Joe Molloy, Jay Wilson, RoxyPop, Pär Nord, Paul Tanenholz, Lev, Chris Breault, Julio D, Justin Zboyovski, Adam Poata-Smith, J.R. Hyde, A, Daniel Sim, David Wagner, Jo Müller, Christopher Beattie, triskadecaepyon, Abie, Charles Jordan, Lyriian, Kelly Walker, and derFunkenstein! Your support helps make 12tone even better!
+    
+    Also, thanks to Jareth Arnold!''', videoUrl="8fEdIKG7pm8", thumbnailUrl="https://i.ytimg.com/vi/8fEdIKG7pm8/maxresdefault.jpg", createdAt="2022-04-15T17:00:07Z")
+    
+    
+    
+    d1ff2d067402e56d86d2cea025697f90 = Video(channelId="80", title='''Understanding Everybody Wants To Rule The World''', description='''Tears For Fears were famous for their meticulous production, spending months dialing in the exact sounds they needed to make their audacious synthpop anthems work. But what would happen if you took that attention to detail and forced them to make a whole song, start to finish, in like 2 weeks? Well, that's how you get Everybody Wants To Rule The World. It was a last-minute addition, conceived and created at the very end of the production process for the album, but that risk paid off.
+    
+    Patreon: https://www.patreon.com/12tonevideos
+    Merch: http://standard.tv/12tone
+    Discord: https://discord.gg/pq2QBEw
+    Facebook: https://www.facebook.com/12tonevideos
+    Twitter: https://twitter.com/12tonevideos
+    Twitch: https://www.twitch.tv/12tonevideos
+    Email: 12tonevideos@gmail.com
+    
+    Last: https://youtu.be/quOLtE0wfAo
+    Rick's video: https://youtu.be/6bU4R04fH4U
+    
+    Script: https://tinyurl.com/2p8bnwfk
+    
+    Huge thanks to our Elephant Club members:
+    
+    Susan Jones
+    Jill Jones
+    Duck 
+    Howard Levine
+    Brian Etheredge
+    Khristofor Saraga
+    Len Lanphar
+    Ken Arnold
+    Elaine Pratt
+    William (Bill) Boston
+    Chris Prentice
+    Jack Carlson
+    Christopher Lucas
+    Andrew Beals
+    Dov Zazkis
+    Hendrik P
+    Thomas Morley
+    Jacob Helwig
+    Warren Huart
+    Kevin Wilamowski
+    Davis Sprague
+    Grant Aldonas
+    Alex Knauth
+    Braum Meakes
+    Hendrik Stüwe
+    Dan Bonelli
+    Kevin Boyce
+    Kelly Christoffersen
+    Donal Botkin
+    Scott Howarth
+    Luke
+    Stephen Cook
+    David Bartz
+    Symmetry
+    Dhruv Monga
+    Ken Jones
+    Obadiah Wright
+    Kobalent
+    Carlos Rendon
+    Aleksandar Milojković
+    Kylie McInnes
+    Jody 
+    Daniel Reaman
+    Tom
+    PhilRosas 
+    Reiji Kobayashi
+    MISLS
+    Neil Moore
+    
+    And thanks as well to Henry Reich, Gabi Ghita, Gene Lushtak, Owen Campbell-Moore, Eugene Bulkin, Logan Jones, Oliver, Anna Work, Adam Neely, Rick Lees, Dave Mayer, CodenaCrow, Nikolay Semyonov, Arnas, Caroline Simpson, Michael Alan Dorman, Blake Boyd, Luke Rihn, Charles Gaskell, Ian Seymour, Trevor Sullivan, Tom Evans, Lamadesbois, JH, David Conrad, Chris Chapin, Chris Borland, Todd Davidson, Elliot Burke, Tim S., Elias Simon, Jake Lizzio, Jerry D. Brown, Ohad Lutzky, Aaron Epstein, Chris Connett, Peter Leventis, Kenneth Kousen, James, h2g2guy, W. Dennis Sorrell, James A. Thornton, Brian Dinger, Professor Elliot, Stefan Strohmaier, Shadow Kat, Adam Wurstmann, Kelsey Freese, Angela Flierman, Richard T. Anderson, Andrew Engel, Kevin Johnson, Ryan, Rodrigo "rrc2soft" Roman, Jeremy Zolner, Patrick Callier, Danny, Francois LaPlante, Volker Wegert, Joshua Gleitze, Britt Ratliff, Darzzr, Joshua La Macchia, Peter Brinkmann, Alexey Fedotov, Alex Keeny, Valentin Lupachev, John Bejarano, Gary Butterfield, naomio, Alex Mole, Steve Brand, Rene Miklas, Red Uncle, Kaisai Morihito, Doug Nottingham, Nicholas Wolf, Betsy, Tonya Custis, Dave Shapiro, Jacopo Cascioli, Rafael Martinez Salas, Walther, Robert Beach, Jason Nebergall, Graeme Lewis, Jake Sand, Mathew Wolak, S, Lincoln Mendell, Aditya Baradwaj, Sam Rezek, Destros, Lucas Augusto, Juan Madrigal, Evan Satinsky, James Little, RaptorCat, Jim Hayes, Scott Albertine, Jigglypuffer, leftaroundabout ., Jens Schäfer, Mikely Whiplash, Austin Amberg, Francisco Rodrigues, Elizabeth, Michael Tsuk, רועי סיני, Conor Stuart Roe, ThoraSTooth, Brandon Legawiec, Dragix PL, Evgeni Kunev, Hikaru Katayamma, Alon Kellner, Rob Hardy, Gary Evesson, Kottolett, Dylan Vidas, Patrick Chieppe, Eric Stark, David Haughn, Gordon Dell, Byron DeLaBarre, Matty Crocker, anemamata, Brian Miller, Lee-orr Orbach, Eric Plume, Kevin Pierce, Jon Hancock, Jason Peterson, Peggy Youell, EJ Hambleton, Jos Mulder, Daryl Banttari, J.T. Vandenbree, Brian Davis, Pamela O'Neill, Thomas Morgan, Ludwick Kennedy, Wayne Robinson, Gabriel Totusek, Ridley Kemp, Mark James, SecretKittehs, Mnemosyne Music, AkselA, Philip Miller, Sam Plotkin, David MacDonald, Nellie Speirs Baron, Charles R., Joshua Lewis, Adam Ziegenhals, Mark, Amelia Lewis, Sam, DialMForManning, Wayne Weil, Michael Wehling, PatSandmann, Brandon Peckham, Kristofer Hill, William Merryman, Ryan Mayle, J Denton, James, David T Peterson, Bryan C. Mills, Justin St John-Brooks, Mark Lacey, Jaren Tilford, Catherine Berry, Watch Harder, XCompWiz, Michael Blaby, Bean, A Devoted Servant, Milan Brezovsky, Edmund Horner, Daria Gibbons, NinoDoko, Fernando Felix, Joseph Satin, Piush Dahal, Matthew Moore, Walt Seefeld, M. Bock, Daniel Joseph Moynihan, Andrew Wyld, Josh Witkowski, not a coincidence, Graham Orndorff, Michael Sacksteder, JD White, Jeffrey Mann, Jason McPherson, Chris Robson, A.J. Yates, Matt Moulder, Leander Tietjen, Joe Johnston, Jordan Friendshuh, Alex Tafur, Chris Davis, findRED, Howl’s one-handed, Gary Backaus, Eugen Lounkine, Fernando Gros, Geoffrey Barnett, OVB_2nd, Hakim C, Joe Molloy, gunnito, מתן אריאל-הברון, Claymore Alexander, Dixon Roberts, Jay Wilson, RoxyPop, Pär Nord, Paul Tanenholz, Chris Cresswell, Chris Breault, Julio D, Justin Zboyovski, Adam Poata-Smith, J.R. Hyde, and A! Your support helps make 12tone even better!
+    
+    Also, thanks to Jareth Arnold!''', videoUrl="jLEeETqgSFA", thumbnailUrl="https://i.ytimg.com/vi/jLEeETqgSFA/maxresdefault.jpg", createdAt="2022-04-01T17:00:33Z")
+    
+    
+    
+    dcdbce67990f0f72063fe0fc6adcfee3 = Video(channelId="80", title='''How Sheet Music Lies To You''', description='''Sheet music is everywhere these days. As musicians, we all learn to read the little dots and lines that translate into notes and chords, but we don't really think about what those dots and lines are actually doing. The process of turning music into notation and then back into music is hazardous, and while it's still a very useful tool, we should really talk more about the things we lose along the way.
+    
+    Sarah's channel: https://tinyurl.com/yjhkua42 
+    Aimee's channel: https://tinyurl.com/4emymszx 
+    Sarah's Instagram: https://www.instagram.com/angelfire.xo/
+    Aimee's Spotify: https://tinyurl.com/38nbsbmc 
+    
+    Patreon: https://www.patreon.com/12tonevideos
+    Merch: http://standard.tv/12tone
+    Discord: https://discord.gg/pq2QBEw
+    Facebook: https://www.facebook.com/12tonevideos
+    Twitter: https://twitter.com/12tonevideos
+    Twitch: https://www.twitch.tv/12tonevideos
+    Email: 12tonevideos@gmail.com
+    
+    Last: https://youtu.be/TaohQw0PgeY
+    
+    Script: https://tinyurl.com/bdfvw53n
+    
+    Huge thanks to our Elephant Club members:
+    
+    Susan Jones
+    Jill Jones
+    Duck 
+    Howard Levine
+    Brian Etheredge
+    Khristofor Saraga
+    Len Lanphar
+    Ken Arnold
+    Elaine Pratt
+    William (Bill) Boston
+    Chris Prentice
+    Jack Carlson
+    Christopher Lucas
+    Andrew Beals
+    Dov Zazkis
+    Hendrik P
+    Thomas Morley
+    Jacob Helwig
+    Warren Huart
+    Kevin Wilamowski
+    Davis Sprague
+    Grant Aldonas
+    Alex Knauth
+    Braum Meakes
+    Hendrik Stüwe
+    Dan Bonelli
+    Kevin Boyce
+    Kelly Christoffersen
+    Donal Botkin
+    Scott Howarth
+    Luke
+    Stephen Cook
+    David Bartz
+    Symmetry
+    Dhruv Monga
+    Ken Jones
+    Obadiah Wright
+    Kobalent
+    Carlos Rendon
+    Aleksandar Milojković
+    Kylie McInnes
+    Jody 
+    Daniel Reaman
+    Tom
+    PhilRosas 
+    Reiji Kobayashi
+    MISLS
+    Neil Moore
+    
+    And thanks as well to Henry Reich, Gabi Ghita, Gene Lushtak, Owen Campbell-Moore, Eugene Bulkin, Logan Jones, Oliver, Anna Work, Adam Neely, Rick Lees, Dave Mayer, CodenaCrow, Nikolay Semyonov, Arnas, Caroline Simpson, Michael Alan Dorman, Blake Boyd, Luke Rihn, Charles Gaskell, Ian Seymour, Trevor Sullivan, Tom Evans, Lamadesbois, JH, David Conrad, Chris Chapin, Chris Borland, Todd Davidson, Elliot Burke, Tim S., Elias Simon, Jake Lizzio, Jerry D. Brown, Ohad Lutzky, Aaron Epstein, Chris Connett, Peter Leventis, Kenneth Kousen, James, h2g2guy, W. Dennis Sorrell, James A. Thornton, Brian Dinger, Professor Elliot, Stefan Strohmaier, Shadow Kat, Adam Wurstmann, Kelsey Freese, Angela Flierman, Richard T. Anderson, Andrew Engel, Kevin Johnson, Ryan, Rodrigo "rrc2soft" Roman, Jeremy Zolner, Patrick Callier, Danny, Francois LaPlante, Volker Wegert, Joshua Gleitze, Britt Ratliff, Darzzr, Joshua La Macchia, Peter Brinkmann, Alexey Fedotov, Alex Keeny, Valentin Lupachev, John Bejarano, Gary Butterfield, naomio, Alex Mole, Steve Brand, Rene Miklas, Red Uncle, Kaisai Morihito, Doug Nottingham, Nicholas Wolf, Betsy, Tonya Custis, Dave Shapiro, Jacopo Cascioli, Rafael Martinez Salas, Walther, Robert Beach, Jason Nebergall, Graeme Lewis, Jake Sand, Mathew Wolak, S, Lincoln Mendell, Aditya Baradwaj, Sam Rezek, Destros, Lucas Augusto, Juan Madrigal, Evan Satinsky, James Little, RaptorCat, Jim Hayes, Scott Albertine, Jigglypuffer, leftaroundabout ., Jens Schäfer, Mikely Whiplash, Austin Amberg, Francisco Rodrigues, Elizabeth, Michael Tsuk, רועי סיני, Conor Stuart Roe, ThoraSTooth, Brandon Legawiec, Dragix PL, Evgeni Kunev, Hikaru Katayamma, Alon Kellner, Rob Hardy, Gary Evesson, Kottolett, Dylan Vidas, Patrick Chieppe, Eric Stark, David Haughn, Gordon Dell, Byron DeLaBarre, Matty Crocker, anemamata, Brian Miller, Lee-orr Orbach, Eric Plume, Kevin Pierce, Jon Hancock, Jason Peterson, Peggy Youell, EJ Hambleton, Jos Mulder, Daryl Banttari, J.T. Vandenbree, Brian Davis, Pamela O'Neill, Thomas Morgan, Ludwick Kennedy, Wayne Robinson, Gabriel Totusek, Ridley Kemp, Mark James, SecretKittehs, Mnemosyne Music, AkselA, Philip Miller, Sam Plotkin, David MacDonald, Nellie Speirs Baron, Charles R., Joshua Lewis, Adam Ziegenhals, Mark, Amelia Lewis, Sam, DialMForManning, Wayne Weil, Michael Wehling, PatSandmann, Brandon Peckham, Kristofer Hill, William Merryman, Ryan Mayle, J Denton, James, David T Peterson, Bryan C. Mills, Justin St John-Brooks, Mark Lacey, Jaren Tilford, Catherine Berry, Watch Harder, XCompWiz, Michael Blaby, Bean, A Devoted Servant, Milan Brezovsky, Edmund Horner, Daria Gibbons, NinoDoko, Fernando Felix, Joseph Satin, Piush Dahal, Matthew Moore, Walt Seefeld, M. Bock, Daniel Joseph Moynihan, Andrew Wyld, Josh Witkowski, not a coincidence, Graham Orndorff, Michael Sacksteder, JD White, Jeffrey Mann, Jason McPherson, Chris Robson, A.J. Yates, Matt Moulder, Leander Tietjen, Joe Johnston, Jordan Friendshuh, Alex Tafur, Chris Davis, findRED, Howl’s one-handed, Gary Backaus, Eugen Lounkine, Fernando Gros, Geoffrey Barnett, OVB_2nd, Hakim C, Joe Molloy, gunnito, מתן אריאל-הברון, Claymore Alexander, Dixon Roberts, Jay Wilson, RoxyPop, Pär Nord, Paul Tanenholz, Chris Cresswell, Chris Breault, Julio D, Justin Zboyovski, Adam Poata-Smith, J.R. Hyde, and A! Your support helps make 12tone even better!
+    
+    Also, thanks to Jareth Arnold!''', videoUrl="quOLtE0wfAo", thumbnailUrl="https://i.ytimg.com/vi/quOLtE0wfAo/maxresdefault.jpg", createdAt="2022-03-18T17:00:37Z")
+    
+    
+    
+    d25d7abc639b302b895cd8844d0c3e7d = Video(channelId="80", title='''Understanding Under The Bridge''', description='''It's easy, in retrospect, to underestimate the importance of the Red Hot Chili Peppers, but despite all the jokes about their fixation with California, the truth is their music is actually really good and nuanced, and they were one of the most influential acts in the alt rock movement that defined the '90s. They helped fundamentally change the world of rock music, and if we want to understand how, there's no better song to start with than their complex exploration of the struggles of addiction: Under The Bridge.
+    
+    Patreon: https://www.patreon.com/12tonevideos
+    Merch: http://standard.tv/12tone
+    Discord: https://discord.gg/pq2QBEw
+    Mailing List: http://eepurl.com/bCTDaj
+    Facebook: https://www.facebook.com/12tonevideos
+    Twitter: https://twitter.com/12tonevideos
+    Twitch: https://www.twitch.tv/12tonevideos
+    Instagram: https://www.instagram.com/12tonevideos/
+    Email: 12tonevideos@gmail.com
+    
+    Last: https://youtu.be/F9RipG79rrU
+    
+    Script: https://tinyurl.com/tx7t3pn5
+    
+    Huge thanks to our Elephant Club members:
+    
+    Susan Jones
+    Jill Jones
+    Duck 
+    Howard Levine
+    Brian Etheredge
+    Khristofor Saraga
+    Len Lanphar
+    Ken Arnold
+    Elaine Pratt
+    William (Bill) Boston
+    Chris Prentice
+    Jack Carlson
+    Christopher Lucas
+    Andrew Beals
+    Dov Zazkis
+    Hendrik P
+    Thomas Morley
+    Jacob Helwig
+    Warren Huart
+    Kevin Wilamowski
+    Davis Sprague
+    Grant Aldonas
+    Alex Knauth
+    Braum Meakes
+    Hendrik Stüwe
+    Dan Bonelli
+    Kevin Boyce
+    Kelly Christoffersen
+    Donal Botkin
+    Scott Howarth
+    Luke
+    Stephen Cook
+    David Bartz
+    Symmetry
+    Dhruv Monga
+    Ken Jones
+    Obadiah Wright
+    Kobalent
+    Carlos Rendon
+    Aleksandar Milojković
+    Kylie McInnes
+    Jody 
+    Daniel Reaman
+    Tom
+    PhilRosas 
+    Reiji Kobayashi
+    MISLS
+    Neil Moore
+    
+    And thanks as well to Henry Reich, Gabi Ghita, Gene Lushtak, Owen Campbell-Moore, Eugene Bulkin, Logan Jones, Oliver, Anna Work, Adam Neely, Rick Lees, Dave Mayer, CodenaCrow, Nikolay Semyonov, Arnas, Caroline Simpson, Michael Alan Dorman, Blake Boyd, Luke Rihn, Charles Gaskell, Ian Seymour, Trevor Sullivan, Tom Evans, Lamadesbois, JH, David Conrad, Chris Chapin, Chris Borland, Todd Davidson, Elliot Burke, Tim S., Elias Simon, Jake Lizzio, Jerry D. Brown, Ohad Lutzky, Aaron Epstein, Chris Connett, Peter Leventis, Kenneth Kousen, James, h2g2guy, W. Dennis Sorrell, James A. Thornton, Brian Dinger, Professor Elliot, Stefan Strohmaier, Shadow Kat, Adam Wurstmann, Kelsey Freese, Angela Flierman, Richard T. Anderson, Andrew Engel, Kevin Johnson, Ryan, Rodrigo "rrc2soft" Roman, Jeremy Zolner, Patrick Callier, Danny, Francois LaPlante, Volker Wegert, Joshua Gleitze, Britt Ratliff, Darzzr, Joshua La Macchia, Peter Brinkmann, Alexey Fedotov, Alex Keeny, Valentin Lupachev, John Bejarano, Gary Butterfield, naomio, Alex Mole, Steve Brand, Rene Miklas, Red Uncle, Kaisai Morihito, Doug Nottingham, Nicholas Wolf, Betsy, Tonya Custis, Dave Shapiro, Jacopo Cascioli, Rafael Martinez Salas, Walther, Robert Beach, Jason Nebergall, Graeme Lewis, Jake Sand, Mathew Wolak, S, Lincoln Mendell, Aditya Baradwaj, Sam Rezek, Destros, Lucas Augusto, Juan Madrigal, Evan Satinsky, James Little, RaptorCat, Jim Hayes, Scott Albertine, Jigglypuffer, leftaroundabout ., Jens Schäfer, Mikely Whiplash, Austin Amberg, Francisco Rodrigues, Elizabeth, Michael Tsuk, רועי סיני, Conor Stuart Roe, ThoraSTooth, Brandon Legawiec, Dragix PL, Evgeni Kunev, Hikaru Katayamma, Alon Kellner, Rob Hardy, Gary Evesson, Kottolett, Dylan Vidas, Patrick Chieppe, Eric Stark, David Haughn, Gordon Dell, Byron DeLaBarre, Matty Crocker, anemamata, Brian Miller, Lee-orr Orbach, Eric Plume, Kevin Pierce, Jon Hancock, Jason Peterson, Peggy Youell, EJ Hambleton, Jos Mulder, Daryl Banttari, J.T. Vandenbree, Brian Davis, Pamela O'Neill, Thomas Morgan, Ludwick Kennedy, Wayne Robinson, Gabriel Totusek, Ridley Kemp, Mark James, SecretKittehs, Mnemosyne Music, AkselA, Philip Miller, Sam Plotkin, David MacDonald, Nellie Speirs Baron, Charles R., Joshua Lewis, Adam Ziegenhals, Mark, Amelia Lewis, Sam, DialMForManning, Wayne Weil, Michael Wehling, PatSandmann, Brandon Peckham, Kristofer Hill, William Merryman, Ryan Mayle, J Denton, James, David T Peterson, Bryan C. Mills, Justin St John-Brooks, Mark Lacey, Jaren Tilford, Catherine Berry, Watch Harder, XCompWiz, Michael Blaby, Bean, A Devoted Servant, Milan Brezovsky, Edmund Horner, Daria Gibbons, NinoDoko, Fernando Felix, Joseph Satin, Piush Dahal, Matthew Moore, Walt Seefeld, M. Bock, Daniel Joseph Moynihan, Andrew Wyld, Josh Witkowski, not a coincidence, Graham Orndorff, Michael Sacksteder, JD White, Jeffrey Mann, Jason McPherson, Chris Robson, A.J. Yates, Matt Moulder, Leander Tietjen, Joe Johnston, Jordan Friendshuh, Alex Tafur, Chris Davis, findRED, Howl’s one-handed, Gary Backaus, Eugen Lounkine, Fernando Gros, Geoffrey Barnett, OVB_2nd, Hakim C, Joe Molloy, gunnito, מתן אריאל-הברון, Claymore Alexander, Dixon Roberts, Jay Wilson, RoxyPop, Pär Nord, Paul Tanenholz, Chris Cresswell, Chris Breault, Julio D, Justin Zboyovski, Adam Poata-Smith, J.R. Hyde, and A! Your support helps make 12tone even better!
+    
+    Also, thanks to Jareth Arnold!''', videoUrl="TaohQw0PgeY", thumbnailUrl="https://i.ytimg.com/vi/TaohQw0PgeY/maxresdefault.jpg", createdAt="2022-03-04T18:00:10Z")
+    
+    
+    
+    d7a6ba0fff46ce0c678dc2dc5e910862 = Video(channelId="80", title='''My Biggest Musical Pet Peeve''', description='''I'm generally a pretty understanding person, but when it comes to the way people talk about music, I sometimes get my heckles raised a little too much. One of the things that annoys me most is what I like to call the Wiggly Air Fallacy, or the idea that music can be meaningfully reduced to just its sonic components. It's not true, it's a bad way of conceptualizing music, and here's a video about why.
+    
+    Patreon: https://www.patreon.com/12tonevideos
+    Merch: http://standard.tv/12tone
+    Discord: https://discord.gg/pq2QBEw
+    Mailing List: http://eepurl.com/bCTDaj
+    Facebook: https://www.facebook.com/12tonevideos
+    Twitter: https://twitter.com/12tonevideos
+    Twitch: https://www.twitch.tv/12tonevideos
+    Instagram: https://www.instagram.com/12tonevideos/
+    Email: 12tonevideos@gmail.com
+    
+    Last: https://youtu.be/k6XtUoZ0Z9Q
+    
+    Script: https://tinyurl.com/yttw2vdr
+    
+    Huge thanks to our Elephant of the Month Club members:
+    
+    Susan Jones
+    Jill Jones
+    Duck 
+    Howard Levine
+    Brian Etheredge
+    Khristofor Saraga
+    Len Lanphar
+    Ken Arnold
+    Elaine Pratt
+    William (Bill) Boston
+    Chris Prentice
+    Jack Carlson
+    Christopher Lucas
+    Andrew Beals
+    Dov Zazkis
+    Hendrik P
+    Thomas Morley
+    Jacob Helwig
+    Davis Sprague
+    Warren Huart
+    Kevin Wilamowski
+    Alex Knauth
+    Grant Aldonas
+    Braum Meakes
+    Hendrik Stüwe
+    Dan Bonelli
+    Kevin Boyce
+    Kelly Christoffersen
+    Donal Botkin
+    Scott Howarth
+    Luke
+    Stephen Cook
+    Symmetry
+    David Bartz
+    Dhruv Monga
+    Ken Jones
+    Obadiah Wright
+    Kobalent
+    Jason Nebergall
+    Carlos Rendon
+    Aleksandar Milojković
+    Kylie McInnes
+    Jody 
+    Daniel Reaman
+    Tom
+    PhilRosas 
+    Reiji Kobayashi
+    MISLS
+    Neil Moore
+    Adam Nelson
+    
+    And thanks as well to Henry Reich, Gabi Ghita, Gene Lushtak, Owen Campbell-Moore, Eugene Bulkin, Logan Jones, Oliver, Anna Work, Adam Neely, Rick Lees, Dave Mayer, CodenaCrow, Nikolay Semyonov, Arnas, Caroline Simpson, Michael Alan Dorman, Blake Boyd, Luke Rihn, Charles Gaskell, Ian Seymour, Trevor Sullivan, Tom Evans, Elliot Jay O'Neill, Lamadesbois, JH, David Conrad, Chris Chapin, Chris Borland, Todd Davidson, Elliot Burke, Tim S., Elias Simon, Jake Lizzio, Jerry D. Brown, Ohad Lutzky, Peter Leventis, Aaron Epstein, Chris Connett, James A. Thornton, Kenneth Kousen, James, h2g2guy, W. Dennis Sorrell, Brian Dinger, Professor Elliot, Stefan Strohmaier, Shadow Kat, Adam Wurstmann, Kelsey Freese, Angela Flierman, Richard T. Anderson, Kevin Johnson, Andrew Engel, Ryan, Rodrigo "rrc2soft" Roman, Jeremy Zolner, Patrick Callier, Danny, Francois LaPlante, Volker Wegert, Joshua Gleitze, Britt Ratliff, Darzzr, Joshua La Macchia, Alexey Fedotov, Alex Keeny, Valentin Lupachev, John Bejarano, Peter Brinkmann, Gary Butterfield, Steve Brand, Rene Miklas, naomio, Alex Mole, Red Uncle, Doug Nottingham, Kaisai Morihito, Nicholas Wolf, Betsy, Tonya Custis, Dave Shapiro, Jacopo Cascioli, Robert Beach, Rafael Martinez Salas, Walther, Mathew Wolak, Graeme Lewis, Jake Sand, S, Lincoln Mendell, Aditya Baradwaj, Sam Rezek, Destros, Lucas Augusto, Evan Satinsky, James Little, RaptorCat, Juan Madrigal, Jim Hayes, Jigglypuffer, leftaroundabout ., Jens Schäfer, Mikely Whiplash, Austin Amberg, Scott Albertine, Francisco Rodrigues, Elizabeth, Michael Tsuk, רועי סיני, ThoraSTooth, Brandon Legawiec, Conor Stuart Roe, Hikaru Katayamma, Dragix PL, Alon Kellner, Rob Hardy, Patrick Chieppe, Eric Stark, David Haughn, Gordon Dell, Gary Evesson, Kottolett, Dylan Vidas, Byron DeLaBarre, Matty Crocker, anemamata, Brian Miller, Lee-orr Orbach, Eric Plume, Kevin Pierce, Jon Hancock, Jason Peterson, Peggy Youell, EJ Hambleton, Jos Mulder, Daryl Banttari, J.T. Vandenbree, Brian Davis, Pamela O'Neill, Lyan Porto, Thomas Morgan, Ludwick Kennedy, Wayne Robinson, Gabriel Totusek, SecretKittehs, Mnemosyne Music, AkselA, Philip Miller, Ridley Kemp, Mark James, Sam Plotkin, David MacDonald, Nellie Speirs Baron, Charles R., Joshua Lewis, Sam, Adam Ziegenhals, DialMForManning, Wayne Weil, Michael Wehling, Mark, Amelia Lewis, Brandon Peckham, PatSandmann, Kristofer Hill, William Merryman, Ryan Mayle, J Denton, James, David T Peterson, Bryan C. Mills, Justin St John-Brooks, Mark Lacey, Jaren Tilford, Catherine Berry, Watch Harder, XCompWiz, Bean, A Devoted Servant of the Holy Water Bottle, Milan Brezovsky, Edmund Horner, Daria Gibbons, NinoDoko, Michael Blaby, M. Bock, Daniel Joseph Moynihan, Fernando Felix, Joseph Satin, Piush Dahal, Matthew Moore, Walt Seefeld, Josh Witkowski, United Nations Subcommittee On Names of God, Graham Orndorff, Michael Sacksteder, Andrew Wyld, JD White, Jason McPherson, Chris Robson, A.J. Yates, Matt Moulder, Jeffrey Mann, Leander Tietjen, Alex Tafur, Chris Davis, William, findRED, Howl’s one-handed egg cracking technique, Gary Backaus, Joe Johnston, Jordan Friendshuh, Eugen Lounkine, Fernando Gros, Jay Dharsandia, Geoffrey Barnett, OVB_2nd, Joe Molloy, Jay Wilson, RoxyPop, Hakim C, gunnito, מתן אריאל-הברון, Claymore Alexander, Dixon Roberts, Pär Nord, and Paul Tanenholz! Your support helps make 12tone even better!
+    
+    Also, thanks to Jareth Arnold!''', videoUrl="F9RipG79rrU", thumbnailUrl="https://i.ytimg.com/vi/F9RipG79rrU/maxresdefault.jpg", createdAt="2022-02-18T18:00:10Z")
+    
+    
+    
+    ddc17f9caed421d26ebff86063d1587c = Video(channelId="80", title='''Understanding Bohemian Rhapsody's Opera''', description='''Last week I tried to analyze Bohemian Rhapsody, and after it took me 21 minutes to get through the first 3 minutes of the song, I decided I needed to make it two videos, so... here's the second one! This one starts with the opera section and goes through the rest of it from there. Honestly, these are some of the most interesting parts of the song, the parts that really make it unique in the rock canon, so this video turned out even longer. Whoops!
+    
+    Patreon: https://www.patreon.com/12tonevideos
+    Merch: http://standard.tv/12tone
+    Discord: https://discord.gg/pq2QBEw
+    Mailing List: http://eepurl.com/bCTDaj
+    Facebook: https://www.facebook.com/12tonevideos
+    Twitter: https://twitter.com/12tonevideos
+    Twitch: https://www.twitch.tv/12tonevideos
+    Instagram: https://www.instagram.com/12tonevideos/
+    Email: 12tonevideos@gmail.com
+    
+    Last: https://youtu.be/Ez8Ljhv9dyw
+    
+    Script: https://tinyurl.com/47vca38f
+    
+    Huge thanks to our Elephant of the Month Club members:
+    
+    Susan Jones
+    Jill Jones
+    Duck 
+    Howard Levine
+    Brian Etheredge
+    Khristofor Saraga
+    Len Lanphar
+    Ken Arnold
+    Elaine Pratt
+    William (Bill) Boston
+    Chris Prentice
+    Jack Carlson
+    Christopher Lucas
+    Andrew Beals
+    Dov Zazkis
+    Hendrik P
+    Thomas Morley
+    Jacob Helwig
+    Davis Sprague
+    Warren Huart
+    Kevin Wilamowski
+    Alex Knauth
+    Grant Aldonas
+    Braum Meakes
+    Hendrik Stüwe
+    Dan Bonelli
+    Kevin Boyce
+    Kelly Christoffersen
+    Donal Botkin
+    Scott Howarth
+    Luke
+    Stephen Cook
+    Symmetry
+    David Bartz
+    Dhruv Monga
+    Ken Jones
+    Obadiah Wright
+    Kobalent
+    Jason Nebergall
+    Carlos Rendon
+    Aleksandar Milojković
+    Kylie McInnes
+    Jody 
+    Daniel Reaman
+    Tom
+    PhilRosas 
+    Reiji Kobayashi
+    MISLS
+    Neil Moore
+    Adam Nelson
+    
+    And thanks as well to Henry Reich, Gabi Ghita, Gene Lushtak, Owen Campbell-Moore, Eugene Bulkin, Logan Jones, Oliver, Anna Work, Adam Neely, Rick Lees, Dave Mayer, CodenaCrow, Nikolay Semyonov, Arnas, Caroline Simpson, Michael Alan Dorman, Blake Boyd, Luke Rihn, Charles Gaskell, Ian Seymour, Trevor Sullivan, Tom Evans, Elliot Jay O'Neill, Lamadesbois, JH, David Conrad, Chris Chapin, Chris Borland, Todd Davidson, Elliot Burke, Tim S., Elias Simon, Jake Lizzio, Jerry D. Brown, Ohad Lutzky, Peter Leventis, Aaron Epstein, Chris Connett, James A. Thornton, Kenneth Kousen, James, h2g2guy, W. Dennis Sorrell, Brian Dinger, Professor Elliot, Stefan Strohmaier, Shadow Kat, Adam Wurstmann, Kelsey Freese, Angela Flierman, Richard T. Anderson, Kevin Johnson, Andrew Engel, Ryan, Rodrigo "rrc2soft" Roman, Jeremy Zolner, Patrick Callier, Danny, Francois LaPlante, Volker Wegert, Joshua Gleitze, Britt Ratliff, Darzzr, Joshua La Macchia, Alexey Fedotov, Alex Keeny, Valentin Lupachev, John Bejarano, Peter Brinkmann, Gary Butterfield, Steve Brand, Rene Miklas, naomio, Alex Mole, Red Uncle, Doug Nottingham, Kaisai Morihito, Nicholas Wolf, Betsy, Tonya Custis, Dave Shapiro, Jacopo Cascioli, Robert Beach, Rafael Martinez Salas, Walther, Mathew Wolak, Graeme Lewis, Jake Sand, S, Lincoln Mendell, Aditya Baradwaj, Sam Rezek, Destros, Lucas Augusto, Evan Satinsky, James Little, RaptorCat, Juan Madrigal, Jim Hayes, Jigglypuffer, leftaroundabout ., Jens Schäfer, Mikely Whiplash, Austin Amberg, Scott Albertine, Francisco Rodrigues, Elizabeth, Michael Tsuk, רועי סיני, ThoraSTooth, Brandon Legawiec, Conor Stuart Roe, Hikaru Katayamma, Dragix PL, Alon Kellner, Rob Hardy, Patrick Chieppe, Eric Stark, David Haughn, Gordon Dell, Gary Evesson, Kottolett, Dylan Vidas, Byron DeLaBarre, Matty Crocker, anemamata, Brian Miller, Lee-orr Orbach, Eric Plume, Kevin Pierce, Jon Hancock, Jason Peterson, Peggy Youell, EJ Hambleton, Jos Mulder, Daryl Banttari, J.T. Vandenbree, Brian Davis, Pamela O'Neill, Lyan Porto, Thomas Morgan, Ludwick Kennedy, Wayne Robinson, Gabriel Totusek, SecretKittehs, Mnemosyne Music, AkselA, Philip Miller, Ridley Kemp, Mark James, Sam Plotkin, David MacDonald, Nellie Speirs Baron, Charles R., Joshua Lewis, Sam, Adam Ziegenhals, DialMForManning, Wayne Weil, Michael Wehling, Mark, Amelia Lewis, Brandon Peckham, PatSandmann, Kristofer Hill, William Merryman, Ryan Mayle, J Denton, James, David T Peterson, Bryan C. Mills, Justin St John-Brooks, Mark Lacey, Jaren Tilford, Catherine Berry, Watch Harder, XCompWiz, Bean, A Devoted Servant of the Holy Water Bottle, Milan Brezovsky, Edmund Horner, Daria Gibbons, NinoDoko, Michael Blaby, M. Bock, Daniel Joseph Moynihan, Fernando Felix, Joseph Satin, Piush Dahal, Matthew Moore, Walt Seefeld, Josh Witkowski, United Nations Subcommittee On Names of God, Graham Orndorff, Michael Sacksteder, Andrew Wyld, JD White, Jason McPherson, Chris Robson, A.J. Yates, Matt Moulder, Jeffrey Mann, Leander Tietjen, Alex Tafur, Chris Davis, William, findRED, Howl’s one-handed egg cracking technique, Gary Backaus, Joe Johnston, Jordan Friendshuh, Eugen Lounkine, Fernando Gros, Jay Dharsandia, Geoffrey Barnett, OVB_2nd, Joe Molloy, Jay Wilson, RoxyPop, Hakim C, gunnito, מתן אריאל-הברון, Claymore Alexander, Dixon Roberts, Pär Nord, and Paul Tanenholz! Your support helps make 12tone even better!
+    
+    Also, thanks to Jareth Arnold!''', videoUrl="k6XtUoZ0Z9Q", thumbnailUrl="https://i.ytimg.com/vi/k6XtUoZ0Z9Q/maxresdefault.jpg", createdAt="2022-02-04T18:00:17Z")
+    
+    
+    
+    d68eef1e40a4f00e0267a11d7a6d2652 = Video(channelId="80", title='''Understanding Bohemian Rhapsody''', description='''So... Bohemian Rhapsody. Do I have to tell you what this song is? Probably not. It's one of the most well-known, beloved rock songs ever made, and a long time ago, I promised that if I ever reached 500,000 subscribers, I'd turn my analytical lens on it. We finally made it, so... here it is. Analyzing this song was a daunting task, but it's hard to imagine a song more deserving. I hope you enjoy this one, 'cause it was a lot of work.
+    
+    Patreon: https://www.patreon.com/12tonevideos
+    Merch: http://standard.tv/12tone
+    Discord: https://discord.gg/pq2QBEw
+    Mailing List: http://eepurl.com/bCTDaj
+    Facebook: https://www.facebook.com/12tonevideos
+    Twitter: https://twitter.com/12tonevideos
+    Twitch: https://www.twitch.tv/12tonevideos
+    Instagram: https://www.instagram.com/12tonevideos/
+    Email: 12tonevideos@gmail.com
+    
+    Last: https://youtu.be/SbKEqe7fnoY
+    Carry On video: https://youtu.be/tr0BRZfIY5U
+    Polyphonic's video: https://youtu.be/DNwOzN-CIsw
+    
+    Script: https://tinyurl.com/4spdsx7v
+    
+    Huge thanks to our Elephant of the Month Club members:
+    
+    Susan Jones
+    Jill Jones
+    Duck 
+    Howard Levine
+    Brian Etheredge
+    Khristofor Saraga
+    Len Lanphar
+    Ken Arnold
+    Elaine Pratt
+    William (Bill) Boston
+    Chris Prentice
+    Jack Carlson
+    Christopher Lucas
+    Andrew Beals
+    Dov Zazkis
+    Hendrik P
+    Thomas Morley
+    Jacob Helwig
+    Davis Sprague
+    Alex Knauth
+    Warren Huart
+    Braum Meakes
+    Kevin Wilamowski
+    Hendrik Stüwe
+    Grant Aldonas
+    Dan Bonelli
+    Kevin Boyce
+    Kelly Christoffersen
+    Scott Howarth
+    Luke
+    Donal Botkin
+    Stephen Cook
+    Symmetry
+    David Bartz
+    Dhruv Monga
+    Ken Jones
+    Obadiah Wright
+    Kobalent
+    Jason Nebergall
+    Carlos Rendon
+    Aleksandar Milojković
+    Kylie McInnes
+    Jody 
+    Daniel Reaman
+    Tom
+    PhilRosas 
+    Reiji Kobayashi
+    MISLS
+    
+    And thanks as well to Henry Reich, Gabi Ghita, Gene Lushtak, Owen Campbell-Moore, Eugene Bulkin, Logan Jones, Oliver, Anna Work, Adam Neely, Rick Lees, Dave Mayer, CodenaCrow, Nikolay Semyonov, Arnas, Caroline Simpson, Michael Alan Dorman, Michael McCormick, Blake Boyd, Luke Rihn, Charles Gaskell, Ian Seymour, Trevor Sullivan, Tom Evans, Elliot Jay O'Neill, Lamadesbois, JH, David Conrad, Chris Chapin, Chris Borland, Elliot Burke, Todd Davidson, Tim S., Elias Simon, Jake Lizzio, Jerry D. Brown, Ohad Lutzky, Peter Leventis, Aaron Epstein, Chris Connett, James A. Thornton, Kenneth Kousen, James, h2g2guy, W. Dennis Sorrell, Brian Dinger, Stefan Strohmaier, Professor Elliot, Shadow Kat, Adam Wurstmann, Kelsey Freese, Angela Flierman, Richard T. Anderson, Kevin Johnson, Ryan, Rodrigo "rrc2soft" Roman, Jeremy Zolner, Patrick Callier, Danny, Francois LaPlante, Volker Wegert, Joshua Gleitze, Britt Ratliff, Darzzr, Joshua La Macchia, Andrew Engel, Alexey Fedotov, Alex Keeny, Valentin Lupachev, John Bejarano, Peter Brinkmann, Gary Butterfield, Steve Brand, Rene Miklas, Red Uncle, naomio, Alex Mole, Doug Nottingham, Kaisai Morihito, Nicholas Wolf, Betsy, Tonya Custis, Dave Shapiro, Jacopo Cascioli, Robert Beach, ZagOnEm, CoryC, Rafael Martinez Salas, Walther, Doug Lantz, Mathew Wolak, Graeme Lewis, Jake Sand, S, Lincoln Mendell, Sam Rezek, Destros, Lucas Augusto, Aditya Baradwaj, Evan Satinsky, James Little, RaptorCat, Jigglypuffer, leftaroundabout ., Jens Schäfer, Mikely Whiplash, Austin Amberg, Juan Madrigal, Jim Hayes, Francisco Rodrigues, Elizabeth, Scott Albertine, Michael Tsuk, ThoraSTooth, Brandon Legawiec, רועי סיני, Conor Stuart Roe, Evgeni Kunev, Hikaru Katayamma, Alon Kellner, Rob Hardy, Dragix PL, Patrick Chieppe, Eric Stark, David Haughn, Gordon Dell, Gary Evesson, Kottolett, Dylan Vidas, Byron DeLaBarre, Matty Crocker, anemamata, Brian Miller, Lee-orr Orbach, Eric Plume, Kevin Pierce, Jon Hancock, Carlos Silva, Jason Peterson, Peggy Youell, EJ Hambleton, Jos Mulder, Daryl Banttari, J.T. Vandenbree, Brian Davis, Eric Daugherty, Pamela O'Neill, Lyan Porto, Wayne Robinson, Gabriel Totusek, Thomas Morgan, Ludwick Kennedy, SecretKittehs, Mnemosyne Music, AkselA, Philip Miller, Sam Plotkin, David MacDonald, Nellie Speirs Baron, Charles R., Joshua Lewis, Ridley Kemp, Mark James, The Gig Farmer, Sam, DialMForManning, Wayne Weil, Michael Wehling, Adam Ziegenhals, Brandon Peckham, Mark Meckes, Amelia Lewis, PatSandmann, James, David T Peterson, Bryan C. Mills, Kristofer Hill, William Merryman, Ryan Mayle, J Denton, Justin St John-Brooks, Bean, A Devoted Servant, Milan Brezovsky, Edmund Horner, Mark Lacey, Daria Gibbons, NinoDoko, XCompWiz, Michael Blaby, Jaren Tilford, Catherine Berry, Watch Harder, Will Derr, M. Bock, Daniel Joseph Moynihan, Fernando Felix, Joseph Satin, Piush Dahal, Matthew Moore, Walt Seefeld, Josh Witkowski, Need 0GP to read UNSONG, Graham Orndorff, Michael Sacksteder, Jason McPherson, Chris Robson, A.J. Yates, Matt Moulder, Andrew Wyld, Leander Tietjen, JD White, Alex Tafur, Chris Davis, William, findRED, Howl’s one-handed, Jeffrey Mann, Gary Backaus, Eugen Lounkine, Fernando Gros, Jay Dharsandia, Geoffrey Barnett, OVB_2nd, Joe Johnston, Jordan Friendshuh, Joe Molloy, Jay Wilson, Lev, and RoxyPop! Your support helps make 12tone even better!
+    
+    Also, thanks to Jareth Arnold!''', videoUrl="Ez8Ljhv9dyw", thumbnailUrl="https://i.ytimg.com/vi/Ez8Ljhv9dyw/maxresdefault.jpg", createdAt="2022-01-28T18:00:12Z")
+    
+    
+    
+    d8146941ca4f36d924724382b1f8202b = Video(channelId="80", title='''Solving James Brown's Rhythmic Puzzle Correctly (A Response To Adam Neely)''', description='''I promise this is 100% real drama.
+    Get 20% off Hooktheory's interactive books and a lifetime subscription to Hookpad: https://www.hooktheory.com/12tone
+    
+    It brings me no joy to say this, but Adam Neely is wrong on the internet. Or, ok, honestly, it brings me a little joy, and also it's not really true, so... not sure where that leaves us, but the point is I disagree with some of the stuff Adam said in his video on James Brown, and I wanted to talk about how important those sorts of disagreements are in music theory!
+    
+    Adam's video: https://youtu.be/DcrYaRJD_e8
+    
+    Patreon: https://www.patreon.com/12tonevideos
+    Merch: http://standard.tv/12tone
+    Discord: https://discord.gg/pq2QBEw
+    Mailing List: http://eepurl.com/bCTDaj
+    Facebook: https://www.facebook.com/12tonevideos
+    Twitter: https://twitter.com/12tonevideos
+    Twitch: https://www.twitch.tv/12tonevideos
+    Instagram: https://www.instagram.com/12tonevideos/
+    Email: 12tonevideos@gmail.com
+    
+    Last: https://youtu.be/qDpcVKtxB4g
+    
+    Script: https://tinyurl.com/yxttrrza
+    
+    Huge thanks to our Elephant of the Month Club members:
+    
+    Susan Jones
+    Jill Jones
+    Duck 
+    Howard Levine
+    Brian Etheredge
+    Khristofor Saraga
+    Len Lanphar
+    Ken Arnold
+    Elaine Pratt
+    William (Bill) Boston
+    Chris Prentice
+    Jack Carlson
+    Christopher Lucas
+    Andrew Beals
+    Dov Zazkis
+    Hendrik P
+    Thomas Morley
+    Jacob Helwig
+    Davis Sprague
+    Alex Knauth
+    Braum Meakes
+    Warren Huart
+    Hendrik Stüwe
+    Dan Bonelli
+    Kevin Boyce
+    Kevin Wilamowski
+    Grant Aldonas
+    Kelly Christoffersen
+    Scott Howarth
+    Luke
+    Donal Botkin
+    Stephen Cook
+    Symmetry
+    Dhruv Monga
+    Ken Jones
+    David Bartz
+    Obadiah Wright
+    Kobalent
+    Jason Nebergall
+    Carlos Rendon
+    Aleksandar Milojković
+    Kylie McInnes
+    Jody 
+    Daniel Reaman
+    Tom
+    PhilRosas 
+    Reiji Kobayashi
+    
+    And thanks as well to Henry Reich, Gabi Ghita, Gene Lushtak, Owen Campbell-Moore, Eugene Bulkin, Logan Jones, Oliver, Anna Work, Adam Neely, Rick Lees, Dave Mayer, CodenaCrow, Nikolay Semyonov, Arnas, Caroline Simpson, Michael Alan Dorman, Michael McCormick, Blake Boyd, Luke Rihn, Charles Gaskell, Ian Seymour, Trevor Sullivan, Tom Evans, Elliot Jay O'Neill, Lamadesbois, JH, David Conrad, Chris Chapin, Chris Borland, Elliot Burke, Tim S., Elias Simon, Todd Davidson, Jake Lizzio, Jerry D. Brown, Ohad Lutzky, Peter Leventis, James A. Thornton, Aaron Epstein, Blake White, Chris Connett, Brian Dinger, Kenneth Kousen, James, h2g2guy, W. Dennis Sorrell, Stefan Strohmaier, Shadow Kat, Adam Wurstmann, Kelsey Freese, Professor Elliot, Angela Flierman, Richard T. Anderson, Kevin Johnson, Ryan, Rodrigo "rrc2soft" Roman, Jeremy Zolner, Patrick Callier, Danny, Francois LaPlante, Volker Wegert, Joshua Gleitze, Britt Ratliff, Darzzr, Joshua La Macchia, Andrew Engel, Alexey Fedotov, Alex Keeny, Valentin Lupachev, John Bejarano, Peter Brinkmann, Gary Butterfield, Steve Brand, Rene Miklas, Red Uncle, naomio, Alex Mole, Doug Nottingham, Nicholas Wolf, Kaisai Morihito, Robert Beach, ZagOnEm, Betsy, Tonya Custis, Dave Shapiro, Jacopo Cascioli, CoryC, Rafael Martinez Salas, Walther, Mathew Wolak, Doug Lantz, S, Lincoln Mendell, Graeme Lewis, Jake Sand, Sam Rezek, Destros, Lucas Augusto, Evan Satinsky, James Little, RaptorCat, Aditya Baradwaj, Yuval Filmus, Jigglypuffer, leftaroundabout ., Jens Schäfer, Mikely Whiplash, Austin Amberg, Juan Madrigal, Francisco Rodrigues, Elizabeth, Jim Hayes, Michael Tsuk, Scott Albertine, ThoraSTooth, Brandon Legawiec, Evgeni Kunev, Hikaru Katayamma, רועי סיני, Conor Stuart Roe, Alon Kellner, Rob Hardy, Dragix PL, Patrick Chieppe, Eric Stark, David Haughn, Gordon Dell, Byron DeLaBarre, Matty Crocker, anemamata, Brian Miller, Lee-orr Orbach, Eric Plume, Kevin Pierce, Jon Hancock, Gary Evesson, Kottolett, Dylan Vidas, Jason Peterson, Peggy Youell, Carlos Silva, EJ Hambleton, Jos Mulder, Daryl Banttari, J.T. Vandenbree, John Castle, David Taylor, Lyan Porto, Brian Davis, Eric Daugherty, Pamela O'Neill, Wayne Robinson, Gabriel Totusek, SecretKittehs, Mnemosyne Music, AkselA, Philip Miller, Thomas Morgan, Ludwick Kennedy, Sam Plotkin, David MacDonald, Nellie Speirs Baron, Charles R., Joshua Lewis, Ridley Kemp, Mark James, The Gig Farmer, Sam, DialMForManning, Wayne Weil, Michael Wehling, Brandon Peckham, Adam Ziegenhals, Mark Meckes, Amelia Lewis, sonicolasj, James, David T Peterson, PatSandmann, Kristofer Hill, William Merryman, Ryan Mayle, J Denton, Bean, A Devoted Servant, Milan Brezovsky, Edmund Horner, Daria Gibbons, NinoDoko, XCompWiz, Michael Blaby, Justin St John-Brooks, Mark Lacey, Jaren Tilford, Catherine Berry, Watch Harder, Will Derr, M. Bock, Daniel Joseph Moynihan, Niles Loughlin, Josh Witkowski, Clever Patreon, Graham Orndorff, Michael Sacksteder, Fernando Felix, Joseph Satin, Piush Dahal, Matthew Moore, Walt Seefeld, Jason McPherson, Chris Robson, A.J. Yates, Matt Moulder, Leander Tietjen, Alex Tafur, Chris Davis, William, findRED, Howl’s one-handed, Gary Backaus, Andrew Wyld, JD White, Eugen Lounkine, Fernando Gros, Jay Dharsandia, Geoffrey Barnett, and OVB_2nd! Your support helps make 12tone even better!
+    
+    Also, thanks to Jareth Arnold!''', videoUrl="SbKEqe7fnoY", thumbnailUrl="https://i.ytimg.com/vi/SbKEqe7fnoY/maxresdefault.jpg", createdAt="2021-12-17T18:00:09Z")
+    
+    
+    
+    db90457709f3cb0827d03923dfd58338 = Video(channelId="80", title='''Understanding Blister In The Sun''', description='''Blister In The Sun is one of those songs that doesn't really make sense, not because it's too complicated, but because it almost doesn't feel complicated enough. On the surface it's extremely simple, and that simplicity made it a hard sell to the record label that was supposed to promote it, but it also made it a hit with fans, and the song quickly took off as an underground sensation. It's a delicate balancing act of naivety and raunchy fun, but how do the Violent Femmes pull that off?
+    
+    Patreon: https://www.patreon.com/12tonevideos
+    Merch: http://standard.tv/12tone
+    Discord: https://discord.gg/pq2QBEw
+    Mailing List: http://eepurl.com/bCTDaj
+    Facebook: https://www.facebook.com/12tonevideos
+    Twitter: https://twitter.com/12tonevideos
+    Twitch: https://www.twitch.tv/12tonevideos
+    Instagram: https://www.instagram.com/12tonevideos/
+    Email: 12tonevideos@gmail.com
+    
+    Last: https://youtu.be/_CkkSjHX8-E
+    
+    Script: https://tinyurl.com/2ahzj5vr
+    
+    Huge thanks to our Elephant of the Month Club members:
+    
+    Susan Jones
+    Jill Jones
+    Duck 
+    Howard Levine
+    Brian Etheredge
+    Khristofor Saraga
+    Len Lanphar
+    Ken Arnold
+    Elaine Pratt
+    William (Bill) Boston
+    Chris Prentice
+    Jack Carlson
+    Christopher Lucas
+    Andrew Beals
+    Dov Zazkis
+    Hendrik P
+    Thomas Morley
+    Jacob Helwig
+    Davis Sprague
+    Alex Knauth
+    Braum Meakes
+    Warren Huart
+    Hendrik Stüwe
+    Dan Bonelli
+    Kevin Boyce
+    Kevin Wilamowski
+    Grant Aldonas
+    Kelly Christoffersen
+    Scott Howarth
+    Luke
+    Donal Botkin
+    Stephen Cook
+    Symmetry
+    Dhruv Monga
+    Ken Jones
+    David Bartz
+    Obadiah Wright
+    Kobalent
+    Jason Nebergall
+    Carlos Rendon
+    Aleksandar Milojković
+    Kylie McInnes
+    Jody 
+    Daniel Reaman
+    Tom
+    PhilRosas 
+    Reiji Kobayashi
+    
+    And thanks as well to Henry Reich, Gabi Ghita, Gene Lushtak, Owen Campbell-Moore, Eugene Bulkin, Logan Jones, Oliver, Anna Work, Adam Neely, Rick Lees, Dave Mayer, CodenaCrow, Nikolay Semyonov, Arnas, Caroline Simpson, Michael Alan Dorman, Michael McCormick, Blake Boyd, Luke Rihn, Charles Gaskell, Ian Seymour, Trevor Sullivan, Tom Evans, Elliot Jay O'Neill, Lamadesbois, JH, David Conrad, Chris Chapin, Chris Borland, Elliot Burke, Tim S., Elias Simon, Todd Davidson, Jake Lizzio, Jerry D. Brown, Ohad Lutzky, Peter Leventis, James A. Thornton, Aaron Epstein, Blake White, Chris Connett, Brian Dinger, Kenneth Kousen, James, h2g2guy, W. Dennis Sorrell, Stefan Strohmaier, Shadow Kat, Adam Wurstmann, Kelsey Freese, Professor Elliot, Angela Flierman, Richard T. Anderson, Kevin Johnson, Ryan, Rodrigo "rrc2soft" Roman, Jeremy Zolner, Patrick Callier, Danny, Francois LaPlante, Volker Wegert, Joshua Gleitze, Britt Ratliff, Darzzr, Joshua La Macchia, Andrew Engel, Alexey Fedotov, Alex Keeny, Valentin Lupachev, John Bejarano, Peter Brinkmann, Gary Butterfield, Steve Brand, Rene Miklas, Red Uncle, naomio, Alex Mole, Doug Nottingham, Nicholas Wolf, Kaisai Morihito, Robert Beach, ZagOnEm, Betsy, Tonya Custis, Dave Shapiro, Jacopo Cascioli, CoryC, Rafael Martinez Salas, Walther, Mathew Wolak, Doug Lantz, S, Lincoln Mendell, Graeme Lewis, Jake Sand, Sam Rezek, Destros, Lucas Augusto, Evan Satinsky, James Little, RaptorCat, Aditya Baradwaj, Yuval Filmus, Jigglypuffer, leftaroundabout ., Jens Schäfer, Mikely Whiplash, Austin Amberg, Juan Madrigal, Francisco Rodrigues, Elizabeth, Jim Hayes, Michael Tsuk, Scott Albertine, ThoraSTooth, Brandon Legawiec, Evgeni Kunev, Hikaru Katayamma, רועי סיני, Conor Stuart Roe, Alon Kellner, Rob Hardy, Dragix PL, Patrick Chieppe, Eric Stark, David Haughn, Gordon Dell, Byron DeLaBarre, Matty Crocker, anemamata, Brian Miller, Lee-orr Orbach, Eric Plume, Kevin Pierce, Jon Hancock, Gary Evesson, Kottolett, Dylan Vidas, Jason Peterson, Peggy Youell, Carlos Silva, EJ Hambleton, Jos Mulder, Daryl Banttari, J.T. Vandenbree, John Castle, David Taylor, Lyan Porto, Brian Davis, Eric Daugherty, Pamela O'Neill, Wayne Robinson, Gabriel Totusek, SecretKittehs, Mnemosyne Music, AkselA, Philip Miller, Thomas Morgan, Ludwick Kennedy, Sam Plotkin, David MacDonald, Nellie Speirs Baron, Charles R., Joshua Lewis, Ridley Kemp, Mark James, The Gig Farmer, Sam, DialMForManning, Wayne Weil, Michael Wehling, Brandon Peckham, Adam Ziegenhals, Mark Meckes, Amelia Lewis, sonicolasj, James, David T Peterson, PatSandmann, Kristofer Hill, William Merryman, Ryan Mayle, J Denton, Bean, A Devoted Servant, Milan Brezovsky, Edmund Horner, Daria Gibbons, NinoDoko, XCompWiz, Michael Blaby, Justin St John-Brooks, Mark Lacey, Jaren Tilford, Catherine Berry, Watch Harder, Will Derr, M. Bock, Daniel Joseph Moynihan, Niles Loughlin, Josh Witkowski, Clever Patreon, Graham Orndorff, Michael Sacksteder, Fernando Felix, Joseph Satin, Piush Dahal, Matthew Moore, Walt Seefeld, Jason McPherson, Chris Robson, A.J. Yates, Matt Moulder, Leander Tietjen, Alex Tafur, Chris Davis, William, findRED, Howl’s one-handed, Gary Backaus, Andrew Wyld, JD White, Eugen Lounkine, Fernando Gros, Jay Dharsandia, Geoffrey Barnett, and OVB_2nd! Your support helps make 12tone even better!
+    
+    Also, thanks to Jareth Arnold for proofreading the script to make sure this all makes sense hopefully!''', videoUrl="qDpcVKtxB4g", thumbnailUrl="https://i.ytimg.com/vi/qDpcVKtxB4g/maxresdefault.jpg", createdAt="2021-12-10T18:00:32Z")
+    
+    
+    
+    d8e26902f09951eee9a6123733f93f8c = Video(channelId="80", title='''This Scale Is Impossible (But It Sounds Great)''', description='''These are a few of my favorite scales.
+    Get 26% off CuriosityStream and a free Nebula account: http://www.curiositystream.com/12tone and use promo code "12tone"
+    
+    There's lots of good scales out there. There's even plenty of great ones. But most of them have a few things in common. As a theorist, I get really excited when I find scales that *don't* play by the normal rules, scales that push back on our understanding of how scales even work, and some of my favorites of those are the ones developed by Olivier Messiaen. What makes them so unique? Well, they're not. That's what makes them awesome.
+    
+    Patreon: https://www.patreon.com/12tonevideos
+    Merch: http://standard.tv/12tone
+    Discord: https://discord.gg/pq2QBEw
+    Mailing List: http://eepurl.com/bCTDaj
+    Facebook: https://www.facebook.com/12tonevideos
+    Twitter: https://twitter.com/12tonevideos
+    Twitch: https://www.twitch.tv/12tonevideos
+    Instagram: https://www.instagram.com/12tonevideos/
+    Email: 12tonevideos@gmail.com
+    
+    Last: https://youtu.be/AfJIgsFHX0Q
+    
+    Script: https://tinyurl.com/43chh7r7
+    
+    Huge thanks to our Elephant of the Month Club members:
+    
+    Susan Jones
+    Jill Jones
+    Duck 
+    Howard Levine
+    Brian Etheredge
+    Khristofor Saraga
+    Len Lanphar
+    Ken Arnold
+    Elaine Pratt
+    William (Bill) Boston
+    Chris Prentice
+    Jack Carlson
+    Christopher Lucas
+    Andrew Beals
+    Dov Zazkis
+    Hendrik Payer
+    Thomas Morley
+    Jacob Helwig
+    Davis Sprague
+    Braum Meakes
+    Hendrik Stüwe
+    Dan Bonelli
+    Kevin Boyce
+    Warren Huart
+    Kelly Christoffersen
+    Kevin Wilamowski
+    Scott Howarth
+    Luke
+    Grant Aldonas
+    Donal Botkin
+    Stephen Cook
+    Symmetry
+    Dhruv Monga
+    Ken Jones
+    Obadiah Wright
+    Kobalent
+    David Bartz
+    Jason Nebergall
+    Carlos Rendon
+    Aleksandar Milojković
+    Kylie McInnes
+    Jody 
+    Daniel Reaman
+    Tom
+    
+    And thanks as well to Henry Reich, Gabi Ghita, Gene Lushtak, Owen Campbell-Moore, Eugene Bulkin, Logan Jones, Oliver , Anna Work, Adam Neely, Rick Lees, Dave Mayer, CodenaCrow , Nikolay Semyonov, Arnas , Caroline Simpson, Michael Alan Dorman, Michael McCormick, Blake Boyd, Luke Rihn, Charles Gaskell, Ian Seymour, Trevor Sullivan, Tom Evans, Elliot Jay O'Neill, Lamadesbois , JH , David Conrad, Chris Chapin, Chris Borland, Alex Atanasyan, Elliot Burke, Tim S., Elias Simon, Todd Davidson, Jake Lizzio, Jerry D. Brown, Ohad Lutzky, Peter Leventis, James A. Thornton, Aaron Epstein, Blake White, Chris Connett, Brian Dinger, Kenneth Kousen, James , h2g2guy, W. Dennis Sorrell, Stefan Strohmaier, Shadow Kat, Adam Wurstmann, Kelsey Freese, Angela Flierman, Richard T. Anderson, Professor Elliot, Kevin Johnson, Roming 22, Ryan , Rodrigo "rrc2soft" Roman, Jeremy Zolner, Patrick Callier, Danny , Francois LaPlante, Volker Wegert, Joshua Gleitze, Britt Ratliff, Darzzr, Joshua La Macchia, Charles Hill, Alexey Fedotov, Alex Keeny, Valentin Lupachev, John Bejarano, Andrew Engel, Gary Butterfield, Peter Brinkmann, Steve Brand, Rene Miklas, Red Uncle, Doug Nottingham, naomio, Alex Mole, Nicholas Wolf, Kaisai Morihito, Robert Beach, ZagOnEm , Betsy, Tonya Custis, Dave Shapiro, Jacopo Cascioli, Mathew Wolak, CoryC, Rafael Martinez Salas, Walther, S, Lincoln Mendell, Doug Lantz, Sam Rezek, Destros, Lucas Augusto, Graeme Lewis, Jake Sand, Evan Satinsky, James Little, RaptorCat , Aditya Baradwaj, Yuval Filmus, Jigglypuffer , leftaroundabout ., Jens Schäfer, Mikely Whiplash, Austin Amberg, Francisco Rodrigues, Elizabeth , Michael Tsuk, Juan Madrigal, Jim Hayes, Scott Albertine, ThoraSTooth, Brandon Legawiec, Evgeni Kunev, Hikaru Katayamma, רועי סיני, Alon Kellner, Rob Hardy, Conor Stuart Roe, Patrick Chieppe, Eric Stark, David Haughn, Gordon Dell, Dragix PL, Byron DeLaBarre, Matty Crocker, anemamata, Brian Miller, Lee-orr Orbach, Eric Plume, Kevin Pierce, Jon Hancock, Gary Evesson, Kottolett , Dylan Vidas, Jason Peterson, Peggy Youell, EJ Hambleton, Carlos Silva, Jos Mulder, Daryl Banttari, J.T. Vandenbree, John Castle, Lyan Porto, Wayne Robinson, Gabriel Totusek, Brian Davis, Eric Daugherty, Pamela O'Neill, SecretKittehs , Mnemosyne Music, AkselA , Philip Miller, Thomas Morgan, Ludwick Kennedy, Sam Plotkin, David MacDonald, Nellie Speirs Baron, Charles R., Joshua Lewis, The Gig Farmer, Sam , DialMForManning, Wayne Weil, Michael Wehling, darkmage, Mark James, Brandon Peckham, James , David Peterson, Bryan C. Mills, Adam Ziegenhals, Mark Meckes, Amelia Lewis, sonicolasj, PatSandmann , Kristofer Hill, William Merryman, Ryan Mayle, J Denton, Bean , Holy Water Bottle, Milan Brezovsky, Edmund Horner, Daria Gibbons, TJ FUNCTION, NinoDoko, XCompWiz , Michael Blaby, M. Bock, Daniel Joseph Moynihan, Mark Lacey, Niles Loughlin, Justin St John-Brooks, Jaren Tilford, Catherine Berry, Will Derr, Josh Witkowski, Clever Patreon, Graham Orndorff, Michael Sacksteder , Jason McPherson, Chris Robson, A.J. Yates, Mitch McConeghey, Matt Moulder, Nolan Giroday, Fernando Felix, Joseph Satin, Piush Dahal, Matthew Moore, Walt Seefeld, Leander Tietjen, Alex Tafur, Chris Davis, William, findRED, and Howl’s one-handed! Your support helps make 12tone even better!
+    
+    Also, thanks to Jareth Arnold for checking the script!''', videoUrl="_CkkSjHX8-E", thumbnailUrl="https://i.ytimg.com/vi/_CkkSjHX8-E/maxresdefault.jpg", createdAt="2021-11-19T18:00:10Z")
+    
+    
+    
+    d508437b99f2693568ee8da2680d6054 = Video(channelId="76", title='''Don't do this if you want a successful music career.''', description='''Thank you to Lewitt for sponsoring this video: https://www.lewitt-audio.com/microphones/lct-recording/lct-1040?utm_source=AndrewHuang&utm_medium=link&utm_campaign=YouTube-in&utm_id=LCT1040
+    
+    Moog Matriarch giveaway! https://gleam.io/DUaBv/andrew-huangs-moog-matriarch-giveaway
+    
+    Subscribe → http://bit.ly/subAndrewHuang
+    Sign up for my online music production class: http://learnmonthly.com/andrew
+    Learn more about production & music theory with this playlist:  http://bit.ly/AHMusicandProduction
+    
+    Merch!
+    https://teespring.com/stores/andrewismusic
+    
+    Support my work on Patreon and be the first to get all my new music: http://patreon.com/andrewhuang
+    
+    ★ FOLLOW ME HERE ★
+    
+    TikTok https://vm.tiktok.com/weEbNK/
+    Instagram http://instagram.com/andrewismusic
+    Facebook http://facebook.com/andrewismusic
+    Twitter http://twitter.com/andrewhuang
+    
+    ★ LISTEN TO MY MUSIC ★
+    
+    Spotify http://spoti.fi/2pF0qRB
+    iTunes http://apple.co/2psaUmL
+    Google Play http://bit.ly/2qlhAjy
+    Bandcamp http://bit.ly/2oRWCby
+    
+    ★ GEAR ★
+    
+    Disclosure: Most of these are affiliate links - if you buy anything through them (even if it's not the linked item) I'll receive a small percentage, which helps support my channel.
+    
+    Music software (Ableton) https://www.ableton.com/shop/live/?affiliate=TlTs9eL4
+    Keyboard https://bit.ly/2MH4xbN
+    Modular https://www.pntrac.com/t/TUJGR0tHS0JHSUZFSE1CR0hMRUZL
+    Headphones - lots of hype https://amzn.to/2JmTmDK
+    Headphones - super pro omg https://amzn.to/2VOcmjz
+    Small audio interface https://amzn.to/2H7x4mx
+    Big audio interface https://bit.ly/33r0SER
+    Analog preamp/comp https://bit.ly/2RvrYIe
+    OP-1 http://amzn.to/1RI75C4
+    Ableton Push https://www.ableton.com/shop/push/?affiliate=TlTs9eL44
+    How I learned synthesis https://bit.ly/2PROCoT
+    Mic 1 https://bit.ly/3uqMrwH
+    Mic 2 https://bit.ly/3eWuBv1
+    Vlog mic http://amzn.to/2lpjHEq
+    Lav mic https://amzn.to/3ssEZ66
+    Main camera https://amzn.to/3FngomP
+    2nd camera http://amzn.to/2aHkv35
+    
+    I use Distrokid to get my music on streaming platforms - get 7% off your first year here: http://distrokid.com/vip/huang
+    
+    ★ SPECIAL THANKS TO ALL MY TOP PATRONS ★
+    
+    --
+    
+    If you're new here, my name is Andrew Huang and I'm a musician who works with many genres and many instruments - and I've also made music with many things that aren't instruments like balloons, pants, water, and dentist equipment. For more info visit my website: http://andrewhuang.com
+    
+    You can also stream and download my 40+ albums and EPs at http://andrewhuang.bandcamp.com or check out my other videos at http://youtube.com/andrewhuang
+    
+    Thanks for watching today and a big hug to you if you share this video with someone!''', videoUrl="3dqRWCruulI", thumbnailUrl="https://i.ytimg.com/vi/3dqRWCruulI/maxresdefault.jpg", createdAt="2022-04-14T16:18:22Z")
+    
+    
+    
+    d70e846d9c5c64d06c6cc5ee798e1a6b = Video(channelId="76", title='''Guitar through modular synth sounds ridiculous''', description='''Subscribe → http://bit.ly/subAndrewHuang
+    
+    By popular request, all the sounds from this session have been shared on my Patreon, and you're free to use them in your own music: http://patreon.com/andrewhuang
+    
+    Continued shenanigans in Rob’s video: https://youtu.be/VGeW9798zfM
+    
+    Sign up for my online music production class: http://learnmonthly.com/andrew
+    
+    Learn more about production & music theory with this playlist:  http://bit.ly/AHMusicandProduction
+    
+    Merch!
+    https://teespring.com/stores/andrewismusic
+    
+    ★ FOLLOW ME HERE ★
+    
+    TikTok https://vm.tiktok.com/weEbNK/
+    Instagram http://instagram.com/andrewismusic
+    Facebook http://facebook.com/andrewismusic
+    Twitter http://twitter.com/andrewhuang
+    
+    ★ LISTEN TO MY MUSIC ★
+    
+    Spotify http://spoti.fi/2pF0qRB
+    iTunes http://apple.co/2psaUmL
+    Google Play http://bit.ly/2qlhAjy
+    Bandcamp http://bit.ly/2oRWCby
+    
+    ★ GEAR ★
+    
+    Disclosure: Most of these are affiliate links - if you buy anything through them (even if it's not the linked item) I'll receive a small percentage, which helps support my channel.
+    
+    Modular https://www.pntrac.com/t/TUJGR0tHS0JHSUZFSE1CR0hMRUZL
+    Music software (Ableton) https://www.ableton.com/shop/live/?affiliate=TlTs9eL4
+    Keyboard https://bit.ly/2MH4xbN
+    Headphones - lots of hype https://amzn.to/2JmTmDK
+    Headphones - super pro omg https://amzn.to/2VOcmjz
+    Small audio interface https://amzn.to/2H7x4mx
+    Big audio interface https://bit.ly/33r0SER
+    Analog preamp/comp https://bit.ly/2RvrYIe
+    OP-1 http://amzn.to/1RI75C4
+    Ableton Push https://www.ableton.com/shop/push/?affiliate=TlTs9eL44
+    How I learned synthesis https://bit.ly/2PROCoT
+    Mic 1 https://bit.ly/3uqMrwH
+    Mic 2 https://bit.ly/3eWuBv1
+    Vlog mic http://amzn.to/2lpjHEq
+    Lav mic https://amzn.to/3ssEZ66
+    Main camera https://amzn.to/3FngomP
+    2nd camera http://amzn.to/2aHkv35
+    
+    I use Distrokid to get my music on streaming platforms - get 7% off your first year here: http://distrokid.com/vip/huang
+    
+    ★ SPECIAL THANKS TO ALL MY TOP PATRONS ★
+    
+    Jeff Xie
+    Omar tamez
+    Jeff Hoffman
+    Haley Masters
+    James Dai
+    Cav O'Leary
+    Russ Creech
+    Patrice Breton
+    Curtis Chambers
+    Gnare
+    Corey Frang
+    rd1994
+    Luke Gilliam
+    Kaitlin Sebbage
+    Silas Reaper
+    Kristopher Charles
+    Daniel Coleman
+    Peter Vermeychuk
+    Nick Simmons
+    Tobias Gurdan
+    
+    --
+    
+    If you're new here, my name is Andrew Huang and I'm a musician who works with many genres and many instruments - and I've also made music with many things that aren't instruments like balloons, pants, water, and dentist equipment. For more info visit my website: http://andrewhuang.com
+    
+    You can also stream and download my 40+ albums and EPs at http://andrewhuang.bandcamp.com or check out my other videos at http://youtube.com/andrewhuang
+    
+    Thanks for watching today and a big hug to you if you share this video with someone!''', videoUrl="CA4l61JKSm4", thumbnailUrl="https://i.ytimg.com/vi/CA4l61JKSm4/hqdefault.jpg", createdAt="2022-04-09T13:00:05Z")
+    
+    
+    
+    de93998e55006251c9750ec9a3e6b23c = Video(channelId="76", title='''WEIRD GEAR: Chase Bliss Habit''', description='''Habit: https://link.perfectcircuit.com/t/v1/S0BERUlFSUBFR0RDRktATEpITA?url=https%3A%2F%2Fwww.perfectcircuit.com%2Fchase-bliss-habit.html
+    
+    FYI Perfect Circuit informed me after I uploaded this video that they could make an affiliate link for Habit. If you buy anything from Perfect Circuit through the link above it helps to support my channel. 🙏
+    
+    Subscribe → http://bit.ly/subAndrewHuang
+    
+    Support my work on Patreon and be the first to get all my new music, plus exclusive sample packs: http://patreon.com/andrewhuang
+    
+    Sign up for my online music production class: http://learnmonthly.com/andrew
+    
+    Merch!
+    https://teespring.com/stores/andrewismusic
+    
+    Chapters:
+    0:00 Intro/disclosure
+    0:54 Main controls: Level, Repeats, Size, Scan, Spread
+    3:39 Effects overview (Modify control and switches)
+    3:58 A1: Octaves and fifths pitch shift and reverse
+    4:40 A2: Stability (pitch drift, optional tape noise)
+    5:12 A3: Trimmer
+    5:28 Some thoughts / let's change instruments
+    6:25 B1: Fluid pitch shift and reverse
+    6:42 B2: Low and high pass filter
+    6:53 B3: Dropper
+    7:14 Even weirder: Modes
+    10:00 Day 2: Approaching with restraint
+    10:42 Modular patch breakdown
+    11:42 Making ambient with Habit
+    16:08 Vocals through Habit
+    18:20 Final thoughts
+    
+    ★ FOLLOW ME HERE ★
+    
+    TikTok https://vm.tiktok.com/weEbNK/
+    Instagram http://instagram.com/andrewismusic
+    Facebook http://facebook.com/andrewismusic
+    Twitter http://twitter.com/andrewhuang
+    
+    ★ LISTEN TO MY MUSIC ★
+    
+    Spotify http://spoti.fi/2pF0qRB
+    iTunes http://apple.co/2psaUmL
+    Google Play http://bit.ly/2qlhAjy
+    Bandcamp http://bit.ly/2oRWCby
+    
+    ★ GEAR ★
+    
+    Disclosure: Most of these are affiliate links - if you buy anything through them (even if it's not the linked item) I'll receive a small percentage, which helps support my channel.
+    
+    Habit https://link.perfectcircuit.com/t/v1/S0BERUlFSUBFR0RDRktATEpITA?url=https%3A%2F%2Fwww.perfectcircuit.com%2Fchase-bliss-habit.html
+    Music software (Ableton) https://www.ableton.com/shop/live/?affiliate=TlTs9eL4
+    Keyboard https://bit.ly/2MH4xbN
+    Modular https://www.pntrac.com/t/TUJGR0tHS0JHSUZFSE1CR0hMRUZL
+    Headphones - lots of hype https://amzn.to/2JmTmDK
+    Headphones - super pro omg https://amzn.to/2VOcmjz
+    Small audio interface https://amzn.to/2H7x4mx
+    Big audio interface https://bit.ly/33r0SER
+    Analog preamp/comp https://bit.ly/2RvrYIe
+    OP-1 http://amzn.to/1RI75C4
+    Ableton Push https://www.ableton.com/shop/push/?affiliate=TlTs9eL44
+    How I learned synthesis https://bit.ly/2PROCoT
+    Mic 1 https://bit.ly/3uqMrwH
+    Mic 2 https://bit.ly/3eWuBv1
+    Vlog mic http://amzn.to/2lpjHEq
+    Lav mic https://amzn.to/3ssEZ66
+    Main camera https://amzn.to/3FngomP
+    2nd camera http://amzn.to/2aHkv35
+    
+    I use Distrokid to get my music on streaming platforms - get 7% off your first year here: http://distrokid.com/vip/huang
+    
+    ★ SPECIAL THANKS TO ALL MY TOP PATRONS ★
+    
+    Jeff Xie
+    Omar tamez
+    Jeff Hoffman
+    Haley Masters
+    James Dai
+    Cav O'Leary
+    Russ Creech
+    Patrice Breton
+    Curtis Chambers
+    Gnare
+    Corey Frang
+    rd1994
+    Luke Gilliam
+    Kaitlin Sebbage
+    Silas Reaper
+    Kristopher Charles
+    Daniel Coleman
+    Peter Vermeychuk
+    Nick Simmons
+    Tobias Gurdan
+    
+    --
+    
+    If you're new here, my name is Andrew Huang and I'm a musician who works with many genres and many instruments - and I've also made music with many things that aren't instruments like balloons, pants, water, and dentist equipment. For more info visit my website: http://andrewhuang.com
+    
+    You can also stream and download my 40+ albums and EPs at http://andrewhuang.bandcamp.com or check out my other videos at http://youtube.com/andrewhuang
+    
+    Thanks for watching today and a big hug to you if you share this video with someone!''', videoUrl="5_xssMLWqLk", thumbnailUrl="https://i.ytimg.com/vi/5_xssMLWqLk/maxresdefault.jpg", createdAt="2022-03-30T14:37:24Z")
+    
+    
+    
+    df45873d9e5b701e968f59a0ea3bd281 = Video(channelId="76", title='''Weird way to make music, but it sounds beautiful''', description='''Plant music: https://www.youtube.com/watch?v=O6qUMTEfuKs
+    Blue Dawn https://fanlink.to/AndrewHuang-BlueDawn
+    Thanks Aleks at Signal Sounds for sending me the Instruo modules to check out! https://www.signalsounds.com/
+    
+    5 Weird Tape Machines: https://www.youtube.com/watch?v=qn9l5Upjlk4
+    
+    Subscribe → http://bit.ly/subAndrewHuang
+    
+    Sign up for my online music production class: http://learnmonthly.com/andrew
+    
+    Learn more about production & music theory with this playlist:  http://bit.ly/AHMusicandProduction
+    
+    Merch!
+    https://teespring.com/stores/andrewismusic
+    
+    Support my work on Patreon and be the first to get all my new music: http://patreon.com/andrewhuang
+    
+    ★ FOLLOW ME HERE ★
+    
+    TikTok https://vm.tiktok.com/weEbNK/
+    Instagram http://instagram.com/andrewismusic
+    Facebook http://facebook.com/andrewismusic
+    Twitter http://twitter.com/andrewhuang
+    
+    ★ LISTEN TO MY MUSIC ★
+    
+    Spotify http://spoti.fi/2pF0qRB
+    iTunes http://apple.co/2psaUmL
+    Google Play http://bit.ly/2qlhAjy
+    Bandcamp http://bit.ly/2oRWCby
+    
+    ★ GEAR ★
+    
+    Disclosure: Most of these are affiliate links - if you buy anything through them (even if it's not the linked item) I'll receive a small percentage, which helps support my channel.
+    
+    Music software (Ableton) https://www.ableton.com/shop/live/?affiliate=TlTs9eL4
+    Keyboard https://bit.ly/2MH4xbN
+    Modular https://www.pntrac.com/t/TUJGR0tHS0JHSUZFSE1CR0hMRUZL
+    Headphones - lots of hype https://amzn.to/2JmTmDK
+    Headphones - super pro omg https://amzn.to/2VOcmjz
+    Small audio interface https://amzn.to/2H7x4mx
+    Big audio interface https://bit.ly/33r0SER
+    Analog preamp/comp https://bit.ly/2RvrYIe
+    OP-1 http://amzn.to/1RI75C4
+    Ableton Push https://www.ableton.com/shop/push/?affiliate=TlTs9eL44
+    How I learned synthesis https://bit.ly/2PROCoT
+    Mic 1 https://bit.ly/3uqMrwH
+    Mic 2 https://bit.ly/3eWuBv1
+    Vlog mic http://amzn.to/2lpjHEq
+    Lav mic https://amzn.to/3ssEZ66
+    Main camera https://amzn.to/3FngomP
+    2nd camera http://amzn.to/2aHkv35
+    
+    I use Distrokid to get my music on streaming platforms - get 7% off your first year here: http://distrokid.com/vip/huang
+    
+    ★ SPECIAL THANKS TO ALL MY TOP PATRONS ★
+    
+    Omar tamez
+    Jeff Hoffman
+    Haley Masters
+    James Dai
+    Cav O'Leary
+    Russ Creech
+    Patrice Breton
+    Curtis Chambers
+    Gnare
+    Corey Frang
+    rd1994
+    Luke Gilliam
+    Kaitlin Sebbage
+    Silas Reaper
+    Kristopher Charles
+    Daniel Coleman
+    Peter Vermeychuk
+    Nick Simmons
+    Tobias Gurdan
+    
+    --
+    
+    If you're new here, my name is Andrew Huang and I'm a musician who works with many genres and many instruments - and I've also made music with many things that aren't instruments like balloons, pants, water, and dentist equipment. For more info visit my website: http://andrewhuang.com
+    
+    You can also stream and download my 40+ albums and EPs at http://andrewhuang.bandcamp.com or check out my other videos at http://youtube.com/andrewhuang
+    
+    Thanks for watching today and a big hug to you if you share this video with someone!''', videoUrl="mmWK4pnlfjE", thumbnailUrl="https://i.ytimg.com/vi/mmWK4pnlfjE/hqdefault.jpg", createdAt="2022-03-27T16:02:15Z")
+    
+    
+    
+    d7c8ab97039596e9477336e894b9c23e = Video(channelId="76", title='''This always makes a HUGE improvement on any song''', description='''Sign up for my online music production class: http://monthly.com/andrew
+    "Interstellar" is on my album Spacetime: https://fanlink.to/AndrewHuangSpacetime
+    Win a Moog Matriarch: https://gleam.io/DUaBv/andrew-huangs-moog-matriarch-giveaway
+    
+    Subscribe → http://bit.ly/subAndrewHuang
+    
+    Learn more about production & music theory with this playlist:  http://bit.ly/AHMusicandProduction
+    
+    Merch!
+    https://teespring.com/stores/andrewismusic
+    
+    Support my work on Patreon and be the first to get all my new music: http://patreon.com/andrewhuang
+    
+    Chapters:
+    0:18 What is ear candy?
+    1:28 Example song
+    2:35 Manipulated vocals
+    3:36 Ad libs
+    3:55 Background instrument fills
+    5:31 Foreground instrument fills
+    7:02 Drum fills
+    7:13 Bass fills
+    7:27 Arpeggios
+    8:06 The reverb trick
+    8:47 Swells & impacts
+    12:13 Risers & fallers
+    12:58 Lyric responses 
+    
+    
+    ★ FOLLOW ME HERE ★
+    
+    TikTok https://vm.tiktok.com/weEbNK/
+    Instagram http://instagram.com/andrewismusic
+    Facebook http://facebook.com/andrewismusic
+    Twitter http://twitter.com/andrewhuang
+    
+    ★ LISTEN TO MY MUSIC ★
+    
+    Spotify http://spoti.fi/2pF0qRB
+    iTunes http://apple.co/2psaUmL
+    Google Play http://bit.ly/2qlhAjy
+    Bandcamp http://bit.ly/2oRWCby
+    
+    ★ GEAR ★
+    
+    Disclosure: Most of these are affiliate links - if you buy anything through them (even if it's not the linked item) I'll receive a small percentage, which helps support my channel.
+    
+    Music software (Ableton) https://www.ableton.com/shop/live/?affiliate=TlTs9eL4
+    Keyboard https://bit.ly/2MH4xbN
+    Modular https://www.pntrac.com/t/TUJGR0tHS0JHSUZFSE1CR0hMRUZL
+    Headphones - lots of hype https://amzn.to/2JmTmDK
+    Headphones - super pro omg https://amzn.to/2VOcmjz
+    Small audio interface https://amzn.to/2H7x4mx
+    Big audio interface https://bit.ly/33r0SER
+    Analog preamp/comp https://bit.ly/2RvrYIe
+    OP-1 http://amzn.to/1RI75C4
+    Ableton Push https://www.ableton.com/shop/push/?affiliate=TlTs9eL44
+    How I learned synthesis https://bit.ly/2PROCoT
+    Mic 1 https://bit.ly/3uqMrwH
+    Mic 2 https://bit.ly/3eWuBv1
+    Vlog mic http://amzn.to/2lpjHEq
+    Lav mic https://amzn.to/3ssEZ66
+    Main camera https://amzn.to/3FngomP
+    2nd camera http://amzn.to/2aHkv35
+    
+    I use Distrokid to get my music on streaming platforms - get 7% off your first year here: http://distrokid.com/vip/huang
+    
+    ★ SPECIAL THANKS TO ALL MY TOP PATRONS ★
+    
+    Omar tamez
+    Jeff Hoffman
+    Haley Masters
+    James Dai
+    Cav O'Leary
+    Russ Creech
+    Patrice Breton
+    Curtis Chambers
+    Gnare
+    Corey Frang
+    rd1994
+    Luke Gilliam
+    Kaitlin Sebbage
+    Silas Reaper
+    Kristopher Charles
+    Daniel Coleman
+    Peter Vermeychuk
+    Nick Simmons
+    Tobias Gurdan
+    
+    --
+    
+    If you're new here, my name is Andrew Huang and I'm a musician who works with many genres and many instruments - and I've also made music with many things that aren't instruments like balloons, pants, water, and dentist equipment. For more info visit my website: http://andrewhuang.com
+    
+    You can also stream and download my 40+ albums and EPs at http://andrewhuang.bandcamp.com or check out my other videos at http://youtube.com/andrewhuang
+    
+    Thanks for watching today and a big hug to you if you share this video with someone!''', videoUrl="q96csLYzPN8", thumbnailUrl="https://i.ytimg.com/vi/q96csLYzPN8/hqdefault.jpg", createdAt="2022-03-24T17:08:13Z")
+    
+    
+    
+    d0bf40f736bed843853fbc1d5b799158 = Video(channelId="76", title='''Why this is a game changer for me (AIAIAI TMA-2 Wireless+)''', description='''Check out the Wireless+ here https://aiaiai.audio/andrewhuang and use the code ANDREWHUANG to get the exclusive sample pack when you buy. Thanks AIAIAI for sponsoring this video!
+    
+    Subscribe → http://bit.ly/subAndrewHuang
+    Sign up for my online music production class: http://learnmonthly.com/andrew
+    Learn more about production & music theory with this playlist:  http://bit.ly/AHMusicandProduction
+    
+    Merch!
+    https://teespring.com/stores/andrewismusic
+    
+    Support my work on Patreon and be the first to get all my new music: http://patreon.com/andrewhuang
+    
+    Chapters:
+    0:00 Intro
+    0:41 Live loop
+    1:24 Benefits of working wirelessly
+    4:03 Modular design
+    5:16 Issues with Bluetooth
+    7:07 Demo of "ultra low latency"
+    8:08 Tips for reducing latency in general
+    11:51 Pros & cons of W+
+    
+    ★ FOLLOW ME HERE ★
+    
+    TikTok https://vm.tiktok.com/weEbNK/
+    Instagram http://instagram.com/andrewismusic
+    Facebook http://facebook.com/andrewismusic
+    Twitter http://twitter.com/andrewhuang
+    
+    ★ LISTEN TO MY MUSIC ★
+    
+    Spotify http://spoti.fi/2pF0qRB
+    iTunes http://apple.co/2psaUmL
+    Google Play http://bit.ly/2qlhAjy
+    Bandcamp http://bit.ly/2oRWCby
+    
+    ★ GEAR ★
+    
+    Disclosure: Most of these are affiliate links - if you buy anything through them (even if it's not the linked item) I'll receive a small percentage, which helps support my channel.
+    
+    Music software (Ableton) https://www.ableton.com/shop/live/?affiliate=TlTs9eL4
+    Keyboard https://bit.ly/2MH4xbN
+    Modular https://www.pntrac.com/t/TUJGR0tHS0JHSUZFSE1CR0hMRUZL
+    Headphones - lots of hype https://amzn.to/2JmTmDK
+    Headphones - super pro omg https://amzn.to/2VOcmjz
+    Small audio interface https://amzn.to/2H7x4mx
+    Big audio interface https://bit.ly/33r0SER
+    Analog preamp/comp https://bit.ly/2RvrYIe
+    OP-1 http://amzn.to/1RI75C4
+    Ableton Push https://www.ableton.com/shop/push/?affiliate=TlTs9eL44
+    How I learned synthesis https://bit.ly/2PROCoT
+    Mic 1 https://bit.ly/3uqMrwH
+    Mic 2 https://bit.ly/3eWuBv1
+    Vlog mic http://amzn.to/2lpjHEq
+    Lav mic https://amzn.to/3ssEZ66
+    Main camera https://amzn.to/3FngomP
+    2nd camera http://amzn.to/2aHkv35
+    
+    I use Distrokid to get my music on streaming platforms - get 7% off your first year here: http://distrokid.com/vip/huang
+    
+    ★ SPECIAL THANKS TO ALL MY TOP PATRONS ★
+    
+    --
+    
+    If you're new here, my name is Andrew Huang and I'm a musician who works with many genres and many instruments - and I've also made music with many things that aren't instruments like balloons, pants, water, and dentist equipment. For more info visit my website: http://andrewhuang.com
+    
+    You can also stream and download my 40+ albums and EPs at http://andrewhuang.bandcamp.com or check out my other videos at http://youtube.com/andrewhuang
+    
+    Thanks for watching today and a big hug to you if you share this video with someone!''', videoUrl="TV-Cn1951j0", thumbnailUrl="https://i.ytimg.com/vi/TV-Cn1951j0/maxresdefault.jpg", createdAt="2022-03-17T16:34:18Z")
+    
+    
+    
+    d16bd27fc5927723688f7082c52df3b3 = Video(channelId="76", title='''Making a beat with baby sounds''', description='''Stream "Blue Dawn" https://fanlink.to/AndrewHuang-BlueDawn
+    Two new sample packs available at http://andrewhuang.com/store or you can get them by joining my Patreon http://patreon.com/andrewhuang
+    Sign up for my online music production class: http://learnmonthly.com/andrew
+    
+    Subscribe → http://bit.ly/subAndrewHuang
+    
+    Learn more about production & music theory with this playlist:  http://bit.ly/AHMusicandProduction
+    
+    Merch!
+    https://teespring.com/stores/andrewismusic
+    
+    ★ FOLLOW ME HERE ★
+    
+    TikTok https://vm.tiktok.com/weEbNK/
+    Instagram http://instagram.com/andrewismusic
+    Facebook http://facebook.com/andrewismusic
+    Twitter http://twitter.com/andrewhuang
+    
+    ★ LISTEN TO MY MUSIC ★
+    
+    Spotify http://spoti.fi/2pF0qRB
+    iTunes http://apple.co/2psaUmL
+    Google Play http://bit.ly/2qlhAjy
+    Bandcamp http://bit.ly/2oRWCby
+    
+    ★ GEAR ★
+    
+    Disclosure: Most of these are affiliate links - if you buy anything through them (even if it's not the linked item) I'll receive a small percentage, which helps support my channel.
+    
+    Music software (Ableton) https://www.ableton.com/shop/live/?affiliate=TlTs9eL4
+    Keyboard https://bit.ly/2MH4xbN
+    Modular https://www.pntrac.com/t/TUJGR0tHS0JHSUZFSE1CR0hMRUZL
+    Headphones - lots of hype https://amzn.to/2JmTmDK
+    Headphones - super pro omg https://amzn.to/2VOcmjz
+    Small audio interface https://amzn.to/2H7x4mx
+    Big audio interface https://bit.ly/33r0SER
+    Analog preamp/comp https://bit.ly/2RvrYIe
+    OP-1 http://amzn.to/1RI75C4
+    Ableton Push https://www.ableton.com/shop/push/?affiliate=TlTs9eL44
+    How I learned synthesis https://bit.ly/2PROCoT
+    Mic 1 https://bit.ly/3uqMrwH
+    Mic 2 https://bit.ly/3eWuBv1
+    Vlog mic http://amzn.to/2lpjHEq
+    Lav mic https://amzn.to/3ssEZ66
+    Main camera https://amzn.to/3FngomP
+    2nd camera http://amzn.to/2aHkv35
+    
+    I use Distrokid to get my music on streaming platforms - get 7% off your first year here: http://distrokid.com/vip/huang
+    
+    ★ SPECIAL THANKS TO ALL MY TOP PATRONS ★
+    
+    Kevin Aldrich
+    Jeff Hoffman
+    Haley Masters
+    James Dai
+    Cav O'Leary
+    Russ Creech
+    Patrice Breton
+    Curtis Chambers
+    Gnare
+    Corey Frang
+    Luke Gilliam
+    Kaitlin Sebbage
+    Silas Reaper
+    Kristopher Charles
+    Daniel Coleman
+    Peter Vermeychuk
+    Nick Simmons
+    Tobias Gurdan
+    
+    --
+    
+    If you're new here, my name is Andrew Huang and I'm a musician who works with many genres and many instruments - and I've also made music with many things that aren't instruments like balloons, pants, water, and dentist equipment. For more info visit my website: http://andrewhuang.com
+    
+    You can also stream and download my 40+ albums and EPs at http://andrewhuang.bandcamp.com or check out my other videos at http://youtube.com/andrewhuang
+    
+    Thanks for watching today and a big hug to you if you share this video with someone!''', videoUrl="iisuveXsQ8M", thumbnailUrl="https://i.ytimg.com/vi/iisuveXsQ8M/maxresdefault.jpg", createdAt="2022-03-10T18:31:13Z")
+    
+    
+    
+    da725a1848cf925be0e2aa87e6870da8 = Video(channelId="76", title='''The 5 best ways to start a song''', description='''Thanks AIAIAI for sponsoring today! Get your TMA-2 Studio Wireless+ headphones at https://aiaiai.audio/andrewhuang and use code ANDREWHUANG to get a free added hardcase with free shipping to most countries. You can also enter to win a pair on my Instagram: https://www.instagram.com/reel/CZzaCVlu5G_/?utm_medium=copy_link
+    
+    Sign up for my online music production class: http://learnmonthly.com/andrew
+    
+    Learn more about production & music theory with this playlist:  http://bit.ly/AHMusicandProduction
+    
+    Merch!
+    https://teespring.com/stores/andrewismusic
+    
+    Support my work on Patreon and be the first to get all my new music: http://patreon.com/andrewhuang
+    
+    Chapters:
+    0:00 Intro
+    0:48 Drums: What comes next?
+    2:03 Chords: Finding progressions
+    2:45 Chords: Randomly generated progressions
+    5:35 Sponsor: Ultra low latency wireless headphones
+    6:53 Melody: Why chords come next
+    7:27 Melody: Inspired by crowd-sourced notes
+    10:05 Sound: Pure experimentation
+    13:05 Lyrics: Difficult but rewarding!
+    14:14 Lyrics: Finding compelling lines
+    15:47 Lyrics: The word ladder technique
+    21:09 Lyrics: The rhythm technique
+    
+    ★ FOLLOW ME HERE ★
+    
+    TikTok https://vm.tiktok.com/weEbNK/
+    Instagram http://instagram.com/andrewismusic
+    Facebook http://facebook.com/andrewismusic
+    Twitter http://twitter.com/andrewhuang
+    
+    ★ LISTEN TO MY MUSIC ★
+    
+    Spotify http://spoti.fi/2pF0qRB
+    iTunes http://apple.co/2psaUmL
+    Google Play http://bit.ly/2qlhAjy
+    Bandcamp http://bit.ly/2oRWCby
+    
+    ★ GEAR ★
+    
+    Disclosure: Most of these are affiliate links - if you buy anything through them (even if it's not the linked item) I'll receive a small percentage, which helps support my channel.
+    
+    Music software (Ableton) https://www.ableton.com/shop/live/?affiliate=TlTs9eL4
+    Keyboard https://bit.ly/2MH4xbN
+    Modular https://www.pntrac.com/t/TUJGR0tHS0JHSUZFSE1CR0hMRUZL
+    Headphones - lots of hype https://amzn.to/2JmTmDK
+    Headphones - super pro omg https://amzn.to/2VOcmjz
+    Small audio interface https://amzn.to/2H7x4mx
+    Big audio interface https://bit.ly/33r0SER
+    Analog preamp/comp https://bit.ly/2RvrYIe
+    OP-1 http://amzn.to/1RI75C4
+    Ableton Push https://www.ableton.com/shop/push/?affiliate=TlTs9eL44
+    How I learned synthesis https://bit.ly/2PROCoT
+    Mic 1 https://bit.ly/3uqMrwH
+    Mic 2 https://bit.ly/3eWuBv1
+    Vlog mic http://amzn.to/2lpjHEq
+    Lav mic https://amzn.to/3ssEZ66
+    Main camera https://amzn.to/3FngomP
+    2nd camera http://amzn.to/2aHkv35
+    
+    I use Distrokid to get my music on streaming platforms - get 7% off your first year here: http://distrokid.com/vip/huang
+    
+    ★ SPECIAL THANKS TO ALL MY TOP PATRONS ★
+    
+    Glenn Owens
+    Haley Masters
+    James Dai
+    Cav O'Leary
+    Russ Creech
+    Patrice Breton
+    Curtis Chambers
+    Gnare
+    Corey Frang
+    Robert de Forest
+    Luke Gilliam
+    Kaitlin Sebbage
+    Edmon Cruz
+    Silas Reaper
+    Kristopher Charles
+    Peter Vermeychuk
+    Nick Simmons
+    Tobias Gurdan
+    
+    --
+    
+    If you're new here, my name is Andrew Huang and I'm a musician who works with many genres and many instruments - and I've also made music with many things that aren't instruments like balloons, pants, water, and dentist equipment. For more info visit my website: http://andrewhuang.com
+    
+    You can also stream and download my 40+ albums and EPs at http://andrewhuang.bandcamp.com or check out my other videos at http://youtube.com/andrewhuang
+    
+    Thanks for watching today and a big hug to you if you share this video with someone!''', videoUrl="m6OgNpTjuBs", thumbnailUrl="https://i.ytimg.com/vi/m6OgNpTjuBs/maxresdefault.jpg", createdAt="2022-02-10T17:05:21Z")
+    
+    
+    
+    d11641af7340261289e26bfaa2b29654 = Video(channelId="76", title='''Making a beat with soap''', description='''Thank you to Dial for sponsoring this video! Had a lot of fun crafting a beat using soap sounds. Check out their new Foaming Hand Wash Concentrated Refills: http://dialsoap.com/ConcentratedRefills
+    #DialPartner
+    
+    Sign up for my online music production class: http://learnmonthly.com/andrew
+    
+    Learn more about production & music theory with this playlist:  http://bit.ly/AHMusicandProduction
+    
+    Merch!
+    https://teespring.com/stores/andrewismusic
+    
+    Support my work on Patreon and be the first to get all my new music: http://patreon.com/andrewhuang
+    
+    ★ FOLLOW ME HERE ★
+    
+    TikTok https://vm.tiktok.com/weEbNK/
+    Instagram http://instagram.com/andrewismusic
+    Facebook http://facebook.com/andrewismusic
+    Twitter http://twitter.com/andrewhuang
+    
+    ★ LISTEN TO MY MUSIC ★
+    
+    Spotify http://spoti.fi/2pF0qRB
+    iTunes http://apple.co/2psaUmL
+    Google Play http://bit.ly/2qlhAjy
+    Bandcamp http://bit.ly/2oRWCby
+    
+    ★ GEAR ★
+    
+    Disclosure: Most of these are affiliate links - if you buy anything through them (even if it's not the linked item) I'll receive a small percentage, which helps support my channel.
+    
+    Music software (Ableton) https://www.ableton.com/shop/live/?affiliate=TlTs9eL4
+    Keyboard https://bit.ly/2MH4xbN
+    Modular https://www.pntrac.com/t/TUJGR0tHS0JHSUZFSE1CR0hMRUZL
+    Headphones - lots of hype https://amzn.to/2JmTmDK
+    Headphones - super pro omg https://amzn.to/2VOcmjz
+    Small audio interface https://amzn.to/2H7x4mx
+    Big audio interface https://bit.ly/33r0SER
+    Analog preamp/comp https://bit.ly/2RvrYIe
+    OP-1 http://amzn.to/1RI75C4
+    Ableton Push https://www.ableton.com/shop/push/?affiliate=TlTs9eL44
+    How I learned synthesis https://bit.ly/2PROCoT
+    Mic 1 https://bit.ly/3uqMrwH
+    Mic 2 https://bit.ly/3eWuBv1
+    Vlog mic http://amzn.to/2lpjHEq
+    Lav mic https://amzn.to/3ssEZ66
+    Main camera https://amzn.to/3FngomP
+    2nd camera http://amzn.to/2aHkv35
+    
+    I use Distrokid to get my music on streaming platforms - get 7% off your first year here: http://distrokid.com/vip/huang
+    
+    ★ SPECIAL THANKS TO ALL MY TOP PATRONS ★
+    
+    Glenn Owens
+    Haley Masters
+    James Dai
+    Cav O'Leary
+    Russ Creech
+    Patrice Breton
+    Curtis Chambers
+    Gnare
+    Corey Frang
+    Robert de Forest
+    Luke Gilliam
+    Kaitlin Sebbage
+    Edmon Cruz
+    Silas Reaper
+    Kristopher Charles
+    Peter Vermeychuk
+    Nick Simmons
+    Tobias Gurdan
+    
+    --
+    
+    If you're new here, my name is Andrew Huang and I'm a musician who works with many genres and many instruments - and I've also made music with many things that aren't instruments like balloons, pants, water, and dentist equipment. For more info visit my website: http://andrewhuang.com
+    
+    You can also stream and download my 40+ albums and EPs at http://andrewhuang.bandcamp.com or check out my other videos at http://youtube.com/andrewhuang
+    
+    Thanks for watching today and a big hug to you if you share this video with someone!''', videoUrl="u9r4cRAQk-g", thumbnailUrl="https://i.ytimg.com/vi/u9r4cRAQk-g/maxresdefault.jpg", createdAt="2022-02-03T17:01:01Z")
+    
+    
+    
+    df7457f35aa96b2e1c4fc4c0268b7fe3 = Video(channelId="76", title='''4 PRODUCERS FLIP THE SAME SAMPLE: Daedelus, Sarah Longfield, WangleLine, Ben Levin''', description='''All the tracks are linked below! 
+    Watch more 4 Producers: https://www.youtube.com/playlist?list=PLW9UYOmoXTQmEQecw3OwifUBEWCrMf625
+    Sign up for my online music production class: http://learnmonthly.com/andrew
+    https://www.youtube.com/playlist?list=PLW9UYOmoXTQmEQecw3OwifUBEWCrMf625
+    
+    Support my work on Patreon and be the first to get all my new music: http://patreon.com/andrewhuang
+    
+    Subscribe → http://bit.ly/subAndrewHuang
+    
+    ★ ARTISTS & TRACKS ★
+    
+    Ben Levin (thanks for the samples!)
+    YouTube https://www.youtube.com/benlevin
+    Instagram https://www.instagram.com/benlevinmusic/?hl=en
+    TikTok https://www.tiktok.com/@benlevinmusic
+    
+    WangleLine
+    Track on Bandcamp https://wangleline.bandcamp.com/track/spell-diver-from-4-producers-flip-the-same-sample
+    Track on Spotify https://open.spotify.com/track/5OcxogykeXcAULztou4WbT?si=7cd321810adf429b&nd=1
+    Longer breakdown video https://www.youtube.com/watch?v=n6HGS-s65gY
+    YouTube https://www.youtube.com/wangleline
+    Twitter https://twitter.com/WangleLine
+    
+    Sarah Longfield
+    Track https://distrokid.com/hyperfollow/sarahlongfield/call-me-out
+    YouTube https://www.youtube.com/c/sarahlongfield
+    Instagram https://www.instagram.com/sarahlongfield/?hl=en
+    
+    Daedelus
+    Track https://daedelusmusic.bandcamp.com/track/no-one-answer
+    Twitter https://twitter.com/daedelus 
+    Instagram https://www.instagram.com/daedelus/
+    YouTube https://www.youtube.com/c/Daedelusdarling
+    SETI AIR https://www.seti.org/air/alfred-darlington-daedelus
+    
+    Andrew Huang
+    Track https://fanlink.to/MedusaByAndrewHuang
+    TikTok https://vm.tiktok.com/weEbNK/
+    Instagram http://instagram.com/andrewismusic
+    Twitter http://twitter.com/andrewhuang
+    
+    ★ LISTEN TO MY MUSIC ★
+    
+    Spotify http://spoti.fi/2pF0qRB
+    iTunes http://apple.co/2psaUmL
+    Google Play http://bit.ly/2qlhAjy
+    Bandcamp http://bit.ly/2oRWCby
+    
+    ★ GEAR ★
+    
+    Disclosure: Most of these are affiliate links - if you buy anything through them (even if it's not the linked item) I'll receive a small percentage, which helps support my channel.
+    
+    Music software (Ableton) https://www.ableton.com/shop/live/?affiliate=TlTs9eL4
+    Keyboard https://bit.ly/2MH4xbN
+    Modular https://www.pntrac.com/t/TUJGR0tHS0JHSUZFSE1CR0hMRUZL
+    Headphones - lots of hype https://amzn.to/2JmTmDK
+    Headphones - super pro omg https://amzn.to/2VOcmjz
+    Small audio interface https://amzn.to/2H7x4mx
+    Big audio interface https://bit.ly/33r0SER
+    Analog preamp/comp https://bit.ly/2RvrYIe
+    OP-1 http://amzn.to/1RI75C4
+    Ableton Push https://www.ableton.com/shop/push/?affiliate=TlTs9eL44
+    How I learned synthesis https://bit.ly/2PROCoT
+    Mic 1 https://bit.ly/3uqMrwH
+    Mic 2 https://bit.ly/3eWuBv1
+    Vlog mic http://amzn.to/2lpjHEq
+    Lav mic https://amzn.to/3ssEZ66
+    Main camera https://amzn.to/3FngomP
+    2nd camera http://amzn.to/2aHkv35
+    
+    I use Distrokid to get my music on streaming platforms - get 7% off your first year here: http://distrokid.com/vip/huang
+    
+    ★ SPECIAL THANKS TO ALL MY TOP PATRONS ★
+    
+    Dario
+    Glenn Owens
+    Bam Bam 123lol
+    Haley Masters
+    James Dai
+    Cav O'Leary
+    Russ Creech
+    Patrice Breton
+    Curtis Chambers
+    Gnare
+    Corey Frang
+    Robert de Forest
+    rd1994
+    Luke Gilliam
+    Kaitlin Sebbage
+    Edmon Cruz
+    Silas Reaper
+    Kristopher Charles
+    Peter Vermeychuk
+    Nick Simmons
+    Tobias Gurdan
+    
+    --
+    
+    If you're new here, my name is Andrew Huang and I'm a musician who works with many genres and many instruments - and I've also made music with many things that aren't instruments like balloons, pants, water, and dentist equipment. For more info visit my website: http://andrewhuang.com
+    
+    You can also stream and download my 40+ albums and EPs at http://andrewhuang.bandcamp.com or check out my other videos at http://youtube.com/andrewhuang
+    
+    Thanks for watching today and a big hug to you if you share this video with someone!''', videoUrl="eTdxFvknbNo", thumbnailUrl="https://i.ytimg.com/vi/eTdxFvknbNo/maxresdefault.jpg", createdAt="2022-01-20T17:01:04Z")
+    
+    
+    
+    d8ea87a41448ddfa2303efe71b8baac2 = Video(channelId="64", title='''Docker Compose Tutorial''', description='''Learn all about Docker Compose so you can orchestrate your services with confidence! 
+    - Get the complete Docker course (zero to hero): https://bit.ly/3sO7Z5H
+    - Subscribe for more Docker tutorials like this: https://goo.gl/6PYaGF
+    
+    ⭐️ Want to learn more from me? Check out these links:
+    
+    Courses: https://codewithmosh.com
+    Twitter: https://twitter.com/moshhamedani
+    Facebook: https://www.facebook.com/programmingwithmosh/
+    Blog: http://programmingwithmosh.com 
+    
+    #Docker #DevOps
+    
+    Docker is the de facto standard for building, shipping and running applications in a consistent manner. That's why most companies use it and are looking for developers with Docker skills. If you're looking for a career in software or DevOps engineering, you must have Docker on your resume. And not only that, you should know it well and be able to use it to effectively package and deploy your applications.''', videoUrl="HG6yIjZapSA", thumbnailUrl="https://i.ytimg.com/vi/HG6yIjZapSA/maxresdefault.jpg", createdAt="2022-03-22T14:00:12Z")
+    
+    
+    
+    d214bec3f0d893468dbdf3601182ee5f = Video(channelId="64", title='''Java Collections Tutorial''', description='''Learn all about Java Collections and write Java code with confidence! 
+    🔥 Want to master Java? Get my complete Java mastery bundle: http://bit.ly/2tKoy8C
+    👍 Subscribe for more Java tutorials like this: https://goo.gl/6PYaGF
+    
+    📕 Get my FREE #Java cheat sheet: http://bit.ly/2JNlQnw
+    
+    ⭐️ Want to learn more from me? Check out these links:
+    
+    Courses: https://codewithmosh.com
+    Twitter: https://twitter.com/moshhamedani
+    Facebook: https://www.facebook.com/programmingwithmosh/
+    Blog: http://programmingwithmosh.com 
+    
+    #Java #Programming''', videoUrl="rH0winlka8A", thumbnailUrl="https://i.ytimg.com/vi/rH0winlka8A/hqdefault.jpg", createdAt="2022-03-01T14:00:18Z")
+    
+    
+    
+    d9107b619978a5d01c338beeb4bdee24 = Video(channelId="64", title='''Java Generics Tutorial''', description='''Learn all about Java Generics and write Java code with confidence! 
+    🔥 Want to master Java? Get my complete Java mastery bundle: http://bit.ly/2tKoy8C
+    👍 Subscribe for more Java tutorials like this: https://goo.gl/6PYaGF
+    
+    📕 Get my FREE #Java cheat sheet: http://bit.ly/2JNlQnw
+    
+    ⭐️ Want to learn more from me? Check out these links:
+    
+    Courses: https://codewithmosh.com
+    Twitter: https://twitter.com/moshhamedani
+    Facebook: https://www.facebook.com/programmingwithmosh/
+    Blog: http://programmingwithmosh.com 
+    
+    #Java #Programming''', videoUrl="7i3Rliqzquw", thumbnailUrl="https://i.ytimg.com/vi/7i3Rliqzquw/maxresdefault.jpg", createdAt="2022-02-22T14:00:07Z")
+    
+    
+    
+    da110bf5d88848331f2b345c5f4cf417 = Video(channelId="64", title='''Java Interfaces Tutorial''', description='''Learn all about Java Interfaces and write Java code with confidence! 
+    🔥 Want to master Java? Get my complete Java mastery bundle: http://bit.ly/2tKoy8C
+    👍 Subscribe for more Java tutorials like this: https://goo.gl/6PYaGF
+    
+    📕 Get my FREE #Java cheat sheet: http://bit.ly/2JNlQnw
+    
+    ⭐️ Want to learn more from me? Check out these links:
+    
+    Courses: https://codewithmosh.com
+    Twitter: https://twitter.com/moshhamedani
+    Facebook: https://www.facebook.com/programmingwithmosh/
+    Blog: http://programmingwithmosh.com 
+    
+    #Java #Programming''', videoUrl="JFuMei9Wwk4", thumbnailUrl="https://i.ytimg.com/vi/JFuMei9Wwk4/maxresdefault.jpg", createdAt="2022-02-15T14:00:06Z")
+    
+    
+    
+    d56ae014494716e18fe0882c5bc5dae3 = Video(channelId="64", title='''Java Exception Handling Tutorial''', description='''Learn all about Java Exception Handling and write Java code with confidence! 
+    🔥 Want to master Java? Get my complete Java mastery bundle: http://bit.ly/2tKoy8C
+    👍 Subscribe for more Java tutorials like this: https://goo.gl/6PYaGF
+    
+    📕 Get my FREE #Java cheat sheet: http://bit.ly/2JNlQnw
+    
+    ⭐️ Want to learn more from me? Check out these links:
+    
+    Courses: https://codewithmosh.com
+    Twitter: https://twitter.com/moshhamedani
+    Facebook: https://www.facebook.com/programmingwithmosh/
+    Blog: http://programmingwithmosh.com 
+    
+    #Java #Programming''', videoUrl="_nmm0nZqIIY", thumbnailUrl="https://i.ytimg.com/vi/_nmm0nZqIIY/maxresdefault.jpg", createdAt="2022-02-08T17:27:53Z")
+    
+    
+    
+    d6a490347e4fee43abb52a0bd5de7fc5 = Video(channelId="64", title='''Mosh's New Year's Gift to You!''', description='''Here's Mosh's gift to you for this new year! Click the link below to redeem your coupon: 
+    
+    https://codewithmosh.com/p/all-access/''', videoUrl="Sf8vefrS5PQ", thumbnailUrl="https://i.ytimg.com/vi/Sf8vefrS5PQ/hqdefault.jpg", createdAt="2022-01-10T16:00:10Z")
+    
+    
+    
+    dd27d947b3083ddd63c14c54efed13ee = Video(channelId="64", title='''Mosh's Xmas Gift (2021)''', description='''Here's Mosh's gift to you for this Christmas! Click the link below to redeem your coupon: 
+    
+    https://codewithmosh.com/p/all-access/''', videoUrl="LxQe4TqDdAU", thumbnailUrl="https://i.ytimg.com/vi/LxQe4TqDdAU/maxresdefault.jpg", createdAt="2021-12-20T23:02:36Z")
+    
+    
+    
+    dcc6a2fc504b552bfbc1e88071b069cc = Video(channelId="64", title='''50% Off Black Friday Sale''', description='''Thanks to Maggie, I'm offering a 50% off Black Friday sale. Click the link below to redeem your coupon: 
+    
+    https://codewithmosh.com/p/all-access/''', videoUrl="KaVlRUvwvNk", thumbnailUrl="https://i.ytimg.com/vi/KaVlRUvwvNk/maxresdefault.jpg", createdAt="2021-11-22T19:09:19Z")
+    
+    
+    
+    d0e3917481d111a515e59e9e0736d444 = Video(channelId="64", title='''Python Django Tutorial for Beginners''', description='''Python Django Tutorial for Beginners - Learn Django for a career in back-end development.  This Django tutorial teaches you everything you need to get started.
+    - Get the complete Django course (zero to hero): https://bit.ly/3E7Iq4d
+    - Subscribe for more Django tutorials like this: https://goo.gl/6PYaGF
+    
+    Other resources:
+    Python Tutorial for Beginners: https://youtu.be/_uQrJ0TkZlc
+    MySQL Tutorial for Beginners: https://youtu.be/7S_tz1z_5bA
+    
+    Want to learn more from me? Check out these links: 
+    - Courses: https://codewithmosh.com
+    - Twitter: https://twitter.com/moshhamedani
+    - Facebook: https://www.facebook.com/programmingwithmosh/
+    - Blog: https://programmingwithmosh.com 
+    
+    TABLE OF CONTENT 
+    0:00:00 – Introduction
+    0:00:58 – Prerequisites
+    0:01:38 – How to Take this Course
+    0:02:40 – Getting Started with Django 
+    0:03:19 – What is Django?
+    0:06:08 – How the Web Works
+    0:10:32 – Setting Up the Development Environment 
+    0:12:33 – Creating Your First Django Project
+    0:18:44 – Using the Integrated Terminal in VSCode 
+    0:22:05 – Creating Your First App
+    0:25:36 – Writing Views
+    0:27:27 – Mapping URLs to Views
+    0:32:10 – Using Templates
+    0:36:19 – Debugging Django Applications in VSCode 
+    0:44:11 – Using Django Debug Toolbar
+    0:48:37 – Building a Data Model 
+    0:49:21 – Introduction to Date Modeling
+    0:52:00 – Building an E-Commerce Data Model 
+    0:56:35 – Organizing Models in Apps
+    
+    #Django #Python 
+    
+    Django is the most popular framework for quickly building production-grade backends with Python. That's why a lot of companies use it and are looking for developers with Django skills. If you know Python and are looking for a career in backend development, you must have Django on your resume.''', videoUrl="rHux0gMZ3Eg", thumbnailUrl="https://i.ytimg.com/vi/rHux0gMZ3Eg/maxresdefault.jpg", createdAt="2021-06-28T14:00:31Z")
+    
+    
+    
+    dec063e10914ec5a009d2bc06a393195 = Video(channelId="64", title='''Docker Tutorial for Beginners''', description='''Docker Tutorial for Beginners - Learn Docker for a career in software or DevOps engineering. This Docker tutorial teaches you everything you need to get started.
+    - Get the complete Docker course (zero to hero): https://bit.ly/3sO7Z5H
+    - Subscribe for more Docker tutorials like this: https://goo.gl/6PYaGF
+    
+    Want to learn more from me? Check out these links: 
+    - Courses: https://codewithmosh.com
+    - Twitter: https://twitter.com/moshhamedani
+    - Facebook: https://www.facebook.com/programmingwithmosh/
+    - Blog: https://programmingwithmosh.com 
+    
+    TABLE OF CONTENT 
+    0:00:00 Introduction
+    0:00:57 Prerequisites
+    0:01:40 How to Take This Course
+    0:02:26 Getting Started with Docker
+    0:03:10 What is Docker?
+    0:06:25 Virtual Machines vs Containers 
+    0:09:39 Docker Architecture
+    0:11:54 Installing Docker
+    0:15:29 Development Workflow
+    0:17:45 Docker in Action
+    0:27:54 The Linux Command Line 
+    0:28:47 Linux Distributions
+    0:29:49 Running Linux
+    0:35:01 Managing Packages
+    0:38:35 Linux File System
+    0:40:33 Navigating the File System
+    0:44:53 Manipulating Files and Directories 
+    0:48:20 Editing and Viewing Files
+    0:52:15 Redirection
+    
+    #Docker #DevOps
+    
+    Docker is the de facto standard for building, shipping and running applications in a consistent manner. That's why most companies use it and are looking for developers with Docker skills. If you're looking for a career in software or DevOps engineering, you must have Docker on your resume. And not only that, you should know it well and be able to use it to effectively package and deploy your applications.''', videoUrl="pTFZFxd4hOI", thumbnailUrl="https://i.ytimg.com/vi/pTFZFxd4hOI/maxresdefault.jpg", createdAt="2021-03-30T15:14:41Z")
+    
+    
+    
+    dc3d65cb0ab6391bb9eb15c03f6a4fd3 = Video(channelId="73", title='''Home Studio Day In The Life | Testing out Audio Interfaces''', description='''Home Studio Day In The Life | Testing out Audio Interfaces
+    
+    ► Check out my TOP favorite gear picks on Sweetwater ✅👉🏾 https://imp.i114863.net/zQGG0
+    
+    ► My Amazon Page ✅ https://www.amazon.com/shop/archiebeatz  
+    
+    💿 DISTROKID DISCOUNT 💿 - http://distrokid.com/vip/archiebeatz
+    
+    🎼 MY STUDIO SETUP & COMPLETE GEAR LIST 🎼
+    My Main Studio Computer - https://imp.i114863.net/QmXox
+    My Main DAW - https://imp.i114863.net/zaRKxr
+    My Midi Controller - https://imp.i114863.net/Ea26E2
+    My Main Studio Audio Interface - https://imp.i114863.net/1qk0x
+    My Travel Audio Interface - https://imp.i114863.net/oEv1E
+    My Main Microphone - https://imp.i114863.net/n0vG9
+    My Studio Monitors - https://imp.i114863.net/VqKqM
+    My Main Mixing & Composing Headphones - https://imp.i114863.net/n1gEMM 
+    My Main Recording Headphones - https://imp.i114863.net/Lb1JL
+    My Main Microphone Stand - https://imp.i114863.net/RvoJ9
+    
+    📲 FOLLOW ME ON SOCIAL MEDIA 📲
+    
+    📷 Instagram - www.instagram.com/archiebeatz
+    🐦 Twitter - www.twitter.com/archiebeatz
+    🕰 Tiktok - archiebeatztv 
+    
+    DISCLOSURE: As a Sweetwater Affiliate & Amazon Influencer I earn from qualifying purchases''', videoUrl="yOn4VfLEg2o", thumbnailUrl="https://i.ytimg.com/vi/yOn4VfLEg2o/hqdefault.jpg", createdAt="2022-04-18T19:12:02Z")
+    
+    
+    
+    d365e3dd22306bc87f751381265a4555 = Video(channelId="73", title='''Best STUDIO HEADPHONES | Neumann NDH 20 Headphones''', description='''Neumann NDH 20 Headphones | Best STUDIO HEADPHONES ✅👉🏾 https://imp.i114863.net/za5B9x
+    
+    ► Check out my TOP favorite gear picks on Sweetwater ✅👉🏾 https://imp.i114863.net/zQGG0
+    
+    ► My Amazon Page ✅ https://www.amazon.com/shop/archiebeatz  
+    
+    💿 DISTROKID DISCOUNT 💿 - http://distrokid.com/vip/archiebeatz
+    
+    🎼 MY STUDIO SETUP & COMPLETE GEAR LIST 🎼
+    My Main Studio Computer - https://imp.i114863.net/QmXox
+    My Main DAW - https://imp.i114863.net/zaRKxr
+    My Midi Controller - https://imp.i114863.net/Ea26E2
+    My Main Studio Audio Interface - https://imp.i114863.net/1qk0x
+    My Travel Audio Interface - https://imp.i114863.net/oEv1E
+    My Main Microphone - https://imp.i114863.net/n0vG9
+    My Studio Monitors - https://imp.i114863.net/VqKqM
+    My Main Mixing & Composing Headphones - https://imp.i114863.net/n1gEMM 
+    My Main Recording Headphones - https://imp.i114863.net/Lb1JL
+    My Main Microphone Stand - https://imp.i114863.net/RvoJ9
+    
+    Best Studio Headphones
+    Home Studio Headphones
+    Neumann Headphones
+    Neumann NDH 20
+    Best Headphones for mixing
+    Best headphones for recording vocals
+    
+    📲 FOLLOW ME ON SOCIAL MEDIA 📲
+    
+    📷 Instagram - www.instagram.com/archiebeatz
+    🐦 Twitter - www.twitter.com/archiebeatz
+    🕰 Tiktok - archiebeatztv 
+    
+    DISCLOSURE: As a Sweetwater Affiliate & Amazon Influencer I earn from qualifying purchases
+    
+    #NeumannNDH20 #BestStudioHeadphones #Headphones''', videoUrl="AL-5qu3pJoA", thumbnailUrl="https://i.ytimg.com/vi/AL-5qu3pJoA/maxresdefault.jpg", createdAt="2022-04-12T17:11:47Z")
+    
+    
+    
+    d6dc4468e07baa5a2c12fe7ba38801ee = Video(channelId="73", title='''ADAM Audio SP-5 Mixing Headphones | BEST Studio Headphones''', description='''The ADAM Audio SP-5 are outstanding. They sound great and keep the noise out. Check out the ADAM Audio SP-5 here ✅👉🏾 https://imp.i114863.net/5bD1LD
+    
+    ► Check out my TOP favorite gear picks on Sweetwater ✅👉🏾 https://imp.i114863.net/zQGG0
+    
+    ► My Amazon Page ✅ https://www.amazon.com/shop/archiebeatz  
+    
+    💿 DISTROKID DISCOUNT 💿 - http://distrokid.com/vip/archiebeatz
+    
+    🎼 MY STUDIO SETUP & COMPLETE GEAR LIST 🎼
+    My Main Studio Computer - https://imp.i114863.net/QmXox
+    My Main DAW - https://imp.i114863.net/zaRKxr
+    My Midi Controller - https://imp.i114863.net/Ea26E2
+    My Main Studio Audio Interface - https://imp.i114863.net/1qk0x
+    My Travel Audio Interface - https://imp.i114863.net/oEv1E
+    My Main Microphone - https://imp.i114863.net/n0vG9
+    My Studio Monitors - https://imp.i114863.net/VqKqM
+    My Main Mixing & Composing Headphones - https://imp.i114863.net/n1gEMM 
+    My Main Recording Headphones - https://imp.i114863.net/Lb1JL
+    My Main Microphone Stand - https://imp.i114863.net/RvoJ9
+    
+    📲 FOLLOW ME ON SOCIAL MEDIA 📲
+    
+    📷 Instagram - www.instagram.com/archiebeatz
+    🐦 Twitter - www.twitter.com/archiebeatz
+    🕰 Tiktok - archiebeatztv 
+    
+    ADAM Audio
+    ADAM Audio SP-5 Headphones
+    Best Studio Headphones
+    Best Mixing Headphones
+    Best Mastering Headphones
+    Studio Headphones
+    Home Studio Headphones
+    ADAM Audio A7x
+    Headphones for mixing
+    Headphones for recording
+    Best Recording Headphones
+    Best Headphones for Mastering
+    Mastering Headphones
+    Adam Audio Studio Pro Sp-5
+    adam audio sp5
+    
+    
+    
+    DISCLOSURE: As a Sweetwater Affiliate & Amazon Influencer I earn from qualifying purchases
+    
+    #BestStudioHeadphones #ADAMAudioSP5 #HomeStudio''', videoUrl="21ya52qd0Nk", thumbnailUrl="https://i.ytimg.com/vi/21ya52qd0Nk/maxresdefault.jpg", createdAt="2022-04-10T19:54:40Z")
+    
+    
+    
+    d5efa2aa0d3bb0c4328fb49f480950ce = Video(channelId="73", title='''New Universal Audio Apollo 😳 #universalaudio #ApolloX4''', description='''''', videoUrl="pln53KXE32I", thumbnailUrl="https://i.ytimg.com/vi/pln53KXE32I/maxresdefault.jpg", createdAt="2022-04-04T02:15:04Z")
+    
+    
+    
+    d4a28222db736f91b3524e6bd4657189 = Video(channelId="73", title='''Universal Audio Spark | UADx Plugins EXPLAINED''', description='''Universal Audio Spark | UADx Plugins EXPLAINED ► https://www.uaudio.com/spark 
+    
+    ► Check out my TOP favorite gear picks on Sweetwater ✅👉🏾 https://imp.i114863.net/zQGG0
+    
+    ► My Amazon Page ✅ https://www.amazon.com/shop/archiebeatz  
+    
+    💿 DISTROKID DISCOUNT 💿 - http://distrokid.com/vip/archiebeatz
+    
+    🎼 MY STUDIO SETUP & COMPLETE GEAR LIST 🎼
+    My Main Studio Computer - https://imp.i114863.net/QmXox
+    My Main DAW - https://imp.i114863.net/zaRKxr
+    My Midi Controller - https://imp.i114863.net/Ea26E2
+    My Main Studio Audio Interface - https://imp.i114863.net/1qk0x
+    My Travel Audio Interface - https://imp.i114863.net/oEv1E
+    My Main Microphone - https://imp.i114863.net/n0vG9
+    My Studio Monitors - https://imp.i114863.net/VqKqM
+    My Main Mixing & Composing Headphones - https://imp.i114863.net/n1gEMM 
+    My Main Recording Headphones - https://imp.i114863.net/Lb1JL
+    My Main Microphone Stand - https://imp.i114863.net/RvoJ9
+    
+    📲 FOLLOW ME ON SOCIAL MEDIA 📲
+    
+    📷 Instagram - www.instagram.com/archiebeatz
+    🐦 Twitter - www.twitter.com/archiebeatz
+    🕰 Tiktok - archiebeatztv 
+    
+    Universal Audio Plugin
+    Universal Audio
+    Universal Audio Plugin Subscription
+    UADx
+    UADx Plugin
+    Universal Audio Spark
+    Spark Plugin
+    UADx Moog
+    Moog Plugin
+    Free Plugins
+    Music Production
+    Native Plugin
+    
+    
+    DISCLOSURE: As a Sweetwater Affiliate & Amazon Influencer I earn from qualifying purchases
+    
+    #UniversalAudioSpark #UADx #UADSubscription''', videoUrl="1bKRJyWPPbU", thumbnailUrl="https://i.ytimg.com/vi/1bKRJyWPPbU/maxresdefault.jpg", createdAt="2022-04-02T21:58:57Z")
+    
+    
+    
+    d0a1c880e8eb4f695412bd2f6bad622d = Video(channelId="73", title='''BEST MICROPHONE FOR VOCALS (2022) | Neumann TLM 102''', description='''Check out the Neumann TLM 102 ✅👉🏾  https://imp.i114863.net/DVMxyq
+    
+    
+    ► Check out my TOP favorite gear picks on Sweetwater ✅👉🏾 https://imp.i114863.net/zQGG0
+    
+    ► My Amazon Page ✅ https://www.amazon.com/shop/archiebeatz  
+    
+    💿 DISTROKID DISCOUNT 💿 - http://distrokid.com/vip/archiebeatz
+    
+    🎼 MY STUDIO SETUP & COMPLETE GEAR LIST 🎼
+    My Main Studio Computer - https://imp.i114863.net/QmXox
+    My Main DAW - https://imp.i114863.net/zaRKxr
+    My Midi Controller - https://imp.i114863.net/Ea26E2
+    My Main Studio Audio Interface - https://imp.i114863.net/1qk0x
+    My Travel Audio Interface - https://imp.i114863.net/oEv1E
+    My Main Microphone - https://imp.i114863.net/n0vG9
+    My Studio Monitors - https://imp.i114863.net/VqKqM
+    My Main Mixing & Composing Headphones - https://imp.i114863.net/n1gEMM 
+    My Main Recording Headphones - https://imp.i114863.net/Lb1JL
+    My Main Microphone Stand - https://imp.i114863.net/RvoJ9
+    
+    📲 FOLLOW ME ON SOCIAL MEDIA 📲
+    
+    📷 Instagram - www.instagram.com/archiebeatz
+    🐦 Twitter - www.twitter.com/archiebeatz
+    🕰 Tiktok - archiebeatztv 
+    
+    DISCLOSURE: As a Sweetwater Affiliate & Amazon Influencer I earn from qualifying purchases
+    
+    Best Microphone for Vocals
+    Best Vocal Microphones
+    Vocal Microphones
+    Microphones
+    Ultimate Home Studio
+    Epic Home Studio
+    How To Record Vocals
+    Neumann Microphones
+    Best Neumann Microphones
+    Recording Studio
+    Home Studio
+    Gear Review
+    Recording Tech
+    Technology
+    Affordable
+    Producing Music
+    
+    
+    
+    #BestMicrophoneForVocals #NeumannTLM102 #MusicProduction''', videoUrl="nGbrTuxc6F8", thumbnailUrl="https://i.ytimg.com/vi/nGbrTuxc6F8/maxresdefault.jpg", createdAt="2022-04-01T21:24:28Z")
+    
+    
+    
+    d176bf71b3fd0df818b4f2a977e744cb = Video(channelId="73", title='''BEST VOCAL MICROPHONES | Lauten Audio LA320 and LA220''', description='''BEST VOCAL MICROPHONES | Lauten Audio LA320 and LA220
+    
+    ► Check out my TOP favorite gear picks on Sweetwater ✅👉🏾 https://imp.i114863.net/zQGG0
+    
+    ► My Amazon Page ✅ https://www.amazon.com/shop/archiebeatz  
+    
+    💿 DISTROKID DISCOUNT 💿 - http://distrokid.com/vip/archiebeatz
+    
+    🎼 MY STUDIO SETUP & COMPLETE GEAR LIST 🎼
+    My Main Studio Computer - https://imp.i114863.net/QmXox
+    My Main DAW - https://imp.i114863.net/zaRKxr
+    My Midi Controller - https://imp.i114863.net/Ea26E2
+    My Main Studio Audio Interface - https://imp.i114863.net/1qk0x
+    My Travel Audio Interface - https://imp.i114863.net/oEv1E
+    My Main Microphone - https://imp.i114863.net/n0vG9
+    My Studio Monitors - https://imp.i114863.net/VqKqM
+    My Main Mixing & Composing Headphones - https://imp.i114863.net/n1gEMM 
+    My Main Recording Headphones - https://imp.i114863.net/Lb1JL
+    My Main Microphone Stand - https://imp.i114863.net/RvoJ9
+    
+    📲 FOLLOW ME ON SOCIAL MEDIA 📲
+    
+    📷 Instagram - www.instagram.com/archiebeatz
+    🐦 Twitter - www.twitter.com/archiebeatz
+    🕰 Tiktok - archiebeatztv 
+    
+    DISCLOSURE: As a Sweetwater Affiliate & Amazon Influencer I earn from qualifying purchases
+    
+    Lauten Audio
+    Best Vocal Microphones
+    Best Microphones
+    Best Home Studio Microphones
+    Lauten Audio LA-320
+    Lauten Audio LA-220
+    
+    
+    #BestVocalMicrophones #Microphones #LautenAudio''', videoUrl="zM0V_2Eiffs", thumbnailUrl="https://i.ytimg.com/vi/zM0V_2Eiffs/maxresdefault.jpg", createdAt="2022-03-30T00:41:31Z")
+    
+    
+    
+    d5ebd9ab9ecca1e54fab1e837e64bb91 = Video(channelId="73", title='''BEST VOCAL MICROPHONES | Presonus Revelator Dynamic Microphone''', description='''Presonus Revelator Dynamic Microphone ✅👉🏾 https://imp.i114863.net/LPrq1o
+    
+    ► Check out my TOP favorite gear picks on Sweetwater ✅👉🏾 https://imp.i114863.net/zQGG0
+    
+    ► My Amazon Page ✅👉🏾 https://www.amazon.com/shop/archiebeatz  
+    
+    💿 DISTROKID DISCOUNT 💿 - http://distrokid.com/vip/archiebeatz
+    
+    🎼 MY STUDIO SETUP & COMPLETE GEAR LIST 🎼
+    My Main Studio Computer - https://imp.i114863.net/QmXox
+    My Main DAW - https://imp.i114863.net/zaRKxr
+    My Midi Controller - https://imp.i114863.net/Ea26E2
+    My Main Studio Audio Interface - https://imp.i114863.net/1qk0x
+    My Travel Audio Interface - https://imp.i114863.net/oEv1E
+    My Main Microphone - https://imp.i114863.net/n0vG9
+    My Studio Monitors - https://imp.i114863.net/VqKqM
+    My Main Mixing & Composing Headphones - https://imp.i114863.net/n1gEMM 
+    My Main Recording Headphones - https://imp.i114863.net/Lb1JL
+    My Main Microphone Stand - https://imp.i114863.net/RvoJ9
+    
+    Presonus Revelator Dynamic
+    Studio One
+    Presonus Revelator
+    Best Vocal Microphones
+    Best Podcast Microphones
+    Starting a Podcast Easy
+    
+    📲 FOLLOW ME ON SOCIAL MEDIA 📲
+    
+    📷 Instagram - www.instagram.com/archiebeatz
+    🐦 Twitter - www.twitter.com/archiebeatz
+    🕰 Tiktok - archiebeatztv 
+    
+    DISCLOSURE: As a Sweetwater Affiliate & Amazon Influencer I earn from qualifying purchases
+    
+    #BestVocalMicrophone #PresonusRevelatorDynamic #Microphones''', videoUrl="_3XAXN9oneY", thumbnailUrl="https://i.ytimg.com/vi/_3XAXN9oneY/maxresdefault.jpg", createdAt="2022-03-01T20:50:42Z")
+    
+    
+    
+    d8f95981215c69f62407a3511a5da030 = Video(channelId="73", title='''BEST VOCAL MICROPHONES | Lauten Audio Atlantis FC-387''', description='''Lauten Audio Atlantis FC-387 ✅👉🏾 https://imp.i114863.net/DXOvj
+    
+    ► Check out my TOP favorite gear picks on Sweetwater ✅👉🏾 https://imp.i114863.net/zQGG0
+    
+    ► My Amazon Page ✅ https://www.amazon.com/shop/archiebeatz  
+    
+    💿 DISTROKID DISCOUNT 💿 - http://distrokid.com/vip/archiebeatz
+    
+    🎼 MY STUDIO SETUP & COMPLETE GEAR LIST 🎼
+    My Main Studio Computer - https://imp.i114863.net/QmXox
+    My Main DAW - https://imp.i114863.net/zaRKxr
+    My Midi Controller - https://imp.i114863.net/Ea26E2
+    My Main Studio Audio Interface - https://imp.i114863.net/1qk0x
+    My Travel Audio Interface - https://imp.i114863.net/oEv1E
+    My Main Microphone - https://imp.i114863.net/n0vG9
+    My Studio Monitors - https://imp.i114863.net/VqKqM
+    My Main Mixing & Composing Headphones - https://imp.i114863.net/n1gEMM 
+    My Main Recording Headphones - https://imp.i114863.net/Lb1JL
+    My Main Microphone Stand - https://imp.i114863.net/RvoJ9
+    
+    Lauten Audio Atlantis FC-387
+    Best Vocal Microphones
+    Best Microphones for Vocals
+    Lauten Audio
+    Microphones
+    Vocal Microphones
+    
+    
+    📲 FOLLOW ME ON SOCIAL MEDIA 📲
+    
+    📷 Instagram - www.instagram.com/archiebeatz
+    🐦 Twitter - www.twitter.com/archiebeatz
+    🕰 Tiktok - archiebeatztv 
+    
+    DISCLOSURE: As a Sweetwater Affiliate & Amazon Influencer I earn from qualifying purchases.
+    
+    #BestVocalMicrophones #Microphones #LautenAudioAtlantisFC387''', videoUrl="Dbu1FQrD2Fk", thumbnailUrl="https://i.ytimg.com/vi/Dbu1FQrD2Fk/hqdefault.jpg", createdAt="2022-02-28T22:58:18Z")
+    
+    
+    
+    d03f8c88e91a187dea19db375ab2c30d = Video(channelId="73", title='''BEST VOCAL MICROPHONES | Universal Audio SD-1 Standard Dynamic Microphone''', description='''The Universal Audio SD-1 Standard Dynamic Microphone ✅👉🏾 https://imp.i114863.net/RyaNQ7
+    
+    ► Check out my TOP favorite gear picks on Sweetwater ✅👉🏾 https://imp.i114863.net/zQGG0
+    
+    ► My Amazon Page ✅ https://www.amazon.com/shop/archiebeatz  
+    
+    💿 DISTROKID DISCOUNT 💿 - http://distrokid.com/vip/archiebeatz
+    
+    🎼 MY STUDIO SETUP & COMPLETE GEAR LIST 🎼
+    My Main Studio Computer - https://imp.i114863.net/QmXox
+    My Main DAW - https://imp.i114863.net/zaRKxr
+    My Midi Controller - https://imp.i114863.net/Ea26E2
+    My Main Studio Audio Interface - https://imp.i114863.net/1qk0x
+    My Travel Audio Interface - https://imp.i114863.net/oEv1E
+    My Main Microphone - https://imp.i114863.net/n0vG9
+    My Studio Monitors - https://imp.i114863.net/VqKqM
+    My Main Mixing & Composing Headphones - https://imp.i114863.net/n1gEMM 
+    My Main Recording Headphones - https://imp.i114863.net/Lb1JL
+    My Main Microphone Stand - https://imp.i114863.net/RvoJ9
+    
+    Best Microphone for vocals
+    Universal Audio SD-1 Standard Dynamic Microphone
+    Microphone for Podcast
+    Best Microphones For Podcast
+    Best Microphone for Recording
+    
+    📲 FOLLOW ME ON SOCIAL MEDIA 📲
+    
+    📷 Instagram - www.instagram.com/archiebeatz
+    🐦 Twitter - www.twitter.com/archiebeatz
+    🕰 Tiktok - archiebeatztv 
+    
+    DISCLOSURE: As a Sweetwater Affiliate & Amazon Influencer I earn from qualifying purchases
+    
+    #BestVocalMicrophones #Microphones #UniversalAudioSD1''', videoUrl="Dtog7zsT8nw", thumbnailUrl="https://i.ytimg.com/vi/Dtog7zsT8nw/maxresdefault.jpg", createdAt="2022-02-28T02:23:28Z")
+    
+    
+    
+    dda65402490152c4147aad2e7757159e = Video(channelId="70", title='''Software Engineer Desk Setup & Youtube Studio Tour 2022''', description='''This is a tour of my programming desk setup and home office / man cave. It's a place where I can work hard and get in touch with my creativity. It provides a place for me to chill when I'm not coding and has everything I need to make youtube videos, while keeping an efficient workflow.
+    
+    If I was starting over as a software developer, this is what I would focus on: https://youtu.be/glgmavKWg3Y''', videoUrl="jwrouqNIJsU", thumbnailUrl="https://i.ytimg.com/vi/jwrouqNIJsU/hqdefault.jpg", createdAt="2022-04-19T11:15:02Z")
+    
+    
+    
+    d0b8b464a1efa3e96c20049619227bbd = Video(channelId="70", title='''Frontend Developer Roadmap 2022 (8 Steps)''', description='''Frontend Developer Roadmap 2022. This is everything you need to know if you want to get a good paying job as a new front-end software developer. This is the list I wish someone had shared with me when I first started and these are the same core skills I use on a day to day basis working as a senior front-end software engineer.
+    
+    Why you shouldn't become a fullstack developer: https://youtu.be/--fZ_5qspEU
+    My job salary history as a front-end software engineer: https://youtu.be/QILxmJpH6wM
+    
+    0:00 Frontend Developer Roadmap 2022
+    1:28 Step 2
+    6:38 Steps 3 & 4
+    11:30 Steps 5 & 6
+    13:50 Steps 7 & 8''', videoUrl="vewTtKgLfQs", thumbnailUrl="https://i.ytimg.com/vi/vewTtKgLfQs/hqdefault.jpg", createdAt="2022-04-15T11:15:05Z")
+    
+    
+    
+    d1bb719c78cad29b9f463a9afaa23176 = Video(channelId="70", title='''4 Reasons NOT to become a Full Stack Developer''', description='''Isn't full stack development better than frontend or backend? Nope. Not if you're a beginner trying to learn to code and get your first software developer job. It may seem backwards since many job listings ask for fullstack experience and lots of coding bootcamps teach fullstack courses. But there's a huge downside to this. In fact, trying to learn full stack development could actually hurt your ability to get hired as a new programmer and here's why...
+    
+    Let’s have a candid chat about becoming a full-stack developer, because it’s something I get asked about all the time, which suggests a lot of folks don’t really know what it means and what’s involved. It doesn’t help that a lot of job openings ask for full stack experience and a lot of coding bootcamps are selling full-stack programs.
+    
+    Is that what you’re also coming across in software developer job postings?
+    
+    Let’s start with clearing up the misunderstandings around front-end, back-end and full-stack development and then get into why you shouldn’t try to become a full-stack developer as someone who is trying to get into the industry.
+    
+    So what exactly is front-end development?
+    What is back-end development?
+    Or should you become a full stack developer? Let's chat.''', videoUrl="--fZ_5qspEU", thumbnailUrl="https://i.ytimg.com/vi/--fZ_5qspEU/hqdefault.jpg", createdAt="2022-04-07T11:15:00Z")
+    
+    
+    
+    d02a55d3fe2a02e5d76051ccf9c79aac = Video(channelId="70", title='''How to stay motivated learning javascript? Coding failures? Q & A''', description='''Responding to your questions and assumptions about me and software development. 10,000 Subscriber Q&A. Thank you for being part of the community!
+    
+    0:00 Remote software development from Mexico?
+    1:11 How to handle comparison to other devs, friends, influencers?
+    1:59 Where do I work?
+    2:26 My worst construction experience?
+    4:01 How to stay motivated learning javascript?
+    4:57 Is making videos easy or hard for me?
+    5:51 What are my favorite software failures?
+    7:17 What is your favorite part of software development?
+    7:41 Am I good at programming?
+    9:52 First Giveaway
+    10:58 How to be productive learning to code?
+    12:13 How many hours each day did I spend learning to code?
+    13:10 What to do when you feel demotivated and bored while learning to code?
+    14:05 What was the moment I decided to pursue web development instead of construction?
+    16:21 What are my hobbies and favorite music?
+    17:52 Do I still study software development?
+    19:20 Comment and final giveaway
+    
+    
+    Wallet: https://ellusionist.com/products/pyro-wallet?_pos=1&_sid=294be2376&_ss=r''', videoUrl="5b3JH-MBfGc", thumbnailUrl="https://i.ytimg.com/vi/5b3JH-MBfGc/maxresdefault.jpg", createdAt="2022-03-28T11:15:00Z")
+    
+    
+    
+    d66f86b5dee47ff917fd2d185ed58d2e = Video(channelId="70", title='''How to PASS INTERVIEWS and Actually Get a Job as a new software developer''', description='''Important things every new software developer should be doing during job interviews. No matter what happens, just remember that getting rejected might not be your fault. There are plenty of bad interviewers out there. Try not to take a rejection personal. 
+    
+    WATCH NEXT:
+    
+    What I would do starting over: https://youtu.be/glgmavKWg3Y
+    
+    My dev job salary history: https://youtu.be/QILxmJpH6wM
+    
+    0:00 Software dev interview tips 1 & 2
+    2:06 Software dev interview tips 3 & 4
+    3:11 Software dev interview tips 5 & 6
+    6:14 Software dev interview tips 7 & 8
+    10:45 Software dev interview tips 9, 10, 11
+    
+    How self-taught software developers get job offers:
+    
+    Did you spend too much time on leetcode instead of building a portfolio. This is kind of a tricky one to balance. Spending a lot of time on leetcode can definitely help you develop problem solving skills that can help with technical interview questions. But this doesn’t mean you can build applications.
+    
+    What we do day to day is build applications and for me personally, I would much rather hire someone who can demonstrate that they can build apps over someone who has memorized solutions to tons of leetcode questions. But admittedly, software development interviews are kinda messed up in a lot of ways. A lot of what you encounter comes down to the people doing the interview. Even teams at the same company will often do things differently.
+    
+    For example, is the interviewer more into discussing everyday situations and code problems, or have they bought into the cracking the code interview book paradigm?
+    
+    I think the low level algorithm approach is often flawed because most of us don’t have to regularly do some of this.
+    
+    The programming languages we use often have builtin utilities to do this stuff or we use libraries or in the situations we do have to come up with an algorithm, we usually have plenty of time to think through it, whiteboard it, plan and code it without the pressure of some stranger looking over our shoulder to see if we would do it like he would in a short amount of time when he has probably had lots of interviews to refine and think about the problem.
+    
+    That said, this is one of the competitive advantages of leetcode experts and recent college grads who memorized some of this stuff for quizzes. But even CS grads usually forget a lot of this stuff and have to brush up when they know that they will be doing a tech interview at a company that asks these kinds of questions.
+    
+    I know plenty of senior software engineers who’ve been rejected for a job because they stumbled on an algorithm problem they haven’t thought about in twenty years. But sooner or later you’re going to end up in these kind of interviews. You’ll win some and lose some so don’t take it personal.
+    
+    I’ve received lots of job offers and I’ve lost some because I didn’t quickly solve a set of algorithm questions that had nothing to do with anything I’ve ever worked on.
+    
+    To make things more confusing, there are a bunch of ways to do algorithm tests. You might have to write it out on a white board. This can suck because you run out of space. I mean,  outside of interviews I rarely write code syntax on white boards. Most of the time I use a white board to map out concepts and relationships not write actual code.''', videoUrl="CJ_YTVRAHe0", thumbnailUrl="https://i.ytimg.com/vi/CJ_YTVRAHe0/maxresdefault.jpg", createdAt="2022-03-22T11:15:00Z")
+    
+    
+    
+    d2a395def4bb35c9950b9db8f7856be3 = Video(channelId="70", title='''Life as a Software Engineer (what they don't tell you)''', description='''What it's ACTUALLY like to be a software developer after getting your first job. A day in the life of a software engineer is not as rosy as people make it sound. This is what you are actually signing up for.
+    
+    WATCH NEXT:
+    
+    What I would do starting over: https://youtu.be/glgmavKWg3Y
+    
+    My dev job salary history: https://youtu.be/QILxmJpH6wM
+    
+    CONTINUED...
+    
+    Well, you can imagine the sigh of relief and excitement I felt when I received that job offer. Especially, after going through the painfully challenging coding interview. Wahoo, I was going to be a software engineer. Hard part’s over right? Well, sort of.
+    
+    Sometimes I think we get so focused on learning to code and getting that first developer job, that we gloss over what we’re actually signing up for. You see, as hard as that first step is, the harsh reality is that while some things will get easier you’ll also have other mountains to climb.
+    
+    There’s kinda three ways around this next mountain. The first is working for a smaller company that isn’t really tech focused. You may very well be on your own, trying to figure things out with little guidance and high demands from a manager who swears you should be writing your front-end code in Lisp.
+    
+    Or you could end up at a website mill, cranking out smaller but flawless marketing sites or apps for other businesses. You’ll probably face a lot of pressure to deliver fast, pixel perfect web pages and you’ll get really good at css and animations. But your JavaScript skills might be somewhat limited depending on the repetitive work you’re doing.
+    
+    A third path is through the enterprise application world. You show up for your first day on the job only to find out you’re working on a JavaScript framework you’ve never heard of. The application is huge and complex. So many different coding styles, you don’t know where to start. 
+    
+    But that’s only the start of your pain. There are so many different pieces to the system from data collection, to processing, to retrieving that data with a hundred steps in between. You’re surrounded by computer science grads who speak a foreign language and drop acronym after acronym.
+    
+    Setting up your dev environment is a beast. The docs are outdated and no one remembers exactly how they got it working, so you’re own your own. Deploying code is a pain with a bunch more tools you’ve never heard of. Maybe one day, you’ll stop feeling like a fraud and an idiot.
+    
+    It’s been a year or two and you have a choice to make. You’re feeling comfortable with your work so you could stay and coast awhile. Take the slower path to career growth or you jump ship. Preferably into a job that will challenge you and up your skills. Allowing you to solve harder problems.
+    
+    A new set of tools, different tech stack, they’re doing everything differently. You realize that you were underpaid at your last job, but now feel like a fraud for making so much more at this company. How long till they realize it and fire you. You shouldn’t be feeling imposter syndrome anymore. But you do.
+    
+    You started at the bottom, then became a big fish in a medium sized pond and now you’re a little fish lost in a sea of brilliant software engineers all working on really complicated stuff at one of the bigger tech companies.
+    
+    Doesn’t matter you can’t go back. The reward for years of effort is a pair of golden handcuffs. Even if you wanted to, the past is not an option. Lifestyle creep has you stuck. And besides, why work the same hours for less pay.
+    
+    You realize that the whole self-taught devs versus computer science grads comparison doesn’t matter because every successful software engineer is self-taught. It never goes away.
+    
+    Maybe it’s time? It’s either go into management or become THAT guy. Out of place. Alone. You feel like a different kind of imposter. You’re now wearing glasses because you don’t C#. You’re still handcuffed. A cog in a giant machine that never rests. Always hungry for more code.''', videoUrl="DRTo6xKKrcA", thumbnailUrl="https://i.ytimg.com/vi/DRTo6xKKrcA/maxresdefault.jpg", createdAt="2022-03-16T11:15:00Z")
+    
+    
+    
+    db6d0bd11b56e607a0c734ccdd00996c = Video(channelId="70", title='''Is It Safe To Use Github Copilot?''', description='''Easy Peasy. Who needs programmers anyways? So how does Github Copilot work? Well, you drop a comment describing what you want to have happen and offers you suggestions based on the billions of lines of public code use to train this AI.
+    
+    Copilot is more than just another autocomplete plugin. GitHub Copilot is OpenAI’s system called Codex. It’s a way to use AI to generate code snippets, tests and other boilerplate.
+    
+    It claims the code is uniquely generated. Except for about .1 percent of the time when the snippet is verbatim.Now that might seem like a low risk, but let’s be real here. Depending on where that .1% comes from, you could be talking multi-million dollar lawsuits. Some lawyer shows up at you desk asking why you stole code from a competitor.
+    
+    How artificial intelligence is destroying job interviews: https://youtu.be/Pi3_wMuaMbc
+    
+    0:00 What is Github Copilot? And how it works?
+    1:20 How companies protect their code
+    4:10 Dangers of using Copilot suggestions in your project''', videoUrl="CHvIOgSFp9I", thumbnailUrl="https://i.ytimg.com/vi/CHvIOgSFp9I/maxresdefault.jpg", createdAt="2022-03-09T11:15:00Z")
+    
+    
+    
+    d5947daf03aadb531cdff7e8525900ae = Video(channelId="70", title='''How I Use iPad Pro for coding & web development''', description='''Before you go and buy an iPad for software development, you should definitely watch this video. Awhile back I bought an iPad Pro and in this video, I’ll share how I use it on a day to day basis as a front-end software developer. I also get asked if you should get an iPad instead of a laptop as a computer science student or if you are just trying to learn to code? all the time. So, I let’s chat about that too.
+    
+    How to code on iPad: https://youtu.be/6ztrqEKUMcE
+    Why you shouldn't code on iPad: https://youtu.be/r8iB9CNirDU''', videoUrl="6NOP-8QzHnY", thumbnailUrl="https://i.ytimg.com/vi/6NOP-8QzHnY/maxresdefault.jpg", createdAt="2022-03-02T12:15:00Z")
+    
+    
+    
+    d7c6c4dd3209245a715b8bcb404a39df = Video(channelId="70", title='''Learn Web Development and Actually Get a Job''', description='''How is it possible for an average construction worker to learn to code, to get that super hard first programming job and then get hired by a large tech company, making hundreds of thousands of dollars in total compensation each year?
+    
+    Nine years ago, I was totally that construction worker because I couldn’t get another job with my near worthless history degree. So I ended up freezing my butt off in the cold each winter doing physical labor for mediocre pay and no benefits. 
+    
+    I’m now a full-time senior front-end software engineer at Adobe. And I’m self-taught working in a nice cozy office.
+    
+    So let’s talk about how to become a web developer quickly in 2022 as an absolute begineer.
+    
+    0:00 Why most self-taught devs fail.
+    2:18 Why you should choose to become a front-end web developer instead of back-end
+    4:52 The web development technologies you should learn
+    6:14 The right way to learn to code
+    7:20 How to get your first job as a web developer
+    10:41 Why you're not getting job interviews and what to do about it
+    
+    Why some web developers make more money than others: https://youtu.be/QILxmJpH6wM
+    
+    @Fireship  Building the same application 10 times video: https://www.youtube.com/watch?v=cuHDQhDhvPE''', videoUrl="glgmavKWg3Y", thumbnailUrl="https://i.ytimg.com/vi/glgmavKWg3Y/maxresdefault.jpg", createdAt="2022-02-23T14:15:01Z")
+    
+    
+    
+    d6cd320a1c5666819c8910ac518ddeb5 = Video(channelId="70", title='''8GB M1 Macbook Air for computer science students?''', description='''Base M1 Macbook Air good enough for programming? Or should you upgrade the ram to 16GB? Is 256GB storage enough or should you go for 512GB? Will the macbook air work for computer science student learning to code? I get variations of these questions several times a week. Here's my answer.
+    
+    Why You Shouldn't Code On iPad: https://youtu.be/r8iB9CNirDU
+    Front-end Dev Salary (Not Silicon Valley): https://youtu.be/QILxmJpH6wM''', videoUrl="Yh-r4eMeHFY", thumbnailUrl="https://i.ytimg.com/vi/Yh-r4eMeHFY/hqdefault.jpg", createdAt="2022-02-15T14:15:03Z")
+    
+    
+    
+    d110a709a4bcfb64244609601b98db56 = Video(channelId="66", title='''Learn JAVA in LESS THAN 10 MINUTES''', description='''In this video we'll be learning as much Java as we can in 10 minutes. I aimed for 5 but didn't want to leave anything out so it took 10!
+    
+    0:06 Java Hello World
+    0:35 Primitive Java Types
+    1:29 If statements
+    1:47 Methods in Java
+    2:09 Java Classes & Objects
+    3:23 Encapsulation
+    3:48 Arrays in Java
+    4:12 For loops
+    5:03 Inheritance
+    5:44 Interfaces
+    6:39 Static methods
+    7:13 While loops
+    7:30 Comments
+    7:40 Built-in Data Structures
+    8:46 Java Packages
+    
+    Go to https://howcode.org for more!
+    
+    Link to DigitalOcean: http://howco.de/d_ocean
+    
+    Link to howCode Facebook: http://howco.de/fb
+    Link to howCode Twitter: http://howco.de/twitter
+    Link to /r/howCode: http://howco.de/reddit
+    
+    Don't forget to subscribe for more!''', videoUrl="hZOHP8CV_pw", thumbnailUrl="https://i.ytimg.com/vi/hZOHP8CV_pw/maxresdefault.jpg", createdAt="2021-09-28T23:39:42Z")
+    
+    
+    
+    d632e990883e2dc77676d76894f35b86 = Video(channelId="66", title='''BFS IN 3 MINUTES''', description='''In this video we'll be learning about trees, traversal, breadth-first search (BFS) and how we can implement BFS using a queue.
+    
+    Code from this video: https://howcode.org/t/using-a-stack-to-find-unbalanced-parenthesis/53
+    
+    Go to https://howcode.org for more!
+    
+    Link to DigitalOcean: http://howco.de/d_ocean
+    
+    Link to howCode Facebook: http://howco.de/fb
+    Link to howCode Twitter: http://howco.de/twitter
+    Link to /r/howCode: http://howco.de/reddit
+    
+    Don't forget to subscribe for more!''', videoUrl="POpkdEdmlbU", thumbnailUrl="https://i.ytimg.com/vi/POpkdEdmlbU/maxresdefault.jpg", createdAt="2021-01-19T00:19:26Z")
+    
+    
+    
+    dbc382a29bd88b6b9f6e0a86be16df03 = Video(channelId="66", title='''DEPTH FIRST SEARCH WITH PYTHON''', description='''In this video we'll be learning about trees, traversal, depth-first search (DFS) and how we can implement DFS easily using both recursion and iteration.
+    
+    Bonus! Using a stack and Python to find unbalanced parenthesis
+    https://howcode.org/t/using-a-stack-to-find-unbalanced-parenthesis/53
+    
+    Go to https://howcode.org for more!
+    
+    Link to DigitalOcean: http://howco.de/d_ocean
+    
+    Link to howCode Facebook: http://howco.de/fb
+    Link to howCode Twitter: http://howco.de/twitter
+    Link to /r/howCode: http://howco.de/reddit
+    
+    Don't forget to subscribe for more!''', videoUrl="Sbciimd09h4", thumbnailUrl="https://i.ytimg.com/vi/Sbciimd09h4/maxresdefault.jpg", createdAt="2021-01-13T01:58:44Z")
+    
+    
+    
+    deb0501bd142017a35b4e8883821f58c = Video(channelId="66", title='''STACKS EXPLAINED WITH PYTHON''', description='''In this video we'll be learning about a data structure called a stack, we'll be learning what stacks do and we'll see a practical example using a stack to reverse the characters in a string.
+    
+    Bonus! Using a stack and Python to find unbalanced parenthesis
+    https://howcode.org/t/using-a-stack-to-find-unbalanced-parenthesis/53
+    
+    Go to https://howcode.org for more!
+    
+    Link to DigitalOcean: http://howco.de/d_ocean
+    
+    Link to howCode Facebook: http://howco.de/fb
+    Link to howCode Twitter: http://howco.de/twitter
+    Link to /r/howCode: http://howco.de/reddit
+    
+    Don't forget to subscribe for more!''', videoUrl="d6l3XzqJlDE", thumbnailUrl="https://i.ytimg.com/vi/d6l3XzqJlDE/maxresdefault.jpg", createdAt="2021-01-11T01:01:34Z")
+    
+    
+    
+    d4d3ad8aac4dc3593d9caac7db9b35f3 = Video(channelId="66", title='''The WALRUS := OPERATOR in PYTHON''', description='''In this video we'll be learning about a cool new feature in Python called the Walrus Operator, it can help make our code more readable, concise and even perform better by reducing duplicated function calls.
+    
+    Go to https://howcode.org for more!
+    
+    Link to DigitalOcean: http://howco.de/d_ocean
+    
+    Link to howCode Facebook: http://howco.de/fb
+    Link to howCode Twitter: http://howco.de/twitter
+    Link to /r/howCode: http://howco.de/reddit
+    
+    Don't forget to subscribe for more!''', videoUrl="vQcBHp8CGUA", thumbnailUrl="https://i.ytimg.com/vi/vQcBHp8CGUA/maxresdefault.jpg", createdAt="2020-12-07T00:20:05Z")
+    
+    
+    
+    df87df13dcc79a28396d18294b33fa68 = Video(channelId="66", title='''RECOGNISE DIGITS WITH TENSORFLOW''', description='''In this video, we'll be learning how to recognise digits using a neural network with Tensorflow. 
+    
+    Our network will be 98% accurate after the training!
+    
+    Download the source code here:
+    https://howco.de/tensorflow-digit
+    
+    Go to https://howcode.org for more!
+    
+    Link to DigitalOcean: http://howco.de/d_ocean
+    
+    Link to howCode Facebook: http://howco.de/fb
+    Link to howCode Twitter: http://howco.de/twitter
+    Link to /r/howCode: http://howco.de/reddit
+    
+    Don't forget to subscribe for more!''', videoUrl="rml9oBQT8rw", thumbnailUrl="https://i.ytimg.com/vi/rml9oBQT8rw/maxresdefault.jpg", createdAt="2019-02-11T01:32:45Z")
+    
+    
+    
+    d9aa732078f2a0fd9043806a1fbfe2c6 = Video(channelId="66", title='''2018 - MAKE YOUR OWN PROGRAMMING LANGUAGE - EXECUTE (3/3)''', description='''In this video, we'll be finishing off our programming language by adding code execution to our interpreter. We'll be walking our parse tree and recursively executing our program.
+    
+    You can download the source code here:
+    https://howco.de/pl_execute
+    
+    Get $10 free when you sign up to DigitalOcean through this link!
+    Link to DigitalOcean: http://howco.de/d_ocean
+    
+    Don't forget to like, favourite and subscribe for more!''', videoUrl="P5ovtpvHsEA", thumbnailUrl="https://i.ytimg.com/vi/P5ovtpvHsEA/maxresdefault.jpg", createdAt="2018-10-21T23:55:55Z")
+    
+    
+    
+    d15aec48b22f3714487f73075588a596 = Video(channelId="66", title='''2018 - MAKE YOUR OWN PROGRAMMING LANGUAGE - PARSER (2/3)''', description='''This is the 2018 version of the old programming language series. In this series, we'll be using the same techniques used in real compilers and interpreters.
+    
+    In this video, we'll be learning how to write a grammar for our language. We'll be giving the grammar to our parser generator. 
+    
+    Our parser generator will give us a parser that generates a syntax tree for our language.
+    
+    You can download the source code here:
+    https://howco.de/pl_parser
+    
+    Get $10 free when you sign up to DigitalOcean through this link!
+    Link to DigitalOcean: http://howco.de/d_ocean
+    
+    Don't forget to like, favourite and subscribe for more!''', videoUrl="hvdj-xCgz_M", thumbnailUrl="https://i.ytimg.com/vi/hvdj-xCgz_M/maxresdefault.jpg", createdAt="2018-10-08T00:30:20Z")
+    
+    
+    
+    daa8a020c71ed314280e064af3202970 = Video(channelId="66", title='''2018 - MAKE YOUR OWN PROGRAMMING LANGUAGE - LEXER (1/3)''', description='''This is the 2018 version of the old programming language series. In this series, we'll be using the same techniques used in real compilers and interpreters.
+    
+    In this video, we'll see a tour of our language we'll be building and we'll build the lexer, which is the first step towards building our own programming language.
+    
+    You can download the source code here:
+    https://howco.de/pl_lexer
+    
+    Get $10 free when you sign up to DigitalOcean through this link!
+    Link to DigitalOcean: http://howco.de/d_ocean
+    
+    Don't forget to like, favourite and subscribe for more!''', videoUrl="tSwITbXRe8M", thumbnailUrl="https://i.ytimg.com/vi/tSwITbXRe8M/maxresdefault.jpg", createdAt="2018-10-04T01:16:13Z")
+    
+    
+    
+    da7b954c1c908128145579671801e0bb = Video(channelId="66", title='''EASY NEURAL NETWORKS WITH JAVASCRIPT''', description='''In this video, we'll be learning how to use Brain.js, a cool Javascript library that makes it easy to build neural networks in Javascript.
+    
+    Our neural network will calculate the output for XOR given two inputs.
+    
+    Learn even more neural networks at howcode.org: https://howcode.org/question/31/simple-neural-networks-explained-with-javascript
+    
+    Go to https://howcode.org for more!
+    
+    Link to DigitalOcean: http://howco.de/d_ocean
+    
+    Link to howCode Facebook: http://howco.de/fb
+    Link to howCode Twitter: http://howco.de/twitter
+    Link to /r/howCode: http://howco.de/reddit
+    
+    Don't forget to subscribe for more!''', videoUrl="P7RZb0XE9hA", thumbnailUrl="https://i.ytimg.com/vi/P7RZb0XE9hA/maxresdefault.jpg", createdAt="2018-09-23T02:13:15Z")
+    
+    
+    
+    dc884a3f65b9e9f2807e5bbed650062e = Video(channelId="71", title='''I Threw Away $350,000 in 3 Months as a Web Developer | Here's Why....''', description='''Learn how to code the right way here: 
+    - Master React.js Here: https://bit.ly/LearnReactNow
+    - Complete Jr to Sr Web Dev Roadmap: https://bit.ly/Jr2SrRoadMap
+    - Master FAANG Coding Interviews: https://bit.ly/FAANGPREP
+    
+    Build your Portfolio using only HTML, CSS & Bootstrap: https://bit.ly/3kfbHCV
+    
+    1-on-1 Mentorship: https://calendly.com/chrissean
+    Chris Sean Talks Podcast: https://spoti.fi/2YuqPEY
+    TikTok & Twitter: @RealChrisSean
+    
+    Developer Branded: https://developebranded.com
+    Join my discord channel: https://discord.gg/HctAeFh''', videoUrl="PKhaoGonhWI", thumbnailUrl="https://i.ytimg.com/vi/PKhaoGonhWI/maxresdefault.jpg", createdAt="2022-03-20T23:26:33Z")
+    
+    
+    
+    db52e2fe6c0d2a30b056ff80b03f0ed4 = Video(channelId="71", title='''React.JS Is Here to Stay 2022''', description='''Learn to CODE in just a FEW months here:
+    - Master React.js Here: https://bit.ly/LearnReactNow
+    - Complete Jr to Sr Web Dev Roadmap: https://bit.ly/Jr2SrRoadMap
+    - Master FAANG Coding Interviews: https://bit.ly/FAANGPREP
+    
+    Build your Portfolio using only HTML, CSS & Bootstrap: https://bit.ly/3kfbHCV''', videoUrl="gRMO4iZC6hQ", thumbnailUrl="https://i.ytimg.com/vi/gRMO4iZC6hQ/hqdefault.jpg", createdAt="2021-11-23T17:10:48Z")
+    
+    
+    
+    d608195721c44007a37c40b6a33cdb6d = Video(channelId="71", title='''4 Reasons to Become a Web Developer 2022''', description='''Learn how to code the right way here: 
+    - Master React.js Here: https://bit.ly/LearnReactNow
+    - Complete Jr to Sr Web Dev Roadmap: https://bit.ly/Jr2SrRoadMap
+    - Master FAANG Coding Interviews: https://bit.ly/FAANGPREP
+    
+    Build your Portfolio using only HTML, CSS & Bootstrap: https://bit.ly/3kfbHCV
+    
+    1-on-1 Mentorship: https://calendly.com/chrissean
+    Chris Sean Talks Podcast: https://spoti.fi/2YuqPEY
+    TikTok & Twitter: @RealChrisSean
+    
+    Developer Branded: https://developebranded.com
+    Join my discord channel: https://discord.gg/HctAeFh''', videoUrl="AwnqnjMk84U", thumbnailUrl="https://i.ytimg.com/vi/AwnqnjMk84U/hqdefault.jpg", createdAt="2021-11-11T01:00:11Z")
+    
+    
+    
+    d2e7ce1c429f5cfcc2047334113c11dc = Video(channelId="71", title='''Do You Need Math to be a Web Developer?''', description='''Learn to CODE in just a FEW months here:
+    - Master React.js Here: https://bit.ly/LearnReactNow
+    - Complete Jr to Sr Web Dev Roadmap: https://bit.ly/Jr2SrRoadMap
+    - Master FAANG Coding Interviews: https://bit.ly/FAANGPREP
+    
+    Build your Portfolio using only HTML, CSS & Bootstrap: https://bit.ly/3kfbHCV''', videoUrl="vTpKwIKzSMU", thumbnailUrl="https://i.ytimg.com/vi/vTpKwIKzSMU/hqdefault.jpg", createdAt="2021-11-10T17:00:28Z")
+    
+    
+    
+    d1eca2358eacb3953354992c3c26cd56 = Video(channelId="71", title='''Do You Need a CS Degree to Become a Web Developer 2022?''', description='''Learn to CODE in just a FEW months here:
+    - Master React.js Here: https://bit.ly/LearnReactNow
+    - Complete Jr to Sr Web Dev Roadmap: https://bit.ly/Jr2SrRoadMap
+    - Master FAANG Coding Interviews: https://bit.ly/FAANGPREP
+    
+    Build your Portfolio using only HTML, CSS & Bootstrap: https://bit.ly/3kfbHCV''', videoUrl="-sQ7SsHI6O8", thumbnailUrl="https://i.ytimg.com/vi/-sQ7SsHI6O8/hqdefault.jpg", createdAt="2021-11-09T23:00:05Z")
+    
+    
+    
+    d06f64a9182b5a83ecc53379cabbb46c = Video(channelId="71", title='''5 Years as a Web Developer | This Last Year has Been Extra DIFFICULT!''', description='''I've been in tech for five years and this fifth year was the most difficult yet. The reason? Watch the video to find out :).
+    
+    Learn to CODE in just a FEW months here:
+    - Master React.js Here: https://bit.ly/LearnReactNow
+    - Complete Jr to Sr Web Dev Roadmap: https://bit.ly/Jr2SrRoadMap
+    - Master FAANG Coding Interviews: https://bit.ly/FAANGPREP
+    
+    Build your Portfolio using only HTML, CSS & Bootstrap: https://bit.ly/3kfbHCV
+    
+    Chris Sean Talks Podcast: https://spoti.fi/2YuqPEY
+    
+    1-on-1 Mentorship: https://calendly.com/chrissean
+    
+    TikTok & Twitter: @RealChrisSean
+    
+    Developer Branded: https://developebranded.com
+    
+    Join my discord channel: https://discord.gg/MtqRyuz''', videoUrl="DhjwZVl4vL4", thumbnailUrl="https://i.ytimg.com/vi/DhjwZVl4vL4/maxresdefault.jpg", createdAt="2021-11-08T01:00:11Z")
+    
+    
+    
+    daaf6f8fa18124b58a27e84eab59939d = Video(channelId="71", title='''Watch This Before You Become a Web Developer in 2022''', description='''Before you leap into the world of coding, I want to share with you some things nobody told me about tech. 
+    
+    Learn to CODE in just a FEW months here: 
+    - Master React.js Here: https://bit.ly/LearnReactNow
+    - Complete Jr to Sr Web Dev Roadmap: https://bit.ly/Jr2SrRoadMap
+    - Master FAANG Coding Interviews: https://bit.ly/FAANGPREP
+    - Build your Portfolio using only HTML, CSS & Bootstrap: https://bit.ly/3kfbHCV
+    
+    Join my discord channel:
+    Discord Channel: https://discord.gg/MtqRyuz
+    
+    Social Media:
+    Instagram & Twitter: @RealChrisSean''', videoUrl="n7QWU3oTgME", thumbnailUrl="https://i.ytimg.com/vi/n7QWU3oTgME/maxresdefault.jpg", createdAt="2021-11-06T18:00:12Z")
+    
+    
+    
+    d1919508b4f1a8f08b14f2991e708aaf = Video(channelId="71", title='''I Quit My Dream Job in Tech''', description='''In this video, I share why I left a job that would have paid me over $200,000 per year if I only stayed 3 more months.
+    
+    My Podcast: https://spoti.fi/3jf5O7p
+    
+    Learn to CODE in just a FEW months here: 
+    - Master React.js Here: https://bit.ly/LearnReactNow
+    - Complete Jr to Sr Web Dev Roadmap: https://bit.ly/Jr2SrRoadMap
+    - Master FAANG Coding Interviews: https://bit.ly/FAANGPREP
+    
+    1-on-1 Mentorship: https://calendly.com/chrissean
+    
+    Sound more technical on your resume & cover letter:
+    https://jarvis.ai?fpr=chris18   
+    
+    My blogs & personal website: https://chrissean.io
+    Discord : https://discord.gg/UJrkuzzue9
+    Instagram & Twitter: @RealChrisSean''', videoUrl="vLXk32U_a50", thumbnailUrl="https://i.ytimg.com/vi/vLXk32U_a50/maxresdefault.jpg", createdAt="2021-10-07T02:00:11Z")
+    
+    
+    
+    d3f58721e21e718e1d643f5083a18122 = Video(channelId="71", title='''Is It Worth Becoming A Senior Developer? Pros And Cons w/ @TechRally''', description='''Becoming a senior developer is an amazing opportunity to earn more money, and increase your job satisfaction. But before you make the leap, I want to share with you some things that might help you decide! 
+    
+    1) The pros of becoming a senior developer: You'll get paid more and have better opportunities for advancement in your career. 
+    2) The cons of becoming a senior developer: It's hard work and it takes time to become really good at what you do.
+    
+    Learn to CODE in just a FEW months here: 
+    - Master React.js Here: https://bit.ly/LearnReactNow
+    - Complete Jr to Sr Web Dev Roadmap: https://bit.ly/Jr2SrRoadMap
+    - Master FAANG Coding Interviews: https://bit.ly/FAANGPREP
+    
+    1-on-1 Mentorship: https://calendly.com/chrissean
+    
+    
+    Sound more technical on your resume & cover letter:
+    https://jarvis.ai?fpr=chris18   
+    
+    My blogs & personal website: https://chrissean.io
+    Discord : https://discord.gg/UJrkuzzue9
+    Instagram & Twitter: @RealChrisSean
+    
+    This video is sponsored by SkillShare''', videoUrl="hc8JcA_aySs", thumbnailUrl="https://i.ytimg.com/vi/hc8JcA_aySs/hqdefault.jpg", createdAt="2021-09-09T00:00:14Z")
+    
+    
+    
+    da26ddb55c52aeff55ee9cab2dd741cf = Video(channelId="71", title='''When I got a $25,000 pay bump as a junior web developer w @TechRally''', description='''When I got a $25,000 pay bump as a junior web developer @TechRally''', videoUrl="LCCTYqEUZxw", thumbnailUrl="https://i.ytimg.com/vi/LCCTYqEUZxw/hqdefault.jpg", createdAt="2021-09-04T02:18:15Z")
+    
+    
+    
+    d8b13d3101995e6a3f8bdbe6f09fb2fd = Video(channelId="63", title='''Redux Toolkit Tutorial – JavaScript State Management Library''', description='''Learn how to use Redux Toolkit in this course for beginners. Redux Toolkit is from the Redux team and tt is intended to be the standard way to write Redux logic. So if you want to learn Redux to help with state management, this is the video for you.
+    
+    💻 Code: https://github.com/john-smilga/redux-toolkit-tutorial
+    
+    ✏️ Course developed by John Smilga. Check out his YouTube channel: https://www.youtube.com/channel/UCMZFwxv5l-XtKi693qMJptA
+    
+    ⭐️ Course Conetents ⭐️
+    ⌨️ (0:00:00) Setup Store
+    ⌨️ (0:11:09) Create Slice
+    ⌨️ (0:18:49) Dev Tools
+    ⌨️ (0:20:28) useSelector()
+    ⌨️ (0:29:04) Hero Icons
+    ⌨️ (0:32:08) Local Data
+    ⌨️ (0:34:24) Render List
+    ⌨️ (0:43:33) Cart Item
+    ⌨️ (0:46:59) Clear Cart
+    ⌨️ (0:54:37) Return State
+    ⌨️ (0:57:23) Remove Item
+    ⌨️ (1:04:01) Toggle Amount
+    ⌨️ (1:10:19) Calculate Totals
+    ⌨️ (1:16:27) Create Modal
+    ⌨️ (1:18:56) Modal Complete
+    ⌨️ (1:28:26) createAsyncThunk
+    ⌨️ (1:41:30) createAsyncThunk Options
+    
+    🎉 Thanks to our Champion and Sponsor supporters:
+    👾 Raymond Odero
+    👾 Agustín Kussrow
+    👾 aldo ferretti
+    👾 Otis Morgan
+    👾 DeezMaster
+    
+    --
+    
+    Learn to code for free and get a developer job: https://www.freecodecamp.org
+    
+    Read hundreds of articles on programming: https://freecodecamp.org/news
+    
+    And subscribe for new videos on technology every day: https://youtube.com/subscription_center?add_user=freecodecamp''', videoUrl="bbkBuqC1rU4", thumbnailUrl="https://i.ytimg.com/vi/bbkBuqC1rU4/maxresdefault.jpg", createdAt="2022-04-20T13:14:06Z")
+    
+    
+    
+    dcbf0d010c5a0ffe3d7899349176b533 = Video(channelId="63", title='''Python Game Development Project Using OOP – Minesweeper Tutorial (w/ Tkinter)''', description='''In this course, you will improve your Python skills by coding a Minesweeper game using the tkinter library. The game is fully implemented using Object Oriented Programming.
+    
+    ✏️ Course from JimShapedCoding. Check out his channel: https://www.youtube.com/channel/UCU8d7rcShA7MGuDyYH1aWGg
+    
+    💻 Code: https://github.com/jimdevops19/MinesweeperGame
+    
+    ⭐️ Course Conetents ⭐️
+    ⌨️ (0:00:00) Getting Started
+    ⌨️ (0:26:22) Creating Cells & Mines
+    ⌨️ (0:49:40) Minesweeper Algorithms
+    ⌨️ (1:36:29) Display Game data
+    ⌨️ (2:00:28) Finishing touches and playing the game
+    
+    🎉 Thanks to our Champion and Sponsor supporters:
+    👾 Raymond Odero
+    👾 Agustín Kussrow
+    👾 aldo ferretti
+    👾 Otis Morgan
+    👾 DeezMaster
+    
+    --
+    
+    Learn to code for free and get a developer job: https://www.freecodecamp.org
+    
+    Read hundreds of articles on programming: https://freecodecamp.org/news
+    
+    And subscribe for new videos on technology every day: https://youtube.com/subscription_center?add_user=freecodecamp''', videoUrl="OqbGRZx4xUc", thumbnailUrl="https://i.ytimg.com/vi/OqbGRZx4xUc/maxresdefault.jpg", createdAt="2022-04-18T13:44:13Z")
+    
+    
+    
+    d44f7c4c96eed5402e48b0860b7e3ec0 = Video(channelId="63", title='''Low-Code for Freelance Developers & Startups – Tutorial''', description='''Low-code is a software development approach that requires little coding in order to build applications. It is made possible through a low-code platform. Learn how to use low code tools and APIs to build a customer support dashboard. You will learn how create the dashboard using the Appsmith platform, Google Sheet API, and the Stripe API.
+    
+    ✏️ Ania Kubów created this course. Check out her channel: https://www.youtube.com/aniakubow
+    
+    🏗️ This course was made possible through a grant from Appsmith. Learn more about Appsmith: https://www.appsmith.com/
+    
+    🎉 Thanks to our Champion and Sponsor supporters:
+    👾 Raymond Odero
+    👾 Agustín Kussrow
+    👾 aldo ferretti
+    👾 Otis Morgan
+    👾 DeezMaster
+    
+    --
+    
+    Learn to code for free and get a developer job: https://www.freecodecamp.org
+    
+    Read hundreds of articles on programming: https://freecodecamp.org/news
+    
+    And subscribe for new videos on technology every day: https://youtube.com/subscription_center?add_user=freecodecamp''', videoUrl="hDzgO2FB_ms", thumbnailUrl="https://i.ytimg.com/vi/hDzgO2FB_ms/hqdefault.jpg", createdAt="2022-04-13T15:41:54Z")
+    
+    
+    
+    d4124b075c812357ac1081b5e5a24aa0 = Video(channelId="63", title='''Learn Terraform (and AWS) by Building a Dev Environment – Full Course for Beginners''', description='''Learn Terraform basics as you utilize Visual Studio Code (On Windows, Mac, or Linux!) to deploy AWS resources and an EC2 instance that you can SSH into to have your own redeployable environment.
+    
+    ✏️ Derek Morgan created this course. Check out more of his courses at: https://morethancertified.com
+    🔗 LinkedIn: https://linkedin.com/in/derekm1215
+    🔗 Twitter: https://twitter.com/derekm1215
+    
+    ⭐️ Course Contents ⭐️
+    ⌨️ Welcome and Setup (0:00)
+    ⌨️ What We're Going to Build
+    ⌨️ AWS IAM Setup
+    ⌨️ Local Environment Setup
+    ⌨️ Let's Build! (7:22)
+    ⌨️ AWS Provider and Terraform Init
+    ⌨️ A VPC and Terraform Apply
+    ⌨️ The Terraform State
+    ⌨️ Terraform Destroy
+    ⌨️ A Subnet and Referencing
+    ⌨️ An IGW and Terraform fmt
+    ⌨️ A Route Table
+    ⌨️ A Route Table Association
+    ⌨️ A Security Group
+    ⌨️ An AMI Datasource
+    ⌨️ A Key Pair
+    ⌨️ An EC2 Instance
+    ⌨️ Userdata and the File Function
+    ⌨️ SSH Config Scripts
+    ⌨️ The Provisioner and Templatefile
+    ⌨️ The Deployment and Replace
+    ⌨️ Variables
+    ⌨️ Variable Precedence
+    ⌨️ Conditional Expressions
+    ⌨️ Outputs
+    ⌨️ Conclusion
+    
+    🎉 Thanks to our Champion and Sponsor supporters:
+    👾 Raymond Odero
+    👾 Agustín Kussrow
+    👾 aldo ferretti
+    👾 Otis Morgan
+    👾 DeezMaster
+    
+    --
+    
+    Learn to code for free and get a developer job: https://www.freecodecamp.org
+    
+    Read hundreds of articles on programming: https://freecodecamp.org/news
+    
+    And subscribe for new videos on technology every day: https://youtube.com/subscription_center?add_user=freecodecamp''', videoUrl="iRaai1IBlB0", thumbnailUrl="https://i.ytimg.com/vi/iRaai1IBlB0/maxresdefault.jpg", createdAt="2022-04-11T15:29:40Z")
+    
+    
+    
+    d0bdbbd040df318bc95331cc2fba0b9b = Video(channelId="63", title='''Let's Play Break The Code 2 – Code Cracking Game for Developers with Tom and Shaun''', description='''Break The Code 2 is a new browser game that sends you back in time to the year 1999. You complete codebreaking missions using your programming knowledge and your puzzle-solving skills. Watch freeCodeCamp software engineers Tom and Shaun rack their brains as they try to crack codes.
+    
+    This video was made possible by a grant from .Tech Domains, who developed this game. You can play Break The Code 2 yourself for free right in your browser: https://go.tech/btcfcc
+    
+    This video will show you how to play the game, and how to solve the first two missions. There are 11 missions in total.
+    
+    --
+    
+    You can also check out Tom's Relational Database curriculum at: https://www.freecodecamp.org/learn/relational-database/
+    
+    And check out Shaun's Rust curriculum: https://www.freecodecamp.org/news/rust-in-replit/''', videoUrl="sWMAsRqcoWc", thumbnailUrl="https://i.ytimg.com/vi/sWMAsRqcoWc/maxresdefault.jpg", createdAt="2022-04-08T13:37:39Z")
+    
+    
+    
+    da6acb6598e07bbc081b7218d56a6b92 = Video(channelId="63", title='''Figma Variants – Design a Scalable Mobile App [Full Course]''', description='''Learn how to use Figma Variants to design a scalable mobile app. Variants can streamline your frontend design process by allowing you to group and organize similar components into a single container.
+    
+    ✏️ Ahmet Efeoglu developed this course. Check out his channel: https://www.youtube.com/channel/UCSziSLMFFNT4PaRQhEwANzg
+    
+    🔗 Tutorial file link: https://www.figma.com/file/FrLR3t9jZ9X8psPdmztdlh/Activista-Tutorial-Initial-Screens?node-id=0%3A1
+    🔗 Homework file link: https://www.figma.com/file/8js2feuv6LdhmvVtBXkC2L/Figma-Activista-Tutorial-Homework?node-id=0%3A1
+    
+    ⌨️ (0:00:18) Intro
+    ⌨️ (0:02:13) Accessing Tutorial and Homework Files
+    ⌨️ (0:04:24) Project Overview
+    ⌨️ (0:05:27) Recommending Personal and freeCodeCamp Channel
+    ⌨️ (0:06:25) Basics Overview
+    ⌨️ (0:08:22) Learning The Frame Functionality
+    ⌨️ (0:10:25) Learning The Autolayout Functionality
+    ⌨️ (0:14:39) Learning The Component Functionality
+    ⌨️ (0:18:55) Learning The Variant Functionality
+    ⌨️ (0:21:42) Creating The Type System
+    ⌨️ (0:28:41) Creating The Color Palette/System
+    ⌨️ (0:35:54) Creating The Icon Set
+    ⌨️ (0:41:34) Creating Input Variants
+    ⌨️ (0:52:23) Creating Large Button Variant
+    ⌨️ (1:00:47) Designing Sign Up and Login Screen
+    ⌨️ (1:18:46) Creating Status Bar Variant
+    ⌨️ (1:23:14) Creating The Filter Variant
+    ⌨️ (1:27:40) Creating Bottom Navigation Variant
+    ⌨️ (1:35:02) Creating Image Card Variant
+    ⌨️ (1:49:27) Updating Input Variant
+    ⌨️ (1:57:31) Designing The Discover Screens
+    ⌨️ (2:15:20) Creating Large Avatar Variant
+    ⌨️ (2:24:05) Creating Small Button Variant
+    ⌨️ (2:32:45) Creating The Benefit Card Variant
+    ⌨️ (2:46:45) Designing Details Screen
+    
+    🎉 Thanks to our Champion and Sponsor supporters:
+    👾 Raymond Odero
+    👾 Agustín Kussrow
+    👾 aldo ferretti
+    👾 Otis Morgan
+    👾 DeezMaster
+    
+    --
+    
+    Learn to code for free and get a developer job: https://www.freecodecamp.org
+    
+    Read hundreds of articles on programming: https://freecodecamp.org/news
+    
+    And subscribe for new videos on technology every day: https://youtube.com/subscription_center?add_user=freecodecamp''', videoUrl="stQ1IZEB2xk", thumbnailUrl="https://i.ytimg.com/vi/stQ1IZEB2xk/hqdefault.jpg", createdAt="2022-04-07T12:13:37Z")
+    
+    
+    
+    d4c658c3b3f6d6c93666fad85c2bf0df = Video(channelId="63", title='''Full Gitpod Course – ExamPro Cloud Developer Environment Certification''', description='''Learn Gitpod and prepare to pass a cloud certification in this complete course for beginners. If you are a web-application developer looking to learn how to leverage the cloud or want to become a cloud developer, the ExamPro Cloud Development Environment (EXP-CDE-01) is the first step.
+    
+    ✏️ Andrew Brown created this course.
+    🐦 Andrew on Twitter: https://twitter.com/andrewbrown
+    
+    🔗 Additional exam resources: https://www.exampro.co/exp-cde-01
+    
+    ⭐️ Course Contents ⭐️
+    ☁️ Introduction
+    🎤 (00:00:00) Meet Your Instructor
+    🎤 (00:12:01) Introduction
+    
+    ☁️ Cloud Developer Environment Concepts
+    🎤 (00:12:05) What is Cloud Native
+    🎤 (00:14:04) Cloud Developer vs Modern Application Engineer
+    🎤 (00:16:55) Code Editor vs IDE
+    🎤 (00:19:34) The Seven Benefits of Cloud Developer Environments
+    🎤 (00:22:37) What is Gitpod
+    🎤 (00:24:09) Gitpod at a glance
+    🎤 (00:24:55) Gitpod vs Other Providers
+    🎤 (00:37:57) Context based Developer Workflows
+    🎤 (00:42:11) Visual Studio Code
+    🎤 (00:43:26) Docker
+    
+    ☁️ Gitpod Integration
+    🎤 (00:45:39) Version Control Systems
+    🎤 (00:47:41) VSC Permissions
+    🎤 (00:49:04) Gitpod Editor Support
+    🎤 (00:50:01) JetBrains
+    🎤 (00:52:51) Open in Local VSCode
+    🎤 (00:54:41) Gitpod Browser Extension
+    🎤 (00:55:28) Gitpod Browser Bookmarklet
+    🎤 (01:08:59) Gitlab Integration
+    🎤 (01:09:03) Bitbucket Integration
+    🎤 (01:15:22) Github Integration
+    🎤 (01:20:42) Browser Extension
+    🎤 (01:32:28) Browser Bookmarklet
+    
+    ☁️ Gitpod Configuration
+    🎤 (01:37:45) Gitpod Configuration File
+    🎤 (01:39:59) Initialization Gitpod Configuration File
+    🎤 (01:40:48) Gp Init
+    🎤 (01:42:43) Iterative Workflow
+    🎤 (01:48:31) Start Tasks
+    🎤 (01:50:38) Execution Order Steps
+    🎤 (01:57:37) Execution Order Steps Without Prebuilds
+    🎤 (01:59:12) Execution Order Steps with Prebuild
+    🎤 (02:01:19) Multi line Tasks
+    🎤 (02:17:34) Awaiting Tasks
+    🎤 (02:35:33) Computer Networking Ports
+    🎤 (02:37:53) Gitpod Ports
+    🎤 (02:39:26) Gitpod Port Configuration
+    🎤 (02:40:46) Port Forwarding
+    🎤 (02:41:42) Git Ports
+    🎤 (03:12:45) Gitpod Custom Docker Image
+    🎤 (03:15:29) Gitpod Workspace Base Image
+    🎤 (03:16:53) GItpod Workspace Full Image
+    🎤 (03:17:51) Custom Dockerfile
+    🎤 (03:29:07) QuickStart Templates
+    🎤 (03:39:08) Docker Compose
+    🎤 (03:40:23) Building VM or Container Images
+    🎤 (03:41:11) Gitpod Environment Variables
+    🎤 (03:42:09) Gitpod Prefix and Default Env Vars
+    🎤 (03:43:19) Env Vars
+    🎤 (04:01:48) OpenMode
+    🎤 (04:02:48) VSCode Extensions
+    🎤 (04:04:01) Built In Extensions
+    🎤 (04:04:58) Open VSX Registry
+    🎤 (04:06:56) Add Extension Context Menu Option
+    🎤 (04:07:39) User Extensions with Gitpod Configuration File
+    🎤 (04:08:57) VSCode Settings Sync
+    🎤 (04:10:38) VSCode Extensions
+    
+    ☁️ Gitpod Workflows
+    🎤 (04:24:14) Gitpod Workspaces
+    🎤 (04:25:25) Underyling Gitpod Resource Size
+    🎤 (04:27:02) Workspace Lifecycle
+    🎤 (04:28:44) Underlying Lifecycle and Phases
+    🎤 (04:30:29) Workspace Instance Types
+    🎤 (04:31:50) Gitpod Workspace Timeout
+    🎤 (04:33:26) Timeout and Timeout Boost
+    🎤 (04:36:07) Workspace Directory
+    🎤 (04:37:22) Context and Gitpod URL
+    🎤 (04:39:05) Share Snapshot Workspace
+    🎤 (04:40:32) Share Running Workspace
+    🎤 (04:42:15) Gitpod CLI
+    🎤 (04:43:49) gp open
+    🎤 (04:44:15) gp url
+    🎤 (04:44:45) gp preview
+    🎤 (04:45:55) GP CLI
+    🎤 (04:50:33) Gitpod Palette Commands
+    🎤 (04:54:00) Teams and Projects
+    🎤 (04:55:05) Roles Matrix
+    🎤 (04:55:49) Prebuilds
+    🎤 (04:57:38) VPN via Tailscale
+    🎤 (04:58:53) Gitpod Projects
+    🎤 (05:09:10) Gitpod Prebuilds
+    
+    ☁️ Gitpod Offering
+    🎤 (05:26:44) Gitpod Pricing
+    🎤 (05:30:23) Monitor Hourly Usage
+    🎤 (05:30:57) Hourly Usage
+    🎤 (05:32:34) Team Pricing
+    🎤 (05:33:13) Self Hosted Gitpod
+    🎤 (05:35:17) Gitpod Security
+    🎤 (05:37:56) Security Vulnerability Disclosure Policy
+    🎤 (05:39:00) Security Vulnerability Disclosure Policy Page
+    🎤 (05:40:26) Gitpod Support
+    🎤 (05:49:10) Gitpod OSS
+    🎤 (06:03:12) OpenVSCode Server
+    🎤 (06:04:27) Open VSCode Server
+    
+    🎉 Thanks to our Champion and Sponsor supporters:
+    👾 Raymond Odero
+    👾 Agustín Kussrow
+    👾 aldo ferretti
+    👾 Otis Morgan
+    👾 DeezMaster
+    
+    --
+    
+    Learn to code for free and get a developer job: https://www.freecodecamp.org
+    
+    Read hundreds of articles on programming: https://freecodecamp.org/news
+    
+    And subscribe for new videos on technology every day: https://youtube.com/subscription_center?add_user=freecodecamp''', videoUrl="XcjqapXfrhk", thumbnailUrl="https://i.ytimg.com/vi/XcjqapXfrhk/maxresdefault.jpg", createdAt="2022-04-04T13:14:35Z")
+    
+    
+    
+    d9161c15b1af9e4d11b0011792931c3c = Video(channelId="63", title='''Firebase – Full Course for Beginners''', description='''Firebase is a platform developed by Google for creating mobile and web applications. Learn how to use Firebase 9 in this full course for beginners. Plus, learn how to integrate Firebase with different JavaScript Frameworks.
+    
+    ✏️ Cybernatico developed this course. Check out their channel: https://www.youtube.com/c/CybernaticoByNishant
+    
+    💻 Code: https://github.com/nishant-666/Firebase-Frontend
+    🔗 Firebase Documentation: https://firebase.google.com/docs/build?hl=en
+    
+    ⌨️ How to Setup Firebase and connect to a front-end application
+    ⌨️ Firebase Authentication with different methods
+    ⌨️ Firebase CRUD Operations, i.e. Add Data, Read Data, Update Data, and Delete Data
+    ⌨️ Firebase Storage to store files 
+    ⌨️ Firebase Firestore Queries to filter data
+    ⌨️ Firebase Real time listener in Firestore Database
+    ⌨️ Firebase Hosting
+    ⌨️ Firebase with Different JavaScript Frameworks
+    
+    0:00 - Introduction
+    1:02 - Authentication
+    13:24 - Firestore Database
+    27:24 - Firebase Storage
+    38:10 - Firebase Realtime Updates
+    41:10 - Firebase Firestore Queries
+    44:48 - Firebase Hosting
+    47:39 - Firebase Security Rules
+    52:46 - Firebase onAuthStateChanged
+    56:23 - Firebase with Vanilla JavaScript
+    1:24:35 - Firebase with Angular 13
+    1:56:28 - Firebase with React
+    2:29:50 - Firebase with Next JS
+    
+    🎉 Thanks to our Champion and Sponsor supporters:
+    👾 Raymond Odero
+    👾 Agustín Kussrow
+    👾 aldo ferretti
+    👾 Otis Morgan
+    👾 DeezMaster
+    
+    --
+    
+    Learn to code for free and get a developer job: https://www.freecodecamp.org
+    
+    Read hundreds of articles on programming: https://freecodecamp.org/news
+    
+    And subscribe for new videos on technology every day: https://youtube.com/subscription_center?add_user=freecodecamp''', videoUrl="fgdpvwEWJ9M", thumbnailUrl="https://i.ytimg.com/vi/fgdpvwEWJ9M/maxresdefault.jpg", createdAt="2022-03-31T14:22:18Z")
+    
+    
+    
+    d839a9c2dc73aca4271d32ef9453cf78 = Video(channelId="63", title='''Augmented Reality for Everyone - Full Course''', description='''Learn about Extended Reality / Augmented Reality from both a theoretical and practical perspective in this full course for beginners. Learn to develop AR mobile applications and AR Filters for Instagram and Facebook from scratch. Learn concepts from scratch such as XR Fundamentals, Unity Engine, C#, Markerbased AR Development and AR Filter development.
+    
+    ✏️ Course from Priyanshu Bhattaharjee. Check out his channel: https://www.youtube.com/c/CodedRealityXR
+    
+    🔗 Course Website: https://arcourse.netlify.app/
+    🔗 Syllabus: https://arcourse.netlify.app/pages/syllabus
+    🔗 Lecture Materials: https://arcourse.netlify.app/pages/materials.html
+    
+    ⭐️ Code ⭐️
+    💻 Project 1: AR Car Customizer: https://github.com/Priyanshu-CODERX/AR001P1-ARCarCustomizer
+    💻 Project 2: AR Business Card: https://github.com/Priyanshu-CODERX/AR001P2-ARBusinessCard
+    💻 Project 3: AR Encyclopedia: https://github.com/Priyanshu-CODERX/AR001P3-AR-Encyclopedia
+    
+    ⭐️ Course Contents ⭐️
+    ⌨️ (00:00:00) Course Introduction
+    ⌨️ (00:03:44) 1.0 Introduction to XR
+    ⌨️ (00:37:00) 2.0 Installing Unity
+    ⌨️ (00:45:31) 2.1 Unity Tutorial
+    ⌨️ (01:51:48) 3.1 Intro to C#
+    ⌨️ (02:10:02) 3.2 Comments, Variables, Data Types _ Type Casting
+    ⌨️ (03:24:32) 3.3 Operators
+    ⌨️ (04:12:28) 3.4 Conditionals
+    ⌨️ (04:45:42) 3.5 Loops
+    ⌨️ (05:20:39) 3.6 Arrays
+    ⌨️ (05:43:35) 3.7 Functions
+    ⌨️ (05:58:45) 3.8 Classes and Objects
+    ⌨️ (06:26:21) 4.1 Marker Based Augmented Reality in Depth
+    ⌨️ (06:57:32) 4.2 Setting up Vuforia and developing our first Vuforia App
+    ⌨️ (07:26:17) 4.3 Free Resources
+    ⌨️ (07:33:58) 4.4 Multiple Target Tracking
+    ⌨️ (07:45:33) 4.5 Virtual Buttons
+    ⌨️ (08:18:45) 4.6 AR Video Playback
+    ⌨️ (08:33:06) 5.1 Project 1 AR Car Customizer
+    ⌨️ (09:01:49) 5.2 Project 2 AR Business Card
+    ⌨️ (09:46:48) 5.3 Project 3 AR Encyclopedia
+    ⌨️ (10:45:07) 6.1 Introduction to Spark AR
+    ⌨️ (10:57:52) 6.2 Face Tracker and Face Mesh
+    ⌨️ (11:08:10) 6.3 Head Occluder
+    ⌨️ (11:19:25) Final Project
+    
+    🎉 Thanks to our Champion and Sponsor supporters:
+    👾 Raymond Odero
+    👾 Agustín Kussrow
+    👾 aldo ferretti
+    👾 Otis Morgan
+    👾 DeezMaster
+    
+    --
+    
+    Learn to code for free and get a developer job: https://www.freecodecamp.org
+    
+    Read hundreds of articles on programming: https://freecodecamp.org/news
+    
+    And subscribe for new videos on technology every day: https://youtube.com/subscription_center?add_user=freecodecamp''', videoUrl="WzfDo2Wpxks", thumbnailUrl="https://i.ytimg.com/vi/WzfDo2Wpxks/maxresdefault.jpg", createdAt="2022-03-30T13:15:25Z")
+    
+    
+    
+    dc7457ddb0b5533483815cd856dc1961 = Video(channelId="63", title='''React Project Tutorial – Build a Portfolio Website w/ Advanced Animations''', description='''In this video, you will learn how to build React portfolio website from scratch with advanced animations.
+    
+    ✏️ Slobodan developed this course: https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw
+    
+    🔗 Code and assets: https://github.com/bobangajicsm/react-portfolio-website
+    🔗 Map library https://react-leaflet.js.org/
+    🔗 EmailJS library: https://www.emailjs.com/docs/examples/reactjs/
+    🔗 Final version: https://bobangajicsm.github.io/portfolio
+    
+    Learn:
+    ✔️  How to draw SVG animation using GSAP and React
+    ✔️  How to animate letters on hover using Animate.css and React
+    ✔️  How to add page loading animation using React-Loaders
+    ✔️  How to add Pacman animation in React
+    ✔️  How to create custom 3D CSS animations
+    ✔️  How to implement font icons in React
+    ✔️  How to create and implement contact form in React using EmailJS
+    ✔️  How to add maps to your website in React using Leafleat.js
+    
+    ⭐️ Course Contents ⭐️
+    ⌨️ (0:00:00) Intro
+    ⌨️ (0:00:43) Create React app with npx
+    ⌨️ (0:01:01) Instaling libraries
+    ⌨️ (0:03:56) Define global styles
+    ⌨️ (0:06:56) Create routes
+    ⌨️ (0:09:01) Building left sidebar
+    ⌨️ (0:20:31) Building site layout
+    ⌨️ (0:23:01) Building Home page
+    ⌨️ (0:40:51) Draw SVG Logo animation
+    ⌨️ (0:48:29) Build About page
+    ⌨️ (1:03:56) Build page loader
+    ⌨️ (1:06:11) Build Contact page
+    
+    🎉 Thanks to our Champion and Sponsor supporters:
+    👾 Raymond Odero
+    👾 Agustín Kussrow
+    👾 aldo ferretti
+    👾 Otis Morgan
+    👾 DeezMaster
+    
+    --
+    
+    Learn to code for free and get a developer job: https://www.freecodecamp.org
+    
+    Read hundreds of articles on programming: https://freecodecamp.org/news
+    
+    And subscribe for new videos on technology every day: https://youtube.com/subscription_center?add_user=freecodecamp''', videoUrl="bmpI252DmiI", thumbnailUrl="https://i.ytimg.com/vi/bmpI252DmiI/maxresdefault.jpg", createdAt="2022-03-29T13:21:13Z")
+    
+    
+    
+    daca819c7f6980f09b65d582d1e45820 = Video(channelId="65", title='''Me Fighting Bugs in My Code #shorts #coding''', description='''''', videoUrl="6WiIq6_JpyE", thumbnailUrl="https://i.ytimg.com/vi/6WiIq6_JpyE/hqdefault.jpg", createdAt="2022-04-20T16:18:26Z")
+    
+    
+    
+    dcdc746dc1d2a783a961c6650dc36d57 = Video(channelId="65", title='''Private video''', description='''This video is private.''', videoUrl="dN8wdvrma3c", thumbnailUrl="https://i.ytimg.com/vi/6WiIq6_JpyE/hqdefault.jpg", createdAt="2022-04-19T09:08:20Z")
+    
+    
+    
+    dfea70fce8acdafae78d7c35183eafc8 = Video(channelId="65", title='''Private video''', description='''This video is private.''', videoUrl="MAM-UcdMZXc", thumbnailUrl="https://i.ytimg.com/vi/6WiIq6_JpyE/hqdefault.jpg", createdAt="2022-04-16T08:57:18Z")
+    
+    
+    
+    def3ea3376a554e7872caeea8c1ffb34 = Video(channelId="65", title='''How to Get an Entry Level Job as a BRAND NEW Developer''', description='''Want to become a PAID developer?
+    Apply to the Devslopes Academy: https://devslopes.com/apply
+    
+    You're finally ready to start applying for jobs, then BAM! You see all of those absurd job requirements. "Must know 6 Years JS." BLAH BLAH BLAH. In this video Connor breaks down step by step everything you need to know about landing your first ENTRY LEVEL job as a new developer. This is a must watch.
+    
+    🔴🔴Must Watch Videos🔴🔴
+    
+    Stop Watching Coding Tutorials!
+    https://youtu.be/n7JhRDRK3Gg
+    
+    Why You Shouldn't Become a Full-Stack Developer:
+    https://youtu.be/vgEVfaDmfTk
+    
+    💥Take Our 30 Day Coding Challenge💥
+    https://30daycodechallenge.com/
+    
+    Follow us on Social:
+    TikTok: https://www.tiktok.com/@devslopes
+    Instagram: https://www.instagram.com/devslopes/''', videoUrl="ESJoYYTO59o", thumbnailUrl="https://i.ytimg.com/vi/ESJoYYTO59o/maxresdefault.jpg", createdAt="2022-04-15T15:00:11Z")
+    
+    
+    
+    deaf2f734465bede41fb636a93639b26 = Video(channelId="65", title='''A Developers Worst Nightmare (App Idea) #shorts #coding''', description='''''', videoUrl="l6WGwi-65vY", thumbnailUrl="https://i.ytimg.com/vi/l6WGwi-65vY/hqdefault.jpg", createdAt="2022-04-14T20:13:55Z")
+    
+    
+    
+    deea4ba379acde20331775b54a34c423 = Video(channelId="65", title='''What It's Like To Code As A Beginner''', description='''Want to become a paid developer?
+    Click here 👉 https://devslopes.com/apply 
+    
+    How can you code like Jake the Brogrammer?
+    
+    One thing you have to understand as a beginner learning how to code is that coding is not a get rich quick scheme. It will take time, a long time in most cases. But that doesn't mean that their aren't ways you can make the learning process 10x easier. Especially with the techniques mentioned in the video! I hope you love it! Stay tuned for more!''', videoUrl="io-e8l_PPpY", thumbnailUrl="https://i.ytimg.com/vi/io-e8l_PPpY/hqdefault.jpg", createdAt="2022-01-31T15:00:24Z")
+    
+    
+    
+    dbded4aa58c7b816838f9fc803d8bace = Video(channelId="65", title='''Where to start as a beginner developer 2021''', description='''Want to become a PAID developer?
+    Apply to the Devslopes Academy: https://devslopes.com/apply''', videoUrl="KZcuZqOHxmk", thumbnailUrl="https://i.ytimg.com/vi/KZcuZqOHxmk/maxresdefault.jpg", createdAt="2021-11-23T10:06:35Z")
+    
+    
+    
+    dac4664c449f367452984a95abd2ae16 = Video(channelId="65", title='''How to get your first programming job''', description='''Want to become a PAID developer?
+    Apply to the Devslopes Academy: https://devslopes.com/apply''', videoUrl="Mwe2HZkOxMo", thumbnailUrl="https://i.ytimg.com/vi/Mwe2HZkOxMo/maxresdefault.jpg", createdAt="2021-11-20T10:05:37Z")
+    
+    
+    
+    dd86b15ccc6d98ae8f6ca4aba37e5421 = Video(channelId="65", title='''How long should you spend learning to code 👨‍💻 #shorts''', description='''''', videoUrl="-FCZsf0o81M", thumbnailUrl="https://i.ytimg.com/vi/-FCZsf0o81M/hqdefault.jpg", createdAt="2021-11-18T20:12:50Z")
+    
+    
+    
+    dbd3221d7f1855e130f1a395b534d8eb = Video(channelId="65", title='''JavaScript meeting other languages 😂 #shorts''', description='''''', videoUrl="kVU3rjOmrrg", thumbnailUrl="https://i.ytimg.com/vi/kVU3rjOmrrg/maxresdefault.jpg", createdAt="2021-11-15T22:40:01Z")
+    
+    
+    
+    d94a8dbdc9ab3f4fa886158903782a1e = Video(channelId="84", title='''Blind Dating 4 Women in a Group Chat | Versus 1''', description='''Use code JUBILEE16 for up to 16 FREE MEALS + 3 Surprise Gifts across 6 HelloFresh boxes plus free shipping at https://bit.ly/3uRoYpX!
+    
+    Shop Jubilee merch! http://shop.jubileemedia.com Every purchase helps us create your favorite shows - thanks for your support!
+    
+    Follow us on INSTAGRAM: 👉https://www.instagram.com/jubileemedia/ 👈
+    Now you can watch our videos in Spanish! https://bit.ly/Suscribirse_Jubilee_ES
+    
+    SUBSCRIBE for more! http://bit.ly/SUBSCRIBEjubilee 
+    Be in a Jubilee video: http://bit.ly/JubileeCasting
+    
+    Everyone in this video was tested for COVID-19. We will continue to adhere to local guidelines and safety precautions for the health and safety of our cast and crew.
+    
+    👉 We started a second channel! Behind the scenes, director commentaries, reaction videos, and more! Check it out & subscribe to Twobilee: https://www.youtube.com/channel/UChaokX58PemxqTI3KjscjPw
+    
+    Are you a loyal Jubilee fan? Join our Facebook group: https://www.facebook.com/groups/407942859721012/
+    
+    Support Jubilee: http://www.jubileemedia.com/support
+    
+    Have an idea or a personal story you'd like to share? Submit here: https://airtable.com/shrFDrsc4DzgBV3lV
+    
+    | ABOUT |
+    We believe in the power of empathy for human good. Ultimately, we aim to inspire people to EMBRACE EMPATHY.
+    
+    | SOCIAL |
+    Jubilee Facebook: https://www.facebook.com/jubileemedia
+    Jubilee Instagram: https://www.instagram.com/jubileemedia/
+    Jubilee Twitter: https://www.twitter.com/jubileemedia
+    Jubilee Website: https://www.jubileemedia.com
+    
+    FEATURING
+    Emanuel - http://www.instagram.com/eman.g
+    Erika - http://www.instagram.com/erika_broccoli
+    Katie - http://instagram.com/_katie_vo
+    Mia - http://www.instagram.com/miasimmo
+    
+    00:00 Intro
+    00:17 Round 1: Introductions
+    03:33 Round 1: Elimination
+    04:58 Round 2: Getting Deeper
+    06:43 Round 2: Elimination
+    08:28 Round 3: Even Deeper
+    10:18 Round 3: Elimination
+    11:06 Final Reveal
+    
+    For brands interested in partnering with Jubilee, email us:
+    hello@jubileemedia.com''', videoUrl="7r6c_xCg8sM", thumbnailUrl="https://i.ytimg.com/vi/7r6c_xCg8sM/hqdefault.jpg", createdAt="2022-04-20T16:00:10Z")
+    
+    
+    
+    dd90bfda9f26f2d41d848f7b0f6d4ca3 = Video(channelId="84", title='''We're Conjoined Twins. Ask Us Anything.''', description='''Shop Jubilee merch! http://shop.jubileemedia.com Every purchase helps us create your favorite shows - thanks for your support!
+    
+    Follow us on INSTAGRAM: 👉https://www.instagram.com/jubileemedia/ 👈
+    Now you can watch our videos in Spanish! https://bit.ly/Suscribirse_Jubilee_ES
+    
+    SUBSCRIBE for more! http://bit.ly/SUBSCRIBEjubilee 
+    Be in a Jubilee video: http://bit.ly/JubileeCasting
+    
+    Everyone in this video was tested for COVID-19. We will continue to adhere to local guidelines and safety precautions for the health and safety of our cast and crew.
+    
+    👉 We started a second channel! Behind the scenes, director commentaries, reaction videos, and more! Check it out & subscribe to Twobilee: https://www.youtube.com/channel/UChaokX58PemxqTI3KjscjPw
+    
+    Are you a loyal Jubilee fan? Join our Facebook group: https://www.facebook.com/groups/407942859721012/
+    
+    Support Jubilee: http://www.jubileemedia.com/support
+    
+    Have an idea or a personal story you'd like to share? Submit here: https://airtable.com/shrFDrsc4DzgBV3lV
+    
+    | ABOUT |
+    We believe in the power of empathy for human good. Ultimately, we aim to inspire people to EMBRACE EMPATHY.
+    
+    | SOCIAL |
+    Jubilee Facebook: https://www.facebook.com/jubileemedia
+    Jubilee Instagram: https://www.instagram.com/jubileemedia/
+    Jubilee Twitter: https://www.twitter.com/jubileemedia
+    Jubilee Website: https://www.jubileemedia.com
+    
+    FEATURING
+    Carmen & Lupita: https://youtube.com/c/CarmenandLupita
+    
+    For brands interested in partnering with Jubilee, email us:
+    hello@jubileemedia.com''', videoUrl="v8bPdC5YXnA", thumbnailUrl="https://i.ytimg.com/vi/v8bPdC5YXnA/maxresdefault.jpg", createdAt="2022-04-17T16:00:25Z")
+    
+    
+    
+    d912712b6633ccab5ed9e55eaa7502c3 = Video(channelId="84", title='''Jewish Community Reads Secrets About Experiencing Antisemitism | Seeking Secrets''', description='''Content Warning: 
+    This video contains discussion or reference to sensitive topics. 
+    
+    Shop Jubilee merch! http://shop.jubileemedia.com Every purchase helps us create your favorite shows - thanks for your support!
+    
+    Follow us on INSTAGRAM: 👉https://www.instagram.com/jubileemedia/ 👈
+    Now you can watch our videos in Spanish! https://bit.ly/Suscribirse_Jubilee_ES
+    
+    SUBSCRIBE for more! http://bit.ly/SUBSCRIBEjubilee 
+    Be in a Jubilee video: http://bit.ly/JubileeCasting
+    
+    Everyone in this video was tested for COVID-19. We will continue to adhere to local guidelines and safety precautions for the health and safety of our cast and crew.
+    
+    👉 We started a second channel! Behind the scenes, director commentaries, reaction videos, and more! Check it out & subscribe to Twobilee: https://www.youtube.com/channel/UChaokX58PemxqTI3KjscjPw
+    
+    Are you a loyal Jubilee fan? Join our Facebook group: https://www.facebook.com/groups/407942859721012/
+    
+    Support Jubilee: http://www.jubileemedia.com/support
+    
+    Have an idea or a personal story you'd like to share? Submit here: https://airtable.com/shrFDrsc4DzgBV3lV
+    
+    | ABOUT |
+    We believe in the power of empathy for human good. Ultimately, we aim to inspire people to EMBRACE EMPATHY.
+    
+    | SOCIAL |
+    Jubilee Facebook: https://www.facebook.com/jubileemedia
+    Jubilee Instagram: https://www.instagram.com/jubileemedia/
+    Jubilee Twitter: https://www.twitter.com/jubileemedia
+    Jubilee Website: https://www.jubileemedia.com
+    
+    For brands interested in partnering with Jubilee, email us:
+    hello@jubileemedia.com''', videoUrl="x7Ix7WcjcFM", thumbnailUrl="https://i.ytimg.com/vi/x7Ix7WcjcFM/maxresdefault.jpg", createdAt="2022-04-15T17:00:23Z")
+    
+    
+    
+    dc5e6952349575cfb950e5c93c52ee5a = Video(channelId="84", title='''Recipe for Change: Standing Up to Antisemitism with Idina Menzel, Ilana Glazer & Moshe Kasher''', description='''Dinner, Discussions & Jewish identity. 
+	    
+    In “Recipe for Change: Standing Up to Antisemitism,” hosts Idina Menzel, Ilana Glazer & Moshe Kasher are joined by Skylar Astin, Michael Ian Black, Rachel Bloom, Rabbi Sharon Brous, Tommy Dorfman, Alex Edelman, Hannah Einbinder, Jordan Firstman, Lori Gottlieb, Bryan Greenberg, ADL CEO Jonathan Greenblatt, Hari Nef, Josh Peck, Zac Posen, Ruth Reichl, Rachel Sumekh, and Michael Zegen for some amazing meals and timely chat. Together they celebrate their Jewish heritage, identity, & culture, and discuss the rise of antisemitism and its effects on the Jewish community. While they engage in their discourse, they also dine on delicious dinners prepared by esteemed chefs Nancy Silverton and Einat Admony, and culinary historian Michael Twitty. Rachel Dratch also joins the special episode as an on-the-street reporter, speaking with Jewish people and allies in New York City.
+    Don’t just take a seat at the table; take a stand.
+    
+    0:00 Intro
+    1:24 The Three Dinners
+    3:32 Shabbat Dinner Begins: Appetizers
+    6:24 The Tray Of Scrolls
+    9:47 Jewish Identity
+    14:05 Person On The Street Interviews
+    17:18 Jewish Stereotypes
+    23:05 Skylar Astin Talks Judaism
+    25:44 Entrees Are Served
+    28:18 Experiencing Anti-Semitism
+    37:10 Reading Cards
+    39:26 Could The Holocaust Happen Again?
+    44:15 Proud To Be Jewish
+    47:33 Dessert Is Served
+    49:25 Decorating A Mezuzah''', videoUrl="dj-pWmsOIyQ", thumbnailUrl="https://i.ytimg.com/vi/dj-pWmsOIyQ/hqdefault.jpg", createdAt="2022-04-14T16:00:02Z")
+    
+    
+    
+    d6b361f529e98a2fd3c19dd6a10d7d79 = Video(channelId="84", title='''Blind Dating 6 Women Based on Their Tattoos | Versus 1''', description='''Shop Jubilee merch! http://shop.jubileemedia.com Every purchase helps us create your favorite shows - thanks for your support!
+    
+    Follow us on INSTAGRAM: 👉https://www.instagram.com/jubileemedia/ 👈
+    Now you can watch our videos in Spanish! https://bit.ly/Suscribirse_Jubilee_ES
+    
+    SUBSCRIBE for more! http://bit.ly/SUBSCRIBEjubilee 
+    Be in a Jubilee video: http://bit.ly/JubileeCasting
+    
+    Everyone in this video was tested for COVID-19. We will continue to adhere to local guidelines and safety precautions for the health and safety of our cast and crew.
+    
+    👉 We started a second channel! Behind the scenes, director commentaries, reaction videos, and more! Check it out & subscribe to Twobilee: https://www.youtube.com/channel/UChaokX58PemxqTI3KjscjPw
+    
+    Are you a loyal Jubilee fan? Join our Facebook group: https://www.facebook.com/groups/407942859721012/
+    
+    Support Jubilee: http://www.jubileemedia.com/support
+    
+    Have an idea or a personal story you'd like to share? Submit here: https://airtable.com/shrFDrsc4DzgBV3lV
+    
+    | ABOUT |
+    We believe in the power of empathy for human good. Ultimately, we aim to inspire people to EMBRACE EMPATHY.
+    
+    | SOCIAL |
+    Jubilee Facebook: https://www.facebook.com/jubileemedia
+    Jubilee Instagram: https://www.instagram.com/jubileemedia/
+    Jubilee Twitter: https://www.twitter.com/jubileemedia
+    Jubilee Website: https://www.jubileemedia.com
+    
+    FEATURING
+    Jalissa - https://instagram.com/jalissaaxox 
+    Carmen - https://instagram.com/carmenmartinich
+    Akanksha - https://www.instagram.com/bombay_satire/
+    Mindy - https://www.instagram.com/mindyleannee/
+    Kenia - https://www.instagram.com/_keniaibarra/
+    
+    00:00 Intro
+    00:42 Round 1: No Talking
+    03:02 Round 1: Elimination
+    03:30 Round 2: Q&A
+    05:50 Round 2: Elimination
+    06:50 Round 3: Conversations
+    10:18 Round 3: Eliminations
+    11:22 Final Reveal
+    
+    For brands interested in partnering with Jubilee, email us:
+    hello@jubileemedia.com''', videoUrl="JyiR3OqHYRQ", thumbnailUrl="https://i.ytimg.com/vi/JyiR3OqHYRQ/hqdefault.jpg", createdAt="2022-04-13T16:00:10Z")
+    
+    
+    
+    d91d2c0b4eea0e130c75e83bd714e13d = Video(channelId="84", title='''Who Wins Money Game? | Money Game FINALE''', description='''How much would $300,000 change your life? How far would you go for a chance to win it all? 8 Strangers have agreed to live in this facility isolated into separate cells for 10 days. They will share a pool of money to survive and whatever they don't spend they keep. NEW EPISODE next Monday!
+    
+    *Inspired by the webcomic “Money Game” you can read the original story on WEBTOON.
+    https://bit.ly/3w6owWQ
+    
+    Shop Jubilee merch! http://shop.jubileemedia.com Every purchase helps us create your favorite shows - thanks for your support!
+    
+    Follow us on INSTAGRAM: 👉https://www.instagram.com/jubileemedia/ 👈
+    Now you can watch our videos in Spanish! https://bit.ly/Suscribirse_Jubilee_ES
+    
+    SUBSCRIBE for more! http://bit.ly/SUBSCRIBEjubilee 
+    Be in a Jubilee video: http://bit.ly/JubileeCasting
+    
+    Everyone in this video was tested for COVID-19. We will continue to adhere to local guidelines and safety precautions for the health and safety of our cast and crew.
+    
+    👉 We started a second channel! Behind the scenes, director commentaries, reaction videos, and more! Check it out & subscribe to Twobilee: https://www.youtube.com/channel/UChaokX58PemxqTI3KjscjPw
+    
+    Are you a loyal Jubilee fan? Join our Facebook group: https://www.facebook.com/groups/407942859721012/
+    
+    Support Jubilee: http://www.jubileemedia.com/support
+    
+    Have an idea or a personal story you'd like to share? Submit here: https://airtable.com/shrFDrsc4DzgBV3lV
+    
+    | ABOUT |
+    We believe in the power of empathy for human good. Ultimately, we aim to inspire people to EMBRACE EMPATHY.
+    
+    | SOCIAL |
+    Jubilee Facebook: https://www.facebook.com/jubileemedia
+    Jubilee Instagram: https://www.instagram.com/jubileemedia/
+    Jubilee Twitter: https://www.twitter.com/jubileemedia
+    Jubilee Website: https://www.jubileemedia.com
+    
+    For brands interested in partnering with Jubilee, email us:
+    hello@jubileemedia.com''', videoUrl="up39zFKGw_U", thumbnailUrl="https://i.ytimg.com/vi/up39zFKGw_U/maxresdefault.jpg", createdAt="2022-04-11T16:00:24Z")
+    
+    
+    
+    d86cce35218cbe5b73cc37fce5377078 = Video(channelId="84", title='''I'm the Son of a Billionaire. Ask Me Anything.''', description='''Shop Jubilee merch! http://shop.jubileemedia.com Every purchase helps us create your favorite shows - thanks for your support!
+    
+    Follow us on INSTAGRAM: 👉https://www.instagram.com/jubileemedia/ 👈
+    Now you can watch our videos in Spanish! https://bit.ly/Suscribirse_Jubilee_ES
+    
+    SUBSCRIBE for more! http://bit.ly/SUBSCRIBEjubilee 
+    Be in a Jubilee video: http://bit.ly/JubileeCasting
+    
+    Everyone in this video was tested for COVID-19. We will continue to adhere to local guidelines and safety precautions for the health and safety of our cast and crew.
+    
+    👉 We started a second channel! Behind the scenes, director commentaries, reaction videos, and more! Check it out & subscribe to Twobilee: https://www.youtube.com/channel/UChaokX58PemxqTI3KjscjPw
+    
+    Are you a loyal Jubilee fan? Join our Facebook group: https://www.facebook.com/groups/407942859721012/
+    
+    Support Jubilee: http://www.jubileemedia.com/support
+    
+    Have an idea or a personal story you'd like to share? Submit here: https://airtable.com/shrFDrsc4DzgBV3lV
+    
+    | ABOUT |
+    We believe in the power of empathy for human good. Ultimately, we aim to inspire people to EMBRACE EMPATHY.
+    
+    | SOCIAL |
+    Jubilee Facebook: https://www.facebook.com/jubileemedia
+    Jubilee Instagram: https://www.instagram.com/jubileemedia/
+    Jubilee Twitter: https://www.twitter.com/jubileemedia
+    Jubilee Website: https://www.jubileemedia.com
+    
+    FEATURING
+    https://www.instagram.com/bobbymisner/
+    
+    For brands interested in partnering with Jubilee, email us:
+    hello@jubileemedia.com''', videoUrl="UlNiK2mgyPY", thumbnailUrl="https://i.ytimg.com/vi/UlNiK2mgyPY/maxresdefault.jpg", createdAt="2022-04-10T16:00:23Z")
+    
+    
+    
+    d339afae3021213dd2f8d83218f5fddc = Video(channelId="84", title='''Blind Dating 5 Guys Based on Their Tattoos | Versus 1''', description='''Shop Jubilee merch! http://shop.jubileemedia.com Every purchase helps us create your favorite shows - thanks for your support!
+    
+    Follow us on INSTAGRAM: 👉https://www.instagram.com/jubileemedia/ 👈
+    Now you can watch our videos in Spanish! https://bit.ly/Suscribirse_Jubilee_ES
+    
+    SUBSCRIBE for more! http://bit.ly/SUBSCRIBEjubilee 
+    Be in a Jubilee video: http://bit.ly/JubileeCasting
+    
+    Everyone in this video was tested for COVID-19. We will continue to adhere to local guidelines and safety precautions for the health and safety of our cast and crew.
+    
+    👉 We started a second channel! Behind the scenes, director commentaries, reaction videos, and more! Check it out & subscribe to Twobilee: https://www.youtube.com/channel/UChaokX58PemxqTI3KjscjPw
+    
+    Are you a loyal Jubilee fan? Join our Facebook group: https://www.facebook.com/groups/407942859721012/
+    
+    Support Jubilee: http://www.jubileemedia.com/support
+    
+    Have an idea or a personal story you'd like to share? Submit here: https://airtable.com/shrFDrsc4DzgBV3lV
+    
+    | ABOUT |
+    We believe in the power of empathy for human good. Ultimately, we aim to inspire people to EMBRACE EMPATHY.
+    
+    | SOCIAL |
+    Jubilee Facebook: https://www.facebook.com/jubileemedia
+    Jubilee Instagram: https://www.instagram.com/jubileemedia/
+    Jubilee Twitter: https://www.twitter.com/jubileemedia
+    Jubilee Website: https://www.jubileemedia.com
+    
+    FEATURING
+    Ali - https://www.instagram.com/chubbiebunnies
+    David - https://www.instagram.com/d_escofit
+    Roy - https://www.instagram.com/the.roynextdoor
+    Zachery - https://www.instagram.com/zacheryowagner
+    Nico - https://www.instagram.com/nicodead2me
+    Alec - https://instagram.com/eleanor_darkness
+    
+    00:00 Intro
+    00:55 Round 1: No Talking
+    03:07 Round 1: Elimination
+    03:37 Round 2: Q&A
+    05:32 Round 2: Elimination
+    06:06 Round 3: Conversations
+    07:23 Round 3: Elimination
+    08:13 Final Reveal
+    
+    For brands interested in partnering with Jubilee, email us:
+    hello@jubileemedia.com''', videoUrl="uMrlHELdYeo", thumbnailUrl="https://i.ytimg.com/vi/uMrlHELdYeo/maxresdefault.jpg", createdAt="2022-04-06T16:00:28Z")
+    
+    
+    
+    d4308f3269e715a6d61e9700fb88f892 = Video(channelId="84", title='''The Most Dramatic Eliminations Yet | Money Game Ep. 4''', description='''How much would $300,000 change your life? How far would you go for a chance to win it all? 8 Strangers have agreed to live in this facility isolated into separate cells for 10 days. They will share a pool of money to survive and whatever they don't spend they keep. NEW EPISODE next Monday!
+    
+    *Inspired by the webcomic “Money Game” you can read the original story on WEBTOON.
+    https://bit.ly/3w6owWQ
+    
+    Shop Jubilee merch! http://shop.jubileemedia.com Every purchase helps us create your favorite shows - thanks for your support!
+    
+    Follow us on INSTAGRAM: 👉https://www.instagram.com/jubileemedia/ 👈
+    Now you can watch our videos in Spanish! https://bit.ly/Suscribirse_Jubilee_ES
+    
+    SUBSCRIBE for more! http://bit.ly/SUBSCRIBEjubilee 
+    Be in a Jubilee video: http://bit.ly/JubileeCasting
+    
+    Everyone in this video was tested for COVID-19. We will continue to adhere to local guidelines and safety precautions for the health and safety of our cast and crew.
+    
+    👉 We started a second channel! Behind the scenes, director commentaries, reaction videos, and more! Check it out & subscribe to Twobilee: https://www.youtube.com/channel/UChaokX58PemxqTI3KjscjPw
+    
+    Are you a loyal Jubilee fan? Join our Facebook group: https://www.facebook.com/groups/407942859721012/
+    
+    Support Jubilee: http://www.jubileemedia.com/support
+    
+    Have an idea or a personal story you'd like to share? Submit here: https://airtable.com/shrFDrsc4DzgBV3lV
+    
+    | ABOUT |
+    We believe in the power of empathy for human good. Ultimately, we aim to inspire people to EMBRACE EMPATHY.
+    
+    | SOCIAL |
+    Jubilee Facebook: https://www.facebook.com/jubileemedia
+    Jubilee Instagram: https://www.instagram.com/jubileemedia/
+    Jubilee Twitter: https://www.twitter.com/jubileemedia
+    Jubilee Website: https://www.jubileemedia.com
+    
+    For brands interested in partnering with Jubilee, email us:
+    hello@jubileemedia.com''', videoUrl="OSpJSyeSugk", thumbnailUrl="https://i.ytimg.com/vi/OSpJSyeSugk/hqdefault.jpg", createdAt="2022-04-04T16:00:22Z")
+    
+    
+    
+    d1d6b37e42d8e412ba17e0629719e39c = Video(channelId="84", title='''10 Guys Choose Who She Dates | Versus 1''', description='''Shop Jubilee merch! http://shop.jubileemedia.com Every purchase helps us create your favorite shows - thanks for your support!
+    
+    Follow us on INSTAGRAM: 👉https://www.instagram.com/jubileemedia/ 👈
+    Now you can watch our videos in Spanish! https://bit.ly/Suscribirse_Jubilee_ES
+    
+    SUBSCRIBE for more! http://bit.ly/SUBSCRIBEjubilee 
+    Be in a Jubilee video: http://bit.ly/JubileeCasting
+    
+    Everyone in this video was tested for COVID-19. We will continue to adhere to local guidelines and safety precautions for the health and safety of our cast and crew.
+    
+    👉 We started a second channel! Behind the scenes, director commentaries, reaction videos, and more! Check it out & subscribe to Twobilee: https://www.youtube.com/channel/UChaokX58PemxqTI3KjscjPw
+    
+    Are you a loyal Jubilee fan? Join our Facebook group: https://www.facebook.com/groups/407942859721012/
+    
+    Support Jubilee: http://www.jubileemedia.com/support
+    
+    Have an idea or a personal story you'd like to share? Submit here: https://airtable.com/shrFDrsc4DzgBV3lV
+    
+    | ABOUT |
+    We believe in the power of empathy for human good. Ultimately, we aim to inspire people to EMBRACE EMPATHY.
+    
+    | SOCIAL |
+    Jubilee Facebook: https://www.facebook.com/jubileemedia
+    Jubilee Instagram: https://www.instagram.com/jubileemedia/
+    Jubilee Twitter: https://www.twitter.com/jubileemedia
+    Jubilee Website: https://www.jubileemedia.com
+    
+    FEATURING
+    Mabel - https://www.instagram.com/mabelioo/
+    Ricky - https://instagram.com/halfricky
+    Ryan - https://instagram.com/Ff_shai09
+    Al - https://instagram.com/almirzania
+    Cameron - https://instagram.com/cam.ahy
+    William - https://instagram.com/astrojenkins1
+    Dane - https://instagram.com/dane_kunes
+    Tailand - https://www.instagram.com/kaveeonnn/
+    Jether - https://www.instagram.com/jetherpalomo/
+    Daniel - https://www.instagram.com/thelofistudyguy/
+    
+    00:00 Intro
+    00:37 Round 1: Swiping
+    00:57 Round 2: Cocktail Hour
+    03:56 Round 2: Deliberation
+    05:08 Round 3: One-On-Ones
+    08:52 Round 3: Final Pick
+    09:04 Final Reveal
+    
+    For brands interested in partnering with Jubilee, email us:
+    hello@jubileemedia.com''', videoUrl="8MWJmAqeSiw", thumbnailUrl="https://i.ytimg.com/vi/8MWJmAqeSiw/maxresdefault.jpg", createdAt="2022-03-30T16:00:05Z")
+    
+    
+    
+    d0872fa695ce0bae4bd4dcbd9904f8b6 = Video(channelId="78", title='''Easiest way to make EDM Chord Progressions without Music Theory''', description='''How to make good chord progressions is REALLY EASY.
+    In a couple of steps I show you how to make chords without music theory.
+    
+    Music theory is hard, but you can start music production and learn music theory along the way.
+    In this video I talk specifically about chords and chord progressions.
+    I show you everything in Studio One, but it works basically the same way in every DAW.
+    
+    Chord progressions theory is actually quite simple for basic chord triad.
+    A basic chord in major or minor scale has:
+    - a root note (step 1)
+    - a "upper" note (step 5 = 7 semitones up_
+    - a "middle"note
+    
+    
+    🎹 MIDI CHORDS PACK: 
+    https://www.dexxterclark.com/midi-chords-pack
+    NOW 20% off with code: yvd678
+    
+    
+    🔴 RECOMMENDED VIDEOS/PLAYLISTS:
+    🎥VIDEO: 
+    🎥VIDEO: 
+    🎥VIDEO: 
+    🎥 LIST: Recommended videos: https://www.youtube.com/playlist?list=PL-o07qhpuelxhmAwg27FEDjiTMWLHHUzv
+    
+    
+    🔴 *** MY PRODUCTS & GUIDES *** 
+    📘 YOUTUBE BEGINNERS E-BOOK (50% off with code wbt263): https://www.socialvideoplaza.com/book-tube
+    🎓 ALL EBOOKS, COURSES & COACHING: https://www.socialvideoplaza.com/en/products
+    👕 LIKE & SUBSCRIBE MERCH: https://www.socialvideoplaza.com/en/products
+    📘 FREE GUIDE TO MAKE MONEY ON YOUTUBE: https://www.socialvideoplaza.com/en/free-tube-ebook
+    ❤️ YOUTUBE EQUIPMENT I USE: https://www.socialvideoplaza.com/en/recommended-equipment
+    🌎 FREE templates, checklists, examples: https://www.socialvideoplaza.com/en/downloads
+    
+    
+    💡 TOPICS IN THIS VIDEO 💡
+    • music production tips
+    • make good chord progressions
+    • chord progression EDM
+    • how to make chords
+    
+    
+    🔴 *** MY SOCALS ***
+    ✅ Patreon: https://www.patreon.com/dexxterclark
+    ✅ Personal website: https://www.dexxterclark.com
+    ✅ Instagram: https://instagram.com/dexxterclark
+    ✅ Twitter: https://twitter.com/dexxterclark
+    
+    
+    🔴 *** ABOUT ME ***
+    My name is Dexxter Clark from The Netherlands.
+    I've been on YouTube since 2010 but got serious in 2017 with my YouTube channel about DJing in 2017.
+    My background is in software engineering, theatre and a local television station.
+    Over the years I've experimented with multiple YouTube channels, so now I can advice starters.
+    
+    🔴 *** ABOUT THIS CHANNEL ***
+    Social Video PLaza channel is all about helping YouTube creators with YouTube tips and tricks to succeed with their YouTube channel.
+    I talk about how to start an online business (with the help of YouTube) and earn passive income.
+    Click here to subscribe: https://www.youtube.com/channel/UC6Mrc73KE_rDeqMKvti1TXQ?sub_confirmation=1
+    
+    🔴 *** DISCLAIMER ***
+    Links included in this description might be affiliate links. If you purchase a product or service with the links that I provide I may receive a small commission. There is no additional charge to you!
+    I'm not a legal or financial professional. I'm not in a position to give you legal or financial advice.
+    Always consult a legal or financial professional before making any decisions.
+    
+    🔎 HASHTAGS
+    #chordprogression''', videoUrl="fqSsk4tP4V4", thumbnailUrl="https://i.ytimg.com/vi/fqSsk4tP4V4/maxresdefault.jpg", createdAt="2021-11-06T17:15:04Z")
+    
+    
+    
+    dbf3f38d936d20d1d09ac3c97591acb6 = Video(channelId="78", title='''Why Studio One is the best DAW – my top 10 features''', description='''Top 10 best studio one best features - why Studio One is the best DAW!
+    
+    Studio One is music production software developed by Presonus.
+    My top 10 features:
+    -tempo
+    -timeline
+    -audio editing
+    -plugins / VSTs
+    -Recording audio
+    -sidechaining
+    -automation
+    -browser
+    -duplicate track
+    -scratchpad
+    
+    
+    🎹 MIDI CHORD PACK: 
+    https://www.dexxterclark.com/midi-chords-pack
+    NOW 20% off with code: yvd678
+    
+    🔴 VIDEOS THAT I TALKED ABOUT
+    🎥 Video about ...
+    
+    
+    💡 TOPICS IN THIS VIDEO 💡
+    • Presonus Studio One 
+    • Studio One tutorial
+    • studio one features
+    • Studio one best features
+    
+    
+    🎵 GENRES 🎵
+    • Electronic Music
+    • EDM
+    • Electro House
+    • Big Room
+    • Dance Music
+    • Techno
+    • Tech House
+    • Beats
+    
+    
+    🔴 *** SEE ALSO ***
+    🎓 my CDJ 2000 COURSE: http://www.dexxterclark.com/course-cdj 
+    📘 DOWNLOAD my FREE dj producer ebook: https://www.dexxterclark.com/free-ebook-truth-about-djing
+    🌎 HOW-TO-GROW-ON-YOUTUBE YOUTUBE CHANNEL: https://www.youtube.com/channel/UC6Mrc73KE_rDeqMKvti1TXQ
+    📘 HOW-TO-GROW-ON-YOUTUBE BOOK: https://www.socialvideoplaza.com/book-tube
+    🌎 HOW-TO-GROW-ON-YOUTUBE BLOG: https://www.socialvideoplaza.com
+    🌎 MUSIC PRODUCTION BLOG: https://www.learnhowtoproducemusic.com
+    👕 DJ PRODUCER MERCHANDISE: https://www.dexxterclark.com/dj-merchandise
+    ❤️ HELP ME TO MAKE FREE VIDEOS: https://www.dexxterclark.com/donate
+    
+    🔴 *** BE MY FRIEND ***
+    ✅ Patreon: https://www.patreon.com/dexxterclark
+    ✅ Website: https://www.dexxterclark.com
+    ✅ Instagram: https://instagram.com/dexxterclark
+    ✅ Twitter: https://twitter.com/dexxterclark
+    
+    
+    🔴 RECOMMENDED VIDEOS/PLAYLISTS
+    🎥 Music production videos: https://www.youtube.com/playlist?list=PLO0we5bJUGNJeI5hne-bkX2toADpV2o5O
+    🎥 Best free DAW videos: https://www.youtube.com/playlist?list=PLO0we5bJUGNKfh3PRHPO9BhQAXVkjB2Fe
+    
+    DISCLAIMER: Links included in this description might be affiliate links. If you purchase a product or service with the links that I provide I may receive a small commission. There is no additional charge to you!
+    
+    
+    🔎 HASHTAGS
+    #studioone
+    #bestdaw''', videoUrl="MH9G0yaB5Wo", thumbnailUrl="https://i.ytimg.com/vi/MH9G0yaB5Wo/maxresdefault.jpg", createdAt="2021-10-02T16:15:01Z")
+    
+    
+    
+    df9e88a3bfa561bbefd26e39fc69faa6 = Video(channelId="78", title='''Easiest way to write an EDM melody for beginners''', description='''How to make a melody, by far the easiest way!
+    I talk about what makes a great melody and how you can create one yourself using Studio One.
+    
+    There are a couple of ways to write a melody.
+    1) you can start with the melody and then put chords and drums under it.
+    The downside to this method is, is that it takes some time as a beginner to figure out which chords.
+    2) you can start with the chords, then put a melody over it based on the chord progression. And add the drum later
+    3) you start with the drum pattern and then do one of the two above.
+    
+    Your chords and melody have to be in the same key, otherwise it sounds ugly
+	    • hum a melody
+	    • drag and drop notes
+    
+    melody consists of pitch and rythm.
+    If you have trouble getting a good rhythm,  break up the chords
+    Repetition but with a variation
+    
+    Ninja tips:
+	    • don’t space the notes too far apart
+	    • long and short nots
+	    • tension, last chord need to resolved in the first
+	    • velocity
+    
+    
+    🎹 MIDI CHORD PACK: 
+    https://www.dexxterclark.com/midi-chords-pack
+    NOW 20% off with code: yvd678
+    
+    
+    🔴 RECOMMENDED VIDEOS/PLAYLISTS:
+    🎥VIDEO: song structure: https://youtu.be/L5j67gjMfZg
+    🎥VIDEO: easiest way to make a chord progression: https://youtu.be/fqSsk4tP4V4
+    🎥VIDEO: music production beginners tutorial: https://youtu.be/JESPCnl2ZGA
+    
+    
+    🔴 *** MY PRODUCTS & GUIDES *** 
+    📘 YOUTUBE BEGINNERS E-BOOK (50% off with code wbt263): https://www.socialvideoplaza.com/book-tube
+    🎓 ALL EBOOKS, COURSES & COACHING: https://www.socialvideoplaza.com/en/products
+    👕 LIKE & SUBSCRIBE MERCH: https://www.socialvideoplaza.com/en/products
+    📘 FREE GUIDE TO MAKE MONEY ON YOUTUBE: https://www.socialvideoplaza.com/en/free-tube-ebook
+    ❤️ YOUTUBE EQUIPMENT I USE: https://www.socialvideoplaza.com/en/recommended-equipment
+    🌎 FREE templates, checklists, examples: https://www.socialvideoplaza.com/en/downloads
+    
+    
+    💡 TOPICS IN THIS VIDEO 💡
+    • how to make melody without music theory 
+    • how to make a melody for beginners 
+    • how to make a melody in studio one
+    • how to make a melody with chords
+    • How to make a melody without music theory
+    
+    
+    🔴 *** MY SOCALS ***
+    ✅ SECONDARY CHANNEL with short form YouTube tips: https://www.youtube.com/channel/UCjLYpd8zPw3khILpl-Q3fkg
+    ✅ TERTIARY CHANNEL with YouTube livestreams: https://www.youtube.com/channel/UCU53PyEUoJDOtuqF1rkWFPg
+    🌎 YouTube creator blog: https://www.socialvideoplaza.com
+    ✅ Patreon: https://www.patreon.com/dexxterclark
+    ✅ Personal website: https://www.dexxterclark.com
+    ✅ Instagram: https://instagram.com/dexxterclark
+    ✅ Twitter: https://twitter.com/dexxterclark
+    
+    
+    🔴 *** ABOUT ME ***
+    My name is Dexxter Clark from The Netherlands.
+    I've been on YouTube since 2010 but got serious in 2017 with my YouTube channel about DJing in 2017.
+    My background is in software engineering, theatre and a local television station.
+    Over the years I've experimented with multiple YouTube channels, so now I can advice starters.
+    
+    🔴 *** ABOUT THIS CHANNEL ***
+    Social Video PLaza channel is all about helping YouTube creators with YouTube tips and tricks to succeed with their YouTube channel.
+    I talk about how to start an online business (with the help of YouTube) and earn passive income.
+    Click here to subscribe: https://www.youtube.com/channel/UC6Mrc73KE_rDeqMKvti1TXQ?sub_confirmation=1
+    
+    🔴 *** DISCLAIMER ***
+    Links included in this description might be affiliate links. If you purchase a product or service with the links that I provide I may receive a small commission. There is no additional charge to you!
+    I'm not a legal or financial professional. I'm not in a position to give you legal or financial advice.
+    Always consult a legal or financial professional before making any decisions.
+    
+    🔎 HASHTAGS
+    #melody''', videoUrl="_S22emVytTs", thumbnailUrl="https://i.ytimg.com/vi/_S22emVytTs/hqdefault.jpg", createdAt="2021-09-04T16:15:01Z")
+    
+    
+    
+    d53684ec21bfac609a15296bc2802f9c = Video(channelId="78", title='''Complete Studio One 5 tutorial for beginners – no knowledge assumed''', description='''Welcome to this Studio One beginner tutorial for beginners.
+    Within 18 minutes I will make you a pro.
+    
+    Studio One is the best DAW for music production.
+    
+    
+    🎹 MIDI CHORD PACK: 
+    https://www.dexxterclark.com/midi-chords-pack
+    NOW 20% off with code: yvd678
+    
+    
+    🔴 RECOMMENDED VIDEOS/PLAYLISTS
+    🎥 Studio One tutorials: https://www.youtube.com/playlist?list=PLO0we5bJUGNLdMz-LuO2bHa7TpCY3I2jF
+    
+    
+    
+    ★ TABLE OF CONTENTS ★
+    • 0:00 Studio One tutorial: start screen
+    • 1:05 open Studio One song file
+    • 1:29 screen elements of Studio One
+    • 3:03 Save project / save to new location
+    • 4:00 timeline
+    • 7:51 mouse tools / quantize snapping
+    • 11:30 Browser
+    • 14:41 Editor
+    • 15:56 Inspector & track list
+    • 16:56 Export to WAV or MP3
+    
+    
+    💡 TOPICS IN THIS VIDEO 💡
+    • studio one tutorial
+    • presonus studio one
+    • studio one for beginners
+    
+    
+    
+    🔴 *** SEE ALSO ***
+    🎓 my CDJ 2000 COURSE: http://www.dexxterclark.com/course-cdj 
+    📘 DOWNLOAD my FREE dj producer ebook: https://www.dexxterclark.com/free-ebook-truth-about-djing
+    🌎 MUSIC PRODUCTION BLOG: https://www.learnhowtoproducemusic.com
+    👕 DJ PRODUCER MERCHANDISE: https://www.dexxterclark.com/dj-merchandise
+    ❤️ HELP ME TO MAKE FREE VIDEOS: https://www.dexxterclark.com/donate
+    
+    🔴 *** BE MY FRIEND ***
+    ✅ Patreon: https://www.patreon.com/dexxterclark
+    ✅ Website: https://www.dexxterclark.com
+    ✅ Instagram: https://instagram.com/dexxterclark
+    ✅ Twitter: https://twitter.com/dexxterclark
+    
+    DISCLAIMER: Links included in this description might be affiliate links. If you purchase a product or service with the links that I provide I may receive a small commission. There is no additional charge to you!
+    
+    🔎 HASHTAGS
+    #studioone
+    #presonus
+    #presonusstudioone''', videoUrl="zOAt5nDDGos", thumbnailUrl="https://i.ytimg.com/vi/zOAt5nDDGos/maxresdefault.jpg", createdAt="2021-08-06T16:15:01Z")
+    
+    
+    
+    df66f50f8937f4e6ce0ac8683b6551a1 = Video(channelId="78", title='''Pros say: THIS is the best DAW for music production 2022''', description='''What is the best DAW for music production according to 2246 music producers?
+    But what music making software works for others, might not be the best daw for beginners, in this video you'll find out.
+    
+    Music production software is an essential piece of kit for every music producer.
+    Best software for music production is the software that you can work the most comfortable with.
+    
+    🎥 MY YOUTUBE ADVICE CHANNEL: https://www.youtube.com/channel/UC6Mrc73KE_rDeqMKvti1TXQ
+    
+    🔴 VIDEOS THAT I TALKED ABOUT
+    🎥 Best 100% Free DAWs: https://youtu.be/zLHZTZEqiwM
+    
+    🎹 MIDI CHORD PACK: 
+    https://www.dexxterclark.com/midi-chords-pack
+    NOW 20% off with code: yvd678
+    
+    ★ TABLE OF CONTENTS ★
+    • 0:00 #6
+    • 0:46 #5
+    • 2:13 #5
+    • 3:25 #4
+    • 3:41 #4
+    • 4:30 audio editors
+    • 4:49 #3
+    • 6:41 #2
+    • 9:04 #1 
+    
+    ★ DAWs in this video ★
+    • Pro Tools
+    • Cakewalk by Bandlab
+    • Apple Logic Pro X
+    • Steinberg Cubase
+    • Presonus Studio One
+    • Ableton Live
+    • Image Line FL Studio
+    
+    💡 TOPICS IN THIS VIDEO 💡
+    • Digital audio workstation
+    • Music production
+    • best daw for beginners
+    • music making software
+    • what is the best daw for beginners
+    • what software for music production
+    
+    🎵 GENRES 🎵
+    • Electronic Music
+    • EDM
+    • Electro House
+    • Big Room
+    • Dance Music
+    • Techno
+    • Tech House
+    • Beats
+    
+    
+    🔴 *** SEE ALSO ***
+    🎓 my CDJ 2000 COURSE: http://www.dexxterclark.com/course-cdj 
+    📘 DOWNLOAD my FREE dj producer ebook: https://www.dexxterclark.com/free-ebook-truth-about-djing
+    🌎 HOW-TO-GROW-ON-YOUTUBE YOUTUBE CHANNEL: https://www.youtube.com/channel/UC6Mrc73KE_rDeqMKvti1TXQ
+    📘 HOW-TO-GROW-ON-YOUTUBE BOOK: https://www.socialvideoplaza.com/book-tube
+    🌎 HOW-TO-GROW-ON-YOUTUBE BLOG: https://www.socialvideoplaza.com
+    🌎 MUSIC PRODUCTION BLOG: https://www.learnhowtoproducemusic.com
+    👕 DJ PRODUCER MERCHANDISE: https://www.dexxterclark.com/dj-merchandise
+    ❤️ HELP ME TO MAKE FREE VIDEOS: https://www.dexxterclark.com/donate
+    
+    🔴 *** BE MY FRIEND ***
+    ✅ Patreon: https://www.patreon.com/dexxterclark
+    ✅ Website: https://www.dexxterclark.com
+    ✅ Instagram: https://instagram.com/dexxterclark
+    ✅ Twitter: https://twitter.com/dexxterclark
+    
+    
+    DISCLAIMER: Links included in this description might be affiliate links. If you purchase a product or service with the links that I provide I may receive a small commission. There is no additional charge to you!
+    
+    🔎 HASHTAGS
+    #daw
+    #bestdaw
+    #musicproduction''', videoUrl="yPeCu7Yl4QU", thumbnailUrl="https://i.ytimg.com/vi/yPeCu7Yl4QU/hqdefault.jpg", createdAt="2021-07-08T15:15:03Z")
+    
+    
+    
+    d62b3b0e1aae17cda61d4966f2e4c635 = Video(channelId="78", title='''Best computer for music production 2022''', description='''What is the best computer for music production?
+    I decided to build my own PC from scratch.
+    In this video I'll show you the components to buy for the best computer music production.
+    
+    Most important for music production are CPU and memory.
+    A powerful CPU is especially important for synthesizers.
+    When you use a lot of sample based instruments, you need also a lot of RAM memory.
+    
+    
+    53LPVQLMQQEWRT
+    #50LPEETYUDRUOEXTR
+    
+    
+    The weird codes in title, description and thumbnail are a test for my YouTube Advice channel: https://www.youtube.com/channel/UC6Mrc73KE_rDeqMKvti1TXQ
+    
+    🌎 my YOUTUBE ADVICE CHANNEL: https://www.youtube.com/channel/UC6Mrc73KE_rDeqMKvti1TXQ
+    
+    
+    🔴 COMPONENTS + AMAZON LINKS (affiliate links)
+    • Motherboard: Asus Prime X299-A II: https://amzn.to/3m7Yw5P
+    • Processor: Intel Core i9-10900X (socket 2066): https://amzn.to/2KzlUuS
+    • CPU cooler: Coolermaster Masterair MA620P: https://amzn.to/3fzMvDL
+    • RAM: 4x DDR4 Kingston HyperX RGB 8GB: https://amzn.to/37gs1w6 (packed per 2)
+    • Storage: Hard Disk: 3,5" S-ATAIII 3TB / 7200 rpm / Toshiba P300: https://amzn.to/39l0gF4
+    • Storage: SSD: M.2 250GB Kingston A2000: https://amzn.to/2JfdloA
+    • Graphics card: RTX 3080 (not in the video): https://amzn.to/2V1U50b
+    • Power supply: 1000W Be Quiet Power Zone (not in de video): https://amzn.to/3q5R8tO
+    • Case: Corsair iCue 4000X RGB: https://amzn.to/3q4I1JW
+    • Monitor: widescreen
+    
+    🔴 VIDEOS/SITES THAT I TALKED ABOUT
+    🌎 my YOUTUBE ADVICE CHANNEL: https://www.youtube.com/channel/UC6Mrc73KE_rDeqMKvti1TXQ
+    🎥 best computer for Youtube (on my youtube advice channel): https://youtu.be/10eO6oq9UlI
+    🌎 my youtube advice channel: https://www.youtube.com/channel/UC6Mrc73KE_rDeqMKvti1TXQ
+    🎥 video cpus for music: https://youtu.be/JomWrhmQk18
+    🎥 video AMD or intel: https://youtu.be/Pfbt3-qOwro
+    🎥 video windows or mac: https://youtu.be/EAPfEunmiy0
+    🌎 Single core speed vs more cores: Forum Image line: 
+    https://support.image-line.com/action/knowledgebase?ans=214
+    
+    ★ TABLE OF CONTENTS ★
+    • 0:00 intro best computer for music production
+    • 0:20 Motherboard - Asus
+    • 1:55 Processor - Intel i9
+    • 3:30 CPU cooler - Coolermaster
+    • 4:07 RAM - 32GB Kingston
+    • 5:36 Storage (Hard Disk vs SSD) - Kingston 265GB
+    • 7:22 Graphics card (GPU) - onboard
+    • 7:24 Power supply - Be Quiet
+    • 7:58 Case - Corsair
+    • 8:58 Monitor - widescreen
+    • 9:10 Test the computer
+    
+    💡 TOPICS IN THIS VIDEO 💡
+    • Best computer for music production
+    • Best laptop for music production
+    • Audio production pc build
+    • Music production computer specs
+    
+    🔴 *** SEE ALSO ***
+    📘 DOWNLOAD my FREE dj producer ebook: https://www.dexxterclark.com/free-ebook-truth-about-djing
+    🌎 HOW-TO-GROW-ON-YOUTUBE YOUTUBE CHANNEL: https://www.youtube.com/channel/UC6Mrc73KE_rDeqMKvti1TXQ
+    📘 HOW-TO-GROW-ON-YOUTUBE BOOK: https://www.socialvideoplaza.com/book-tube
+    🌎 HOW-TO-GROW-ON-YOUTUBE BLOG: https://www.socialvideoplaza.com
+    🌎 MUSIC PRODUCTION BLOG: https://www.learnhowtoproducemusic.com
+    👕 DJ PRODUCER MERCHANDISE: https://www.dexxterclark.com/dj-merchandise
+    ❤️ HELP ME TO MAKE FREE VIDEOS: https://www.dexxterclark.com/donate
+    
+    🔴 *** BE MY FRIEND ***
+    ✅ Patreon: https://www.patreon.com/dexxterclark
+    ✅ Website: https://www.dexxterclark.com
+    ✅ Instagram: https://instagram.com/dexxterclark
+    ✅ Twitter: https://twitter.com/dexxterclark
+    ✅ Facebook: https://facebook.com/dexxterclark/
+    ✅ LinkedIn: https://www.linkedin.com/in/dexxterclark/
+    
+    
+    🔴 RECOMMENDED VIDEOS/PLAYLISTS
+    🎥 Music production videos: https://www.youtube.com/playlist?list=PLO0we5bJUGNJeI5hne-bkX2toADpV2o5O
+    🎥 Best free DAW videos: https://www.youtube.com/playlist?list=PLO0we5bJUGNKfh3PRHPO9BhQAXVkjB2Fe
+    
+    DISCLAIMER: Links included in this description might be affiliate links. If you purchase a product or service with the links that I provide I may receive a small commission. There is no additional charge to you!🔎 HASHTAGS#bestcomputerformusicproduction#musicproductioncomputer''', videoUrl="_MeWTp0PYUE", thumbnailUrl="https://i.ytimg.com/vi/_MeWTp0PYUE/maxresdefault.jpg", createdAt="2020-12-12T16:15:03Z")
+    
+    
+    
+    d7e364eff536009cd1f8d9fc0f541753 = Video(channelId="78", title='''Apple M1 - Best computer for music production 2021??''', description='''Should you buy the new Apple M1 computer for music production?
+    I'll go over the up and downsides of Apple M1 as a music production computer.
+    
+    🎹 MIDI CHORD PACK: 
+    https://www.dexxterclark.com/midi-chords-pack
+    NOW 20% off with code: yvd678
+    
+    🔴 VIDEO THAT I TALKED ABOUT
+    🎥 Video about best computer music production: https://www.youtube.com/watch?v=2ImM01dVD0c&list=PLO0we5bJUGNLtLzjZcNsNmewpQx8ielIx
+    
+    💡 TOPICS IN THIS VIDEO 💡
+    • best computer for music production
+    • best laptio for music production
+    • best mac for music production
+    
+    
+    🔴 *** SEE ALSO ***
+    🎓 my CDJ 2000 COURSE: http://www.dexxterclark.com/course-cdj 
+    📘 DOWNLOAD my FREE dj producer ebook: https://www.dexxterclark.com/free-ebook-truth-about-djing
+    🌎 HOW-TO-GROW-ON-YOUTUBE YOUTUBE CHANNEL: https://www.youtube.com/channel/UC6Mrc73KE_rDeqMKvti1TXQ
+    📘 HOW-TO-GROW-ON-YOUTUBE BOOK: https://www.socialvideoplaza.com/book-tube
+    🌎 HOW-TO-GROW-ON-YOUTUBE BLOG: https://www.socialvideoplaza.com
+    🌎 MUSIC PRODUCTION BLOG: https://www.learnhowtoproducemusic.com
+    👕 DJ PRODUCER MERCHANDISE: https://www.dexxterclark.com/dj-merchandise
+    ❤️ HELP ME TO MAKE FREE VIDEOS: https://www.dexxterclark.com/donate
+    
+    🔴 *** BE MY FRIEND ***
+    ✅ Patreon: https://www.patreon.com/dexxterclark
+    ✅ Website: https://www.dexxterclark.com
+    ✅ Instagram: https://instagram.com/dexxterclark
+    ✅ Twitter: https://twitter.com/dexxterclark
+    ✅ Facebook: https://facebook.com/dexxterclark/
+    ✅ LinkedIn: https://www.linkedin.com/in/dexxterclark/
+    
+    
+    🔴 RECOMMENDED VIDEOS/PLAYLISTS
+    🎥 Music production videos: https://www.youtube.com/playlist?list=PLO0we5bJUGNJeI5hne-bkX2toADpV2o5O
+    🎥 Best free DAW videos: https://www.youtube.com/playlist?list=PLO0we5bJUGNKfh3PRHPO9BhQAXVkjB2Fe
+    
+    DISCLAIMER: Links included in this description might be affiliate links. If you purchase a product or service with the links that I provide I may receive a small commission. There is no additional charge to you!
+    
+    
+    🔎 HASHTAGS
+    #musicproductioncomputer
+    #applem1
+    
+    
+    
+    
+    ==== transcript ====
+    
+    
+    You have a bit of a dilemma when you to buy a new Mac.
+    
+    Apple’s typical lifecycle of a product is 3 years.
+    After 3 years, they stop with software updates, including important security updates 
+    But Apple announced that they will shorten the support cycle from 3 to 2 years for Intel based Macs.
+    But Apple silicon means that also 3rd party developers will only develop for the new plat-form.
+    You are basically buying an old computer when you buy an intel mac.
+    
+    compatibility
+    When you buy an apple sillicon Mac, software compatibility will be an issue.
+    As far as I know, there are no DAWs yet that run flawlessly on the new ARM based Macs, except Apples Logic itself.
+    FL Studio says it’s working on an update, so does Steinberg, Native Instruments, Reason and a couple of others.
+    
+    Rosetta
+    The compatibility layer Rosetta is a “quick and dirty” attempt to make most programs work on a ARM based mac.
+    But hardware intensive programs (like DAWs) that rely heavily on real-time processing, things don’t always work properly, because rosetta was never meant for that in the first place.
+    
+    ecosystem
+    Even IF DAW software makers would be up-to-date, we still have a whole ecosystem of plugin makers who are not.
+    This can take a while.
+    
+    advantage
+    The M1-chip is a so-called SOC (System On a Chip).
+    This has advantages
+    -enegery effectiency
+    -faster (because eveything is integrated)
+    
+    downsides
+    But there are long-term downsides, especially for music producers:
+    -no memory expansion after the fact
+    -no storage expansion after the fact
+    -Also repairing a computer has become more difficult, because there is less to repair.
+    I hope that Apple sees that that is a huge turn-off for professional users.
+    
+    My advice
+    WAIT!
+    This is a first generation product
+    Apple has a tendency to not their first generation of products for very long, look at the first Apple watch and the first iPad.
+    
+    So when you are buying a first generation product, you are basically a beta tester
+    Let others do the beta testing for you.
+    Apple has the room to make even more optimizations that you can benefit from.
+    
+    In the meantime, DAW software and plugin makers had the time to play catchup.
+    These startup problems will eventually be a non-issue in 2 or 3 generations.
+    
+    I think this step is a good step for the industry as a whole, because it leads to innovation, since everyone is slavishly copying apple.
+    And Apple did some really interesting innovation.''', videoUrl="oJ1A_w_ojC8", thumbnailUrl="https://i.ytimg.com/vi/oJ1A_w_ojC8/maxresdefault.jpg", createdAt="2020-12-01T17:05:16Z")
+    
+    
+    
+    dee8a286d8fbcf5f7af20a321a863885 = Video(channelId="78", title='''COMPLETE Rekordbox 6 tutorial: Performance Mode''', description='''In this Rekordbox 6 tutorial I'll explain EVERY free feature of the PERFORMANCE mode (formerly know as: Rekordbox DJ)
+    I'll explain step by step every single button in Rekordbox, from installation to matching songs.
+    
+    🎓 COMPLETE REKORDBOX COURSE: 
+    http://www.dexxterclark.com/courses
+    
+    🎥 Rekordbox tips and tricks playlist:
+    https://www.youtube.com/playlist?list=PLO0we5bJUGNKxOeC8vfS7Hq-_SufkTYT5
+    
+    🎥 Rekordbox complete tutorial export mode (60+ min): https://youtu.be/SSwGdICvkkU
+    
+    ★ TABLE OF CONTENTS ★
+    • 0:00 intro
+    • 0:36 User interface
+    • 5:15 Player controls / player decks
+    • 7:13 create a loops + quantize
+    • 9:25 Slip button
+    • 10:22 Master Tempo
+    • 11:28 Beat Sync
+    • 12:54 Key Sync
+    • 14:08 Hot cues (performance pad)
+    • 17:38 Pad FX (performance pad)
+    • 19:36 Slicer (performance pad)
+    • 22:37 Beat Jump (performance pad)
+    • 23:44 Beat Loop (performance pad)
+    • 24:16 Keyboard = hot cue pitch (performance pad)
+    • 25:31 Key shift (performance pad)
+    • 26:26 Seq. call / sequencer call (performance pad)
+    • 27:05 Act. sensr / active sensor (performance pad)
+    • 32:13 Cue Points
+    • 32:34 Grid Edit
+    • 33:05 FX panel
+    • 35:26 Sampler
+    • 50:56 Mixer panel
+    • 54:19 Other panels / screens
+    
+    
+    💡 TOPICS IN THIS VIDEO 💡
+    • Pioneer DJ
+    • Rekordbox tutorial
+    • Rekordbox DJ
+    
+    
+    🔴 *** SEE ALSO ***
+    🎓 my CDJ 2000 COURSE: http://www.dexxterclark.com/course-cdj 
+    📘 DOWNLOAD my FREE dj producer ebook: https://www.dexxterclark.com/free-ebook-truth-about-djing
+    📘 HOW-TO-GROW-ON-YOUTUBE BOOK: https://www.socialvideoplaza.com/book-tube
+    🌎 HOW-TO-GROW-ON-YOUTUBE YOUTUBE CHANNEL: https://www.youtube.com/channel/UC6Mrc73KE_rDeqMKvti1TXQ
+    🌎 HOW-TO-GROW-ON-YOUTUBE BLOG: https://www.socialvideoplaza.com
+    🌎 MUSIC PRODUCTION BLOG: https://www.learnhowtoproducemusic.com
+    👕 DJ PRODUCER MERCHANDISE: https://www.dexxterclark.com/dj-merchandise
+    ❤️ HELP ME TO MAKE FREE VIDEOS: https://www.dexxterclark.com/donate
+    
+    🔴 *** BE MY FRIEND ***
+    ✅ Patreon: https://www.patreon.com/dexxterclark
+    ✅ Website: https://www.dexxterclark.com
+    ✅ Instagram: https://instagram.com/dexxterclark
+    ✅ Facebook: https://facebook.com/dexxterclark/
+    ✅ LinkedIn: https://www.linkedin.com/in/dexxterclark/
+    
+    
+    🔴 RECOMMENDED VIDEOS/PLAYLISTS
+    🎥 Music production videos: https://www.youtube.com/playlist?list=PLO0we5bJUGNJeI5hne-bkX2toADpV2o5O
+    🎥 Best free DAW videos: https://www.youtube.com/playlist?list=PLO0we5bJUGNKfh3PRHPO9BhQAXVkjB2Fe
+    
+    
+    🔎 HASHTAGS
+    #rekordbox
+    #rekordboxtutorial
+    #dj''', videoUrl="_d1xMOSn738", thumbnailUrl="https://i.ytimg.com/vi/_d1xMOSn738/maxresdefault.jpg", createdAt="2020-09-12T15:15:04Z")
+    
+    
+    
+    d168bfdf50593dc9bcf685205faf7623 = Video(channelId="78", title='''COMPLETE Rekordbox 6 tutorial: Export Mode''', description='''In this Rekordbox 6 tutorial I'll explain EVERY free feature of the EXPORT mode.
+    I'll explain step by step every single button in Rekordbox, from installation to importing tracks to playlists, matching songs and hot cues and cue points.
+    
+    🎓 COMPLETE REKORDBOX COURSE: 
+    http://www.dexxterclark.com/courses
+    
+    🎥 Rekordbox tips and tricks playlist:
+    https://www.youtube.com/playlist?list=PLO0we5bJUGNKxOeC8vfS7Hq-_SufkTYT5
+    
+    🎥 Rekordbox complete tutorial performance mode (55+ min): https://youtu.be/_d1xMOSn738
+    
+    
+    ★ TABLE OF CONTENTS ★
+    • 0:00 intro
+    • 0:42 What is Rekordbox? What is difference Export/Performance mode?
+    • 2:00 Install Rekordbox
+    • 4:32 User Interface
+    • 4:52 Switching Export / performance mode
+    • 5:22 Import tracks in Rekordbox
+    • 7:34 Playlist (create and add tracks to playlists)
+    • 9:45 search tracks
+    • 10:25 playlist columns
+    • 11:17 Preview tracks
+    • 12:03 Player types
+    • 14:04 Order tracks
+    • 14:25 Hot Cues and Cue Points
+    • 19:52 Export tracks to USB
+    • 25:38 Adjust beatgrid
+    • 37:58 My Tag
+    • 40:16 Smart playlist / Intelligent playlist
+    • 43:39 Related tracks
+    • 46:17 Matching tracks
+    • 48:05 Settings / Utility menu / explanation of setting types
+    • 49:05 Settings: my settings-settings
+    • 54:26 Settings: you-can't-change-them-on-the-CDJ-settings
+    • 59:25 Settings: auto-saved-to-usb-settings
+    
+    
+    💡 TOPICS IN THIS VIDEO 💡
+    • Pioneer DJ
+    • Rekordbox tutorial
+    • Rekordbox 6
+    
+    
+    🔴 *** SEE ALSO ***
+    🎓 my CDJ 2000 + Rekordbox COURSE: http://www.dexxterclark.com/course-cdj 
+    📘 DOWNLOAD my FREE dj producer ebook: https://www.dexxterclark.com/free-ebook-truth-about-djing
+    📘 HOW-TO-GROW-ON-YOUTUBE BOOK: https://www.socialvideoplaza.com/book-tube
+    🌎 HOW-TO-GROW-ON-YOUTUBE BLOG: https://www.socialvideoplaza.com
+    🌎 HOW-TO-GROW-ON-YOUTUBE YOUTUBE CHANNEL: https://www.youtube.com/channel/UC6Mrc73KE_rDeqMKvti1TXQ
+    🌎 MUSIC PRODUCTION BLOG: https://www.learnhowtoproducemusic.com
+    👕 DJ PRODUCER MERCHANDISE: https://www.dexxterclark.com/dj-merchandise
+    ❤️ HELP ME TO MAKE FREE VIDEOS: https://www.dexxterclark.com/donate
+    
+    🔴 *** BE MY FRIEND ***
+    ✅ Patreon: https://www.patreon.com/dexxterclark
+    ✅ Website: https://www.dexxterclark.com
+    ✅ Instagram: https://instagram.com/dexxterclark
+    ✅ Facebook: https://facebook.com/dexxterclark/
+    ✅ LinkedIn: https://www.linkedin.com/in/dexxterclark/
+    
+    
+    🔴 RECOMMENDED VIDEOS/PLAYLISTS
+    🎥 Music production videos: https://www.youtube.com/playlist?list=PLO0we5bJUGNJeI5hne-bkX2toADpV2o5O
+    🎥 Best free DAW videos: https://www.youtube.com/playlist?list=PLO0we5bJUGNKfh3PRHPO9BhQAXVkjB2Fe
+    
+    
+    🔎 HASHTAGS
+    #rekordbox
+    #rekordboxtutorial
+    #dj''', videoUrl="SSwGdICvkkU", thumbnailUrl="https://i.ytimg.com/vi/SSwGdICvkkU/maxresdefault.jpg", createdAt="2020-08-29T15:15:01Z")
+    
+    
+    
+    d2958d2bbaebcceea21c7eefbde8831b = Video(channelId="78", title='''Rekordbox 6 ACT. SENSR tutorial''', description='''In this Rekordbox 6 tutorial: Active Sensor (Act. Sensr) for FX.
+    This feature allows you to pre-program certain effects to certain sections of your track.
+    In this video I'll take a look at the active sensor, how to program the act. sensr and how to use it.
+    The Active Sensor is available Rekordbox performance mode.
+    
+    🎓 COMPLETE REKORDBOX COURSE: 
+    http://www.dexxterclark.com/courses
+    
+    🎥 This video is part of my Rekordbox for beginners series.
+    check out the full Rekordbox course at: https://www.youtube.com/playlist?list=PLO0we5bJUGNKVIuHBy_s_MZpknNtkx1cb
+    
+    🎥 Rekordbox tips and tricks playlist:
+    https://www.youtube.com/playlist?list=PLO0we5bJUGNKxOeC8vfS7Hq-_SufkTYT5
+    
+    🎥 Rekordbox complete tutorial export mode (60+ min): https://youtu.be/SSwGdICvkkU
+    🎥 Rekordbox complete tutorial performance mode (55+ min): https://youtu.be/_d1xMOSn738
+    
+    💡 TOPICS IN THIS VIDEO 💡
+    • Pioneer DJ
+    • Rekordbox tutorial
+    • active sensor
+    • act sensr
+    
+    
+    🎵 GENRES 🎵
+    • Electronic Music
+    • EDM
+    • Electro House
+    • Big Room
+    • Dance Music
+    • Techno
+    • Tech House
+    • Beats
+    
+    
+    🔴 *** SEE ALSO ***
+    🎓 my CDJ 2000 COURSE: http://www.dexxterclark.com/course-cdj 
+    📘 DOWNLOAD my FREE dj producer ebook: https://www.dexxterclark.com/free-ebook-truth-about-djing
+    🌎 HOW-TO-GROW-ON-YOUTUBE YOUTUBE CHANNEL: https://www.youtube.com/channel/UC6Mrc73KE_rDeqMKvti1TXQ
+    📘 HOW-TO-GROW-ON-YOUTUBE BOOK: https://www.socialvideoplaza.com/book-tube
+    🌎 HOW-TO-GROW-ON-YOUTUBE BLOG: https://www.socialvideoplaza.com
+    🌎 MUSIC PRODUCTION BLOG: https://www.learnhowtoproducemusic.com
+    👕 DJ PRODUCER MERCHANDISE: https://www.dexxterclark.com/dj-merchandise
+    ❤️ HELP ME TO MAKE FREE VIDEOS: https://www.dexxterclark.com/donate
+    
+    🔴 *** BE MY FRIEND ***
+    ✅ Patreon: https://www.patreon.com/dexxterclark
+    ✅ Website: https://www.dexxterclark.com
+    ✅ Instagram: https://instagram.com/dexxterclark
+    ✅ Facebook: https://facebook.com/dexxterclark/
+    ✅ LinkedIn: https://www.linkedin.com/in/dexxterclark/
+    
+    
+    🔴 RECOMMENDED VIDEOS/PLAYLISTS
+    🎥 Music production videos: https://www.youtube.com/playlist?list=PLO0we5bJUGNJeI5hne-bkX2toADpV2o5O
+    🎥 Best free DAW videos: https://www.youtube.com/playlist?list=PLO0we5bJUGNKfh3PRHPO9BhQAXVkjB2Fe
+    
+    
+    🔎 HASHTAGS
+    #rekordbox
+    #rekordboxtutorial
+    #dj''', videoUrl="-Y2zvQTRLoU", thumbnailUrl="https://i.ytimg.com/vi/-Y2zvQTRLoU/maxresdefault.jpg", createdAt="2020-08-15T17:15:00Z")
+    
+    
+    
+    db552e1fb83635ae60ba981a08ce43e4 = Video(channelId="75", title='''Anitta Breaks Down Her Albums, From Anitta to Versions of Me | Pitchfork''', description='''In this episode of On the Records, Anitta combs through her entire discography, album-by-album, and explains how many of the themes behind her songs and records came into being. Anitta explains how she took the sounds of the favelas and converted it into a more mainstream sound for a bigger audience.
+    
+    Anitta's new album VERSIONS OF ME is out now - https://anitta.lnk.to/VersionsofMe
+    
+    Featuring: Cardi B., Khalid, TY Dolla $IGN, Myke Towers, Saweetie, YG, and more!
+    
+    00:00 - Intro
+    00:05 - Anitta
+    04:00 - Meu Lugar
+    05:46 - Ritmo Perfeito
+    08:37 - BANG!
+    10:30 - Kisses
+    14:29 - Versions of Me
+    
+    ------
+    SUBSCRIBE to Pitchfork.tv: http://bit.ly/yK2Fbp
+    ------
+    LISTEN to the Pitchfork Review podcast: https://link.chtbl.com/p4k-ytc-desc
+    ------
+    FOLLOW Pitchfork.tv on Twitter: http://bit.ly/KJ2PhP
+    ------
+    
+    For more videos from Pitchfork TV: http://bit.ly/M1lvs8
+    Like Pitchfork on Facebook: http://www.facebook.com/pitchfork
+    Follow Pitchfork on Instagram: https://instagram.com/pitchfork
+    Listen to Pitchfork’s playlists on Spotify: https://open.spotify.com/user/pitchfork
+    Listen to Pitchfork’s playlists on Apple Music: https://music.apple.com/us/curator/pitchfork/976439455''', videoUrl="wTAevctT4pA", thumbnailUrl="https://i.ytimg.com/vi/wTAevctT4pA/hqdefault.jpg", createdAt="2022-04-13T16:00:02Z")
+    
+    
+    
+    d8a57fa1ca48496999e3de914a78b3aa = Video(channelId="75", title='''L'Rain: Abbey Road Amplify x Pitchfork London Sessions''', description='''L'Rain was invited by Abbey Road Studios and Pitchfork to record a session around her performance at the inaugural Pitchfork Music Festival London. This session was recorded in celebration of Abbey Road Studios 90th Anniversary and the inaugural Pitchfork Music Festival London.
+    
+    ------
+    SUBSCRIBE to Pitchfork.tv: http://bit.ly/yK2Fbp
+    ------
+    LISTEN to the Pitchfork Review podcast: https://link.chtbl.com/p4k-ytc-desc
+    ------
+    FOLLOW Pitchfork.tv on Twitter: http://bit.ly/KJ2PhP
+    ------
+    
+    For more videos from Pitchfork TV: http://bit.ly/M1lvs8
+    Like Pitchfork on Facebook: http://www.facebook.com/pitchfork
+    Follow Pitchfork on Instagram: https://instagram.com/pitchfork
+    Listen to Pitchfork’s playlists on Spotify: https://open.spotify.com/user/pitchfork
+    Listen to Pitchfork’s playlists on Apple Music: https://music.apple.com/us/curator/pitchfork/976439455
+    
+    L'Rain: Abbey Road Amplify x Pitchfork London Sessions''', videoUrl="KCBBBXlQowg", thumbnailUrl="https://i.ytimg.com/vi/KCBBBXlQowg/hqdefault.jpg", createdAt="2022-03-11T17:00:04Z")
+    
+    
+    
+    df0a302f81612e6a8931d0bca8eddf3e = Video(channelId="75", title='''Iceage: Abbey Road Amplify x Pitchfork London Sessions | Pitchfork''', description='''Iceage was invited by Abbey Road Studios and Pitchfork to record a session around her performance at the inaugural Pitchfork Music Festival London. This session was recorded in celebration of Abbey Road Studios 90th Anniversary and the inaugural Pitchfork Music Festival London. 
+    
+    Listen to Iceage's new single "Pull Up" here: https://iceage.ffm.to/pullup and catch them on tour, dates here: https://iceagecopenhagen.eu/
+    
+    ------
+    SUBSCRIBE to Pitchfork.tv: http://bit.ly/yK2Fbp
+    ------
+    LISTEN to the Pitchfork Review podcast: https://link.chtbl.com/p4k-ytc-desc
+    ------
+    FOLLOW Pitchfork.tv on Twitter: http://bit.ly/KJ2PhP
+    ------
+    
+    For more videos from Pitchfork TV: http://bit.ly/M1lvs8
+    Like Pitchfork on Facebook: http://www.facebook.com/pitchfork
+    Follow Pitchfork on Instagram: https://instagram.com/pitchfork
+    Listen to Pitchfork’s playlists on Spotify: https://open.spotify.com/user/pitchfork
+    Listen to Pitchfork’s playlists on Apple Music: https://music.apple.com/us/curator/pitchfork/976439455
+    
+    Iceage: Abbey Road Amplify x Pitchfork London Sessions | Pitchfork''', videoUrl="RX1f9UufSe8", thumbnailUrl="https://i.ytimg.com/vi/RX1f9UufSe8/maxresdefault.jpg", createdAt="2022-03-01T17:00:04Z")
+    
+    
+    
+    d763a898745d5b8830bcd590a5a6d7fe = Video(channelId="75", title='''Emma-Jean Thackray: Abbey Road Amplify x Pitchfork London Sessions | Pitchfork''', description='''Emma-Jean Thackray was invited by Abbey Road Studios and Pitchfork to record a session around her performance at the inaugural Pitchfork Music Festival London. This session was recorded in celebration of Abbey Road Studios 90th Anniversary and the inaugural Pitchfork Music Festival London. 
+    
+    ------
+    SUBSCRIBE to Pitchfork.tv: http://bit.ly/yK2Fbp
+    ------
+    LISTEN to the Pitchfork Review podcast: https://link.chtbl.com/p4k-ytc-desc
+    ------
+    FOLLOW Pitchfork.tv on Twitter: http://bit.ly/KJ2PhP
+    ------
+    
+    For more videos from Pitchfork TV: http://bit.ly/M1lvs8
+    Like Pitchfork on Facebook: http://www.facebook.com/pitchfork
+    Follow Pitchfork on Instagram: https://instagram.com/pitchfork
+    Listen to Pitchfork’s playlists on Spotify: https://open.spotify.com/user/pitchfork
+    Listen to Pitchfork’s playlists on Apple Music: https://music.apple.com/us/curator/pitchfork/976439455
+    
+    Emma-Jean Thackray: Abbey Road Amplify x Pitchfork London Sessions | Pitchfork''', videoUrl="k_l35rxQHpk", thumbnailUrl="https://i.ytimg.com/vi/k_l35rxQHpk/hqdefault.jpg", createdAt="2022-02-24T17:00:09Z")
+    
+    
+    
+    d7d3d711d0e77025cbb46257e9040bf9 = Video(channelId="75", title='''Cassandra Jenkins: Abbey Road Amplify x Pitchfork London Sessions | Pitchfork''', description='''Cassandra Jenkins was invited by Abbey Road Studios and Pitchfork to record a session around her performance at the inaugural Pitchfork Music Festival London. This session was recorded in celebration of Abbey Road Studios 90th Anniversary and the inaugural Pitchfork Music Festival London. 
+    
+    
+    ------
+    SUBSCRIBE to Pitchfork.tv: http://bit.ly/yK2Fbp
+    ------
+    LISTEN to the Pitchfork Review podcast: https://link.chtbl.com/p4k-ytc-desc
+    ------
+    FOLLOW Pitchfork.tv on Twitter: http://bit.ly/KJ2PhP
+    ------
+    
+    For more videos from Pitchfork TV: http://bit.ly/M1lvs8
+    Like Pitchfork on Facebook: http://www.facebook.com/pitchfork
+    Follow Pitchfork on Instagram: https://instagram.com/pitchfork
+    Listen to Pitchfork’s playlists on Spotify: https://open.spotify.com/user/pitchfork
+    Listen to Pitchfork’s playlists on Apple Music: https://music.apple.com/us/curator/pitchfork/976439455
+    
+    Cassandra Jenkins: Abbey Road Amplify x Pitchfork London Sessions | Pitchfork''', videoUrl="zgeQPGYgMF0", thumbnailUrl="https://i.ytimg.com/vi/zgeQPGYgMF0/maxresdefault.jpg", createdAt="2022-02-18T17:00:11Z")
+    
+    
+    
+    d9a48416b72a86baadd60cffd0f25fb1 = Video(channelId="75", title='''Larry June Rates Fresh Orange Juice | Pitchfork''', description='''Larry June rates freshly squeezed orange juice in this Over/Under short.
+    
+    #short
+    
+    ------
+    SUBSCRIBE to Pitchfork.tv: http://bit.ly/yK2Fbp
+    ------
+    LISTEN to the Pitchfork Review podcast: https://link.chtbl.com/p4k-ytc-desc
+    ------
+    FOLLOW Pitchfork.tv on Twitter: http://bit.ly/KJ2PhP
+    ------
+    
+    For more videos from Pitchfork TV: http://bit.ly/M1lvs8
+    Like Pitchfork on Facebook: http://www.facebook.com/pitchfork
+    Follow Pitchfork on Instagram: https://instagram.com/pitchfork
+    Listen to Pitchfork’s playlists on Spotify: https://open.spotify.com/user/pitchfork
+    Listen to Pitchfork’s playlists on Apple Music: https://music.apple.com/us/curator/pitchfork/976439455
+    
+    Larry June Rates Fresh Orange Juice | Pitchfork''', videoUrl="E8OYETRnSmU", thumbnailUrl="https://i.ytimg.com/vi/E8OYETRnSmU/hqdefault.jpg", createdAt="2021-12-16T17:53:50Z")
+    
+    
+    
+    d6d4fc03e9381d0ef367734f5e7c2e69 = Video(channelId="75", title='''Animal Collective - "In The Flowers", "Car Keys" & "Dragon Slayer" | Pitchfork Music Festival 2021''', description='''Animal Collective performs in Chicago at Pitchfork Music Festival #p4kfest
+    
+    ------
+    SUBSCRIBE to Pitchfork.tv: http://bit.ly/yK2Fbp
+    ------
+    LISTEN to the Pitchfork Review podcast: https://link.chtbl.com/p4k-ytc-desc
+    ------
+    FOLLOW Pitchfork.tv on Twitter: http://bit.ly/KJ2PhP
+    ------
+    
+    For more videos from Pitchfork TV: http://bit.ly/M1lvs8
+    Like Pitchfork on Facebook: http://www.facebook.com/pitchfork
+    Follow Pitchfork on Instagram: https://instagram.com/pitchfork
+    Listen to Pitchfork’s playlists on Spotify: https://open.spotify.com/user/pitchfork
+    Listen to Pitchfork’s playlists on Apple Music: https://music.apple.com/us/curator/pitchfork/976439455
+    
+    Animal Collective - "In The Flowers", "Car Keys" & "Dragon Slayer" | Pitchfork Music Festival 2021''', videoUrl="HDSA4S1PKBg", thumbnailUrl="https://i.ytimg.com/vi/HDSA4S1PKBg/maxresdefault.jpg", createdAt="2021-12-08T21:01:51Z")
+    
+    
+    
+    d62cce564ddddb886d418c2bf5181db4 = Video(channelId="75", title='''What Song Would Robert Plant & Alison Krauss Listen to If Stuck on the Airport Runway? | Pitchfork''', description='''Robert Plant and Alison Krauss talk about what they would do if they were stuck on the airport runway for a few hours. Robert's answer may, or may not, surprise you.
+    
+    ------
+    SUBSCRIBE to Pitchfork.tv: http://bit.ly/yK2Fbp
+    ------
+    LISTEN to the Pitchfork Review podcast: https://link.chtbl.com/p4k-ytc-desc
+    ------
+    FOLLOW Pitchfork.tv on Twitter: http://bit.ly/KJ2PhP
+    ------
+    
+    For more videos from Pitchfork TV: http://bit.ly/M1lvs8
+    Like Pitchfork on Facebook: http://www.facebook.com/pitchfork
+    Follow Pitchfork on Instagram: https://instagram.com/pitchfork
+    Listen to Pitchfork’s playlists on Spotify: https://open.spotify.com/user/pitchfork
+    Listen to Pitchfork’s playlists on Apple Music: https://music.apple.com/us/curator/pitchfork/976439455
+    
+    What Song Would Robert Plant & Alison Krauss Listen to If Stuck on the Airport Runway? | Pitchfork''', videoUrl="TFJ69ZEVFzo", thumbnailUrl="https://i.ytimg.com/vi/TFJ69ZEVFzo/maxresdefault.jpg", createdAt="2021-12-02T20:03:00Z")
+    
+    
+    
+    d7aecbbf6c4be780423d5734e4ab4a3e = Video(channelId="75", title='''Lucy Dacus Rates Violence | Pitchfork''', description='''Lucy Dacus rates violence in this Over/Under short.
+    
+    
+    #shorts
+    
+    ------
+    SUBSCRIBE to Pitchfork.tv: http://bit.ly/yK2Fbp
+    ------
+    LISTEN to the Pitchfork Review podcast: https://link.chtbl.com/p4k-ytc-desc
+    ------
+    FOLLOW Pitchfork.tv on Twitter: http://bit.ly/KJ2PhP
+    ------
+    
+    For more videos from Pitchfork TV: http://bit.ly/M1lvs8
+    Like Pitchfork on Facebook: http://www.facebook.com/pitchfork
+    Follow Pitchfork on Instagram: https://instagram.com/pitchfork
+    Listen to Pitchfork’s playlists on Spotify: https://open.spotify.com/user/pitchfork
+    Listen to Pitchfork’s playlists on Apple Music: https://music.apple.com/us/curator/pitchfork/976439455
+    
+    Lucy Dacus Rates Violence | Pitchfork''', videoUrl="X9ute-n5vmw", thumbnailUrl="https://i.ytimg.com/vi/X9ute-n5vmw/maxresdefault.jpg", createdAt="2021-12-02T17:00:08Z")
+    
+    
+    
+    de6698d874c3f3900cb642af9433caef = Video(channelId="75", title='''The Armed Rate Hydration | Pitchfork''', description='''Watch as The Armed rates hydration in this Over/Under short.
+    
+    ------
+    SUBSCRIBE to Pitchfork.tv: http://bit.ly/yK2Fbp
+    ------
+    LISTEN to the Pitchfork Review podcast: https://link.chtbl.com/p4k-ytc-desc
+    ------
+    FOLLOW Pitchfork.tv on Twitter: http://bit.ly/KJ2PhP
+    ------
+    
+    For more videos from Pitchfork TV: http://bit.ly/M1lvs8
+    Like Pitchfork on Facebook: http://www.facebook.com/pitchfork
+    Follow Pitchfork on Instagram: https://instagram.com/pitchfork
+    Listen to Pitchfork’s playlists on Spotify: https://open.spotify.com/user/pitchfork
+    Listen to Pitchfork’s playlists on Apple Music: https://music.apple.com/us/curator/pitchfork/976439455
+    
+    The Armed Rate Hydration | Pitchfork''', videoUrl="AMngw0f4gSM", thumbnailUrl="https://i.ytimg.com/vi/AMngw0f4gSM/maxresdefault.jpg", createdAt="2021-11-24T17:00:09Z")
+    
+    
+    
+    d2eb526d71348126813479a1c928add2 = Video(channelId="83", title='''Jacob Collier turning the audience into a choir''', description='''''', videoUrl="XKbXBYfpkPg", thumbnailUrl="https://i.ytimg.com/vi/XKbXBYfpkPg/maxresdefault.jpg", createdAt="2022-04-05T21:27:34Z")
+    
+    
+    
+    d9cfaf3824c898b97561a5243712134d = Video(channelId="83", title='''Jacob Collier - The Dawn of Djesse Vol. 3 World Tour''', description='''Here's a whirlwind recap of the debut 6-piece-Djesse-band shows last September, in Vegas and Oakland. I cannot wait to unleash this world upon you all so soon!!
+    
+    TICKETS → https://www.jacobcollier.com/tour
+    
+    BAND:
+    Alita Moses
+    Emily Elbert
+    Bryn Bliska
+    Robin Mullarkey
+    Christian Euman
+    JC
+    
+    Video Footage: Andrew Zenn & Michael Bowden
+    Video Edit: Michael Bowden & JC
+    Song at the end: Mystery Djesse Vol. 4 demo
+    
+    http://www.JacobCollier.com
+    http://www.instagram.com/JacobCollier
+    https://www.tiktok.com/@jacobcollier
+    http://www.facebook.com/JCollierMusic
+    http://www.twitter.com/JacobCollier
+    
+    © Hajanga Records''', videoUrl="3hdh5xXc-ow", thumbnailUrl="https://i.ytimg.com/vi/3hdh5xXc-ow/hqdefault.jpg", createdAt="2022-03-17T23:26:40Z")
+    
+    
+    
+    df5d297de278e8402bca6b56a7ee370c = Video(channelId="83", title='''Jacob Collier - The Sun Is In Your Eyes (Live at Dubai Expo)''', description='''I CAN'T WAIT TO SEE YOU ON TOUR!!!
+    TICKETS → https://www.jacobcollier.com/tour
+    
+    http://www.JacobCollier.com
+    http://www.instagram.com/JacobCollier
+    https://www.tiktok.com/@jacobcollier
+    http://www.facebook.com/JCollierMusic
+    http://www.twitter.com/JacobCollier
+    
+    Video edit: Mogli Maureal @themogli on instagram :)
+    
+    © Hajanga Records''', videoUrl="kJauAj7xEo4", thumbnailUrl="https://i.ytimg.com/vi/kJauAj7xEo4/hqdefault.jpg", createdAt="2022-03-11T20:48:38Z")
+    
+    
+    
+    dee63a1cf1f6b927132039f1f0bf6e18 = Video(channelId="83", title='''Jacob Collier plays White Christmas on Harpejji''', description='''Happy holidays!!!!
+    
+    http://www.JacobCollier.com
+    http://www.facebook.com/JCollierMusic
+    http://www.instagram.com/JacobCollier
+    http://www.twitter.com/JacobCollier 
+    
+    Visit the land of Harpejjis: https://www.marcodi.com''', videoUrl="V5T-9RPW4pg", thumbnailUrl="https://i.ytimg.com/vi/V5T-9RPW4pg/maxresdefault.jpg", createdAt="2021-12-26T16:30:05Z")
+    
+    
+    
+    d67b8ad2ca67bb4becb51ed1d5dc67a2 = Video(channelId="83", title='''LOGIC SESSION BREAKDOWN: "The Christmas Song (Chestnuts Roasting On An Open Fire)"''', description='''Jacob Collier breaks down the logic session of his GRAMMY nominated arrangement of The Christmas Song.
+    
+    Come to a Jacob show! ⇨ http://www.jacobcollier.com/tour
+    
+    Jacob's musical universe ➡ https://jacobcollier.lnk.to/Follow
+    
+    http://www.JacobCollier.com
+    http://www.facebook.com/JCollierMusic
+    http://www.instagram.com/JacobCollier
+    http://www.twitter.com/JacobCollier''', videoUrl="BXmqfJhuLrw", thumbnailUrl="https://i.ytimg.com/vi/BXmqfJhuLrw/maxresdefault.jpg", createdAt="2021-12-08T21:00:45Z")
+    
+    
+    
+    daf61a1ca3c4d456f6a03101255bef38 = Video(channelId="83", title='''Jacob Collier Harmonises Ariana Grande''', description='''Just for fun, I added harmonies to this iconic video. Love you, Ariana!!!
+    
+    •
+    
+    http://www.JacobCollier.com
+    http://www.facebook.com/JCollierMusic
+    http://www.instagram.com/JacobCollier
+    http://www.twitter.com/JacobCollier
+    https://www.tiktok.com/@jacobcollier''', videoUrl="siJ1Y2xpu0I", thumbnailUrl="https://i.ytimg.com/vi/siJ1Y2xpu0I/hqdefault.jpg", createdAt="2021-08-03T21:02:35Z")
+    
+    
+    
+    d2e092058353edb42d889e33a7c3b4cf = Video(channelId="83", title='''Jacob Collier & Tori Kelly - Running Outta Love (For The Late Show With Stephen Colbert)''', description='''Back in 2020, Tori Kelly and I performed our song 'Running Outta Love', from Djesse Vol. 3, for Stephen Colbert's show!
+    
+    Video Directed and Edited by Jacob Collier.
+    
+    Tori is my hero!!!!! ➜ https://www.youtube.com/channel/UCNLYWcjPSuSrKDOmySRPWWg
+    
+    http://www.JacobCollier.com
+    http://www.facebook.com/JCollierMusic
+    http://www.instagram.com/JacobCollier
+    http://www.twitter.com/JacobCollier
+    https://www.tiktok.com/@jacobcollier
+    
+    © Hajanga Records''', videoUrl="0x8tWJxGnrg", thumbnailUrl="https://i.ytimg.com/vi/0x8tWJxGnrg/maxresdefault.jpg", createdAt="2021-07-23T18:29:56Z")
+    
+    
+    
+    d55ea5ecebc9e4a7db5c096099e43a4b = Video(channelId="83", title='''Jacob Collier & Justin Kauflin - Flow Freely (From the Film “Reflection - A Walk With Water”)''', description='''Here's a song I wrote with my wondrous friend Justin Kauflin for the film "Reflection – A Walk With Water". It's a beautiful documentary depicting the power, majesty and importance of water, highlighting the critical role it plays in an ever-changing climate.
+    
+    The film will be available to stream across the USA starting June 16 at this link: https://tribecafilm.com/films/reflection-a-walk-with-water-2021
+    
+    Click the thumbs up while watching to cast your vote for the Audience Award at the Tribeca Film Festival :-)
+    
+    DJESSE WORLDTOUR 2022 tickets & reservations available now! ➡ https://jacobcollier.com/tour
+    Jacob's musical universe ➡ https://jacobcollier.lnk.to/Follow​
+    
+    http://www.JacobCollier.com​
+    http://www.facebook.com/JCollierMusic​
+    http://www.instagram.com/JacobCollier​
+    http://www.twitter.com/JacobCollier​
+    https://www.tiktok.com/@jacobcollier
+    
+    Go follow Justin!!!
+    http://www.justinkauflin.com
+    http://www.facebook.com/justinkauflinmusic/
+    http://www.instagram.com/justinkauflinmusic
+    http://www.twitter.com/JustinKauflin
+    
+    https://www.instagram.com/reflection_film
+    http://www.twitter.com/@_reflectionfilm''', videoUrl="Yr5bzuM_loI", thumbnailUrl="https://i.ytimg.com/vi/Yr5bzuM_loI/hqdefault.jpg", createdAt="2021-06-11T04:00:09Z")
+    
+    
+    
+    df67fcce892a67620de61322e4c55d25 = Video(channelId="83", title='''Jacob Collier & YEBBA - Bridge Over Troubled Water''', description='''This video of @Yebba singing Bridge Over Troubled Water has long been a favourite of mine, so I thought I’d harmonise it for a bit of fun!! Happy Easter :-)
+    
+    DJESSE WORLDTOUR 2022 tickets & reservations available now! ➡ https://jacobcollier.com/tour
+    Jacob's musical universe ➡ https://jacobcollier.lnk.to/Follow​
+    
+    http://www.JacobCollier.com​
+    http://www.facebook.com/JCollierMusic​
+    http://www.instagram.com/JacobCollier​
+    http://www.twitter.com/JacobCollier​
+    https://www.tiktok.com/@jacobcollier''', videoUrl="y9RUgsD8dRY", thumbnailUrl="https://i.ytimg.com/vi/y9RUgsD8dRY/maxresdefault.jpg", createdAt="2021-04-04T21:41:51Z")
+    
+    
+    
+    d7f4c47d5fe78243a5393985f5f3e968 = Video(channelId="83", title='''Jacob Collier - The Sun Is In Your Eyes (Voice Memo)''', description='''Here’s a song I wrote last year. I recorded it on my phone for safe-keeping. It’s yours to keep.
+    
+    Jacob's musical universe ➡ https://jacobcollier.lnk.to/Follow
+    
+    http://www.JacobCollier.com
+    http://www.facebook.com/JCollierMusic
+    http://www.instagram.com/JacobCollier
+    http://www.twitter.com/JacobCollier
+    https://www.tiktok.com/@jacobcollier
+    
+    © Hajanga Records''', videoUrl="heCOx4TDo0I", thumbnailUrl="https://i.ytimg.com/vi/heCOx4TDo0I/maxresdefault.jpg", createdAt="2021-01-01T05:00:30Z")
+    
+    
+    
+    d3482c581ea40b2bd8c477fb359a71b1 = Video(channelId="74", title='''Kenny Beats: #1 Way To Up Your Sample Game FOREVER  #Shorts''', description='''Kenny says producers with the best samples all have this ONE thing in common. 
+    👀 Make The Creative Process Easy (advice from 20x best-seller) - https://youtu.be/p_HikQkM82Q
+    🔔 Don't Forget to Sub - https://www.youtube.com/c/solstatemusic?sub_confirmation=1
+    👀  Disclosure "Faking That Analog Sound"  - https://youtu.be/HEcJ8vHWk88
+    👀  Popular Video: Deadmau5's Vault Method - https://youtu.be/NwPFa0WRY1U
+    
+    🎵 Kenny Beats
+    YouTube - https://www.youtube.com/c/kennybeats
+    Twitch - https://www.twitch.tv/kennybeats
+    Instagram - https://www.instagram.com/kennybeats/?hl=en
+    
+    👋SOL STATE
+    Instagram - https://www.instagram.com/solstatemusic
+    Spotify - https://open.spotify.com/artist/4RPPsjsIazFYSnAIxVbVUW
+    Soundcloud - https://soundcloud.com/solstatemusic
+    Twitter - https://twitter.com/solstatemusic
+    
+    🔥MUSIC BY SOL STATE (Outro Song)
+    Stream - https://fanlink.to/solstate-getdown
+    Free DL - https://hypeddit.com/track/8h68l4
+    
+    🎯MY BETA EMAIL NEWSLETTER 
+    Same idea as the channel, help you master music production (no spam)
+    Join Here - https://sendfox.com/solstatemusic
+    
+    🏷PLUGIN DEALS & FREEBIES* (Supports Channel)
+    Free Juno Chorus - https://www.pluginboutique.com/product/2-Effects/11-Chorus/428-TAL-Chorus-LX/?a_aid=5ef7201f32fd6
+    Best EQ - https://www.pluginboutique.com/product/2-Effects/16-EQ/4949-FabFilter-Pro-Q-3/?a_aid=5ef7201f32fd6
+    Favorite Sidechain - https://www.pluginboutique.com/product/2-Effects/63-Envelope-Shaper/5701-VolumeShaper-6
+    Go to FX bundle - https://www.pluginboutique.com/product/2-Effects/39-FX-Bundle/6343-Soundtoys-Effect-Rack?a_aid=5ef7201f32fd6
+    Disclosure's "make it up front" tool - https://www.pluginboutique.com/products/492/?a_aid=5ef7201f32fd6
+    Go to Juno Clone - https://www.pluginboutique.com/product/1-Instruments/4-Synth/7550-Model-84-Polyphonic-Synthesizer?a_aid=5ef7201f32fd6
+    All Deals - https://www.pluginboutique.com/?a_aid=5ef7201f32fd6
+    *some of these may be affiliate links (meaning you can support me at no cost to you)
+    
+    🎛 GEAR I LIKE & USE
+    Best Studio Headphones (open back) - https://geni.us/hd-600
+    Best Travel Headphones (noise-cancelling) - https://geni.us/QC-25
+    Best SSD (your HD will crash) - https://geni.us/music-ssd
+    Best Mouse - https://geni.us/daw-mouse
+    Best Laptop Stand (crazy portable) - https://geni.us/travel-stand
+    Best Mic (Voice) - https://geni.us/sm7b-mic
+    Best Mic (Starter) - https://geni.us/starter-mic
+    Indoor Camera (protect your gear) - https://geni.us/studio-cam
+    All my gear picks (with a bit more info why) - https://kit.co/SolStateMusic/music-producer-s-go-to-setup
+    
+    ⏰ TIMESTAMPS 
+    Question for you - 0:00
+    What the "best" do - 0:10
+    Why taste really matters - 0:24
+    Key Point (Like/Sub for more) - 0:50
+    
+    🔔 DON'T FORGET TO SUB - https://www.youtube.com/c/solstatemusic?sub_confirmation=1
+    Help me help you...master music production.''', videoUrl="Q8iYFLNsjMY", thumbnailUrl="https://i.ytimg.com/vi/Q8iYFLNsjMY/hqdefault.jpg", createdAt="2022-03-27T14:15:01Z")
+    
+    
+    
+    de3a310b48607a82eb81df3225e6a077 = Video(channelId="74", title='''Duke Dumont's "3x30 Method" (Deceptively Simple)''', description='''Hit Maker Duke Dumont talks finishing songs, what matters, and the importance of flow states. 
+    🔔 Don't Forget to Sub - https://www.youtube.com/c/solstatemusic?sub_confirmation=1
+    👀  Duke's Method Is A Lot Like Ian Kirkpatrick's - https://youtu.be/p4uPbuTHRtk
+    👀  Popular Video: Deadmau5's Vault Method - https://youtu.be/NwPFa0WRY1U
+    
+    ABOUT THE VIDEO
+    Even though multi platinum hit maker, Duke Dumont, struggled with writers block, he has found a powerful way to beat it!  It's great to get tips from famous producer's when they are this simple. So, if you're stuck, and aching to conquer writer's block and uncover one of the reasons you can't finish music, try the method in this video. It should help. 
+    
+    🎵 Duke Dumont
+    Need U 100% - https://youtu.be/FnJIb4A-DuY
+    Ocean Drive - https://youtu.be/KDxJlW6cxRk
+    Instagram - https://www.instagram.com/dukedumont/?hl=en
+    
+    🎤  Pat Lok & "Fone A Friend"
+    Original Interview (from Fone A Friend) - https://youtu.be/9-pFKXWKpQk
+    Twitch - https://www.twitch.tv/patlokmusic
+    Instagram - https://www.instagram.com/patlokmusic/?hl=en
+    Spotify - https://open.spotify.com/artist/3ZPRZDAAuBrvx1tsIjeFxh?si=ZfEAKuCSQIavyWqA3f2nrg
+    
+    👋SOL STATE
+    https://www.instagram.com/solstatemusic
+    https://open.spotify.com/artist/4RPPsjsIazFYSnAIxVbVUW
+    https://soundcloud.com/solstatemusic
+    https://www.youtube.com/c/solstatemusic?sub_confirmation=1
+    https://www.facebook.com/SolStateMusic
+    https://twitter.com/solstatemusic
+    
+    🔥MUSIC BY SOL STATE (Outro Song)
+    Stream - https://fanlink.to/solstate-getdown
+    Free DL - https://hypeddit.com/track/8h68l4
+    
+    🎯MY BETA EMAIL NEWSLETTER (Actually Helpful) 
+    Same idea as the channel, help you master music production (no spam)
+    Join Here - https://sendfox.com/solstatemusic
+    
+    🏷PLUGIN DEALS* (Supports Channel)
+    Disclosure's Kick (Big Kick) [Preset "Cutline Kick 2"] - https://bit.ly/disc-kick
+    Decapitator (popular distortion) - https://www.pluginboutique.com/product/2-Effects/44-Saturation/1801-Decapitator/?a_aid=5ef7201f32fd6
+    RC-20 (Kenny Beats uses often) - https://www.pluginboutique.com/product/2-Effects/44-
+    Oxford Inflator (Disclosure uses a lot) - https://www.pluginboutique.com/product/2-Effects/9-Limiter/492-Oxford-Inflator/?a_aid=5ef7201f32fd6
+    Scaler 2 (for better chords) - https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/6439-Scaler-2/?a_aid=5ef7201f32fd6
+    All Deals - https://www.pluginboutique.com/?a_aid=5ef7201f32fd6
+    *some of these may be affiliate links (meaning you can support me at no cost to you)
+    
+    ⏰ Timestamps
+    Analysis Paralysis - 0:00
+    Shoot for 80 Percent - 0:50
+    Aim For A Flow State - 1:05
+    Duke Dumont's 3x30 method - 1:26
+    We Only Hear The Winners - 2:23
+    Start With Yourself - 2:43
+    Have Fun (and share this video) 3:04
+    
+    🔔 DON'T FORGET TO SUB - https://www.youtube.com/c/solstatemusic?sub_confirmation=1
+    Help me help you...master music production.''', videoUrl="fGCtR7oZWdE", thumbnailUrl="https://i.ytimg.com/vi/fGCtR7oZWdE/maxresdefault.jpg", createdAt="2022-03-01T15:15:03Z")
+    
+    
+    
+    dcdbda6b0f4841a3539fdd13a1f2beae = Video(channelId="74", title='''Oliver: "Focus on What Matters" (how fast should you finish a song?)''', description='''Oliver (yes, the Splice one) shares an amazing workflow tip. It's not about time spent on a song...
+    🔔 DON'T FORGET TO SUB - https://www.youtube.com/c/solstatemusic?sub_confirmation=1
+    👀  Popular Video: Deadmau5's Vault Method - https://youtu.be/NwPFa0WRY1U
+    
+    ABOUT THE VIDEO
+    Oliver gets real. It's easy to get distracted by endless music production tips and tricks. And easy to lose touch with what's important: making a great song. That is music production productivity at it's core - producing great songs. So if you want to improve your music workflow, pay close attention to this quick tip. 
+    
+    🎵 OLIVER
+    https://www.twitch.tv/weareolivertv
+    https://splice.com/sounds/splice/oliver-vol-3
+    https://www.instagram.com/weareoliver
+    https://twitter.com/weareoliver
+    https://soundcloud.com/weareoliver
+    https://www.facebook.com/weareoliver/
+    https://open.spotify.com/artist/0NDElNqwGRCmsYIQFapp6K
+    
+    👋SOL STATE
+    https://www.instagram.com/solstatemusic
+    https://open.spotify.com/artist/4RPPsjsIazFYSnAIxVbVUW
+    https://soundcloud.com/solstatemusic
+    https://www.youtube.com/c/solstatemusic?sub_confirmation=1
+    https://www.facebook.com/SolStateMusic
+    https://twitter.com/solstatemusic
+    
+    🔥MUSIC BY SOL STATE
+    Stream - https://fanlink.to/solstate-getdown
+    Free DL - https://hypeddit.com/track/8h68l4
+    
+    🎯MY BETA EMAIL NEWSLETTER (Actually Helpful) 
+    Same idea as the channel, help you master music production (no spam)
+    Join Here - https://sendfox.com/solstatemusic
+    
+    🏷PLUGIN DEALS* (Supports Channel)
+    Disclosure's Kick (Big Kick) [Preset "Cutline Kick 2"] - https://bit.ly/disc-kick
+    Decapitator (popular distortion) - https://www.pluginboutique.com/product/2-Effects/44-Saturation/1801-Decapitator/?a_aid=5ef7201f32fd6
+    RC-20 (Kenny Beats uses often) - https://www.pluginboutique.com/product/2-Effects/44-
+    Oxford Inflator (Disclosure uses a lot) - https://www.pluginboutique.com/product/2-Effects/9-Limiter/492-Oxford-Inflator/?a_aid=5ef7201f32fd6
+    Scaler 2 (for better chords) - https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/6439-Scaler-2/?a_aid=5ef7201f32fd6
+    All Deals - https://www.pluginboutique.com/?a_aid=5ef7201f32fd6
+    
+    *some of these may be affiliate links (meaning you can support me at no cost to you)
+    
+    🔔 DON'T FORGET TO SUB - https://www.youtube.com/c/solstatemusic?sub_confirmation=1
+    Help me help you...master music production.''', videoUrl="7rrLT04se7U", thumbnailUrl="https://i.ytimg.com/vi/7rrLT04se7U/maxresdefault.jpg", createdAt="2022-01-19T15:15:00Z")
+    
+    
+    
+    df9921f4d08779af38681ac9b6d3e67d = Video(channelId="74", title='''Disclosure: Vocal Secrets Behind Pop Hit "Latch" (Over 1 Billion Streams) [Layer Like a Pro]''', description='''​@Disclosure reveals how to layer vocals like a pro so they jump out of the speakers! 
+    👀  Full Latch Breakdown - https://youtu.be/u-0Q41XB7U4
+    🔔  Want more of "the very best music tips"? Subscribe here: https://www.youtube.com/c/solstatemusic?sub_confirmation=1
+    
+    WATCH NEXT
+    👀  Full Latch Breakdown - https://youtu.be/u-0Q41XB7U4
+    👀  "Latch" the song (fun to watch after this video) - https://youtu.be/93ASUImTedo
+    👀  Popular Video: Disclosure's Go To Kick - https://youtu.be/N60Jcn9zfBo
+    👀  Popular Video: I watched 300 hrs of music streams - https://youtu.be/JQHvtinwQQ8
+    
+    ABOUT THE VIDEO
+    Disclosure's gives a Latch Breakdown, showing how they worked with Sam Smith and Jimmy Napes to make global hit Latch. Everyone wants to mix vocals like a pro. Well, why not just copy a pro?! Dive in and learn how Disclosure carefully layers vocals to build a powerful, full, rich vocal stack that sounds amazing. These tips are in Logic, but you can apply them to any DAW. Time to step up your vocal game. 
+    
+    🎵 DISCLOSURE
+    Disclosure's Discord (meet likeminded producers) - https://discord.com/invite/disclosure
+    Full Latch Breakdown - https://youtu.be/u-0Q41XB7U4
+    https://www.twitch.tv/disclosuremusic
+    https://www.disclosureofficial.com/
+    https://twitter.com/disclosure
+    http://instagram.com/disclosure
+    https://www.youtube.com/user/OfficialDisclosure
+    https://open.spotify.com/artist/6nS5roXSAGhTGr34W6n7Et?si=JaJAbgGyQry4AZvqIVePsg
+    https://soundcloud.com/disclosuremusic
+    
+    👋SOL STATE
+    https://www.instagram.com/solstatemusic
+    https://open.spotify.com/artist/4RPPsjsIazFYSnAIxVbVUW
+    https://soundcloud.com/solstatemusic
+    https://www.youtube.com/c/solstatemusic?sub_confirmation=1
+    https://www.facebook.com/SolStateMusic
+    https://twitter.com/solstatemusic
+    
+    🔥MUSIC BY SOL STATE (Outro Song)
+    Stream - https://fanlink.to/solstate-getdown
+    Free DL - https://hypeddit.com/track/8h68l4
+    
+    🎯MY BETA EMAIL NEWSLETTER (Actually Helpful) 
+    Same idea as the channel, help you master music production (no spam)
+    Join Here - https://sendfox.com/solstatemusic
+    
+    🏷PLUGIN DEALS* (Supports Channel)
+    Disclosure's Kick (Big Kick) [Preset "Cutline Kick 2"] - https://bit.ly/disc-kick
+    Decapitator (Disclosure uses a lot) - https://www.pluginboutique.com/product/2-Effects/44-Saturation/1801-Decapitator/?a_aid=5ef7201f32fd6
+    RC-20 (Kenny Beats uses often) - https://www.pluginboutique.com/product/2-Effects/44-
+    Oxford Inflator (Disclosure uses on vocals) - https://www.pluginboutique.com/product/2-Effects/9-Limiter/492-Oxford-Inflator/?a_aid=5ef7201f32fd6
+    Scaler 2 (for better chords) - https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/6439-Scaler-2/?a_aid=5ef7201f32fd6
+    All Deals - https://www.pluginboutique.com/?a_aid=5ef7201f32fd6
+    
+    *some of these may be affiliate links (meaning you can support me at no cost to you)
+    
+    ⏰ TIME STAMPS
+    The Sample - 0:00
+    Sample Automation - 0:24
+    How to Collaborate - 0:41
+    Simple Vocal Chain - 1:17
+    Double Tracking - 1:53
+    Whisper Layers - 2:11 
+    Chorus vocals A/B - 2:46
+    The Chorus Melody - 3:12
+    Six Sam Layers - 3:58
+    Low Vocal Layer - 4:35
+    Simple FX - 4:52
+    Tape Delay - 5:15 
+    Vocal Ad Libs - 5:44
+    Coaching Sam (Like & Sub For More) - 6:02
+    
+    7  VOCAL  LAYERS
+    1) Lead
+    2) Doubles & Multitracks
+    3) Whispers
+    5) Low vocal Layer
+    6) Ad Libs & Extras
+    7) Delays
+    
+    🔔 DON'T FORGET TO SUB - https://www.youtube.com/c/solstatemusic?sub_confirmation=1
+    Help me help you...master music production.''', videoUrl="h0x0oorHXmk", thumbnailUrl="https://i.ytimg.com/vi/h0x0oorHXmk/maxresdefault.jpg", createdAt="2022-01-05T15:15:01Z")
+    
+    
+    
+    de8ec71984aa4eb0d50100a3dae7af21 = Video(channelId="74", title='''Disclosure: 11 Best Music Tips from "In My Arms" (& how to  use reverb like a PRO)''', description='''​@Disclosure gives 11 music quick tips (on reverb, bass, kicks, drums, synths and more)
+    👀  Song ID (fun to watch after this video) - https://youtu.be/RuPAClqsBHU
+    👀  Popular Video: Disclosure's Go To Kick - https://youtu.be/N60Jcn9zfBo
+    👀  Popular Video: Disclosure's Go To Drum Bus - https://youtu.be/tRDJRCoDXPg
+    
+    🔔 DON'T FORGET TO SUB - https://www.youtube.com/c/solstatemusic?sub_confirmation=1
+    Help me help you...master music production.
+    
+    ABOUT THE VIDEO
+    Guy from Disclosure gives 11 music quick tips from their latest song "In My Arms", already a hit on dance-floors worldwide. One of these crucial production tips is about reverb pre-delay. It is so powerful but most producers don't use it as much as they should. Guy shares a special uncommon music production technique: combining reverb, pre-delay, and a tremolo. It's a magic music production combo. 
+    
+    🎵 DISCLOSURE
+    Disclosure's Discord (meet likeminded producers) - https://discord.com/invite/disclosure
+    https://www.twitch.tv/disclosuremusic
+    https://www.disclosureofficial.com/
+    https://twitter.com/disclosure
+    http://instagram.com/disclosure
+    https://www.youtube.com/user/OfficialDisclosure
+    https://open.spotify.com/artist/6nS5roXSAGhTGr34W6n7Et?si=JaJAbgGyQry4AZvqIVePsg
+    https://soundcloud.com/disclosuremusic
+    
+    👋SOL STATE
+    https://www.instagram.com/solstatemusic
+    https://open.spotify.com/artist/4RPPsjsIazFYSnAIxVbVUW
+    https://soundcloud.com/solstatemusic
+    https://www.youtube.com/c/solstatemusic?sub_confirmation=1
+    https://www.facebook.com/SolStateMusic
+    https://twitter.com/solstatemusic
+    
+    🔥MUSIC BY SOL STATE (Outro Song)
+    Stream - https://fanlink.to/solstate-getdown
+    Free DL - https://hypeddit.com/track/8h68l4
+    
+    🎯MY BETA EMAIL NEWSLETTER (Actually Helpful) 
+    Same idea as the channel, help you master music production (no spam)
+    Join Here - https://sendfox.com/solstatemusic
+    
+    🏷PLUGIN DEALS* (Supports Channel)
+    Disclosure's Kick (Big Kick) [Preset "Cutline Kick 2"] - https://bit.ly/disc-kick
+    Decapitator (seen in this video) - https://www.pluginboutique.com/product/2-Effects/44-Saturation/1801-Decapitator/?a_aid=5ef7201f32fd6
+    RC-20 (Kenny Beats uses often) - https://www.pluginboutique.com/product/2-Effects/44-
+    Oxford Inflator (Disclosure uses a lot) - https://www.pluginboutique.com/product/2-Effects/9-Limiter/492-Oxford-Inflator/?a_aid=5ef7201f32fd6
+    Scaler 2 (for better chords) - https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/6439-Scaler-2/?a_aid=5ef7201f32fd6
+    All Deals - https://www.pluginboutique.com/?a_aid=5ef7201f32fd6
+    
+    *some of these may be affiliate links (meaning you can support me at no cost to you)
+    
+    ⏰ TIME STAMPS
+    Drum Break FX- 0:00
+    Fixing annoying resonances + - 0:30
+    Kick Layers - 1:26
+    Kick & Bass Theory - 2:18
+    Better Shakers - 2:55
+    Shaker Enhancement - 3:37
+    Reverb Magic - 4:17
+    Clap Reverb - 4:56
+    909 + LFO - 5:40
+    Bass EQ - 6:32
+    Bass Timing  - 7:12
+    Faking Bass Cutoff - 7:42
+    Shout Out (Like & Sub for More) - 8:34
+    
+    🔔 DON'T FORGET TO SUB - https://www.youtube.com/c/solstatemusic?sub_confirmation=1
+    Help me help you...master music production.''', videoUrl="7pBkjzNT9eI", thumbnailUrl="https://i.ytimg.com/vi/7pBkjzNT9eI/maxresdefault.jpg", createdAt="2021-12-20T15:15:00Z")
+    
+    
+    
+    dfbf2f985a27b152a3a7e48bb8e3088c = Video(channelId="74", title='''Amazing Cyber Monday Deals (Best FREE plugins & Top Picks For Plugin Lovers) [Part 2 - 2021] 🎯''', description='''All plugins linked below. Use the links below to support this channel (thanks)
+    FREE PLUGINS...
+    Tal Chorus LX - https://www.pluginboutique.com/product/2-Effects/11-Chorus/428-TAL-Chorus-LX/?a_aid=5ef7201f32fd6 
+    U-HE Tyrell - https://u-he.com/products/tyrelln6/ 
+    NI-25 - https://www.native-instruments.com/en/products/komplete/play-series/twenty-five/ 
+    
+    TRANSIENTS
+    DS-10 - https://www.pluginboutique.com/products/1812/?a_aid=5ef7201f32fd6 
+    NI Transient -  https://www.native-instruments.com/en/products/komplete/effects/transient-master/ 
+    Neutron - https://www.pluginboutique.com/products/5411/?a_aid=5ef7201f32fd6 
+    Split EQ - https://www.pluginboutique.com/product/2-Effects/16-EQ/8345-SplitEQ/?a_aid=5ef7201f32fd6 
+    Spiff - https://oeksound.com/plugins/spiff/ 
+    
+    LIMITERS
+    Pro L-2 - https://www.pluginboutique.com/products/3955/?a_aid=5ef7201f32fd6 
+    Limitless - https://www.dmgaudio.com/products_limitless.php 
+    Ozone - https://www.pluginboutique.com/products/5718/?a_aid=5ef7201f32fd6 
+    Elevate - https://www.pluginboutique.com/product/2-Effects/50-Mastering-/4553-Elevate-Mastering-Bundle/?a_aid=5ef7201f32fd6 
+    TDR Limiter - https://www.pluginboutique.com/products/4654/?a_aid=5ef7201f32fd6 
+    
+    CLIPPERS 
+    Standard Clip - https://www.siraudiotools.com/StandardCLIP.php 
+    Saturate - https://www.pluginboutique.com/products/5573/?a_aid=5ef7201f32fd6 
+    Kclip - https://kazrog.com/products/kclip-3 
+    
+    DELAYS 
+    H-Delay - https://www.waves.com/r/586yvg
+    Outer Space - https://www.pluginboutique.com/products/3252/?a_aid=5ef7201f32fd6 
+    EchoBoy - https://www.pluginboutique.com/products/1798/?a_aid=5ef7201f32fd6 
+    EchoBoy Jr - https://www.pluginboutique.com/products/4716/?a_aid=5ef7201f32fd6 
+    
+    REVERBS
+    SP-2016 - https://www.pluginboutique.com/product/2-Effects/17-Reverb/4747-SP2016-Reverb/?a_aid=5ef7201f32fd6 
+    Valhalla - https://valhalladsp.com/shop/reverb/valhalla-vintage-verb/ 
+    Little Plate - https://www.pluginboutique.com/product/2-Effects/17-Reverb/4715-Little-Plate/?a_aid=5ef7201f32fd6 
+    Black Hole - https://www.pluginboutique.com/product/2-Effects/17-Reverb/2855-Blackhole/?a_aid=5ef7201f32fd6 
+    
+    VOCAL TOOLS
+    VocalSynth 2 - https://www.pluginboutique.com/products/4413/?a_aid=5ef7201f32fd6 
+    Waves Ovox - https://www.waves.com/r/586yvg
+    RX-9 Bundle - https://www.pluginboutique.com/product/2-Effects/39-FX-Bundle/8357-Music-Production-Suite-4-1-Iris-2-Bundle-Exclusive/?a_aid=5ef7201f32fd6 
+    Harmony Engine - https://www.pluginboutique.com/products/488/?a_aid=5ef7201f32fd6 
+    Inflator - https://www.pluginboutique.com/products/492/?a_aid=5ef7201f32fd6 
+    
+    MONO SYNTHS
+    Model 72 - https://www.pluginboutique.com/products/6888/?a_aid=5ef7201f32fd6 
+    NI Monark - https://shareasale.com/r.cfm?b=1643465&u=2585474&m=77930&urllink=&afftrack 
+    D16-303 - https://www.pluginboutique.com/product/1-Instruments/4-Synth/8-Phoscyon/?a_aid=5ef7201f32fd6  
+    
+    REFERENCING
+    Reference 2 - https://www.pluginboutique.com/products/3675/?a_aid=5ef7201f32fd6 
+    Metric A/B - https://www.plugin-alliance.com/en/products/adptr_metricab.html 
+    
+    ANALYSIS
+    Ozone - https://www.pluginboutique.com/products/5718/?a_aid=5ef7201f32fd6  
+    SoundID - https://www.pluginboutique.com/products/7408/?a_aid=5ef7201f32fd6 
+    Pro Q-3 - https://www.pluginboutique.com/product/2-Effects/16-EQ/4949-FabFilter-Pro-Q-3/?a_aid=5ef7201f32fd6 
+    
+    BIT CRUSHERS
+    SP-950 - https://wavetracing.com/products/sp950 
+    RC-20 - https://www.pluginboutique.com/product/2-Effects/44-Saturation/3016-XLN-Audio-RC-20-Retro-Color-Vintage-Effect/?a_aid=5ef7201f32fd6 
+    Decimort - https://www.pluginboutique.com/products/2017/?a_aid=5ef7201f32fd6 
+    
+    UNIQUE PLUGINS
+    Fluid Pitch - https://www.pluginboutique.com/products/7552/?a_aid=5ef7201f32fd6 
+    Endless Smile - https://dadalife.com/plugins/ 
+    Shaperbox - https://www.pluginboutique.com/products/8208/?a_aid=5ef7201f32fd6 
+    
+    WAVES BONUS
+    Bonus 10% Off - https://www.waves.com/r/586yvg
+    
+    ⏰TIMESTAMPS
+    Warning: For Plugin Nerds Only (plugins linked below, helps support this channel) - 0:00
+    Best Free Plugins - 0:21
+    Transient Designers - 0:52
+    Limiters - 2:30
+    Clippers - 4:46
+    Delays with style - 5:13
+    Reverb - 6:33
+    Vocal Tools - 7:51
+    Mono Synths - 9:17
+    Referencing - 10:16
+    Mix Analysis - 11:15
+    Pro Q3 Tip - 12:45
+    Bit Crushers - 13:03
+    Unique Plugins - 13:56
+    
+    *Some are these links are affiliate links meaning I receive a small commission.''', videoUrl="ZqjRmouDNlk", thumbnailUrl="https://i.ytimg.com/vi/ZqjRmouDNlk/maxresdefault.jpg", createdAt="2021-11-29T18:43:33Z")
+    
+    
+    
+    d60d25f26849d9948c2d2d80bd8e4095 = Video(channelId="74", title='''BEST Cyber Monday & Black Friday Deals (14 categories, only GREAT plugins) [Part 1 - 2021] 🔥''', description='''All plugins linked below. Use the links below to support this channel. Questions? LMK
+    
+    3 MOST UNDERPRICED PLUGINS...
+    Pro-Q3 -  https://www.pluginboutique.com/product/2-Effects/16-EQ/4949-FabFilter-Pro-Q-3/?a_aid=5ef7201f32fd6 
+    Soundtoys Effect Rack - https://www.pluginboutique.com/product/2-Effects/39-FX-Bundle/6343-Soundtoys-Effect-Rack/?a_aid=5ef7201f32fd6
+    Ozone Holiday Platinum Bundle - 
+    https://www.pluginboutique.com/product/2-Effects/39-FX-Bundle/8313-Holiday-Bundle-Platinum-Edition/?a_aid=5ef7201f32fd6 
+    
+    SIDECHAIN
+    Gatekeeper - https://www.pluginboutique.com/product/2-Effects/20-Gate/5126-Gatekeeper/?a_aid=5ef7201f32fd6 
+    Trackspacer - https://www.pluginboutique.com/product/3-Studio-Tools/71-Dynamic-Processor/3259-TrackSpacer/?a_aid=5ef7201f32fd6 
+    Volume Shaper - https://www.pluginboutique.com/product/2-Effects/63-Envelope-Shaper/5701-VolumeShaper-6/?a_aid=5ef7201f32fd6 
+    
+    EQ
+    Pro-Q3 -  https://www.pluginboutique.com/product/2-Effects/16-EQ/4949-FabFilter-Pro-Q-3/?a_aid=5ef7201f32fd6 
+    Melda Auto Dynamic EQ
+    https://www.pluginboutique.com/product/2-Effects/16-EQ/190-MAutoDynamicEQ/?a_aid=5ef7201f32fd6 
+    Soothe - https://oeksound.com/plugins/soothe2 
+    Split EQ - https://www.pluginboutique.com/product/2-Effects/16-EQ/8345-SplitEQ/?a_aid=5ef7201f32fd6 
+    Pensado EQ - https://www.acustica-audio.com/store/products/pensadoeq 
+    
+    VOCAL MAGIC
+    Fresh Air - https://slatedigital.com/fresh-air/
+    Gem Dopamine - https://overloud.com/products/dopamine 
+    Type A - https://www.pluginboutique.com/products/3968/?a_aid=5ef7201f32fd6 
+    
+    VOCAL TUNING
+    Auto-Tune- https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/5039-Auto-Tune-Access/?a_aid=5ef7201f32fd6 
+    Melodyne - https://www.pluginboutique.com/products/6446/?a_aid=5ef7201f32fd6 
+    
+    VOCAL PITCHING
+    Manipulator - https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/5127-Manipulator/?a_aid=5ef7201f32fd6 
+    Little AlterBoy - https://www.pluginboutique.com/products/1807/?a_aid=5ef7201f32fd6
+    Vocal Bender -  https://www.waves.com/plugins/vocal-bender 
+    
+    SATURATION
+    Fab filter Saturn 2 - https://www.pluginboutique.com/product/2-Effects/30-Distortion/6423-FabFilter-Saturn-2/?a_aid=5ef7201f32fd6 
+    Decapitator - https://www.pluginboutique.com/product/2-Effects/44-Saturation/1801-Soundtoys-Decapitator-Analog-Saturator/?a_aid=5ef7201f32fd6 
+    Ozone 9 Standard - https://www.pluginboutique.com/products/5718/?a_aid=5ef7201f32fd6 
+    Trash 2 Bundle -
+    https://www.pluginboutique.com/product/2-Effects/39-FX-Bundle/8313-Holiday-Bundle-Platinum-Edition/?a_aid=5ef7201f32fd6 
+    
+    TAPE
+    Waves J37 & Kramer (extra 10% off) - https://www.waves.com/r/586yvg 
+    Sketch Cassette - https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/7024-SketchCassette-II/?a_aid=5ef7201f32fd6  
+    Decapitator - https://www.pluginboutique.com/product/2-Effects/44-Saturation/1801-Soundtoys-Decapitator-Analog-Saturator/?a_aid=5ef7201f32fd6 
+    
+    MULTIBAND COMPRESSORS
+    Fab filter Pro MB - https://www.pluginboutique.com/products/919/?a_aid=5ef7201f32fd6 
+    Dyn One - https://www.pluginboutique.com/products/5251/?a_aid=5ef7201f32fd6
+    Ozone 9 Standard - https://www.pluginboutique.com/products/5718/?a_aid=5ef7201f32fd6 
+	    
+    FUN & FLAVOR
+    XLN RC-20 - https://www.pluginboutique.com/product/2-Effects/44-Saturation/3016-XLN-Audio-RC-20-Retro-Color-Vintage-Effect/?a_aid=5ef7201f32fd6 
+    Soundtoys Effect Rack - https://www.pluginboutique.com/product/2-Effects/39-FX-Bundle/6343-Soundtoys-Effect-Rack/?a_aid=5ef7201f32fd6
+    Distressor Clone - https://www.pluginboutique.com/products/7363/?a_aid=5ef7201f32fd6 
+    
+    MUSIC THEORY
+    Push 2 - https://amzn.to/37i7WoS 
+    Scaler - https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/6439-Scaler-2/?a_aid=5ef7201f32fd6 
+    
+    KICKS
+    Kick 2 - https://www.sonicacademy.com/products/kick-2
+    Big Kick - https://www.pluginboutique.com/product/69-generator/879-bigkick/?a_aid=5ef7201f32fd6
+    
+    SYNTHS
+    Serum (no sale) - https://xferrecords.com/products/serum
+    Phaseplant + Toolbox Pro - https://www.pluginboutique.com/product/2-Effects/39-FX-Bundle/5407-Phase-Plant-Toolbox-PROFESSIONAL/?a_aid=5ef7201f32fd6 
+    Arturia V Collection - https://www.pluginboutique.com/products/7143/?a_aid=5ef7201f32fd6 
+    Model 84 - https://www.pluginboutique.com/products/7550/?a_aid=5ef7201f32fd6
+    
+    INNOVATIVE
+    Gullfoss - https://www.soundtheory.com/
+    XO by XLN - https://www.pluginboutique.com/meta_product/1-Instruments/64-Virtual-Instrument/5989-XLN-Audio-XO/?a_aid=5ef7201f32fd6 
+    Inflator - https://www.pluginboutique.com/products/492/?a_aid=5ef7201f32fd6
+    
+    WAVES BONUS
+    Bonus 10% Off - https://www.waves.com/r/586yvg
+    
+    ⏰TIMESTAMPS
+    Underpriced Plugs (plugins linked below, helps support this channel) - 0:00
+    Sidechain - 2:00
+    EQ - 3:28
+    Vocal Magic - 4:54
+    Vocal Tuning - 5:48
+    Vocal Pitching - 6:34
+    Saturation - 7:39
+    Tape - 8:54
+    Multiband Comp - 9:48
+    Fun/Flavor - 10:24
+    Chords - 11:24
+    Kicks - 12:06
+    Synths - 12:41
+    Innovative - 13:56
+    
+    *Some are these links are affiliate links meaning I receive a small commission.''', videoUrl="RDlnUuWcDHU", thumbnailUrl="https://i.ytimg.com/vi/RDlnUuWcDHU/maxresdefault.jpg", createdAt="2021-11-26T18:04:25Z")
+    
+    
+    
+    d2dafbf23431a4c4de33b056eaa353d0 = Video(channelId="74", title='''Wish I knew this before spending $3k on plugins (might save you $69) [Ft Disclosure, Laxcity, Eskar]''', description='''Plugins don't write hits. Here's how to not waste your money.
+    Stay tuned for my "Best Of" Black Friday (26th) & Cyber Monday (29th) videos.
+    ►Best Cyber Monday Plugin Deals: https://bit.ly/ss-cyber-monday-deals  [supports Sol State*]
+    
+    👀 Watch Next:  Disclosure's 10 Tricks for Dance Vocals - https://youtu.be/CWmIqmSzhE8
+    👀 Disclosure's Go To Kick - https://youtu.be/N60Jcn9zfBo
+    👀 The Truth About Writers Block - https://youtu.be/_9VAsQTVJWw
+    
+    ABOUT THE VIDEO
+    Don’t buy plugins you don't need. With Black Friday VST plugin deals everywhere, it's important to remember there are some paid plugins actually worth buying, some not. You have to find plugins that work for you, or other ways to improve your music. Before looking for "the best black friday plugin deals", ask does this plugin help solve a problem for me? Hopefully you can find some plugins you really do need, and are really worth buying. 
+    
+    🎵 DISCLOSURE
+    Disclosure's Discord - https://discord.com/invite/disclosure
+    https://www.youtube.com/user/OfficialDisclosure
+    
+    🎹 JAY ESKAR 
+    https://www.youtube.com/channel/UCyRhor7QjUyAQUr38db8PyA
+    https://www.instagram.com/jayeskar/?hl=en
+    
+    🎵LAXCITY
+    https://www.youtube.com/channel/UCqW1RXzxp5IKEA8cgLEi77w
+    https://www.instagram.com/laxcitymusic/
+    
+    👋SOL STATE
+    https://www.instagram.com/solstatemusic
+    https://soundcloud.com/solstatemusic
+    
+    🔥MUSIC BY SOL STATE (Outro Song)
+    Stream - https://fanlink.to/solstate-getdown
+    Free DL - https://hypeddit.com/track/8h68l4
+    
+    🎯MY BETA EMAIL NEWSLETTER (Actually Helpful) 📃
+    Same idea as the channel, help you master music production (no spam)
+    Join Here - https://sendfox.com/solstatemusic
+    
+    🏷PLUGIN DEALS* (Supports Channel)
+    Disclosure's Kick (Big Kick) [Preset "Cutline Kick 2"] - https://bit.ly/disc-kick
+    Decapitator (seen in this video) - https://www.pluginboutique.com/product/2-Effects/44-Saturation/1801-Decapitator/?a_aid=5ef7201f32fd6
+    RC-20 (Kenny Beats uses often) - https://www.pluginboutique.com/product/2-Effects/44-
+    Oxford Inflator (Disclosure uses a lot) - https://www.pluginboutique.com/product/2-Effects/9-Limiter/492-Oxford-Inflator/?a_aid=5ef7201f32fd6
+    Scaler 2 (for better chords) - https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/6439-Scaler-2/?a_aid=5ef7201f32fd6
+    All Deals - https://www.pluginboutique.com/?a_aid=5ef7201f32fd6
+    
+    *some of these are affiliate links (meaning you can support me at no cost to you)
+    
+    ⏰ TIME STAMPS
+    The Lie (Stay tuned for Black Friday video) - 0:00
+    Disclosure - 600million plays without fancy plugins - 0:49
+    Stop Waiting For Perfect Gear - 1:32
+    Gear Myth ft. Disclosure - 2:06
+    Hacker Mindset ft. Laxcity - 2:32
+    Your Plugin Tool Kit (Chef Example) - 3:22
+    All That Matters ft. Jay Eskar - 3:59 
+    2 Helpful Questions (might save you $69.42) - 4:20
+    Why Fun Is The Goal - 4:40
+    Value Investing like Buffet - 5:09
+    Personal Fit - 5:39
+    Why Jay Eskar Likes To Work Fast - 6:08
+    DAW Weak Points - 7:06
+    Summary+ (plugin deals below, supports channel) - 7:53
+    
+    🔔 DON'T FORGET TO SUB - https://www.youtube.com/c/solstatemusic?sub_confirmation=1
+    Help me help you...master music production.''', videoUrl="s7cx6n8HqRQ", thumbnailUrl="https://i.ytimg.com/vi/s7cx6n8HqRQ/maxresdefault.jpg", createdAt="2021-11-22T15:15:02Z")
+    
+    
+    
+    debd57c4c203f54b7a77a0ca79aea4e1 = Video(channelId="74", title='''Disclosure: 10 Dance-Vocal Tricks (Perfect Levels, Powerful Harmonies, Crazy FX)''', description='''​@Disclosure shares 10 amazing tricks for pro level, radio ready, dance vocals.  
+    🔔 Subscribe to master music production - https://www.youtube.com/c/solstatemusic?sub_confirmation=1
+    👀 Watch Next: Disclosure's Go To Kick - https://youtu.be/N60Jcn9zfBo
+    👀 Disclosure on How To Get "Radio Ready" Vocals - https://youtu.be/q2Tb5iDiTJ4
+    👀 Disclosure's Go To Drum Bus - https://youtu.be/tRDJRCoDXPg
+    👀 The Truth About Writers Block - https://youtu.be/_9VAsQTVJWw
+    
+    ABOUT THE VIDEO
+    There is no key to radio ready vocals. Disclosure shows that the little things add up to form pro level vocals. Disclosure goes over everything from auto-tuned robots, to mixing tips, to effect chains, to how to set your levels right. There are so many tips inn here that should help make your vocal mixing better and easier. One of the key lessons is - create a vocal stack!
+    
+    Time for a better vocal chain in 2021! 
+    
+    🎵 DISCLOSURE
+    Song in Video is Never Enough by Disclosure - https://youtu.be/G_r6hRV054U
+    Disclosure's Discord (meet likeminded producers) - https://discord.com/invite/disclosure
+    https://www.twitch.tv/disclosuremusic
+    https://www.disclosureofficial.com/
+    https://twitter.com/disclosure
+    http://instagram.com/disclosure
+    https://www.youtube.com/user/OfficialDisclosure
+    https://open.spotify.com/artist/6nS5roXSAGhTGr34W6n7Et?si=JaJAbgGyQry4AZvqIVePsg
+    https://soundcloud.com/disclosuremusic
+    
+    👋SOL STATE
+    https://www.instagram.com/solstatemusic
+    https://open.spotify.com/artist/4RPPsjsIazFYSnAIxVbVUW
+    https://soundcloud.com/solstatemusic
+    https://www.youtube.com/c/solstatemusic?sub_confirmation=1
+    https://www.facebook.com/SolStateMusic
+    https://twitter.com/solstatemusic
+    
+    🔥MUSIC BY SOL STATE (Outro Song)
+    Stream - https://fanlink.to/solstate-getdown
+    Free DL - https://hypeddit.com/track/8h68l4
+    
+    🎯MY BETA EMAIL NEWSLETTER (Actually Helpful) 📃
+    Same idea as the channel, help you master music production (no spam)
+    Join Here - https://sendfox.com/solstatemusic
+    
+    🏷PLUGIN DEALS* (Supports Channel)
+    Disclosure's Kick (Big Kick) [Preset "Cutline Kick 2"] - https://bit.ly/disc-kick
+    Decapitator (seen in this video) - https://www.pluginboutique.com/product/2-Effects/44-Saturation/1801-Decapitator/?a_aid=5ef7201f32fd6
+    RC-20 (Kenny Beats uses often) - https://www.pluginboutique.com/product/2-Effects/44-
+    Oxford Inflator (Disclosure uses a lot) - https://www.pluginboutique.com/product/2-Effects/9-Limiter/492-Oxford-Inflator/?a_aid=5ef7201f32fd6
+    Scaler 2 (for better chords) - https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/6439-Scaler-2/?a_aid=5ef7201f32fd6
+    All Deals - https://www.pluginboutique.com/?a_aid=5ef7201f32fd6
+    
+    *some of these may be affiliate links (meaning you can support me at no cost to you)
+    
+    ⏰ TIME STAMPS
+    Autotune & Howard The Robot - 0:00
+    Tremolo (like Todd Edwards) - 0:42
+    Double Tremolo - 1:11
+    Best Autotune Plugin (Melodyne vs Autotune) - 1:37
+    Vocal Layer (Like Mini Song) - 2:19
+    Contrast (Robots vs Choir) - 3:22
+    Vocal Compressor Choice (CL1B vs 1176)  - 3:53
+    Violent Flanger (Like Tame Impala & Led Zeppelin) - 4:27
+    DJ style FX - 5:05
+    Vocal Bus Chain - 5:35
+    Vocal Levels - How to balance vocals and music? - 6:26
+    Vocal Test - Is your vocal too quiet? - 7:10
+    
+    🔔 DON'T FORGET TO SUB - https://www.youtube.com/c/solstatemusic?sub_confirmation=1
+    Help me help you...master music production.''', videoUrl="CWmIqmSzhE8", thumbnailUrl="https://i.ytimg.com/vi/CWmIqmSzhE8/maxresdefault.jpg", createdAt="2021-11-19T15:15:00Z")
+    
+    
+    
+    d7a2629b86735d8b48aca36bbc61cff1 = Video(channelId="74", title='''Disclosure: Faking "That Analog Sound" Using Automation & Variation (15 Tricks)''', description='''​@Disclosure shows you how to get that analog sound in your DAW! 
+    🔔 Subscribe to master music production - https://www.youtube.com/c/solstatemusic?sub_confirmation=1
+    👀  Watch Next: Disclosure's Go To Kick - https://youtu.be/N60Jcn9zfBo
+    👀 Disclosure's Go To Drum Bus - https://youtu.be/tRDJRCoDXPg
+    👀 The Truth About Writers Block - https://youtu.be/_9VAsQTVJWw
+    
+    ABOUT THE VIDEO
+    We all want that analog sound. Turns out you don't need an $100k analog studio to make your tracks come to life, you can actually get that analog sound in your daw. Guy from Disclosure gives 15 music production tricks to help make your digital mix sound analog. The trick is multiple lanes of auotmation and lots of variation, plus a few good plugins. 
+    
+    🎵 DISCLOSURE
+    Disclosure's Discord (meet likeminded producers) - https://discord.com/invite/disclosure
+    https://www.twitch.tv/disclosuremusic
+    https://www.disclosureofficial.com/
+    https://twitter.com/disclosure
+    http://instagram.com/disclosure
+    https://www.youtube.com/user/OfficialDisclosure
+    https://open.spotify.com/artist/6nS5roXSAGhTGr34W6n7Et?si=JaJAbgGyQry4AZvqIVePsg
+    https://soundcloud.com/disclosuremusic
+    
+    👋SOL STATE
+    https://www.instagram.com/solstatemusic
+    https://open.spotify.com/artist/4RPPsjsIazFYSnAIxVbVUW
+    https://soundcloud.com/solstatemusic
+    https://www.youtube.com/c/solstatemusic?sub_confirmation=1
+    https://www.facebook.com/SolStateMusic
+    https://twitter.com/solstatemusic
+    
+    🔥MUSIC BY SOL STATE (Outro Song)
+    Stream - https://fanlink.to/solstate-getdown
+    Free DL - https://hypeddit.com/track/8h68l4
+    
+    🎯MY BETA EMAIL NEWSLETTER (Actually Helpful) 📃
+    Same idea as the channel, help you master music production (no spam)
+    Join Here - https://sendfox.com/solstatemusic
+    
+    🏷PLUGIN DEALS* (Supports Channel)
+    Disclosure's Kick (Big Kick) [Preset "Cutline Kick 2"] - https://bit.ly/disc-kick
+    Decapitator (seen in this video) - https://www.pluginboutique.com/product/2-Effects/44-Saturation/1801-Decapitator/?a_aid=5ef7201f32fd6
+    RC-20 (Kenny Beats uses often) - https://www.pluginboutique.com/product/2-Effects/44-
+    Oxford Inflator (Disclosure uses a lot) - https://www.pluginboutique.com/product/2-Effects/9-Limiter/492-Oxford-Inflator/?a_aid=5ef7201f32fd6
+    Scaler 2 (for better chords) - https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/6439-Scaler-2/?a_aid=5ef7201f32fd6
+    All Deals - https://www.pluginboutique.com/?a_aid=5ef7201f32fd6
+    
+    *some of these may be affiliate links (meaning you can support me at no cost to you)
+    
+    ⏰ TIME STAMPS
+    Alive 909 - 0:00
+    Vocal Shouts 0:38
+    Clever Clap Automation - 0:53
+    Why All The FX? - 1:35
+    Use A Song Theme - 2:16
+    Kick Layers - 2:41
+    Drum Break - 3:24
+    DJ Drum Bus+ - 3:56
+    Faking Analog - 4:56
+    How To Fake Analog - 5:44
+    Story Time - 6:39
+    Slow RC-20 Wobble 6:57
+    Tremolo Time Mod - 7:27
+    Better Bass - 7:44
+    Bass Bitcrusher (Like & Sub for More) - 8:32
+    
+    🔔 DON'T FORGET TO SUB - https://www.youtube.com/c/solstatemusic?sub_confirmation=1
+    Help me help you...master music production.''', videoUrl="HEcJ8vHWk88", thumbnailUrl="https://i.ytimg.com/vi/HEcJ8vHWk88/maxresdefault.jpg", createdAt="2021-11-11T15:15:03Z")
+    
+    
+    
+    dab0f16d2cec7f81a4a0fa98294f5796 = Video(channelId="77", title='''Turning YOUR Melodies Into BANGERS!''', description='''In this video, I'll take some of my subscribers' melodies and turn them into BANGERS!
+    
+    🥁 Drums & 808s I used in this video: https://www.edtalenti.com​
+    💬 Join the Full-Time Producer Newsletter (it's free!) - https://newsletter.edtalenti.com
+    
+    💯 Subscribe for more videos - https://bit.ly/2MM2Ny0​​​
+    💪 Join our discord - https://invite.gg/flutegang​​​
+    
+    📩 email - creator@edtalenti.com (please don't send melodies here 😂)
+    📷 instagram - @edtalenti
+    🐦 twitter - @edtalenti
+    
+    #melody​ #banger​ #music''', videoUrl="zwNr8_dJjLQ", thumbnailUrl="https://i.ytimg.com/vi/zwNr8_dJjLQ/hqdefault.jpg", createdAt="2022-04-19T15:05:31Z")
+    
+    
+    
+    db03190f4ed14817e89b1647f5de487b = Video(channelId="77", title='''Remixing TikTok Songs Until I Go VIRAL''', description='''In this video, I'll remix TikTok songs for a week straight... in an attempt to go viral on the platform!
+    
+    🥁 Drums & 808s I used in this video: https://www.edtalenti.com​
+    💬 Join the Full-Time Producer Newsletter (it's free!) - https://newsletter.edtalenti.com
+    
+    💯 Subscribe for more videos - https://bit.ly/2MM2Ny0​​​
+    💪 Join our discord - https://invite.gg/flutegang​​​
+    
+    📩 email - creator@edtalenti.com
+    📷 instagram - @edtalenti
+    🐦 twitter - @edtalenti
+    
+    #tiktok​ #viral​ #music''', videoUrl="IOHc6gLJVko", thumbnailUrl="https://i.ytimg.com/vi/IOHc6gLJVko/maxresdefault.jpg", createdAt="2022-04-05T14:59:15Z")
+    
+    
+    
+    d71a90906f0913d4de3819bdc6d2c29e = Video(channelId="77", title='''Top 10 A.I. Websites For Lazy Music Producers''', description='''In this video, I'll show you 10 A.I. powered websites that will improve your music production and beat making.  
+    
+    💾 Download 1.1Gb of FREE samples - https://prodsecrets.com/pages/free-s1-sample-pack
+    
+    💬 Join the Full-Time Producer Newsletter (it's free!) - https://newsletter.edtalenti.com
+    🥁 Drums & 808s I used in this video - https://www.edtalenti.com​
+    
+    💯 subscribe - https://bit.ly/2MM2Ny0​​​
+    💪 join my discord - https://invite.gg/flutegang​​​
+    
+    📩 email - creator@edtalenti.com
+    📷 instagram - @edtalenti
+    🐦 twitter - @edtalenti
+    
+    chapters
+    00:00​​​ - intro
+    00:14 - 10
+    00:57 - 09
+    01:27 - 08
+    01:47 - 07
+    02:22 - 06
+    02:50 - 05
+    03:16 - 04
+    03:48 - Free samples!
+    04:11 - 03
+    04:53 - 02
+    05:14 - 0
+    
+    #AI​ #producer​ #music''', videoUrl="R5wUNT8Ulbo", thumbnailUrl="https://i.ytimg.com/vi/R5wUNT8Ulbo/maxresdefault.jpg", createdAt="2022-03-20T16:00:51Z")
+    
+    
+    
+    d815969016b2b78445b7ab2967849a85 = Video(channelId="77", title='''He said I couldn't make Electro Swing... so I did!''', description='''Simon texted me the other day and said I'd never be able to make an Electro Swing Extratone beat... so I made one. 
+    
+    💬 Join the Full-Time Producer Newsletter (it's free!) - https://newsletter.edtalenti.com
+    
+    🥁 drums & 808s I used in this video - https://www.edtalenti.com​
+    
+    💯 subscribe - https://bit.ly/2MM2Ny0​​​
+    💪 join my discord - https://invite.gg/flutegang​​​
+    
+    📩 email - creator@edtalenti.com
+    📷 instagram - @edtalenti
+    🐦 twitter - @edtalenti
+    
+    00:00 - intro
+    00:49 - help, this is hard
+    02:12 - I wanna do this the right way
+    04:45 - electro swing + extratone
+    
+    #​music #genre​ #producer''', videoUrl="FWn0CV_ci8c", thumbnailUrl="https://i.ytimg.com/vi/FWn0CV_ci8c/maxresdefault.jpg", createdAt="2022-03-10T16:00:04Z")
+    
+    
+    
+    d383deb2c57073744af52327923159a8 = Video(channelId="77", title='''The True Story of Hip Hop's Greatest Producer''', description='''How J Dilla became the most influential producer of all time
+    
+    🎧 Get 15 tracks to sample on Tracklib for FREE - https://www.tracklib.com/campaign/partner?code=edtalenti
+    
+    💬 Join the Full-Time Producer Newsletter (it's free!) - https://newsletter.edtalenti.com
+    
+    CHAPTERS
+    00:00​​​ - The most legendary producer of all time
+    00:42 - The life and death of J Dilla
+    02:31 - Dilla's Production: SAMPLING
+    03:25 - Dilla's Production: DRUMS
+    05:37 - Dilla's Production: BASS
+    06:13 - Making a Dilla inspired beat
+    
+    🥁 drums & 808s I used in this video - https://www.edtalenti.com​
+    
+    💯 subscribe - https://bit.ly/2MM2Ny0​​​
+    💪 join my discord - https://invite.gg/flutegang​​​
+    
+    📩 email - creator@edtalenti.com
+    📷 instagram - @edtalenti
+    🐦 twitter - @edtalenti
+    
+    #​jdilla #​producer #genius
+    The True Story Behind J Dilla's Legendary Sound
+    This video is sponsored by Tracklib''', videoUrl="aeSzugTEbeY", thumbnailUrl="https://i.ytimg.com/vi/aeSzugTEbeY/maxresdefault.jpg", createdAt="2022-02-26T15:51:22Z")
+    
+    
+    
+    dd1a8ac5314efe58bf2012f4b9f2dabb = Video(channelId="77", title='''Recreating HITS from the Spotify Top 10''', description='''In this video, I'll recreate some of the most popular hits in the world from the Spotify Top 10. 
+    
+    🤩 huge arturia sale - https://bit.ly/analoglabb
+    
+    🥁 drums & 808s I used in this video - https://www.edtalenti.com​
+    
+    00:00​​​ - intro
+    00:05 - gunna 🅿️
+    03:37 - gayle 🖕
+    06:26 - juice wrld 🚬
+    
+    💬 Join the Full-Time Producer Newsletter (it's free) - https://newsletter.edtalenti.com
+    
+    💯 subscribe - https://bit.ly/2MM2Ny0​​​
+    💪 join my discord - https://discord.gg/s9wgezX
+    
+    📩 email - creator@edtalenti.com
+    📷 instagram - @edtalenti
+    🐦 twitter - @edtalenti
+    
+    #spotify​ #beats​ #producer''', videoUrl="vu7uPXzBLbY", thumbnailUrl="https://i.ytimg.com/vi/vu7uPXzBLbY/hqdefault.jpg", createdAt="2022-02-17T16:01:27Z")
+    
+    
+    
+    dc019c4e5146210a582b08176d39119f = Video(channelId="77", title='''I made a SAD GUITAR Type Beat 🥺 #shorts''', description='''🎹 Free Sample Pack - https://bit.ly/3BitQHs
+    
+    💬 My FREE Producer Newsletter - https://newsletter.edtalenti.com
+    🥁 drums & 808s I used in this video - https://edtalenti.com/
+    
+    💯 subscribe - https://bit.ly/2MM2Ny0​​​
+    💪 join my discord - https://discord.gg/s9wgezX
+    
+    📩 email - creator@edtalenti.com
+    📷 instagram - @edtalenti
+    🐦 twitter - @edtalenti
+    
+    I made a SAD GUITAR Type Beat 🥺 #shorts''', videoUrl="vQxGARnJi9Q", thumbnailUrl="https://i.ytimg.com/vi/vQxGARnJi9Q/hqdefault.jpg", createdAt="2022-02-11T16:00:27Z")
+    
+    
+    
+    d844fa54d7fc7ac57040e474ce172f55 = Video(channelId="77", title='''I Found a Plugin That Lets You Create PLUGINS!''', description='''In this video, I'll show you this incredible plugin that allows you to build your own plugins. Design the graphics, add functions, position the faders and knobs - it's pretty awesome!
+    
+    ✅ One month of Reason+ for $1  - https://www.reasonstudios.com/plus  
+    🎚 Free download the plugins I made in this video - https://edtalenti.ck.page/freereason
+    
+    💬 Join the Full-Time Producer Newsletter (it's free) - https://newsletter.edtalenti.com
+    🥁 drums & 808s I used in this video - https://edtalenti.com/
+    
+    💯 subscribe - https://bit.ly/2MM2Ny0​​​
+    💪 join my discord - https://discord.gg/s9wgezX
+    
+    📩 email - creator@edtalenti.com
+    📷 instagram - @edtalenti
+    🐦 twitter - @edtalenti
+    
+    #​plugins #custom​ #producer''', videoUrl="zjDf2JbLqmM", thumbnailUrl="https://i.ytimg.com/vi/zjDf2JbLqmM/maxresdefault.jpg", createdAt="2022-02-01T16:00:53Z")
+    
+    
+    
+    d5bdeade9d42e83e1b0a411ae645c128 = Video(channelId="77", title='''The Drum Sample That Changed The World''', description='''How this 6-second drum sample changed music forever. 
+    
+    🎧 Get 15 tracks to sample on Tracklib for FREE - https://www.tracklib.com/campaign/partner?code=edtalenti
+    
+    🥁 drums & 808s I used in this video - https://www.edtalenti.com​
+    💬 Join the Full-Time Producer Newsletter - https://newsletter.edtalenti.com
+    
+    💯 subscribe - https://bit.ly/edtalentiyoutube
+    💪 join my discord - https://invite.gg/flutegang​​​
+    
+    📩 email - creator@edtalenti.com
+    📷 instagram - @edtalenti
+    🐦 twitter - @edtalenti
+    
+    #sample​ #producer​ #music
+    This video is sponsored by Tracklib''', videoUrl="bSUjl6DIoLs", thumbnailUrl="https://i.ytimg.com/vi/bSUjl6DIoLs/maxresdefault.jpg", createdAt="2022-01-20T16:01:21Z")
+    
+    
+    
+    da218e11ad76ce1eb9f97b03687a154d = Video(channelId="77", title='''A Day in the Life of a YouTube Music Producer''', description='''In this video, I'll show you what my day as a full-time YouTube Music Producer looks like. You might be surprised by some of the things I include in my schedule!
+    
+    🎧 Super cool AIAIAI headphones (use code EDTALENTI)
+    🇪🇺 EU - https://aiaiai.audio/edtalenti 
+    🇺🇸 USA - https://oneofzero.net/products/tma-2-studio-wireless
+    
+    💬 Join the Full-Time Producer Newsletter - https://newsletter.edtalenti.com
+    🥁 drums & 808s I used in this video - https://www.edtalenti.com​
+    
+    💯 subscribe - https://bit.ly/2MM2Ny0​​​
+    💪 join my discord - https://invite.gg/flutegang​​​
+    
+    📩 email - creator@edtalenti.com
+    📷 instagram - @edtalenti
+    🐦 twitter - @edtalenti
+    
+    #​producer #dayinthelife​ #youtuber''', videoUrl="fTu1sgvJ9LE", thumbnailUrl="https://i.ytimg.com/vi/fTu1sgvJ9LE/maxresdefault.jpg", createdAt="2022-01-11T16:02:53Z")
+    
+    
+    
+    d44937e3544dba6b8f36aeaf18ef0980 = Video(channelId="72", title='''Putin HATES HIM: The Story of Telegram & Its Founder''', description='''Learn about the most badass tech founder you've never heard of's story -- Pavel Durov, the Russian tech founder of Telegram messenger and VK app.
+    
+    Tech counter-culture
+    https://instagram.com/aaronjack
+    
+    The Freelancer Bootcamp
+    https://freemote.com
+    
+    #durov #telegram #startups''', videoUrl="0PJWoOkQWTg", thumbnailUrl="https://i.ytimg.com/vi/0PJWoOkQWTg/hqdefault.jpg", createdAt="2022-03-03T16:42:47Z")
+    
+    
+    
+    d0371d5618348ecd85785588f4ceac8d = Video(channelId="72", title='''How to Make F**k-You Money with Coding''', description='''How can you make money with coding over the long term? Let's explore the different pathways you can take, and how you can start today.
+    
+    The Freelance Developer Bootcamp
+    https://freemote.com
+    
+    My Tech Antagonist IG
+    https://instagram.com/aaronjack
+    
+    #freelancing #coding #programming''', videoUrl="bAt2oyIGUYA", thumbnailUrl="https://i.ytimg.com/vi/bAt2oyIGUYA/maxresdefault.jpg", createdAt="2022-02-14T21:17:43Z")
+    
+    
+    
+    d7a4809a1878438487e2b51c62bbbebe = Video(channelId="72", title='''Freelancing Vs Full Time - Which Should You Choose?''', description='''Leave a comment, which are you more interested in?
+    
+    The Freelance Developer Bootcamp
+    https://freemote.com
+    
+    Aaron Jack
+    https://instagram.com/aaronjack''', videoUrl="n5T4wDIvZs0", thumbnailUrl="https://i.ytimg.com/vi/n5T4wDIvZs0/hqdefault.jpg", createdAt="2021-09-06T17:19:21Z")
+    
+    
+    
+    d74a78f0987eff7906c09a9e7d83b6eb = Video(channelId="72", title='''Did I get fired from My Developer Job? (The real story)''', description='''Aaron Jack exposed? We'll see.
+    
+    https://freemote.com
+    https://instagram.com/aaronjack''', videoUrl="cbaRUwycLD4", thumbnailUrl="https://i.ytimg.com/vi/cbaRUwycLD4/hqdefault.jpg", createdAt="2021-08-31T17:00:31Z")
+    
+    
+    
+    dab8eae9e3024fa1b70a3ae19acc37a7 = Video(channelId="72", title='''Q&A - 1 Year Living in Ukraine (as an American)''', description='''Answering your questions about living in Kyiv, Ukraine, about coding, Freemote, life
+    
+    Ask a question next time here:
+    https://instagram.com/aaronjack
+    
+    Join the Freemote movement:
+    https://freemote.com''', videoUrl="HMgVaCxHIKA", thumbnailUrl="https://i.ytimg.com/vi/HMgVaCxHIKA/hqdefault.jpg", createdAt="2021-08-10T14:00:06Z")
+    
+    
+    
+    d34a5193d102afd4b02b2ebc8b65e342 = Video(channelId="72", title='''Let's do 100 Front End Interview Questions (Part 1, HTML)''', description='''This is just part 1, HTML. The rest are coming soon!
+    
+    Link to the full Front End Interview Handbook
+    https://github.com/yangshun/front-end-interview-handbook
+    
+    Serious about becoming a developer?
+    Join us https://freemote.com
+    
+    Social media
+    https://instagram.com/aaronjack
+    
+    #coding #interview #html''', videoUrl="kpczyO9XP_0", thumbnailUrl="https://i.ytimg.com/vi/kpczyO9XP_0/hqdefault.jpg", createdAt="2021-07-26T14:00:14Z")
+    
+    
+    
+    d1310680c65d3622cb07ab38d6ea8aae = Video(channelId="72", title='''Avoid These HTML & CSS Mistakes At All Costs''', description='''Avoid these devastating HTML and CSS mistakes... honestly you can get so frustrated you quit if you're not aware of these.
+    
+    Join the Remote Developer Bootcamp
+    https://freemote.com/learn
+    
+    I'm a real person
+    https://instagram.com/aaronjack
+    
+    #html #css #mistakes''', videoUrl="8FlWUa04f2g", thumbnailUrl="https://i.ytimg.com/vi/8FlWUa04f2g/maxresdefault.jpg", createdAt="2021-07-20T14:00:05Z")
+    
+    
+    
+    d01f7df429845c30bc542cc59155d4af = Video(channelId="72", title='''What is the DOM?''', description='''Join the freelance developer bootcamp
+    https://freemote.com/
+    
+    Or, learn more about Freemote
+    https://freemote.com/strategy
+    
+    Check out my instagram (rapidly improving)
+    https://instagram.com/aaronjack''', videoUrl="KShnPYN-voI", thumbnailUrl="https://i.ytimg.com/vi/KShnPYN-voI/maxresdefault.jpg", createdAt="2021-06-21T14:00:06Z")
+    
+    
+    
+    df43f813dac8fd5526b9a15ef92c08bb = Video(channelId="72", title='''What is an API?''', description='''The basics of APIs in just 5 minutes. After this you will understand the "concept" of an API.
+    
+    Freemote, learn how it works:
+    https://freemote.com/strategy
+    
+    Enroll in Freemote Now:
+    https://freemote.com
+    
+    Social Media
+    https://instagram.com/aaronjack''', videoUrl="ByGJQzlzxQg", thumbnailUrl="https://i.ytimg.com/vi/ByGJQzlzxQg/maxresdefault.jpg", createdAt="2021-06-03T16:41:33Z")
+    
+    
+    
+    d1a2844e61771a8026be7401d3b4bc86 = Video(channelId="72", title='''10 Ways to Make Websites FASTER''', description='''Speeding up websites is super valuable -- both for your site and as a service to others. What did I miss -- let me know below?
+    
+    👨‍💻 Join Freemote, the Freelance Developer Bootcamp
+    https://freemote.com/?el=youtube
+    
+    🍿 Learn the "Zero to Freelance Developer" Strategy (free)
+    https://freemote.com/strategy/?el=youtube
+    
+    Social Media
+    https://instagram.com/aaronjack''', videoUrl="6m31FmsqXAo", thumbnailUrl="https://i.ytimg.com/vi/6m31FmsqXAo/hqdefault.jpg", createdAt="2021-05-21T12:00:06Z")
+    
+    
+    
+    d4ea22f02d5f778ccc6c0ef0354d8c2f = Video(channelId="67", title='''Assembly Language in 100 Seconds''', description='''Assembly is the lowest level human-readable programming language. Today, it is used for precise control over the CPU and memory on the bare metal hardware of a computer. Learn the basics Assembly with NASM in 100 Seconds. 
+    
+    #compsci #programming #100SecondsOfCode
+    
+    🔗 Resources
+    
+    NASM Assembler https://www.nasm.us/
+    x86 Assembly Guide https://www.cs.virginia.edu/~evans/cs216/guides/x86.html
+    How a CPU Works https://youtu.be/vqs_0W-MSB0
+    WASM in 100 Seconds https://youtu.be/cbB3QEwWMlA
+    
+    📚 Chapters
+    
+    🔥 Get More Content - Upgrade to PRO
+    
+    Upgrade to Fireship PRO at https://fireship.io/pro
+    Use code lORhwXd2 for 25% off your first payment. 
+    
+    🎨 My Editor Settings
+    
+    - Atom One Dark 
+    - vscode-icons
+    - Fira Code Font
+    
+    🔖 Topics Covered
+    
+    - What is Assembly Language?
+    - What are registers on a CPU?
+    - Assembly language basics tutorial
+    - How to say hello world in assembly
+    - Who invented assembly language?
+    - Assembly vs Machine Code
+    - x86 vs ARM architecture''', videoUrl="4gwYkEK0gOk", thumbnailUrl="https://i.ytimg.com/vi/4gwYkEK0gOk/hqdefault.jpg", createdAt="2022-04-14T17:32:09Z")
+    
+    
+    
+    dcec84fea68968b3f9c94a3f7e35c6be = Video(channelId="67", title='''The Parallax Effect // 5 Minute WebDev Project''', description='''The Parallax Effect is an optical illusion that can give a website the appearance of 3D depth. Learn how to design a parallax website with React Spring in this 5 minute tutorial. https://fireship.io/pro
+    
+    #webdev #js #learntocode
+    
+    🔗 Resources
+    
+    Source code https://github.com/fireship-io/skydiving-cat-parallax
+    React Spring Parallax https://react-spring.io/
+    Demo by isladjan https://codepen.io/isladjan/pen/abdyPBw
+    The boat Demo https://www.sbs.com.au/theboat/
+    
+    🔥 Get More Content - Upgrade to PRO
+    
+    Upgrade to Fireship PRO at https://fireship.io/pro
+    Use code lORhwXd2 for 25% off your first payment. 
+    
+    🎨 My Editor Settings
+    
+    - Atom One Dark 
+    - vscode-icons
+    - Fira Code Font
+    
+    🔖 Topics Covered
+    
+    - How parallax works
+    - Examples of parallax websites
+    - Scroll parallax implementation
+    - Webdev tips and tricks''', videoUrl="UgIwjLg4ONk", thumbnailUrl="https://i.ytimg.com/vi/UgIwjLg4ONk/hqdefault.jpg", createdAt="2022-04-13T16:23:31Z")
+    
+    
+    
+    df9ca85a43cb689ca5a2b0b513e473c6 = Video(channelId="67", title='''Elixir in 100 Seconds''', description='''Elixir is a dynamic functional programming language built on top of the Erlang BEAM virtual machine. It is excels at building concurrent fault-tolerant applications at scale. 
+    
+    #programming #compsci #100SecondsOfCode
+    
+    🔗 Resources
+    
+    Elixir Lang https://elixir-lang.org/
+    Phoenix Framework https://phoenixframework.org/
+    Ruby in 100 Seconds https://youtu.be/UYm0kfnRTJk
+    Haskell in 100 Seconds https://youtu.be/Qa8IfEeBJqk
+    
+    🔥 Get More Content - Upgrade to PRO
+    
+    Upgrade to Fireship PRO at https://fireship.io/pro
+    Use code lORhwXd2 for 25% off your first payment. 
+    
+    🎨 My Editor Settings
+    
+    - Atom One Dark 
+    - vscode-icons
+    - Fira Code Font
+    
+    🔖 Topics Covered
+    
+    - Elixir basics tutorial
+    - What is a functional programming language?
+    - Elixir phoenix framework
+    - Elixir compared to Ruby
+    - Elixir compared to Haskell
+    - Concurrency in Elixir
+    - Which companies use Elixir?''', videoUrl="R7t7zca8SyM", thumbnailUrl="https://i.ytimg.com/vi/R7t7zca8SyM/hqdefault.jpg", createdAt="2022-04-08T17:42:35Z")
+    
+    
+    
+    d43a08028516837a8ea93d896f31abb1 = Video(channelId="67", title='''DALL-E is coming... World-changing AI image generator''', description='''OpenAI just announced a new AI Text-to-Image model based on GPT-3 called DALL-E 2. It is capable of turning a text description into a unique image or work of art that has never been seen before. 
+    
+    #ai #tech #TheCodeReport
+    
+    🔗 Resources
+    
+    DALL-E https://openai.com/dall-e-2/
+    Announcement Tweet https://twitter.com/sama/status/1511724264629678084
+    Sam Altman Blog https://blog.samaltman.com/dall-star-e-2
+    
+    🔥 Get More Content - Upgrade to PRO
+    
+    Upgrade to Fireship PRO at https://fireship.io/pro
+    Use code lORhwXd2 for 25% off your first payment. 
+    
+    🎨 My Editor Settings
+    
+    - Atom One Dark 
+    - vscode-icons
+    - Fira Code Font
+    
+    🔖 Topics Covered
+    
+    - How does AI generate Art?
+    - What is DALL-E?
+    - How does DALL-E Work?
+    - How does GPT-3 Work?
+    - What is the future of AI?''', videoUrl="alJdw4JDJ4o", thumbnailUrl="https://i.ytimg.com/vi/alJdw4JDJ4o/maxresdefault.jpg", createdAt="2022-04-07T16:33:16Z")
+    
+    
+    
+    d28f583b60447fea21e3eb24a1ab921c = Video(channelId="67", title='''I built 10 web apps... with 10 different languages''', description='''Which serverside web framework is the best? To find out, I built the same app 10 times with 10 different programming languages.. Learn the fundamentals of fullstack web development by comparing MVC frameworks. 
+    
+    #webdev #programming #top10
+    
+    🔗 Resources
+    
+    Ruby on Rails  https://rubyonrails.org/
+    Python Django https://djangoproject.com
+    PHP Laravel https://laravel.com/
+    Java Spring https://spring.io/
+    C# .NET https://dotnet.microsoft.com/en-us/apps/aspnet
+    Next.js https://nextjs.org/
+    Elixir Phoenix https://phoenixframework.org/
+    Rust Rocket https://rocket.rs/
+    Go Gin https://gin-gonic.com/
+    Swift Vapor https://vapor.codes/
+    Kotlin Ktor https://ktor.io/
+    
+    📚 Chapters
+    
+    00:00 I Built 10 Fullstack Apps
+    01:04 MVC Architecture Explained
+    01:39 Rails
+    03:58 Django
+    05:14 Laravel
+    06:32 Next
+    08:23 Spring
+    09:25 .NET
+    10:36 Phoenix
+    11:27 Gin
+    12:25 Rocket
+    13:13 Vapor
+    13:52 Ktor
+    14:01 The GOAT
+    
+    🔥 Get More Content - Upgrade to PRO
+    
+    Upgrade to Fireship PRO at https://fireship.io/pro
+    Use code lORhwXd2 for 25% off your first payment. 
+    
+    🎨 My Editor Settings
+    
+    - Atom One Dark 
+    - vscode-icons
+    - Fira Code Font
+    
+    🔖 Topics Covered
+    
+    - Comparison of server-side frameworks
+    - How to build a fullstack web app
+    - Best way to build a web application
+    - Comparison of web development tools''', videoUrl="FQPlEnKav48", thumbnailUrl="https://i.ytimg.com/vi/FQPlEnKav48/hqdefault.jpg", createdAt="2022-04-06T16:10:07Z")
+    
+    
+    
+    d2fc814561c6d0e688c8aa1a6489eeac = Video(channelId="67", title='''client got faded, I got paid''', description='''What should you do if a customer does not pay you? Use your JavaScript skills ofc
+    
+    Inspired by this repo https://github.com/kleampa/not-paid
+    
+    #webdev #code #shorts''', videoUrl="UA7NSpzG98s", thumbnailUrl="https://i.ytimg.com/vi/UA7NSpzG98s/hqdefault.jpg", createdAt="2022-04-04T16:53:39Z")
+    
+    
+    
+    dbc38c4c7e0e92f59548de8119463a3b = Video(channelId="67", title='''Java for the Haters in 100 Seconds''', description='''Java is one of the most successful and most dreaded technologies in the computer science world. Let's roast this powerful open-source programming language to find out why it has so many haters. 
+    
+    #java #programming #comedy #100SecondsOfCode
+    
+    🔗 Resources
+    
+    Java Website https://java.com
+    Java in 100 Seconds https://youtu.be/l9AzO1FMgM8
+    Why Java Sucks https://tech.jonathangardner.net/wiki/Why_Java_Sucks
+    Why Java Doesn't Suck https://smartbear.com/blog/please-stop-staying-java-sucks/
+    
+    🔥 Get More Content - Upgrade to PRO
+    
+    Upgrade to Fireship PRO at https://fireship.io/pro
+    Use code lORhwXd2 for 25% off your first payment. 
+    
+    🎨 My Editor Settings
+    
+    - Atom One Dark 
+    - vscode-icons
+    - Fira Code Font
+    
+    🔖 Topics Covered
+    
+    - Why do people hate Java?
+    - Does Java suck?
+    - Is Java still a good language?
+    - Java Criticisms
+    - Java Memes and Jokes
+    - Roast of Java''', videoUrl="m4-HM_sCvtQ", thumbnailUrl="https://i.ytimg.com/vi/m4-HM_sCvtQ/maxresdefault.jpg", createdAt="2022-04-01T14:40:47Z")
+    
+    
+    
+    def1aaab7aafb6eccf35f24a60273726 = Video(channelId="67", title='''Cypress in 100 Seconds''', description='''Cypress is a complete testing solution for web developers. It uses a browser-based test-runner to visually validate your JavaScript code and makes test-driven development fun. 
+    
+    #webdev #js #100SecondsOfCode
+    
+    🔗 Resources
+    
+    Cypress Docs https://docs.cypress.io
+    TDD Explained https://youtu.be/Jv2uxzhPFl4
+    Free E2E Course from @Dev Academy https://courses.dev-academy.com/p/web-e2e-testing
+    
+    🔥 Get More Content - Upgrade to PRO
+    
+    Upgrade to Fireship PRO at https://fireship.io/pro
+    Use code lORhwXd2 for 25% off your first payment. 
+    
+    🎨 My Editor Settings
+    
+    - Atom One Dark 
+    - vscode-icons
+    - Fira Code Font
+    
+    🔖 Topics Covered
+    
+    - Testing with Cypress Basics
+    - What is Cypress?
+    - Cypress vs Jest
+    - Cypress vs Jasmine
+    - JavaScript Testing
+    - JavaScript TDD 
+    - JavaScript BDD''', videoUrl="BQqzfHQkREo", thumbnailUrl="https://i.ytimg.com/vi/BQqzfHQkREo/maxresdefault.jpg", createdAt="2022-03-29T15:44:30Z")
+    
+    
+    
+    dceeb8eaeace8d9fd1c00b602bd8c5b1 = Video(channelId="67", title='''I use Arch on an M1 MacBook, btw''', description='''Did you know you can run Linux on an M1 Macbook Pro? It’s now possible thanks to a new distro called Asahi Linux. I did some investigative computing and was able to run Arch on a brand new Apple Silicon M1 pro chip, but with some caveats…
+    
+    #mac #linux #TheCodeReport
+    
+    🔗 Resources
+    
+    - Asahi Alpha Release https://asahilinux.org/2022/03/asahi-linux-alpha-release/
+    - Asahi on GitHub https://github.com/AsahiLinux
+    - Apple Silicon https://developer.apple.com/documentation/apple-silicon
+    - M1 Benchmarks via @Alex Ziskind 
+    
+    🔥 Get More Content - Upgrade to PRO
+    
+    Upgrade to Fireship PRO at https://fireship.io/pro
+    Use code lORhwXd2 for 25% off your first payment. 
+    
+    🎨 My Editor Settings
+    
+    - Atom One Dark 
+    - vscode-icons
+    - Fira Code Font
+    
+    🔖 Topics Covered
+    
+    - Can you run linux on a macbook pro?
+    - How to Run linux on an M1 macbook
+    - Asahi linux setup tutorial
+    - MacOS vs Linux
+    - Get started with Arch Linux on Apple Silicon''', videoUrl="j_I9nkpovCQ", thumbnailUrl="https://i.ytimg.com/vi/j_I9nkpovCQ/maxresdefault.jpg", createdAt="2022-03-26T18:31:48Z")
+    
+    
+    
+    dae479a1b69b4dc790b154eb3f83b946 = Video(channelId="67", title='''my code works… why?''', description='''the psychological process of debugging your code
+    
+    #programming #comedy #shorts''', videoUrl="9BvBRXkJA58", thumbnailUrl="https://i.ytimg.com/vi/9BvBRXkJA58/maxresdefault.jpg", createdAt="2022-03-24T16:54:15Z")
+    
+    
+    
+    d04f70d110b5c519cf9f60d0bec6d71a = Video(channelId="68", title='''Sass for Beginners (4 hr course)''', description='''🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/
+    
+    💻 Become a full-stack web dev with Zero to Mastery: https://academy.zerotomastery.io/a/aff_338z7xnj/external?affcode=441520_ti97uk6b
+    
+    
+    In this video I'll walk you through the basics of Sass and the principles of responsive design. This is a standalone course in Sass that's taken from my full course, Responsive Design for Beginners.
+    
+    0:00 - Intro
+    0:22 - What is Sass?
+    1:17 - Compiling Sass with VS Code extensions
+    12:49 - Sass partials
+    26:17 - Sass variables and CSS custom properties
+    43:45 - Building the demo responsive website
+    50:00 - Sass and BEM
+    57:08 - Building the responsive mobile layout
+    1:04:30 - Building the desktop layout
+    1:18:10 - Setting widths
+    1:36:08 - Sass mixins
+    2:06:35 - Responsive typography
+    2:33:24 - Sass functions
+    3:03:39 - Why I use em units in media queries
+    3:10:49 - Nesting and BEM
+    3:35:23 - Helper/Utility classes
+    
+    
+    ____________________________
+    
+    
+    SUPPORT THE CHANNEL
+    ⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join
+    👏🏽 Hit the THANKS button in any video!
+    🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme
+    
+    
+    WANT TO LEARN WEB DEV?
+    Check out my courses:
+    🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/
+    🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/
+    
+    
+    RECOMMENDATIONS
+    ⌨ My keyboard, Vissles V84 -- https://vissles.com/?ref=mu96kxst5w -- 🔥 get 10% off with code THECODERCODER -- 
+    💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD
+    📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/
+    📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/
+    
+    
+    🔽 FOLLOW CODER CODER
+    Blog -- https://coder-coder.com/ 
+    Twitter -- https://twitter.com/thecodercoder
+    Instagram --  https://www.instagram.com/thecodercoder
+    
+    
+    #webdevelopment #coding #programming''', videoUrl="jfMHA8SqUL4", thumbnailUrl="https://i.ytimg.com/vi/jfMHA8SqUL4/hqdefault.jpg", createdAt="2022-04-20T14:00:18Z")
+    
+    
+    
+    d6c9f0aa58d8627fbc7f0ebc0f72f41a = Video(channelId="68", title='''1 hr ambient/lofi music for coding (no midroll ads)''', description='''Code with me in this 1 hour video with ambient and lofi background music! I'm working on my course, and decided to share a small look at what working on it is like.
+    
+    🎵 Music from Premium Beats
+    
+    🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/
+    
+    💻 Become a full-stack web dev with Zero to Mastery: https://academy.zerotomastery.io/a/aff_338z7xnj/external?affcode=441520_ti97uk6b
+    
+    
+    ____________________________
+    
+    
+    SUPPORT THE CHANNEL
+    ⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join
+    👏🏽 Hit the THANKS button in any video!
+    🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme
+    
+    
+    WANT TO LEARN WEB DEV?
+    Check out my courses:
+    🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/
+    🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/
+    
+    
+    RECOMMENDATIONS
+    ⌨ My keyboard, Vissles V84 -- https://vissles.com/?ref=mu96kxst5w -- 🔥 get 10% off with code THECODERCODER -- 
+    💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD
+    📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/
+    📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/
+    
+    
+    🔽 FOLLOW CODER CODER
+    Blog -- https://coder-coder.com/ 
+    Twitter -- https://twitter.com/thecodercoder
+    Instagram --  https://www.instagram.com/thecodercoder
+    
+    
+    #webdevelopment #coding #programming''', videoUrl="dJXVTLzfWjw", thumbnailUrl="https://i.ytimg.com/vi/dJXVTLzfWjw/hqdefault.jpg", createdAt="2022-03-09T16:00:10Z")
+    
+    
+    
+    d0e6dcfab9c3640a5f92ef8d705d5178 = Video(channelId="68", title='''How to keep up with trends in web development''', description='''🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/
+    
+    💻 Become a full-stack web dev with Zero to Mastery: https://academy.zerotomastery.io/a/aff_338z7xnj/external?affcode=441520_ti97uk6b
+    
+    
+    How can you keep up with trends in web development when it feels like things are constantly changing? In this video I'll walk you through my own experience with it, and some suggestions I have for how to stay up to date without feeling overwhelmed.
+    
+    0:00 - Intro
+    0:40 - What I did as a junior web dev
+    2:29 - How to keep track of trends
+    
+    Links from the video:
+    Stack Overflow Developer Survey -- https://insights.stackoverflow.com/survey/2021#technology
+    Frontend Focus -- https://frontendfoc.us
+    Syntax FM -- https://syntax.fm/
+    Compressed FM run by @James Q Quick  and @Self Teach Me  -- https://www.compressed.fm/
+    CSS Tricks -- https://css-tricks.com/
+    @Kevin Powell 's YouTube channel
+    
+    ____________________________
+    
+    
+    SUPPORT THE CHANNEL
+    ⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join
+    👏🏽 Hit the THANKS button in any video!
+    🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme
+    
+    
+    WANT TO LEARN WEB DEV?
+    Check out my courses:
+    🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/
+    🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/
+    
+    
+    RECOMMENDATIONS
+    ⌨ My keyboard, Vissles V84 -- https://vissles.com/?ref=mu96kxst5w -- 🔥 get 10% off with code THECODERCODER -- 
+    💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD
+    📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/
+    📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/
+    
+    
+    🔽 FOLLOW CODER CODER
+    Blog -- https://coder-coder.com/ 
+    Twitter -- https://twitter.com/thecodercoder
+    Instagram --  https://www.instagram.com/thecodercoder
+    
+    
+    #webdevelopment #coding #programming''', videoUrl="SsF8sP7MOLE", thumbnailUrl="https://i.ytimg.com/vi/SsF8sP7MOLE/hqdefault.jpg", createdAt="2022-02-18T14:30:05Z")
+    
+    
+    
+    d6190baf964b2243ca18108f87dc9b89 = Video(channelId="68", title='''Free games to learn CSS!''', description='''Links to the games mentioned:
+    CSS Diner -- https://flukeout.github.io/
+    Flexbox Zombies -- https://flexboxzombies.com/p/flexbox-zombies
+    Flexbox Froggy -- https://codepip.com/games/flexbox-froggy/
+    Flex Box Adventure -- https://codingfantasy.com/games/flexboxadventure
+    CSS Grid Garden -- https://cssgridgarden.com/
+    Grid Attack -- https://codingfantasy.com/games/css-grid-attack
+    CSS Battle -- https://cssbattle.dev/''', videoUrl="ii98D1OtWfg", thumbnailUrl="https://i.ytimg.com/vi/ii98D1OtWfg/hqdefault.jpg", createdAt="2022-02-17T15:00:22Z")
+    
+    
+    
+    d79d9b7f25ecdb1f9b6e0094d614c56a = Video(channelId="68", title='''Live coding a WORDLE clone (5 hrs) | HTML Sass JS''', description='''💥 Hit that subscribe button (for SCIENCE!) and we'll see how many people actually sub from this video 😂
+    
+    Source code on GitHub: https://github.com/thecodercoder/wordle-clone
+    Live demo here: https://thecodercoder.github.io/wordle-clone/
+    Boilerplate files (if you don't want to use the generator): https://github.com/thecodercoder/frontend-boilerplate
+    
+    🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/
+    
+    💻 Become a full-stack web dev with Zero to Mastery: https://academy.zerotomastery.io/a/aff_338z7xnj/external?affcode=441520_ti97uk6b
+    
+    
+    In this video I'll show you how I research and build a Wordle clone from scratch with HTML, Sass, and JavaScript.
+    
+    0:00 - Intro
+    0:49 - Tea break
+    0:53 - Set up boilerplate project files
+    2:07 - Research and taking notes
+    32:57 - HTML and Sass
+    52:37 - JS: detect keypress
+    1:20:28 - Save typed guess
+    1:38:14 - Update tiles with letters and backspace
+    2:07:07 - Choose random solution word
+    2:23:05 - Submit guess and evaluate
+    2:43:27 - Flip tile animation
+    3:38:27 - Increment guesses
+    4:25:26 - Win tile animation
+    
+    
+    ____________________________
+    
+    
+    SUPPORT THE CHANNEL
+    ⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join
+    👏🏽 Hit the THANKS button in any video!
+    🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme
+    
+    
+    WANT TO LEARN WEB DEV?
+    Check out my courses:
+    🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/
+    🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/
+    
+    
+    RECOMMENDATIONS
+    ⌨ My keyboard, Vissles V84 -- https://vissles.com/?ref=mu96kxst5w -- 🔥 get 10% off with code THECODERCODER -- 
+    💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD
+    📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/
+    📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/
+    
+    
+    🔽 FOLLOW CODER CODER
+    Blog -- https://coder-coder.com/ 
+    Twitter -- https://twitter.com/thecodercoder
+    Instagram --  https://www.instagram.com/thecodercoder
+    
+    
+    #webdevelopment #coding #programming''', videoUrl="PNGgQzw6PQg", thumbnailUrl="https://i.ytimg.com/vi/PNGgQzw6PQg/hqdefault.jpg", createdAt="2022-02-06T17:54:27Z")
+    
+    
+    
+    dbd7a5650b814695938398c1e1a591dd = Video(channelId="68", title='''Git and GitHub explained for beginners''', description='''🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/
+    
+    💻 Become a full-stack web dev with Zero to Mastery: https://academy.zerotomastery.io/a/aff_338z7xnj/external?affcode=441520_ti97uk6b
+    
+    
+    In this video we'll be going through the basics of Git, GitHub, and GitHub Desktop app-- how to set them up and use them to track your code changes.
+    
+    0:00 - Intro
+    0:37 - What are Git, GitHub, and GitHub Desktop?
+    2:48 - Set up GitHub Desktop
+    4:12 - Basic Git workflow: create commit, publish repo
+    11:38 - Ignoring files
+    4:23 - Updating files
+    15:38 - Deleting files, reverting commits
+    17:01 - Branching
+    20:42 - Pull requests
+    
+    
+    ____________________________
+    
+    
+    SUPPORT THE CHANNEL
+    ⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join
+    👏🏽 Hit the THANKS button in any video!
+    🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme
+    
+    
+    WANT TO LEARN WEB DEV?
+    Check out my courses:
+    🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/
+    🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/
+    
+    
+    RECOMMENDATIONS
+    ⌨ My keyboard, Vissles V84 -- https://vissles.com/?ref=mu96kxst5w -- 🔥 get 10% off with code THECODERCODER -- 
+    💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD
+    📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/
+    📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/
+    
+    
+    🔽 FOLLOW CODER CODER
+    Blog -- https://coder-coder.com/ 
+    Twitter -- https://twitter.com/thecodercoder
+    Instagram --  https://www.instagram.com/thecodercoder
+    
+    
+    #webdevelopment #coding #programming''', videoUrl="8Dd7KRpKeaE", thumbnailUrl="https://i.ytimg.com/vi/8Dd7KRpKeaE/hqdefault.jpg", createdAt="2022-02-01T16:00:51Z")
+    
+    
+    
+    dd002df9c97a29fcff5d487fabb317b1 = Video(channelId="68", title='''Super easy WORDLE cheat''', description='''Did you know that Wordle stores all the game data in your browser's local storage? Including the solution word?
+    
+    #shorts #wordle #programming''', videoUrl="K0Yvgu1u25s", thumbnailUrl="https://i.ytimg.com/vi/K0Yvgu1u25s/maxresdefault.jpg", createdAt="2022-01-27T15:30:02Z")
+    
+    
+    
+    d8210d6114ffcb2b44f07298111053eb = Video(channelId="68", title='''Are you sabotaging your coding career?''', description='''🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/
+    
+    💻 Become a full-stack web dev with Zero to Mastery: https://academy.zerotomastery.io/a/aff_338z7xnj/external?affcode=441520_ti97uk6b
+    
+    Oftentimes you are your own worst enemy. Without even realizing it, you could be sabotaging your entire coding career. This video covers what I think are the top 3 pitfalls and how you can avoid them.
+    
+    0:00 - Intro
+    2:29 - Hiding your mistakes
+    3:44 - Not asking for help (when you should)
+    5:10 - Being defensive and close-minded
+    
+    ____________________________
+    
+    
+    SUPPORT THE CHANNEL
+    ⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join
+    👏🏽 Hit the THANKS button in any video!
+    🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme
+    
+    
+    WANT TO LEARN WEB DEV?
+    Check out my courses:
+    🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/
+    🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/
+    
+    
+    RECOMMENDATIONS
+    ⌨ My keyboard, Vissles V84 -- https://vissles.com/?ref=mu96kxst5w -- 🔥 get 10% off with code THECODERCODER -- 
+    💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD
+    📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/
+    📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/
+    
+    
+    🔽 FOLLOW CODER CODER
+    Blog -- https://coder-coder.com/ 
+    Twitter -- https://twitter.com/thecodercoder
+    Instagram --  https://www.instagram.com/thecodercoder
+    
+    
+    #webdevelopment #coding #programming''', videoUrl="mvW7fNpEmUE", thumbnailUrl="https://i.ytimg.com/vi/mvW7fNpEmUE/hqdefault.jpg", createdAt="2021-12-15T16:11:02Z")
+    
+    
+    
+    ddb0dd076e33aa09ed8974e772961d68 = Video(channelId="68", title='''Stop wasting time when you're learning to code!''', description='''🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/
+    
+    💻 Become a full-stack web dev with Zero to Mastery: https://academy.zerotomastery.io/a/aff_338z7xnj/external?affcode=441520_ti97uk6b
+    
+    
+    Looking for how to learn to code effectively? Here are some tips on how you can to avoid wasting time when you're learning web development.
+    
+    0:00 - Intro
+    0:54 - Don't learn things randomly
+    1:58 - Focus on one thing at a time
+    2:30 - Be an active learner, not passive
+    3:45 - Don't just memorize stuff
+    4:59 - Build stuff!
+    
+    LINKS MENTIONED:
+    Frontend Mentor -- https://www.frontendmentor.io/
+    Ania Kubów's 12 hr bootcamp -- https://youtu.be/Xm4BObh4MhI
+    Wes Bos' CSS Grid course -- https://cssgrid.io/
+    Mozilla Developer Network -- https://developer.mozilla.org/en-US/docs/Learn
+    CSS Tricks -- https://css-tricks.com/
+    JavaScript project ideas -- https://duckduckgo.com/?q=javascript+project+ideas
+    React project ideas -- https://duckduckgo.com/?q=react+project+ideas&t=ffab
+    
+    ____________________________
+    
+    
+    SUPPORT THE CHANNEL
+    ⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join
+    👏🏽 Hit the THANKS button in any video!
+    🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme
+    
+    
+    WANT TO LEARN WEB DEV?
+    Check out my courses:
+    🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/
+    🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/
+    
+    
+    RECOMMENDATIONS
+    ⌨ My keyboard, Vissles V84 -- https://vissles.com/?ref=mu96kxst5w -- 🔥 get 10% off with code THECODERCODER -- 
+    💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD
+    📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/
+    📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/
+    
+    
+    🔽 FOLLOW CODER CODER
+    Blog -- https://coder-coder.com/ 
+    Twitter -- https://twitter.com/thecodercoder
+    Instagram --  https://www.instagram.com/thecodercoder
+    
+    
+    #webdevelopment #coding #programming''', videoUrl="s6dMWzZKjTs", thumbnailUrl="https://i.ytimg.com/vi/s6dMWzZKjTs/maxresdefault.jpg", createdAt="2021-10-12T14:00:23Z")
+    
+    
+    
+    d8af878eec6123bb4bd7d2c9733a0edd = Video(channelId="68", title='''My office/setup tour, video gamified!''', description='''🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/
+    
+    💻 Become a full-stack web dev with Zero to Mastery: https://academy.zerotomastery.io/a/aff_338z7xnj/external?affcode=441520_ti97uk6b
+    
+    
+    
+    Thank you for 200k subs! 🎉The long awaited office tour video! Here is everything I use in my office for coding and also creating YouTube videos! This video is not sponsored, but some of the gear was gifted, and most of the links below are affiliate links. As an Amazon Associate I earn from qualifying purchases.
+    
+    🔽 Gear listed below 🔽
+    
+    ⭐ OFFICE/COMPUTER GEAR ⭐
+    ▶ Desk by Fully (gifted) -- https://www.fully.com/
+    
+    ▶ Laptop by Computer Upgrade King -- https://amzn.to/2Zbv5cr
+    ▶ Alienware 34" ultrawide monitor  -- https://amzn.to/2XvbIux
+    ▶ Vissles V84 mechanical keyboard (gifted, 10% off with code THECODERCODER) -- https://vissles.com/?ref=mu96kxst5w
+    ▶ Fleximounts laptop mount -- https://amzn.to/39BgsB8
+    ▶ Totoro custom keycap by Hirosart -- https://www.etsy.com/shop/Hirosart
+    
+    ▶ Bose mini bluetooth speaker -- https://amzn.to/3klv8KR
+    ▶ Bose noise-cancelling headphones -- https://amzn.to/3zhOdSd
+    ▶ Ducky One 2 Horizon mechanical keyboard -- https://amzn.to/3ABenkF
+    ▶ Logitech Ergo K860 keyboard -- https://amzn.to/2VQttmX
+    ▶ LEGO Letter lamp by WLWYB (gifted, 10% off with code THECODERCODER) -- https://wlwyb.com/shop/ambient-light-lego-letter/
+    
+    ⭐ PRODUCTION GEAR ⭐
+    ▶ Audio Technica AT2020 XLR microphone -- https://amzn.to/3kltWab
+    ▶ Behringer XLR to USB mini mixer -- https://amzn.to/3tZFhjC
+    ▶ FalconEyes edge light -- https://amzn.to/3CnF6Bw
+    ▶ Yongnuo RGB light wand -- https://amzn.to/2Zaxzrv
+    ▶ Sony a7s camera (old) -- https://amzn.to/3EvzAPb
+    ▶ Sony a7III camera (newer version) -- https://amzn.to/2XvKUdb
+    ▶ Sony a7C camera (newer entry level version) -- https://amzn.to/39lLUmN
+    ▶ Atomos Ninja 4K monitor and recorder -- https://amzn.to/3AmOdlb
+    ▶ Parrot Padcaster teleprompter -- https://amzn.to/3klJF9h
+    
+    ⭐ BOOKS ⭐
+    ▶ On Writing Well by William Zinsser -- https://amzn.to/3kjzQsv
+    ▶ Small Giants by Bo Burlingham -- https://amzn.to/3AocHe4
+    ▶ The Speed of Trust by Stephen Covey -- https://amzn.to/3lCIKAH
+    ▶ The Power of Habit by Charles Duhigg -- https://amzn.to/3kj8FOm
+    ▶ Deep Work by Cal Newport -- https://amzn.to/3knZcWi
+    ▶ Give and Take by Adam Grant -- https://amzn.to/3lCTi2P
+    ▶ Good to Great by Jim Collins -- https://amzn.to/3kjVOeL
+    ▶ Eloquent JavaScript by Marijn Haverbeke -- https://amzn.to/3zqLA0y
+    
+    _____________________________________________________________
+    
+    
+    SUPPORT THE CHANNEL
+    ⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join
+    👏🏽 Hit the THANKS button in any video!
+    🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme
+    
+    
+    WANT TO LEARN WEB DEV?
+    Check out my courses:
+    🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/
+    🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/
+    
+    
+    RECOMMENDATIONS
+    ⌨ My keyboard, Vissles V84 -- https://vissles.com/?ref=mu96kxst5w -- 🔥 get 10% off with code THECODERCODER -- 
+    💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD
+    📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/
+    📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/
+    
+    
+    🔽 FOLLOW CODER CODER
+    Blog -- https://coder-coder.com/ 
+    Twitter -- https://twitter.com/thecodercoder
+    Instagram --  https://www.instagram.com/thecodercoder
+    
+    #officetour #coding #gear''', videoUrl="iXbvS1CrqdA", thumbnailUrl="https://i.ytimg.com/vi/iXbvS1CrqdA/maxresdefault.jpg", createdAt="2021-09-27T15:24:54Z")
+    
+    
+    
+    dbdc740c2e09ff11242d149b06f234ff = Video(channelId="79", title='''The Psychology Of Learning''', description='''Watch more videos like 'The Psychology Of Learning with Bluffmunkey' here at https://sonicacademy.com
+    
+    Following Bluffmunkey's brilliant Psychology of Making Music course, he's back with another video where he leaves out the technical aspect of using a DAW and reflects on how we can advance our learning skills so we're able to make the most out of the courses we provide here at Sonic Academy.
+    
+    It's easy enough to sit and watch hundreds of tutorials, but here we discuss getting all of that information into practice to become a better music producer and how to go about it.
+    
+    Check it out!
+    
+    [ Video Chapters ]
+    00:00 Introduction
+    00:45 Don't Multitask
+    07:62 Do, or do not but do
+    16:45 You. Tube.
+    23.00 Step away from the DAW
+    
+    Connect with Sonic Academy:
+    _________________________________________
+    Website: https://www.sonicacademy.com
+    
+    Facebook: https://www.facebook.com/SonicAcademy
+    Instagram: https://www.instagram.com/sonicacademy
+    Twitter: https://twitter.com/SonicAcademy''', videoUrl="1hq8tuMGQN0", thumbnailUrl="https://i.ytimg.com/vi/1hq8tuMGQN0/hqdefault.jpg", createdAt="2022-04-20T14:53:04Z")
+    
+    
+    
+    db43ec90f96108e969224e7d3eb626fb = Video(channelId="79", title='''How To Make Minimal Tech House - Course Overview''', description='''Watch the full 'How To Make Minimal Tech House with P-LASK' here:
+    https://www.sonicacademy.com/courses/minimal-tech-house-with-p-lask
+    
+    Back again by popular demand this week is Ableton Certified Trainer P-LASK for a new 'How To Make' course where he builds his new track Altered Reality from scratch giving you all the tools, methods and knowledge you need to make Minimal Tech House.
+    
+    Inspired by labels such as PIV Records and artists like East End Dubs, Harrison BPD and Chris Stussy Paul creates an emotive, chilled but groove-laden track with evolving synth stabs and varying bass lines, pads, atmosphere and vocals.
+    
+    In this easy to follow step-by-step guide, Paul covers everything from drums, bass, synthesis, transitions, arrangement, mixing and mastering. As with all of his courses, there are a ton of production tips and tricks when working in Ableton, all using predominantly Ableton stock plugins.
+    
+    Whatever your ability you're guaranteed to raise your production game with this course.
+    
+    Go check it out!
+    
+    Connect with Sonic Academy:
+    _________________________________________
+    Website: https://www.sonicacademy.com
+    
+    Facebook: https://www.facebook.com/SonicAcademy
+    Instagram: https://www.instagram.com/sonicacademy
+    Twitter: https://twitter.com/SonicAcademy''', videoUrl="9IV0Z9GgsuQ", thumbnailUrl="https://i.ytimg.com/vi/9IV0Z9GgsuQ/hqdefault.jpg", createdAt="2022-04-15T16:04:04Z")
+    
+    
+    
+    db4eff03b13828e420e0e31b520f3f16 = Video(channelId="79", title='''Sonic Academy Easter Sale 2022''', description='''''', videoUrl="j9b53R3yYEU", thumbnailUrl="https://i.ytimg.com/vi/j9b53R3yYEU/hqdefault.jpg", createdAt="2022-04-15T09:49:49Z")
+    
+    
+    
+    d03775a4b33a3e7b6c669ab4ad38257d = Video(channelId="79", title='''Cherry Audio Rackmode Effects - FIRST LOOK!!! 😱''', description='''Watch more videos like 'Cherry Audio Rackmode Effects - First Look with Kirk Degiorgio' on https://sonicacademy.com
+    
+    This week we proudly welcome back Kirk Degiorgio as he checks out the new Rackmode Effects from Cherry Audio that replicate the renowned analog rack-mounted Moog signal processors of the 1970s and ‘80s.
+    
+    The collection includes a Vocoder (instrument and effect), Phaser, Ring Modulator, String Filter, Frequency Shifter, Graphic EQ, and Parametric EQ and in this video, Kirk demonstrates how they can be used and how they sound when added to your tracks.
+    
+    Definitely worth checking out!
+    
+    [ Video Chapters ]
+    
+    00:00 Introduction
+    00:40 Rackmode Effects Walkthrough
+    
+    Connect with Sonic Academy:
+    _________________________________________
+    Website: https://www.sonicacademy.com
+    
+    Facebook: https://www.facebook.com/SonicAcademy
+    Instagram: https://www.instagram.com/sonicacademy
+    Twitter: https://twitter.com/SonicAcademy''', videoUrl="bJpyB44C_so", thumbnailUrl="https://i.ytimg.com/vi/bJpyB44C_so/hqdefault.jpg", createdAt="2022-04-13T17:23:00Z")
+    
+    
+    
+    d8dab883dd0209b64a39f551ab113b6a = Video(channelId="79", title='''Cubase 12 - Multi Sidechain Setup''', description='''Taken from 'Tech Tips Volume 73 - Cubase 12 special with Protoculture' - Watch all of the tips here: https://www.sonicacademy.com/courses/tech-tips-volume-73-with-protoculture
+    
+    If you own or you're thinking about getting your hands on the latest Cubase 12, then Protoculture's here with an all-new set of Tech Tips that are a must-watch to help you get the most out of this impressive DAW.
+    
+    From inspiring chord sets, automation and MIDI template hacks to easy vocal backing harmonies, multiple sidechain sources and a lot more, these ten tips will help speed up workflow, increase creativity and raise your production game.
+    
+    For those of you wondering if you should go ahead and get Cubase 12 or thinking about making a switch, we might just be able to help out as we're giving away a copy of Cubase 12 completely FREE!
+    
+    Just head over to the course page on our Sonic Academy site and click on the link in the 'Details' tab for a chance to win!
+    
+    https://www.sonicacademy.com/courses/tech-tips-volume-73-with-protoculture
+    
+    Competition Ends
+    April 13, 2022 23:59 UT
+    
+    [ Video Chapters ]
+    00:00 Introduction
+    00:40 Multi Sidechain Setup
+    
+    
+    Connect with Sonic Academy:
+    _________________________________________
+    Website: https://www.sonicacademy.com
+    
+    Facebook: https://www.facebook.com/SonicAcademy
+    Instagram: https://www.instagram.com/sonicacademy
+    Twitter: https://twitter.com/SonicAcademy''', videoUrl="fj61UzpRxws", thumbnailUrl="https://i.ytimg.com/vi/fj61UzpRxws/maxresdefault.jpg", createdAt="2022-04-08T15:09:32Z")
+    
+    
+    
+    dcd91dabd0e2850a1da9cda4d55a728d = Video(channelId="79", title='''Unfiltered Audio Tails - FIRST LOOK 😱''', description='''Watch more videos like 'Unfiltered Audio Tails - First Look with Protoculture' on https://sonicacademy.com
+    
+    In this video, Protoculture's getting a first look at the new reverb plugin from Unfiltered Audio and BT - Tails.
+    
+    Here Nate runs through the Tails controls, effects and algorithms before checking out the clever feature that makes this reverb different from others, where it will effectively re-trigger the reverb when a new note is played, preventing a build-up and overlap of Tails in your mix. With various settings and different input signals, you can get some interesting results.
+    
+    Check it out!
+    
+    [ Video Chapters ]
+    
+    00:00 Introduction
+    00:23 Unfiltered Audio - Tails
+    
+    Connect with Sonic Academy:
+    _________________________________________
+    Website: https://www.sonicacademy.com
+    
+    Facebook: https://www.facebook.com/SonicAcademy
+    Instagram: https://www.instagram.com/sonicacademy
+    Twitter: https://twitter.com/SonicAcademy
+    
+    #unfilteredaudio''', videoUrl="HOhXaXOmDho", thumbnailUrl="https://i.ytimg.com/vi/HOhXaXOmDho/hqdefault.jpg", createdAt="2022-04-06T15:22:43Z")
+    
+    
+    
+    d1da600028ed9a6dab1f0155ecaa6454 = Video(channelId="79", title='''Ableton Live Best Features - LFO''', description='''Watch the full 'Tech Tips Volume 72 - Ableton Live's Best Features with Bluffmunkey' here: https://www.sonicacademy.com/courses/tech-tips-volume-72-with-bluffmunkey
+    
+    Bluffmunkey is back with us again this week and taking us through some of the features in Ableton Live that keep him from straying away from this DAW.
+    
+    If you're thinking of making the switch, this is a must-watch, as he runs through some of the stand-out stock plugins, racks and user interface features that give you the workflow ability to create what you want quickly.
+    
+    As with all new DAWs, there's always a learning curve to take on, but here Bluffmunkey outlines a solid argument why Ableton Live might just be worth it!
+    
+    Check it out!
+    
+    [ Video Chapters ]
+    00:00 Introduction
+    00:40 LFO 
+    
+    Connect with Sonic Academy:
+    _________________________________________
+    Website: https://www.sonicacademy.com
+    
+    Facebook: https://www.facebook.com/SonicAcademy
+    Instagram: https://www.instagram.com/sonicacademy
+    Twitter: https://twitter.com/SonicAcademy''', videoUrl="aW3t7a8tu3E", thumbnailUrl="https://i.ytimg.com/vi/aW3t7a8tu3E/hqdefault.jpg", createdAt="2022-04-01T14:57:51Z")
+    
+    
+    
+    d0911fc68c9286f79ed7369db6dc6d6c = Video(channelId="79", title='''Chord Progressions for Beginners''', description='''Watch more videos like 'Chord Progressions for Beginners with Haterade' on https://sonicacademy.com
+    
+    Haterade's back for a quick video showing how to create quick and easy chord progressions in Ableton that can be transposed to any key of your choice.
+    
+    A great tip for those starting out and looking to get some immediate inspiration for your new track!
+    
+    Check it out!
+    
+    [ Video Chapters ]
+    00:00 Introduction
+    00:40 Chord Progression
+    
+    Connect with Sonic Academy:
+    _________________________________________
+    Website: https://www.sonicacademy.com
+    
+    Facebook: https://www.facebook.com/SonicAcademy
+    Instagram: https://www.instagram.com/sonicacademy
+    Twitter: https://twitter.com/SonicAcademy''', videoUrl="iQd9OYmhg-8", thumbnailUrl="https://i.ytimg.com/vi/iQd9OYmhg-8/hqdefault.jpg", createdAt="2022-03-30T14:00:27Z")
+    
+    
+    
+    d449577ead0b16036dac3f4cf9bf255f = Video(channelId="79", title='''How To Sound Like Marshmello - Introduction and Playthrough''', description='''Watch the full 'How To Sound Like Marshmello with Haterade' course here: https://www.sonicacademy.com/courses/how-to-sound-like-marshmello
+    
+    Haterade's back with us for a new 'How To Make' course where he creates a classic EDM track from scratch in the style of Marshmello and The Chainsmokers in Ableton live 11.
+    
+    Using Marshmello's 'Proud' as a reference, Noah lays down the bass and chords sharing some cool chord writing tips before adding the vocals so we can build up from there.
+    
+    With powerful layered synths, playable vocal chops, clever percussive techniques and more, this easy-to-follow course has everything you need if you're looking for that EDM fix!
+    
+    Go check it out!
+    
+    [ Video Chapters ]
+    00:00 Introduction
+    00:40 Track Play Through 
+    
+    Connect with Sonic Academy:
+    _________________________________________
+    Website: https://www.sonicacademy.com
+    
+    Facebook: https://www.facebook.com/SonicAcademy
+    Instagram: https://www.instagram.com/sonicacademy
+    Twitter: https://twitter.com/SonicAcademy''', videoUrl="CJGmLiZ3ZTE", thumbnailUrl="https://i.ytimg.com/vi/CJGmLiZ3ZTE/hqdefault.jpg", createdAt="2022-03-25T15:19:55Z")
+    
+    
+    
+    dad7dc6d437c4d1ae27dc35df1d11b6e = Video(channelId="79", title='''VCV Rack 2 - From Zero to Synth''', description='''Watch more videos like 'VCV Rack 2 - From Zero to Synth with King Unique' on https://sonicacademy.com
+    
+    Following on from King Unique's recent course on How To Use VCV Rack 2, he's back with a quick video on how to go From Zero to Synth using this awesome modular software.
+    
+    Using a Roland SH-101 as a template, we bring in the same components to build our very own version of this classic synth before expanding it out to a polyphonic Juno-60 emulation and more.
+    
+    VCV Rack 2 is such a good tool when learning about synthesis because you're building your own synth from scratch and the scope for sound design are pretty much endless!
+    
+    Check it out and give it a go, but if you want to just get your hands on the presets shown in this video go here: https://www.sonicacademy.com/courses/vcv-rack-2-from-zero-to-synth-with-king-unique
+	    and click on the link in the 'Details' tab to get them for FREE!
+    
+    [ Video Chapters ] 
+    00:00 Introduction
+    00:54 SH101
+    08:16 Juno-6
+    13:20 Hydrasynth
+    
+    Connect with Sonic Academy:
+    _________________________________________
+    Website: https://www.sonicacademy.com
+    
+    Facebook: https://www.facebook.com/SonicAcademy
+    Instagram: https://www.instagram.com/sonicacademy
+    Twitter: https://twitter.com/SonicAcademy''', videoUrl="FhjkkYn9OLk", thumbnailUrl="https://i.ytimg.com/vi/FhjkkYn9OLk/hqdefault.jpg", createdAt="2022-03-23T15:00:07Z")
+    
+    
+    
+    d756b2e494f9dcdc1b85c30e98b630cd = Video(channelId="69", title='''Dealing With Some Common Frustrations As A Developer''', description='''In this video, I'll talk about some of the downsides and common frustrations that many developers deal with, whether working at a company or freelancing.
+    
+    👇 Website & Courses:
+    https://traversymedia.com
+    
+    💖  Show Support
+    Patreon: https://www.patreon.com/traversymedia
+    PayPal: https://paypal.me/traversymedia
+    
+    👇 Follow Me On Social Media:
+    Twitter: https://twitter.com/traversymedia
+    Instagram: https://www.instagram.com/traversymedia
+    Linkedin: https://www.linkedin.com/in/bradtraversy
+    
+    Timestamps:
+    0:00 - Intro
+    1:00 - Unreasonable Deadlines
+    3:22 - Non-Developer Bosses
+    5:15 - Other People's Code & Legacy Code
+    7:37 - Rapid Pace of Technology
+    9:09 - Isolation & Lonliness''', videoUrl="noxptDN1lEk", thumbnailUrl="https://i.ytimg.com/vi/noxptDN1lEk/hqdefault.jpg", createdAt="2022-04-13T13:00:21Z")
+    
+    
+    
+    d517763ba803a55cab8571063b752de8 = Video(channelId="69", title='''Tailwind Crash Course | Project From Scratch''', description='''In this video, we will set up Tailwind CLI and create a landing page from start to finish, going over many of the common utility classes and then deploying it to InMotion Hosting using Git.
+    
+    ⭐  Sponsor: InMotion Hosting!
+    https://bit.ly/3uVNhD6
+    
+    💻  Code:
+    https://github.com/bradtraversy/tailwind-landing-page
+    
+    Frontend Mentor Challenge:
+    https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5
+    
+    Csaba Kissi Twitter (Tailwind Course Helper):
+    https://twitter.com/csaba_kissi
+    
+    👇  Website & Courses:
+    https://traversymedia.com
+    
+    💖  Show Support
+    Patreon: https://www.patreon.com/traversymedia
+    PayPal: https://paypal.me/traversymedia
+    
+    👇 Follow Me On Social Media:
+    Twitter: https://twitter.com/traversymedia
+    Instagram: https://www.instagram.com/traversymedia
+    Linkedin: https://www.linkedin.com/in/bradtraversy
+    
+    Timestamps:
+    0:00 - Intro
+    2:45 - Getting Started
+    4:58 - Install & Setup Tailwind CLI
+    7:39 - NPM Scripts & Output
+    11:00 - Customizing & Config
+    13:25 - Navigation Area + Spacing, Flex, Responsive Classes, etc
+    24:06 - Hero Section
+    30:43 - Class Name Order Convention
+    33:44 - Features Section
+    44:58 - Testimonial Section
+    54:15 - CTA Section
+    59:34 - Footer
+    1:10:59 - Hamburger Menu HTML
+    1:15:38 - Custom CSS (Background SVGs)
+    1:19:45 - Custom CSS (Hamburger Menu)
+    1:25:08 - Menu JavaScript
+    1:28:27 - Deploy To InMotion Hosting''', videoUrl="dFgzHOX84xQ", thumbnailUrl="https://i.ytimg.com/vi/dFgzHOX84xQ/hqdefault.jpg", createdAt="2022-04-05T13:00:20Z")
+    
+    
+    
+    db66bece506a9b6ab028a78e5563579d = Video(channelId="69", title='''PHP For Beginners | 3+ Hour Crash Course''', description='''Your first step in learning PHP. We will go over all of the fundamentals and create a small PHP/MySQL project.
+    
+    ⭐  Sponsor: 
+    https://linode.com/traversy
+    
+    💻  Github Repo: 
+    https://github.com/bradtraversy/php-crash
+    
+    💻  Download Xampp:
+    https://apachefriends.com
+    
+    👇 PHP OOP MVC Udemy Course:
+    https://www.udemy.com/course/object-oriented-php-mvc
+    
+    💖  Show Support
+    Patreon: https://www.patreon.com/traversymedia
+    PayPal: https://paypal.me/traversymedia
+    
+    👇 Follow Me On Social Media:
+    Twitter: https://twitter.com/traversymedia
+    Instagram: https://www.instagram.com/traversymedia
+    Linkedin: https://www.linkedin.com/in/bradtraversy
+    
+    Timestamps:
+    0:00 - Intro
+    0:59 - Linode Sponsor
+    1:40 - Slides
+    9:47 - Getting Setup With XAMPP
+    14:30 - Opening a PHP File
+    15:38 - VS Code  Setup & Auto Reload
+    18:20 - Output Constructs & Functions
+    26:35 - Data Types & Variables
+    34:32 - Arrays
+    42:05 - Conditionals
+    52:57 - Loops
+    1:02:00 - Functions
+    1:09:47 - Array Functions
+    1:24:15 - String Functions
+    1:30:28 - Superglobals
+    1:34:05 - $_GET & $_POST
+    1:40:56 - Sanitizing Inputs
+    1:45:24 - Cookies
+    1:49:10 - Sessions
+    1:58:45 - File Handling
+    2:03:48 - File Uploading
+    2:17:20 - Erros & Exceptions
+    2:22:05 - OOP & Classes
+    2:35:14 - Feedback App Project
+    2:38:15 - Including PHP Pages
+    2:42:23 - Database & Feedback Table Setup
+    2:48:45 - Connecting To MySQL
+    2:53:54 - If & Foreach Shorthands
+    2:58:11 - Fetch From Database
+    3:01:05 - Inserting Data From a Form''', videoUrl="BUCiSSyIGGU", thumbnailUrl="https://i.ytimg.com/vi/BUCiSSyIGGU/hqdefault.jpg", createdAt="2022-03-30T13:00:05Z")
+    
+    
+    
+    df2ee41f9249ea88dc85d68562514f1d = Video(channelId="69", title='''Webpack 5 Crash Course | Frontend Development Setup''', description='''In this video, we will create a Webpack dev environment from scratch including...
+    
+    Webpack setup
+    Webpack Dev Server
+    HTML Webpack Plugin
+    Sass Compiling
+    Babel Transpiling
+    Asset Resource Loaders
+    Analyzer Plugin
+    Source Maps
+    
+    💻 Webpack Starter Repo:
+    https://github.com/bradtraversy/webpack-starter
+    
+    👇 Website & Courses:
+    https://traversymedia.com
+    
+    💖  Show Support
+    Patreon: https://www.patreon.com/traversymedia
+    PayPal: https://paypal.me/traversymedia
+    
+    👇 Follow Me On Social Media:
+    Twitter: https://twitter.com/traversymedia
+    Instagram: https://www.instagram.com/traversymedia
+    Linkedin: https://www.linkedin.com/in/bradtraversy
+    
+    Timestamps:
+    0:00 - Intro
+    2:29 - Initial Files (src/dist)
+    4:24 - Creating Modules
+    6:10 - Webpack Install & Building
+    8:20 - Using NPM Modules
+    9:27 - Webpack Config File
+    12:42 - Loaders & Sass Compiling
+    16:11 - HTML Webpack Plugin
+    18:30 - HTML Template
+    20:35 - Caching & Hash Setup
+    22:10 - Webpack Dev Server
+    25:22 - Cleaning Up Hash Files
+    26:50 - Source Maps
+    27:52 - Babel Loader
+    30:32 - Asset Resource Loader
+    34:18 - Finish The Joke App
+    38:26 - Webpack Bundle Analyzer''', videoUrl="IZGNcSuwBZs", thumbnailUrl="https://i.ytimg.com/vi/IZGNcSuwBZs/maxresdefault.jpg", createdAt="2022-03-22T13:34:15Z")
+    
+    
+    
+    dd7f15647683a3731f05fa5a7ac19593 = Video(channelId="69", title='''Build Strength From Struggle | My Story''', description='''This is my own personal story that I like to share with the world to show that it's possible to get to places in your life that you couldn't even imagine. It's not easy, but it IS possible.
+    
+    The other personal video that I was talking about:
+    https://www.youtube.com/watch?v=zA9krklwADI
+    
+    Follow @underdogdevs Twitter:
+    https://twitter.com/underdogdevs
+    
+    👇 Website & Courses:
+    https://traversymedia.com
+    
+    💖  Show Support
+    Patreon: https://www.patreon.com/traversymedia
+    PayPal: https://paypal.me/traversymedia
+    
+    👇 Follow Me On Social Media:
+    Twitter: https://twitter.com/traversymedia
+    Instagram: https://www.instagram.com/traversymedia
+    Linkedin: https://www.linkedin.com/in/bradtraversy''', videoUrl="XW1aGkzyjQg", thumbnailUrl="https://i.ytimg.com/vi/XW1aGkzyjQg/maxresdefault.jpg", createdAt="2022-03-08T14:32:32Z")
+    
+    
+    
+    daa146da73fa00c70ddb27b13c248dcb = Video(channelId="69", title='''CSS Grid Crash Course 2022''', description='''This crash course will teach you all of the fundamentals of CSS Grid
+    
+    ⭐ Sponsor: InMotion Hosting!
+    https://bit.ly/35rBjYU
+    
+    💻 Code:
+    https://github.com/bradtraversy/grid-crash
+    
+    👇 Website & Courses:
+    https://traversymedia.com
+    
+    💖  Show Support
+    Patreon: https://www.patreon.com/traversymedia
+    PayPal: https://paypal.me/traversymedia
+    
+    👇 Follow Me On Social Media:
+    Twitter: https://twitter.com/traversymedia
+    Instagram: https://www.instagram.com/traversymedia
+    Linkedin: https://www.linkedin.com/in/bradtraversy
+    
+    Timestamps:
+    0:00 - Intro
+    0:50 - Sponsor
+    1:28 - Slides
+    4:29 - HTML & Base CSS
+    7:28 - Creating a Grid
+    7:53 - grid-template-columns
+    9:16 - repeat() 
+    9:32 - Gap Spacing
+    10:17 - Row Height
+    10:55 - grid-auto-rows
+    11:15 - minmax()
+    11:45 - grid-template-rows
+    13:19 - Grid Browser Tools
+    14:03 - Align & Justify
+    17:08 - Grid Column Span
+    18:46 - Grid Row Span
+    20:28 - Responsiveness
+    23:03 - Grid Template Areas
+    32:22 - Testimonials Grid Project Intro
+    33:40 - Testimonials HTML
+    37:18 - Base & Card Styling
+    45:40 - Grid Styling
+    49:52 - Media Query & Span Resets''', videoUrl="0xMQfnTU6oo", thumbnailUrl="https://i.ytimg.com/vi/0xMQfnTU6oo/maxresdefault.jpg", createdAt="2022-03-02T14:00:00Z")
+    
+    
+    
+    dfeb4afda30e40b0c40289a87e159259 = Video(channelId="69", title='''The Programming Language Guide''', description='''This is NOT another annoying top 10 programming language video. We will talk about how programming languages work including low-level & high-level, compiled, interpreted, etc. We will also talk about some of the popular languages and what they are good for.
+    
+    👇 Website & Courses:
+    https://traversymedia.com
+    
+    💖  Show Support
+    Patreon: https://www.patreon.com/traversymedia
+    PayPal: https://paypal.me/traversymedia
+    
+    👇 Follow Me On Social Media:
+    Twitter: https://twitter.com/traversymedia
+    Instagram: https://www.instagram.com/traversymedia
+    Linkedin: https://www.linkedin.com/in/bradtraversy
+    
+    💻 Programing Language Crash Courses:
+    Rust - https://www.youtube.com/watch?v=zF34dRivLOw
+    C# - https://www.youtube.com/watch?v=GcFJjpMFJvI
+    Go - https://www.youtube.com/watch?v=SqrbIlUwR0U&
+    Python - https://www.youtube.com/watch?v=JJmcL1N2KQs
+    JavaScript - https://www.youtube.com/watch?v=hdI2bqOjy3c
+    Kotlin - https://www.youtube.com/watch?v=5flXf8nuq60&t=1s
+    PHP - https://www.youtube.com/watch?v=oJbfyzaA2QA&list=PLillGF-Rfqbap2IB6ZS4BBBcYPagAjpjn
+    Ruby (Ruby on Rails) - https://www.youtube.com/watch?v=B3Fbujmgo60
+    
+    Timestamps:
+    0:00 - Intro
+    1:02 - Low-Level vs High Level
+    1:43 - Machine Language
+    2:28 - Assembly Language
+    3:24 - General Purpose Languages
+    3:52 - C Language
+    4:47 - Compiled vs Interpreted
+    6:30 - C++
+    7:26 - Rust
+    8:46 - High Level, Interpreted Languages
+    9:23 - Java
+    10:50 - Statically Typed vs Dynamic
+    12:03 - Kotlin
+    12:58 - C#
+    14:40 - Go
+    16:00 - Python
+    17:20 - Ruby
+    18:54 - JavaScript
+    20:58 - PHP
+    22:37 - Swift
+    23:35 - Outro''', videoUrl="2lVDktWK-pc", thumbnailUrl="https://i.ytimg.com/vi/2lVDktWK-pc/hqdefault.jpg", createdAt="2022-02-21T13:00:02Z")
+    
+    
+    
+    d6a37921a9ae439c5b7567940e0047af = Video(channelId="69", title='''Learn The MERN Stack - Redux Goals & Deply''', description='''In this video, we will add the goals functionality and add goals to our Redux state.
+    
+    💻 Code:
+    https://github.com/bradtraversy/mern-tutorial
+    
+    👇 Full React 2022 Course With $12.99 promo:
+    https://www.udemy.com/course/react-front-to-back-2022/?couponCode=REACTF2BFEB2022
+    
+    👇 Website & Courses:
+    https://traversymedia.com
+    
+    💖  Show Support
+    Patreon: https://www.patreon.com/traversymedia
+    PayPal: https://paypal.me/traversymedia
+    
+    👇 Follow Me On Social Media:
+    Twitter: https://twitter.com/traversymedia
+    Instagram: https://www.instagram.com/traversymedia
+    Linkedin: https://www.linkedin.com/in/bradtraversy
+    
+    Timestamps
+    0:00 - Intro & Small Backend Fix
+    2:55 - Restrict the Dashboard
+    5:25 - Goals Slice in Redux
+    10:11 - Dashboard & Goal Form
+    16:39 - Create Goal Async Thunk
+    22:22 - Create Goal Extra Reducer
+    26:33 - Fetch Goals From Server
+    34:14 - Display Goals
+    37:00 -- Delete Goals
+    45:00 - Prepare for Deployment
+    51:40 - Heroku Setup
+    53:35 - Env Variables in Production
+    54:35 - Heroku Postbuild Script
+    55:43 - Push To Heroku''', videoUrl="UXjMo25Nnvc", thumbnailUrl="https://i.ytimg.com/vi/UXjMo25Nnvc/hqdefault.jpg", createdAt="2022-02-17T13:00:25Z")
+    
+    
+    
+    d313b65514648c67277b9a365ca89854 = Video(channelId="69", title='''Learn The MERN Stack - Frontend Authentication | Redux Toolkit''', description='''In this video, we will create our frontend and add authentication using Redux Toolkit to manage our global state.
+    
+    💻 Code:
+    https://github.com/bradtraversy/mern-tutorial
+    
+    👇 Full React 2022 Course With $12.99 promo:
+    https://www.udemy.com/course/react-front-to-back-2022/?couponCode=REACTF2BFEB2022
+    
+    👇 Website & Courses:
+    https://traversymedia.com
+    
+    💖  Show Support
+    Patreon: https://www.patreon.com/traversymedia
+    PayPal: https://paypal.me/traversymedia
+    
+    👇 Follow Me On Social Media:
+    Twitter: https://twitter.com/traversymedia
+    Instagram: https://www.instagram.com/traversymedia
+    Linkedin: https://www.linkedin.com/in/bradtraversy
+    
+    Timestamps
+    0:00 - Intro & API Explanation
+    2:18 - Create Frontend Folder & Cleanup
+    7:23 - Page Components
+    9:20 - React Router Setup
+    12:30 - Header & Navigation
+    16:33 - Register Page
+    25:14 - Login Page
+    27:36 - Concurrently Setup
+    30:10 - Redux Start & Auth Slice
+    37:32 - Start User Registration
+    45:36 - Extra Reducers For Register
+    49:32 - Hook Up Register Form
+    1:00:45 - Logout Function
+    1:07:55 - Start User Login
+    1:09:30 - Extra Reducers For Login
+    1:10:20 -Hook Up Login Form''', videoUrl="mvfsC66xqj0", thumbnailUrl="https://i.ytimg.com/vi/mvfsC66xqj0/hqdefault.jpg", createdAt="2022-02-14T13:53:35Z")
+    
+    
+    
+    df8bfde101ff3dd7336da8e1f56ae06a = Video(channelId="69", title='''Learn The MERN Stack - JWT Authentication''', description='''In this video, we will secure our API by adding JWT authentication
+    
+    💻 Code:
+    https://github.com/bradtraversy/mern-tutorial
+    
+    👇 Full React 2022 Course With $12.99 promo:
+    https://www.udemy.com/course/react-front-to-back-2022/?couponCode=REACTF2BFEB2022
+    
+    👇 Website & Courses:
+    https://traversymedia.com
+    
+    💖  Show Support
+    Patreon: https://www.patreon.com/traversymedia
+    PayPal: https://paypal.me/traversymedia
+    
+    👇 Follow Me On Social Media:
+    Twitter: https://twitter.com/traversymedia
+    Instagram: https://www.instagram.com/traversymedia
+    Linkedin: https://www.linkedin.com/in/bradtraversy
+    
+    Timestamps:
+    0:00 - Intro & Current Code
+    1:45 - What is JWT?
+    3:10 - User Model
+    6:00 - Add User to Goal Model
+    7:21 - User Routes & Controller Functions
+    14:38 - Register User
+    18:58 - Hash Password
+    22:07 - Authenticate User
+    25:40 - Generate JWT
+    29:54 - Auth Middleware
+    37:34 - Protecting Routes & getMe()
+    41:25 - Protect Goal Routes
+    43:10 - Get Only Users Goals
+    44:00 - Setting a User Goal
+    47:00 -Update a User Goal
+    49:30 - Delete User Goal''', videoUrl="enopDSs3DRw", thumbnailUrl="https://i.ytimg.com/vi/enopDSs3DRw/hqdefault.jpg", createdAt="2022-02-10T14:00:13Z")
+    
+    
     
     videos = [
     af4253568120d9759b09cbd540b6fd3c,
@@ -15922,21 +23356,21 @@ def seed_videos():
     cd7ad8da7f3dcf671e6c55d7c67a2dd2,
     c083b0dd8aa4e69fde2e63f592e2c6d8,
     cb5a231508d7858c57663cfb224cded0,
-#     c93b3131c3063a48f622339d9d8c4e9a,
-#     c687f1558710fa46afe21e518a7e6555,
-#     c4dbfaad625449f4627b3b1dc7e203b5,
-#     ccfe5e93cf8c2330957b8be2664d2d5e,
-#     c40b71355e561564f66821bf7cd506de,
-#     ce429cce63ddb03eb3b787aaa28fad04,
-#     c1710aa1ab26f56e1363dd1623bf7dff,
-#     c9123a3737897db50af638ae17606dc2,
-#     c6f31cb983cffbb489c9f66a237ef8ad,
-#     c206f2fb1d364c43a094a5a208dcab59,
-#     c5c980892a1e9f8ecb3fbfd105212c47,
-#     c762def0d79d4ec3e996ef705152a612,
-#     c7964318a4996f2c75fa138651bf202e,
-#     c700b6d1ff9c05d68e918912e44a8e33,
-#     cd069248d97c94689966331729a67fcc,
+    c93b3131c3063a48f622339d9d8c4e9a,
+    c687f1558710fa46afe21e518a7e6555,
+    c4dbfaad625449f4627b3b1dc7e203b5,
+    ccfe5e93cf8c2330957b8be2664d2d5e,
+    c40b71355e561564f66821bf7cd506de,
+    ce429cce63ddb03eb3b787aaa28fad04,
+    c1710aa1ab26f56e1363dd1623bf7dff,
+    c9123a3737897db50af638ae17606dc2,
+    c6f31cb983cffbb489c9f66a237ef8ad,
+    c206f2fb1d364c43a094a5a208dcab59,
+    c5c980892a1e9f8ecb3fbfd105212c47,
+    c762def0d79d4ec3e996ef705152a612,
+    c7964318a4996f2c75fa138651bf202e,
+    c700b6d1ff9c05d68e918912e44a8e33,
+    cd069248d97c94689966331729a67fcc,
     ce281e5ef4425e9a4b10b16eb45234ba,
     cb01a0318aba25dc472711cb78c3dc8e,
     c0e8fecfcf9ca54b23c61b562976948d,
@@ -15952,36 +23386,36 @@ def seed_videos():
     c11677f1d5fdb391bb8978ee4e48f1a1,
     c003322c8d94032ab0082e511000d8a4,
     c6dc1aa70f9a29696a0b82ba5d510df1,
-#     c29ca780b616258f6a4e1436c26db30a,
-#     c2873da67663940852bbe18e89c3134e,
-#     cedf3c2e2ac135be5186d8343ed955fc,
-#     c3ba458bd985441b0a1b126847da39ca,
-#     c38aea5057b690f032368e786e1f5d69,
-#     c58e6cda0f67f5f0640b3008c8324c91,
-#     c02c379173605079f70dcc18f0732ed5,
-#     c672aa05aac1485d0632e14dbe33800b,
-#     c918806f79afc1ecfb9b24f4fa73f6f7,
-#     c221b13059abc9300768a905126335a5,
-#     cffb9e51672cacf72e18357364a1b76d,
-#     c99d0f53980d84458166ad16c46cfdfe,
-#     c26edb8e7c4ad3f98873b5755e941f76,
-#     c8f6fb50cc4acc32bb0fe52e1e016b20,
-#     c2e2f9789de1f29bc916e1ce5ac12d32,
-#     c98d20e0ebb1c74d4185759499f85ee1,
-#     c63f87ef61af79c75f9a7117cb96263a,
-#     c4d4912bea0e17df3281b871131e4545,
-#     c5aeb9aa50f898479a30e4cad497e495,
-#     c920e0e2e9a108722fabbbd60756914a,
-#     cef82514398bb11dcd760333eccb9057,
-#     c6d25a42a1f89a88c1fddc80aac1995b,
-#     c4d37f8e6964772862815edd502002d5,
-#     c8f0d56cb4356aea2c75724892267af1,
-#     c235c28cb2920c2cc921daa11ab88ec1,
-#     c96e4da70b8ecaa68d0ed3b04d01b8d6,
-#     c5f013ec64076eb10dec5da78bf62260,
-#     c93fd89591e73415e437bb7823d24dd9,
-#     cf96ece51a9598d174b5d737ace388ea,
-#     c2fe9caafc04373d3ab51dd2bd7d31cf,
+    c29ca780b616258f6a4e1436c26db30a,
+    c2873da67663940852bbe18e89c3134e,
+    cedf3c2e2ac135be5186d8343ed955fc,
+    c3ba458bd985441b0a1b126847da39ca,
+    c38aea5057b690f032368e786e1f5d69,
+    c58e6cda0f67f5f0640b3008c8324c91,
+    c02c379173605079f70dcc18f0732ed5,
+    c672aa05aac1485d0632e14dbe33800b,
+    c918806f79afc1ecfb9b24f4fa73f6f7,
+    c221b13059abc9300768a905126335a5,
+    cffb9e51672cacf72e18357364a1b76d,
+    c99d0f53980d84458166ad16c46cfdfe,
+    c26edb8e7c4ad3f98873b5755e941f76,
+    c8f6fb50cc4acc32bb0fe52e1e016b20,
+    c2e2f9789de1f29bc916e1ce5ac12d32,
+    c98d20e0ebb1c74d4185759499f85ee1,
+    c63f87ef61af79c75f9a7117cb96263a,
+    c4d4912bea0e17df3281b871131e4545,
+    c5aeb9aa50f898479a30e4cad497e495,
+    c920e0e2e9a108722fabbbd60756914a,
+    cef82514398bb11dcd760333eccb9057,
+    c6d25a42a1f89a88c1fddc80aac1995b,
+    c4d37f8e6964772862815edd502002d5,
+    c8f0d56cb4356aea2c75724892267af1,
+    c235c28cb2920c2cc921daa11ab88ec1,
+    c96e4da70b8ecaa68d0ed3b04d01b8d6,
+    c5f013ec64076eb10dec5da78bf62260,
+    c93fd89591e73415e437bb7823d24dd9,
+    cf96ece51a9598d174b5d737ace388ea,
+    c2fe9caafc04373d3ab51dd2bd7d31cf,
     cb2b90a75e391ee4095b360575f486fc,
     ccfbe0b5ebe0d0f8c2c287851321a115,
     cc03fdf55a38905bf38e415de66ae612,
@@ -16072,6 +23506,216 @@ def seed_videos():
     c2e4e078fdb9eb699831550e6764abf2,
     c2d69d76c6ed5b4ce1af1077e08b3eb9,
     c2fbda8612c080ca30a1836562295b5c,
+    d8fc8429ac764899987ba01ea436c548,
+    d256ab67823b7ac4020471c93ae404f5,
+    d7dc57605df800bb8b36d9e17502f1c2,
+    db042edc3edcb9784bec5f8d368aef3c,
+    d5a3ad03dcec1d89ac5fa3b6e2f08a7d,
+    d2144f8f66489286cadf6f3ec5056132,
+    d0e79880af9115b2df000886e1205b60,
+    d557a7ba16e467b0a497f832ef700f38,
+    d28c264db5a570445aa0a2bfb2fb05e8,
+    d06b0a2db37f1aedf67aa57b6e5e11ef,
+    d5da415606c030289b0413bc537de013,
+    d1ff2d067402e56d86d2cea025697f90,
+    dcdbce67990f0f72063fe0fc6adcfee3,
+    d25d7abc639b302b895cd8844d0c3e7d,
+    d7a6ba0fff46ce0c678dc2dc5e910862,
+    ddc17f9caed421d26ebff86063d1587c,
+    d68eef1e40a4f00e0267a11d7a6d2652,
+    d8146941ca4f36d924724382b1f8202b,
+    db90457709f3cb0827d03923dfd58338,
+    d8e26902f09951eee9a6123733f93f8c,
+    d508437b99f2693568ee8da2680d6054,
+    d70e846d9c5c64d06c6cc5ee798e1a6b,
+    de93998e55006251c9750ec9a3e6b23c,
+    df45873d9e5b701e968f59a0ea3bd281,
+    d7c8ab97039596e9477336e894b9c23e,
+    d0bf40f736bed843853fbc1d5b799158,
+    d16bd27fc5927723688f7082c52df3b3,
+    da725a1848cf925be0e2aa87e6870da8,
+    d11641af7340261289e26bfaa2b29654,
+    df7457f35aa96b2e1c4fc4c0268b7fe3,
+    d8ea87a41448ddfa2303efe71b8baac2,
+    d214bec3f0d893468dbdf3601182ee5f,
+    d9107b619978a5d01c338beeb4bdee24,
+    da110bf5d88848331f2b345c5f4cf417,
+    d56ae014494716e18fe0882c5bc5dae3,
+    d6a490347e4fee43abb52a0bd5de7fc5,
+    dd27d947b3083ddd63c14c54efed13ee,
+    dcc6a2fc504b552bfbc1e88071b069cc,
+    d0e3917481d111a515e59e9e0736d444,
+    dec063e10914ec5a009d2bc06a393195,
+    dc3d65cb0ab6391bb9eb15c03f6a4fd3,
+    d365e3dd22306bc87f751381265a4555,
+    d6dc4468e07baa5a2c12fe7ba38801ee,
+    d5efa2aa0d3bb0c4328fb49f480950ce,
+    d4a28222db736f91b3524e6bd4657189,
+    d0a1c880e8eb4f695412bd2f6bad622d,
+    d176bf71b3fd0df818b4f2a977e744cb,
+    d5ebd9ab9ecca1e54fab1e837e64bb91,
+    d8f95981215c69f62407a3511a5da030,
+    d03f8c88e91a187dea19db375ab2c30d,
+    dda65402490152c4147aad2e7757159e,
+    d0b8b464a1efa3e96c20049619227bbd,
+    d1bb719c78cad29b9f463a9afaa23176,
+    d02a55d3fe2a02e5d76051ccf9c79aac,
+    d66f86b5dee47ff917fd2d185ed58d2e,
+    d2a395def4bb35c9950b9db8f7856be3,
+    db6d0bd11b56e607a0c734ccdd00996c,
+    d5947daf03aadb531cdff7e8525900ae,
+    d7c6c4dd3209245a715b8bcb404a39df,
+    d6cd320a1c5666819c8910ac518ddeb5,
+    d110a709a4bcfb64244609601b98db56,
+    d632e990883e2dc77676d76894f35b86,
+    dbc382a29bd88b6b9f6e0a86be16df03,
+    deb0501bd142017a35b4e8883821f58c,
+    d4d3ad8aac4dc3593d9caac7db9b35f3,
+    df87df13dcc79a28396d18294b33fa68,
+    d9aa732078f2a0fd9043806a1fbfe2c6,
+    d15aec48b22f3714487f73075588a596,
+    daa8a020c71ed314280e064af3202970,
+    da7b954c1c908128145579671801e0bb,
+    dc884a3f65b9e9f2807e5bbed650062e,
+    db52e2fe6c0d2a30b056ff80b03f0ed4,
+    d608195721c44007a37c40b6a33cdb6d,
+    d2e7ce1c429f5cfcc2047334113c11dc,
+    d1eca2358eacb3953354992c3c26cd56,
+    d06f64a9182b5a83ecc53379cabbb46c,
+    daaf6f8fa18124b58a27e84eab59939d,
+    d1919508b4f1a8f08b14f2991e708aaf,
+    d3f58721e21e718e1d643f5083a18122,
+    da26ddb55c52aeff55ee9cab2dd741cf,
+    d8b13d3101995e6a3f8bdbe6f09fb2fd,
+    dcbf0d010c5a0ffe3d7899349176b533,
+    d44f7c4c96eed5402e48b0860b7e3ec0,
+    d4124b075c812357ac1081b5e5a24aa0,
+    d0bdbbd040df318bc95331cc2fba0b9b,
+    da6acb6598e07bbc081b7218d56a6b92,
+    d4c658c3b3f6d6c93666fad85c2bf0df,
+    d9161c15b1af9e4d11b0011792931c3c,
+    d839a9c2dc73aca4271d32ef9453cf78,
+    dc7457ddb0b5533483815cd856dc1961,
+    daca819c7f6980f09b65d582d1e45820,
+    dcdc746dc1d2a783a961c6650dc36d57,
+    dfea70fce8acdafae78d7c35183eafc8,
+    def3ea3376a554e7872caeea8c1ffb34,
+    deaf2f734465bede41fb636a93639b26,
+    deea4ba379acde20331775b54a34c423,
+    dbded4aa58c7b816838f9fc803d8bace,
+    dac4664c449f367452984a95abd2ae16,
+    dd86b15ccc6d98ae8f6ca4aba37e5421,
+    dbd3221d7f1855e130f1a395b534d8eb,
+    d94a8dbdc9ab3f4fa886158903782a1e,
+    dd90bfda9f26f2d41d848f7b0f6d4ca3,
+    d912712b6633ccab5ed9e55eaa7502c3,
+    dc5e6952349575cfb950e5c93c52ee5a,
+    d6b361f529e98a2fd3c19dd6a10d7d79,
+    d91d2c0b4eea0e130c75e83bd714e13d,
+    d86cce35218cbe5b73cc37fce5377078,
+    d339afae3021213dd2f8d83218f5fddc,
+    d4308f3269e715a6d61e9700fb88f892,
+    d1d6b37e42d8e412ba17e0629719e39c,
+    d0872fa695ce0bae4bd4dcbd9904f8b6,
+    dbf3f38d936d20d1d09ac3c97591acb6,
+    df9e88a3bfa561bbefd26e39fc69faa6,
+    d53684ec21bfac609a15296bc2802f9c,
+    df66f50f8937f4e6ce0ac8683b6551a1,
+    d62b3b0e1aae17cda61d4966f2e4c635,
+    d7e364eff536009cd1f8d9fc0f541753,
+    dee8a286d8fbcf5f7af20a321a863885,
+    d168bfdf50593dc9bcf685205faf7623,
+    d2958d2bbaebcceea21c7eefbde8831b,
+    db552e1fb83635ae60ba981a08ce43e4,
+    d8a57fa1ca48496999e3de914a78b3aa,
+    df0a302f81612e6a8931d0bca8eddf3e,
+    d763a898745d5b8830bcd590a5a6d7fe,
+    d7d3d711d0e77025cbb46257e9040bf9,
+    d9a48416b72a86baadd60cffd0f25fb1,
+    d6d4fc03e9381d0ef367734f5e7c2e69,
+    d62cce564ddddb886d418c2bf5181db4,
+    d7aecbbf6c4be780423d5734e4ab4a3e,
+    de6698d874c3f3900cb642af9433caef,
+    d2eb526d71348126813479a1c928add2,
+    d9cfaf3824c898b97561a5243712134d,
+    df5d297de278e8402bca6b56a7ee370c,
+    dee63a1cf1f6b927132039f1f0bf6e18,
+    d67b8ad2ca67bb4becb51ed1d5dc67a2,
+    daf61a1ca3c4d456f6a03101255bef38,
+    d2e092058353edb42d889e33a7c3b4cf,
+    d55ea5ecebc9e4a7db5c096099e43a4b,
+    df67fcce892a67620de61322e4c55d25,
+    d7f4c47d5fe78243a5393985f5f3e968,
+    d3482c581ea40b2bd8c477fb359a71b1,
+    de3a310b48607a82eb81df3225e6a077,
+    dcdbda6b0f4841a3539fdd13a1f2beae,
+    df9921f4d08779af38681ac9b6d3e67d,
+    de8ec71984aa4eb0d50100a3dae7af21,
+    dfbf2f985a27b152a3a7e48bb8e3088c,
+    d60d25f26849d9948c2d2d80bd8e4095,
+    d2dafbf23431a4c4de33b056eaa353d0,
+    debd57c4c203f54b7a77a0ca79aea4e1,
+    d7a2629b86735d8b48aca36bbc61cff1,
+    dab0f16d2cec7f81a4a0fa98294f5796,
+    db03190f4ed14817e89b1647f5de487b,
+    d71a90906f0913d4de3819bdc6d2c29e,
+    d815969016b2b78445b7ab2967849a85,
+    d383deb2c57073744af52327923159a8,
+    dd1a8ac5314efe58bf2012f4b9f2dabb,
+    dc019c4e5146210a582b08176d39119f,
+    d844fa54d7fc7ac57040e474ce172f55,
+    d5bdeade9d42e83e1b0a411ae645c128,
+    da218e11ad76ce1eb9f97b03687a154d,
+    d44937e3544dba6b8f36aeaf18ef0980,
+    d0371d5618348ecd85785588f4ceac8d,
+    d7a4809a1878438487e2b51c62bbbebe,
+    d74a78f0987eff7906c09a9e7d83b6eb,
+    dab8eae9e3024fa1b70a3ae19acc37a7,
+    d34a5193d102afd4b02b2ebc8b65e342,
+    d1310680c65d3622cb07ab38d6ea8aae,
+    d01f7df429845c30bc542cc59155d4af,
+    df43f813dac8fd5526b9a15ef92c08bb,
+    d1a2844e61771a8026be7401d3b4bc86,
+    d4ea22f02d5f778ccc6c0ef0354d8c2f,
+    dcec84fea68968b3f9c94a3f7e35c6be,
+    df9ca85a43cb689ca5a2b0b513e473c6,
+    d43a08028516837a8ea93d896f31abb1,
+    d28f583b60447fea21e3eb24a1ab921c,
+    d2fc814561c6d0e688c8aa1a6489eeac,
+    dbc38c4c7e0e92f59548de8119463a3b,
+    def1aaab7aafb6eccf35f24a60273726,
+    dceeb8eaeace8d9fd1c00b602bd8c5b1,
+    dae479a1b69b4dc790b154eb3f83b946,
+    d04f70d110b5c519cf9f60d0bec6d71a,
+    d6c9f0aa58d8627fbc7f0ebc0f72f41a,
+    d0e6dcfab9c3640a5f92ef8d705d5178,
+    d6190baf964b2243ca18108f87dc9b89,
+    d79d9b7f25ecdb1f9b6e0094d614c56a,
+    dbd7a5650b814695938398c1e1a591dd,
+    dd002df9c97a29fcff5d487fabb317b1,
+    d8210d6114ffcb2b44f07298111053eb,
+    ddb0dd076e33aa09ed8974e772961d68,
+    d8af878eec6123bb4bd7d2c9733a0edd,
+    dbdc740c2e09ff11242d149b06f234ff,
+    db43ec90f96108e969224e7d3eb626fb,
+    db4eff03b13828e420e0e31b520f3f16,
+    d03775a4b33a3e7b6c669ab4ad38257d,
+    d8dab883dd0209b64a39f551ab113b6a,
+    dcd91dabd0e2850a1da9cda4d55a728d,
+    d1da600028ed9a6dab1f0155ecaa6454,
+    d0911fc68c9286f79ed7369db6dc6d6c,
+    d449577ead0b16036dac3f4cf9bf255f,
+    dad7dc6d437c4d1ae27dc35df1d11b6e,
+    d756b2e494f9dcdc1b85c30e98b630cd,
+    d517763ba803a55cab8571063b752de8,
+    db66bece506a9b6ab028a78e5563579d,
+    df2ee41f9249ea88dc85d68562514f1d,
+    dd7f15647683a3731f05fa5a7ac19593,
+    daa146da73fa00c70ddb27b13c248dcb,
+    dfeb4afda30e40b0c40289a87e159259,
+    d6a37921a9ae439c5b7567940e0047af,
+    d313b65514648c67277b9a365ca89854,
+    df8bfde101ff3dd7336da8e1f56ae06a,
     ]
     
     for video in videos:

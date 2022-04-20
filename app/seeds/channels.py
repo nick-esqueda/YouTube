@@ -567,9 +567,182 @@ def seed_channels():
     Ariana = Channel(channelName="Ariana Grande", password="password", profileImageUrl="https://yt3.ggpht.com/ytc/AKedOLQwKqgKtpTJS809vJQNVrpPlNffgDeZkVlQFDpAtA=s800-c-k-c0x00ffffff-no-rj-mo", bannerImageUrl="https://yt3.ggpht.com/z8dPdOBqWg36cVZbYtIvPz6mkriM7CkacKFmqNUi78s8MP16ZEHaMGAzy5lTl62j_y2_Fvz15EM", channelTrailerId="BnyvDBGojoQ", createdAt="2007-01-22T01:53:12Z", email="ariana_grande@ariana_grande.com", about='''https://arianagrande.lnk.to/positions
     ''')
     
+
+    freeCodeCamp = Channel(channelName="freeCodeCamp.org", password='password', profileImageUrl="https://yt3.ggpht.com/ytc/AKedOLRyPFojwY3CXV5ks5TwPrt2VifQn-nYNfkgLvVPkw=s800-c-k-c0x00ffffff-no-rj", bannerImageUrl="https://yt3.ggpht.com/YENZNQNejlcYytisl7SbdB76TRQa_qs3felodPY9EPvY1l7ZXdbZV4jtSfBITDPE54_1nK5osg", channelTrailerId="None", createdAt="2014-12-16T21:18:48Z", email="freecodecamp.org@freecodecamp.org.com", about='''Learn to code for free.''')
+
+
+    Programming = Channel(channelName="Programming with Mosh", password='password', profileImageUrl="https://yt3.ggpht.com/tBEPr-zTNXEeae7VZKSZYfiy6azzs9OHowq5ZvogJeHoVtKtEw2PXSwzMBKVR7W0MI7gyND8=s800-c-k-c0x00ffffff-no-rj", bannerImageUrl="https://yt3.ggpht.com/6KvN7bDdsHntrGF8wDcpbY5HyhjgPGnPklLiV1ezPSyfMVBPE2ACEnULz58LUGSDfEe6u-aGJQ", channelTrailerId="tsBy6je8KjM", createdAt="2014-10-07T00:40:53Z", email="programming_with_mosh@programming_with_mosh.com", about='''I train professional software engineers that companies love to hire. 
+
+    My courses: http://codewithmosh.com 
+
+    My blog: http://programmingwithmosh.com
+
+    Connect on social media: 
+
+    http://www.twitter.com/moshhamedani
+
+    https://www.facebook.com/programmingwithmosh
+
+    #python #javascript #chsarp''')
+
+
+
+    Devslopes = Channel(channelName="Devslopes", password='password', profileImageUrl="https://yt3.ggpht.com/ytc/AKedOLT056ODjVaQ6-6akio61nF3r6TKFmJpdMGq1_O7dQ=s800-c-k-c0x00ffffff-no-rj", bannerImageUrl="https://lh3.googleusercontent.com/Hp6_jy-5cqlRVdA5-Wj0P7ENqhUvZ-kMkbUUF5OFVkJu4Rk1Z4QUZQSzKlGklIZqG5_Ub5eK", channelTrailerId="ESJoYYTO59o", createdAt="2015-08-18T06:05:22Z", email="devslopes@devslopes.com", about='''Learn to how to code with immersive 1-on-1 training and EARN money WHILE you learn!''')
+
+
+
+    howCode = Channel(channelName="howCode", password='password', profileImageUrl="https://yt3.ggpht.com/ytc/AKedOLStzgdpBzLauWeUAubodj1dw8OJpUI325FtRHJ8Cg=s800-c-k-c0x00ffffff-no-rj", bannerImageUrl="https://lh3.googleusercontent.com/ANns4iUlOXBupIek9Uh6QbD5QgUGe6SGll_LVY2J4E_pNzhA__Bxynkn4k-lXif5uaBWhOkvcg", channelTrailerId="hZOHP8CV_pw", createdAt="2012-08-29T14:13:35Z", email="howcode@howcode.com", about='''I upload videos that teach you how to program using both web specific languages such as PHP, Javascript, HTML5 and CSS and general purpose programming languages such as Python. Soon I will be expanding the languages I teach to include languages like, C, C++, Ruby, Go, Perl, Java and SQL.
+
+    My current series are:
+    Learn PHP
+    Learn HTML
+    Learn Javascript
+    Python 101 and
+    Questions Answered
+
+    How can I make my tutorials better? Send me a message or an email and I'll listen to your feedback. :D
+
+    Whether you would like to help out by making videos, helping people on the forums, writing tutorials, sending your feedback or anything else, just send me an email:
+    francis@howcode.org
+    Whatever the reason, I'll be glad to reply!
+
+    ALL external links I post will be shortened using the official howCode URL shortener, so rest assured ALL external links I post are safe to click on.
+    ALL external links will look like this:
+    howco.de/something or
+    howcode.org/something
+
+    :D''')
+
+
+
+    Fireship = Channel(channelName="Fireship", password='password', profileImageUrl="https://yt3.ggpht.com/ytc/AKedOLR5CDv14gL4DQ7I4gxIlBMY6u-CNsq2qfeev48R2g=s800-c-k-c0x00ffffff-no-rj", bannerImageUrl="https://yt3.ggpht.com/ck2RpMx__gA4Gtx6aS0TWCwPO9XerK_AKTanViJAWv-cHnZeKahprcSgniHuXgTjsgOCXasTXA", channelTrailerId="U3aXWizDbQ4", createdAt="2017-04-07T18:17:23Z", email="fireship@fireship.com", about='''High-intensity ⚡ code tutorials to help you build & ship your app faster. Subscribe for new videos every week covering intermediate to advanced lessons about JavaScript, Flutter, Firebase, and modern app development.
+
+    The original home of #100SecondsOfCode and #CodeThisNotThat. Created by Jeff Delaney. 
+
+    Building an app? Get project support, advanced full courses, and more at https://fireship.io''')
+
+
+
+    Coder = Channel(channelName="Coder Coder", password='password', profileImageUrl="https://yt3.ggpht.com/ytc/AKedOLSb9euH8dTWxQ6-Zx-B_2QVB-imGC_NuTmLemHMyQ=s800-c-k-c0x00ffffff-no-rj", bannerImageUrl="https://yt3.ggpht.com/edrJAaCPA5QgVqqB9HIW8raPa-G7ixIL6-Xy1NOZjJBvBhdjnuBspMW9A6Q8s5K6qyHfB9zY", channelTrailerId="UQGoVB_zMYQ", createdAt="2017-12-15T15:40:51Z", email="coder_coder@coder_coder.com", about='''Practical tips for the beginner web developer.''')
+
+
+
+    Traversy = Channel(channelName="Traversy Media", password='password', profileImageUrl="https://yt3.ggpht.com/ytc/AKedOLSxHOOxxa9Af8Bfb2XMop3lm4tor9bViWiC-d5aaw=s800-c-k-c0x00ffffff-no-rj", bannerImageUrl="https://lh3.googleusercontent.com/FGxGbXEEUNf5GWcraGa-f4PLGdDGIgOf4C6LH0PKH3ug-W8PR0tXkUq8eKPAbz8kCFKhVck7tA", channelTrailerId="EqzUcMzfV1w", createdAt="2009-10-30T21:33:14Z", email="traversy_media@traversy_media.com", about='''Traversy Media features the best online web development and programming tutorials for all of the latest web technologies from the building blocks of HTML, CSS & JavaScript to frontend frameworks like React and Vue to backend technologies like Node.js, Python and PHP''')
+
+
+
+    devsmak = Channel(channelName="devsmak", password='password', profileImageUrl="https://yt3.ggpht.com/7t9ft05wWk_2LrSbtMXkPv7c6rLTDuJtd_WOFby5A7VBDBizE4qS9v9VxPt8AheV0blsCxsK2w=s800-c-k-c0x00ffffff-no-rj", bannerImageUrl="https://yt3.ggpht.com/1VaQkvWIE0IsKbu3mH0Z3qH0_o0sLcObdPUyYQ5DFVvzLctv21XbXEKQXMfk8vyf0z30oNiW", channelTrailerId="None", createdAt="2020-10-30T16:02:39.401076Z", email="devsmak@devsmak.com", about='''James, here. I'm a self-taught front-end software engineer. I've been writing software professionally for over 8 years. I like helping people get started in software development and growing their career.
+
+    ''')
+
+
+
+    Chris = Channel(channelName="Chris Sean", password='password', profileImageUrl="https://yt3.ggpht.com/XnbhrpugAV0jolAZiURaEUmS5LImmUp2yrir4LhS08CAikq8Ev9EoTYMdIDlYLhz_CIlF4yoDw=s800-c-k-c0x00ffffff-no-rj", bannerImageUrl="https://yt3.ggpht.com/5bTtbig_dgN6pZvvAEJ7yy9qGCCSxO1QnrkvXnqiPS4bXObiQyDftdOhOEk4yd31l5jo4F41", channelTrailerId="-kYgESqhOro", createdAt="2013-02-17T17:31:43Z", email="chris_sean@chris_sean.com", about='''None''')
+
+
+
+    Aaron = Channel(channelName="Aaron Jack", password='password', profileImageUrl="https://yt3.ggpht.com/2Ic5G-MGcf0BGlxLo86TkUZILkxKCenzjCszCyVJSRcmn5xkEgtLgs4CBCkaK2YNoNdX4A66=s800-c-k-c0x00ffffff-no-rj", bannerImageUrl="https://yt3.ggpht.com/xcxVqgT-psz4wM9kOyZqSPx1dMC3wfihEdeDH2neIY9us0RyWbMK1caCZ0hXVuk5pfLfOpRL", channelTrailerId="1uD1BlkTQYc", createdAt="2018-09-09T19:35:18Z", email="aaron_jack@aaron_jack.com", about='''SF Software Engineer, founder of Freemote bootcamp -- building companies around the world
+
+    https://freemote.com''')
+
+
+
+    Archie = Channel(channelName="Archie Beatz", password='password', profileImageUrl="https://yt3.ggpht.com/ytc/AKedOLQ3masx2HxwSy4QJnsQmEJyOA7dSXRCejotT11gxA=s800-c-k-c0x00ffffff-no-rj", bannerImageUrl="https://yt3.ggpht.com/f9uhbKAt0OOseBfynUkoiWVGD0WCdPNoaVeoFpPPEX9sChObERQ-54UooOpbCPtxuYVHJoM1", channelTrailerId="40S_QIX6o-0", createdAt="2012-12-22T19:04:34Z", email="archie_beatz@archie_beatz.com", about='''Music Production, Home Studio tips, Recording Vocal tips and much more.  I'm Archie Beatz and I'm here to HELP. I'm a Film Composer, Studio Owner, Music Producer, Singer/Songwriter, Grammy Voter, SCL Member, Certified Professional Recording Engineer (Pro Tools & Logic Certification) & Multi-instrumentalist. I have worked with The Trak Starz, Bruno Mars, DeStorm Power, Lloyd, Jibbs, Interscope/Universal, Clear Channel Radio, T-Mobile & many more.. If you are looking for tips and advice on recording vocals, instruments, plugin applications, music production, mixing, mastering, choosing the best microphone, choosing the best audio interface & choosing the best monitors... Then you are in the right place and I hope you find my channel helpful. Be sure to SUBSCRIBE!''')
+
+
+
+    Sol = Channel(channelName="Sol State", password='password', profileImageUrl="https://yt3.ggpht.com/ytc/AKedOLSXHqG-s1pM656blyNUCgdu9_jcRy2eAlID0UYwaA=s800-c-k-c0x00ffffff-no-rj", bannerImageUrl="https://yt3.ggpht.com/2XzV6UAgLBnXCyPatbS1ikMYJNDuc9P46tWIzc3B_NFnFDslKZupuozYs-bX1D1TvqzL9Bwt55o", channelTrailerId="p4uPbuTHRtk", createdAt="2018-04-02T06:45:15Z", email="sol_state@sol_state.com", about='''Sol State Music is where music producers come to master music production. You'll learn all aspects of music production from a quality obsessed host. 
+
+    Expect videos on both the creative and technical parts of music production.
+
+    Beginners, intermediate, and advanced music producers will discover helpful tricks here. 
+
+    This channel is best for Ableton users and helpful for users of any DAW. 
+
+    So join the fun!
+
+    Subscribe to master music production. 
+
+    Sol State is on a mission to "spread magic through music".''')
+
+
+
+    Pitchfork = Channel(channelName="Pitchfork", password='password', profileImageUrl="https://yt3.ggpht.com/ytc/AKedOLT9FoTw4_JHsDA3FZ9CLii_Y-pz625tTdRUP-kM2g=s800-c-k-c0x00ffffff-no-rj", bannerImageUrl="https://lh3.googleusercontent.com/q0rl9sZ5QfEz1L8_n1dYmQL960W9GiPM57OJsIkZlKSnsD_J5BsnHwoDQpgeqGYpo2bCReOH", channelTrailerId="KGrUbwZQMYg", createdAt="2008-09-04T15:10:14Z", email="pitchfork@pitchfork.com", about='''Pitchfork.tv is dedicated to documenting independent music as it happens. Working with a veritable who’s who of independent artists, Pitchfork.tv has captured brilliant early performances, interviews, and documentaries with artists that would go on to become household names. With programming ranging from Exclusively Produced Music Videos, Short Films, Documentaries, Animation, Live Streaming Concerts / Festivals, and Episodic Series, Pitchfork TV is the destination for music lovers of all kinds.''')
+
+
+
+    ANDREW = Channel(channelName="ANDREW HUANG", password='password', profileImageUrl="https://yt3.ggpht.com/Fy04H8gLPQY-cnX3g5EUOILZ1NxktAJ2c5si0dpWbA79TMWExQUCOwO_lbA_hytDQgg-lgxc=s800-c-k-c0x00ffffff-no-rj", bannerImageUrl="https://yt3.ggpht.com/AOAdxy6qn3zK7QqUxxbuHf4LsClddrlnESF8mwI47yA1oBzjITp6D9s6FkQdA-qpyz3Bml52gQ", channelTrailerId="iisuveXsQ8M", createdAt="2006-10-19T22:07:49Z", email="andrew_huang@andrew_huang.com", about='''I'm a partially deaf musician from Toronto working with lots of different genres and instruments. Created the iOS music making app Flip Sampler. I have an online music production class and 40+ albums out which you can find at the links below. 
+    ''')
+
+
+
+    EdTalenti = Channel(channelName="EdTalenti", password='password', profileImageUrl="https://yt3.ggpht.com/ytc/AKedOLRnqXZWu2mH8_WKq1JzIrSTxRDzLU3GCxBJgEDQqw=s800-c-k-c0x00ffffff-no-rj", bannerImageUrl="https://yt3.ggpht.com/YaYFprJcpuOL15HPsvCXfsayxwgBQxrfi9tEfZE4tv1FdJe_XBgEChh1s7PV0_z7vTBhYogcq2Q", channelTrailerId="Pq-WZ8EeJcs", createdAt="2009-08-07T14:40:15Z", email="edtalenti@edtalenti.com", about='''The craziest music production channel on YouTube.''')
+
+
+
+    Dexxter = Channel(channelName="Dexxter Clark Music", password='password', profileImageUrl="https://yt3.ggpht.com/YO2MLYaQjpXSdwQe1GtuNwnbyB4sLHgAY1xYTF4EjfZ4buEsdV1f5Voth5fuexotUS2xDCcC=s800-c-k-c0x00ffffff-no-rj", bannerImageUrl="https://yt3.ggpht.com/xy87oFGKkMccj1CvsGJes7zukViMCpixTvIqAkixywaBycyLYLD3G8p_yKGGUY-fBASUBw0Byg", channelTrailerId="L5j67gjMfZg", createdAt="2017-01-03T21:44:38Z", email="dexxter_clark_music@dexxter_clark_music.com", about='''For high quality music producer related tutorials, reviews and courses subscribe.
+    I do videos about studio equipment, DAWs, plugins (VST's), computers for music production and other music production beginner topics
+
+    Buy my YouTube book: 
+    What Big Tubers Don't Tell You: about how to start a YouTube channel: 
+    https://www.dexxterclark.com/book-tube
+
+    Buy my CDJ 2000 Nexus 2 course:
+    https://www.dexxterclark.com/course-cdj
+
+    Social details:
+    ● Website: https://www.dexxterclark.com
+    ● Music producer weblog: https://www.learnhowtoproducemusic.com
+    ● Instagram: https://instagram.com/dexxterclark
+    ● Twitter: https://www.twitter.com/dexxterclark/
+    ● Patreon: https://www.patreon.com/dexxterclark''')
+
+
+
+    Sonic = Channel(channelName="Sonic Academy", password='password', profileImageUrl="https://yt3.ggpht.com/FJaxbZWQvfxH6uxKmS_kLkRrZ2vUa7KY2fpQ_ygc4dy8AFopkexlTRvz5FvoJ_q9oc2G4kdu=s800-c-k-c0x00ffffff-no-rj", bannerImageUrl="https://yt3.ggpht.com/SG50KD0hiVtw6Ed0laoc-BMZWPS-DwZyj97XUW1r7kIhVfTAVF8ToCK5uGHm9Z-_kwKHudb2", channelTrailerId="gHq3GlqSX2o", createdAt="2007-06-11T21:41:40Z", email="sonic_academy@sonic_academy.com", about='''Sonic Academy is the place to come to for anyone who wants to get to grips with the latest music technology. We don't just teach you how to use the software, we show you how to make music. We have created some great tutorials and tools to help you on your  create some amazing tracks. Check out our synth plugin ANA and our great Ultimate sample series for the best drums and FX.''')
+
+
+
+    twelvetone = Channel(channelName="12tone", password='password', profileImageUrl="https://yt3.ggpht.com/ytc/AKedOLSt1EYpS-2162ci2LhkhEw8E11tlejxa9dNZ_bh=s800-c-k-c0x00ffffff-no-rj", bannerImageUrl="https://lh3.googleusercontent.com/jG4qHjBqhCHjrPmsDTAA5LdKn1vgTnMkZGA2VuAP-kn32w2Kj_FrGmpMu0kvoUqA43EFTt48EA", channelTrailerId="n0GGGPW-Dvg", createdAt="2014-08-15T03:33:12Z", email="12tone@12tone.com", about='''something something music theory.
+
+    Patreon: https://www.patreon.com/12tonevideos
+    Mailing list: http://eepurl.com/bD4LeT
+    Facebook: https://www.facebook.com/12tonevideos
+    Twitter: https://twitter.com/12tonevideos
+    Email: 12tone@standard.tv''')
+
+
+
+    WIRED = Channel(channelName="WIRED", password='password', profileImageUrl="https://yt3.ggpht.com/ytc/AKedOLT1ZPXzhEYhBxuN9V_pxPkPiTdH-JhxujfV1HKGTAQ=s800-c-k-c0x00ffffff-no-rj", bannerImageUrl="https://yt3.ggpht.com/VouXsT-wskkSdqqxfRjVh-eAW_Yw922xo728nOkrcDdG-3yLK6sdPb8IMuLK9BAqoy7iuHXzBg", channelTrailerId="JLC_T1jQ5Lk", createdAt="2005-09-23T03:09:26Z", email="wired@wired.com", about='''WIRED is where tomorrow is realized.''')
+
+
+
+    Signals = Channel(channelName="Signals Music Studio", password='password', profileImageUrl="https://yt3.ggpht.com/ytc/AKedOLTyLQ0l_D-WyhMmhIm5ieE7_ShM9qUUDSNR3BFLww=s800-c-k-c0x00ffffff-no-rj", bannerImageUrl="https://lh3.googleusercontent.com/nYPJhN_JAvPaYTTdxi9FRdOPQeaU9Ifx2IzaMYkq_-2Ig6Kk-prOculcryoqEbN5XXyMnxGAog", channelTrailerId="Qhuhn3xxlRA", createdAt="2017-07-15T03:08:54Z", email="signals_music_studio@signals_music_studio.com", about='''Helping people write more music! Lessons and videos on music theory, scales, modes, chords, songwriting techniques, and song analysis with a focus on guitar.''')
+
+
+
+    Jacob = Channel(channelName="Jacob Collier", password='password', profileImageUrl="https://yt3.ggpht.com/58ctaOr0--N80gfUCBJCrq_-jdr7BjTrL44rlcnjIxEwbAdDcP9Q4yIZhU5PQJJd-sytQS3uRQ=s800-c-k-c0x00ffffff-no-nd-rj", bannerImageUrl="https://yt3.ggpht.com/cT1nH84NbeBE7rJaZxC00gxuWQk84oyLme7P72A0_V-2YdzNPfZCr0Jo-Wd4kCmHnncHHfOOGnQ", channelTrailerId="VPLCk-FTVvw", createdAt="2011-12-14T20:21:46Z", email="jacob_collier@jacob_collier.com", about='''Jacob Collier is a musician, based in my mind, London, the Universe.''')
+
+
+
+    Jubilee = Channel(channelName="Jubilee", password='password', profileImageUrl="https://yt3.ggpht.com/qP0GkpU-ZfcA-P2XGTTF1a6hAF-IfZdHM7pXBgYvlHaSgJux7h8hDTC2kea2oPTczRk-yIpO=s800-c-k-c0x00ffffff-no-rj", bannerImageUrl="https://yt3.ggpht.com/tXoSu-wRifsWiuckjO2Yf_1cEM1kJygrqwB5nCVJLwT9sZ_mAonV087dil-VXWiCxbw7FkzQYt0", channelTrailerId="dj-pWmsOIyQ", createdAt="2010-01-30T23:22:04Z", email="jubilee@jubilee.com", about='''Feel more. Think more. See more in others.''')
     
     
-    web_dev_simplified = Channel(channelName='Web Dev Simplified', email='wds@wds.com', password='password', profileImageUrl="https://youtube-bucket-nick-esqueda.s3.amazonaws.com/web-dev-simplified.jpg", createdAt="2018-05-24T16:26:39Z", about="""Web Dev Simplified is all about teaching web development skills and techniques in an efficient and practical manner. If you are just getting started in web development Web Dev Simplified has all the tools you need to learn the newest and most popular technologies to convert you from a no stack to full stack developer. Web Dev Simplified also deep dives into advanced topics using the latest best practices for you seasoned web developers. I started Web Dev Simplified in order to share my passion for web development, and do what I truly love. Teach and inspire new web developers. I have been in love with full stack web development since 2015 when I did my first internship as a web developer. Ever since then I have pursued my passion, learning everything there is to know about web development. Over the years I have taught many colleagues and friends the joys of web development, and cannot wait to teach you. Thank you for watching!""")
+    random1 = Channel(channelName="Reece", password='password', profileImageUrl=get_pfp("Demo"), createdAt="2010-01-30T23:22:04Z", email="r1@r1.com", about='''Avid analyst. Certified internet practitioner. Music ninja. Passionate beer scholar. Alcohol fan.''')
+    random2 = Channel(channelName="Dina", password='password', profileImageUrl=get_pfp("Demo"), createdAt="2010-01-30T23:22:04Z", email="r2@r2.com", about='''Cancer survivor | Professional Photographer | Founder''')
+    random3 = Channel(channelName="Aylin", password='password', profileImageUrl=get_pfp("Demo"), createdAt="2010-01-30T23:22:04Z", email="r3@r3.com", about='''Coach ✪ Blogger ✪ Mystery lover''')
+    random4 = Channel(channelName="Bert", password='password', profileImageUrl=get_pfp("Demo"), createdAt="2010-01-30T23:22:04Z", email="r4@r4.com", about='''Music Producer ✪ Counselor ✪ Self-taught artist ✪ Lover of all cuisine ✪ Army Ret''')
+    random5 = Channel(channelName="Susie", password='password', profileImageUrl=get_pfp("Demo"), createdAt="2010-01-30T23:22:04Z", email="r5@r5.com", about='''Devoted internet enthusiast. Typical bacon maven. Entrepreneur. Alcohol trailblazer.''')
+    random6 = Channel(channelName="Berta", password='password', profileImageUrl=get_pfp("Demo"), createdAt="2010-01-30T23:22:04Z", email="r6@r6.com", about='''Massage Therapist ✦ History and science lover ✦ Fitness guru''')
+    random7 = Channel(channelName="Cleveland", password='password', profileImageUrl=get_pfp("Demo"), createdAt="2010-01-30T23:22:04Z", email="r7@r7.com", about='''Passionate marketer ✶ Educator ✶ Love travel photography ✶ MBA''')
+    random8 = Channel(channelName="Ceasar", password='password', profileImageUrl=get_pfp("Demo"), createdAt="2010-01-30T23:22:04Z", email="r8@r8.com", about='''Hardcore coffee junkie. Thinker. Bacon specialist. Food buff. Writer.''')
+    random9 = Channel(channelName="Donavon", password='password', profileImageUrl=get_pfp("Demo"), createdAt="2010-01-30T23:22:04Z", email="r9@r9.com", about='''Currently in the USA ✪ PR Consultant ✪ Coach ✪ Socialist''')
+    random10 = Channel(channelName="Lindsay", password='password', profileImageUrl=get_pfp("Demo"), createdAt="2010-01-30T23:22:04Z", email="r10@r10.com", about='''Outdoor enthusiast ✦ Hair Stylist ✦ Improving the unimprovable''')
+    random11 = Channel(channelName="Jalen", password='password', profileImageUrl=get_pfp("Demo"), createdAt="2010-01-30T23:22:04Z", email="r11@r11.com", about='''Wannabe troublemaker. Web geek. Total pop culture evangelist. Writer. Student. Reader. Hardcore beer aficionado. Coffee fanatic.''')
+    random12 = Channel(channelName="Mert", password='password', profileImageUrl=get_pfp("Demo"), createdAt="2010-01-30T23:22:04Z", email="r12@r12.com", about='''Skincare can sometimes be intimidating as there are a wide variety of products to choose from.''')
+    random13 = Channel(channelName="Amy", password='password', profileImageUrl=get_pfp("Demo"), createdAt="2010-01-30T23:22:04Z", email="r13@r13.com", about='''hey :)''')
+    random14 = Channel(channelName="Clifford", password='password', profileImageUrl=get_pfp("Demo"), createdAt="2010-01-30T23:22:04Z", email="r14@r14.com", about='''bruh''')
+    
     
     # NORMAL USER SEEDS ######################################################################################
     # TODO
@@ -627,18 +800,54 @@ def seed_channels():
         Jinx,
         qbanguy,
         Colleen,
-        # Adult,
+        Adult,
         James,
         Kick,
-        # WhatCulture,
+        WhatCulture,
         Paul,
         NBA,
-        # Wiz,
+        Wiz,
         Bruno,
         Katy,
         EminemMusic,
         Ariana,
-        web_dev_simplified,
+        freeCodeCamp,
+        Programming,
+        Devslopes,
+        howCode,
+        Fireship,
+        Coder,
+        Traversy,
+        devsmak,
+        Chris,
+        Aaron,
+        Archie,
+        Sol,
+        Pitchfork,
+        ANDREW,
+        EdTalenti,
+        Dexxter,
+        Sonic,
+        twelvetone,
+        WIRED,
+        Signals,
+        Jacob,
+        Jubilee,
+        # dummy users
+        random1,
+        random2,
+        random3,
+        random4,
+        random5,
+        random6,
+        random7,
+        random8,
+        random9,
+        random10,
+        random11,
+        random12,
+        random13,
+        random14,
     ]
     
     demo = Channel(
