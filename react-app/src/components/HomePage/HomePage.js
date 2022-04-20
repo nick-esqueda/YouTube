@@ -5,6 +5,7 @@ import { fetchHomeVideos } from '../../store/videos';
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 
 import './HomePage.css';
+import loadingWheel from '../../static/icons/loading-wheel.gif';
 
 export default function HomePage() {
     const dispatch = useDispatch();
@@ -63,7 +64,9 @@ export default function HomePage() {
                         </div>
                     </div>
                 ))}
+
             </div>
+            <img src={loadingWheel} alt='loading-wheel' style={{ width: '50px', height: '50px', margin: '10px 0 120px' }} />
         </div>
     )
 }
