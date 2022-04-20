@@ -6,9 +6,10 @@ import { useHistory, useParams } from 'react-router-dom';
 import './VideoForm.css';
 import addThumbnail from '../../static/icons/add-thumbnail.png';
 import uploadVideo from '../../static/icons/upload-video.png';
+import loadingWheel from '../../static/icons/loading-wheel.gif';
 import { createVideo, editVideo, fetchVideo } from '../../store/videos';
 
-export default function UploadVideoForm() {
+export default function VideoForm() {
     const { videoId } = useParams();
     const history = useHistory();
     const dispatch = useDispatch();
@@ -24,7 +25,7 @@ export default function UploadVideoForm() {
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
     const [videoUrl, setVideoUrl] = useState('');
-    const [thumbnailUrl, setThumbnailUrl] = useState(addThumbnail);
+    const [thumbnailUrl, setThumbnailUrl] = useState('');
     const [showErrors, setShowErrors] = useState(false);
     const [validationErrors, setValidationErrors] = useState([]);
 
@@ -54,14 +55,16 @@ export default function UploadVideoForm() {
 
     const s3Upload = async (file, type) => {
         if (!file) return console.log('upload a file first');
-        const formData = new FormData()
+        const formData = new FormData();
 
-        formData.append('file', file)
+        formData.append('file', file);
 
         if (type === "video") {
+            setVideoUrl(loadingWheel);
             const { data: url } = await axios.post("/api/s3/upload/video", formData);
             setVideoUrl(url);
         } else if (type === "image") {
+            setThumbnailUrl(loadingWheel);
             const { data: url } = await axios.post("/api/s3/upload/image", formData);
             setThumbnailUrl(url);
         }
@@ -191,9 +194,9 @@ export default function UploadVideoForm() {
                                 <>
                                     <div className='svg-wrapper' style={{ width: "32px" }}>
                                         <img
-                                            src={thumbnailUrl}
+                                            src={!thumbnailUrl ? addThumbnail : loadingWheel}
                                             alt="thumbnail-preview"
-                                            className="svg"
+                                            className={!thumbnailUrl ? "svg" : ""}
                                         />
                                     </div>
                                     <span className='subcount'>Upload Thumbnail</span>
@@ -213,7 +216,7 @@ export default function UploadVideoForm() {
 
                 <div className='right'>
                     <div className='video-preview-wrapper' style={validationErrors.includes('Please choose a video first before submitting') && showErrors ? { borderColor: 'var(--red)' } : {}}>
-                        {videoUrl
+                        {videoUrl.startsWith('https://')
                             ? (
                                 <iframe
                                     src={videoUrl ? videoUrl : uploadVideo}
@@ -227,9 +230,9 @@ export default function UploadVideoForm() {
                                 <div className='pointer' onClick={e => videoInputRef.current.click()}>
                                     <div className='svg-wrapper' style={{ height: "50px" }}>
                                         <img
-                                            src={uploadVideo}
+                                            src={!videoUrl ? uploadVideo : loadingWheel}
                                             alt="thumbnail-preview"
-                                            className="svg"
+                                            className={!videoUrl ? "svg" : ""}
                                             style={{ width: "40px", height: "40px" }}
                                         />
                                     </div>
