@@ -4,7 +4,7 @@ import { Link, Redirect } from 'react-router-dom';
 import { login } from '../../store/session';
 
 import './LoginSignup.css';
-import logo from '../../static/yt_logo_rgb_dark.png'
+import logo from '../../static/yt_logo_rgb_dark.png';
 
 const LoginForm = () => {
 	const [errors, setErrors] = useState([]);
@@ -54,7 +54,7 @@ const LoginForm = () => {
 				<input
 					name='email'
 					type='text'
-					placeholder='Email'
+					placeholder='Enter your email'
 					value={email}
 					onChange={updateEmail}
 					style={
@@ -70,7 +70,7 @@ const LoginForm = () => {
 				<input
 					name='password'
 					type='password'
-					placeholder='Password'
+					placeholder='Enter your password'
 					value={password}
 					onChange={updatePassword}
 					style={

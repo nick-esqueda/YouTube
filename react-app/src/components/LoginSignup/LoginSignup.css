@@ -1,9 +1,9 @@
-#login-page {
+#login-page, #signup-page {
     width: calc(100% - 72px);
     margin: 0 auto;
 }
 
-#login-form {
+#login-form, #signup-form {
     min-width: 300px;
     width: 40%;
     max-width: 560px;
@@ -19,10 +19,13 @@
     left: 50%;
     transform: translate(-50%, -55%);
 }
+#signup-form {
+    transform: translate(-50%, -50%);
+}
 
 
 /* INPUTS */
-#login-form input {
+#login-form input, #signup-form input {
     width: 100%;
     padding: 12px;
     margin: 16px 0 36px;
@@ -34,6 +37,6 @@
     outline: none;
     color: white;
 }
-#login-form input:focus {
+#login-form input:focus, #signup-form input:focus {
     border: 1px solid var(--blue);
 }
