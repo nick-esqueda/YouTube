@@ -5,6 +5,8 @@ import home from '../../static/icons/home.png';
 import explore from '../../static/icons/explore.png';
 import subscriptions from '../../static/icons/subscriptions.png';
 import library from '../../static/icons/library.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 
 export default function Navbar() {
@@ -16,12 +18,12 @@ export default function Navbar() {
                     Home
                 </div>
             </Link>
-            <Link to={`/`}>
+            {/* <Link to={`/`}>
                 <div className='svg-wrapper disabled'>
                     <img src={explore} alt='apps-menu' className='svg' />
                     Explore
                 </div>
-            </Link>
+            </Link> */}
             {/* <Link to={`/`}>
                 <div className='svg-wrapper disabled'>
                     <img src={subscriptions} alt='bell-icon' className='svg' />
@@ -34,6 +36,14 @@ export default function Navbar() {
                     Library
                 </div>
             </Link> */}
+            <a href='https://github.com/nick-esqueda/YouTube' target="_blank" rel="noreferrer">
+                <FontAwesomeIcon icon={faGithub} className='link-logo' style={{ fontSize: '24px', color: 'var(--gray-light)', marginBottom: '6px' }} />
+                GitHub
+            </a>
+            <a href='https://www.linkedin.com/in/nick-esqueda/' target="_blank" rel="noreferrer">
+                <FontAwesomeIcon icon={faLinkedin} className='link-logo' style={{ fontSize: '24px', color: 'var(--gray-light)', marginBottom: '6px' }} />
+                LinkedIn
+            </a>
         </nav>
     )
 }
