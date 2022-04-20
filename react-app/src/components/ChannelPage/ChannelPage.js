@@ -31,7 +31,7 @@ export default function ChannelPage() {
 			<div id='channel-header'>
 				{!channel.bannerImageUrl ? null : (
 					<div id='channel-banner'>
-						<img src={channel.bannerImageUrl} alt="banner" />
+						<img src={channel.bannerImageUrl} onError={() => document.getElementById('channel-banner').remove()} alt="banner" />
 					</div>
 				)}
 
