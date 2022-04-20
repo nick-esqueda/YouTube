@@ -32,9 +32,10 @@ body {
 }
 
 /* TEMPORARY: TO PREVENT NAVBAR OVERLAPPING OTHER ELEMENTS  */
-#root > *:not(header):not(nav#nav) {
+#root > *:not(header):not(nav#nav):not(#video-page) {
     margin-left: 72px;
-    padding-right: 72px;
+    /* padding-right: 72px; */
+    /* ^ instead of using this padding, use "calc(100% - 72px)" instead */
 }
 
 #root {
@@ -74,6 +75,10 @@ button {
     white-space: nowrap;
 }
 
+p {
+    line-height: 20px;
+}
+
 
 /* FOR SPECIFIC ELEMENTS */
 .svg {
@@ -94,6 +99,16 @@ span.subcount {
 
 .active {
     color: red;
+}
+
+.link {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--blue);
+}
+
+.character-count {
+    color: var(--gray-light);
 }
 
 
@@ -146,6 +161,13 @@ span.subcount {
 }
 
 /* FLEX COLUMN */
+.col-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .col-top {
     display: flex;
     flex-direction: column;
@@ -162,6 +184,12 @@ span.subcount {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.col-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .col-space-between {
@@ -272,6 +300,10 @@ span.subcount {
     cursor: not-allowed;
 }
 
+.red-outline {
+    border: 1px solid var(--red);
+}
+
 
 /* BUTTONS **********************************/
 .btn {
@@ -279,6 +311,7 @@ span.subcount {
     
     font-size: 14px;
     font-weight: 500;
+    color: var(--gray-light);
     border-radius: 2px;
     letter-spacing: .5px;
     text-transform: uppercase;
@@ -290,7 +323,7 @@ span.subcount {
 
 .btn--blue {
     background-color: var(--blue);
-    color: var(--black)
+    color: var(--black);
 }
 
 .btn--blue-outline {
@@ -301,4 +334,9 @@ span.subcount {
 .btn--red {
     background-color: var(--red-btn);
     color: var(--white)
+}
+
+.btn--red-outline {
+    border: 1px solid var(--red);
+    color: var(--red);
 }

@@ -1,0 +1,50 @@
+.comment-container {
+    width: 100%;
+    min-height: 50px;
+    margin: 8px 0;
+    position: relative;
+}
+/* PROF IMG **********************/
+.comment-profile-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+
+.comment-body {
+    width: 100%;
+    padding: 0 10px;
+    
+    font-size: 13px;
+    
+    position: relative;
+}
+
+
+.comment-channel-name {
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+.comment-time-elapsed {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--gray-light);
+}
+.comment-content {
+    font-size: 14px;
+    padding: 0 0 10px;
+}
+
+
+/* DROPDOWN *********************/
+#comment-dropdown {
+    width: 120px;
+    
+    background-color: rgb(33, 33, 33);
+    
+    position: absolute;
+    top: 36px; right: 0;
+    z-index: 10;
+}

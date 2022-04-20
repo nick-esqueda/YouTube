@@ -11,12 +11,15 @@ class Channel(db.Model, UserMixin):
     channelName = db.Column(db.String(50), nullable=False, unique=True)
     profileImageUrl = db.Column(db.String(255), nullable=False)
     bannerImageUrl = db.Column(db.String(255), nullable=True)
+    channelTrailerId= db.Column(db.String(100), nullable=True)
     about = db.Column(db.String(5000), nullable=True)
     email = db.Column(db.String(150), nullable=False, unique=True)
     hashedPassword = db.Column(db.String(255), nullable=False)
     createdAt = db.Column(db.DateTime(timezone=True), server_default=func.now(), nullable=False)
     updatedAt = db.Column(db.DateTime(timezone=True), server_onupdate=func.now(), server_default=func.now())
-
+    
+    videos = db.relationship('Video', back_populates='channel', cascade="all, delete")
+    comments = db.relationship('Comment', back_populates='channel', cascade="all, delete")
 
     @property
     def password(self):
@@ -37,5 +40,17 @@ class Channel(db.Model, UserMixin):
             'bannerImageUrl': self.bannerImageUrl,
             'about': self.about,
             'email': self.email,
-            'createdAt': self.createdAt
+            'createdAt': self.createdAt,
+            'videos': [video.to_dict_channel() for video in self.videos]
+        }
+        
+    def to_dict_lite(self):
+        return {
+            'id': self.id,
+            'channelName': self.channelName,
+            'profileImageUrl': self.profileImageUrl,
+            'bannerImageUrl': self.bannerImageUrl,
+            'about': self.about,
+            'email': self.email,
+            'createdAt': self.createdAt,
         }
