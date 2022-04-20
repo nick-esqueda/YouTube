@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { Link, Redirect } from 'react-router-dom';
 import { login } from '../../store/session';
 
-import './LoginPage.css';
+import './LoginSignup.css';
 import logo from '../../static/yt_logo_rgb_dark.png'
 
 const LoginForm = () => {

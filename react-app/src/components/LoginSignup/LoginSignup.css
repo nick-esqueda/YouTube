@@ -12,12 +12,12 @@
     border: 1px solid var(--gray-dark);
     
     background-color: var(--gray-darkest);
-    box-shadow: 4px 6px 16px 16px #21212129;
+    box-shadow: 4px 6px 16px 16px #26262629;
     
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -55%);
 }
 
 
