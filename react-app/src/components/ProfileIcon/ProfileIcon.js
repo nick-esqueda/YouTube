@@ -96,12 +96,12 @@ export default function ProfileIcon({ channel, isNav }) {
                             </div>
                             Your Channel
                         </div>
-                        <div onClick={linkToSettings}>
+                        {/* <div onClick={linkToSettings}>
                             <div className='svg-wrapper'>
                                 <img src={settingsIcon} alt="settings" className='svg' />
                             </div>
                             Customize Channel
-                        </div>
+                        </div> */}
                         <div onClick={logoutUser}>
                             <div className='svg-wrapper'>
                                 <img src={logoutIcon} alt="logout" className='svg' />
