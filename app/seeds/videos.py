@@ -11573,217 +11573,217 @@ def seed_videos():
 
 
 
-    c93b3131c3063a48f622339d9d8c4e9a = Video(channelId="55", title='''10 Things WWE Wants You To Forget About WrestleMania 38''', description='''WWE WrestleMania 38. Featuring: Botches! Burials! THE WORST STUNNER EVER! Annnnnnd...it's gone.
+#     c93b3131c3063a48f622339d9d8c4e9a = Video(channelId="55", title='''10 Things WWE Wants You To Forget About WrestleMania 38''', description='''WWE WrestleMania 38. Featuring: Botches! Burials! THE WORST STUNNER EVER! Annnnnnd...it's gone.
 
-    For more awesome content, check out: http://whatculture.com/wwe 
-    Listen to our free podcasts: http://www.whatculture.com/wrestleculture 
+#     For more awesome content, check out: http://whatculture.com/wwe 
+#     Listen to our free podcasts: http://www.whatculture.com/wrestleculture 
 
-    Follow us! 
-    Facebook: https://www.facebook.com/whatculturewwe 
-    Twitter: https://www.twitter.com/whatculturewwe 
-    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="yYHkeSY56Nw", thumbnailUrl="https://i.ytimg.com/vi/yYHkeSY56Nw/hqdefault.jpg", createdAt="2022-04-14T21:30:09Z")
+#     Follow us! 
+#     Facebook: https://www.facebook.com/whatculturewwe 
+#     Twitter: https://www.twitter.com/whatculturewwe 
+#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="yYHkeSY56Nw", thumbnailUrl="https://i.ytimg.com/vi/yYHkeSY56Nw/hqdefault.jpg", createdAt="2022-04-14T21:30:09Z")
 
 
 
-    c687f1558710fa46afe21e518a7e6555 = Video(channelId="55", title='''Ups & Downs From AEW Dynamite (Apr 13)''', description='''Our AEW Dynamite review as Simon Miller talks about Samoa Joe vs Minoru Suzuki, CM Punk vs Penta Oscuro, Jungle Express vs ReDRagon, Chris Jericho, Jake Hagar and Daniel Garcia vs Eddie Kingston, Santana and Ortiz, Keith Lee and Swerve Strickland vs Ricky Starks and Powerhouse Hobbs, MJF and Wardlow and more. 
+#     c687f1558710fa46afe21e518a7e6555 = Video(channelId="55", title='''Ups & Downs From AEW Dynamite (Apr 13)''', description='''Our AEW Dynamite review as Simon Miller talks about Samoa Joe vs Minoru Suzuki, CM Punk vs Penta Oscuro, Jungle Express vs ReDRagon, Chris Jericho, Jake Hagar and Daniel Garcia vs Eddie Kingston, Santana and Ortiz, Keith Lee and Swerve Strickland vs Ricky Starks and Powerhouse Hobbs, MJF and Wardlow and more. 
 
-    For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
-    Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
+#     For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
+#     Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
 
-    Follow us!
-    Facebook: https://www.facebook.com/whatculturewwe 
-    Twitter: https://twitter.com/whatculturewwe 
-    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="9PnmNwVJBEo", thumbnailUrl="https://i.ytimg.com/vi/9PnmNwVJBEo/maxresdefault.jpg", createdAt="2022-04-14T13:39:16Z")
+#     Follow us!
+#     Facebook: https://www.facebook.com/whatculturewwe 
+#     Twitter: https://twitter.com/whatculturewwe 
+#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="9PnmNwVJBEo", thumbnailUrl="https://i.ytimg.com/vi/9PnmNwVJBEo/maxresdefault.jpg", createdAt="2022-04-14T13:39:16Z")
 
 
 
-    c4dbfaad625449f4627b3b1dc7e203b5 = Video(channelId="55", title='''7ft3 GIANT Debuts, Title Change AEW Dynamite''', description='''In Today's #AEW & #WWE Wrestling News:
+#     c4dbfaad625449f4627b3b1dc7e203b5 = Video(channelId="55", title='''7ft3 GIANT Debuts, Title Change AEW Dynamite''', description='''In Today's #AEW & #WWE Wrestling News:
 
-    0:00 Roundup
-    00:54 7ft3 GIANT Debuts On AEW Dynamite
-    05:19 Title Change On AEW Dynamite
-    07:27 Big AEW Video Game Update: Release Date Revealed?!
-    09:12 WWE's UK Stadium Show Is In HUGE Demand
-    10:58 Twitter Questions
+#     0:00 Roundup
+#     00:54 7ft3 GIANT Debuts On AEW Dynamite
+#     05:19 Title Change On AEW Dynamite
+#     07:27 Big AEW Video Game Update: Release Date Revealed?!
+#     09:12 WWE's UK Stadium Show Is In HUGE Demand
+#     10:58 Twitter Questions
 
-    For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
-    Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
+#     For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
+#     Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
 
-    Follow us!
-    Facebook: https://www.facebook.com/whatculturewwe 
-    Twitter: https://twitter.com/whatculturewwe 
-    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="KHZGh1rghW8", thumbnailUrl="https://i.ytimg.com/vi/KHZGh1rghW8/maxresdefault.jpg", createdAt="2022-04-14T10:49:58Z")
+#     Follow us!
+#     Facebook: https://www.facebook.com/whatculturewwe 
+#     Twitter: https://twitter.com/whatculturewwe 
+#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="KHZGh1rghW8", thumbnailUrl="https://i.ytimg.com/vi/KHZGh1rghW8/maxresdefault.jpg", createdAt="2022-04-14T10:49:58Z")
 
 
 
-    ccfe5e93cf8c2330957b8be2664d2d5e = Video(channelId="55", title='''10 Wrestlers Who Lost Touch With Humanity''', description='''On this day, we grow weary, starring Mad Edge, Bad Cody Rhodes and Sad Seth Rollins.
+#     ccfe5e93cf8c2330957b8be2664d2d5e = Video(channelId="55", title='''10 Wrestlers Who Lost Touch With Humanity''', description='''On this day, we grow weary, starring Mad Edge, Bad Cody Rhodes and Sad Seth Rollins.
 
-    For more awesome content, check out: http://whatculture.com/wwe 
-    Listen to our free podcasts: http://www.whatculture.com/wrestleculture 
+#     For more awesome content, check out: http://whatculture.com/wwe 
+#     Listen to our free podcasts: http://www.whatculture.com/wrestleculture 
 
-    Follow us! 
-    Facebook: https://www.facebook.com/whatculturewwe 
-    Twitter: https://www.twitter.com/whatculturewwe 
-    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="PE4ajp4PeLA", thumbnailUrl="https://i.ytimg.com/vi/PE4ajp4PeLA/hqdefault.jpg", createdAt="2022-04-13T19:15:01Z")
+#     Follow us! 
+#     Facebook: https://www.facebook.com/whatculturewwe 
+#     Twitter: https://www.twitter.com/whatculturewwe 
+#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="PE4ajp4PeLA", thumbnailUrl="https://i.ytimg.com/vi/PE4ajp4PeLA/hqdefault.jpg", createdAt="2022-04-13T19:15:01Z")
 
 
 
-    c40b71355e561564f66821bf7cd506de = Video(channelId="55", title='''AEW's Danhausen - Why He Can't Curse Hook, How The Curse Works, Wants To Own ROH, Hires Simon Miller''', description='''AEW's Danhausen talks about how his curse works, why he can't curse Hook, wanting to own ROH and wanting Britt Baker to give him teeth, then he hires Simon Miller and steals his money.
+#     c40b71355e561564f66821bf7cd506de = Video(channelId="55", title='''AEW's Danhausen - Why He Can't Curse Hook, How The Curse Works, Wants To Own ROH, Hires Simon Miller''', description='''AEW's Danhausen talks about how his curse works, why he can't curse Hook, wanting to own ROH and wanting Britt Baker to give him teeth, then he hires Simon Miller and steals his money.
 
-    For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
-    Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
+#     For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
+#     Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
 
-    Follow us!
-    Facebook: https://www.facebook.com/whatculturewwe 
-    Twitter: https://twitter.com/whatculturewwe 
-    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="4yKqg8fe_aE", thumbnailUrl="https://i.ytimg.com/vi/4yKqg8fe_aE/maxresdefault.jpg", createdAt="2022-04-13T16:03:59Z")
+#     Follow us!
+#     Facebook: https://www.facebook.com/whatculturewwe 
+#     Twitter: https://twitter.com/whatculturewwe 
+#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="4yKqg8fe_aE", thumbnailUrl="https://i.ytimg.com/vi/4yKqg8fe_aE/maxresdefault.jpg", createdAt="2022-04-13T16:03:59Z")
 
 
 
-    ce429cce63ddb03eb3b787aaa28fad04 = Video(channelId="55", title='''Kurt Angle Has Offers From Both WWE And AEW, Being Better In IMPACT Than WWE, Samoa Joe & More''', description='''Simon Miller talks to Kurt Angle at Wrestlecon about receiving offers from both AEW and WWE, What it will take for him to return, his IMPACT run being better than his WWE one, the differences between today's wrestlers and the past, creating the Kurt Angle character, being funny vs being serious, Samoa Joe returning to ROH and AEW, AJ Styles and more. 
+#     ce429cce63ddb03eb3b787aaa28fad04 = Video(channelId="55", title='''Kurt Angle Has Offers From Both WWE And AEW, Being Better In IMPACT Than WWE, Samoa Joe & More''', description='''Simon Miller talks to Kurt Angle at Wrestlecon about receiving offers from both AEW and WWE, What it will take for him to return, his IMPACT run being better than his WWE one, the differences between today's wrestlers and the past, creating the Kurt Angle character, being funny vs being serious, Samoa Joe returning to ROH and AEW, AJ Styles and more. 
 
-    For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
-    Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
+#     For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
+#     Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
 
-    Follow us!
-    Facebook: https://www.facebook.com/whatculturewwe 
-    Twitter: https://twitter.com/whatculturewwe 
-    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="YHgW_HqdCIg", thumbnailUrl="https://i.ytimg.com/vi/YHgW_HqdCIg/maxresdefault.jpg", createdAt="2022-04-13T13:43:28Z")
+#     Follow us!
+#     Facebook: https://www.facebook.com/whatculturewwe 
+#     Twitter: https://twitter.com/whatculturewwe 
+#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="YHgW_HqdCIg", thumbnailUrl="https://i.ytimg.com/vi/YHgW_HqdCIg/maxresdefault.jpg", createdAt="2022-04-13T13:43:28Z")
 
 
 
-    c1710aa1ab26f56e1363dd1623bf7dff = Video(channelId="55", title='''What WWE Really Thinks Of Cody Rhodes''', description='''Today's wrestling news:
-    0:00 Intro
-    0:28 Who Do WWE Class As Their Top Heels and Faces?
-    3:10 WWE Stacking Money In The Bank card?
-    4:44 New NXT 2.0 Tag Team Champions Crowned
-    8:00 Young Rock Teases Roman Reigns vs The Rock At WrestleMania
-    9:58 Twitter Questions
-    16:06 And Finally...
+#     c1710aa1ab26f56e1363dd1623bf7dff = Video(channelId="55", title='''What WWE Really Thinks Of Cody Rhodes''', description='''Today's wrestling news:
+#     0:00 Intro
+#     0:28 Who Do WWE Class As Their Top Heels and Faces?
+#     3:10 WWE Stacking Money In The Bank card?
+#     4:44 New NXT 2.0 Tag Team Champions Crowned
+#     8:00 Young Rock Teases Roman Reigns vs The Rock At WrestleMania
+#     9:58 Twitter Questions
+#     16:06 And Finally...
 
-    For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
-    Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
+#     For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
+#     Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
 
-    Follow us!
-    Facebook: https://www.facebook.com/whatculturewwe 
-    Twitter: https://twitter.com/whatculturewwe 
-    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="tDO_FUZJQSg", thumbnailUrl="https://i.ytimg.com/vi/tDO_FUZJQSg/hqdefault.jpg", createdAt="2022-04-13T09:33:19Z")
+#     Follow us!
+#     Facebook: https://www.facebook.com/whatculturewwe 
+#     Twitter: https://twitter.com/whatculturewwe 
+#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="tDO_FUZJQSg", thumbnailUrl="https://i.ytimg.com/vi/tDO_FUZJQSg/hqdefault.jpg", createdAt="2022-04-13T09:33:19Z")
 
 
 
-    c9123a3737897db50af638ae17606dc2 = Video(channelId="55", title='''10 AEW Stars Who Desperately Need New Gimmicks''', description='''Penta Oscuro, Kris Statlander, and other AEW wrestlers in need of a character tweak...
+#     c9123a3737897db50af638ae17606dc2 = Video(channelId="55", title='''10 AEW Stars Who Desperately Need New Gimmicks''', description='''Penta Oscuro, Kris Statlander, and other AEW wrestlers in need of a character tweak...
 
-    For more awesome content, check out: http://whatculture.com/wwe 
-    Listen to our free podcasts: http://www.whatculture.com/wrestleculture 
+#     For more awesome content, check out: http://whatculture.com/wwe 
+#     Listen to our free podcasts: http://www.whatculture.com/wrestleculture 
 
-    Follow us! 
-    Facebook: https://www.facebook.com/whatculturewwe 
-    Twitter: https://www.twitter.com/whatculturewwe 
-    Instagram: https://www.instagram.com/whatculturewrestling
+#     Follow us! 
+#     Facebook: https://www.facebook.com/whatculturewwe 
+#     Twitter: https://www.twitter.com/whatculturewwe 
+#     Instagram: https://www.instagram.com/whatculturewrestling
 
-    #AEW''', videoUrl="KYaIVRDBQX8", thumbnailUrl="https://i.ytimg.com/vi/KYaIVRDBQX8/maxresdefault.jpg", createdAt="2022-04-12T18:45:00Z")
+#     #AEW''', videoUrl="KYaIVRDBQX8", thumbnailUrl="https://i.ytimg.com/vi/KYaIVRDBQX8/maxresdefault.jpg", createdAt="2022-04-12T18:45:00Z")
 
 
 
-    c6f31cb983cffbb489c9f66a237ef8ad = Video(channelId="55", title='''We Tried To Interview WWE's Street Profits But Montez Ford Had Other Ideas''', description='''Adam Wilbourn tried to interview the Street Profits at Walemania before WWE WrestleMania 38 but it didn't go very well. Montez Ford just wanted to steal his shirt.
+#     c6f31cb983cffbb489c9f66a237ef8ad = Video(channelId="55", title='''We Tried To Interview WWE's Street Profits But Montez Ford Had Other Ideas''', description='''Adam Wilbourn tried to interview the Street Profits at Walemania before WWE WrestleMania 38 but it didn't go very well. Montez Ford just wanted to steal his shirt.
 
-    For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
-    Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
+#     For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
+#     Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
 
-    Follow us!
-    Facebook: https://www.facebook.com/whatculturewwe 
-    Twitter: https://twitter.com/whatculturewwe 
-    Instagram: https://www.instagram.com/whatculturewrestling
+#     Follow us!
+#     Facebook: https://www.facebook.com/whatculturewwe 
+#     Twitter: https://twitter.com/whatculturewwe 
+#     Instagram: https://www.instagram.com/whatculturewrestling
 
-    #wwe''', videoUrl="gsvgwpw0Tuc", thumbnailUrl="https://i.ytimg.com/vi/gsvgwpw0Tuc/maxresdefault.jpg", createdAt="2022-04-12T15:30:13Z")
+#     #wwe''', videoUrl="gsvgwpw0Tuc", thumbnailUrl="https://i.ytimg.com/vi/gsvgwpw0Tuc/maxresdefault.jpg", createdAt="2022-04-12T15:30:13Z")
 
 
 
-    c206f2fb1d364c43a094a5a208dcab59 = Video(channelId="55", title='''Ups & DownsFrom WWE Raw (Apr 11)''', description='''Our WWE Raw review as Simon Miller talks about Cody Rhodes vs The Miz, Veer vs Dominic Mysterio, AJ Styles vs Damien Priest, Naomi vs Liv Morgan, Sonya Deville attacking Bianca Belair, RK-Bro vs Alpha Academy, Usos vs Street Profits and much more. 
+#     c206f2fb1d364c43a094a5a208dcab59 = Video(channelId="55", title='''Ups & DownsFrom WWE Raw (Apr 11)''', description='''Our WWE Raw review as Simon Miller talks about Cody Rhodes vs The Miz, Veer vs Dominic Mysterio, AJ Styles vs Damien Priest, Naomi vs Liv Morgan, Sonya Deville attacking Bianca Belair, RK-Bro vs Alpha Academy, Usos vs Street Profits and much more. 
 
-    For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
-    Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
+#     For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
+#     Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
 
-    Follow us!
-    Facebook: https://www.facebook.com/whatculturewwe 
-    Twitter: https://twitter.com/whatculturewwe 
-    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="4b6i9cn7kyk", thumbnailUrl="https://i.ytimg.com/vi/4b6i9cn7kyk/hqdefault.jpg", createdAt="2022-04-12T13:00:05Z")
+#     Follow us!
+#     Facebook: https://www.facebook.com/whatculturewwe 
+#     Twitter: https://twitter.com/whatculturewwe 
+#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="4b6i9cn7kyk", thumbnailUrl="https://i.ytimg.com/vi/4b6i9cn7kyk/hqdefault.jpg", createdAt="2022-04-12T13:00:05Z")
 
 
 
-    c5c980892a1e9f8ecb3fbfd105212c47 = Video(channelId="55", title='''Secret Reddit Theory Claims Cesaro Has Debuted In AEW Already (And You Didn’t Notice)''', description='''In Today's #WWE & #AEW Wrestling News:
+#     c5c980892a1e9f8ecb3fbfd105212c47 = Video(channelId="55", title='''Secret Reddit Theory Claims Cesaro Has Debuted In AEW Already (And You Didn’t Notice)''', description='''In Today's #WWE & #AEW Wrestling News:
 
-    0:00 Roundup
-    00:36 Reddit Theory Claims Cesaro Has Debuted In AEW Already
-    03:47 Real Reason Behind Gunther's Incredible WWE Body Transformation
-    06:40 New AEW Signing Confirmed
-    09:25 Raw Star Undergoes Name Change
-    11:02 Twitter Questions
+#     0:00 Roundup
+#     00:36 Reddit Theory Claims Cesaro Has Debuted In AEW Already
+#     03:47 Real Reason Behind Gunther's Incredible WWE Body Transformation
+#     06:40 New AEW Signing Confirmed
+#     09:25 Raw Star Undergoes Name Change
+#     11:02 Twitter Questions
 
-    For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
-    Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
+#     For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
+#     Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
 
-    Follow us!
-    Facebook: https://www.facebook.com/whatculturewwe 
-    Twitter: https://twitter.com/whatculturewwe 
-    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="puvssDDjjx8", thumbnailUrl="https://i.ytimg.com/vi/puvssDDjjx8/hqdefault.jpg", createdAt="2022-04-12T10:29:49Z")
+#     Follow us!
+#     Facebook: https://www.facebook.com/whatculturewwe 
+#     Twitter: https://twitter.com/whatculturewwe 
+#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="puvssDDjjx8", thumbnailUrl="https://i.ytimg.com/vi/puvssDDjjx8/hqdefault.jpg", createdAt="2022-04-12T10:29:49Z")
 
 
 
-    c762def0d79d4ec3e996ef705152a612 = Video(channelId="55", title='''10 Times WWE Leaked Top Secret Information''', description='''Featuring damning rehearsals, bizarre company guidelines and the Undertaker breaking character. These are 10 times that WWE leaked top secret information.
+#     c762def0d79d4ec3e996ef705152a612 = Video(channelId="55", title='''10 Times WWE Leaked Top Secret Information''', description='''Featuring damning rehearsals, bizarre company guidelines and the Undertaker breaking character. These are 10 times that WWE leaked top secret information.
 
-    For more awesome content, check out: http://whatculture.com/wwe 
-    Listen to our free podcasts: http://www.whatculture.com/wrestleculture 
+#     For more awesome content, check out: http://whatculture.com/wwe 
+#     Listen to our free podcasts: http://www.whatculture.com/wrestleculture 
 
-    Follow us! 
-    Facebook: https://www.facebook.com/whatculturewwe 
-    Twitter: https://www.twitter.com/whatculturewwe 
-    Instagram: https://www.instagram.com/whatculturewrestling
+#     Follow us! 
+#     Facebook: https://www.facebook.com/whatculturewwe 
+#     Twitter: https://www.twitter.com/whatculturewwe 
+#     Instagram: https://www.instagram.com/whatculturewrestling
 
-    #WWE''', videoUrl="P4LKBw0RSNE", thumbnailUrl="https://i.ytimg.com/vi/P4LKBw0RSNE/hqdefault.jpg", createdAt="2022-04-11T20:00:11Z")
+#     #WWE''', videoUrl="P4LKBw0RSNE", thumbnailUrl="https://i.ytimg.com/vi/P4LKBw0RSNE/hqdefault.jpg", createdAt="2022-04-11T20:00:11Z")
 
 
 
-    c7964318a4996f2c75fa138651bf202e = Video(channelId="55", title='''How Roman Reigns Should Lose His WWE Unified Title''', description='''Simon Miller is back from WrestleMania 38 week with his take on how WWE should play out Roman Reigns' future. 
+#     c7964318a4996f2c75fa138651bf202e = Video(channelId="55", title='''How Roman Reigns Should Lose His WWE Unified Title''', description='''Simon Miller is back from WrestleMania 38 week with his take on how WWE should play out Roman Reigns' future. 
 
-    For more awesome content, check out: http://whatculture.com/wwe 
-    Listen to our free podcasts: http://www.whatculture.com/wrestleculture 
+#     For more awesome content, check out: http://whatculture.com/wwe 
+#     Listen to our free podcasts: http://www.whatculture.com/wrestleculture 
 
-    Follow us! 
-    Facebook: https://www.facebook.com/whatculturewwe 
-    Twitter: https://www.twitter.com/whatculturewwe 
-    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="6gX71nhiSQA", thumbnailUrl="https://i.ytimg.com/vi/6gX71nhiSQA/hqdefault.jpg", createdAt="2022-04-11T17:58:16Z")
+#     Follow us! 
+#     Facebook: https://www.facebook.com/whatculturewwe 
+#     Twitter: https://www.twitter.com/whatculturewwe 
+#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="6gX71nhiSQA", thumbnailUrl="https://i.ytimg.com/vi/6gX71nhiSQA/hqdefault.jpg", createdAt="2022-04-11T17:58:16Z")
 
 
 
-    c700b6d1ff9c05d68e918912e44a8e33 = Video(channelId="55", title='''Matt Cardona Gets Pissed At Us For Wanting An Interview''', description='''Simon Miller tried to interview Matt Cardona at Wrestlecon but it didn't go well.
+#     c700b6d1ff9c05d68e918912e44a8e33 = Video(channelId="55", title='''Matt Cardona Gets Pissed At Us For Wanting An Interview''', description='''Simon Miller tried to interview Matt Cardona at Wrestlecon but it didn't go well.
 
-    For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
-    Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
+#     For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
+#     Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
 
-    Follow us!
-    Facebook: https://www.facebook.com/whatculturewwe 
-    Twitter: https://twitter.com/whatculturewwe 
-    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="ge4kz5u1EPw", thumbnailUrl="https://i.ytimg.com/vi/ge4kz5u1EPw/maxresdefault.jpg", createdAt="2022-04-11T13:30:08Z")
+#     Follow us!
+#     Facebook: https://www.facebook.com/whatculturewwe 
+#     Twitter: https://twitter.com/whatculturewwe 
+#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="ge4kz5u1EPw", thumbnailUrl="https://i.ytimg.com/vi/ge4kz5u1EPw/maxresdefault.jpg", createdAt="2022-04-11T13:30:08Z")
 
 
 
-    cd069248d97c94689966331729a67fcc = Video(channelId="55", title='''Cesaro To AEW Teased, Former Wrestler In Secret WWE Talks''', description='''All of today's wrestling news including:
+#     cd069248d97c94689966331729a67fcc = Video(channelId="55", title='''Cesaro To AEW Teased, Former Wrestler In Secret WWE Talks''', description='''All of today's wrestling news including:
 
-    Intro (0:00)
-    Backstage Secrets Behind Cody Rhodes’ First Week Back In WWE (0:25)
-    AEW’s Mark Henry Teases “Cesaro Sighting” (5:33)
-    Adam Scherr Accuses AEW’s Tony Khan Of “Paying Dirt Sheets” (7:53)
-    Several Wrestlers No-Show GCW ‘Devil In A New Dress’ Show (12:01)
-    Twitter Questions (13:29)
+#     Intro (0:00)
+#     Backstage Secrets Behind Cody Rhodes’ First Week Back In WWE (0:25)
+#     AEW’s Mark Henry Teases “Cesaro Sighting” (5:33)
+#     Adam Scherr Accuses AEW’s Tony Khan Of “Paying Dirt Sheets” (7:53)
+#     Several Wrestlers No-Show GCW ‘Devil In A New Dress’ Show (12:01)
+#     Twitter Questions (13:29)
 
-    For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
-    Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
+#     For more awesome WWE, AEW and other wrestling content check out: https://whatculture.com/wwe
+#     Listen to our daily wrestling PODCASTS: https://whatculture.com/wrestleculture 
 
-    Follow us!
-    Facebook: https://www.facebook.com/whatculturewwe 
-    Twitter: https://twitter.com/whatculturewwe 
-    Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="k7OJH3o0J9A", thumbnailUrl="https://i.ytimg.com/vi/k7OJH3o0J9A/hqdefault.jpg", createdAt="2022-04-11T11:15:01Z")
+#     Follow us!
+#     Facebook: https://www.facebook.com/whatculturewwe 
+#     Twitter: https://twitter.com/whatculturewwe 
+#     Instagram: https://www.instagram.com/whatculturewrestling''', videoUrl="k7OJH3o0J9A", thumbnailUrl="https://i.ytimg.com/vi/k7OJH3o0J9A/hqdefault.jpg", createdAt="2022-04-11T11:15:01Z")
 
 
 
@@ -12279,1152 +12279,1152 @@ def seed_videos():
 
 
 
-    c29ca780b616258f6a4e1436c26db30a = Video(channelId="52", title='''The Hamlet Factory: Famlet | adult swim smalls''', description='''The gang discuss the ups and downs of eternally writing Hamlet.
+#     c29ca780b616258f6a4e1436c26db30a = Video(channelId="52", title='''The Hamlet Factory: Famlet | adult swim smalls''', description='''The gang discuss the ups and downs of eternally writing Hamlet.
     
-    Co-created by Phil Jamesson and Jeremy Kaplowitz
-    Art and animation by Jackie Gorman
-    VO by Jeremy Kaplowitz, Phil Jamesson, Natalie Walker
+#     Co-created by Phil Jamesson and Jeremy Kaplowitz
+#     Art and animation by Jackie Gorman
+#     VO by Jeremy Kaplowitz, Phil Jamesson, Natalie Walker
     
-    Jeremy and Phil are comedians and writers in NYC who created The Hamlet Factory. They've worked together so much that they now finish each other’s sentences. Both of them wrote this so it looks less impressive, but trust us, it was very cool. Anyway, how are you?
+#     Jeremy and Phil are comedians and writers in NYC who created The Hamlet Factory. They've worked together so much that they now finish each other’s sentences. Both of them wrote this so it looks less impressive, but trust us, it was very cool. Anyway, how are you?
     
-    Jackie Gorman is an LA-based design artist and animator, originally from Maui, Hawai’i. She loves working with a variety of mediums, her most recent interest being needle felt.
+#     Jackie Gorman is an LA-based design artist and animator, originally from Maui, Hawai’i. She loves working with a variety of mediums, her most recent interest being needle felt.
 
-    Follow Jeremy on Instagram: https://www.instagram.com/lizardpeopleny/
-    Follow Phil on Instagram: https://www.instagram.com/philjamesson/ 
+#     Follow Jeremy on Instagram: https://www.instagram.com/lizardpeopleny/
+#     Follow Phil on Instagram: https://www.instagram.com/philjamesson/ 
 
-    #AdultSwim #AdultSwimSmalls​
+#     #AdultSwim #AdultSwimSmalls​
 
-    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-    Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
+#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
 
-    About Adult Swim:
-    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+#     About Adult Swim:
+#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-    Connect with Adult Swim Online:
-    Download the APPS: http://www.adultswim.com/apps/
-    Visit Adult Swim WEBSITE: http://www.adultswim.com 
-    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+#     Connect with Adult Swim Online:
+#     Download the APPS: http://www.adultswim.com/apps/
+#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
+#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-    Watch Adult Swim in your country:
-    United Kingdom: https://bit.ly/AS_UK
-    Republic of Ireland: https://bit.ly/AS_UK
-    France: https://bit.ly/AS_FR
-    Spain: https://bit.ly/AS_SPA
-    Germany: https://bit.ly/AS_GE
-    Sweden: https://bit.ly/AS_NORDIC
-    Norway: https://bit.ly/AS_NORDIC
-    Denmark: https://bit.ly/AS_NORDIC
-    Finland: https://bit.ly/AS_NORDIC
-    South Africa: https://bit.ly/AS_SA
+#     Watch Adult Swim in your country:
+#     United Kingdom: https://bit.ly/AS_UK
+#     Republic of Ireland: https://bit.ly/AS_UK
+#     France: https://bit.ly/AS_FR
+#     Spain: https://bit.ly/AS_SPA
+#     Germany: https://bit.ly/AS_GE
+#     Sweden: https://bit.ly/AS_NORDIC
+#     Norway: https://bit.ly/AS_NORDIC
+#     Denmark: https://bit.ly/AS_NORDIC
+#     Finland: https://bit.ly/AS_NORDIC
+#     South Africa: https://bit.ly/AS_SA
 
-    The Hamlet Factory: Famlet | adult swim smalls''', videoUrl="IkLeto3RZrk", thumbnailUrl="https://i.ytimg.com/vi/IkLeto3RZrk/hqdefault.jpg", createdAt="2022-04-15T00:00:04Z")
+#     The Hamlet Factory: Famlet | adult swim smalls''', videoUrl="IkLeto3RZrk", thumbnailUrl="https://i.ytimg.com/vi/IkLeto3RZrk/hqdefault.jpg", createdAt="2022-04-15T00:00:04Z")
 
 
 
-    c2873da67663940852bbe18e89c3134e = Video(channelId="52", title='''Eric Overdoses on WaitMate | Tim and Eric Awesome Show, Great Job! | adult swim''', description='''In his excitement for Tim's birthday party, Eric overdoses on a wonder drug promoted by Jeff Goldblum called "WaitMate". Watch more Tim and Eric Awesome Show, Great Job! on HBO Max: http://bit.ly/3hRw9rU 
+#     c2873da67663940852bbe18e89c3134e = Video(channelId="52", title='''Eric Overdoses on WaitMate | Tim and Eric Awesome Show, Great Job! | adult swim''', description='''In his excitement for Tim's birthday party, Eric overdoses on a wonder drug promoted by Jeff Goldblum called "WaitMate". Watch more Tim and Eric Awesome Show, Great Job! on HBO Max: http://bit.ly/3hRw9rU 
 
-    #AdultSwim #TImAndEric #AwesomeShow
+#     #AdultSwim #TImAndEric #AwesomeShow
 
-    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-    What to watch next: More Tim and Eric! 
-    https://youtube.com/playlist?list=PLQl8zBB7bPvLn-S1doBsiWkm7CzThEBDV 
+#     What to watch next: More Tim and Eric! 
+#     https://youtube.com/playlist?list=PLQl8zBB7bPvLn-S1doBsiWkm7CzThEBDV 
 
-    Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
+#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
 
-    About Adult Swim:
-    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, The Eric Andre Show, Aqua Teen Hunger Force, and many more. 
+#     About Adult Swim:
+#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, The Eric Andre Show, Aqua Teen Hunger Force, and many more. 
 
-    Connect with Adult Swim Online:
-    Download the APPS: http://www.adultswim.com/apps/
-    Visit Adult Swim WEBSITE: http://www.adultswim.com 
-    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+#     Connect with Adult Swim Online:
+#     Download the APPS: http://www.adultswim.com/apps/
+#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
+#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-    Watch Adult Swim in your country:
-    Canada: https://bit.ly/3gLYNeu 
-    United Kingdom: https://bit.ly/AS_UK
-    Republic of Ireland: https://bit.ly/AS_UK
-    France: https://bit.ly/AS_FR
-    Spain: https://bit.ly/AS_SPA
-    Germany: https://bit.ly/AS_GE
-    Sweden: https://bit.ly/AS_NORDIC
-    Norway: https://bit.ly/AS_NORDIC
-    Denmark: https://bit.ly/AS_NORDIC
-    Finland: https://bit.ly/AS_NORDIC
-    South Africa: https://bit.ly/AS_SA
+#     Watch Adult Swim in your country:
+#     Canada: https://bit.ly/3gLYNeu 
+#     United Kingdom: https://bit.ly/AS_UK
+#     Republic of Ireland: https://bit.ly/AS_UK
+#     France: https://bit.ly/AS_FR
+#     Spain: https://bit.ly/AS_SPA
+#     Germany: https://bit.ly/AS_GE
+#     Sweden: https://bit.ly/AS_NORDIC
+#     Norway: https://bit.ly/AS_NORDIC
+#     Denmark: https://bit.ly/AS_NORDIC
+#     Finland: https://bit.ly/AS_NORDIC
+#     South Africa: https://bit.ly/AS_SA
 
-    Eric Overdoses on WaitMate | Tim and Eric Awesome Show, Great Job! | adult swim''', videoUrl="p8bSiydZvEU", thumbnailUrl="https://i.ytimg.com/vi/p8bSiydZvEU/maxresdefault.jpg", createdAt="2022-04-14T16:00:23Z")
+#     Eric Overdoses on WaitMate | Tim and Eric Awesome Show, Great Job! | adult swim''', videoUrl="p8bSiydZvEU", thumbnailUrl="https://i.ytimg.com/vi/p8bSiydZvEU/maxresdefault.jpg", createdAt="2022-04-14T16:00:23Z")
 
 
 
-    cedf3c2e2ac135be5186d8343ed955fc = Video(channelId="52", title='''Summoning Mr. Meeseeks | Rick and Morty | adult swim''', description='''I’m a compilation of all the best Mr. Meeseeks moments, look at me! Stream seasons 1-5 now on HBO Max: http://bit.ly/3hRw9rU 
+#     cedf3c2e2ac135be5186d8343ed955fc = Video(channelId="52", title='''Summoning Mr. Meeseeks | Rick and Morty | adult swim''', description='''I’m a compilation of all the best Mr. Meeseeks moments, look at me! Stream seasons 1-5 now on HBO Max: http://bit.ly/3hRw9rU 
 
-    #AdultSwim #RickAndMorty 
+#     #AdultSwim #RickAndMorty 
 
-    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-    What to watch next: more Rick and Morty clips!
-    https://youtube.com/playlist?list=PLQl8zBB7bPvI_iYCe4LT8HHfjonOog4u3
+#     What to watch next: more Rick and Morty clips!
+#     https://youtube.com/playlist?list=PLQl8zBB7bPvI_iYCe4LT8HHfjonOog4u3
 
-    Watch the Adult Swim hub on HBO Max: http://bit.ly/3Gy0aXA 
+#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3Gy0aXA 
 
-    About Adult Swim:
-    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+#     About Adult Swim:
+#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-    Connect with Adult Swim Online:
-    Download the APPS: http://www.adultswim.com/apps/
-    Visit Adult Swim WEBSITE: http://www.adultswim.com 
-    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+#     Connect with Adult Swim Online:
+#     Download the APPS: http://www.adultswim.com/apps/
+#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
+#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-    Watch Adult Swim in your country:
-    United Kingdom: https://bit.ly/AS_UK
-    Republic of Ireland: https://bit.ly/AS_UK
-    France: https://bit.ly/AS_FR
-    Spain: https://bit.ly/AS_SPA
-    Germany: https://bit.ly/AS_GE
-    Sweden: https://bit.ly/AS_NORDIC
-    Norway: https://bit.ly/AS_NORDIC
-    Denmark: https://bit.ly/AS_NORDIC
-    Finland: https://bit.ly/AS_NORDIC
-    South Africa: https://bit.ly/AS_SA
+#     Watch Adult Swim in your country:
+#     United Kingdom: https://bit.ly/AS_UK
+#     Republic of Ireland: https://bit.ly/AS_UK
+#     France: https://bit.ly/AS_FR
+#     Spain: https://bit.ly/AS_SPA
+#     Germany: https://bit.ly/AS_GE
+#     Sweden: https://bit.ly/AS_NORDIC
+#     Norway: https://bit.ly/AS_NORDIC
+#     Denmark: https://bit.ly/AS_NORDIC
+#     Finland: https://bit.ly/AS_NORDIC
+#     South Africa: https://bit.ly/AS_SA
 
-    Summoning Mr. Meeseeks | Rick and Morty | adult swim''', videoUrl="l5wvqKcqL7c", thumbnailUrl="https://i.ytimg.com/vi/l5wvqKcqL7c/maxresdefault.jpg", createdAt="2022-04-13T16:00:27Z")
+#     Summoning Mr. Meeseeks | Rick and Morty | adult swim''', videoUrl="l5wvqKcqL7c", thumbnailUrl="https://i.ytimg.com/vi/l5wvqKcqL7c/maxresdefault.jpg", createdAt="2022-04-13T16:00:27Z")
 
 
 
-    c3ba458bd985441b0a1b126847da39ca = Video(channelId="52", title='''Spear Grieves His Family | Primal | adult swim''', description='''Standing atop a cliff, Spear mourns the loss of his wife and children. Watch more episodes of Primal on HBO Max: http://bit.ly/3Gy0aXA 
+#     c3ba458bd985441b0a1b126847da39ca = Video(channelId="52", title='''Spear Grieves His Family | Primal | adult swim''', description='''Standing atop a cliff, Spear mourns the loss of his wife and children. Watch more episodes of Primal on HBO Max: http://bit.ly/3Gy0aXA 
 
-    #adultswim #Primal
+#     #adultswim #Primal
 
-    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-    What to watch next: more Primal: https://youtube.com/playlist?list=PLQl8zBB7bPvK6USLkQ43zsQdu3GT6jp4D 
+#     What to watch next: more Primal: https://youtube.com/playlist?list=PLQl8zBB7bPvK6USLkQ43zsQdu3GT6jp4D 
 
-    Watch the Adult Swim hub on HBO Max: http://bit.ly/3Gy0aXA 
+#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3Gy0aXA 
 
-    About Adult Swim:
-    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+#     About Adult Swim:
+#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-    Connect with Adult Swim Online:
-    Download the APPS: http://www.adultswim.com/apps/
-    Visit Adult Swim WEBSITE: http://www.adultswim.com 
-    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+#     Connect with Adult Swim Online:
+#     Download the APPS: http://www.adultswim.com/apps/
+#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
+#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-    Watch Adult Swim in your country:
-    United Kingdom: https://bit.ly/AS_UK
-    Republic of Ireland: https://bit.ly/AS_UK
-    France: https://bit.ly/AS_FR
-    Spain: https://bit.ly/AS_SPA
-    Germany: https://bit.ly/AS_GE
-    Sweden: https://bit.ly/AS_NORDIC
-    Norway: https://bit.ly/AS_NORDIC
-    Denmark: https://bit.ly/AS_NORDIC
-    Finland: https://bit.ly/AS_NORDIC
-    South Africa: https://bit.ly/AS_SA
+#     Watch Adult Swim in your country:
+#     United Kingdom: https://bit.ly/AS_UK
+#     Republic of Ireland: https://bit.ly/AS_UK
+#     France: https://bit.ly/AS_FR
+#     Spain: https://bit.ly/AS_SPA
+#     Germany: https://bit.ly/AS_GE
+#     Sweden: https://bit.ly/AS_NORDIC
+#     Norway: https://bit.ly/AS_NORDIC
+#     Denmark: https://bit.ly/AS_NORDIC
+#     Finland: https://bit.ly/AS_NORDIC
+#     South Africa: https://bit.ly/AS_SA
 
-    Spear Grieves His Family | Primal | adult swim''', videoUrl="vIKNlmLqu9o", thumbnailUrl="https://i.ytimg.com/vi/vIKNlmLqu9o/maxresdefault.jpg", createdAt="2022-04-12T16:00:32Z")
+#     Spear Grieves His Family | Primal | adult swim''', videoUrl="vIKNlmLqu9o", thumbnailUrl="https://i.ytimg.com/vi/vIKNlmLqu9o/maxresdefault.jpg", createdAt="2022-04-12T16:00:32Z")
 
 
 
-    c38aea5057b690f032368e786e1f5d69 = Video(channelId="52", title='''The Lord's Prayer | Moral Orel | adult swim''', description='''A dinner between the Puppingtons and the Posabules ends in a heated argument when each family recites a different version of the Lord's prayer. Watch more Moral Orel on HBO Max: http://bit.ly/3hRw9rU 
+#     c38aea5057b690f032368e786e1f5d69 = Video(channelId="52", title='''The Lord's Prayer | Moral Orel | adult swim''', description='''A dinner between the Puppingtons and the Posabules ends in a heated argument when each family recites a different version of the Lord's prayer. Watch more Moral Orel on HBO Max: http://bit.ly/3hRw9rU 
 
-    #AdultSwim #MoralOrel
+#     #AdultSwim #MoralOrel
 
-    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-    What to watch next: more Moral Orel:
-    https://youtube.com/playlist?list=PLQl8zBB7bPvKYI9VxH6NOldhEq-lq-Rjc 
+#     What to watch next: more Moral Orel:
+#     https://youtube.com/playlist?list=PLQl8zBB7bPvKYI9VxH6NOldhEq-lq-Rjc 
 
-    Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
+#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
 
-    About Adult Swim:
-    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, The Eric Andre Show, Aqua Teen Hunger Force, and many more. 
+#     About Adult Swim:
+#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, The Eric Andre Show, Aqua Teen Hunger Force, and many more. 
 
-    Connect with Adult Swim Online:
-    Download the APPS: http://www.adultswim.com/apps/
-    Visit Adult Swim WEBSITE: http://www.adultswim.com 
-    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+#     Connect with Adult Swim Online:
+#     Download the APPS: http://www.adultswim.com/apps/
+#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
+#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-    Watch Adult Swim in your country:
-    Canada: https://bit.ly/3gLYNeu 
-    United Kingdom: https://bit.ly/AS_UK
-    Republic of Ireland: https://bit.ly/AS_UK
-    France: https://bit.ly/AS_FR
-    Spain: https://bit.ly/AS_SPA
-    Germany: https://bit.ly/AS_GE
-    Sweden: https://bit.ly/AS_NORDIC
-    Norway: https://bit.ly/AS_NORDIC
-    Denmark: https://bit.ly/AS_NORDIC
-    Finland: https://bit.ly/AS_NORDIC
-    South Africa: https://bit.ly/AS_SA
+#     Watch Adult Swim in your country:
+#     Canada: https://bit.ly/3gLYNeu 
+#     United Kingdom: https://bit.ly/AS_UK
+#     Republic of Ireland: https://bit.ly/AS_UK
+#     France: https://bit.ly/AS_FR
+#     Spain: https://bit.ly/AS_SPA
+#     Germany: https://bit.ly/AS_GE
+#     Sweden: https://bit.ly/AS_NORDIC
+#     Norway: https://bit.ly/AS_NORDIC
+#     Denmark: https://bit.ly/AS_NORDIC
+#     Finland: https://bit.ly/AS_NORDIC
+#     South Africa: https://bit.ly/AS_SA
 
-    The Lord's Prayer | Moral Orel | adult swim''', videoUrl="h8BkkEGkZZI", thumbnailUrl="https://i.ytimg.com/vi/h8BkkEGkZZI/maxresdefault.jpg", createdAt="2022-04-11T20:00:07Z")
+#     The Lord's Prayer | Moral Orel | adult swim''', videoUrl="h8BkkEGkZZI", thumbnailUrl="https://i.ytimg.com/vi/h8BkkEGkZZI/maxresdefault.jpg", createdAt="2022-04-11T20:00:07Z")
 
 
 
-    c58e6cda0f67f5f0640b3008c8324c91 = Video(channelId="52", title='''The Nelson Mandela Effect | Robot Chicken | adult swim''', description='''When the ghost of Nelson Mandela tells Arthur about the Mandela Effect, he takes it upon himself to "correct" several movies. Watch more Robot Chicken on HBO Max: http://bit.ly/3hRw9rU 
+#     c58e6cda0f67f5f0640b3008c8324c91 = Video(channelId="52", title='''The Nelson Mandela Effect | Robot Chicken | adult swim''', description='''When the ghost of Nelson Mandela tells Arthur about the Mandela Effect, he takes it upon himself to "correct" several movies. Watch more Robot Chicken on HBO Max: http://bit.ly/3hRw9rU 
 
-    #AdultSwim #RobotChicken
+#     #AdultSwim #RobotChicken
 
-    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-    What to watch next: more Robot Chicken clips!
-    https://youtube.com/playlist?list=PLQl8zBB7bPvJ6w2_gU67cQtSP4OhaPenc 
+#     What to watch next: more Robot Chicken clips!
+#     https://youtube.com/playlist?list=PLQl8zBB7bPvJ6w2_gU67cQtSP4OhaPenc 
 
-    Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
+#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
 
-    About Adult Swim:
-    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+#     About Adult Swim:
+#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-    Connect with Adult Swim Online:
-    Download the APPS: http://www.adultswim.com/apps/
-    Visit Adult Swim WEBSITE: http://www.adultswim.com 
-    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+#     Connect with Adult Swim Online:
+#     Download the APPS: http://www.adultswim.com/apps/
+#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
+#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-    Watch Adult Swim in your country:
-    United Kingdom: https://bit.ly/AS_UK
-    Republic of Ireland: https://bit.ly/AS_UK
-    France: https://bit.ly/AS_FR
-    Spain: https://bit.ly/AS_SPA
-    Germany: https://bit.ly/AS_GE
-    Sweden: https://bit.ly/AS_NORDIC
-    Norway: https://bit.ly/AS_NORDIC
-    Denmark: https://bit.ly/AS_NORDIC
-    Finland: https://bit.ly/AS_NORDIC
-    South Africa: https://bit.ly/AS_SA
+#     Watch Adult Swim in your country:
+#     United Kingdom: https://bit.ly/AS_UK
+#     Republic of Ireland: https://bit.ly/AS_UK
+#     France: https://bit.ly/AS_FR
+#     Spain: https://bit.ly/AS_SPA
+#     Germany: https://bit.ly/AS_GE
+#     Sweden: https://bit.ly/AS_NORDIC
+#     Norway: https://bit.ly/AS_NORDIC
+#     Denmark: https://bit.ly/AS_NORDIC
+#     Finland: https://bit.ly/AS_NORDIC
+#     South Africa: https://bit.ly/AS_SA
 
-    The Nelson Mandela Effect | Robot Chicken | adult swim''', videoUrl="TwSp6u0aPXE", thumbnailUrl="https://i.ytimg.com/vi/TwSp6u0aPXE/maxresdefault.jpg", createdAt="2022-04-11T16:00:22Z")
+#     The Nelson Mandela Effect | Robot Chicken | adult swim''', videoUrl="TwSp6u0aPXE", thumbnailUrl="https://i.ytimg.com/vi/TwSp6u0aPXE/maxresdefault.jpg", createdAt="2022-04-11T16:00:22Z")
 
 
 
-    c02c379173605079f70dcc18f0732ed5 = Video(channelId="52", title='''Touched by a Birdcat | Birdgirl | adult swim''', description='''Birdcat finds a family in crisis and helps an alcoholic father see the error of his ways. Watch more Birdgirl on HBO Max: http://bit.ly/3hRw9rU 
+#     c02c379173605079f70dcc18f0732ed5 = Video(channelId="52", title='''Touched by a Birdcat | Birdgirl | adult swim''', description='''Birdcat finds a family in crisis and helps an alcoholic father see the error of his ways. Watch more Birdgirl on HBO Max: http://bit.ly/3hRw9rU 
 
-    #Birdgirl #AdultSwim
+#     #Birdgirl #AdultSwim
 
-    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-    What to watch next: more Birdgirl: 
-    https://youtube.com/playlist?list=PLQl8zBB7bPvK5u3k7UMysje-TKB-6pSaE 
+#     What to watch next: more Birdgirl: 
+#     https://youtube.com/playlist?list=PLQl8zBB7bPvK5u3k7UMysje-TKB-6pSaE 
 
-    Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
+#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
 
-    About Adult Swim:
-    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+#     About Adult Swim:
+#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-    Connect with Adult Swim Online:
-    Download the APPS: http://www.adultswim.com/apps/
-    Visit Adult Swim WEBSITE: http://www.adultswim.com 
-    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim 
-    Follow Adult Swim on TWITTER: https://twitter.com/adultswim 
-    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+#     Connect with Adult Swim Online:
+#     Download the APPS: http://www.adultswim.com/apps/
+#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
+#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim 
+#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim 
+#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-    Watch Adult Swim in your country:
-    United Kingdom: https://bit.ly/AS_UK
-    Republic of Ireland: https://bit.ly/AS_UK
-    France: https://bit.ly/AS_FR
-    Spain: https://bit.ly/AS_SPA
-    Germany: https://bit.ly/AS_GE
-    Sweden: https://bit.ly/AS_NORDIC
-    Norway: https://bit.ly/AS_NORDIC
-    Denmark: https://bit.ly/AS_NORDIC
-    Finland: https://bit.ly/AS_NORDIC
-    South Africa: https://bit.ly/AS_SA
+#     Watch Adult Swim in your country:
+#     United Kingdom: https://bit.ly/AS_UK
+#     Republic of Ireland: https://bit.ly/AS_UK
+#     France: https://bit.ly/AS_FR
+#     Spain: https://bit.ly/AS_SPA
+#     Germany: https://bit.ly/AS_GE
+#     Sweden: https://bit.ly/AS_NORDIC
+#     Norway: https://bit.ly/AS_NORDIC
+#     Denmark: https://bit.ly/AS_NORDIC
+#     Finland: https://bit.ly/AS_NORDIC
+#     South Africa: https://bit.ly/AS_SA
 
-    Touched by a Birdcat | Birdgirl | adult swim''', videoUrl="5XjpG1iU1L0", thumbnailUrl="https://i.ytimg.com/vi/5XjpG1iU1L0/hqdefault.jpg", createdAt="2022-04-10T19:00:03Z")
+#     Touched by a Birdcat | Birdgirl | adult swim''', videoUrl="5XjpG1iU1L0", thumbnailUrl="https://i.ytimg.com/vi/5XjpG1iU1L0/hqdefault.jpg", createdAt="2022-04-10T19:00:03Z")
 
 
 
-    c672aa05aac1485d0632e14dbe33800b = Video(channelId="52", title='''TRAILER | Three Busy Debras Season 2 | adult swim''', description='''This season couldn’t get anymore Debra. Season 2 of Three Busy Debras premieres Sunday, April 24th at Midnight on adult swim, next day on HBO Max: http://bit.ly/3hRw9rU 
+#     c672aa05aac1485d0632e14dbe33800b = Video(channelId="52", title='''TRAILER | Three Busy Debras Season 2 | adult swim''', description='''This season couldn’t get anymore Debra. Season 2 of Three Busy Debras premieres Sunday, April 24th at Midnight on adult swim, next day on HBO Max: http://bit.ly/3hRw9rU 
 
-    #AdultSwim #ThreeBusyDebras
+#     #AdultSwim #ThreeBusyDebras
 
-    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-    What to watch next: More Three Busy Debras! 
-    https://youtube.com/playlist?list=PLQl8zBB7bPvKzEQYMmtF-03eqCOtDsfJz 
+#     What to watch next: More Three Busy Debras! 
+#     https://youtube.com/playlist?list=PLQl8zBB7bPvKzEQYMmtF-03eqCOtDsfJz 
 
-    Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
+#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
 
-    About Adult Swim:
-    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, The Eric Andre Show, Aqua Teen Hunger Force, and many more. 
+#     About Adult Swim:
+#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, The Eric Andre Show, Aqua Teen Hunger Force, and many more. 
 
-    Connect with Adult Swim Online:
-    Download the APPS: http://www.adultswim.com/apps/
-    Visit Adult Swim WEBSITE: http://www.adultswim.com 
-    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+#     Connect with Adult Swim Online:
+#     Download the APPS: http://www.adultswim.com/apps/
+#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
+#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-    Watch Adult Swim in your country:
-    Canada: https://bit.ly/3gLYNeu 
-    United Kingdom: https://bit.ly/AS_UK
-    Republic of Ireland: https://bit.ly/AS_UK
-    France: https://bit.ly/AS_FR
-    Spain: https://bit.ly/AS_SPA
-    Germany: https://bit.ly/AS_GE
-    Sweden: https://bit.ly/AS_NORDIC
-    Norway: https://bit.ly/AS_NORDIC
-    Denmark: https://bit.ly/AS_NORDIC
-    Finland: https://bit.ly/AS_NORDIC
-    South Africa: https://bit.ly/AS_SA
+#     Watch Adult Swim in your country:
+#     Canada: https://bit.ly/3gLYNeu 
+#     United Kingdom: https://bit.ly/AS_UK
+#     Republic of Ireland: https://bit.ly/AS_UK
+#     France: https://bit.ly/AS_FR
+#     Spain: https://bit.ly/AS_SPA
+#     Germany: https://bit.ly/AS_GE
+#     Sweden: https://bit.ly/AS_NORDIC
+#     Norway: https://bit.ly/AS_NORDIC
+#     Denmark: https://bit.ly/AS_NORDIC
+#     Finland: https://bit.ly/AS_NORDIC
+#     South Africa: https://bit.ly/AS_SA
 
-    TRAILER | Three Busy Debras Season 2 | adult swim''', videoUrl="FH-isOCrqEc", thumbnailUrl="https://i.ytimg.com/vi/FH-isOCrqEc/maxresdefault.jpg", createdAt="2022-04-10T15:00:13Z")
+#     TRAILER | Three Busy Debras Season 2 | adult swim''', videoUrl="FH-isOCrqEc", thumbnailUrl="https://i.ytimg.com/vi/FH-isOCrqEc/maxresdefault.jpg", createdAt="2022-04-10T15:00:13Z")
 
 
 
-    c918806f79afc1ecfb9b24f4fa73f6f7 = Video(channelId="52", title='''Bob the Cannibal | Bob's Burgers | adult swim''', description='''Bob gives a confusing speech after an angry mob accuses him of using human meat in his burgers. 
-    #AdultSwim #BobsBurgers
+#     c918806f79afc1ecfb9b24f4fa73f6f7 = Video(channelId="52", title='''Bob the Cannibal | Bob's Burgers | adult swim''', description='''Bob gives a confusing speech after an angry mob accuses him of using human meat in his burgers. 
+#     #AdultSwim #BobsBurgers
 
-    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-    What to watch next: more Bob's Burgers clips! https://youtube.com/playlist?list=PLQl8zBB7bPvIeGWrlaFoqTZOSInrbvnf- 
+#     What to watch next: more Bob's Burgers clips! https://youtube.com/playlist?list=PLQl8zBB7bPvIeGWrlaFoqTZOSInrbvnf- 
 
-    Find Bob's Burgers on Adult Swim: https://www.adultswim.com/videos/bobs-burgers 
+#     Find Bob's Burgers on Adult Swim: https://www.adultswim.com/videos/bobs-burgers 
 
-    Watch Adult Swim on HBO Max: http://bit.ly/3hRw9rU 
+#     Watch Adult Swim on HBO Max: http://bit.ly/3hRw9rU 
 
-    About Adult Swim:
-    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+#     About Adult Swim:
+#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-    Connect with Adult Swim Online:
-    Download the APPS: http://www.adultswim.com/apps/
-    Visit Adult Swim WEBSITE: http://www.adultswim.com 
-    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+#     Connect with Adult Swim Online:
+#     Download the APPS: http://www.adultswim.com/apps/
+#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
+#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-    Watch Adult Swim in your country:
-    United Kingdom: https://bit.ly/AS_UK
-    Republic of Ireland: https://bit.ly/AS_UK
-    France: https://bit.ly/AS_FR
-    Spain: https://bit.ly/AS_SPA
-    Germany: https://bit.ly/AS_GE
-    Sweden: https://bit.ly/AS_NORDIC
-    Norway: https://bit.ly/AS_NORDIC
-    Denmark: https://bit.ly/AS_NORDIC
-    Finland: https://bit.ly/AS_NORDIC
-    South Africa: https://bit.ly/AS_SA
+#     Watch Adult Swim in your country:
+#     United Kingdom: https://bit.ly/AS_UK
+#     Republic of Ireland: https://bit.ly/AS_UK
+#     France: https://bit.ly/AS_FR
+#     Spain: https://bit.ly/AS_SPA
+#     Germany: https://bit.ly/AS_GE
+#     Sweden: https://bit.ly/AS_NORDIC
+#     Norway: https://bit.ly/AS_NORDIC
+#     Denmark: https://bit.ly/AS_NORDIC
+#     Finland: https://bit.ly/AS_NORDIC
+#     South Africa: https://bit.ly/AS_SA
 
-    Bob the Cannibal | Bob's Burgers | adult swim''', videoUrl="ZnrR_5NQ4wM", thumbnailUrl="https://i.ytimg.com/vi/ZnrR_5NQ4wM/maxresdefault.jpg", createdAt="2022-04-09T16:00:15Z")
+#     Bob the Cannibal | Bob's Burgers | adult swim''', videoUrl="ZnrR_5NQ4wM", thumbnailUrl="https://i.ytimg.com/vi/ZnrR_5NQ4wM/maxresdefault.jpg", createdAt="2022-04-09T16:00:15Z")
 
 
 
-    c221b13059abc9300768a905126335a5 = Video(channelId="52", title='''Anger | TOM Speeches | Toonami Vintage''', description='''TOM talks about anger and its power to either motivate you or, in Vegeta’s case, consume you. 
+#     c221b13059abc9300768a905126335a5 = Video(channelId="52", title='''Anger | TOM Speeches | Toonami Vintage''', description='''TOM talks about anger and its power to either motivate you or, in Vegeta’s case, consume you. 
 
-    Remastered by @SlimD716
+#     Remastered by @SlimD716
 
-    Watch Adult Swim on HBO Max: http://bit.ly/3hRw9rU 
+#     Watch Adult Swim on HBO Max: http://bit.ly/3hRw9rU 
 
-    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-    About Adult Swim:
-    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+#     About Adult Swim:
+#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-    Connect with Adult Swim Online:
-    Download the APPS: http://www.adultswim.com/apps/
-    Visit Adult Swim WEBSITE: http://www.adultswim.com 
-    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+#     Connect with Adult Swim Online:
+#     Download the APPS: http://www.adultswim.com/apps/
+#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
+#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-    Watch Adult Swim in your country:
-    United Kingdom: https://bit.ly/AS_UK
-    Republic of Ireland: https://bit.ly/AS_UK
-    France: https://bit.ly/AS_FR
-    Spain: https://bit.ly/AS_SPA
-    Germany: https://bit.ly/AS_GE
-    Sweden: https://bit.ly/AS_NORDIC
-    Norway: https://bit.ly/AS_NORDIC
-    Denmark: https://bit.ly/AS_NORDIC
-    Finland: https://bit.ly/AS_NORDIC
-    South Africa: https://bit.ly/AS_SA
+#     Watch Adult Swim in your country:
+#     United Kingdom: https://bit.ly/AS_UK
+#     Republic of Ireland: https://bit.ly/AS_UK
+#     France: https://bit.ly/AS_FR
+#     Spain: https://bit.ly/AS_SPA
+#     Germany: https://bit.ly/AS_GE
+#     Sweden: https://bit.ly/AS_NORDIC
+#     Norway: https://bit.ly/AS_NORDIC
+#     Denmark: https://bit.ly/AS_NORDIC
+#     Finland: https://bit.ly/AS_NORDIC
+#     South Africa: https://bit.ly/AS_SA
 
-    Anger | TOM Speeches | Toonami Vintage''', videoUrl="f6vDcEN1sK8", thumbnailUrl="https://i.ytimg.com/vi/f6vDcEN1sK8/hqdefault.jpg", createdAt="2022-04-08T19:00:13Z")
+#     Anger | TOM Speeches | Toonami Vintage''', videoUrl="f6vDcEN1sK8", thumbnailUrl="https://i.ytimg.com/vi/f6vDcEN1sK8/hqdefault.jpg", createdAt="2022-04-08T19:00:13Z")
 
 
 
-    cffb9e51672cacf72e18357364a1b76d = Video(channelId="52", title='''Shenmue the Animation | S1E10 Sneak Peek: Ryo and Ren are Ambushed | adult swim''', description='''Ryo and Ren are tricked into entering the den of Dou Niu and the Yellow Heads. Toonami and Crunchyroll bring you Shenmue the Animation, Saturdays on Adult Swim.
+#     cffb9e51672cacf72e18357364a1b76d = Video(channelId="52", title='''Shenmue the Animation | S1E10 Sneak Peek: Ryo and Ren are Ambushed | adult swim''', description='''Ryo and Ren are tricked into entering the den of Dou Niu and the Yellow Heads. Toonami and Crunchyroll bring you Shenmue the Animation, Saturdays on Adult Swim.
 
-    #AdultSwim #ShenmueTheAnimation
+#     #AdultSwim #ShenmueTheAnimation
 
-    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-    What to watch next: more Shenmue clips! https://youtube.com/playlist?list=PLQl8zBB7bPvLEOTOGcx8hKecOaqDBKHq8 
+#     What to watch next: more Shenmue clips! https://youtube.com/playlist?list=PLQl8zBB7bPvLEOTOGcx8hKecOaqDBKHq8 
 
-    Find Shenmue on Adult Swim: https://www.adultswim.com/videos/shenmue-the-animation 
+#     Find Shenmue on Adult Swim: https://www.adultswim.com/videos/shenmue-the-animation 
 
-    About Adult Swim:
-    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+#     About Adult Swim:
+#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-    Connect with Adult Swim Online:
-    Download the APPS: http://www.adultswim.com/apps/
-    Visit Adult Swim WEBSITE: http://www.adultswim.com 
-    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+#     Connect with Adult Swim Online:
+#     Download the APPS: http://www.adultswim.com/apps/
+#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
+#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-    Watch Adult Swim in your country:
-    United Kingdom: https://bit.ly/AS_UK
-    Republic of Ireland: https://bit.ly/AS_UK
-    France: https://bit.ly/AS_FR
-    Spain: https://bit.ly/AS_SPA
-    Germany: https://bit.ly/AS_GE
-    Sweden: https://bit.ly/AS_NORDIC
-    Norway: https://bit.ly/AS_NORDIC
-    Denmark: https://bit.ly/AS_NORDIC
-    Finland: https://bit.ly/AS_NORDIC
-    South Africa: https://bit.ly/AS_SA
+#     Watch Adult Swim in your country:
+#     United Kingdom: https://bit.ly/AS_UK
+#     Republic of Ireland: https://bit.ly/AS_UK
+#     France: https://bit.ly/AS_FR
+#     Spain: https://bit.ly/AS_SPA
+#     Germany: https://bit.ly/AS_GE
+#     Sweden: https://bit.ly/AS_NORDIC
+#     Norway: https://bit.ly/AS_NORDIC
+#     Denmark: https://bit.ly/AS_NORDIC
+#     Finland: https://bit.ly/AS_NORDIC
+#     South Africa: https://bit.ly/AS_SA
 
-    Shenmue the Animation | S1E10 Sneak Peek: Ryo and Ren are Ambushed | adult swim''', videoUrl="WGXuWghyDyY", thumbnailUrl="https://i.ytimg.com/vi/WGXuWghyDyY/maxresdefault.jpg", createdAt="2022-04-08T15:00:30Z")
+#     Shenmue the Animation | S1E10 Sneak Peek: Ryo and Ren are Ambushed | adult swim''', videoUrl="WGXuWghyDyY", thumbnailUrl="https://i.ytimg.com/vi/WGXuWghyDyY/maxresdefault.jpg", createdAt="2022-04-08T15:00:30Z")
 
 
 
-    c99d0f53980d84458166ad16c46cfdfe = Video(channelId="52", title='''Hairy Situations | adult swim smalls''', description='''A hairdresser is making magic by turning her clients’ messy hair into extravagant looks.
+#     c99d0f53980d84458166ad16c46cfdfe = Video(channelId="52", title='''Hairy Situations | adult swim smalls''', description='''A hairdresser is making magic by turning her clients’ messy hair into extravagant looks.
 
-    Created by Dal Park
-    Music, Sound Design and VO by Phil Brookes
+#     Created by Dal Park
+#     Music, Sound Design and VO by Phil Brookes
 
-    Dal Park is an animation director based in Berlin, Germany. Her shorts combine humor and odd characters living in the everyday life. 
+#     Dal Park is an animation director based in Berlin, Germany. Her shorts combine humor and odd characters living in the everyday life. 
 
-    Follow Dal Park on Instagram: https://www.instagram.com/dal____park/ 
-    Follow Phil Brookes on Instagram: https://www.instagram.com/philbrookesuk/ 
+#     Follow Dal Park on Instagram: https://www.instagram.com/dal____park/ 
+#     Follow Phil Brookes on Instagram: https://www.instagram.com/philbrookesuk/ 
 
-    #AdultSwim #AdultSwimSmalls
+#     #AdultSwim #AdultSwimSmalls
 
-    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-    Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
+#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
 
-    About Adult Swim:
-    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+#     About Adult Swim:
+#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-    Connect with Adult Swim Online:
-    Download the APPS: http://www.adultswim.com/apps/
-    Visit Adult Swim WEBSITE: http://www.adultswim.com 
-    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+#     Connect with Adult Swim Online:
+#     Download the APPS: http://www.adultswim.com/apps/
+#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
+#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-    Watch Adult Swim in your country:
-    United Kingdom: https://bit.ly/AS_UK
-    Republic of Ireland: https://bit.ly/AS_UK
-    France: https://bit.ly/AS_FR
-    Spain: https://bit.ly/AS_SPA
-    Germany: https://bit.ly/AS_GE
-    Sweden: https://bit.ly/AS_NORDIC
-    Norway: https://bit.ly/AS_NORDIC
-    Denmark: https://bit.ly/AS_NORDIC
-    Finland: https://bit.ly/AS_NORDIC
-    South Africa: https://bit.ly/AS_SA
+#     Watch Adult Swim in your country:
+#     United Kingdom: https://bit.ly/AS_UK
+#     Republic of Ireland: https://bit.ly/AS_UK
+#     France: https://bit.ly/AS_FR
+#     Spain: https://bit.ly/AS_SPA
+#     Germany: https://bit.ly/AS_GE
+#     Sweden: https://bit.ly/AS_NORDIC
+#     Norway: https://bit.ly/AS_NORDIC
+#     Denmark: https://bit.ly/AS_NORDIC
+#     Finland: https://bit.ly/AS_NORDIC
+#     South Africa: https://bit.ly/AS_SA
 
-    Hairy Situations | adult swim smalls''', videoUrl="YMIyCW_q-G4", thumbnailUrl="https://i.ytimg.com/vi/YMIyCW_q-G4/hqdefault.jpg", createdAt="2022-04-08T00:00:06Z")
+#     Hairy Situations | adult swim smalls''', videoUrl="YMIyCW_q-G4", thumbnailUrl="https://i.ytimg.com/vi/YMIyCW_q-G4/hqdefault.jpg", createdAt="2022-04-08T00:00:06Z")
 
 
 
-    c26edb8e7c4ad3f98873b5755e941f76 = Video(channelId="52", title='''(Not) The Beatles | Space Ghost | adult swim''', description='''Space Ghost introduces the band Pavement as The Beatles, then tries to interview Goldie Hawn while they play. Watch more Space Ghost on HBO Max: http://bit.ly/3hRw9rU 
+#     c26edb8e7c4ad3f98873b5755e941f76 = Video(channelId="52", title='''(Not) The Beatles | Space Ghost | adult swim''', description='''Space Ghost introduces the band Pavement as The Beatles, then tries to interview Goldie Hawn while they play. Watch more Space Ghost on HBO Max: http://bit.ly/3hRw9rU 
 
-    #AdultSwim #SpaceGhost
+#     #AdultSwim #SpaceGhost
 
-    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-    What to watch next: More Space Ghost: https://youtube.com/playlist?list=PLQl8zBB7bPvL0UmITun9SqMDc883UgLTP 
+#     What to watch next: More Space Ghost: https://youtube.com/playlist?list=PLQl8zBB7bPvL0UmITun9SqMDc883UgLTP 
 
-    Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
+#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
 
-    About Adult Swim:
-    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, The Eric Andre Show, Aqua Teen Hunger Force, and many more. 
+#     About Adult Swim:
+#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, The Eric Andre Show, Aqua Teen Hunger Force, and many more. 
 
-    Connect with Adult Swim Online:
-    Download the APPS: http://www.adultswim.com/apps/
-    Visit Adult Swim WEBSITE: http://www.adultswim.com 
-    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+#     Connect with Adult Swim Online:
+#     Download the APPS: http://www.adultswim.com/apps/
+#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
+#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-    Watch Adult Swim in your country:
-    Canada: https://bit.ly/3gLYNeu 
-    United Kingdom: https://bit.ly/AS_UK
-    Republic of Ireland: https://bit.ly/AS_UK
-    France: https://bit.ly/AS_FR
-    Spain: https://bit.ly/AS_SPA
-    Germany: https://bit.ly/AS_GE
-    Sweden: https://bit.ly/AS_NORDIC
-    Norway: https://bit.ly/AS_NORDIC
-    Denmark: https://bit.ly/AS_NORDIC
-    Finland: https://bit.ly/AS_NORDIC
-    South Africa: https://bit.ly/AS_SA
+#     Watch Adult Swim in your country:
+#     Canada: https://bit.ly/3gLYNeu 
+#     United Kingdom: https://bit.ly/AS_UK
+#     Republic of Ireland: https://bit.ly/AS_UK
+#     France: https://bit.ly/AS_FR
+#     Spain: https://bit.ly/AS_SPA
+#     Germany: https://bit.ly/AS_GE
+#     Sweden: https://bit.ly/AS_NORDIC
+#     Norway: https://bit.ly/AS_NORDIC
+#     Denmark: https://bit.ly/AS_NORDIC
+#     Finland: https://bit.ly/AS_NORDIC
+#     South Africa: https://bit.ly/AS_SA
 
-    (Not) The Beatles | Space Ghost | adult swim''', videoUrl="rQim2_oUUFY", thumbnailUrl="https://i.ytimg.com/vi/rQim2_oUUFY/maxresdefault.jpg", createdAt="2022-04-07T20:00:22Z")
+#     (Not) The Beatles | Space Ghost | adult swim''', videoUrl="rQim2_oUUFY", thumbnailUrl="https://i.ytimg.com/vi/rQim2_oUUFY/maxresdefault.jpg", createdAt="2022-04-07T20:00:22Z")
 
 
 
-    c8f6fb50cc4acc32bb0fe52e1e016b20 = Video(channelId="52", title='''Touch | Off the Air | adult swim''', description='''To touch can be to give life.
+#     c8f6fb50cc4acc32bb0fe52e1e016b20 = Video(channelId="52", title='''Touch | Off the Air | adult swim''', description='''To touch can be to give life.
 
-    Featured Videos: 
-    1. “Heart to Mouth” by Bart Hess
-    2. “Born, Never Asked” song by Laurie Anderson
-    3. “Quentin’s Secret Pelican Button” by Sean Reynard
-    4. “The Galactic Trial” by Joel Haver
-    5. “Absence” by Alex Goddard
-    6. “Manipulation 6” by Baron Lanteigne, music by Eduardo Noya Schreus
-    7. “Kaduna” by Jonas The Company & Critics Company
-    8. “Color Me” song by Active Child, music video by Martin de Thurah
-    9. “Contour” by WOW Inc.
-    10. “ULTRAPOP” song by The Armed
+#     Featured Videos: 
+#     1. “Heart to Mouth” by Bart Hess
+#     2. “Born, Never Asked” song by Laurie Anderson
+#     3. “Quentin’s Secret Pelican Button” by Sean Reynard
+#     4. “The Galactic Trial” by Joel Haver
+#     5. “Absence” by Alex Goddard
+#     6. “Manipulation 6” by Baron Lanteigne, music by Eduardo Noya Schreus
+#     7. “Kaduna” by Jonas The Company & Critics Company
+#     8. “Color Me” song by Active Child, music video by Martin de Thurah
+#     9. “Contour” by WOW Inc.
+#     10. “ULTRAPOP” song by The Armed
 
-    This episode of Off the Air was created by Dave Hughes and guest curated and produced by Alan Steadman.
+#     This episode of Off the Air was created by Dave Hughes and guest curated and produced by Alan Steadman.
 
-    Watch more episodes of #OffTheAir on HBO Max: http://bit.ly/3hRw9rU 
+#     Watch more episodes of #OffTheAir on HBO Max: http://bit.ly/3hRw9rU 
 
-    #adultswim #OffTheAir
+#     #adultswim #OffTheAir
 
-    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-    What to watch next: more Off The Air clips!
-    https://youtube.com/playlist?list=PLQl8zBB7bPvLWfGCVicg_kVmSVTGml2y4 
+#     What to watch next: more Off The Air clips!
+#     https://youtube.com/playlist?list=PLQl8zBB7bPvLWfGCVicg_kVmSVTGml2y4 
 
-    Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
+#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
 
-    About Adult Swim:
-    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+#     About Adult Swim:
+#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-    Connect with Adult Swim Online:
-    Download the APPS: http://www.adultswim.com/apps/
-    Visit Adult Swim WEBSITE: http://www.adultswim.com 
-    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+#     Connect with Adult Swim Online:
+#     Download the APPS: http://www.adultswim.com/apps/
+#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
+#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-    Watch Adult Swim in your country:
-    United Kingdom: https://bit.ly/AS_UK
-    Republic of Ireland: https://bit.ly/AS_UK
-    France: https://bit.ly/AS_FR
-    Spain: https://bit.ly/AS_SPA
-    Germany: https://bit.ly/AS_GE
-    Sweden: https://bit.ly/AS_NORDIC
-    Norway: https://bit.ly/AS_NORDIC
-    Denmark: https://bit.ly/AS_NORDIC
-    Finland: https://bit.ly/AS_NORDIC
-    South Africa: https://bit.ly/AS_SA
+#     Watch Adult Swim in your country:
+#     United Kingdom: https://bit.ly/AS_UK
+#     Republic of Ireland: https://bit.ly/AS_UK
+#     France: https://bit.ly/AS_FR
+#     Spain: https://bit.ly/AS_SPA
+#     Germany: https://bit.ly/AS_GE
+#     Sweden: https://bit.ly/AS_NORDIC
+#     Norway: https://bit.ly/AS_NORDIC
+#     Denmark: https://bit.ly/AS_NORDIC
+#     Finland: https://bit.ly/AS_NORDIC
+#     South Africa: https://bit.ly/AS_SA
 
-    Touch | Off the Air | adult swim''', videoUrl="vfZ6jywNSNQ", thumbnailUrl="https://i.ytimg.com/vi/vfZ6jywNSNQ/maxresdefault.jpg", createdAt="2022-04-07T15:00:29Z")
+#     Touch | Off the Air | adult swim''', videoUrl="vfZ6jywNSNQ", thumbnailUrl="https://i.ytimg.com/vi/vfZ6jywNSNQ/maxresdefault.jpg", createdAt="2022-04-07T15:00:29Z")
 
 
 
-    c2e2f9789de1f29bc916e1ce5ac12d32 = Video(channelId="52", title='''Floaty Jerry | Rick and Morty | adult swim''', description='''Rick and Beth try to rescue floaty Jerry, but Jerry refuses their help. Stream seasons 1-5 now on HBO Max: http://bit.ly/3hRw9rU 
+#     c2e2f9789de1f29bc916e1ce5ac12d32 = Video(channelId="52", title='''Floaty Jerry | Rick and Morty | adult swim''', description='''Rick and Beth try to rescue floaty Jerry, but Jerry refuses their help. Stream seasons 1-5 now on HBO Max: http://bit.ly/3hRw9rU 
 
-    #AdultSwim #RickAndMorty 
+#     #AdultSwim #RickAndMorty 
 
-    SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
+#     SUBSCRIBE: https://youtube.com/adultswim1?sub_confirmation=1
 
-    What to watch next: more Rick and Morty clips!
-    https://youtube.com/playlist?list=PLQl8zBB7bPvI_iYCe4LT8HHfjonOog4u3
+#     What to watch next: more Rick and Morty clips!
+#     https://youtube.com/playlist?list=PLQl8zBB7bPvI_iYCe4LT8HHfjonOog4u3
 
-    Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
+#     Watch the Adult Swim hub on HBO Max: http://bit.ly/3hRw9rU 
 
-    About Adult Swim:
-    Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
+#     About Adult Swim:
+#     Get your Adult Swim fix whenever and wherever you want at www.adultswim.com, or by downloading the Adult Swim app. Binge marathons or watch selected episodes of many of your favorite shows including Rick and Morty, Robot Chicken, Venture Bros., Aqua Teen Hunger Force and many more. 
 
-    Connect with Adult Swim Online:
-    Download the APPS: http://www.adultswim.com/apps/
-    Visit Adult Swim WEBSITE: http://www.adultswim.com 
-    Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
-    Follow Adult Swim on TWITTER: https://twitter.com/adultswim
-    Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
+#     Connect with Adult Swim Online:
+#     Download the APPS: http://www.adultswim.com/apps/
+#     Visit Adult Swim WEBSITE: http://www.adultswim.com 
+#     Like Adult Swim on FACEBOOK: https://facebook.com/adultswim
+#     Follow Adult Swim on TWITTER: https://twitter.com/adultswim
+#     Follow Adult Swim on INSTAGRAM: http://instagram.com/adultswim
 
-    Watch Adult Swim in your country:
-    United Kingdom: https://bit.ly/AS_UK
-    Republic of Ireland: https://bit.ly/AS_UK
-    France: https://bit.ly/AS_FR
-    Spain: https://bit.ly/AS_SPA
-    Germany: https://bit.ly/AS_GE
-    Sweden: https://bit.ly/AS_NORDIC
-    Norway: https://bit.ly/AS_NORDIC
-    Denmark: https://bit.ly/AS_NORDIC
-    Finland: https://bit.ly/AS_NORDIC
-    South Africa: https://bit.ly/AS_SA
+#     Watch Adult Swim in your country:
+#     United Kingdom: https://bit.ly/AS_UK
+#     Republic of Ireland: https://bit.ly/AS_UK
+#     France: https://bit.ly/AS_FR
+#     Spain: https://bit.ly/AS_SPA
+#     Germany: https://bit.ly/AS_GE
+#     Sweden: https://bit.ly/AS_NORDIC
+#     Norway: https://bit.ly/AS_NORDIC
+#     Denmark: https://bit.ly/AS_NORDIC
+#     Finland: https://bit.ly/AS_NORDIC
+#     South Africa: https://bit.ly/AS_SA
 
-    Floaty Jerry | Rick and Morty | adult swim''', videoUrl="OjOcb3aBJBo", thumbnailUrl="https://i.ytimg.com/vi/OjOcb3aBJBo/maxresdefault.jpg", createdAt="2022-04-06T16:00:24Z")
+#     Floaty Jerry | Rick and Morty | adult swim''', videoUrl="OjOcb3aBJBo", thumbnailUrl="https://i.ytimg.com/vi/OjOcb3aBJBo/maxresdefault.jpg", createdAt="2022-04-06T16:00:24Z")
 
 
 
-    c98d20e0ebb1c74d4185759499f85ee1 = Video(channelId="58", title='''Wiz Khalifa - Iced Out Necklace [Official Music Video]''', description='''Wiz Khalifa - Iced Out Necklace [Official Music Video]
-    🎶Stream → https://wizkhalifa.lnk.to/IcedOutNecklace
-    Music Produced by: Sledgren
+#     c98d20e0ebb1c74d4185759499f85ee1 = Video(channelId="58", title='''Wiz Khalifa - Iced Out Necklace [Official Music Video]''', description='''Wiz Khalifa - Iced Out Necklace [Official Music Video]
+#     🎶Stream → https://wizkhalifa.lnk.to/IcedOutNecklace
+#     Music Produced by: Sledgren
 
-    📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install
-    🍁Khalifa Kush available now → http://khalifakush.com
-    📺Taylor Gang Playlist → https://fanlink.to/tgytp
-    👕Taylor Gang merch → http://store.taylorgang.com
+#     📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install
+#     🍁Khalifa Kush available now → http://khalifakush.com
+#     📺Taylor Gang Playlist → https://fanlink.to/tgytp
+#     👕Taylor Gang merch → http://store.taylorgang.com
 
-    Follow Wiz ↙️
-    ►Subscribe to channel: http://goo.gl/y3Bnno
-    ►Instagram - https://instagram.com/wizkhalifa
-    ►Twitter - https://twitter.com/wizkhalifa
-    ►Facebook - https://facebook.com/wizkhalifa
-    ►Snapchat - https://snapchat.com/add/khalifathecap
-    ►Soundcloud - https://soundcloud.com/wizkhalifa
-    ►Website: http://wizkhalifa.com
+#     Follow Wiz ↙️
+#     ►Subscribe to channel: http://goo.gl/y3Bnno
+#     ►Instagram - https://instagram.com/wizkhalifa
+#     ►Twitter - https://twitter.com/wizkhalifa
+#     ►Facebook - https://facebook.com/wizkhalifa
+#     ►Snapchat - https://snapchat.com/add/khalifathecap
+#     ►Soundcloud - https://soundcloud.com/wizkhalifa
+#     ►Website: http://wizkhalifa.com
 
-    Follow Taylor Gang ↙️
-    ►Text - (412) 226-4201
-    ►Twitter - https://twitter.com/taylorgang​​​
-    ►Instagram - https://instagram.com/taylorgang​​​
-    ►Facebook - https://facebook.com/TaylorGang​​​
-    ►Soundcloud - https://soundcloud.com/taylorgang​​​
+#     Follow Taylor Gang ↙️
+#     ►Text - (412) 226-4201
+#     ►Twitter - https://twitter.com/taylorgang​​​
+#     ►Instagram - https://instagram.com/taylorgang​​​
+#     ►Facebook - https://facebook.com/TaylorGang​​​
+#     ►Soundcloud - https://soundcloud.com/taylorgang​​​
 
-    Director: Andrea Saavedra @producedbydre 
-    DOP: Mike Marasco @mikemarasco
-    1st AD: Kelo @Kelo_of_Dopeness
-    Creative Director : David Muniz @davemuniz
-    Executive Producer: Andrea Saavedra 
-    Executive Producer: Keilon Thompson 
-    Executive Producer: Lyric Aaliyah Thompson 
-    Producer: Brant Kantor
-    Production Manager: Nataly Arroyo 
-    2nd AD: Henrii Coleman
-    2nd 2nd AD: Chijoke Akujoubi
-    1st AC: Taylor Ross
-    1st AC: Spenser Wood 
-    2nd AC: Amber B 
-    Steadicam: Thor Wixom 
-    DIT/AE: Nick Alvarez 
-    BTS: Samuel Flores
-    BTS: Steven Olguin 
-    Gaffer: Robert Julin 
-    BBE: Chirstopher Oh 
-    Electric: Noah Shettel 
-    Electric: Maile Edwards 
-    Electric: Jake Glaviano 
-    Electric: Zach White 
-    Electric: Jack Thomas 
-    Electric: Zinedine Huarta 
-    Key Grip: Omar Pena 
-    BBG: Josh Andersen 
-    Grip: Gavin Samples 
-    Grip: Yoni Coen
-    Grip: Paul Martin
-    Grip: Niklas Tosian
-    Grip: Alejandro Zambrano
-    Grip: Kyle Schumacher
-    Production Designer: Jevon Dismuke 
-    Art Coord: Daniella Nikolic
-    Set Dresser: Eden Vanetek
-    Set Dresser: Fabian Suarez
-    Set Dresser: Mckay LeDuke
-    Set Dresser: Richard Murray
-    Set Dresser: Tyler Dillon
-    Head of Glam: Lizzy Arroyo
-    Office PA: Harper Royal
-    Truck PA: Jeffrey
-    Set PA: RB
-    Set PA: Isaiah Wright
-    Set PA: Ryan Davis
-    Set PA: Damian Arroyo
-    Playback: Kaidontrap
-    Crafty: Whitney Smith
-    Crafty Asst: Madison Blue
-    Set Medic: Tony Washington
-    Casting Director: Sarah May Levy
-    Casting: Big Apple Casting
-    Taylor Gang EP: Brad Johnson
-    Project Manager: Michelle Fafard
-    Management: Nisha Bhagat
-    Production Co: Moonlight Cinema @amoonlightcinema
+#     Director: Andrea Saavedra @producedbydre 
+#     DOP: Mike Marasco @mikemarasco
+#     1st AD: Kelo @Kelo_of_Dopeness
+#     Creative Director : David Muniz @davemuniz
+#     Executive Producer: Andrea Saavedra 
+#     Executive Producer: Keilon Thompson 
+#     Executive Producer: Lyric Aaliyah Thompson 
+#     Producer: Brant Kantor
+#     Production Manager: Nataly Arroyo 
+#     2nd AD: Henrii Coleman
+#     2nd 2nd AD: Chijoke Akujoubi
+#     1st AC: Taylor Ross
+#     1st AC: Spenser Wood 
+#     2nd AC: Amber B 
+#     Steadicam: Thor Wixom 
+#     DIT/AE: Nick Alvarez 
+#     BTS: Samuel Flores
+#     BTS: Steven Olguin 
+#     Gaffer: Robert Julin 
+#     BBE: Chirstopher Oh 
+#     Electric: Noah Shettel 
+#     Electric: Maile Edwards 
+#     Electric: Jake Glaviano 
+#     Electric: Zach White 
+#     Electric: Jack Thomas 
+#     Electric: Zinedine Huarta 
+#     Key Grip: Omar Pena 
+#     BBG: Josh Andersen 
+#     Grip: Gavin Samples 
+#     Grip: Yoni Coen
+#     Grip: Paul Martin
+#     Grip: Niklas Tosian
+#     Grip: Alejandro Zambrano
+#     Grip: Kyle Schumacher
+#     Production Designer: Jevon Dismuke 
+#     Art Coord: Daniella Nikolic
+#     Set Dresser: Eden Vanetek
+#     Set Dresser: Fabian Suarez
+#     Set Dresser: Mckay LeDuke
+#     Set Dresser: Richard Murray
+#     Set Dresser: Tyler Dillon
+#     Head of Glam: Lizzy Arroyo
+#     Office PA: Harper Royal
+#     Truck PA: Jeffrey
+#     Set PA: RB
+#     Set PA: Isaiah Wright
+#     Set PA: Ryan Davis
+#     Set PA: Damian Arroyo
+#     Playback: Kaidontrap
+#     Crafty: Whitney Smith
+#     Crafty Asst: Madison Blue
+#     Set Medic: Tony Washington
+#     Casting Director: Sarah May Levy
+#     Casting: Big Apple Casting
+#     Taylor Gang EP: Brad Johnson
+#     Project Manager: Michelle Fafard
+#     Management: Nisha Bhagat
+#     Production Co: Moonlight Cinema @amoonlightcinema
 
-    #WizKhalifa #IcedOutNecklace #TaylorGang 
-    © 2022 Taylor Gang Ent., LLC''', videoUrl="LNPnz5LDbr8", thumbnailUrl="https://i.ytimg.com/vi/LNPnz5LDbr8/maxresdefault.jpg", createdAt="2022-04-11T19:00:12Z")
+#     #WizKhalifa #IcedOutNecklace #TaylorGang 
+#     © 2022 Taylor Gang Ent., LLC''', videoUrl="LNPnz5LDbr8", thumbnailUrl="https://i.ytimg.com/vi/LNPnz5LDbr8/maxresdefault.jpg", createdAt="2022-04-11T19:00:12Z")
 
 
 
-    c63f87ef61af79c75f9a7117cb96263a = Video(channelId="58", title='''Wiz Khalifa - Still Rolling Papers | After Party''', description='''Watch the full Still Rolling Papers Documentary at https://www.youtube.com/watch?v=7PexSCqzXQQ''', videoUrl="tzXerrJAujA", thumbnailUrl="https://i.ytimg.com/vi/tzXerrJAujA/hqdefault.jpg", createdAt="2022-04-02T00:24:36Z")
+#     c63f87ef61af79c75f9a7117cb96263a = Video(channelId="58", title='''Wiz Khalifa - Still Rolling Papers | After Party''', description='''Watch the full Still Rolling Papers Documentary at https://www.youtube.com/watch?v=7PexSCqzXQQ''', videoUrl="tzXerrJAujA", thumbnailUrl="https://i.ytimg.com/vi/tzXerrJAujA/hqdefault.jpg", createdAt="2022-04-02T00:24:36Z")
 
 
 
-    c4d4912bea0e17df3281b871131e4545 = Video(channelId="58", title='''Wiz Khalifa - Still Rolling Papers | Documentary''', description='''Still Rolling Papers is a 30-minute documentary about Wiz Khalifa’s journey from hometown hero to global superstar. It’s the story of how a crew of friends took their dreams into their own hands and built one of the most impactful movements within Hip Hop. It’s a story of resilience, self belief, taking risks and ignoring outside pressure. The doc features interviews from Chevy Woods, Curren$y Snoop Dogg, Wiz Khalifa and more as they reflect on 10+ years of Taylor Gang. Thank you to all the fans who have been a part of the journey along the way.
+#     c4d4912bea0e17df3281b871131e4545 = Video(channelId="58", title='''Wiz Khalifa - Still Rolling Papers | Documentary''', description='''Still Rolling Papers is a 30-minute documentary about Wiz Khalifa’s journey from hometown hero to global superstar. It’s the story of how a crew of friends took their dreams into their own hands and built one of the most impactful movements within Hip Hop. It’s a story of resilience, self belief, taking risks and ignoring outside pressure. The doc features interviews from Chevy Woods, Curren$y Snoop Dogg, Wiz Khalifa and more as they reflect on 10+ years of Taylor Gang. Thank you to all the fans who have been a part of the journey along the way.
 
-    HipHopDX Presents Still Rolling Papers Starring Wiz Khalifa and Taylor Gang 
-    Executive Produced By Wiz Khalifa, Will Dzombak, Kevin Hofman & Sharath Cherian
-    In Association With Atlantic Records/ Warner Music Group, SMAC Entertainment
-    Directed By Blair Avery (@createdbyba)
-    Produced By & Interviews By Jeremy Hecht (@jeremy_hecht)
-    Produced By Jordan Saint-Pierre (@jordansaintpierre)
-    Thumbnail design by JR Martinez (@zxmbiac)
+#     HipHopDX Presents Still Rolling Papers Starring Wiz Khalifa and Taylor Gang 
+#     Executive Produced By Wiz Khalifa, Will Dzombak, Kevin Hofman & Sharath Cherian
+#     In Association With Atlantic Records/ Warner Music Group, SMAC Entertainment
+#     Directed By Blair Avery (@createdbyba)
+#     Produced By & Interviews By Jeremy Hecht (@jeremy_hecht)
+#     Produced By Jordan Saint-Pierre (@jordansaintpierre)
+#     Thumbnail design by JR Martinez (@zxmbiac)
 
-    Timecodes - 0:00
-    0:30 - Wiz Khalifa reflects on the past decade in the game
-    1:30 - Wiz talks about growing up in Hazelwood, Pittsburgh
-    2:00 - How Chevy Woods and Wiz Khalifa connected in the studio
-    2:00 - Sledgren talks about connecting with Wiz
-    3:00 - How Taylor Gang and Wiz Khalifa started wearing chucks
-    3:30 - Wiz Khalifa on taking music seriously and recording at ID Labs
-    4:00 - E. Dan talks about working with Wiz Khalifa
-    5:00 - Curren$y talks about meeting Wiz Khalifa and connecting through music
-    6:00 - How Curren$y and Wiz Khalifa started smoking papers
-    8:00 - Wiz Khalifa’s crew and the origins of Taylor Gang
-    10:00 - Wiz signs his deal and goes on tour
-    12:00 - Wiz Khalifa and Taylor Gang partying on tour - On My Level
-    13:00 - Wiz talks about bringing smoking to his brand
-    14:00 - Wiz Khalifa talks about Creating Rolling Papers
-    16:00 - Wiz talks about dying his hair blonde
-    17:00 - Wiz Khalifa talks about making “Black And Yellow”
-    20:00 - How Snoop Dogg met Wiz Khalifa
-    21:00 - Wiz Khalifa’s Rolling Stone Cover and becoming a superstar
-    23:00 - Wiz Khalifa on returning to Pittsburgh to finish the album
-    24:00 - Wiz and Taylor Gang talk about making “The Race”
-    26:00 - What Rolling Papers means to the world
-    27:00 - Who is Wiz Khalifa
+#     Timecodes - 0:00
+#     0:30 - Wiz Khalifa reflects on the past decade in the game
+#     1:30 - Wiz talks about growing up in Hazelwood, Pittsburgh
+#     2:00 - How Chevy Woods and Wiz Khalifa connected in the studio
+#     2:00 - Sledgren talks about connecting with Wiz
+#     3:00 - How Taylor Gang and Wiz Khalifa started wearing chucks
+#     3:30 - Wiz Khalifa on taking music seriously and recording at ID Labs
+#     4:00 - E. Dan talks about working with Wiz Khalifa
+#     5:00 - Curren$y talks about meeting Wiz Khalifa and connecting through music
+#     6:00 - How Curren$y and Wiz Khalifa started smoking papers
+#     8:00 - Wiz Khalifa’s crew and the origins of Taylor Gang
+#     10:00 - Wiz signs his deal and goes on tour
+#     12:00 - Wiz Khalifa and Taylor Gang partying on tour - On My Level
+#     13:00 - Wiz talks about bringing smoking to his brand
+#     14:00 - Wiz Khalifa talks about Creating Rolling Papers
+#     16:00 - Wiz talks about dying his hair blonde
+#     17:00 - Wiz Khalifa talks about making “Black And Yellow”
+#     20:00 - How Snoop Dogg met Wiz Khalifa
+#     21:00 - Wiz Khalifa’s Rolling Stone Cover and becoming a superstar
+#     23:00 - Wiz Khalifa on returning to Pittsburgh to finish the album
+#     24:00 - Wiz and Taylor Gang talk about making “The Race”
+#     26:00 - What Rolling Papers means to the world
+#     27:00 - Who is Wiz Khalifa
 
-    Featured Cast:
+#     Featured Cast:
 
-    Big Jerm - Producer & Engineer
-    Chevy Woods - Rapper/ Taylor Gang OG
-    Curren$y - Rapper & Entrepreneur
-    DJ Bonics - Wiz’s Tour DJ
-    E. Dan - Producer and Owner of I.D. Labs Studio 
-    LaMarr Woodley - Pittsburgh Steelers Super Bowl Champion
-    Light aka “Loody Boy” - Merchandise Manager and Director of Meet & Greets
-    Marsha St. Hubert - VP, Marketing. Atlantic Records
-    Matt Young - President, Warner Music Artist Services
-    Motor - Wiz’s Uncle/ Merchandise Director
-    Peachie - Wiz’s Mom
-    Stargate - Black & Yellow Producers
-    Sledgren - Producer
-    Snoop Dogg - Rap Legend
-    Sydney Margetson - Senior VP of Publicity, Atlantic Records
-    Will Dzombak - Wiz’s Manager/ CEO Taylor Gang
+#     Big Jerm - Producer & Engineer
+#     Chevy Woods - Rapper/ Taylor Gang OG
+#     Curren$y - Rapper & Entrepreneur
+#     DJ Bonics - Wiz’s Tour DJ
+#     E. Dan - Producer and Owner of I.D. Labs Studio 
+#     LaMarr Woodley - Pittsburgh Steelers Super Bowl Champion
+#     Light aka “Loody Boy” - Merchandise Manager and Director of Meet & Greets
+#     Marsha St. Hubert - VP, Marketing. Atlantic Records
+#     Matt Young - President, Warner Music Artist Services
+#     Motor - Wiz’s Uncle/ Merchandise Director
+#     Peachie - Wiz’s Mom
+#     Stargate - Black & Yellow Producers
+#     Sledgren - Producer
+#     Snoop Dogg - Rap Legend
+#     Sydney Margetson - Senior VP of Publicity, Atlantic Records
+#     Will Dzombak - Wiz’s Manager/ CEO Taylor Gang
 
 
-    Credits:
-    Director of Photography: Joey Koch
-    Sound Recording, Mix, and Master by
-    Fabian G. Rios
-    Color Correction: Nathan Girard
-    Special Effects & Video Art: Pax & Q
+#     Credits:
+#     Director of Photography: Joey Koch
+#     Sound Recording, Mix, and Master by
+#     Fabian G. Rios
+#     Color Correction: Nathan Girard
+#     Special Effects & Video Art: Pax & Q
     
-    Graphics & Design
-    Pax & Q - Intro/Outro Graphics & Lower Thirds 
-    JR Martinez - Textual Design
+#     Graphics & Design
+#     Pax & Q - Intro/Outro Graphics & Lower Thirds 
+#     JR Martinez - Textual Design
     
 
-    Crew:
-
-    Los Angeles Shoots:
-    Joey Koch - Director of Photography
-    Blair Avery - First Camera
-    Jordan Saint-Pierre - Production Lead
-    Jeremy Hecht - Interviews, Research & Production
-    Sergio Mejia - Sound & lighting production
-    Kai Chu - Production Assistant 
-    Braden Walker - Additional shots and footage provided
-
-    Pittsburgh Shoots:
-    Blair Avery - Director of Photography
-    Seth Welch - Lead Camera Operator
-    Andy Qu - Camera Operator
-    Brian Jones - Production Coordinator 
-    Jeremy Hecht - Interviews & Research
-    Shawn Painter - Production Assistant
-
-    Las Vegas Shoots:
-    Blair Avery - Director of Photography
-    Braden Walker - Additional Camera
-    Nathan Ball - Production Coordinator
-
-
-    Line Producers:
-    Elise Ricks
-    Ali Darwish
-    Nathan Ball 
-
-    Commissioned By Atlantic Records:
-    Blake Foster - Senior Vice President, Global Catalog Development & Marketing at Warner Music Group
-    Alvin Akintimehin - Director, Marketing, HipHop/R&B Catalog at Warner Music Group
-    Marsha St. Hubert - VP, Marketing at Atlantic Records
-    Kevin Hofman - Vice President, Content Development & Production at Warner Music Group
-
-    For more of HipHopDX:
-    http://www.hiphopdx.com
-    https://twitter.com/hiphopdx
-    https://www.facebook.com/hiphopdx
-    http://instagram.com/hiphopdx
-
-    Rest In Peace To Nipsey Hussle & Mac Miller
-    Special thank you to the fans who have been on this journey for a decade plus
-
-    #WizKhalifa #StillRollingPapers #TaylorGang''', videoUrl="7PexSCqzXQQ", thumbnailUrl="https://i.ytimg.com/vi/7PexSCqzXQQ/hqdefault.jpg", createdAt="2022-03-30T00:00:11Z")
-
-
-
-    c5aeb9aa50f898479a30e4cad497e495 = Video(channelId="58", title='''Wiz Khalifa & Juicy J - Weak (feat. Big 30) [Official Music Video]''', description='''Wiz Khalifa & Juicy J - Weak (feat. Big 30) [Official Music Video]
-    🎶  https://ffm.to/stonersnight
-    🤯  https://store.taylorgang.com/collections/stoners-night
-
-    📺Taylor Gang Playlist → https://fanlink.to/tgytp
-    👕Taylor Gang merch → http://store.taylorgang.com
-
-    Follow Wiz ↙️
-    ►Subscribe to channel: http://goo.gl/y3Bnno
-    ►Instagram - https://instagram.com/wizkhalifa
-    ►Twitter - https://twitter.com/wizkhalifa
-    ►Facebook - https://facebook.com/wizkhalifa
-    ►Snapchat - https://snapchat.com/add/khalifathecap
-    ►Soundcloud - https://soundcloud.com/wizkhalifa
-    ►Website: http://wizkhalifa.com
-
-    Follow Juicy J ↙️
-    ►Twitter - https://twitter.com/therealjuicyj
-    ►Facebook - https://facebook.com/wizkhalifa
-    ►Instagram - https://instagram.com/juicyj
-    ►Soundcloud - https://soundcloud.com/juicyjmusic
-    ►Website - https://thejuicyj.com/
-
-    Follow Taylor Gang ↙️
-    ►Text - (412) 226-4201
-    ►Twitter - https://twitter.com/taylorgang​​​
-    ►Instagram - https://instagram.com/taylorgang​​​
-    ►Facebook - https://facebook.com/TaylorGang​​​
-    ►Soundcloud - https://soundcloud.com/taylorgang​​​
-
-    #WizKhalifa #JuicyJ #TaylorGang
-    © 2021 Taylor Gang Ent., LLC''', videoUrl="FRQwVBvfcGk", thumbnailUrl="https://i.ytimg.com/vi/FRQwVBvfcGk/maxresdefault.jpg", createdAt="2022-02-16T14:00:56Z")
-
-
-
-    c920e0e2e9a108722fabbbd60756914a = Video(channelId="58", title='''Wiz Khalifa - Wiz Got Wings [Official Music Video]''', description='''Wiz Khalifa - Wiz Got Wings [Official Music Video]
-    🎶Stream → https://fanlink.to/wizgotwings
-    Music Produced by: Sledgren & Chris Dreamer
-
-    📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install
-    🍁Khalifa Kush available now → http://khalifakush.com
-    📺Taylor Gang Playlist → https://fanlink.to/tgytp
-    👕Taylor Gang merch → http://store.taylorgang.com
-
-    Follow Wiz ↙️
-    ►Subscribe to channel: http://goo.gl/y3Bnno
-    ►Instagram - https://instagram.com/wizkhalifa
-    ►Twitter - https://twitter.com/wizkhalifa
-    ►Facebook - https://facebook.com/wizkhalifa
-    ►Snapchat - https://snapchat.com/add/khalifathecap
-    ►Soundcloud - https://soundcloud.com/wizkhalifa
-    ►Website: http://wizkhalifa.com
-
-    Follow Taylor Gang ↙️
-    ►Text - (412) 226-4201
-    ►Twitter - https://twitter.com/taylorgang​​​
-    ►Instagram - https://instagram.com/taylorgang​​​
-    ►Facebook - https://facebook.com/TaylorGang​​​
-    ►Soundcloud - https://soundcloud.com/taylorgang​​​
-
-    #WizKhalifa #TaylorGang #WizGotWings
-    © 2022 Taylor Gang Ent., LLC''', videoUrl="Mz4LYspnvk4", thumbnailUrl="https://i.ytimg.com/vi/Mz4LYspnvk4/maxresdefault.jpg", createdAt="2022-02-02T02:49:56Z")
-
+#     Crew:
+
+#     Los Angeles Shoots:
+#     Joey Koch - Director of Photography
+#     Blair Avery - First Camera
+#     Jordan Saint-Pierre - Production Lead
+#     Jeremy Hecht - Interviews, Research & Production
+#     Sergio Mejia - Sound & lighting production
+#     Kai Chu - Production Assistant 
+#     Braden Walker - Additional shots and footage provided
+
+#     Pittsburgh Shoots:
+#     Blair Avery - Director of Photography
+#     Seth Welch - Lead Camera Operator
+#     Andy Qu - Camera Operator
+#     Brian Jones - Production Coordinator 
+#     Jeremy Hecht - Interviews & Research
+#     Shawn Painter - Production Assistant
+
+#     Las Vegas Shoots:
+#     Blair Avery - Director of Photography
+#     Braden Walker - Additional Camera
+#     Nathan Ball - Production Coordinator
+
+
+#     Line Producers:
+#     Elise Ricks
+#     Ali Darwish
+#     Nathan Ball 
+
+#     Commissioned By Atlantic Records:
+#     Blake Foster - Senior Vice President, Global Catalog Development & Marketing at Warner Music Group
+#     Alvin Akintimehin - Director, Marketing, HipHop/R&B Catalog at Warner Music Group
+#     Marsha St. Hubert - VP, Marketing at Atlantic Records
+#     Kevin Hofman - Vice President, Content Development & Production at Warner Music Group
+
+#     For more of HipHopDX:
+#     http://www.hiphopdx.com
+#     https://twitter.com/hiphopdx
+#     https://www.facebook.com/hiphopdx
+#     http://instagram.com/hiphopdx
+
+#     Rest In Peace To Nipsey Hussle & Mac Miller
+#     Special thank you to the fans who have been on this journey for a decade plus
+
+#     #WizKhalifa #StillRollingPapers #TaylorGang''', videoUrl="7PexSCqzXQQ", thumbnailUrl="https://i.ytimg.com/vi/7PexSCqzXQQ/hqdefault.jpg", createdAt="2022-03-30T00:00:11Z")
+
+
+
+#     c5aeb9aa50f898479a30e4cad497e495 = Video(channelId="58", title='''Wiz Khalifa & Juicy J - Weak (feat. Big 30) [Official Music Video]''', description='''Wiz Khalifa & Juicy J - Weak (feat. Big 30) [Official Music Video]
+#     🎶  https://ffm.to/stonersnight
+#     🤯  https://store.taylorgang.com/collections/stoners-night
+
+#     📺Taylor Gang Playlist → https://fanlink.to/tgytp
+#     👕Taylor Gang merch → http://store.taylorgang.com
+
+#     Follow Wiz ↙️
+#     ►Subscribe to channel: http://goo.gl/y3Bnno
+#     ►Instagram - https://instagram.com/wizkhalifa
+#     ►Twitter - https://twitter.com/wizkhalifa
+#     ►Facebook - https://facebook.com/wizkhalifa
+#     ►Snapchat - https://snapchat.com/add/khalifathecap
+#     ►Soundcloud - https://soundcloud.com/wizkhalifa
+#     ►Website: http://wizkhalifa.com
+
+#     Follow Juicy J ↙️
+#     ►Twitter - https://twitter.com/therealjuicyj
+#     ►Facebook - https://facebook.com/wizkhalifa
+#     ►Instagram - https://instagram.com/juicyj
+#     ►Soundcloud - https://soundcloud.com/juicyjmusic
+#     ►Website - https://thejuicyj.com/
+
+#     Follow Taylor Gang ↙️
+#     ►Text - (412) 226-4201
+#     ►Twitter - https://twitter.com/taylorgang​​​
+#     ►Instagram - https://instagram.com/taylorgang​​​
+#     ►Facebook - https://facebook.com/TaylorGang​​​
+#     ►Soundcloud - https://soundcloud.com/taylorgang​​​
+
+#     #WizKhalifa #JuicyJ #TaylorGang
+#     © 2021 Taylor Gang Ent., LLC''', videoUrl="FRQwVBvfcGk", thumbnailUrl="https://i.ytimg.com/vi/FRQwVBvfcGk/maxresdefault.jpg", createdAt="2022-02-16T14:00:56Z")
+
+
+
+#     c920e0e2e9a108722fabbbd60756914a = Video(channelId="58", title='''Wiz Khalifa - Wiz Got Wings [Official Music Video]''', description='''Wiz Khalifa - Wiz Got Wings [Official Music Video]
+#     🎶Stream → https://fanlink.to/wizgotwings
+#     Music Produced by: Sledgren & Chris Dreamer
+
+#     📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install
+#     🍁Khalifa Kush available now → http://khalifakush.com
+#     📺Taylor Gang Playlist → https://fanlink.to/tgytp
+#     👕Taylor Gang merch → http://store.taylorgang.com
+
+#     Follow Wiz ↙️
+#     ►Subscribe to channel: http://goo.gl/y3Bnno
+#     ►Instagram - https://instagram.com/wizkhalifa
+#     ►Twitter - https://twitter.com/wizkhalifa
+#     ►Facebook - https://facebook.com/wizkhalifa
+#     ►Snapchat - https://snapchat.com/add/khalifathecap
+#     ►Soundcloud - https://soundcloud.com/wizkhalifa
+#     ►Website: http://wizkhalifa.com
+
+#     Follow Taylor Gang ↙️
+#     ►Text - (412) 226-4201
+#     ►Twitter - https://twitter.com/taylorgang​​​
+#     ►Instagram - https://instagram.com/taylorgang​​​
+#     ►Facebook - https://facebook.com/TaylorGang​​​
+#     ►Soundcloud - https://soundcloud.com/taylorgang​​​
+
+#     #WizKhalifa #TaylorGang #WizGotWings
+#     © 2022 Taylor Gang Ent., LLC''', videoUrl="Mz4LYspnvk4", thumbnailUrl="https://i.ytimg.com/vi/Mz4LYspnvk4/maxresdefault.jpg", createdAt="2022-02-02T02:49:56Z")
+
 
-
-    cef82514398bb11dcd760333eccb9057 = Video(channelId="58", title='''Wiz Khalifa - Dr. Dankenstien (ft. Fedd The God) [Official Music Video]''', description='''Wiz Khalifa - Dr. Dankenstien [Official Music Video]
-    🎶Stream → https://fanlink.to/wizgotwings
-    Music Produced by: Sledgren
-
-    📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install
-    🍁Khalifa Kush available now → http://khalifakush.com
-    📺Taylor Gang Playlist → https://fanlink.to/tgytp
-    👕Taylor Gang merch → http://store.taylorgang.com
-
-    Follow Wiz ↙️
-    ►Subscribe to channel: http://goo.gl/y3Bnno
-    ►Instagram - https://instagram.com/wizkhalifa
-    ►Twitter - https://twitter.com/wizkhalifa
-    ►Facebook - https://facebook.com/wizkhalifa
-    ►Snapchat - https://snapchat.com/add/khalifathecap
-    ►Soundcloud - https://soundcloud.com/wizkhalifa
-    ►Website: http://wizkhalifa.com
-
-    Follow Taylor Gang ↙️
-    ►Text - (412) 226-4201
-    ►Twitter - https://twitter.com/taylorgang​​​
-    ►Instagram - https://instagram.com/taylorgang​​​
-    ►Facebook - https://facebook.com/TaylorGang​​​
-    ►Soundcloud - https://soundcloud.com/taylorgang​​​
-
-    #WizKhalifa #TaylorGang #WizGotWings
-    © 2022 Taylor Gang Ent., LLC''', videoUrl="za9n5_WzpFo", thumbnailUrl="https://i.ytimg.com/vi/za9n5_WzpFo/maxresdefault.jpg", createdAt="2022-01-31T16:14:54Z")
-
+
+#     cef82514398bb11dcd760333eccb9057 = Video(channelId="58", title='''Wiz Khalifa - Dr. Dankenstien (ft. Fedd The God) [Official Music Video]''', description='''Wiz Khalifa - Dr. Dankenstien [Official Music Video]
+#     🎶Stream → https://fanlink.to/wizgotwings
+#     Music Produced by: Sledgren
+
+#     📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install
+#     🍁Khalifa Kush available now → http://khalifakush.com
+#     📺Taylor Gang Playlist → https://fanlink.to/tgytp
+#     👕Taylor Gang merch → http://store.taylorgang.com
+
+#     Follow Wiz ↙️
+#     ►Subscribe to channel: http://goo.gl/y3Bnno
+#     ►Instagram - https://instagram.com/wizkhalifa
+#     ►Twitter - https://twitter.com/wizkhalifa
+#     ►Facebook - https://facebook.com/wizkhalifa
+#     ►Snapchat - https://snapchat.com/add/khalifathecap
+#     ►Soundcloud - https://soundcloud.com/wizkhalifa
+#     ►Website: http://wizkhalifa.com
+
+#     Follow Taylor Gang ↙️
+#     ►Text - (412) 226-4201
+#     ►Twitter - https://twitter.com/taylorgang​​​
+#     ►Instagram - https://instagram.com/taylorgang​​​
+#     ►Facebook - https://facebook.com/TaylorGang​​​
+#     ►Soundcloud - https://soundcloud.com/taylorgang​​​
+
+#     #WizKhalifa #TaylorGang #WizGotWings
+#     © 2022 Taylor Gang Ent., LLC''', videoUrl="za9n5_WzpFo", thumbnailUrl="https://i.ytimg.com/vi/za9n5_WzpFo/maxresdefault.jpg", createdAt="2022-01-31T16:14:54Z")
+
 
 
-    c6d25a42a1f89a88c1fddc80aac1995b = Video(channelId="58", title='''Wiz Khalifa & Juicy J - Backseat (feat. Project Pat) [Official Music Video]''', description='''Wiz Khalifa & Juicy J - Backseat (feat. Project Pat) [Official Music Video]
-    🎶  https://ffm.to/-backseat
-    📲  https://ffm.to/stonersnight
+#     c6d25a42a1f89a88c1fddc80aac1995b = Video(channelId="58", title='''Wiz Khalifa & Juicy J - Backseat (feat. Project Pat) [Official Music Video]''', description='''Wiz Khalifa & Juicy J - Backseat (feat. Project Pat) [Official Music Video]
+#     🎶  https://ffm.to/-backseat
+#     📲  https://ffm.to/stonersnight
 
-    📺Taylor Gang Playlist → https://fanlink.to/tgytp
-    👕Taylor Gang merch → http://store.taylorgang.com
+#     📺Taylor Gang Playlist → https://fanlink.to/tgytp
+#     👕Taylor Gang merch → http://store.taylorgang.com
 
-    Follow Wiz ↙️
-    ►Subscribe to channel: http://goo.gl/y3Bnno
-    ►Instagram - https://instagram.com/wizkhalifa
-    ►Twitter - https://twitter.com/wizkhalifa
-    ►Facebook - https://facebook.com/wizkhalifa
-    ►Snapchat - https://snapchat.com/add/khalifathecap
-    ►Soundcloud - https://soundcloud.com/wizkhalifa
-    ►Website: http://wizkhalifa.com
+#     Follow Wiz ↙️
+#     ►Subscribe to channel: http://goo.gl/y3Bnno
+#     ►Instagram - https://instagram.com/wizkhalifa
+#     ►Twitter - https://twitter.com/wizkhalifa
+#     ►Facebook - https://facebook.com/wizkhalifa
+#     ►Snapchat - https://snapchat.com/add/khalifathecap
+#     ►Soundcloud - https://soundcloud.com/wizkhalifa
+#     ►Website: http://wizkhalifa.com
 
-    Follow Juicy J ↙️
-    ►Twitter - https://twitter.com/therealjuicyj
-    ►Facebook - https://facebook.com/wizkhalifa
-    ►Instagram - https://instagram.com/juicyj
-    ►Soundcloud - https://soundcloud.com/juicyjmusic
-    ►Website - https://thejuicyj.com/
+#     Follow Juicy J ↙️
+#     ►Twitter - https://twitter.com/therealjuicyj
+#     ►Facebook - https://facebook.com/wizkhalifa
+#     ►Instagram - https://instagram.com/juicyj
+#     ►Soundcloud - https://soundcloud.com/juicyjmusic
+#     ►Website - https://thejuicyj.com/
 
-    Follow Taylor Gang ↙️
-    ►Text - (412) 226-4201
-    ►Twitter - https://twitter.com/taylorgang​​​
-    ►Instagram - https://instagram.com/taylorgang​​​
-    ►Facebook - https://facebook.com/TaylorGang​​​
-    ►Soundcloud - https://soundcloud.com/taylorgang​​​
-
-    #WizKhalifa #JuicyJ #TaylorGang
-    © 2021 Taylor Gang Ent., LLC''', videoUrl="Aeoa5ZsJ02U", thumbnailUrl="https://i.ytimg.com/vi/Aeoa5ZsJ02U/maxresdefault.jpg", createdAt="2022-01-26T17:00:10Z")
+#     Follow Taylor Gang ↙️
+#     ►Text - (412) 226-4201
+#     ►Twitter - https://twitter.com/taylorgang​​​
+#     ►Instagram - https://instagram.com/taylorgang​​​
+#     ►Facebook - https://facebook.com/TaylorGang​​​
+#     ►Soundcloud - https://soundcloud.com/taylorgang​​​
+
+#     #WizKhalifa #JuicyJ #TaylorGang
+#     © 2021 Taylor Gang Ent., LLC''', videoUrl="Aeoa5ZsJ02U", thumbnailUrl="https://i.ytimg.com/vi/Aeoa5ZsJ02U/maxresdefault.jpg", createdAt="2022-01-26T17:00:10Z")
 
 
 
-    c4d37f8e6964772862815edd502002d5 = Video(channelId="58", title='''Sledgren, Wiz Khalifa, & Larry June - Chill With Me [Official Music Video]''', description='''Sledgren, Wiz Khalifa, & Larry June - Chill With Me [Official Music Video]
-    🎶Stream/Download → https://music.empi.re/chillwithme
+#     c4d37f8e6964772862815edd502002d5 = Video(channelId="58", title='''Sledgren, Wiz Khalifa, & Larry June - Chill With Me [Official Music Video]''', description='''Sledgren, Wiz Khalifa, & Larry June - Chill With Me [Official Music Video]
+#     🎶Stream/Download → https://music.empi.re/chillwithme
 
-    📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install
-    🍁Khalifa Kush available now → http://khalifakush.com
-    📺Taylor Gang Playlist → https://fanlink.to/tgytp
-    👕Taylor Gang merch → http://store.taylorgang.com
+#     📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install
+#     🍁Khalifa Kush available now → http://khalifakush.com
+#     📺Taylor Gang Playlist → https://fanlink.to/tgytp
+#     👕Taylor Gang merch → http://store.taylorgang.com
 
-    Follow Wiz ↙️
-    ►Subscribe to channel: http://goo.gl/y3Bnno
-    ►Snapchat - https://www.snapchat.com/add/khalifat...
-    ►Twitter - https://twitter.com/wizkhalifa
-    ►Facebook - https://facebook.com/wizkhalifa
-    ►Instagram - https://instagram.com/wizkhalifa
-    ►Soundcloud - https://soundcloud.com/wizkhalifa
-    ►Website: http://wizkhalifa.com
+#     Follow Wiz ↙️
+#     ►Subscribe to channel: http://goo.gl/y3Bnno
+#     ►Snapchat - https://www.snapchat.com/add/khalifat...
+#     ►Twitter - https://twitter.com/wizkhalifa
+#     ►Facebook - https://facebook.com/wizkhalifa
+#     ►Instagram - https://instagram.com/wizkhalifa
+#     ►Soundcloud - https://soundcloud.com/wizkhalifa
+#     ►Website: http://wizkhalifa.com
 
-    Follow Sledgren ↙️
-    ►Twitter - https://twitter.com/imsledgren
-    ►Instagram - https://instagram.com/sledgren
-    ►Soundcloud - https://soundcloud.com/sledgren
-
-    Follow Taylor Gang ↙️
-    ►YouTube - https://youtube.com/taylorgang
-    ►Twitter - https://twitter.com/taylorgang
-    ►Instagram - https://www.instagram.com/taylorgang
-    ►Facebook - https://www.facebook.com/TaylorGang
-    ►Soundcloud - https://soundcloud.com/taylorgang
-
-    #Sledgren #WizKhalifa #LarryJune''', videoUrl="p0gRoOLp1kQ", thumbnailUrl="https://i.ytimg.com/vi/p0gRoOLp1kQ/maxresdefault.jpg", createdAt="2022-01-14T05:00:09Z")
-
-
-
-    c8f0d56cb4356aea2c75724892267af1 = Video(channelId="58", title='''Wiz Khalifa - Can't Stay Sober [Official Music Video]''', description='''Wiz Khalifa - Can't Stay Sober [Official Music Video]
-    🎶Stream → https://fanlink.to/wizgotwings
-    Music Produced by Cardo & Foley
+#     Follow Sledgren ↙️
+#     ►Twitter - https://twitter.com/imsledgren
+#     ►Instagram - https://instagram.com/sledgren
+#     ►Soundcloud - https://soundcloud.com/sledgren
+
+#     Follow Taylor Gang ↙️
+#     ►YouTube - https://youtube.com/taylorgang
+#     ►Twitter - https://twitter.com/taylorgang
+#     ►Instagram - https://www.instagram.com/taylorgang
+#     ►Facebook - https://www.facebook.com/TaylorGang
+#     ►Soundcloud - https://soundcloud.com/taylorgang
+
+#     #Sledgren #WizKhalifa #LarryJune''', videoUrl="p0gRoOLp1kQ", thumbnailUrl="https://i.ytimg.com/vi/p0gRoOLp1kQ/maxresdefault.jpg", createdAt="2022-01-14T05:00:09Z")
+
+
+
+#     c8f0d56cb4356aea2c75724892267af1 = Video(channelId="58", title='''Wiz Khalifa - Can't Stay Sober [Official Music Video]''', description='''Wiz Khalifa - Can't Stay Sober [Official Music Video]
+#     🎶Stream → https://fanlink.to/wizgotwings
+#     Music Produced by Cardo & Foley
 
-    📺Taylor Gang Playlist → https://fanlink.to/tgytp
-    👕Taylor Gang merch → http://store.taylorgang.com
+#     📺Taylor Gang Playlist → https://fanlink.to/tgytp
+#     👕Taylor Gang merch → http://store.taylorgang.com
 
-    Follow Wiz ↙️
-    ►Subscribe to channel: http://goo.gl/y3Bnno
-    ►Instagram - https://instagram.com/wizkhalifa
-    ►Twitter - https://twitter.com/wizkhalifa
-    ►Facebook - https://facebook.com/wizkhalifa
-    ►Snapchat - https://snapchat.com/add/khalifathecap
-    ►Soundcloud - https://soundcloud.com/wizkhalifa
-    ►Website: http://wizkhalifa.com
+#     Follow Wiz ↙️
+#     ►Subscribe to channel: http://goo.gl/y3Bnno
+#     ►Instagram - https://instagram.com/wizkhalifa
+#     ►Twitter - https://twitter.com/wizkhalifa
+#     ►Facebook - https://facebook.com/wizkhalifa
+#     ►Snapchat - https://snapchat.com/add/khalifathecap
+#     ►Soundcloud - https://soundcloud.com/wizkhalifa
+#     ►Website: http://wizkhalifa.com
 
-    Follow Taylor Gang ↙️
-    ►Text - (412) 226-4201
-    ►Twitter - https://twitter.com/taylorgang​​​
-    ►Instagram - https://instagram.com/taylorgang​​​
-    ►Facebook - https://facebook.com/TaylorGang​​​
-    ►Soundcloud - https://soundcloud.com/taylorgang​​​
-
-    #WizKhalifa #TaylorGang #WizGotWings
-    © 2021 Taylor Gang Ent., LLC''', videoUrl="1DcUUUYe8Ug", thumbnailUrl="https://i.ytimg.com/vi/1DcUUUYe8Ug/maxresdefault.jpg", createdAt="2021-12-24T18:42:33Z")
-
-
-
-    c235c28cb2920c2cc921daa11ab88ec1 = Video(channelId="58", title='''Wiz Khalifa: Heavy Liquid Death User''', description='''Bosses like me only fill their glass with one water. Because when you’re at the highest level, you demand the best. Take it from someone who really, really knows his hydro. Be just like me at liquiddeath.com.''', videoUrl="Ciz1rguPPdU", thumbnailUrl="https://i.ytimg.com/vi/Ciz1rguPPdU/maxresdefault.jpg", createdAt="2021-12-07T17:00:06Z")
-
-
-
-    c96e4da70b8ecaa68d0ed3b04d01b8d6 = Video(channelId="58", title='''Wiz Khalifa - DayToday - Vegas to party. Pittsburgh for Lalaween''', description='''Wiz Khalifa - DayToday - Vegas to party:Pittsburgh for Lalaween
-    📼 Watch more episodes of DayToday → http://tgod.com/DayToday
-
-    🕶 New Video out now → https://youtu.be/OClzPGchFwU
-    📀 New Music out now → https://Wiz.lnk.to/SagaOfWizKhalifaDe...
+#     Follow Taylor Gang ↙️
+#     ►Text - (412) 226-4201
+#     ►Twitter - https://twitter.com/taylorgang​​​
+#     ►Instagram - https://instagram.com/taylorgang​​​
+#     ►Facebook - https://facebook.com/TaylorGang​​​
+#     ►Soundcloud - https://soundcloud.com/taylorgang​​​
+
+#     #WizKhalifa #TaylorGang #WizGotWings
+#     © 2021 Taylor Gang Ent., LLC''', videoUrl="1DcUUUYe8Ug", thumbnailUrl="https://i.ytimg.com/vi/1DcUUUYe8Ug/maxresdefault.jpg", createdAt="2021-12-24T18:42:33Z")
+
+
+
+#     c235c28cb2920c2cc921daa11ab88ec1 = Video(channelId="58", title='''Wiz Khalifa: Heavy Liquid Death User''', description='''Bosses like me only fill their glass with one water. Because when you’re at the highest level, you demand the best. Take it from someone who really, really knows his hydro. Be just like me at liquiddeath.com.''', videoUrl="Ciz1rguPPdU", thumbnailUrl="https://i.ytimg.com/vi/Ciz1rguPPdU/maxresdefault.jpg", createdAt="2021-12-07T17:00:06Z")
+
+
+
+#     c96e4da70b8ecaa68d0ed3b04d01b8d6 = Video(channelId="58", title='''Wiz Khalifa - DayToday - Vegas to party. Pittsburgh for Lalaween''', description='''Wiz Khalifa - DayToday - Vegas to party:Pittsburgh for Lalaween
+#     📼 Watch more episodes of DayToday → http://tgod.com/DayToday
+
+#     🕶 New Video out now → https://youtu.be/OClzPGchFwU
+#     📀 New Music out now → https://Wiz.lnk.to/SagaOfWizKhalifaDe...
 
-    📺Taylor Gang Playlist → https://tgod.com/YTP​​
-    👕Taylor Gang merch → http://store.taylorgang.com​​
-    🍁Khalifa Kush available now → http://khalifakush.com​​
-    📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install​​
+#     📺Taylor Gang Playlist → https://tgod.com/YTP​​
+#     👕Taylor Gang merch → http://store.taylorgang.com​​
+#     🍁Khalifa Kush available now → http://khalifakush.com​​
+#     📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install​​
 
-    Follow Wiz ↙️
-    ►Updates: http://linktr.ee/WizKhalifa​​
-    ►Subscribe on YouTube: https://tgod.com/WizYT​​
-    ►Snapchat - https://snapchat.com/add/khalifat​​hecap
-    ►Twitter - https://twitter.com/wizkhalifa​​
-    ►Facebook - https://facebook.com/wizkhalifa​​
-    ►Instagram - https://instagram.com/wizkhalifa​​
-    ►Soundcloud - https://soundcloud.com/wizkhalifa​​
-    ►Website & Merch: http://wizkhalifa.com​​
-
-    Follow Taylor Gang  ↙️
-    ►Text - (412) 226-4201
-    ►Store - http://store.taylorgang.com​​
-    ►YouTube - https://youtube.com/taylorgang
-    ►Twitter - https://twitter.com/taylorgang
-    ►Instagram - https://instagram.com/taylorgang
-    ►Facebook - https://facebook.com/taylorgang
-    ►Soundcloud - https://soundcloud.com/taylorgang
-
-    #WizKhalifa​​ #TaylorGang​​ #DayToday​''', videoUrl="srol-t3R0PY", thumbnailUrl="https://i.ytimg.com/vi/srol-t3R0PY/hqdefault.jpg", createdAt="2021-12-07T01:52:53Z")
+#     Follow Wiz ↙️
+#     ►Updates: http://linktr.ee/WizKhalifa​​
+#     ►Subscribe on YouTube: https://tgod.com/WizYT​​
+#     ►Snapchat - https://snapchat.com/add/khalifat​​hecap
+#     ►Twitter - https://twitter.com/wizkhalifa​​
+#     ►Facebook - https://facebook.com/wizkhalifa​​
+#     ►Instagram - https://instagram.com/wizkhalifa​​
+#     ►Soundcloud - https://soundcloud.com/wizkhalifa​​
+#     ►Website & Merch: http://wizkhalifa.com​​
+
+#     Follow Taylor Gang  ↙️
+#     ►Text - (412) 226-4201
+#     ►Store - http://store.taylorgang.com​​
+#     ►YouTube - https://youtube.com/taylorgang
+#     ►Twitter - https://twitter.com/taylorgang
+#     ►Instagram - https://instagram.com/taylorgang
+#     ►Facebook - https://facebook.com/taylorgang
+#     ►Soundcloud - https://soundcloud.com/taylorgang
+
+#     #WizKhalifa​​ #TaylorGang​​ #DayToday​''', videoUrl="srol-t3R0PY", thumbnailUrl="https://i.ytimg.com/vi/srol-t3R0PY/hqdefault.jpg", createdAt="2021-12-07T01:52:53Z")
 
 
 
-    c5f013ec64076eb10dec5da78bf62260 = Video(channelId="58", title='''Wiz Khalifa & Juicy J - Pop That Trunk [Official Music Video]''', description='''Wiz Khalifa & Juicy J - Pop That Trunk [Official Music Video]
-    🎶Stream → https://ffm.to/popthattrunk
-    🤯  POP THAT TRUNK MERCH → https://store.taylorgang.com/stonersnight
+#     c5f013ec64076eb10dec5da78bf62260 = Video(channelId="58", title='''Wiz Khalifa & Juicy J - Pop That Trunk [Official Music Video]''', description='''Wiz Khalifa & Juicy J - Pop That Trunk [Official Music Video]
+#     🎶Stream → https://ffm.to/popthattrunk
+#     🤯  POP THAT TRUNK MERCH → https://store.taylorgang.com/stonersnight
 
-    📺Taylor Gang Playlist → https://fanlink.to/tgytp
-    👕Taylor Gang merch → http://store.taylorgang.com
+#     📺Taylor Gang Playlist → https://fanlink.to/tgytp
+#     👕Taylor Gang merch → http://store.taylorgang.com
 
-    Follow Wiz ↙️
-    ►Subscribe to channel: http://goo.gl/y3Bnno
-    ►Instagram - https://instagram.com/wizkhalifa
-    ►Twitter - https://twitter.com/wizkhalifa
-    ►Facebook - https://facebook.com/wizkhalifa
-    ►Snapchat - https://snapchat.com/add/khalifathecap
-    ►Soundcloud - https://soundcloud.com/wizkhalifa
-    ►Website: http://wizkhalifa.com
-
-    Follow Juicy J ↙️
-    ►Twitter - https://twitter.com/therealjuicyj
-    ►Facebook - https://facebook.com/wizkhalifa
-    ►Instagram - https://instagram.com/juicyj
-    ►Soundcloud - https://soundcloud.com/juicyjmusic
-    ►Website - https://thejuicyj.com/
-
-    Follow Taylor Gang ↙️
-    ►Text - (412) 226-4201
-    ►Twitter - https://twitter.com/taylorgang​​​
-    ►Instagram - https://instagram.com/taylorgang​​​
-    ►Facebook - https://facebook.com/TaylorGang​​​
-    ►Soundcloud - https://soundcloud.com/taylorgang​​​
-
-    #WizKhalifa #JuicyJ #TaylorGang
-    © 2021 Taylor Gang Ent., LLC''', videoUrl="99SHU7vaucs", thumbnailUrl="https://i.ytimg.com/vi/99SHU7vaucs/hqdefault.jpg", createdAt="2021-12-03T14:00:09Z")
-
-
-
-    c93fd89591e73415e437bb7823d24dd9 = Video(channelId="58", title='''Wiz Khalifa - DayToday - Leaving LA to Get Stoned in Miami''', description='''Wiz Khalifa - DayToday - Leaving LA to Get Stoned in Miami
-    📼 Watch more episodes of DayToday → http://tgod.com/DayToday
-
-    🕶 New Video out now → https://youtu.be/OClzPGchFwU
-    📀 New Music out now → https://Wiz.lnk.to/SagaOfWizKhalifaDe...
-
-    📺Taylor Gang Playlist → https://tgod.com/YTP​​
-    👕Taylor Gang merch → http://store.taylorgang.com​​
-    🍁Khalifa Kush available now → http://khalifakush.com​​
-    📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install​​
-
-    Follow Wiz ↙️
-    ►Updates: http://linktr.ee/WizKhalifa​​
-    ►Subscribe on YouTube: https://tgod.com/WizYT​​
-    ►Snapchat - https://snapchat.com/add/khalifat​​hecap
-    ►Twitter - https://twitter.com/wizkhalifa​​
-    ►Facebook - https://facebook.com/wizkhalifa​​
-    ►Instagram - https://instagram.com/wizkhalifa​​
-    ►Soundcloud - https://soundcloud.com/wizkhalifa​​
-    ►Website & Merch: http://wizkhalifa.com​​
-
-    Follow Taylor Gang  ↙️
-    ►Text - (412) 226-4201
-    ►Store - http://store.taylorgang.com​​
-    ►YouTube - https://youtube.com/taylorgang
-    ►Twitter - https://twitter.com/taylorgang
-    ►Instagram - https://instagram.com/taylorgang
-    ►Facebook - https://facebook.com/taylorgang
-    ►Soundcloud - https://soundcloud.com/taylorgang
-
-    #WizKhalifa​​ #TaylorGang​​ #DayToday​''', videoUrl="yEgXTG4cozI", thumbnailUrl="https://i.ytimg.com/vi/yEgXTG4cozI/hqdefault.jpg", createdAt="2021-11-29T21:58:07Z")
-
-
-
-    cf96ece51a9598d174b5d737ace388ea = Video(channelId="58", title='''Wiz Khalifa ft. Young Deji - Potent (chosen weed mix)''', description='''Wiz Khalifa ft. Young Deji - Potent (chosen weed mix)
-
-    📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install
-    🍁Khalifa Kush available now → http://khalifakush.com
-    📺Taylor Gang Playlist → https://fanlink.to/tgytp
-    👕Taylor Gang merch → http://store.taylorgang.com
-
-    Follow Wiz ↙️
-    ►Subscribe to channel: http://goo.gl/y3Bnno
-    ►Snapchat - https://www.snapchat.com/add/khalifat...
-    ►Twitter - https://twitter.com/wizkhalifa
-    ►Facebook - https://facebook.com/wizkhalifa
-    ►Instagram - https://instagram.com/wizkhalifa
-    ►Soundcloud - https://soundcloud.com/wizkhalifa
-    ►Website: http://wizkhalifa.com
-
-    Follow  Taylor Gang   ↙️
-    ►YouTube - https://youtube.com/taylorgang
-    ►Twitter - https://twitter.com/taylorgang
-    ►Instagram - https://www.instagram.com/taylorgang
-    ►Facebook - https://www.facebook.com/TaylorGang
-    ►Soundcloud - https://soundcloud.com/taylorgang
-
-    #WizKhalifa #Weedmix #YoungDeji''', videoUrl="euJNc4l_d7w", thumbnailUrl="https://i.ytimg.com/vi/euJNc4l_d7w/maxresdefault.jpg", createdAt="2021-11-26T17:58:21Z")
-
-
-
-    c2fe9caafc04373d3ab51dd2bd7d31cf = Video(channelId="58", title='''Wiz Khalifa - DayToday - Always Makin Plays''', description='''Wiz Khalifa - DayToday - Always Makin Plays 
-    📼 Watch more episodes of DayToday → http://tgod.com/DayToday
-
-    🕶 New Video out now → https://youtu.be/OClzPGchFwU
-    📀 New Music out now → https://Wiz.lnk.to/SagaOfWizKhalifaDe...
-
-    📺Taylor Gang Playlist → https://tgod.com/YTP​​
-    👕Taylor Gang merch → http://store.taylorgang.com​​
-    🍁Khalifa Kush available now → http://khalifakush.com​​
-    📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install​​
-
-    Follow Wiz ↙️
-    ►Updates: http://linktr.ee/WizKhalifa​​
-    ►Subscribe on YouTube: https://tgod.com/WizYT​​
-    ►Snapchat - https://snapchat.com/add/khalifat​​hecap
-    ►Twitter - https://twitter.com/wizkhalifa​​
-    ►Facebook - https://facebook.com/wizkhalifa​​
-    ►Instagram - https://instagram.com/wizkhalifa​​
-    ►Soundcloud - https://soundcloud.com/wizkhalifa​​
-    ►Website & Merch: http://wizkhalifa.com​​
-
-    Follow Taylor Gang  ↙️
-    ►Text - (412) 226-4201
-    ►Store - http://store.taylorgang.com​​
-    ►YouTube - https://youtube.com/taylorgang
-    ►Twitter - https://twitter.com/taylorgang
-    ►Instagram - https://instagram.com/taylorgang
-    ►Facebook - https://facebook.com/taylorgang
-    ►Soundcloud - https://soundcloud.com/taylorgang
-
-    #WizKhalifa​​ #TaylorGang​​ #DayToday​''', videoUrl="HNwYLos3vC8", thumbnailUrl="https://i.ytimg.com/vi/HNwYLos3vC8/hqdefault.jpg", createdAt="2021-11-24T17:52:56Z")
+#     Follow Wiz ↙️
+#     ►Subscribe to channel: http://goo.gl/y3Bnno
+#     ►Instagram - https://instagram.com/wizkhalifa
+#     ►Twitter - https://twitter.com/wizkhalifa
+#     ►Facebook - https://facebook.com/wizkhalifa
+#     ►Snapchat - https://snapchat.com/add/khalifathecap
+#     ►Soundcloud - https://soundcloud.com/wizkhalifa
+#     ►Website: http://wizkhalifa.com
+
+#     Follow Juicy J ↙️
+#     ►Twitter - https://twitter.com/therealjuicyj
+#     ►Facebook - https://facebook.com/wizkhalifa
+#     ►Instagram - https://instagram.com/juicyj
+#     ►Soundcloud - https://soundcloud.com/juicyjmusic
+#     ►Website - https://thejuicyj.com/
+
+#     Follow Taylor Gang ↙️
+#     ►Text - (412) 226-4201
+#     ►Twitter - https://twitter.com/taylorgang​​​
+#     ►Instagram - https://instagram.com/taylorgang​​​
+#     ►Facebook - https://facebook.com/TaylorGang​​​
+#     ►Soundcloud - https://soundcloud.com/taylorgang​​​
+
+#     #WizKhalifa #JuicyJ #TaylorGang
+#     © 2021 Taylor Gang Ent., LLC''', videoUrl="99SHU7vaucs", thumbnailUrl="https://i.ytimg.com/vi/99SHU7vaucs/hqdefault.jpg", createdAt="2021-12-03T14:00:09Z")
+
+
+
+#     c93fd89591e73415e437bb7823d24dd9 = Video(channelId="58", title='''Wiz Khalifa - DayToday - Leaving LA to Get Stoned in Miami''', description='''Wiz Khalifa - DayToday - Leaving LA to Get Stoned in Miami
+#     📼 Watch more episodes of DayToday → http://tgod.com/DayToday
+
+#     🕶 New Video out now → https://youtu.be/OClzPGchFwU
+#     📀 New Music out now → https://Wiz.lnk.to/SagaOfWizKhalifaDe...
+
+#     📺Taylor Gang Playlist → https://tgod.com/YTP​​
+#     👕Taylor Gang merch → http://store.taylorgang.com​​
+#     🍁Khalifa Kush available now → http://khalifakush.com​​
+#     📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install​​
+
+#     Follow Wiz ↙️
+#     ►Updates: http://linktr.ee/WizKhalifa​​
+#     ►Subscribe on YouTube: https://tgod.com/WizYT​​
+#     ►Snapchat - https://snapchat.com/add/khalifat​​hecap
+#     ►Twitter - https://twitter.com/wizkhalifa​​
+#     ►Facebook - https://facebook.com/wizkhalifa​​
+#     ►Instagram - https://instagram.com/wizkhalifa​​
+#     ►Soundcloud - https://soundcloud.com/wizkhalifa​​
+#     ►Website & Merch: http://wizkhalifa.com​​
+
+#     Follow Taylor Gang  ↙️
+#     ►Text - (412) 226-4201
+#     ►Store - http://store.taylorgang.com​​
+#     ►YouTube - https://youtube.com/taylorgang
+#     ►Twitter - https://twitter.com/taylorgang
+#     ►Instagram - https://instagram.com/taylorgang
+#     ►Facebook - https://facebook.com/taylorgang
+#     ►Soundcloud - https://soundcloud.com/taylorgang
+
+#     #WizKhalifa​​ #TaylorGang​​ #DayToday​''', videoUrl="yEgXTG4cozI", thumbnailUrl="https://i.ytimg.com/vi/yEgXTG4cozI/hqdefault.jpg", createdAt="2021-11-29T21:58:07Z")
+
+
+
+#     cf96ece51a9598d174b5d737ace388ea = Video(channelId="58", title='''Wiz Khalifa ft. Young Deji - Potent (chosen weed mix)''', description='''Wiz Khalifa ft. Young Deji - Potent (chosen weed mix)
+
+#     📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install
+#     🍁Khalifa Kush available now → http://khalifakush.com
+#     📺Taylor Gang Playlist → https://fanlink.to/tgytp
+#     👕Taylor Gang merch → http://store.taylorgang.com
+
+#     Follow Wiz ↙️
+#     ►Subscribe to channel: http://goo.gl/y3Bnno
+#     ►Snapchat - https://www.snapchat.com/add/khalifat...
+#     ►Twitter - https://twitter.com/wizkhalifa
+#     ►Facebook - https://facebook.com/wizkhalifa
+#     ►Instagram - https://instagram.com/wizkhalifa
+#     ►Soundcloud - https://soundcloud.com/wizkhalifa
+#     ►Website: http://wizkhalifa.com
+
+#     Follow  Taylor Gang   ↙️
+#     ►YouTube - https://youtube.com/taylorgang
+#     ►Twitter - https://twitter.com/taylorgang
+#     ►Instagram - https://www.instagram.com/taylorgang
+#     ►Facebook - https://www.facebook.com/TaylorGang
+#     ►Soundcloud - https://soundcloud.com/taylorgang
+
+#     #WizKhalifa #Weedmix #YoungDeji''', videoUrl="euJNc4l_d7w", thumbnailUrl="https://i.ytimg.com/vi/euJNc4l_d7w/maxresdefault.jpg", createdAt="2021-11-26T17:58:21Z")
+
+
+
+#     c2fe9caafc04373d3ab51dd2bd7d31cf = Video(channelId="58", title='''Wiz Khalifa - DayToday - Always Makin Plays''', description='''Wiz Khalifa - DayToday - Always Makin Plays 
+#     📼 Watch more episodes of DayToday → http://tgod.com/DayToday
+
+#     🕶 New Video out now → https://youtu.be/OClzPGchFwU
+#     📀 New Music out now → https://Wiz.lnk.to/SagaOfWizKhalifaDe...
+
+#     📺Taylor Gang Playlist → https://tgod.com/YTP​​
+#     👕Taylor Gang merch → http://store.taylorgang.com​​
+#     🍁Khalifa Kush available now → http://khalifakush.com​​
+#     📱Download Wiz Khalifa's Weed Farm Now → http://weedfarm.wizkhalifa.com/install​​
+
+#     Follow Wiz ↙️
+#     ►Updates: http://linktr.ee/WizKhalifa​​
+#     ►Subscribe on YouTube: https://tgod.com/WizYT​​
+#     ►Snapchat - https://snapchat.com/add/khalifat​​hecap
+#     ►Twitter - https://twitter.com/wizkhalifa​​
+#     ►Facebook - https://facebook.com/wizkhalifa​​
+#     ►Instagram - https://instagram.com/wizkhalifa​​
+#     ►Soundcloud - https://soundcloud.com/wizkhalifa​​
+#     ►Website & Merch: http://wizkhalifa.com​​
+
+#     Follow Taylor Gang  ↙️
+#     ►Text - (412) 226-4201
+#     ►Store - http://store.taylorgang.com​​
+#     ►YouTube - https://youtube.com/taylorgang
+#     ►Twitter - https://twitter.com/taylorgang
+#     ►Instagram - https://instagram.com/taylorgang
+#     ►Facebook - https://facebook.com/taylorgang
+#     ►Soundcloud - https://soundcloud.com/taylorgang
+
+#     #WizKhalifa​​ #TaylorGang​​ #DayToday​''', videoUrl="HNwYLos3vC8", thumbnailUrl="https://i.ytimg.com/vi/HNwYLos3vC8/hqdefault.jpg", createdAt="2021-11-24T17:52:56Z")
 
 
 
