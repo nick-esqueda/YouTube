@@ -22,6 +22,8 @@ const SignUpForm = () => {
 			if (data) {
 				setErrors(data)
 			}
+		} else {
+			setErrors(['password : Passwords do not match.']);
 		}
 	};
 
@@ -52,13 +54,13 @@ const SignUpForm = () => {
 	return (
 		<div id='signup-page'>
 			<form onSubmit={onSignUp} id="signup-form">
-				<div style={{ marginBottom: '42px' }}>
-					<img src={logo} alt='logo' style={{ width: '160px' }} />
+				<div style={{ marginBottom: '52px' }}>
+					<img src={logo} alt='logo' style={{ width: '140px' }} />
 				</div>
 
-				<div>
+				<div className='col-right'>
 					{errors.map((error, ind) => (
-						<div key={ind}>{error}</div>
+						<span key={ind} className="subcount">{error.toUpperCase()}</span>
 					))}
 				</div>
 
@@ -69,6 +71,16 @@ const SignUpForm = () => {
 					placeholder='Pick a channel name'
 					onChange={updateUsername}
 					value={username}
+					style={
+						errors.find(
+							err => err.toUpperCase() === 'CHANNELNAME : THIS FIELD IS REQUIRED.'
+							// || err.toUpperCase() === 'PASSWORD : PASSWORD WAS INCORRECT.'
+							// || err.toUpperCase() === 'PASSWORD : NO SUCH USER EXISTS.'
+						)
+							? { borderColor: 'var(--red)' }
+							: {}
+					}
+
 				></input>
 
 				<h2 style={{ fontSize: '20px', fontWeight: '500' }}>Email</h2>
@@ -78,6 +90,16 @@ const SignUpForm = () => {
 					placeholder='Enter your email'
 					onChange={updateEmail}
 					value={email}
+					style={
+						errors.find(
+							err => err.toUpperCase() === 'EMAIL : THIS FIELD IS REQUIRED.'
+								|| err.toUpperCase() === 'EMAIL : EMAIL ADDRESS IS ALREADY IN USE.'
+								|| err.toUpperCase() === 'EMAIL : INVALID EMAIL ADDRESS.'
+						)
+							? { borderColor: 'var(--red)' }
+							: {}
+					}
+
 				></input>
 
 				<h2 style={{ fontSize: '20px', fontWeight: '500' }}>Password</h2>
@@ -87,6 +109,16 @@ const SignUpForm = () => {
 					placeholder='Enter a password'
 					onChange={updatePassword}
 					value={password}
+					style={
+						errors.find(
+							err => err.toUpperCase() === 'PASSWORD : THIS FIELD IS REQUIRED.'
+								|| err.toUpperCase() === 'PASSWORD : PASSWORDS DO NOT MATCH.'
+								|| err.toUpperCase() === 'PASSWORD : FIELD MUST BE AT LEAST 8 CHARACTERS LONG.'
+						)
+							? { borderColor: 'var(--red)' }
+							: {}
+					}
+
 				></input>
 
 				<h2 style={{ fontSize: '20px', fontWeight: '500' }}>Confirm Password</h2>
@@ -96,7 +128,14 @@ const SignUpForm = () => {
 					placeholder='Confirm your password'
 					onChange={updateRepeatPassword}
 					value={repeatPassword}
-					required={true}
+					style={
+						errors.find(
+							err => err.toUpperCase() === 'PASSWORD : PASSWORDS DO NOT MATCH.'
+						)
+							? { borderColor: 'var(--red)' }
+							: {}
+					}
+				// required={true}
 				></input>
 
 				<div className='row-space-between row-bottom' style={{ gap: '16px' }}>

@@ -40,8 +40,8 @@ const LoginForm = () => {
 	return (
 		<div id="login-page">
 			<form onSubmit={onLogin} id='login-form'>
-				<div style={{ marginBottom: '42px' }}>
-					<img src={logo} alt='logo' style={{ width: '160px' }} />
+				<div style={{ marginBottom: '52px' }}>
+					<img src={logo} alt='logo' style={{ width: '140px' }} />
 				</div>
 
 				<div className='col-right'>
