@@ -20,7 +20,7 @@
     height: 624px;
 }
 #video-upload-form .right {
-    width: 46%;
+    width: 42%;
     height: 624px;
     padding-top: 46px;
     align-items: flex-end;
@@ -83,8 +83,9 @@
 }
 .video-preview-wrapper {
     border: 1px solid var(--gray-light);
-    width: 100%;
-    margin-bottom: 16px;
+    width: 440px;
+    min-height: 248px;
+    margin-bottom: 10px;
     border-radius: 4px;
     aspect-ratio: 16/9;
 }
