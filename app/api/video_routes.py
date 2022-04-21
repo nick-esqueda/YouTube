@@ -64,7 +64,6 @@ def create_video():
 
 
 @video_routes.route('/<int:videoId>/', methods=["PATCH"])
-# TODO!!! check and make sure PATCH is supported just like PUT 
 def edit_post(videoId):
     """
     PATCH /api/videos/ \n
