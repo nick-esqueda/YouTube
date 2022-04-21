@@ -31,3 +31,13 @@ This YouTube clone was built using the following technologies:
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" style="width:60px;" />
 
 
+## Future Feature Ideas
+In the future, there are serveral feature additions and functionality enhancements that I would love to add to the site. Here are a few of those:
+* Suggested videos algorithm
+* Video likes
+* Comment likes
+* Comment replies
+* Subscribers
+* Views and watch history
+* Search functionality
+* Channel editing
