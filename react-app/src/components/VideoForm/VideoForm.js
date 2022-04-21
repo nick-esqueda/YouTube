@@ -199,7 +199,7 @@ export default function VideoForm() {
                                             className={!thumbnailUrl ? "svg" : ""}
                                         />
                                     </div>
-                                    <span className='subcount'>Upload Thumbnail</span>
+                                    <span className='subcount'>{!thumbnailUrl ? "Upload Thumbnail" : "Processing image..."}</span>
                                 </>
                             )}
                         </div>
@@ -236,7 +236,7 @@ export default function VideoForm() {
                                             style={{ width: "40px", height: "40px" }}
                                         />
                                     </div>
-                                    <span className='subcount'>Select Video</span>
+                                    <span className='subcount'>{!videoUrl ? "Select Video" : "Processing video..."}</span>
                                 </div>
                             )}
                     </div>
