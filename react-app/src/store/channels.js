@@ -24,6 +24,22 @@ export const fetchChannel = (channelId) => async dispatch => {
     }
 }
 
+export const editChannel = (channel) => async dispatch => {
+    const res = await fetch(`/api/channels/${channel.id}`, {
+        method: 'PATCH',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(channel),
+    })
+    
+    if (res.ok) {
+        const editedChannel = await res.json();
+        dispatch(addChannel(editedChannel));
+        return editedChannel;
+    }
+}
+
 
 // REDUCER ************************************************
 const channelsReducer = (state = {}, action) => {
