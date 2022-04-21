@@ -13,6 +13,7 @@ import SettingsPage from './components/SettingsPage/SettingsPage';
 import VideoPage from './components/VideoPage/VideoPage';
 import HomePage from './components/HomePage/HomePage';
 import VideoForm from './components/VideoForm/VideoForm';
+import PageNotFound from './components/PageNotFound/PageNotFound';
 
 function App() {
 	const dispatch = useDispatch();
@@ -53,7 +54,7 @@ function App() {
 					<Navbar />
 					<VideoForm />
 				</ProtectedRoute>
-				
+
 				<ProtectedRoute path='/videos/:videoId/edit' exact={true}>
 					<Navbar />
 					<VideoForm />
@@ -73,9 +74,10 @@ function App() {
 					<Navbar />
 					<HomePage />
 				</Route>
-				
+
 				<Route>
-					<h2>Sorry! We could not find the page you were looking for.</h2>
+					<Navbar />
+					<PageNotFound />
 				</Route>
 			</Switch>
 		</BrowserRouter>
