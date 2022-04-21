@@ -5,6 +5,7 @@ import { login, signUp } from '../../store/session';
 
 import './LoginSignup.css';
 import logo from '../../static/yt_logo_rgb_dark.png';
+import bgVideo from '../../static/youtube-rewind.mp4';
 
 const SignUpForm = () => {
 	const [errors, setErrors] = useState([]);
@@ -53,6 +54,12 @@ const SignUpForm = () => {
 
 	return (
 		<div id='signup-page'>
+			<div>
+				<video id="bg-video" autoPlay muted loop>
+					<source src={bgVideo} type="video/mp4" />
+				</video>
+			</div>
+			
 			<form onSubmit={onSignUp} id="signup-form">
 				<div style={{ marginBottom: '48px' }}>
 					<Link to='/'>

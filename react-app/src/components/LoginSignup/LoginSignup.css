@@ -1,6 +1,16 @@
 #login-page, #signup-page {
     width: calc(100% - 72px);
+    height: calc(100vh - 56px);
     margin: 0 auto;
+}
+
+#bg-video {
+    position: fixed;
+    top: 0; right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    
+    filter: opacity(.2) blur(8px);
 }
 
 #login-form, #signup-form {
@@ -15,12 +25,13 @@
     box-shadow: 4px 6px 16px 16px #26262629;
     
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 50%;
-    transform: translate(-50%, -55%);
+    transform: translate(-50%, -50%);
 }
 #signup-form {
     transform: translate(-50%, -50%);
+    box-shadow: 4px 6px 16px 16px #39393932;
 }
 
 
