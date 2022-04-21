@@ -27,7 +27,7 @@ export default function ChannelPage() {
 	}, [channelId]);
 
 	return !isLoaded ? null : (
-		<div id='channel-page' className=''>
+		<div id='channel-page' className='col-top'>
 			<div id='channel-header'>
 				{!channel.bannerImageUrl ? null : (
 					<div id='channel-banner'>

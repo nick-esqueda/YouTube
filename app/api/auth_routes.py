@@ -16,6 +16,13 @@ def validation_errors_to_error_messages(validation_errors):
         for error in validation_errors[field]:
             errorMessages.append(f'{field} : {error}')
     return errorMessages
+    
+def get_pfp(channelName):
+    try:
+        letter = channelName[0].upper()
+        return f"/default-pfps/{letter}.png"
+    except:
+        return f"/default-pfps/default.jpg"
 
 
 @auth_routes.route('/')
@@ -65,7 +72,8 @@ def sign_up():
         user = Channel(
             channelName=form.data['channelName'],
             email=form.data['email'],
-            password=form.data['password']
+            password=form.data['password'],
+            profileImageUrl=get_pfp(form.data['channelName'])
         )
         db.session.add(user)
         db.session.commit()
