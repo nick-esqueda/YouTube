@@ -1,0 +1,20 @@
+#not-found-wrapper {
+    width: calc(100% - 72px);
+    height: calc(100vh - 56px);
+    overflow: hidden;
+}
+
+#not-found-image {
+    width: 500px;
+    filter: contrast(132%);
+    position: relative;
+    top: -40px; right: 40px;
+}
+
+#go-back-home {
+    font-size: 16px;
+    position: absolute;
+    top: calc(50% + 132px);
+    left: calc(50% - 10px);
+    transform: translate(-50%, -50%);
+}

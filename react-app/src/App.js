@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import LoginForm from './components/LoginPage/LoginForm';
-import SignUpForm from './components/SignupPage/SignUpForm';
+import LoginForm from './components/LoginSignup/LoginForm';
+import SignupForm from './components/LoginSignup/SignupForm';
 import ProtectedRoute from './components/auth/ProtectedRoute';
 import UsersList from './components/UsersList';
 import { authenticate } from './store/session';
@@ -13,6 +13,7 @@ import SettingsPage from './components/SettingsPage/SettingsPage';
 import VideoPage from './components/VideoPage/VideoPage';
 import HomePage from './components/HomePage/HomePage';
 import VideoForm from './components/VideoForm/VideoForm';
+import PageNotFound from './components/PageNotFound/PageNotFound';
 
 function App() {
 	const dispatch = useDispatch();
@@ -37,7 +38,7 @@ function App() {
 
 				<Route path='/signup' exact={true}>
 					<Navbar />
-					<SignUpForm />
+					<SignupForm />
 				</Route>
 
 				<ProtectedRoute path='/users' exact={true} >
@@ -53,7 +54,7 @@ function App() {
 					<Navbar />
 					<VideoForm />
 				</ProtectedRoute>
-				
+
 				<ProtectedRoute path='/videos/:videoId/edit' exact={true}>
 					<Navbar />
 					<VideoForm />
@@ -73,9 +74,10 @@ function App() {
 					<Navbar />
 					<HomePage />
 				</Route>
-				
+
 				<Route>
-					<h2>Sorry! We could not find the page you were looking for.</h2>
+					<Navbar />
+					<PageNotFound />
 				</Route>
 			</Switch>
 		</BrowserRouter>

@@ -4,6 +4,7 @@
     background-color: var(--gray-dark);
     position: fixed;
     left: 0;
+    z-index: 100;
 }
 
 #nav a {

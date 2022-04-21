@@ -214,7 +214,7 @@ export default function VideoForm() {
                     </div>
                 </div>
 
-                <div className='right'>
+                <div className='right col-space-between'>
                     <div className='video-preview-wrapper' style={validationErrors.includes('Please choose a video first before submitting') && showErrors ? { borderColor: 'var(--red)' } : {}}>
                         {videoUrl.startsWith('https://')
                             ? (
@@ -241,7 +241,7 @@ export default function VideoForm() {
                             )}
                     </div>
 
-                    <div className='row-space-between full-size' style={video ? { visibility: 'hidden' } : {}}>
+                    <div className='row-space-between' style={video ? { visibility: 'hidden' } : { width: "100%" }}>
                         <div className='col-left'>
                             <h4 style={{ fontWeight: 500, margin: '10px 0' }}>Choose a video file to upload</h4>
                             <span className='subcount'>Your video won't be posted just yet.</span>
@@ -269,11 +269,11 @@ export default function VideoForm() {
 
                     <div className='error-container col-right col-bottom'>
                         {showErrors && validationErrors.map(err => (
-                            <div key={err}>{err}</div>
+                            <div key={err} className='right-align'>{err}</div>
                         ))}
                     </div>
 
-                    <div>
+                    <div style={{ margin: '12px 0' }}>
                         <button type='submit' className='btn btn--blue-outline'>{video ? "SUBMIT CHANGES" : "UPLOAD VIDEO"}</button>
                     </div>
                 </div>
