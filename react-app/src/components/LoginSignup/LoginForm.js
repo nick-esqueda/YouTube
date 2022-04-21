@@ -44,13 +44,13 @@ const LoginForm = () => {
 					<img src={logo} alt='logo' style={{ width: '140px' }} />
 				</div>
 
-				<div className='col-right'>
+				<div className='col-right' style={{ marginBottom: '16px' }}>
 					{errors.map((error, ind) => (
 						<span key={ind} className="subcount">{error.toUpperCase()}</span>
 					))}
 				</div>
 
-				<h2 style={{ fontSize: '20px', fontWeight: '500' }}>Email</h2>
+				<h2 style={{ fontSize: '18px', fontWeight: '500' }}>Email</h2>
 				<input
 					name='email'
 					type='text'
@@ -66,7 +66,7 @@ const LoginForm = () => {
 					}
 				/>
 
-				<h2 style={{ fontSize: '20px', fontWeight: '500' }}>Password</h2>
+				<h2 style={{ fontSize: '18px', fontWeight: '500' }}>Password</h2>
 				<input
 					name='password'
 					type='password'

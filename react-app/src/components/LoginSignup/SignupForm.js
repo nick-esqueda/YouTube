@@ -32,7 +32,7 @@ const SignUpForm = () => {
 	}
 
 	const updateUsername = (e) => {
-		setUsername(e.target.value);
+		setUsername(e.target.value.replace(/[^a-zA-Z0-9\s]/g, ''));
 	};
 
 	const updateEmail = (e) => {
@@ -58,13 +58,13 @@ const SignUpForm = () => {
 					<img src={logo} alt='logo' style={{ width: '140px' }} />
 				</div>
 
-				<div className='col-right'>
+				<div className='col-right' style={{ marginBottom: '16px' }}>
 					{errors.map((error, ind) => (
 						<span key={ind} className="subcount">{error.toUpperCase()}</span>
 					))}
 				</div>
 
-				<h2 style={{ fontSize: '20px', fontWeight: '500' }}>Your Channel Name</h2>
+				<h2 style={{ fontSize: '18px', fontWeight: '500' }}>Your Channel Name</h2>
 				<input
 					type='text'
 					name='username'
@@ -74,8 +74,8 @@ const SignUpForm = () => {
 					style={
 						errors.find(
 							err => err.toUpperCase() === 'CHANNELNAME : THIS FIELD IS REQUIRED.'
-							// || err.toUpperCase() === 'PASSWORD : PASSWORD WAS INCORRECT.'
-							// || err.toUpperCase() === 'PASSWORD : NO SUCH USER EXISTS.'
+								|| err.toUpperCase() === 'CHANNELNAME : USERNAME IS ALREADY IN USE.'
+								|| err.toUpperCase() === 'CHANNELNAME : FIRST CHARACTER MUST BE A LETTER.'
 						)
 							? { borderColor: 'var(--red)' }
 							: {}
@@ -83,7 +83,7 @@ const SignUpForm = () => {
 
 				></input>
 
-				<h2 style={{ fontSize: '20px', fontWeight: '500' }}>Email</h2>
+				<h2 style={{ fontSize: '18px', fontWeight: '500' }}>Email</h2>
 				<input
 					type='text'
 					name='email'
@@ -102,7 +102,7 @@ const SignUpForm = () => {
 
 				></input>
 
-				<h2 style={{ fontSize: '20px', fontWeight: '500' }}>Password</h2>
+				<h2 style={{ fontSize: '18px', fontWeight: '500' }}>Password</h2>
 				<input
 					type='password'
 					name='password'
@@ -121,7 +121,7 @@ const SignUpForm = () => {
 
 				></input>
 
-				<h2 style={{ fontSize: '20px', fontWeight: '500' }}>Confirm Password</h2>
+				<h2 style={{ fontSize: '18px', fontWeight: '500' }}>Confirm Password</h2>
 				<input
 					type='password'
 					name='repeat_password'
@@ -135,7 +135,7 @@ const SignUpForm = () => {
 							? { borderColor: 'var(--red)' }
 							: {}
 					}
-				// required={true}
+					// required={true}	
 				></input>
 
 				<div className='row-space-between row-bottom' style={{ gap: '16px' }}>
