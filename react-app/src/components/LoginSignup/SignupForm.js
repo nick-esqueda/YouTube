@@ -54,8 +54,10 @@ const SignUpForm = () => {
 	return (
 		<div id='signup-page'>
 			<form onSubmit={onSignUp} id="signup-form">
-				<div style={{ marginBottom: '52px' }}>
-					<img src={logo} alt='logo' style={{ width: '140px' }} />
+				<div style={{ marginBottom: '48px' }}>
+					<Link to='/'>
+						<img src={logo} alt='logo' style={{ width: '140px' }} />
+					</Link>
 				</div>
 
 				<div className='col-right' style={{ marginBottom: '16px' }}>
@@ -135,7 +137,7 @@ const SignUpForm = () => {
 							? { borderColor: 'var(--red)' }
 							: {}
 					}
-					// required={true}	
+				// required={true}	
 				></input>
 
 				<div className='row-space-between row-bottom' style={{ gap: '16px' }}>
