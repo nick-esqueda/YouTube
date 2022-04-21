@@ -5,6 +5,7 @@ import { login } from '../../store/session';
 
 import './LoginSignup.css';
 import logo from '../../static/yt_logo_rgb_dark.png';
+import bgVideo from '../../static/youtube-rewind.mp4';
 
 const LoginForm = () => {
 	const [errors, setErrors] = useState([]);
@@ -39,6 +40,12 @@ const LoginForm = () => {
 
 	return (
 		<div id="login-page">
+			<div>
+				<video id="bg-video" autoPlay muted loop>
+					<source src={bgVideo} type="video/mp4" />
+				</video>
+			</div>
+			
 			<form onSubmit={onLogin} id='login-form'>
 				<div style={{ marginBottom: '48px' }}>
 					<Link to='/'>
