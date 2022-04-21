@@ -25,7 +25,7 @@
 
 body {
     margin-top: 56px;
-    background: var(--black);
+    background: var(--gray-darkest);
     color: var(--white);
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.1px;

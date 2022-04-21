@@ -5,17 +5,16 @@
 }
 
 #not-found-image {
-    height: 100%;
-    object-fit: cover;
-    filter: contrast(145%);
+    width: 500px;
+    filter: contrast(132%);
     position: relative;
     top: -40px; right: 40px;
 }
 
 #go-back-home {
-    font-size: 18px;
+    font-size: 16px;
     position: absolute;
     top: calc(50% + 132px);
-    left: calc(50% - 18px);
+    left: calc(50% - 10px);
     transform: translate(-50%, -50%);
 }

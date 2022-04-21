@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-import pageNotFound from '../../static/404.png';
+import pageNotFound from '../../static/404.jpg';
 import './PageNotFound.css';
 
 export default function PageNotFound() {
