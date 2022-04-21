@@ -10,7 +10,7 @@
     min-width: 100%;
     min-height: 100%;
     
-    filter: opacity(.2) blur(8px);
+    filter: opacity(.2) blur(7px);
 }
 
 #login-form, #signup-form {
