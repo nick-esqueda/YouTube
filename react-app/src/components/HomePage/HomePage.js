@@ -41,7 +41,7 @@ export default function HomePage() {
     }, [nextPage]);
 
 
-    return !isLoaded ? null : (
+    return !isLoaded ? <img src={loadingWheel} alt='loading-wheel' style={{ width: "50px" }} className='absolute-center' /> : (
         <div id='home-page' className='col-space-even'>
             <div className='video-row-grid'>
                 {videos.map(video => (

@@ -5,10 +5,11 @@ import { fetchChannel } from '../../store/channels';
 
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 import AboutTab from './AboutTab';
-
-import './ChannelPage.css';
 import ChannelsTab from './ChannelsTab';
 import VideosTab from './VideosTab';
+
+import './ChannelPage.css';
+import loadingWheel from '../../static/icons/loading-wheel.gif';
 
 export default function ChannelPage() {
 	const { channelId } = useParams();
@@ -26,7 +27,7 @@ export default function ChannelPage() {
 		})();
 	}, [channelId]);
 
-	return !isLoaded ? null : (
+	return !isLoaded ? <img src={loadingWheel} alt='loading-wheel' style={{ width: "50px" }} className='absolute-center' /> : (
 		<div id='channel-page' className='col-top'>
 			<div id='channel-header'>
 				{!channel.bannerImageUrl ? null : (

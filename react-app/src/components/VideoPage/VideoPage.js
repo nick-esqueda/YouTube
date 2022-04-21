@@ -6,6 +6,7 @@ import CommentCard from '../CommentCard/CommentCard';
 import CommentForm from '../CommentForm/CommentForm';
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 
+import loadingWheel from '../../static/icons/loading-wheel.gif';
 import threeDots from '../../static/icons/three-dots.png';
 import pencil from '../../static/icons/pencil.png';
 import trash from '../../static/icons/trash.png';
@@ -59,7 +60,7 @@ export default function VideoPage() {
         }
     }
 
-    return !isLoaded ? null : (
+    return !isLoaded ? <img src={loadingWheel} alt='loading-wheel' style={{ width: "50px" }} className='absolute-center' /> : (
         <div id='video-page' className=''>
             <div className='left'>
                 <div className='video-wrapper'>
