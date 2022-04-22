@@ -2,7 +2,7 @@ from flask import Blueprint, jsonify, request, session
 from flask_login import login_required
 from sqlalchemy import desc
 from app.models import db, Channel, Video
-from app.forms import ChannelEditForm
+from app.forms import ChannelEditForm, ChannelEditFormNoPfp
 from app.api.utils import validation_errors_to_error_messages
 
 channel_routes = Blueprint('channels', __name__)
@@ -45,12 +45,15 @@ def get_videos_for_channel(channelId, pageNum):
 
 
 @channel_routes.route('/<int:channelId>/', methods=["PATCH"])
-def edit_post(channelId):
+def edit_channel(channelId):
     """
     PATCH /api/channels/:channelId \n
     Update a channel by :channelId, then return the updated channel info. \n
     """
-    form = ChannelEditForm()
+    if request.json["profileImageUrl"].startswith('/default-pfps'):
+        form = ChannelEditFormNoPfp()
+    else:
+        form = ChannelEditForm()
 
     form['csrf_token'].data = request.cookies['csrf_token']
 

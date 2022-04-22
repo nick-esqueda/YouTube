@@ -13,6 +13,10 @@ export default function SettingsPage() {
 	const [profileImageUrl, setProfileImageUrl] = useState(sessionUser.profileImageUrl);
 	const [bannerImageUrl, setBannerImageUrl] = useState(sessionUser.bannerImageUrl);
 	const [about, setAbout] = useState(sessionUser.about ? sessionUser.about : '');
+	
+	console.log('session user', sessionUser);
+	console.log('profile image', profileImageUrl);
+	console.log('banner image', bannerImageUrl);
 
 	const onSubmit = e => {
 		e.preventDefault();
