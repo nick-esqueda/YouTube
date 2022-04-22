@@ -25,7 +25,7 @@ export const fetchChannel = (channelId) => async dispatch => {
 }
 
 export const editChannel = (channel) => async dispatch => {
-    const res = await fetch(`/api/channels/${channel.id}`, {
+    const res = await fetch(`/api/channels/${channel.id}/`, {
         method: 'PATCH',
         headers: {
             'Content-Type': 'application/json'
@@ -37,6 +37,9 @@ export const editChannel = (channel) => async dispatch => {
         const editedChannel = await res.json();
         dispatch(addChannel(editedChannel));
         return editedChannel;
+    } else {
+        const errors = await res.json();
+        throw errors;
     }
 }
 
