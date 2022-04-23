@@ -54,7 +54,7 @@ export default function VideoForm() {
     }, [dispatch]);
 
     const s3Upload = async (file, type) => {
-        if (!file) return console.log('upload a file first');
+        if (!file) return console.error('upload a file first');
         const formData = new FormData();
 
         formData.append('file', file);
