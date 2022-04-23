@@ -36,11 +36,11 @@ export default function SettingsPage() {
 
 		formData.append('file', file);
 
-		if (type === 'profileImage') {
+		if (type === 'profile') {
 			setProfileImageUrl(loadingWheel);
 			const { data: url } = await axios.post("/api/s3/upload/image", formData);
 			setProfileImageUrl(url);
-		} else if (type === 'bannerImage') {
+		} else if (type === 'banner') {
 			setBannerImageUrl(loadingWheel);
 			const { data: url } = await axios.post("/api/s3/upload/image", formData);
 			setBannerImageUrl(url);
@@ -49,16 +49,16 @@ export default function SettingsPage() {
 
 	const onSubmit = e => {
 		e.preventDefault();
+		
+		if (validationErrors.length) return setShowErrors(true);
 
 		const editedChannel = {
 			id: sessionUser.id, profileImageUrl, bannerImageUrl, about
-		}
-
-
+		}			
 
 		dispatch(editChannel(editedChannel))
 			.then(_ => {
-				return history.push(`/channels/${sessionUser.id}`)
+				return history.push(`/channels/${sessionUser.id}/about`);
 			})
 			.catch(async (data) => {
 				if (data && data.errors) {
@@ -93,7 +93,7 @@ export default function SettingsPage() {
 						name="profileImageUrl"
 						ref={pfpInputRef}
 						hidden={true}
-						onChange={e => s3Upload(e.target.files[0], 'image')}
+						onChange={e => s3Upload(e.target.files[0], 'profile')}
 					/>
 				</div>
 
@@ -124,7 +124,7 @@ export default function SettingsPage() {
 						name="bannerImageUrl"
 						ref={bannerInputRef}
 						hidden={true}
-						onChange={e => s3Upload(e.target.files[0], 'image')}
+						onChange={e => s3Upload(e.target.files[0], 'banner')}
 					/>
 				</div>
 
@@ -150,6 +150,20 @@ export default function SettingsPage() {
 						></textarea>
 					</div>
 				</div>
+
+				<div className='error-container col-right col-bottom'>
+					{showErrors && validationErrors.map(err => (
+						<div key={err} className='right-align'>{err}</div>
+					))}
+				</div>
+
+				<div style={{ margin: '12px 0' }}>
+					<button type='button' className='btn btn--blue-outline' 
+						onClick={() => history.push(`/channels/${sessionUser.id}/about`)}
+					>CANCEL CHANGES</button>
+					<button type='submit' className='btn btn--blue-outline'>SUBMIT CHANGES</button>
+				</div>
+
 			</form>
 		</div >
 	)
