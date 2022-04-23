@@ -11,7 +11,7 @@ export default function SettingsPage() {
 
 	const sessionUser = useSelector(state => state.session.user);
 	const [profileImageUrl, setProfileImageUrl] = useState(sessionUser.profileImageUrl);
-	const [bannerImageUrl, setBannerImageUrl] = useState(sessionUser.bannerImageUrl);
+	const [bannerImageUrl, setBannerImageUrl] = useState('');
 	const [about, setAbout] = useState(sessionUser.about ? sessionUser.about : '');
 	
 	console.log('session user', sessionUser);
@@ -24,6 +24,8 @@ export default function SettingsPage() {
 		const editedChannel = {
 			id: sessionUser.id, profileImageUrl, bannerImageUrl, about
 		}
+		
+		console.log(editedChannel);
 
 		dispatch(editChannel(editedChannel))
 			.then(_ => {

@@ -2,7 +2,7 @@ from flask import Blueprint, jsonify, request, session
 from flask_login import login_required
 from sqlalchemy import desc
 from app.models import db, Channel, Video
-from app.forms import ChannelEditForm, ChannelEditFormNoPfp
+from app.forms import ChannelEditForm, ChannelEditFormDefaultPfp
 from app.api.utils import validation_errors_to_error_messages
 
 channel_routes = Blueprint('channels', __name__)
@@ -51,7 +51,7 @@ def edit_channel(channelId):
     Update a channel by :channelId, then return the updated channel info. \n
     """
     if request.json["profileImageUrl"].startswith('/default-pfps'):
-        form = ChannelEditFormNoPfp()
+        form = ChannelEditFormDefaultPfp()
     else:
         form = ChannelEditForm()
 
