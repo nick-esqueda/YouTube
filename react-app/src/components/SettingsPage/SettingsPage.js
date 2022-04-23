@@ -49,12 +49,12 @@ export default function SettingsPage() {
 
 	const onSubmit = e => {
 		e.preventDefault();
-		
+
 		if (validationErrors.length) return setShowErrors(true);
 
 		const editedChannel = {
 			id: sessionUser.id, profileImageUrl, bannerImageUrl, about
-		}			
+		}
 
 		dispatch(editChannel(editedChannel))
 			.then(_ => {
@@ -70,22 +70,29 @@ export default function SettingsPage() {
 
 	return (
 		<div id='settings-page' className='test4'>
-			<form onSubmit={onSubmit}>
-				<div className='test1 image-upload-container left1'>
-					<div className="image-preview col-center pointer" onClick={() => pfpInputRef.current.click()}>
-						{profileImageUrl.startsWith('https://') ? (
-							<img
-								src={profileImageUrl}
-								alt="pfp-preview"
-								className=""
-							/>
-						) : (
-							<img
-								src={defaultPfp}
-								alt='pfp-preview'
-								className=''
-							/>
-						)}
+			<form onSubmit={onSubmit} className=''>
+				<div className='left1 col-left'>
+					<h4>Picture</h4>
+					<span className='subcount'>Your profile picture will appear where your channel is presented on YouTube, like next to your videos and comments.</span>
+
+					<div className='row-top'>
+						<div className="image-preview col-center pointer" onClick={() => pfpInputRef.current.click()}>
+							{profileImageUrl.startsWith('https://') ? (
+								<img
+									src={profileImageUrl}
+									alt="pfp-preview"
+									className="aspect"
+								/>
+							) : (
+								<img
+									src={defaultPfp}
+									alt='pfp-preview'
+									className="aspect"
+								/>
+							)}
+						</div>
+
+						<span className='subcount'>It's recommended to use a picture that's at least 98*98 pixels and 4MB or less. Use a PNG file. Please make sure your picture follows the YouTube Community guidelines. [LINK TO GUIDELINES HERE]</span>
 					</div>
 
 					<input type="file"
@@ -97,26 +104,33 @@ export default function SettingsPage() {
 					/>
 				</div>
 
-				<div className='test2 image-upload-container left2'>
-					<div className="image-preview col-center pointer" onClick={() => bannerInputRef.current.click()}>
-						{bannerImageUrl.startsWith('https://') ? (
-							<img
-								src={bannerImageUrl}
-								alt="pfp-preview"
-								className=""
-							/>
-						) : (
-							<>
-								<div className='svg-wrapper' style={{ width: "32px" }}>
-									<img
-										src={!bannerImageUrl ? addThumbnail : loadingWheel}
-										alt="banner-preview"
-										className={!bannerImageUrl ? "svg" : ""}
-									/>
-								</div>
-								<span className='subcount'>{!bannerImageUrl ? "Upload Banner Image" : "Processing image..."}</span>
-							</>
-						)}
+				<div className='left2 col-left'>
+					<h4>Banner image</h4>
+					<span className='subcount'>This image will appear across the top of your channel.</span>
+
+					<div className='row-top'>
+						<div className="image-preview col-center pointer" onClick={() => bannerInputRef.current.click()}>
+							{bannerImageUrl.startsWith('https://') ? (
+								<img
+									src={bannerImageUrl}
+									alt="pfp-preview"
+									className=""
+								/>
+							) : (
+								<>
+									<div className='svg-wrapper' style={{ width: "32px" }}>
+										<img
+											src={!bannerImageUrl ? addThumbnail : loadingWheel}
+											alt="banner-preview"
+											className={!bannerImageUrl ? "svg" : ""}
+										/>
+									</div>
+									<span className='subcount'>{!bannerImageUrl ? "Upload Banner Image" : "Processing image..."}</span>
+								</>
+							)}
+						</div>
+
+						<span className='subcount'>It's recommended to use a picture that's at least 98*98 pixels and 4MB or less. Use a PNG file. Please make sure your picture follows the YouTube Community guidelines. [LINK TO GUIDELINES HERE]</span>
 					</div>
 
 					<input type="file"
@@ -158,7 +172,7 @@ export default function SettingsPage() {
 				</div>
 
 				<div style={{ margin: '12px 0' }}>
-					<button type='button' className='btn btn--blue-outline' 
+					<button type='button' className='btn btn--blue-outline'
 						onClick={() => history.push(`/channels/${sessionUser.id}/about`)}
 					>CANCEL CHANGES</button>
 					<button type='submit' className='btn btn--blue-outline'>SUBMIT CHANGES</button>

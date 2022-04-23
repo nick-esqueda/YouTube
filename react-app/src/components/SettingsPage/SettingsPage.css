@@ -1,8 +1,10 @@
 #settings-page {
-    width: 100%;
+    width: calc(100% - 72px);
 }
-    #settings-page form {
+
+#settings-page form {
     width: 100%;
+    max-width: 1280px;
     
     display: grid;
     grid-template-columns: 55% 45%;
@@ -10,7 +12,6 @@
     grid-template-areas: 
         "left1 right"
         "left2 right";
-    
 }
 
 .image-upload-container {
@@ -32,4 +33,17 @@
 #settings-page .right {
     grid-area: right;
     height: 100%;
+}
+
+
+/* IMAGE PREVIEWS */
+#settings-page .image-preview {
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+    aspect-ratio: 16/9;
+}
+
+.aspect {
+    aspect-ratio: 16/9;
 }

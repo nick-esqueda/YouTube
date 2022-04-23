@@ -62,11 +62,11 @@ function App() {
 
 				<ProtectedRoute path='/channels/:channelId'>
 					<Navbar />
-					<Navbar />
 					<ChannelPage />
 				</ProtectedRoute>
 
 				<ProtectedRoute path="/settings/:channelId">
+					<Navbar />
 					<SettingsPage />
 				</ProtectedRoute>
 
