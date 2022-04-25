@@ -1,10 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { sortByCreatedAt } from '../../utils';
 
 import './VideosTab.css';
 
 export default function VideosTab({ channel }) {
-
+	
+	// console.log(channel.videos);
+	// sortByCreatedAt(channel.videos);
+	// console.log(channel.videos);
 
 	return (
 		<div id="videos-tab">
