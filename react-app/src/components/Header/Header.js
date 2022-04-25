@@ -51,7 +51,10 @@ export default function Header() {
 
 			{!sessionUser ? loggedOut : (
 				<div id='header__right' className='row-right'>
-					<div className='svg-wrapper pointer' onClick={_ => history.push('/upload')}>
+					<div className='svg-wrapper pointer' onClick={_ => {
+						history.push('/upload');
+						window.location.reload();
+					}}>
 						<img src={newVideo} alt='bell-icon' className='svg' />
 					</div>
 					{/* <div className='svg-wrapper disabled'>
