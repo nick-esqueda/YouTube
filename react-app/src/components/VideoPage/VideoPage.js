@@ -135,10 +135,12 @@ export default function VideoPage() {
                         {!showMore
                             ? <span
                                 className='subcount pointer show'
+                                style={!video.description ? { display: 'none' } : {} }
                                 onClick={e => setShowMore(true)}
                             >SHOW MORE</span>
                             : <span
                                 className='subcount pointer show'
+                                style={!video.description ? { display: 'none' } : {} }
                                 onClick={e => setShowMore(false)}
                             >SHOW LESS</span>
                         }
