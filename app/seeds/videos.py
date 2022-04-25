@@ -18914,68 +18914,68 @@ def seed_videos():
     
     
     
-    daca819c7f6980f09b65d582d1e45820 = Video(channelId="65", title='''Me Fighting Bugs in My Code #shorts #coding''', description='''''', videoUrl="6WiIq6_JpyE", thumbnailUrl="https://i.ytimg.com/vi/6WiIq6_JpyE/hqdefault.jpg", createdAt="2022-04-20T16:18:26Z")
+#     daca819c7f6980f09b65d582d1e45820 = Video(channelId="65", title='''Me Fighting Bugs in My Code #shorts #coding''', description='''''', videoUrl="6WiIq6_JpyE", thumbnailUrl="https://i.ytimg.com/vi/6WiIq6_JpyE/hqdefault.jpg", createdAt="2022-04-20T16:18:26Z")
     
     
     
-    dcdc746dc1d2a783a961c6650dc36d57 = Video(channelId="65", title='''Private video''', description='''This video is private.''', videoUrl="dN8wdvrma3c", thumbnailUrl="https://i.ytimg.com/vi/6WiIq6_JpyE/hqdefault.jpg", createdAt="2022-04-19T09:08:20Z")
+#     dcdc746dc1d2a783a961c6650dc36d57 = Video(channelId="65", title='''Private video''', description='''This video is private.''', videoUrl="dN8wdvrma3c", thumbnailUrl="https://i.ytimg.com/vi/6WiIq6_JpyE/hqdefault.jpg", createdAt="2022-04-19T09:08:20Z")
     
     
     
-    dfea70fce8acdafae78d7c35183eafc8 = Video(channelId="65", title='''Private video''', description='''This video is private.''', videoUrl="MAM-UcdMZXc", thumbnailUrl="https://i.ytimg.com/vi/6WiIq6_JpyE/hqdefault.jpg", createdAt="2022-04-16T08:57:18Z")
+#     dfea70fce8acdafae78d7c35183eafc8 = Video(channelId="65", title='''Private video''', description='''This video is private.''', videoUrl="MAM-UcdMZXc", thumbnailUrl="https://i.ytimg.com/vi/6WiIq6_JpyE/hqdefault.jpg", createdAt="2022-04-16T08:57:18Z")
     
     
     
-    def3ea3376a554e7872caeea8c1ffb34 = Video(channelId="65", title='''How to Get an Entry Level Job as a BRAND NEW Developer''', description='''Want to become a PAID developer?
-    Apply to the Devslopes Academy: https://devslopes.com/apply
+#     def3ea3376a554e7872caeea8c1ffb34 = Video(channelId="65", title='''How to Get an Entry Level Job as a BRAND NEW Developer''', description='''Want to become a PAID developer?
+#     Apply to the Devslopes Academy: https://devslopes.com/apply
     
-    You're finally ready to start applying for jobs, then BAM! You see all of those absurd job requirements. "Must know 6 Years JS." BLAH BLAH BLAH. In this video Connor breaks down step by step everything you need to know about landing your first ENTRY LEVEL job as a new developer. This is a must watch.
+#     You're finally ready to start applying for jobs, then BAM! You see all of those absurd job requirements. "Must know 6 Years JS." BLAH BLAH BLAH. In this video Connor breaks down step by step everything you need to know about landing your first ENTRY LEVEL job as a new developer. This is a must watch.
     
-    🔴🔴Must Watch Videos🔴🔴
+#     🔴🔴Must Watch Videos🔴🔴
     
-    Stop Watching Coding Tutorials!
-    https://youtu.be/n7JhRDRK3Gg
+#     Stop Watching Coding Tutorials!
+#     https://youtu.be/n7JhRDRK3Gg
     
-    Why You Shouldn't Become a Full-Stack Developer:
-    https://youtu.be/vgEVfaDmfTk
+#     Why You Shouldn't Become a Full-Stack Developer:
+#     https://youtu.be/vgEVfaDmfTk
     
-    💥Take Our 30 Day Coding Challenge💥
-    https://30daycodechallenge.com/
+#     💥Take Our 30 Day Coding Challenge💥
+#     https://30daycodechallenge.com/
     
-    Follow us on Social:
-    TikTok: https://www.tiktok.com/@devslopes
-    Instagram: https://www.instagram.com/devslopes/''', videoUrl="ESJoYYTO59o", thumbnailUrl="https://i.ytimg.com/vi/ESJoYYTO59o/maxresdefault.jpg", createdAt="2022-04-15T15:00:11Z")
-    
-    
-    
-    deaf2f734465bede41fb636a93639b26 = Video(channelId="65", title='''A Developers Worst Nightmare (App Idea) #shorts #coding''', description='''''', videoUrl="l6WGwi-65vY", thumbnailUrl="https://i.ytimg.com/vi/l6WGwi-65vY/hqdefault.jpg", createdAt="2022-04-14T20:13:55Z")
+#     Follow us on Social:
+#     TikTok: https://www.tiktok.com/@devslopes
+#     Instagram: https://www.instagram.com/devslopes/''', videoUrl="ESJoYYTO59o", thumbnailUrl="https://i.ytimg.com/vi/ESJoYYTO59o/maxresdefault.jpg", createdAt="2022-04-15T15:00:11Z")
     
     
     
-    deea4ba379acde20331775b54a34c423 = Video(channelId="65", title='''What It's Like To Code As A Beginner''', description='''Want to become a paid developer?
-    Click here 👉 https://devslopes.com/apply 
-    
-    How can you code like Jake the Brogrammer?
-    
-    One thing you have to understand as a beginner learning how to code is that coding is not a get rich quick scheme. It will take time, a long time in most cases. But that doesn't mean that their aren't ways you can make the learning process 10x easier. Especially with the techniques mentioned in the video! I hope you love it! Stay tuned for more!''', videoUrl="io-e8l_PPpY", thumbnailUrl="https://i.ytimg.com/vi/io-e8l_PPpY/hqdefault.jpg", createdAt="2022-01-31T15:00:24Z")
+#     deaf2f734465bede41fb636a93639b26 = Video(channelId="65", title='''A Developers Worst Nightmare (App Idea) #shorts #coding''', description='''''', videoUrl="l6WGwi-65vY", thumbnailUrl="https://i.ytimg.com/vi/l6WGwi-65vY/hqdefault.jpg", createdAt="2022-04-14T20:13:55Z")
     
     
     
-    dbded4aa58c7b816838f9fc803d8bace = Video(channelId="65", title='''Where to start as a beginner developer 2021''', description='''Want to become a PAID developer?
-    Apply to the Devslopes Academy: https://devslopes.com/apply''', videoUrl="KZcuZqOHxmk", thumbnailUrl="https://i.ytimg.com/vi/KZcuZqOHxmk/maxresdefault.jpg", createdAt="2021-11-23T10:06:35Z")
+#     deea4ba379acde20331775b54a34c423 = Video(channelId="65", title='''What It's Like To Code As A Beginner''', description='''Want to become a paid developer?
+#     Click here 👉 https://devslopes.com/apply 
+    
+#     How can you code like Jake the Brogrammer?
+    
+#     One thing you have to understand as a beginner learning how to code is that coding is not a get rich quick scheme. It will take time, a long time in most cases. But that doesn't mean that their aren't ways you can make the learning process 10x easier. Especially with the techniques mentioned in the video! I hope you love it! Stay tuned for more!''', videoUrl="io-e8l_PPpY", thumbnailUrl="https://i.ytimg.com/vi/io-e8l_PPpY/hqdefault.jpg", createdAt="2022-01-31T15:00:24Z")
     
     
     
-    dac4664c449f367452984a95abd2ae16 = Video(channelId="65", title='''How to get your first programming job''', description='''Want to become a PAID developer?
-    Apply to the Devslopes Academy: https://devslopes.com/apply''', videoUrl="Mwe2HZkOxMo", thumbnailUrl="https://i.ytimg.com/vi/Mwe2HZkOxMo/maxresdefault.jpg", createdAt="2021-11-20T10:05:37Z")
+#     dbded4aa58c7b816838f9fc803d8bace = Video(channelId="65", title='''Where to start as a beginner developer 2021''', description='''Want to become a PAID developer?
+#     Apply to the Devslopes Academy: https://devslopes.com/apply''', videoUrl="KZcuZqOHxmk", thumbnailUrl="https://i.ytimg.com/vi/KZcuZqOHxmk/maxresdefault.jpg", createdAt="2021-11-23T10:06:35Z")
     
     
     
-    dd86b15ccc6d98ae8f6ca4aba37e5421 = Video(channelId="65", title='''How long should you spend learning to code 👨‍💻 #shorts''', description='''''', videoUrl="-FCZsf0o81M", thumbnailUrl="https://i.ytimg.com/vi/-FCZsf0o81M/hqdefault.jpg", createdAt="2021-11-18T20:12:50Z")
+#     dac4664c449f367452984a95abd2ae16 = Video(channelId="65", title='''How to get your first programming job''', description='''Want to become a PAID developer?
+#     Apply to the Devslopes Academy: https://devslopes.com/apply''', videoUrl="Mwe2HZkOxMo", thumbnailUrl="https://i.ytimg.com/vi/Mwe2HZkOxMo/maxresdefault.jpg", createdAt="2021-11-20T10:05:37Z")
     
     
     
-    dbd3221d7f1855e130f1a395b534d8eb = Video(channelId="65", title='''JavaScript meeting other languages 😂 #shorts''', description='''''', videoUrl="kVU3rjOmrrg", thumbnailUrl="https://i.ytimg.com/vi/kVU3rjOmrrg/maxresdefault.jpg", createdAt="2021-11-15T22:40:01Z")
+#     dd86b15ccc6d98ae8f6ca4aba37e5421 = Video(channelId="65", title='''How long should you spend learning to code 👨‍💻 #shorts''', description='''''', videoUrl="-FCZsf0o81M", thumbnailUrl="https://i.ytimg.com/vi/-FCZsf0o81M/hqdefault.jpg", createdAt="2021-11-18T20:12:50Z")
+    
+    
+    
+#     dbd3221d7f1855e130f1a395b534d8eb = Video(channelId="65", title='''JavaScript meeting other languages 😂 #shorts''', description='''''', videoUrl="kVU3rjOmrrg", thumbnailUrl="https://i.ytimg.com/vi/kVU3rjOmrrg/maxresdefault.jpg", createdAt="2021-11-15T22:40:01Z")
     
     
     
@@ -23596,16 +23596,16 @@ def seed_videos():
     d9161c15b1af9e4d11b0011792931c3c,
     d839a9c2dc73aca4271d32ef9453cf78,
     dc7457ddb0b5533483815cd856dc1961,
-    daca819c7f6980f09b65d582d1e45820,
-    dcdc746dc1d2a783a961c6650dc36d57,
-    dfea70fce8acdafae78d7c35183eafc8,
-    def3ea3376a554e7872caeea8c1ffb34,
-    deaf2f734465bede41fb636a93639b26,
-    deea4ba379acde20331775b54a34c423,
-    dbded4aa58c7b816838f9fc803d8bace,
-    dac4664c449f367452984a95abd2ae16,
-    dd86b15ccc6d98ae8f6ca4aba37e5421,
-    dbd3221d7f1855e130f1a395b534d8eb,
+#     daca819c7f6980f09b65d582d1e45820,
+#     dcdc746dc1d2a783a961c6650dc36d57,
+#     dfea70fce8acdafae78d7c35183eafc8,
+#     def3ea3376a554e7872caeea8c1ffb34,
+#     deaf2f734465bede41fb636a93639b26,
+#     deea4ba379acde20331775b54a34c423,
+#     dbded4aa58c7b816838f9fc803d8bace,
+#     dac4664c449f367452984a95abd2ae16,
+#     dd86b15ccc6d98ae8f6ca4aba37e5421,
+#     dbd3221d7f1855e130f1a395b534d8eb,
     d94a8dbdc9ab3f4fa886158903782a1e,
     dd90bfda9f26f2d41d848f7b0f6d4ca3,
     d912712b6633ccab5ed9e55eaa7502c3,

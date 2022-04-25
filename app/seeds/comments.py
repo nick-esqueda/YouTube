@@ -36,7 +36,6 @@ def seed_comments():
     comment33 = Comment(videoId=463, channelId=42, content="I know many children ask for a pony, but I wanted a bicycle with rockets strapped to it.", createdAt="Wed May 05 2021 02:20:30", updatedAt="Mon Jun 07 2021 17:23:25")
     comment34 = Comment(videoId=270, channelId=89, content="The balloons floated away along with all my hopes and dreams.", createdAt="Mon Dec 13 2021 14:22:52", updatedAt="Sat Dec 25 2021 22:02:03")
     comment35 = Comment(videoId=201, channelId=79, content="Patricia loves the sound of nails strongly pressed against the chalkboard.", createdAt="Tue Mar 01 2022 20:05:26", updatedAt="Sun Apr 18 2021 06:16:34")
-    comment36 = Comment(videoId=789, channelId=19, content="There were three sphered rocks congregating in a cubed room.", createdAt="Sun Oct 31 2021 12:15:16", updatedAt="Tue Jul 27 2021 08:15:39")
     comment37 = Comment(videoId=390, channelId=23, content="The sign said there was road work ahead so he decided to speed up.", createdAt="Tue Apr 05 2022 20:01:13", updatedAt="Sat Nov 27 2021 14:05:33")
     comment38 = Comment(videoId=306, channelId=58, content="8% of 25 is the same as 25% of 8 and one of them is much easier to do in your head.", createdAt="Tue Apr 13 2021 05:28:50", updatedAt="Fri Aug 06 2021 08:48:54")
     comment39 = Comment(videoId=417, channelId=80, content="Pink horses galloped across the sea.", createdAt="Fri Mar 18 2022 20:26:34", updatedAt="Sat Jan 01 2022 22:21:28")
@@ -148,7 +147,6 @@ def seed_comments():
     comment145 = Comment(videoId=39, channelId=11, content="He went back to the video to see what had been recorded and was shocked at what he saw.", createdAt="Sat Jan 22 2022 03:50:49", updatedAt="Thu Dec 16 2021 17:23:30")
     comment146 = Comment(videoId=159, channelId=7, content="Please wait outside of the house.", createdAt="Thu Jul 15 2021 05:38:31", updatedAt="Wed Sep 29 2021 01:12:43")
     comment147 = Comment(videoId=536, channelId=27, content="I only enjoy window shopping when the windows are transparent.", createdAt="Thu Jun 17 2021 01:40:24", updatedAt="Tue Oct 19 2021 09:07:52")
-    comment148 = Comment(videoId=334, channelId=65, content="They ran around the corner to find that they had traveled back in time.", createdAt="Sat Aug 14 2021 08:40:01", updatedAt="Sat Jul 03 2021 06:22:28")
     comment149 = Comment(videoId=475, channelId=90, content="Flash photography is best used in full sunlight.", createdAt="Mon Mar 07 2022 13:41:04", updatedAt="Mon Jan 31 2022 15:36:36")
     comment150 = Comment(videoId=670, channelId=61, content="The truth is that you pay for your lifestyle in hours.", createdAt="Fri Jan 28 2022 09:30:18", updatedAt="Thu May 27 2021 02:23:33")
     comment151 = Comment(videoId=351, channelId=57, content="Let me help you with your baggage.", createdAt="Fri Dec 17 2021 15:11:39", updatedAt="Mon Jun 21 2021 12:26:32")
@@ -159,7 +157,6 @@ def seed_comments():
     comment156 = Comment(videoId=505, channelId=25, content="Normal activities took extraordinary amounts of concentration at the high altitude.", createdAt="Tue Aug 03 2021 07:54:44", updatedAt="Sat Jun 12 2021 23:00:31")
     comment157 = Comment(videoId=627, channelId=54, content="I'm confused: when people ask me what's up, and I point, they groan.", createdAt="Fri Jul 09 2021 15:18:48", updatedAt="Fri Oct 08 2021 22:06:20")
     comment158 = Comment(videoId=594, channelId=50, content="He didn't heed the warning and it had turned out surprisingly well.", createdAt="Sun Sep 26 2021 23:30:08", updatedAt="Mon Dec 13 2021 16:12:10")
-    comment159 = Comment(videoId=785, channelId=10, content="My biggest joy is roasting almonds while stalking prey.", createdAt="Sun Feb 27 2022 22:28:36", updatedAt="Sun May 16 2021 05:14:13")
     comment160 = Comment(videoId=156, channelId=63, content="100 years old is such a young age if you happen to be a bristlecone pine.", createdAt="Thu Aug 19 2021 01:37:35", updatedAt="Fri Apr 08 2022 14:46:59")
     comment161 = Comment(videoId=633, channelId=68, content="The sudden rainstorm washed crocodiles into the ocean.", createdAt="Thu Jan 27 2022 15:16:41", updatedAt="Fri Apr 01 2022 18:59:49")
     comment162 = Comment(videoId=650, channelId=71, content="She felt that chill that makes the hairs on the back of your neck when he walked into the room.", createdAt="Sun Apr 25 2021 10:13:37", updatedAt="Wed Jun 02 2021 21:05:00")
@@ -221,7 +218,6 @@ def seed_comments():
     comment218 = Comment(videoId=120, channelId=35, content="You're unsure whether or not to trust him, but very thankful that you wore a turtle neck.", createdAt="Thu Nov 18 2021 02:07:45", updatedAt="Sat Jun 05 2021 00:55:55")
     comment219 = Comment(videoId=647, channelId=13, content="They did nothing as the raccoon attacked the lady’s bag of food.", createdAt="Thu Nov 04 2021 10:01:09", updatedAt="Fri Jan 14 2022 05:59:05")
     comment220 = Comment(videoId=339, channelId=8, content="It's much more difficult to play tennis with a bowling ball than it is to bowl with a tennis ball.", createdAt="Thu Nov 18 2021 22:30:15", updatedAt="Fri Nov 19 2021 21:59:28")
-    comment221 = Comment(videoId=784, channelId=69, content="The stranger officiates the meal.", createdAt="Tue Jun 08 2021 20:21:02", updatedAt="Wed Mar 09 2022 18:38:08")
     comment222 = Comment(videoId=408, channelId=34, content="He fumbled in the darkness looking for the light switch, but when he finally found it there was someone already there.", createdAt="Thu Oct 21 2021 08:22:44", updatedAt="Wed Mar 16 2022 23:39:12")
     comment223 = Comment(videoId=182, channelId=9, content="Hang on, my kittens are scratching at the bathtub and they'll upset by the lack of biscuits.", createdAt="Thu May 06 2021 19:16:42", updatedAt="Fri Mar 11 2022 10:49:50")
     comment224 = Comment(videoId=91, channelId=89, content="There was coal in his stocking and he was thrilled.", createdAt="Sat Jul 24 2021 10:10:10", updatedAt="Tue Dec 28 2021 00:45:08")
@@ -361,7 +357,6 @@ def seed_comments():
     comment358 = Comment(videoId=146, channelId=96, content="The waves were crashing on the shore; it was a lovely sight.", createdAt="Fri May 14 2021 02:02:10", updatedAt="Wed Sep 08 2021 12:13:02")
     comment359 = Comment(videoId=615, channelId=36, content="She finally understood that grief was her love with no place for it to go.", createdAt="Sat Aug 07 2021 13:22:51", updatedAt="Mon May 17 2021 14:14:42")
     comment360 = Comment(videoId=230, channelId=48, content="Joe made the sugar cookies; Susan decorated them.", createdAt="Mon Nov 29 2021 22:27:43", updatedAt="Thu Sep 16 2021 19:42:17")
-    comment361 = Comment(videoId=784, channelId=81, content="He told us a very exciting adventure story.", createdAt="Sun Dec 12 2021 20:06:22", updatedAt="Mon Oct 25 2021 13:39:54")
     comment362 = Comment(videoId=243, channelId=15, content="She used her own hair in the soup to give it more flavor.", createdAt="Wed Aug 18 2021 16:58:05", updatedAt="Sun Mar 27 2022 21:13:32")
     comment363 = Comment(videoId=629, channelId=55, content="He was disappointed when he found the beach to be so sandy and the sun so sunny.", createdAt="Fri May 14 2021 23:07:48", updatedAt="Wed Dec 15 2021 16:44:58")
     comment364 = Comment(videoId=387, channelId=1, content="For the 216th time, he said he would quit drinking soda after this last Coke.", createdAt="Sun Sep 19 2021 08:41:42", updatedAt="Sun Feb 13 2022 12:29:26")
@@ -448,7 +443,6 @@ def seed_comments():
     comment445 = Comment(videoId=11, channelId=41, content="Most shark attacks occur about 10 feet from the beach since that's where the people are.", createdAt="Thu Feb 17 2022 13:41:51", updatedAt="Wed Dec 29 2021 17:36:08")
     comment446 = Comment(videoId=524, channelId=66, content="She wanted to be rescued, but only if it was Tuesday and raining.", createdAt="Sat Oct 30 2021 09:30:28", updatedAt="Tue Feb 01 2022 09:59:34")
     comment447 = Comment(videoId=15, channelId=79, content="The waves were crashing on the shore; it was a lovely sight.", createdAt="Wed Mar 30 2022 09:27:41", updatedAt="Sun Apr 25 2021 09:07:08")
-    comment448 = Comment(videoId=314, channelId=65, content="In that instant, everything changed.", createdAt="Sat Aug 14 2021 05:24:28", updatedAt="Sun Nov 14 2021 21:19:52")
     comment449 = Comment(videoId=297, channelId=14, content="It dawned on her that others could make her happier, but only she could make herself happy.", createdAt="Tue Sep 21 2021 04:52:24", updatedAt="Thu May 20 2021 03:49:07")
     comment450 = Comment(videoId=95, channelId=63, content="Charles ate the french fries knowing they would be his last meal.", createdAt="Fri Sep 03 2021 14:32:18", updatedAt="Tue May 25 2021 06:17:57")
     comment451 = Comment(videoId=261, channelId=100, content="The body piercing didn't go exactly as he expected.", createdAt="Thu Jun 03 2021 03:07:17", updatedAt="Fri Nov 05 2021 04:37:24")
@@ -478,7 +472,6 @@ def seed_comments():
     comment475 = Comment(videoId=177, channelId=30, content="Imagine his surprise when he discovered that the safe was full of pudding.", createdAt="Mon Aug 02 2021 01:10:06", updatedAt="Sun Oct 17 2021 20:06:36")
     comment476 = Comment(videoId=580, channelId=25, content="I often see the time 11:11 or 12:34 on clocks.", createdAt="Sat Sep 11 2021 15:38:51", updatedAt="Tue Mar 22 2022 17:39:41")
     comment477 = Comment(videoId=225, channelId=18, content="She opened up her third bottle of wine of the night.", createdAt="Sat Mar 05 2022 04:31:15", updatedAt="Sat Mar 12 2022 20:32:54")
-    comment478 = Comment(videoId=788, channelId=99, content="I checked to make sure that he was still alive.", createdAt="Mon Nov 22 2021 03:32:47", updatedAt="Wed Jun 30 2021 20:57:29")
     comment479 = Comment(videoId=659, channelId=39, content="The spa attendant applied the deep cleaning mask to the gentleman’s back.", createdAt="Thu Jun 24 2021 17:58:33", updatedAt="Fri Oct 01 2021 12:24:16")
     comment480 = Comment(videoId=387, channelId=35, content="With a single flip of the coin, his life changed forever.", createdAt="Fri Oct 22 2021 03:55:10", updatedAt="Sun Nov 14 2021 04:15:13")
     comment481 = Comment(videoId=683, channelId=97, content="Flash photography is best used in full sunlight.", createdAt="Sat Sep 25 2021 08:36:02", updatedAt="Thu Jun 03 2021 09:33:17")
@@ -532,7 +525,6 @@ def seed_comments():
     comment529 = Comment(videoId=157, channelId=36, content="She saw no irony asking me to change but wanting me to accept her for who she is.", createdAt="Sat Feb 26 2022 01:43:03", updatedAt="Sun Mar 13 2022 14:47:03")
     comment530 = Comment(videoId=84, channelId=20, content="All she wanted was the answer, but she had no idea how much she would hate it.", createdAt="Fri Jun 04 2021 10:51:56", updatedAt="Thu Jan 06 2022 10:40:50")
     comment531 = Comment(videoId=690, channelId=51, content="The glacier came alive as the climbers hiked closer.", createdAt="Sat Apr 17 2021 12:16:19", updatedAt="Tue Jul 20 2021 17:27:52")
-    comment532 = Comment(videoId=784, channelId=50, content="When he asked her favorite number, she answered without hesitation that it was diamonds.", createdAt="Thu Sep 09 2021 10:08:27", updatedAt="Thu May 20 2021 15:56:44")
     comment533 = Comment(videoId=332, channelId=2, content="The irony of the situation wasn't lost on anyone in the room.", createdAt="Thu Dec 09 2021 21:56:31", updatedAt="Wed Aug 04 2021 14:46:45")
     comment534 = Comment(videoId=190, channelId=39, content="Lucifer was surprised at the amount of life at Death Valley.", createdAt="Tue Feb 22 2022 18:34:26", updatedAt="Fri Sep 17 2021 14:14:58")
     comment535 = Comment(videoId=529, channelId=7, content="Everyone pretends to like wheat until you mention barley.", createdAt="Thu Aug 12 2021 02:01:23", updatedAt="Sat May 22 2021 21:04:35")
@@ -557,7 +549,6 @@ def seed_comments():
     comment554 = Comment(videoId=338, channelId=61, content="Three years later, the coffin was still full of Jello.", createdAt="Sat Apr 10 2021 19:16:11", updatedAt="Tue May 25 2021 11:13:18")
     comment555 = Comment(videoId=331, channelId=16, content="I love eating toasted cheese and tuna sandwiches.", createdAt="Fri Jul 02 2021 20:40:07", updatedAt="Tue Feb 01 2022 03:32:42")
     comment556 = Comment(videoId=428, channelId=3, content="His ultimate dream fantasy consisted of being content and sleeping eight hours in a row.", createdAt="Sat Aug 07 2021 12:28:52", updatedAt="Mon Jun 28 2021 07:58:25")
-    comment557 = Comment(videoId=780, channelId=55, content="That must be the tenth time I've been arrested for selling deep-fried cigars.", createdAt="Tue Oct 19 2021 03:01:19", updatedAt="Mon Nov 01 2021 06:41:27")
     comment558 = Comment(videoId=584, channelId=96, content="He was the only member of the club who didn't like plum pudding.", createdAt="Tue Dec 21 2021 02:56:14", updatedAt="Fri Sep 10 2021 21:49:30")
     comment559 = Comment(videoId=95, channelId=57, content="The teens wondered what was kept in the red shed on the far edge of the school grounds.", createdAt="Fri Jan 07 2022 16:29:48", updatedAt="Sun Oct 10 2021 01:50:40")
     comment560 = Comment(videoId=585, channelId=75, content="Abstraction is often one floor above you.", createdAt="Sat Sep 04 2021 07:56:53", updatedAt="Fri Jan 21 2022 06:45:36")
@@ -587,7 +578,6 @@ def seed_comments():
     comment584 = Comment(videoId=441, channelId=58, content="It was the best sandcastle he had ever seen.", createdAt="Thu Dec 23 2021 01:33:26", updatedAt="Sun Jul 04 2021 11:35:50")
     comment585 = Comment(videoId=285, channelId=61, content="It was the scarcity that fueled his creativity.", createdAt="Thu Sep 16 2021 09:14:26", updatedAt="Mon Mar 28 2022 02:53:54")
     comment586 = Comment(videoId=430, channelId=83, content="His son quipped that power bars were nothing more than adult candy bars.", createdAt="Tue Mar 08 2022 08:07:40", updatedAt="Sat May 22 2021 23:08:18")
-    comment587 = Comment(videoId=782, channelId=28, content="She wrote him a long letter, but he didn't read it.", createdAt="Fri Apr 23 2021 05:17:15", updatedAt="Fri May 28 2021 12:41:04")
     comment588 = Comment(videoId=47, channelId=32, content="You have no right to call yourself creative until you look at a trowel and think that it would make a great lockpick.", createdAt="Mon Oct 11 2021 10:01:16", updatedAt="Sun Aug 22 2021 13:44:56")
     comment589 = Comment(videoId=361, channelId=71, content="All she wanted was the answer, but she had no idea how much she would hate it.", createdAt="Sun May 09 2021 05:02:44", updatedAt="Fri Oct 01 2021 14:25:04")
     comment590 = Comment(videoId=756, channelId=39, content="Mr. Montoya knows the way to the bakery even though he's never been there.", createdAt="Sat Dec 18 2021 18:02:12", updatedAt="Wed Jan 26 2022 05:47:06")
@@ -640,11 +630,9 @@ def seed_comments():
     comment637 = Comment(videoId=296, channelId=39, content="Acres of almond trees lined the interstate highway which complimented the crazy driving nuts.", createdAt="Sat Aug 28 2021 11:14:16", updatedAt="Thu May 13 2021 22:45:03")
     comment638 = Comment(videoId=80, channelId=50, content="The opportunity of a lifetime passed before him as he tried to decide between a cone or a cup.", createdAt="Mon Apr 26 2021 09:07:53", updatedAt="Wed Jan 19 2022 22:02:57")
     comment639 = Comment(videoId=14, channelId=24, content="At last", createdAt="Fri Dec 10 2021 20:17:28", updatedAt="Sat Oct 30 2021 00:35:13")
-    comment640 = Comment(videoId=474, channelId=65, content="The teens wondered what was kept in the red shed on the far edge of the school grounds.", createdAt="Wed Jun 30 2021 19:02:46", updatedAt="Fri Sep 17 2021 09:40:33")
     comment641 = Comment(videoId=602, channelId=40, content="The blue parrot drove by the hitchhiking mongoose.", createdAt="Fri Mar 18 2022 21:12:02", updatedAt="Fri Jun 04 2021 06:44:27")
     comment642 = Comment(videoId=208, channelId=86, content="It took him a while to realize that everything he decided not to change, he was actually choosing.", createdAt="Mon Nov 22 2021 11:28:04", updatedAt="Mon Apr 26 2021 15:59:00")
     comment643 = Comment(videoId=624, channelId=52, content="I am counting my calories, yet I really want dessert.", createdAt="Mon Dec 20 2021 10:12:07", updatedAt="Sun Jun 27 2021 06:18:38")
-    comment644 = Comment(videoId=724, channelId=65, content="He wondered if it could be called a beach if there was no sand.", createdAt="Tue Jun 01 2021 05:26:08", updatedAt="Mon Sep 06 2021 10:51:21")
     comment645 = Comment(videoId=545, channelId=92, content="He walked into the basement with the horror movie from the night before playing in his head.", createdAt="Wed Feb 16 2022 19:19:40", updatedAt="Fri Jan 21 2022 06:56:57")
     comment646 = Comment(videoId=671, channelId=26, content="There's a reason that roses have thorns.", createdAt="Thu Jul 08 2021 21:01:31", updatedAt="Sat Sep 25 2021 19:19:54")
     comment647 = Comment(videoId=672, channelId=40, content="The tortoise jumped into the lake with dreams of becoming a sea turtle.", createdAt="Wed Jun 16 2021 09:08:32", updatedAt="Tue Dec 21 2021 18:29:49")
@@ -664,7 +652,6 @@ def seed_comments():
     comment661 = Comment(videoId=745, channelId=27, content="When she didn’t like a guy who was trying to pick her up, she started using sign language.", createdAt="Thu Feb 03 2022 01:12:51", updatedAt="Mon Aug 23 2021 02:10:40")
     comment662 = Comment(videoId=4, channelId=38, content="We need to rent a room for our party.", createdAt="Mon Jun 28 2021 15:04:27", updatedAt="Sat May 01 2021 01:48:07")
     comment663 = Comment(videoId=425, channelId=90, content="Nobody has encountered an explosive daisy and lived to tell the tale.", createdAt="Mon Dec 06 2021 23:47:43", updatedAt="Sat Sep 04 2021 06:52:07")
-    comment664 = Comment(videoId=237, channelId=65, content="She was the type of girl who wanted to live in a pink house.", createdAt="Sun Feb 20 2022 21:49:24", updatedAt="Sat Jun 26 2021 11:28:15")
     comment665 = Comment(videoId=86, channelId=13, content="Of course, she loves her pink bunny slippers.", createdAt="Wed Jan 26 2022 08:59:07", updatedAt="Wed Sep 08 2021 12:05:46")
     comment666 = Comment(videoId=730, channelId=7, content="Her life in the confines of the house became her new normal.", createdAt="Fri Mar 11 2022 21:41:01", updatedAt="Sun Feb 06 2022 05:22:26")
     comment667 = Comment(videoId=461, channelId=43, content="I met an interesting turtle while the song on the radio blasted away.", createdAt="Fri Oct 01 2021 15:24:23", updatedAt="Wed Sep 08 2021 18:26:57")
@@ -691,7 +678,6 @@ def seed_comments():
     comment688 = Comment(videoId=245, channelId=16, content="Always bring cinnamon buns on a deep-sea diving expedition.", createdAt="Mon Mar 14 2022 05:38:03", updatedAt="Thu Feb 10 2022 06:06:28")
     comment689 = Comment(videoId=285, channelId=54, content="I'd always thought lightning was something only I could see.", createdAt="Sat Nov 27 2021 07:59:27", updatedAt="Sun Jun 13 2021 23:29:16")
     comment690 = Comment(videoId=369, channelId=66, content="Never underestimate the willingness of the greedy to throw you under the bus.", createdAt="Wed Jul 14 2021 18:16:10", updatedAt="Tue Oct 19 2021 19:34:58")
-    comment691 = Comment(videoId=500, channelId=65, content="In the end, he realized he could see sound and hear words.", createdAt="Sat Oct 23 2021 22:33:12", updatedAt="Wed Jun 02 2021 20:29:16")
     comment692 = Comment(videoId=776, channelId=28, content="He wondered if she would appreciate his toenail collection.", createdAt="Sat Oct 02 2021 16:42:06", updatedAt="Sun Oct 17 2021 11:16:04")
     comment693 = Comment(videoId=53, channelId=46, content="The furnace repairman indicated the heating system was acting as an air conditioner.", createdAt="Thu Dec 16 2021 16:35:59", updatedAt="Sun Oct 17 2021 11:21:39")
     comment694 = Comment(videoId=394, channelId=21, content="The toddler’s endless tantrum caused the entire plane anxiety.", createdAt="Fri Jul 09 2021 17:45:45", updatedAt="Wed Sep 08 2021 09:42:14")
@@ -784,7 +770,6 @@ def seed_comments():
     comment781 = Comment(videoId=307, channelId=20, content="He decided to fake his disappearance to avoid jail.", createdAt="Tue Mar 22 2022 08:59:13", updatedAt="Tue Oct 05 2021 21:56:02")
     comment782 = Comment(videoId=55, channelId=19, content="He was all business when he wore his clown suit.", createdAt="Thu Jan 06 2022 13:06:31", updatedAt="Tue Sep 28 2021 02:56:14")
     comment783 = Comment(videoId=214, channelId=95, content="I don’t respect anybody who can’t tell the difference between Pepsi and Coke.", createdAt="Thu Mar 31 2022 02:51:35", updatedAt="Fri Nov 26 2021 12:34:59")
-    comment784 = Comment(videoId=789, channelId=21, content="They called out her name time and again, but were met with nothing but silence.", createdAt="Fri Dec 03 2021 10:35:10", updatedAt="Fri May 14 2021 08:17:42")
     comment785 = Comment(videoId=171, channelId=82, content="Before he moved to the inner city, he had always believed that security complexes were psychological.", createdAt="Thu Nov 18 2021 15:43:11", updatedAt="Tue Sep 14 2021 10:25:20")
     comment786 = Comment(videoId=286, channelId=53, content="I've always wanted to go to Tajikistan, but my cat would miss me.", createdAt="Sun Jul 04 2021 03:45:12", updatedAt="Sun Oct 03 2021 10:06:56")
     comment787 = Comment(videoId=769, channelId=54, content="For the 216th time, he said he would quit drinking soda after this last Coke.", createdAt="Sun Jul 18 2021 11:22:03", updatedAt="Fri Mar 25 2022 20:15:29")
@@ -855,7 +840,6 @@ def seed_comments():
     comment852 = Comment(videoId=411, channelId=72, content="He went back to the video to see what had been recorded and was shocked at what he saw.", createdAt="Fri Jul 23 2021 13:04:52", updatedAt="Wed Apr 06 2022 05:43:27")
     comment853 = Comment(videoId=351, channelId=55, content="Dan ate the clouds like cotton candy.", createdAt="Wed Jan 05 2022 13:07:50", updatedAt="Fri Nov 19 2021 07:49:44")
     comment854 = Comment(videoId=108, channelId=88, content="Flying fish flew by the space station.", createdAt="Fri Jan 07 2022 20:43:26", updatedAt="Mon Feb 28 2022 00:16:38")
-    comment855 = Comment(videoId=195, channelId=65, content="Various sea birds are elegant, but nothing is as elegant as a gliding pelican.", createdAt="Mon Jan 24 2022 02:06:16", updatedAt="Sat Feb 12 2022 23:01:47")
     comment856 = Comment(videoId=772, channelId=62, content="He stepped gingerly onto the bridge knowing that enchantment awaited on the other side.", createdAt="Sun Aug 15 2021 15:03:34", updatedAt="Fri Aug 20 2021 00:18:48")
     comment857 = Comment(videoId=635, channelId=67, content="The truth is that you pay for your lifestyle in hours.", createdAt="Sun May 23 2021 02:01:23", updatedAt="Thu Dec 16 2021 17:41:57")
     comment858 = Comment(videoId=47, channelId=73, content="Sometimes it is better to just walk away from things and go back to them later when you’re in a better frame of mind.", createdAt="Fri Apr 16 2021 16:46:08", updatedAt="Tue Aug 17 2021 07:56:14")
@@ -951,13 +935,11 @@ def seed_comments():
     comment948 = Comment(videoId=429, channelId=4, content="The bird had a belief that it was really a groundhog.", createdAt="Sun Sep 26 2021 20:07:59", updatedAt="Tue Jan 11 2022 14:52:12")
     comment949 = Comment(videoId=325, channelId=14, content="We have young kids who often walk into our room at night for various reasons including clowns in the closet.", createdAt="Mon Apr 04 2022 15:33:28", updatedAt="Mon Apr 26 2021 02:00:48")
     comment950 = Comment(videoId=715, channelId=56, content="Garlic ice-cream was her favorite.", createdAt="Sat Oct 16 2021 04:53:51", updatedAt="Thu May 06 2021 16:58:35")
-    comment951 = Comment(videoId=282, channelId=54, content="", createdAt="Fri Oct 22 2021 02:42:12", updatedAt="Sun Jan 16 2022 12:54:18")
     comment952 = Comment(videoId=24, channelId=95, content="I only enjoy window shopping when the windows are transparent.", createdAt="Sat Aug 21 2021 15:01:58", updatedAt="Sun Aug 15 2021 02:55:37")
     comment953 = Comment(videoId=702, channelId=62, content="She learned that water bottles are no longer just to hold liquid, but they're also status symbols.", createdAt="Sun Mar 20 2022 12:05:45", updatedAt="Wed Dec 15 2021 20:43:05")
     comment954 = Comment(videoId=386, channelId=67, content="The underground bunker was filled with chips and candy.", createdAt="Thu Dec 09 2021 06:28:28", updatedAt="Sun Mar 20 2022 22:00:15")
     comment955 = Comment(videoId=434, channelId=59, content="When confronted with a rotary dial phone the teenager was perplexed.", createdAt="Mon Oct 18 2021 20:44:13", updatedAt="Wed Dec 08 2021 09:18:32")
     comment956 = Comment(videoId=457, channelId=91, content="She wasn't sure whether to be impressed or concerned that he folded underwear in neat little packages.", createdAt="Wed Apr 21 2021 13:53:03", updatedAt="Fri Jul 23 2021 21:07:47")
-    comment957 = Comment(videoId=653, channelId=65, content="Lucifer was surprised at the amount of life at Death Valley.", createdAt="Tue Jun 22 2021 13:17:20", updatedAt="Fri May 07 2021 12:33:02")
     comment958 = Comment(videoId=289, channelId=58, content="I checked to make sure that he was still alive.", createdAt="Thu Feb 03 2022 23:34:45", updatedAt="Sun Aug 08 2021 11:26:08")
     comment959 = Comment(videoId=40, channelId=55, content="It would have been a better night if the guys next to us weren't in the splash zone.", createdAt="Sat Feb 05 2022 05:27:10", updatedAt="Fri Apr 23 2021 10:27:02")
     comment960 = Comment(videoId=631, channelId=39, content="The tart lemonade quenched her thirst, but not her longing.", createdAt="Sun Mar 06 2022 12:16:35", updatedAt="Tue Mar 22 2022 06:32:22")
@@ -980,7 +962,6 @@ def seed_comments():
     comment977 = Comment(videoId=62, channelId=87, content="Potato wedges probably are not best for relationships.", createdAt="Sun Sep 05 2021 13:26:53", updatedAt="Tue Aug 17 2021 20:31:20")
     comment978 = Comment(videoId=749, channelId=31, content="He had accidentally hacked into his company's server.", createdAt="Tue Aug 17 2021 13:15:00", updatedAt="Tue Jan 04 2022 14:50:20")
     comment979 = Comment(videoId=545, channelId=34, content="We need to rent a room for our party.", createdAt="Wed Nov 03 2021 01:31:56", updatedAt="Tue Nov 30 2021 18:06:44")
-    comment980 = Comment(videoId=342, channelId=65, content="There were three sphered rocks congregating in a cubed room.", createdAt="Thu Dec 23 2021 22:57:10", updatedAt="Mon Sep 13 2021 19:51:32")
     comment981 = Comment(videoId=458, channelId=93, content="The dead trees waited to be ignited by the smallest spark and seek their revenge.", createdAt="Sat May 15 2021 05:23:52", updatedAt="Sat Feb 05 2022 14:46:43")
     comment982 = Comment(videoId=170, channelId=47, content="Barking dogs and screaming toddlers have the unique ability to turn friendly neighbors into cranky enemies.", createdAt="Sat Jan 29 2022 17:45:15", updatedAt="Tue Oct 19 2021 11:32:56")
     comment983 = Comment(videoId=63, channelId=16, content="The father died during childbirth.", createdAt="Wed Sep 01 2021 03:02:27", updatedAt="Thu Aug 26 2021 11:27:22")
@@ -1002,7 +983,6 @@ def seed_comments():
     comment999 = Comment(videoId=634, channelId=73, content="Sometimes I stare at a door or a wall and I wonder what is this reality, why am I alive, and what is this all about?", createdAt="Tue Sep 21 2021 17:54:31", updatedAt="Fri Oct 08 2021 17:26:43")
     comment1000 = Comment(videoId=386, channelId=13, content="The rusty nail stood erect, angled at a 45-degree angle, just waiting for the perfect barefoot to come along.", createdAt="Sat May 15 2021 04:16:01", updatedAt="Fri Jan 07 2022 05:37:06")
     comment1001 = Comment(videoId=480, channelId=52, content="The complicated school homework left the parents trying to help their kids quite confused.", createdAt="Thu Apr 29 2021 10:16:23", updatedAt="Fri Apr 23 2021 03:31:22")
-    comment1002 = Comment(videoId=289, channelId=9, content="", createdAt="Thu Jan 06 2022 13:46:56", updatedAt="Mon May 03 2021 10:00:55")
     comment1003 = Comment(videoId=54, channelId=47, content="She let the balloon float up into the air with her hopes and dreams.", createdAt="Thu Jan 27 2022 09:55:34", updatedAt="Fri Apr 30 2021 15:39:13")
     comment1004 = Comment(videoId=58, channelId=28, content="No matter how beautiful the sunset, it saddened her knowing she was one day older.", createdAt="Wed Aug 04 2021 17:12:55", updatedAt="Sat Mar 05 2022 22:54:34")
     comment1005 = Comment(videoId=764, channelId=90, content="The fish listened intently to what the frogs had to say.", createdAt="Fri Jun 11 2021 05:22:22", updatedAt="Thu Jan 27 2022 03:25:23")
@@ -1053,7 +1033,6 @@ def seed_comments():
     comment1050 = Comment(videoId=71, channelId=7, content="He was an introvert that extroverts seemed to love.", createdAt="Tue May 04 2021 01:53:30", updatedAt="Thu Jan 20 2022 21:18:10")
     comment1051 = Comment(videoId=139, channelId=92, content="The lake is a long way from here.", createdAt="Tue Apr 05 2022 07:54:13", updatedAt="Fri Apr 16 2021 06:34:48")
     comment1052 = Comment(videoId=755, channelId=4, content="Swim at your own risk was taken as a challenge for the group of Kansas City college students.", createdAt="Sun Sep 05 2021 04:09:39", updatedAt="Tue Nov 09 2021 05:29:13")
-    comment1053 = Comment(videoId=291, channelId=78, content="", createdAt="Tue Aug 31 2021 17:47:28", updatedAt="Wed Apr 06 2022 19:26:51")
     comment1054 = Comment(videoId=690, channelId=81, content="She had that tint of craziness in her soul that made her believe she could actually make a difference.", createdAt="Sat Jun 05 2021 07:25:01", updatedAt="Sun Jul 25 2021 14:36:06")
     comment1055 = Comment(videoId=194, channelId=18, content="Too many prisons have become early coffins.", createdAt="Fri Dec 31 2021 12:53:43", updatedAt="Sun Apr 18 2021 22:05:52")
     comment1056 = Comment(videoId=389, channelId=92, content="Separation anxiety is what happens when you can't find your phone.", createdAt="Wed Jul 28 2021 18:46:15", updatedAt="Mon Feb 07 2022 11:45:16")
@@ -1073,7 +1052,6 @@ def seed_comments():
     comment1070 = Comment(videoId=151, channelId=27, content="The heat", createdAt="Sat Jul 10 2021 00:16:22", updatedAt="Tue Apr 20 2021 19:47:51")
     comment1071 = Comment(videoId=648, channelId=23, content="This book is sure to liquefy your brain.", createdAt="Sat Dec 11 2021 09:16:46", updatedAt="Mon Dec 06 2021 04:24:55")
     comment1072 = Comment(videoId=353, channelId=60, content="She borrowed the book from him many years ago and hasn't yet returned it.", createdAt="Fri Nov 19 2021 09:33:50", updatedAt="Sun Sep 26 2021 18:45:10")
-    comment1073 = Comment(videoId=789, channelId=89, content="There have been days when I wished to be separated from my body, but today wasn’t one of those days.", createdAt="Tue Jun 08 2021 06:04:44", updatedAt="Wed Aug 18 2021 00:26:38")
     comment1074 = Comment(videoId=429, channelId=49, content="Improve your goldfish's physical fitness by getting him a bicycle.", createdAt="Fri Jan 28 2022 19:30:43", updatedAt="Sun May 30 2021 11:56:42")
     comment1075 = Comment(videoId=344, channelId=28, content="Shingle color was not something the couple had ever talked about.", createdAt="Fri Mar 25 2022 04:48:56", updatedAt="Sun Oct 17 2021 16:49:24")
     comment1076 = Comment(videoId=690, channelId=60, content="When transplanting seedlings, candied teapots will make the task easier.", createdAt="Tue May 04 2021 07:37:00", updatedAt="Wed Jun 16 2021 09:57:51")
@@ -1154,9 +1132,7 @@ def seed_comments():
     comment1151 = Comment(videoId=87, channelId=47, content="I made myself a peanut butter sandwich as I didn't want to subsist on veggie crackers.", createdAt="Sun Jun 06 2021 21:30:16", updatedAt="Mon Aug 02 2021 15:05:11")
     comment1152 = Comment(videoId=243, channelId=24, content="The heat", createdAt="Tue Jul 20 2021 05:52:42", updatedAt="Sun Oct 31 2021 18:46:50")
     comment1153 = Comment(videoId=181, channelId=42, content="Normal activities took extraordinary amounts of concentration at the high altitude.", createdAt="Sun Apr 11 2021 11:30:01", updatedAt="Wed Feb 23 2022 12:51:08")
-    comment1154 = Comment(videoId=691, channelId=95, content="", createdAt="Tue May 25 2021 11:49:08", updatedAt="Mon Nov 29 2021 00:51:16")
     comment1155 = Comment(videoId=733, channelId=23, content="There's no reason a hula hoop can't also be a circus ring.", createdAt="Sun Jun 13 2021 12:25:07", updatedAt="Sun Apr 11 2021 21:57:24")
-    comment1156 = Comment(videoId=780, channelId=31, content="I like to leave work after my eight-hour tea-break.", createdAt="Wed May 12 2021 18:38:33", updatedAt="Thu Dec 09 2021 05:00:02")
     comment1157 = Comment(videoId=309, channelId=49, content="I've always wanted to go to Tajikistan, but my cat would miss me.", createdAt="Sat Nov 13 2021 13:07:33", updatedAt="Sun Apr 11 2021 15:56:34")
     comment1158 = Comment(videoId=634, channelId=18, content="The irony of the situation wasn't lost on anyone in the room.", createdAt="Wed Mar 09 2022 10:47:25", updatedAt="Wed Dec 01 2021 09:41:44")
     comment1159 = Comment(videoId=748, channelId=64, content="I currently have 4 windows open up… and I don’t know why.", createdAt="Thu Dec 09 2021 21:33:24", updatedAt="Sun May 02 2021 14:20:09")
@@ -1177,7 +1153,6 @@ def seed_comments():
     comment1174 = Comment(videoId=640, channelId=47, content="I can't believe this is the eighth time I'm smashing open my piggy bank on the same day!", createdAt="Fri Jun 04 2021 01:25:52", updatedAt="Tue Nov 09 2021 09:40:44")
     comment1175 = Comment(videoId=386, channelId=38, content="He put heat on the wound to see what would grow.", createdAt="Wed Jun 16 2021 20:20:59", updatedAt="Fri Nov 26 2021 10:51:09")
     comment1176 = Comment(videoId=434, channelId=82, content="100 years old is such a young age if you happen to be a bristlecone pine.", createdAt="Sun Mar 06 2022 01:19:13", updatedAt="Thu Jun 10 2021 00:32:16")
-    comment1177 = Comment(videoId=787, channelId=73, content="The efficiency we have at removing trash has made creating trash more acceptable.", createdAt="Mon Jul 19 2021 16:52:51", updatedAt="Tue Feb 15 2022 06:28:38")
     comment1178 = Comment(videoId=315, channelId=82, content="He waited for the stop sign to turn to a go sign.", createdAt="Mon Jun 28 2021 05:24:19", updatedAt="Mon Sep 13 2021 18:22:38")
     comment1179 = Comment(videoId=93, channelId=48, content="He didn't heed the warning and it had turned out surprisingly well.", createdAt="Fri Feb 25 2022 08:10:22", updatedAt="Fri May 14 2021 05:19:29")
     comment1180 = Comment(videoId=622, channelId=86, content="They say people remember important moments in their life well, yet no one even remembers their own birth.", createdAt="Wed Jun 02 2021 07:50:09", updatedAt="Thu Jul 22 2021 04:51:10")
@@ -1193,7 +1168,6 @@ def seed_comments():
     comment1190 = Comment(videoId=619, channelId=2, content="It's important to remember to be aware of rampaging grizzly bears.", createdAt="Mon Dec 27 2021 04:32:44", updatedAt="Sat Apr 17 2021 01:22:44")
     comment1191 = Comment(videoId=88, channelId=91, content="Cursive writing is the best way to build a race track.", createdAt="Thu Aug 26 2021 01:01:47", updatedAt="Mon May 24 2021 02:50:04")
     comment1192 = Comment(videoId=16, channelId=16, content="I cheated while playing the darts tournament by using a longbow.", createdAt="Mon Sep 27 2021 09:26:18", updatedAt="Fri Jun 25 2021 00:48:39")
-    comment1193 = Comment(videoId=768, channelId=65, content="She moved forward only because she trusted that the ending she now was going through must be followed by a new beginning.", createdAt="Sun Sep 05 2021 00:13:34", updatedAt="Wed Nov 10 2021 07:19:45")
     comment1194 = Comment(videoId=327, channelId=72, content="He appeared to be confusingly perplexed.", createdAt="Sat May 15 2021 21:24:12", updatedAt="Wed Oct 06 2021 13:07:06")
     comment1195 = Comment(videoId=764, channelId=11, content="Two seats were vacant.", createdAt="Sun Feb 27 2022 05:07:44", updatedAt="Sat Jul 03 2021 02:27:14")
     comment1196 = Comment(videoId=246, channelId=44, content="I'm a great listener, really good with empathy vs sympathy and all that, but I hate people.", createdAt="Tue May 11 2021 07:48:46", updatedAt="Sat Oct 09 2021 02:09:49")
@@ -1203,7 +1177,6 @@ def seed_comments():
     comment1200 = Comment(videoId=549, channelId=24, content="People keep telling me \"orange\" but I still prefer \"pink\".", createdAt="Fri Oct 22 2021 10:17:40", updatedAt="Mon Jun 21 2021 12:20:21")
     comment1201 = Comment(videoId=489, channelId=40, content="A song can make or ruin a person’s day if they let it get to them.", createdAt="Mon Sep 27 2021 22:50:41", updatedAt="Fri Dec 10 2021 16:50:43")
     comment1202 = Comment(videoId=327, channelId=27, content="I just wanted to tell you I could see the love you have for your child by the way you look at her.", createdAt="Fri Jan 07 2022 23:56:56", updatedAt="Tue Apr 05 2022 10:01:30")
-    comment1203 = Comment(videoId=787, channelId=52, content="I think I will buy the red car, or I will lease the blue one.", createdAt="Wed Jan 05 2022 10:01:05", updatedAt="Tue Jul 06 2021 11:15:38")
     comment1204 = Comment(videoId=405, channelId=16, content="The father handed each child a roadmap at the beginning of the 2-day road trip and explained it was so they could find their way home.", createdAt="Wed Dec 01 2021 10:06:07", updatedAt="Wed Oct 20 2021 04:20:02")
     comment1205 = Comment(videoId=284, channelId=17, content="Various sea birds are elegant, but nothing is as elegant as a gliding pelican.", createdAt="Mon Apr 12 2021 00:08:22", updatedAt="Wed Mar 02 2022 11:47:15")
     comment1206 = Comment(videoId=72, channelId=77, content="The bird had a belief that it was really a groundhog.", createdAt="Sat Nov 20 2021 06:07:22", updatedAt="Wed May 12 2021 23:02:50")
@@ -1227,7 +1200,6 @@ def seed_comments():
     comment1224 = Comment(videoId=501, channelId=21, content="He colored deep space a soft yellow.", createdAt="Sun Feb 20 2022 04:02:42", updatedAt="Sun Dec 26 2021 02:34:49")
     comment1225 = Comment(videoId=220, channelId=86, content="As he entered the church he could hear the soft voice of someone whispering into a cell phone.", createdAt="Sat Oct 02 2021 22:23:45", updatedAt="Mon May 03 2021 21:37:23")
     comment1226 = Comment(videoId=530, channelId=3, content="I don’t respect anybody who can’t tell the difference between Pepsi and Coke.", createdAt="Sun Mar 27 2022 09:59:14", updatedAt="Sat Mar 12 2022 02:21:05")
-    comment1227 = Comment(videoId=780, channelId=14, content="The pet shop stocks everything you need to keep your anaconda happy.", createdAt="Sat Jun 19 2021 01:55:32", updatedAt="Wed Feb 23 2022 02:07:12")
     comment1228 = Comment(videoId=283, channelId=80, content="Separation anxiety is what happens when you can't find your phone.", createdAt="Fri Feb 04 2022 10:29:22", updatedAt="Mon Aug 09 2021 09:17:25")
     comment1229 = Comment(videoId=707, channelId=51, content="The toddler’s endless tantrum caused the entire plane anxiety.", createdAt="Fri Jan 14 2022 20:42:35", updatedAt="Mon Mar 21 2022 17:51:11")
     comment1230 = Comment(videoId=261, channelId=21, content="More RVs were seen in the storage lot than at the campground.", createdAt="Sat Jan 22 2022 18:28:36", updatedAt="Fri May 21 2021 23:06:18")
@@ -1286,7 +1258,6 @@ def seed_comments():
     comment1283 = Comment(videoId=228, channelId=4, content="The elephant didn't want to talk about the person in the room.", createdAt="Sat Oct 09 2021 10:31:25", updatedAt="Sun Jul 18 2021 03:07:39")
     comment1284 = Comment(videoId=347, channelId=64, content="The child’s favorite Christmas gift was the large box her father’s lawnmower came in.", createdAt="Thu Dec 09 2021 02:04:04", updatedAt="Sat Jan 08 2022 04:30:40")
     comment1285 = Comment(videoId=192, channelId=44, content="Today we gathered moss for my uncle's wedding.", createdAt="Mon Jan 03 2022 07:06:56", updatedAt="Mon Apr 19 2021 16:45:18")
-    comment1286 = Comment(videoId=786, channelId=69, content="There is no better feeling than staring at a wall with closed eyes.", createdAt="Sun Jan 30 2022 02:52:05", updatedAt="Sat Jul 03 2021 01:01:48")
     comment1287 = Comment(videoId=194, channelId=72, content="Watching the geriatric men’s softball team brought back memories of 3 yr olds playing t-ball.", createdAt="Fri Feb 04 2022 03:15:33", updatedAt="Sun Nov 14 2021 17:29:40")
     comment1288 = Comment(videoId=128, channelId=47, content="The elderly neighborhood became enraged over the coyotes who had been blamed for the poodle’s disappearance.", createdAt="Thu Jul 15 2021 01:50:08", updatedAt="Fri Apr 08 2022 15:56:10")
     comment1289 = Comment(videoId=113, channelId=10, content="As he entered the church he could hear the soft voice of someone whispering into a cell phone.", createdAt="Sat Jul 24 2021 07:12:44", updatedAt="Wed Oct 20 2021 22:01:41")
@@ -1328,7 +1299,6 @@ def seed_comments():
     comment1325 = Comment(videoId=530, channelId=83, content="There was coal in his stocking and he was thrilled.", createdAt="Sat Jun 19 2021 05:38:24", updatedAt="Sat Oct 30 2021 18:08:34")
     comment1326 = Comment(videoId=162, channelId=71, content="Nancy decided to make the porta-potty her home.", createdAt="Sat Jan 15 2022 09:18:09", updatedAt="Tue Aug 17 2021 11:49:56")
     comment1327 = Comment(videoId=35, channelId=93, content="It was her first experience training a rainbow unicorn.", createdAt="Sat Apr 02 2022 13:45:01", updatedAt="Thu Aug 19 2021 10:34:48")
-    comment1328 = Comment(videoId=653, channelId=65, content="Most shark attacks occur about 10 feet from the beach since that's where the people are.", createdAt="Wed Dec 01 2021 11:04:14", updatedAt="Thu Jul 22 2021 17:02:33")
     comment1329 = Comment(videoId=224, channelId=34, content="All she wanted was the answer, but she had no idea how much she would hate it.", createdAt="Sun Jul 11 2021 15:49:34", updatedAt="Thu Dec 23 2021 15:53:15")
     comment1330 = Comment(videoId=215, channelId=80, content="I’m working on a sweet potato farm.", createdAt="Wed Jan 05 2022 12:56:16", updatedAt="Thu Mar 17 2022 23:20:59")
     comment1331 = Comment(videoId=759, channelId=93, content="Always bring cinnamon buns on a deep-sea diving expedition.", createdAt="Mon May 03 2021 23:54:33", updatedAt="Sun Sep 19 2021 09:55:57")
@@ -1363,7 +1333,6 @@ def seed_comments():
     comment1360 = Comment(videoId=290, channelId=20, content="Nobody has encountered an explosive daisy and lived to tell the tale.", createdAt="Tue Aug 03 2021 01:30:40", updatedAt="Wed Sep 22 2021 12:13:50")
     comment1361 = Comment(videoId=503, channelId=41, content="The group quickly understood that toxic waste was the most effective barrier to use against the zombies.", createdAt="Sun Sep 26 2021 22:32:56", updatedAt="Sat Apr 24 2021 20:57:18")
     comment1362 = Comment(videoId=375, channelId=15, content="The secret ingredient to his wonderful life was crime.", createdAt="Sat Jun 19 2021 08:21:20", updatedAt="Tue Feb 01 2022 10:10:19")
-    comment1363 = Comment(videoId=788, channelId=78, content="She works two jobs to make ends meet; at least, that was her reason for not having time to join us.", createdAt="Fri Apr 08 2022 03:16:10", updatedAt="Thu Oct 07 2021 12:46:39")
     comment1364 = Comment(videoId=136, channelId=59, content="I honestly find her about as intimidating as a basket of kittens.", createdAt="Tue Apr 27 2021 12:55:11", updatedAt="Fri Apr 23 2021 07:53:00")
     comment1365 = Comment(videoId=105, channelId=33, content="Shingle color was not something the couple had ever talked about.", createdAt="Thu Jun 10 2021 21:12:47", updatedAt="Fri Jan 07 2022 06:49:33")
     comment1366 = Comment(videoId=77, channelId=19, content="The virus had powers none of us knew existed.", createdAt="Thu Apr 29 2021 03:51:24", updatedAt="Wed Oct 20 2021 05:41:02")
@@ -1379,11 +1348,9 @@ def seed_comments():
     comment1376 = Comment(videoId=369, channelId=82, content="The efficiency with which he paired the socks in the drawer was quite admirable.", createdAt="Thu Apr 22 2021 12:56:04", updatedAt="Sun Oct 03 2021 04:37:31")
     comment1377 = Comment(videoId=504, channelId=68, content="Sometimes I stare at a door or a wall and I wonder what is this reality, why am I alive, and what is this all about?", createdAt="Tue Sep 21 2021 13:00:44", updatedAt="Thu Aug 05 2021 20:40:56")
     comment1378 = Comment(videoId=45, channelId=6, content="She was too busy always talking about what she wanted to do to actually do any of it.", createdAt="Sat Nov 20 2021 00:37:17", updatedAt="Thu Aug 05 2021 16:25:27")
-    comment1379 = Comment(videoId=8, channelId=65, content="Written warnings in instruction manuals are worthless since rabbits can't read.", createdAt="Sun Dec 26 2021 23:12:15", updatedAt="Fri Sep 17 2021 11:12:48")
     comment1380 = Comment(videoId=580, channelId=74, content="He turned in the research paper on Friday; otherwise, he would have not passed the class.", createdAt="Mon Aug 09 2021 15:11:14", updatedAt="Sat Apr 02 2022 03:27:56")
     comment1381 = Comment(videoId=429, channelId=67, content="I had a friend in high school named Rick Shaw, but he was fairly useless as a mode of transport.", createdAt="Thu Mar 31 2022 09:37:45", updatedAt="Mon Aug 09 2021 08:54:02")
     comment1382 = Comment(videoId=271, channelId=5, content="There should have been a time and a place, but this wasn't it.", createdAt="Sun Jun 20 2021 07:14:57", updatedAt="Wed Oct 27 2021 23:25:27")
-    comment1383 = Comment(videoId=786, channelId=78, content="I was very proud of my nickname throughout high school but today- I couldn’t be any different to what my nickname was.", createdAt="Tue May 11 2021 00:08:47", updatedAt="Tue Jan 04 2022 00:09:52")
     comment1384 = Comment(videoId=140, channelId=23, content="He poured rocks in the dungeon of his mind.", createdAt="Sat Jul 17 2021 23:25:27", updatedAt="Tue May 18 2021 11:45:13")
     comment1385 = Comment(videoId=118, channelId=74, content="People keep telling me \"orange\" but I still prefer \"pink\".", createdAt="Fri Jul 30 2021 16:02:16", updatedAt="Wed Mar 02 2022 15:04:27")
     comment1386 = Comment(videoId=467, channelId=55, content="Patricia found the meaning of life in a bowl of Cheerios.", createdAt="Fri Jun 25 2021 09:25:01", updatedAt="Thu Nov 04 2021 14:11:26")
@@ -1405,7 +1372,6 @@ def seed_comments():
     comment1402 = Comment(videoId=82, channelId=60, content="She hadn't had her cup of coffee, and that made things all the worse.", createdAt="Sun Sep 26 2021 13:14:17", updatedAt="Thu Feb 03 2022 22:45:56")
     comment1403 = Comment(videoId=346, channelId=59, content="I am my aunt's sister's daughter.", createdAt="Thu Jan 20 2022 08:57:42", updatedAt="Sat May 15 2021 04:29:25")
     comment1404 = Comment(videoId=266, channelId=45, content="Her scream silenced the rowdy teenagers.", createdAt="Thu Feb 24 2022 20:21:36", updatedAt="Tue Aug 17 2021 06:34:20")
-    comment1405 = Comment(videoId=278, channelId=14, content="", createdAt="Sun Jan 16 2022 22:00:26", updatedAt="Sun Aug 22 2021 03:39:27")
     comment1406 = Comment(videoId=361, channelId=23, content="He picked up trash in his spare time to dump in his neighbor's yard.", createdAt="Wed Jan 26 2022 21:30:49", updatedAt="Thu Oct 28 2021 11:28:50")
     comment1407 = Comment(videoId=412, channelId=13, content="The gruff old man sat in the back of the bait shop grumbling to himself as he scooped out a handful of worms.", createdAt="Sat May 01 2021 21:02:55", updatedAt="Sat Apr 09 2022 08:50:31")
     comment1408 = Comment(videoId=487, channelId=13, content="It's important to remember to be aware of rampaging grizzly bears.", createdAt="Mon Jan 31 2022 19:25:13", updatedAt="Fri Jun 11 2021 04:37:18")
@@ -1443,7 +1409,6 @@ def seed_comments():
     comment1440 = Comment(videoId=104, channelId=3, content="Jim liked driving around town with his hazard lights on.", createdAt="Tue Oct 26 2021 21:12:21", updatedAt="Thu May 20 2021 03:53:44")
     comment1441 = Comment(videoId=779, channelId=93, content="The heat", createdAt="Tue May 11 2021 11:31:10", updatedAt="Sun Feb 20 2022 12:06:22")
     comment1442 = Comment(videoId=54, channelId=74, content="He hated that he loved what she hated about hate.", createdAt="Thu Dec 16 2021 00:02:42", updatedAt="Wed Dec 29 2021 01:12:07")
-    comment1443 = Comment(videoId=313, channelId=65, content="The tears of a clown make my lipstick run, but my shower cap is still intact.", createdAt="Fri Jun 04 2021 21:33:32", updatedAt="Fri Oct 01 2021 21:52:10")
     comment1444 = Comment(videoId=562, channelId=45, content="If you like tuna and tomato sauce, try combining the two, it’s really not as bad as it sounds.", createdAt="Fri Jun 18 2021 02:35:24", updatedAt="Tue Jun 29 2021 07:02:46")
     comment1445 = Comment(videoId=674, channelId=86, content="Having no hair made him look even hairier.", createdAt="Fri Jul 02 2021 13:25:49", updatedAt="Sat Nov 06 2021 12:14:46")
     comment1446 = Comment(videoId=180, channelId=14, content="Let me help you with your baggage.", createdAt="Thu Dec 09 2021 11:37:03", updatedAt="Fri Jan 14 2022 06:21:21")
@@ -1456,7 +1421,6 @@ def seed_comments():
     comment1453 = Comment(videoId=312, channelId=69, content="Each person who knows you has a different perception of who you are.", createdAt="Thu Aug 19 2021 17:32:04", updatedAt="Mon Aug 16 2021 10:00:41")
     comment1454 = Comment(videoId=149, channelId=79, content="I just wanted to tell you I could see the love you have for your child by the way you look at her.", createdAt="Sat Sep 11 2021 18:47:48", updatedAt="Tue Jun 01 2021 16:28:27")
     comment1455 = Comment(videoId=186, channelId=47, content="This is a Japanese doll.", createdAt="Wed Oct 13 2021 19:52:39", updatedAt="Wed Feb 09 2022 17:54:20")
-    comment1456 = Comment(videoId=723, channelId=57, content="", createdAt="Sun Apr 18 2021 03:08:06", updatedAt="Tue Oct 05 2021 10:30:09")
     comment1457 = Comment(videoId=301, channelId=60, content="Number of Sentences:", createdAt="Wed Aug 11 2021 09:35:28", updatedAt="Tue Jan 04 2022 05:39:47")
     comment1458 = Comment(videoId=714, channelId=24, content="50", createdAt="Thu Mar 03 2022 18:47:28", updatedAt="Tue Nov 30 2021 16:51:21")
     comment1459 = Comment(videoId=5, channelId=89, content="The father handed each child a roadmap at the beginning of the 2-day road trip and explained it was so they could find their way home.", createdAt="Sun May 16 2021 09:31:40", updatedAt="Sun Nov 14 2021 01:54:20")
@@ -1474,7 +1438,6 @@ def seed_comments():
     comment1471 = Comment(videoId=544, channelId=27, content="He had a vague sense that trees gave birth to dinosaurs.", createdAt="Sun Apr 18 2021 10:31:22", updatedAt="Wed Feb 09 2022 06:15:16")
     comment1472 = Comment(videoId=48, channelId=1, content="Pink horses galloped across the sea.", createdAt="Mon Oct 25 2021 05:16:10", updatedAt="Sat Oct 23 2021 20:57:49")
     comment1473 = Comment(videoId=30, channelId=16, content="Everyone says they love nature until they realize how dangerous she can be.", createdAt="Sat Jun 12 2021 22:17:51", updatedAt="Wed Dec 15 2021 01:25:32")
-    comment1474 = Comment(videoId=786, channelId=23, content="His thought process was on so many levels that he gave himself a phobia of heights.", createdAt="Thu Dec 23 2021 10:33:38", updatedAt="Wed Apr 14 2021 21:32:33")
     comment1475 = Comment(videoId=560, channelId=53, content="He kept telling himself that one day it would all somehow make sense.", createdAt="Tue Sep 14 2021 03:39:31", updatedAt="Sun Feb 20 2022 15:08:34")
     comment1476 = Comment(videoId=77, channelId=83, content="Peanuts don't grow on trees, but cashews do.", createdAt="Mon Jan 31 2022 22:48:32", updatedAt="Fri Oct 01 2021 06:05:34")
     comment1477 = Comment(videoId=750, channelId=42, content="The lake is a long way from here.", createdAt="Mon Jun 07 2021 21:00:05", updatedAt="Sun May 02 2021 17:48:02")
@@ -1555,11 +1518,9 @@ def seed_comments():
     comment1552 = Comment(videoId=604, channelId=73, content="His son quipped that power bars were nothing more than adult candy bars.", createdAt="Mon Oct 25 2021 07:08:47", updatedAt="Wed Dec 15 2021 20:41:22")
     comment1553 = Comment(videoId=183, channelId=64, content="The mysterious diary records the voice.", createdAt="Tue Jul 20 2021 01:41:31", updatedAt="Mon Mar 07 2022 18:01:32")
     comment1554 = Comment(videoId=484, channelId=9, content="Mary realized if her calculator had a history, it would be more embarrassing than her computer browser history.", createdAt="Wed Feb 02 2022 09:29:27", updatedAt="Sat Jul 03 2021 03:22:47")
-    comment1555 = Comment(videoId=781, channelId=83, content="The light that burns twice as bright burns half as long.", createdAt="Sat Nov 13 2021 06:48:42", updatedAt="Wed Jul 28 2021 01:00:39")
     comment1556 = Comment(videoId=167, channelId=89, content="He used to get confused between soldiers and shoulders, but as a military man, he now soldiers responsibility.", createdAt="Sun Aug 01 2021 12:23:18", updatedAt="Fri Aug 06 2021 21:15:57")
     comment1557 = Comment(videoId=393, channelId=12, content="Mom didn’t understand why no one else wanted a hot tub full of jello.", createdAt="Sat Jul 03 2021 09:55:46", updatedAt="Wed May 05 2021 22:16:57")
     comment1558 = Comment(videoId=594, channelId=74, content="I would have gotten the promotion, but my attendance wasn’t good enough.", createdAt="Tue Feb 08 2022 10:04:07", updatedAt="Tue May 04 2021 02:41:49")
-    comment1559 = Comment(videoId=363, channelId=30, content="", createdAt="Tue Dec 07 2021 16:56:50", updatedAt="Mon Dec 06 2021 10:29:29")
     comment1560 = Comment(videoId=171, channelId=58, content="She did not cheat on the test, for it was not the right thing to do.", createdAt="Sat Sep 11 2021 12:50:35", updatedAt="Thu Jan 27 2022 21:23:41")
     comment1561 = Comment(videoId=134, channelId=3, content="The fifty mannequin heads floating in the pool kind of freaked them out.", createdAt="Fri Dec 10 2021 01:39:44", updatedAt="Fri Jun 04 2021 14:58:00")
     comment1562 = Comment(videoId=164, channelId=42, content="Various sea birds are elegant, but nothing is as elegant as a gliding pelican.", createdAt="Fri Aug 27 2021 10:46:09", updatedAt="Wed Oct 27 2021 06:43:52")
@@ -1572,7 +1533,6 @@ def seed_comments():
     comment1569 = Comment(videoId=354, channelId=15, content="I liked their first two albums but changed my mind after that charity gig.", createdAt="Tue Apr 27 2021 14:46:11", updatedAt="Wed Apr 21 2021 13:21:29")
     comment1570 = Comment(videoId=203, channelId=95, content="Everyone was curious about the large white blimp that appeared overnight.", createdAt="Thu Feb 10 2022 16:23:00", updatedAt="Wed Dec 22 2021 00:52:52")
     comment1571 = Comment(videoId=211, channelId=91, content="That is an appealing treasure map that I can't read.", createdAt="Tue Dec 28 2021 01:43:52", updatedAt="Sat Feb 05 2022 13:25:55")
-    comment1572 = Comment(videoId=781, channelId=47, content="The shark-infested South Pine channel was the only way in or out.", createdAt="Tue Sep 07 2021 00:41:04", updatedAt="Thu Oct 14 2021 03:47:18")
     comment1573 = Comment(videoId=485, channelId=96, content="Cursive writing is the best way to build a race track.", createdAt="Tue Dec 21 2021 15:15:15", updatedAt="Wed Dec 22 2021 09:47:47")
     comment1574 = Comment(videoId=303, channelId=75, content="The father died during childbirth.", createdAt="Mon Nov 22 2021 04:02:52", updatedAt="Wed Aug 25 2021 12:12:03")
     comment1575 = Comment(videoId=567, channelId=12, content="The bullet pierced the window shattering it before missing Danny's head by mere millimeters.", createdAt="Fri May 28 2021 21:17:02", updatedAt="Sun Oct 10 2021 14:47:41")
@@ -1599,7 +1559,6 @@ def seed_comments():
     comment1596 = Comment(videoId=300, channelId=7, content="He wondered why at 18 he was old enough to go to war, but not old enough to buy cigarettes.", createdAt="Fri Feb 18 2022 06:24:31", updatedAt="Tue Nov 09 2021 20:29:12")
     comment1597 = Comment(videoId=742, channelId=84, content="He didn't understand why the bird wanted to ride the bicycle.", createdAt="Wed Dec 01 2021 14:17:06", updatedAt="Wed Apr 28 2021 09:30:52")
     comment1598 = Comment(videoId=242, channelId=57, content="As time wore on, simple dog commands turned into full paragraphs explaining why the dog couldn’t do something.", createdAt="Mon Feb 21 2022 22:57:39", updatedAt="Wed May 26 2021 16:58:24")
-    comment1599 = Comment(videoId=786, channelId=26, content="As the rental car rolled to a stop on the dark road, her fear increased by the moment.", createdAt="Fri Sep 17 2021 02:15:54", updatedAt="Sun Dec 19 2021 11:00:43")
     comment1600 = Comment(videoId=506, channelId=50, content="The external scars tell only part of the story.", createdAt="Fri Apr 30 2021 08:58:23", updatedAt="Wed Jan 05 2022 08:35:11")
     comment1601 = Comment(videoId=615, channelId=23, content="Homesickness became contagious in the young campers' cabin.", createdAt="Sat Oct 16 2021 07:30:02", updatedAt="Wed Jan 26 2022 13:29:30")
     comment1602 = Comment(videoId=515, channelId=53, content="Best friends are like old tomatoes and shoelaces.", createdAt="Sun Jul 04 2021 19:36:19", updatedAt="Thu Aug 05 2021 10:53:13")
@@ -1630,7 +1589,6 @@ def seed_comments():
     comment1627 = Comment(videoId=605, channelId=7, content="To the surprise of everyone, the Rapture happened yesterday but it didn't quite go as expected.", createdAt="Fri Feb 04 2022 20:21:17", updatedAt="Sat Feb 26 2022 17:47:42")
     comment1628 = Comment(videoId=725, channelId=48, content="He appeared to be confusingly perplexed.", createdAt="Tue Mar 29 2022 04:33:52", updatedAt="Sat Mar 26 2022 22:56:00")
     comment1629 = Comment(videoId=470, channelId=58, content="The murder hornet was disappointed by the preconceived ideas people had of him.", createdAt="Sun Jan 16 2022 13:39:59", updatedAt="Tue Feb 01 2022 08:01:18")
-    comment1630 = Comment(videoId=787, channelId=44, content="It's never comforting to know that your fate depends on something as unpredictable as the popping of corn.", createdAt="Sun Jan 02 2022 08:50:52", updatedAt="Sun Feb 27 2022 05:25:38")
     comment1631 = Comment(videoId=129, channelId=98, content="She works two jobs to make ends meet; at least, that was her reason for not having time to join us.", createdAt="Sat May 15 2021 21:06:02", updatedAt="Fri Apr 23 2021 14:13:32")
     comment1632 = Comment(videoId=209, channelId=68, content="She had some amazing news to share but nobody to share it with.", createdAt="Wed Jan 26 2022 03:47:42", updatedAt="Sun Dec 05 2021 18:27:58")
     comment1633 = Comment(videoId=109, channelId=49, content="It must be five o'clock somewhere.", createdAt="Tue Nov 23 2021 01:21:39", updatedAt="Tue Feb 08 2022 17:11:40")
@@ -1810,7 +1768,6 @@ def seed_comments():
     comment1807 = Comment(videoId=615, channelId=1, content="I met an interesting turtle while the song on the radio blasted away.", createdAt="Mon Mar 28 2022 08:51:40", updatedAt="Tue Apr 27 2021 22:59:20")
     comment1808 = Comment(videoId=541, channelId=13, content="Lets all be unique together until we realise we are all the same.", createdAt="Tue Mar 29 2022 08:05:11", updatedAt="Sat Dec 18 2021 13:20:10")
     comment1809 = Comment(videoId=4, channelId=62, content="There's a reason that roses have thorns.", createdAt="Sun Mar 13 2022 18:51:29", updatedAt="Tue Dec 07 2021 02:37:27")
-    comment1810 = Comment(videoId=73, channelId=18, content="", createdAt="Thu Feb 17 2022 02:15:36", updatedAt="Sun Nov 14 2021 18:49:17")
     comment1811 = Comment(videoId=83, channelId=38, content="The golden retriever loved the fireworks each Fourth of July.", createdAt="Thu Aug 05 2021 12:38:52", updatedAt="Thu Dec 09 2021 09:37:21")
     comment1812 = Comment(videoId=741, channelId=43, content="Lucifer was surprised at the amount of life at Death Valley.", createdAt="Mon Sep 27 2021 19:14:37", updatedAt="Tue Nov 09 2021 13:17:48")
     comment1813 = Comment(videoId=58, channelId=41, content="He swore he just saw his sushi move.", createdAt="Thu Dec 09 2021 19:30:04", updatedAt="Mon Nov 08 2021 18:50:35")
@@ -1831,7 +1788,6 @@ def seed_comments():
     comment1828 = Comment(videoId=216, channelId=98, content="She learned that water bottles are no longer just to hold liquid, but they're also status symbols.", createdAt="Sat Oct 09 2021 14:11:28", updatedAt="Fri Dec 31 2021 15:57:44")
     comment1829 = Comment(videoId=512, channelId=76, content="She looked at the masterpiece hanging in the museum but all she could think is that her five-year-old could do better.", createdAt="Sat Oct 23 2021 19:03:26", updatedAt="Thu Feb 24 2022 11:34:06")
     comment1830 = Comment(videoId=232, channelId=85, content="The efficiency we have at removing trash has made creating trash more acceptable.", createdAt="Thu Oct 14 2021 03:02:40", updatedAt="Mon Feb 28 2022 14:02:49")
-    comment1831 = Comment(videoId=789, channelId=13, content="They throw cabbage that turns your brain into emotional baggage.", createdAt="Sun Jan 16 2022 05:15:02", updatedAt="Mon Nov 08 2021 19:04:51")
     comment1832 = Comment(videoId=240, channelId=61, content="I want a giraffe, but I'm a turtle eating waffles.", createdAt="Sun Sep 05 2021 21:47:35", updatedAt="Wed May 12 2021 01:12:24")
     comment1833 = Comment(videoId=141, channelId=30, content="The sudden rainstorm washed crocodiles into the ocean.", createdAt="Sat May 29 2021 06:22:39", updatedAt="Sat Jan 15 2022 05:41:20")
     comment1834 = Comment(videoId=563, channelId=76, content="There aren't enough towels in the world to stop the sewage flowing from his mouth.", createdAt="Tue Jan 04 2022 15:24:03", updatedAt="Tue Feb 01 2022 09:38:38")
@@ -1861,7 +1817,6 @@ def seed_comments():
     comment1858 = Comment(videoId=194, channelId=56, content="The blinking lights of the antenna tower came into focus just as I heard a loud snap.", createdAt="Sun Oct 31 2021 18:31:31", updatedAt="Thu Mar 10 2022 18:32:54")
     comment1859 = Comment(videoId=389, channelId=71, content="Henry couldn't decide if he was an auto mechanic or a priest.", createdAt="Sat Jul 10 2021 04:47:38", updatedAt="Tue Oct 19 2021 04:37:15")
     comment1860 = Comment(videoId=579, channelId=8, content="She moved forward only because she trusted that the ending she now was going through must be followed by a new beginning.", createdAt="Tue Feb 08 2022 08:00:14", updatedAt="Sat Jul 10 2021 09:59:58")
-    comment1861 = Comment(videoId=402, channelId=18, content="", createdAt="Mon Sep 06 2021 20:34:55", updatedAt="Thu Apr 15 2021 16:33:41")
     comment1862 = Comment(videoId=715, channelId=70, content="Yeah, I think it's a good environment for learning English.", createdAt="Sun Oct 31 2021 00:53:58", updatedAt="Fri Feb 04 2022 06:20:13")
     comment1863 = Comment(videoId=55, channelId=100, content="The Guinea fowl flies through the air with all the grace of a turtle.", createdAt="Mon Aug 16 2021 08:15:09", updatedAt="Mon Sep 13 2021 17:08:57")
     comment1864 = Comment(videoId=122, channelId=23, content="The virus had powers none of us knew existed.", createdAt="Fri Apr 01 2022 22:02:13", updatedAt="Mon Mar 28 2022 01:08:20")
@@ -1884,7 +1839,6 @@ def seed_comments():
     comment1881 = Comment(videoId=418, channelId=79, content="He quietly entered the museum as the super bowl started.", createdAt="Sat Dec 18 2021 01:27:07", updatedAt="Thu Sep 16 2021 22:03:03")
     comment1882 = Comment(videoId=411, channelId=2, content="Lucifer was surprised at the amount of life at Death Valley.", createdAt="Mon Dec 27 2021 20:23:42", updatedAt="Fri Dec 03 2021 12:13:38")
     comment1883 = Comment(videoId=501, channelId=42, content="The delicious aroma from the kitchen was ruined by cigarette smoke.", createdAt="Sun Jul 04 2021 20:46:18", updatedAt="Mon Oct 18 2021 10:22:43")
-    comment1884 = Comment(videoId=84, channelId=65, content="I want to buy a onesie… but know it won’t suit me.", createdAt="Sat Sep 04 2021 17:35:37", updatedAt="Wed Feb 23 2022 02:05:38")
     comment1885 = Comment(videoId=485, channelId=52, content="Courage and stupidity were all he had.", createdAt="Tue Nov 02 2021 06:22:50", updatedAt="Fri Feb 04 2022 18:35:54")
     comment1886 = Comment(videoId=691, channelId=47, content="It didn't take long for Gary to detect the robbers were amateurs.", createdAt="Thu May 20 2021 07:39:12", updatedAt="Fri Dec 03 2021 07:47:25")
     comment1887 = Comment(videoId=7, channelId=25, content="Bill ran from the giraffe toward the dolphin.", createdAt="Mon Mar 21 2022 12:54:49", updatedAt="Thu Nov 25 2021 12:25:57")
@@ -1923,7 +1877,6 @@ def seed_comments():
     comment1920 = Comment(videoId=659, channelId=61, content="I became paranoid that the school of jellyfish was spying on me.", createdAt="Thu Nov 04 2021 01:01:42", updatedAt="Fri Sep 03 2021 06:39:12")
     comment1921 = Comment(videoId=617, channelId=14, content="It was always dangerous to drive with him since he insisted the safety cones were a slalom course.", createdAt="Fri Jan 28 2022 20:20:00", updatedAt="Thu Dec 02 2021 01:16:06")
     comment1922 = Comment(videoId=239, channelId=76, content="It's never been my responsibility to glaze the donuts.", createdAt="Sun Jan 02 2022 15:45:29", updatedAt="Fri Feb 11 2022 07:08:10")
-    comment1923 = Comment(videoId=787, channelId=27, content="The spa attendant applied the deep cleaning mask to the gentleman’s back.", createdAt="Wed Jul 07 2021 09:13:41", updatedAt="Mon Jun 28 2021 04:32:19")
     comment1924 = Comment(videoId=354, channelId=7, content="The fish dreamed of escaping the fishbowl and into the toilet where he saw his friend go.", createdAt="Sat May 08 2021 15:20:36", updatedAt="Sat Jan 22 2022 15:43:36")
     comment1925 = Comment(videoId=463, channelId=83, content="It didn't make sense unless you had the power to eat colors.", createdAt="Sat Sep 04 2021 21:03:13", updatedAt="Sat Aug 21 2021 16:13:59")
     comment1926 = Comment(videoId=111, channelId=23, content="I hear that Nancy is very pretty.", createdAt="Wed Dec 29 2021 03:43:27", updatedAt="Wed Dec 22 2021 11:57:38")
@@ -1967,7 +1920,6 @@ def seed_comments():
     comment1964 = Comment(videoId=31, channelId=25, content="The thick foliage and intertwined vines made the hike nearly impossible.", createdAt="Tue Dec 21 2021 20:11:10", updatedAt="Fri Sep 03 2021 05:23:46")
     comment1965 = Comment(videoId=397, channelId=38, content="The crowd yells and screams for more memes.", createdAt="Sun Nov 21 2021 17:01:26", updatedAt="Thu Jun 03 2021 06:28:44")
     comment1966 = Comment(videoId=616, channelId=57, content="He was the only member of the club who didn't like plum pudding.", createdAt="Fri Feb 25 2022 10:10:23", updatedAt="Wed Oct 20 2021 21:51:12")
-    comment1967 = Comment(videoId=11, channelId=65, content="The tart lemonade quenched her thirst, but not her longing.", createdAt="Sun Sep 12 2021 15:08:07", updatedAt="Tue Dec 07 2021 20:50:24")
     comment1968 = Comment(videoId=585, channelId=72, content="The sudden rainstorm washed crocodiles into the ocean.", createdAt="Wed Apr 21 2021 16:54:41", updatedAt="Tue Jan 25 2022 03:28:59")
     comment1969 = Comment(videoId=133, channelId=95, content="There have been days when I wished to be separated from my body, but today wasn’t one of those days.", createdAt="Fri Jun 11 2021 18:07:52", updatedAt="Sun Jul 04 2021 09:54:36")
     comment1970 = Comment(videoId=154, channelId=20, content="Nobody loves a pig wearing lipstick.", createdAt="Thu Oct 14 2021 03:04:00", updatedAt="Mon May 24 2021 03:57:40")
@@ -1989,7 +1941,6 @@ def seed_comments():
     comment1986 = Comment(videoId=751, channelId=58, content="Not all people who wander are lost.", createdAt="Sun Mar 06 2022 16:50:47", updatedAt="Tue Aug 17 2021 23:09:42")
     comment1987 = Comment(videoId=251, channelId=35, content="She discovered van life is difficult with 2 cats and a dog.", createdAt="Sat Apr 24 2021 06:46:40", updatedAt="Thu Sep 30 2021 13:24:49")
     comment1988 = Comment(videoId=145, channelId=80, content="A good example of a useful vegetable is medicinal rhubarb.", createdAt="Thu Feb 24 2022 10:20:08", updatedAt="Sun Aug 29 2021 03:06:27")
-    comment1989 = Comment(videoId=780, channelId=83, content="I honestly find her about as intimidating as a basket of kittens.", createdAt="Sun Oct 17 2021 02:02:54", updatedAt="Thu Feb 24 2022 08:56:41")
     comment1990 = Comment(videoId=216, channelId=47, content="Everyone pretends to like wheat until you mention barley.", createdAt="Fri Oct 15 2021 21:38:13", updatedAt="Thu Sep 30 2021 21:25:44")
     comment1991 = Comment(videoId=283, channelId=70, content="I only enjoy window shopping when the windows are transparent.", createdAt="Sat May 22 2021 14:20:56", updatedAt="Tue Sep 07 2021 09:02:00")
     comment1992 = Comment(videoId=602, channelId=7, content="People who insist on picking their teeth with their elbows are so annoying!", createdAt="Sun Sep 05 2021 06:35:50", updatedAt="Fri Mar 18 2022 23:25:27")
@@ -2005,10 +1956,8 @@ def seed_comments():
     comment2002 = Comment(videoId=148, channelId=72, content="Potato wedges probably are not best for relationships.", createdAt="Mon Nov 22 2021 16:17:57", updatedAt="Mon Jul 26 2021 00:07:34")
     comment2003 = Comment(videoId=747, channelId=3, content="The teenage boy was accused of breaking his arm simply to get out of the test.", createdAt="Thu Feb 03 2022 04:56:25", updatedAt="Mon May 03 2021 04:33:57")
     comment2004 = Comment(videoId=208, channelId=9, content="He kept telling himself that one day it would all somehow make sense.", createdAt="Fri Nov 19 2021 20:36:56", updatedAt="Mon Aug 23 2021 09:25:01")
-    comment2005 = Comment(videoId=785, channelId=25, content="She works two jobs to make ends meet; at least, that was her reason for not having time to join us.", createdAt="Tue Nov 30 2021 21:06:17", updatedAt="Mon Oct 04 2021 21:27:27")
     comment2006 = Comment(videoId=268, channelId=85, content="My secretary is the only person who truly understands my stamp-collecting obsession.", createdAt="Sat Jun 05 2021 16:39:27", updatedAt="Mon Jun 21 2021 23:23:15")
     comment2007 = Comment(videoId=351, channelId=84, content="They say that dogs are man's best friend, but this cat was setting out to sabotage that theory.", createdAt="Mon Jan 10 2022 19:43:29", updatedAt="Thu Jul 15 2021 14:21:22")
-    comment2008 = Comment(videoId=782, channelId=50, content="He had unknowingly taken up sleepwalking as a nighttime hobby.", createdAt="Sat Dec 18 2021 21:17:42", updatedAt="Sat Feb 05 2022 06:21:38")
     comment2009 = Comment(videoId=419, channelId=95, content="My uncle's favorite pastime was building cars out of noodles.", createdAt="Fri Oct 15 2021 22:16:12", updatedAt="Sat May 01 2021 20:56:14")
     comment2010 = Comment(videoId=473, channelId=31, content="On each full moon", createdAt="Sat Oct 16 2021 05:34:32", updatedAt="Mon Feb 28 2022 18:21:21")
     comment2011 = Comment(videoId=394, channelId=99, content="The teens wondered what was kept in the red shed on the far edge of the school grounds.", createdAt="Sat Jul 17 2021 08:08:48", updatedAt="Fri Nov 26 2021 07:48:37")
@@ -2023,7 +1972,6 @@ def seed_comments():
     comment2020 = Comment(videoId=736, channelId=8, content="The dead trees waited to be ignited by the smallest spark and seek their revenge.", createdAt="Mon Apr 04 2022 13:47:00", updatedAt="Tue Nov 09 2021 02:29:46")
     comment2021 = Comment(videoId=680, channelId=14, content="They wandered into a strange Tiki bar on the edge of the small beach town.", createdAt="Sun Jan 16 2022 06:56:21", updatedAt="Mon Apr 12 2021 09:03:20")
     comment2022 = Comment(videoId=429, channelId=27, content="This is a Japanese doll.", createdAt="Sat May 15 2021 21:39:52", updatedAt="Mon Jun 21 2021 14:16:07")
-    comment2023 = Comment(videoId=516, channelId=65, content="He had unknowingly taken up sleepwalking as a nighttime hobby.", createdAt="Wed Oct 20 2021 17:14:04", updatedAt="Wed Nov 17 2021 18:15:44")
     comment2024 = Comment(videoId=628, channelId=80, content="The rusty nail stood erect, angled at a 45-degree angle, just waiting for the perfect barefoot to come along.", createdAt="Wed May 12 2021 09:31:53", updatedAt="Tue Oct 12 2021 20:13:55")
     comment2025 = Comment(videoId=637, channelId=34, content="Always bring cinnamon buns on a deep-sea diving expedition.", createdAt="Sun Jun 20 2021 10:58:21", updatedAt="Tue Mar 08 2022 09:19:27")
     comment2026 = Comment(videoId=69, channelId=74, content="Kevin embraced his ability to be at the wrong place at the wrong time.", createdAt="Wed Jun 23 2021 05:11:29", updatedAt="Sat Apr 24 2021 10:29:32")
@@ -2036,7 +1984,6 @@ def seed_comments():
     comment2033 = Comment(videoId=644, channelId=2, content="The toy brought back fond memories of being lost in the rain forest.", createdAt="Wed Oct 13 2021 05:40:10", updatedAt="Wed Jan 05 2022 09:42:11")
     comment2034 = Comment(videoId=208, channelId=56, content="Nancy thought the best way to create a welcoming home was to line it with barbed wire.", createdAt="Sat Aug 21 2021 23:06:34", updatedAt="Wed Sep 01 2021 16:30:16")
     comment2035 = Comment(videoId=533, channelId=63, content="The two walked down the slot canyon oblivious to the sound of thunder in the distance.", createdAt="Mon Sep 13 2021 11:05:07", updatedAt="Fri Jul 23 2021 19:57:10")
-    comment2036 = Comment(videoId=785, channelId=92, content="Edith could decide if she should paint her teeth or brush her nails.", createdAt="Thu Dec 09 2021 09:16:14", updatedAt="Wed Apr 21 2021 11:04:41")
     comment2037 = Comment(videoId=723, channelId=83, content="You can't compare apples and oranges, but what about bananas and plantains?", createdAt="Fri Apr 30 2021 00:58:35", updatedAt="Mon Aug 16 2021 23:00:25")
     comment2038 = Comment(videoId=188, channelId=23, content="The tumbleweed refused to tumble but was more than willing to prance.", createdAt="Tue Jul 06 2021 21:28:29", updatedAt="Mon Oct 04 2021 11:35:22")
     comment2039 = Comment(videoId=769, channelId=85, content="Getting up at dawn is for the birds.", createdAt="Sat Jun 26 2021 18:18:38", updatedAt="Mon Feb 14 2022 18:10:29")
@@ -2057,7 +2004,6 @@ def seed_comments():
     comment2054 = Comment(videoId=124, channelId=100, content="He poured rocks in the dungeon of his mind.", createdAt="Wed Nov 10 2021 13:27:06", updatedAt="Fri Jun 04 2021 05:09:45")
     comment2055 = Comment(videoId=772, channelId=98, content="It's never been my responsibility to glaze the donuts.", createdAt="Mon Jul 12 2021 15:12:37", updatedAt="Wed May 19 2021 10:48:37")
     comment2056 = Comment(videoId=37, channelId=32, content="The snow-covered path was no help in finding his way out of the back-country.", createdAt="Fri May 14 2021 02:25:53", updatedAt="Wed Feb 16 2022 01:18:29")
-    comment2057 = Comment(videoId=365, channelId=65, content="After fighting off the alligator, Brian still had to face the anaconda.", createdAt="Thu Jun 24 2021 09:54:53", updatedAt="Tue Dec 28 2021 16:33:44")
     comment2058 = Comment(videoId=388, channelId=64, content="I've always wanted to go to Tajikistan, but my cat would miss me.", createdAt="Wed Sep 01 2021 03:32:13", updatedAt="Thu Sep 30 2021 11:40:20")
     comment2059 = Comment(videoId=179, channelId=72, content="Beach-combing replaced wine tasting as his new obsession.", createdAt="Sat Apr 17 2021 11:36:31", updatedAt="Tue Oct 12 2021 09:41:33")
     comment2060 = Comment(videoId=277, channelId=92, content="The elephant didn't want to talk about the person in the room.", createdAt="Tue Jul 27 2021 06:21:00", updatedAt="Fri Oct 15 2021 03:37:53")
@@ -2163,7 +2109,6 @@ def seed_comments():
     comment90b = Comment(videoId=310, channelId=83, content="As the years pass by, we all know owners look more and more like their dogs.", createdAt="Fri Mar 18 2022 08:28:15", updatedAt="Fri Nov 19 2021 01:45:52")
     comment91b = Comment(videoId=586, channelId=14, content="The pet shop stocks everything you need to keep your anaconda happy.", createdAt="Thu Dec 16 2021 06:40:34", updatedAt="Sat Jun 05 2021 06:09:57")
     comment92b = Comment(videoId=225, channelId=81, content="The doll spun around in circles in hopes of coming alive.", createdAt="Wed Dec 01 2021 00:36:15", updatedAt="Mon Apr 19 2021 01:24:59")
-    comment93b = Comment(videoId=79, channelId=65, content="Nobody loves a pig wearing lipstick.", createdAt="Sat Mar 19 2022 15:42:00", updatedAt="Sat Jan 15 2022 10:25:33")
     comment94b = Comment(videoId=561, channelId=38, content="The sunblock was handed to the girl before practice, but the burned skin was proof she did not apply it.", createdAt="Wed Jun 02 2021 06:45:42", updatedAt="Wed Oct 27 2021 06:14:15")
     comment95b = Comment(videoId=276, channelId=21, content="He stomped on his fruit loops and thus became a cereal killer.", createdAt="Sat Dec 25 2021 22:07:55", updatedAt="Sat Jun 26 2021 16:00:29")
     comment96b = Comment(videoId=410, channelId=36, content="Even though he thought the world was flat he didn’t see the irony of wanting to travel around the world.", createdAt="Mon Oct 04 2021 01:41:56", updatedAt="Thu Jan 06 2022 08:51:58")
@@ -2172,7 +2117,6 @@ def seed_comments():
     comment99b = Comment(videoId=727, channelId=61, content="They're playing the piano while flying in the plane.", createdAt="Sun Aug 22 2021 20:36:42", updatedAt="Wed Sep 29 2021 16:38:41")
     comment100b = Comment(videoId=152, channelId=89, content="Today I dressed my unicorn in preparation for the race.", createdAt="Thu Jul 22 2021 23:43:58", updatedAt="Sun Dec 05 2021 09:40:21")
     comment101b = Comment(videoId=421, channelId=61, content="The llama couldn't resist trying the lemonade.", createdAt="Tue Jun 01 2021 18:50:01", updatedAt="Thu May 13 2021 20:50:40")
-    comment102b = Comment(videoId=524, channelId=65, content="I'd always thought lightning was something only I could see.", createdAt="Wed Mar 02 2022 15:52:17", updatedAt="Wed Feb 23 2022 08:46:36")
     comment103b = Comment(videoId=342, channelId=21, content="She had a habit of taking showers in lemonade.", createdAt="Fri Apr 08 2022 08:42:17", updatedAt="Sat Aug 14 2021 10:48:10")
     comment104b = Comment(videoId=142, channelId=56, content="Separation anxiety is what happens when you can't find your phone.", createdAt="Sat Sep 18 2021 16:01:33", updatedAt="Sun Jan 09 2022 11:14:44")
     comment105b = Comment(videoId=99, channelId=60, content="I love eating toasted cheese and tuna sandwiches.", createdAt="Sat Jan 01 2022 07:03:14", updatedAt="Mon Jan 10 2022 06:47:51")
@@ -2203,7 +2147,6 @@ def seed_comments():
     comment130b = Comment(videoId=413, channelId=94, content="The wake behind the boat told of the past while the open sea for told life in the unknown future.", createdAt="Wed Jun 30 2021 18:55:21", updatedAt="Mon Aug 09 2021 08:15:12")
     comment131b = Comment(videoId=128, channelId=39, content="Pink horses galloped across the sea.", createdAt="Thu Jun 24 2021 04:59:10", updatedAt="Thu Sep 16 2021 09:45:25")
     comment132b = Comment(videoId=593, channelId=48, content="She had that tint of craziness in her soul that made her believe she could actually make a difference.", createdAt="Tue Feb 15 2022 15:53:50", updatedAt="Sun Sep 05 2021 08:14:29")
-    comment133b = Comment(videoId=784, channelId=35, content="There was coal in his stocking and he was thrilled.", createdAt="Fri Sep 03 2021 02:30:00", updatedAt="Sat Sep 25 2021 02:44:20")
     comment134b = Comment(videoId=227, channelId=75, content="He fumbled in the darkness looking for the light switch, but when he finally found it there was someone already there.", createdAt="Fri Feb 11 2022 14:15:35", updatedAt="Sat Jul 10 2021 12:37:30")
     comment135b = Comment(videoId=541, channelId=52, content="He learned the hardest lesson of his life and had the scars, both physical and mental, to prove it.", createdAt="Wed Feb 23 2022 01:39:25", updatedAt="Sat May 15 2021 16:14:11")
     comment136b = Comment(videoId=241, channelId=59, content="Gary didn't understand why Doug went upstairs to get one dollar bills when he invited him to go cow tipping.", createdAt="Tue Nov 30 2021 20:44:33", updatedAt="Sat Apr 09 2022 18:04:52")
@@ -2269,7 +2212,6 @@ def seed_comments():
     comment196b = Comment(videoId=212, channelId=13, content="Imagine his surprise when he discovered that the safe was full of pudding.", createdAt="Mon Nov 01 2021 04:26:31", updatedAt="Fri Dec 17 2021 19:15:18")
     comment197b = Comment(videoId=509, channelId=21, content="Everyone says they love nature until they realize how dangerous she can be.", createdAt="Wed Mar 23 2022 09:26:54", updatedAt="Sun Oct 10 2021 00:09:59")
     comment198b = Comment(videoId=627, channelId=41, content="The light in his life was actually a fire burning all around him.", createdAt="Sat Mar 19 2022 01:10:03", updatedAt="Sat Apr 17 2021 13:26:42")
-    comment199b = Comment(videoId=781, channelId=2, content="Getting up at dawn is for the birds.", createdAt="Fri Aug 13 2021 11:43:02", updatedAt="Fri Jan 07 2022 14:24:38")
     comment200b = Comment(videoId=520, channelId=75, content="It's never been my responsibility to glaze the donuts.", createdAt="Mon May 03 2021 18:11:31", updatedAt="Thu May 06 2021 12:11:54")
     comment201b = Comment(videoId=207, channelId=52, content="Excitement replaced fear until the final moment.", createdAt="Thu Aug 19 2021 08:20:11", updatedAt="Tue Mar 22 2022 01:51:12")
     comment202b = Comment(videoId=448, channelId=1, content="They say that dogs are man's best friend, but this cat was setting out to sabotage that theory.", createdAt="Fri May 07 2021 13:29:52", updatedAt="Wed Sep 15 2021 22:30:59")
@@ -2281,7 +2223,6 @@ def seed_comments():
     comment208b = Comment(videoId=432, channelId=37, content="Strawberries must be the one food that doesn't go well with this brand of paint.", createdAt="Fri Sep 24 2021 10:31:14", updatedAt="Sat May 22 2021 15:35:19")
     comment209b = Comment(videoId=592, channelId=82, content="He didn't heed the warning and it had turned out surprisingly well.", createdAt="Wed May 26 2021 05:16:33", updatedAt="Tue May 25 2021 17:39:40")
     comment210b = Comment(videoId=496, channelId=50, content="She traveled because it cost the same as therapy and was a lot more enjoyable.", createdAt="Thu Jun 17 2021 00:42:30", updatedAt="Sat Dec 11 2021 14:39:00")
-    comment211b = Comment(videoId=165, channelId=65, content="The minute she landed she understood the reason this was a fly-over state.", createdAt="Wed Jun 02 2021 10:43:23", updatedAt="Sun Dec 26 2021 21:16:27")
     comment212b = Comment(videoId=739, channelId=58, content="Her scream silenced the rowdy teenagers.", createdAt="Mon Jan 17 2022 19:12:18", updatedAt="Fri Jan 14 2022 02:59:44")
     comment213b = Comment(videoId=339, channelId=57, content="A purple pig and a green donkey flew a kite in the middle of the night and ended up sunburnt.", createdAt="Tue Jun 15 2021 22:31:22", updatedAt="Thu Feb 17 2022 11:58:49")
     comment214b = Comment(videoId=589, channelId=33, content="It didn't make sense unless you had the power to eat colors.", createdAt="Tue Sep 14 2021 11:02:43", updatedAt="Sat Feb 19 2022 10:44:37")
@@ -2302,7 +2243,6 @@ def seed_comments():
     comment229b = Comment(videoId=659, channelId=54, content="Her daily goal was to improve on yesterday.", createdAt="Wed Dec 08 2021 23:28:16", updatedAt="Sun Mar 13 2022 19:16:20")
     comment230b = Comment(videoId=75, channelId=71, content="I would be delighted if the sea were full of cucumber juice.", createdAt="Thu Sep 16 2021 23:16:27", updatedAt="Wed Jan 12 2022 14:09:06")
     comment231b = Comment(videoId=131, channelId=62, content="He picked up trash in his spare time to dump in his neighbor's yard.", createdAt="Sun Aug 29 2021 06:01:36", updatedAt="Thu Jun 03 2021 04:05:09")
-    comment232b = Comment(videoId=704, channelId=65, content="Their argument could be heard across the parking lot.", createdAt="Tue Feb 22 2022 07:44:15", updatedAt="Sat Nov 20 2021 08:44:48")
     comment233b = Comment(videoId=515, channelId=28, content="It was at that moment that he learned there are certain parts of the body that you should never Nair.", createdAt="Sat Jul 24 2021 01:13:46", updatedAt="Wed Feb 02 2022 07:39:28")
     comment234b = Comment(videoId=650, channelId=71, content="Abstraction is often one floor above you.", createdAt="Sun Aug 01 2021 19:03:00", updatedAt="Tue Apr 05 2022 13:40:38")
     comment235b = Comment(videoId=244, channelId=56, content="Written warnings in instruction manuals are worthless since rabbits can't read.", createdAt="Tue Mar 08 2022 04:04:20", updatedAt="Sun Dec 12 2021 06:28:58")
@@ -2337,7 +2277,6 @@ def seed_comments():
     comment264b = Comment(videoId=480, channelId=18, content="He is good at eating pickles and telling women about his emotional problems.", createdAt="Mon Oct 11 2021 01:28:16", updatedAt="Tue Jan 18 2022 08:16:31")
     comment265b = Comment(videoId=379, channelId=48, content="He was the only member of the club who didn't like plum pudding.", createdAt="Sat Sep 25 2021 11:11:06", updatedAt="Thu Nov 18 2021 09:04:55")
     comment266b = Comment(videoId=307, channelId=38, content="The pigs were insulted that they were named hamburgers.", createdAt="Thu Sep 16 2021 00:39:00", updatedAt="Mon Jul 19 2021 18:30:23")
-    comment267b = Comment(videoId=789, channelId=1, content="Today is the day I'll finally know what brick tastes like.", createdAt="Fri Apr 01 2022 20:05:00", updatedAt="Fri Aug 06 2021 18:45:44")
     comment268b = Comment(videoId=260, channelId=4, content="My uncle's favorite pastime was building cars out of noodles.", createdAt="Sat Jan 15 2022 19:39:18", updatedAt="Tue Mar 08 2022 06:34:30")
     comment269b = Comment(videoId=242, channelId=1, content="He's in a boy band which doesn't make much sense for a snake.", createdAt="Fri Nov 05 2021 14:13:01", updatedAt="Fri Nov 05 2021 12:28:55")
     comment270b = Comment(videoId=496, channelId=46, content="She did not cheat on the test, for it was not the right thing to do.", createdAt="Sat Jul 03 2021 22:32:48", updatedAt="Tue Jun 22 2021 09:31:05")
@@ -2345,11 +2284,9 @@ def seed_comments():
     comment272b = Comment(videoId=144, channelId=45, content="It doesn't sound like that will ever be on my travel list.", createdAt="Fri Jul 16 2021 20:18:52", updatedAt="Mon Jan 10 2022 01:02:06")
     comment273b = Comment(videoId=726, channelId=100, content="The Guinea fowl flies through the air with all the grace of a turtle.", createdAt="Mon Mar 07 2022 02:35:16", updatedAt="Mon Jan 03 2022 21:40:01")
     comment274b = Comment(videoId=478, channelId=19, content="Plans for this weekend include turning wine into water.", createdAt="Fri Jul 23 2021 02:07:30", updatedAt="Sun Nov 28 2021 04:35:35")
-    comment275b = Comment(videoId=226, channelId=65, content="People generally approve of dogs eating cat food but not cats eating dog food.", createdAt="Sun Aug 08 2021 14:49:30", updatedAt="Thu Mar 24 2022 15:24:51")
     comment276b = Comment(videoId=211, channelId=77, content="The urgent care center was flooded with patients after the news of a new deadly virus was made public.", createdAt="Wed Jan 19 2022 10:09:53", updatedAt="Thu Jul 01 2021 01:19:31")
     comment277b = Comment(videoId=279, channelId=71, content="It took him a while to realize that everything he decided not to change, he was actually choosing.", createdAt="Tue Dec 07 2021 20:03:01", updatedAt="Wed Jan 19 2022 20:55:57")
     comment278b = Comment(videoId=610, channelId=74, content="Every manager should be able to recite at least ten nursery rhymes backward.", createdAt="Sun Apr 03 2022 10:05:52", updatedAt="Sat Mar 19 2022 22:58:30")
-    comment279b = Comment(videoId=788, channelId=40, content="The fish dreamed of escaping the fishbowl and into the toilet where he saw his friend go.", createdAt="Wed Jul 14 2021 06:13:19", updatedAt="Wed Nov 17 2021 23:50:02")
     comment280b = Comment(videoId=689, channelId=11, content="He had accidentally hacked into his company's server.", createdAt="Fri Mar 25 2022 04:19:22", updatedAt="Fri Sep 10 2021 12:25:30")
     comment281b = Comment(videoId=142, channelId=90, content="I only enjoy window shopping when the windows are transparent.", createdAt="Sat Jan 29 2022 20:11:07", updatedAt="Tue Oct 12 2021 09:49:44")
     comment282b = Comment(videoId=218, channelId=63, content="I come from a tribe of head-hunters, so I will never need a shrink.", createdAt="Sat Jan 15 2022 18:01:44", updatedAt="Mon Feb 14 2022 13:32:45")
@@ -2388,14 +2325,12 @@ def seed_comments():
     comment315b = Comment(videoId=183, channelId=100, content="There was no ice cream in the freezer, nor did they have money to go to the store.", createdAt="Mon Jul 12 2021 20:17:52", updatedAt="Mon Nov 22 2021 13:33:12")
     comment316b = Comment(videoId=443, channelId=90, content="He wondered if it could be called a beach if there was no sand.", createdAt="Wed Nov 03 2021 07:37:06", updatedAt="Mon Nov 22 2021 23:11:55")
     comment317b = Comment(videoId=83, channelId=82, content="Watching the geriatric men’s softball team brought back memories of 3 yr olds playing t-ball.", createdAt="Mon Mar 14 2022 23:33:52", updatedAt="Mon Mar 21 2022 20:35:29")
-    comment318b = Comment(videoId=785, channelId=96, content="The teenage boy was accused of breaking his arm simply to get out of the test.", createdAt="Mon Dec 27 2021 00:01:18", updatedAt="Sun Jul 25 2021 21:54:36")
     comment319b = Comment(videoId=61, channelId=2, content="Harrold felt confident that nobody would ever suspect his spy pigeon.", createdAt="Sat Apr 09 2022 08:15:45", updatedAt="Thu Aug 19 2021 22:11:37")
     comment320b = Comment(videoId=124, channelId=18, content="Bill ran from the giraffe toward the dolphin.", createdAt="Thu Feb 17 2022 08:06:59", updatedAt="Sun Oct 10 2021 13:43:38")
     comment321b = Comment(videoId=409, channelId=17, content="Although it wasn't a pot of gold, Nancy was still enthralled at what she found at the end of the rainbow.", createdAt="Tue Dec 21 2021 11:00:16", updatedAt="Sat Nov 06 2021 04:09:51")
     comment322b = Comment(videoId=700, channelId=9, content="There was no telling what thoughts would come from the machine.", createdAt="Sat Jun 05 2021 15:15:18", updatedAt="Thu Nov 04 2021 08:17:16")
     comment323b = Comment(videoId=654, channelId=81, content="The fence was confused about whether it was supposed to keep things in or keep things out.", createdAt="Tue Mar 08 2022 18:07:49", updatedAt="Mon Oct 18 2021 19:14:11")
     comment324b = Comment(videoId=578, channelId=24, content="The memory we used to share is no longer coherent.", createdAt="Sat Mar 26 2022 10:08:11", updatedAt="Mon Feb 28 2022 14:36:48")
-    comment325b = Comment(videoId=455, channelId=65, content="She opened up her third bottle of wine of the night.", createdAt="Thu Oct 21 2021 18:41:34", updatedAt="Mon Apr 26 2021 15:01:43")
     comment326b = Comment(videoId=365, channelId=2, content="She folded her handkerchief neatly.", createdAt="Sun Oct 03 2021 22:59:07", updatedAt="Sun Nov 21 2021 09:59:15")
     comment327b = Comment(videoId=740, channelId=55, content="She had some amazing news to share but nobody to share it with.", createdAt="Thu Jan 20 2022 14:20:21", updatedAt="Mon Jun 21 2021 05:31:18")
     comment328b = Comment(videoId=230, channelId=99, content="It doesn't sound like that will ever be on my travel list.", createdAt="Sat Sep 25 2021 19:20:41", updatedAt="Wed Jan 12 2022 00:39:35")
@@ -2440,7 +2375,6 @@ def seed_comments():
     comment367b = Comment(videoId=65, channelId=15, content="The fog was so dense even a laser decided it wasn't worth the effort.", createdAt="Wed Sep 15 2021 01:09:25", updatedAt="Thu Apr 15 2021 03:59:00")
     comment368b = Comment(videoId=87, channelId=8, content="The pet shop stocks everything you need to keep your anaconda happy.", createdAt="Thu Feb 03 2022 03:32:28", updatedAt="Sat Sep 11 2021 09:37:32")
     comment369b = Comment(videoId=379, channelId=56, content="Mary realized if her calculator had a history, it would be more embarrassing than her computer browser history.", createdAt="Mon Apr 26 2021 02:54:47", updatedAt="Thu Jun 24 2021 02:37:45")
-    comment370b = Comment(videoId=787, channelId=36, content="Poison ivy grew through the fence they said was impenetrable.", createdAt="Sat Oct 02 2021 22:35:43", updatedAt="Thu Dec 30 2021 13:13:06")
     comment371b = Comment(videoId=617, channelId=60, content="Pink horses galloped across the sea.", createdAt="Fri Jan 21 2022 16:02:14", updatedAt="Thu Aug 26 2021 10:32:03")
     comment372b = Comment(videoId=406, channelId=84, content="Most shark attacks occur about 10 feet from the beach since that's where the people are.", createdAt="Wed Oct 20 2021 17:46:14", updatedAt="Mon May 03 2021 07:15:46")
     comment373b = Comment(videoId=614, channelId=27, content="He learned the hardest lesson of his life and had the scars, both physical and mental, to prove it.", createdAt="Tue Nov 02 2021 17:28:15", updatedAt="Sat Apr 02 2022 11:18:44")
@@ -2476,7 +2410,6 @@ def seed_comments():
     comment403b = Comment(videoId=436, channelId=75, content="He put heat on the wound to see what would grow.", createdAt="Thu Feb 03 2022 05:34:28", updatedAt="Tue Apr 05 2022 05:14:24")
     comment404b = Comment(videoId=163, channelId=20, content="I became paranoid that the school of jellyfish was spying on me.", createdAt="Sun Dec 26 2021 01:54:51", updatedAt="Thu Dec 23 2021 14:45:15")
     comment405b = Comment(videoId=33, channelId=90, content="Thigh-high in the water, the fisherman’s hope for dinner soon turned to despair.", createdAt="Thu Aug 12 2021 20:14:51", updatedAt="Wed Nov 10 2021 08:12:22")
-    comment406b = Comment(videoId=694, channelId=65, content="It isn't difficult to do a handstand if you just stand on your hands.", createdAt="Wed Jul 14 2021 19:40:54", updatedAt="Fri Jan 14 2022 15:09:59")
     comment407b = Comment(videoId=258, channelId=56, content="Everyone was curious about the large white blimp that appeared overnight.", createdAt="Sat Jun 26 2021 04:14:17", updatedAt="Mon Apr 12 2021 14:30:34")
     comment408b = Comment(videoId=683, channelId=9, content="On a scale from one to ten, what's your favorite flavor of random grammar?", createdAt="Fri Oct 15 2021 11:59:05", updatedAt="Mon Mar 21 2022 23:28:29")
     comment409b = Comment(videoId=586, channelId=40, content="The furnace repairman indicated the heating system was acting as an air conditioner.", createdAt="Fri May 14 2021 23:09:30", updatedAt="Sun Feb 20 2022 12:20:27")
@@ -2550,7 +2483,6 @@ def seed_comments():
     comment477b = Comment(videoId=589, channelId=36, content="She opened up her third bottle of wine of the night.", createdAt="Sat Mar 05 2022 04:31:15", updatedAt="Sat Mar 12 2022 20:32:54")
     comment478b = Comment(videoId=192, channelId=82, content="I checked to make sure that he was still alive.", createdAt="Mon Nov 22 2021 03:32:47", updatedAt="Wed Jun 30 2021 20:57:29")
     comment479b = Comment(videoId=217, channelId=1, content="The spa attendant applied the deep cleaning mask to the gentleman’s back.", createdAt="Thu Jun 24 2021 17:58:33", updatedAt="Fri Oct 01 2021 12:24:16")
-    comment480b = Comment(videoId=783, channelId=84, content="With a single flip of the coin, his life changed forever.", createdAt="Fri Oct 22 2021 03:55:10", updatedAt="Sun Nov 14 2021 04:15:13")
     comment481b = Comment(videoId=501, channelId=40, content="Flash photography is best used in full sunlight.", createdAt="Sat Sep 25 2021 08:36:02", updatedAt="Thu Jun 03 2021 09:33:17")
     comment482b = Comment(videoId=102, channelId=36, content="The trick to getting kids to eat anything is to put catchup on it.", createdAt="Fri Jan 07 2022 01:11:51", updatedAt="Fri Nov 19 2021 00:21:08")
     comment483b = Comment(videoId=725, channelId=55, content="Iguanas were falling out of the trees.", createdAt="Tue Mar 15 2022 14:45:00", updatedAt="Mon May 03 2021 03:23:41")
@@ -2600,7 +2532,6 @@ def seed_comments():
     comment527b = Comment(videoId=10, channelId=37, content="People generally approve of dogs eating cat food but not cats eating dog food.", createdAt="Sat Nov 13 2021 10:29:25", updatedAt="Mon Nov 15 2021 02:59:23")
     comment528b = Comment(videoId=514, channelId=77, content="She always had an interesting perspective on why the world must be flat.", createdAt="Mon Jul 19 2021 03:59:44", updatedAt="Wed Sep 01 2021 16:45:20")
     comment529b = Comment(videoId=115, channelId=47, content="She saw no irony asking me to change but wanting me to accept her for who she is.", createdAt="Sat Feb 26 2022 01:43:03", updatedAt="Sun Mar 13 2022 14:47:03")
-    comment530b = Comment(videoId=789, channelId=95, content="All she wanted was the answer, but she had no idea how much she would hate it.", createdAt="Fri Jun 04 2021 10:51:56", updatedAt="Thu Jan 06 2022 10:40:50")
     comment531b = Comment(videoId=94, channelId=44, content="The glacier came alive as the climbers hiked closer.", createdAt="Sat Apr 17 2021 12:16:19", updatedAt="Tue Jul 20 2021 17:27:52")
     comment532b = Comment(videoId=21, channelId=64, content="When he asked her favorite number, she answered without hesitation that it was diamonds.", createdAt="Thu Sep 09 2021 10:08:27", updatedAt="Thu May 20 2021 15:56:44")
     comment533b = Comment(videoId=641, channelId=91, content="The irony of the situation wasn't lost on anyone in the room.", createdAt="Thu Dec 09 2021 21:56:31", updatedAt="Wed Aug 04 2021 14:46:45")
@@ -2610,7 +2541,6 @@ def seed_comments():
     comment537b = Comment(videoId=246, channelId=62, content="The manager of the fruit stand always sat and only sold vegetables.", createdAt="Thu Sep 23 2021 00:35:55", updatedAt="Fri Feb 18 2022 22:04:26")
     comment538b = Comment(videoId=222, channelId=76, content="When motorists sped in and out of traffic, all she could think of was those in need of a transplant.", createdAt="Thu Nov 04 2021 18:04:58", updatedAt="Sat Apr 24 2021 11:53:59")
     comment539b = Comment(videoId=68, channelId=49, content="There is no better feeling than staring at a wall with closed eyes.", createdAt="Wed Nov 24 2021 16:10:47", updatedAt="Fri Apr 16 2021 14:05:22")
-    comment540b = Comment(videoId=782, channelId=42, content="The sight of his goatee made me want to run and hide under my sister-in-law's bed.", createdAt="Sun May 16 2021 14:00:36", updatedAt="Fri Aug 13 2021 06:58:23")
     comment541b = Comment(videoId=397, channelId=12, content="Peanuts don't grow on trees, but cashews do.", createdAt="Sun May 30 2021 16:34:08", updatedAt="Tue Jun 29 2021 07:18:29")
     comment542b = Comment(videoId=242, channelId=28, content="There's a message for you if you look up.", createdAt="Sat Nov 13 2021 04:42:13", updatedAt="Tue Dec 28 2021 09:58:49")
     comment543b = Comment(videoId=738, channelId=48, content="No matter how beautiful the sunset, it saddened her knowing she was one day older.", createdAt="Tue Oct 05 2021 02:57:59", updatedAt="Tue Apr 27 2021 12:47:50")
@@ -2622,7 +2552,6 @@ def seed_comments():
     comment549b = Comment(videoId=773, channelId=8, content="Shakespeare was a famous 17th-century diesel mechanic.", createdAt="Sat Aug 07 2021 15:28:32", updatedAt="Fri Mar 04 2022 09:28:15")
     comment550b = Comment(videoId=452, channelId=51, content="I caught my squirrel rustling through my gym bag.", createdAt="Sat May 15 2021 18:03:44", updatedAt="Tue Aug 10 2021 08:47:40")
     comment551b = Comment(videoId=293, channelId=80, content="There were three sphered rocks congregating in a cubed room.", createdAt="Sun Jul 04 2021 02:22:47", updatedAt="Fri Aug 27 2021 11:01:22")
-    comment552b = Comment(videoId=783, channelId=16, content="I was starting to worry that my pet turtle could tell what I was thinking.", createdAt="Wed Apr 21 2021 00:39:51", updatedAt="Mon Nov 29 2021 23:38:24")
     comment553b = Comment(videoId=623, channelId=99, content="Tuesdays are free if you bring a gnome costume.", createdAt="Thu Sep 02 2021 17:21:56", updatedAt="Tue Mar 22 2022 09:25:18")
     comment554b = Comment(videoId=207, channelId=82, content="Three years later, the coffin was still full of Jello.", createdAt="Sat Apr 10 2021 19:16:11", updatedAt="Tue May 25 2021 11:13:18")
     comment555b = Comment(videoId=473, channelId=37, content="I love eating toasted cheese and tuna sandwiches.", createdAt="Fri Jul 02 2021 20:40:07", updatedAt="Tue Feb 01 2022 03:32:42")
@@ -2667,7 +2596,6 @@ def seed_comments():
     comment594b = Comment(videoId=381, channelId=55, content="There are no heroes in a punk rock band.", createdAt="Sun Oct 24 2021 03:22:04", updatedAt="Mon Apr 26 2021 01:21:43")
     comment595b = Comment(videoId=745, channelId=24, content="Let me help you with your baggage.", createdAt="Fri Sep 17 2021 13:30:14", updatedAt="Sun Feb 27 2022 22:18:20")
     comment596b = Comment(videoId=234, channelId=5, content="Siri became confused when we reused to follow her directions.", createdAt="Thu Apr 07 2022 14:39:55", updatedAt="Sat Dec 25 2021 10:55:52")
-    comment597b = Comment(videoId=142, channelId=65, content="She wasn't sure whether to be impressed or concerned that he folded underwear in neat little packages.", createdAt="Sun Nov 14 2021 19:13:35", updatedAt="Sat Jan 29 2022 17:55:25")
     comment598b = Comment(videoId=667, channelId=34, content="Henry couldn't decide if he was an auto mechanic or a priest.", createdAt="Tue Mar 08 2022 21:40:43", updatedAt="Sun Oct 24 2021 22:31:36")
     comment599b = Comment(videoId=576, channelId=48, content="The efficiency with which he paired the socks in the drawer was quite admirable.", createdAt="Mon May 03 2021 07:41:51", updatedAt="Mon Oct 04 2021 17:14:14")
     comment600b = Comment(videoId=291, channelId=30, content="I used to practice weaving with spaghetti three hours a day but stopped because I didn't want to die alone.", createdAt="Wed Jun 09 2021 17:59:10", updatedAt="Thu Sep 09 2021 09:37:20")
@@ -2686,9 +2614,7 @@ def seed_comments():
     comment613b = Comment(videoId=595, channelId=27, content="She had a difficult time owning up to her own crazy self.", createdAt="Sat Sep 04 2021 11:43:56", updatedAt="Sat Dec 11 2021 00:46:42")
     comment614b = Comment(videoId=132, channelId=29, content="They're playing the piano while flying in the plane.", createdAt="Wed Dec 22 2021 11:10:15", updatedAt="Sat Oct 23 2021 22:35:47")
     comment615b = Comment(videoId=713, channelId=5, content="Today I heard something new and unmemorable.", createdAt="Fri Sep 03 2021 17:32:56", updatedAt="Fri Jan 07 2022 10:05:23")
-    comment616b = Comment(videoId=248, channelId=65, content="The blinking lights of the antenna tower came into focus just as I heard a loud snap.", createdAt="Wed Dec 15 2021 17:06:00", updatedAt="Fri Jul 16 2021 23:35:23")
     comment617b = Comment(videoId=23, channelId=42, content="The secret code they created made no sense, even to them.", createdAt="Fri Dec 24 2021 15:42:23", updatedAt="Tue May 25 2021 08:33:40")
-    comment618b = Comment(videoId=730, channelId=65, content="The clouds formed beautiful animals in the sky that eventually created a tornado to wreak havoc.", createdAt="Tue Jul 06 2021 09:48:34", updatedAt="Sat Apr 09 2022 06:24:40")
     comment619b = Comment(videoId=645, channelId=47, content="It must be easy to commit crimes as a snake because you don't have to worry about leaving fingerprints.", createdAt="Mon Sep 06 2021 20:11:26", updatedAt="Sat Sep 25 2021 23:29:31")
     comment620b = Comment(videoId=702, channelId=33, content="The worst thing about being at the top of the career ladder is that there's a long way to fall.", createdAt="Fri Aug 27 2021 16:54:58", updatedAt="Wed Sep 01 2021 12:33:58")
     comment621b = Comment(videoId=439, channelId=33, content="She opened up her third bottle of wine of the night.", createdAt="Sun Aug 22 2021 19:36:28", updatedAt="Mon May 10 2021 04:45:19")
@@ -2828,7 +2754,6 @@ def seed_comments():
     comment755b = Comment(videoId=520, channelId=17, content="He kept telling himself that one day it would all somehow make sense.", createdAt="Wed Nov 03 2021 00:24:41", updatedAt="Thu May 20 2021 01:19:37")
     comment756b = Comment(videoId=94, channelId=90, content="Carol drank the blood as if she were a vampire.", createdAt="Sat Jul 31 2021 20:58:03", updatedAt="Sun Aug 08 2021 21:44:32")
     comment757b = Comment(videoId=350, channelId=84, content="She only paints with bold colors; she does not like pastels.", createdAt="Fri Mar 04 2022 00:33:23", updatedAt="Fri Oct 22 2021 03:52:35")
-    comment758b = Comment(videoId=782, channelId=42, content="I am happy to take your donation; any amount will be greatly appreciated.", createdAt="Wed Oct 20 2021 01:38:18", updatedAt="Tue Nov 30 2021 22:32:24")
     comment759b = Comment(videoId=345, channelId=25, content="Henry couldn't decide if he was an auto mechanic or a priest.", createdAt="Sun May 30 2021 21:33:43", updatedAt="Sun Feb 20 2022 10:37:40")
     comment760b = Comment(videoId=396, channelId=81, content="Malls are great places to shop; I can find everything I need under one roof.", createdAt="Sat Mar 12 2022 13:55:12", updatedAt="Sun Aug 08 2021 05:25:22")
     comment761b = Comment(videoId=700, channelId=61, content="He didn't understand why the bird wanted to ride the bicycle.", createdAt="Thu Jan 27 2022 20:50:56", updatedAt="Mon Mar 21 2022 18:20:11")
@@ -2858,7 +2783,6 @@ def seed_comments():
     comment785b = Comment(videoId=695, channelId=99, content="Before he moved to the inner city, he had always believed that security complexes were psychological.", createdAt="Thu Nov 18 2021 15:43:11", updatedAt="Tue Sep 14 2021 10:25:20")
     comment786b = Comment(videoId=366, channelId=38, content="I've always wanted to go to Tajikistan, but my cat would miss me.", createdAt="Sun Jul 04 2021 03:45:12", updatedAt="Sun Oct 03 2021 10:06:56")
     comment787b = Comment(videoId=604, channelId=85, content="For the 216th time, he said he would quit drinking soda after this last Coke.", createdAt="Sun Jul 18 2021 11:22:03", updatedAt="Fri Mar 25 2022 20:15:29")
-    comment788b = Comment(videoId=335, channelId=65, content="I'll have you know I've written over fifty novels", createdAt="Thu Jun 17 2021 21:46:37", updatedAt="Mon Mar 21 2022 15:58:08")
     comment789b = Comment(videoId=716, channelId=77, content="It was the best sandcastle he had ever seen.", createdAt="Fri Mar 11 2022 09:10:56", updatedAt="Mon Mar 14 2022 09:00:36")
     comment790b = Comment(videoId=595, channelId=93, content="My biggest joy is roasting almonds while stalking prey.", createdAt="Mon Sep 20 2021 01:41:32", updatedAt="Mon Apr 04 2022 05:31:39")
     comment791b = Comment(videoId=35, channelId=31, content="Harrold felt confident that nobody would ever suspect his spy pigeon.", createdAt="Sun Nov 21 2021 12:54:35", updatedAt="Sun Jan 23 2022 22:52:03")
@@ -2897,7 +2821,6 @@ def seed_comments():
     comment824b = Comment(videoId=142, channelId=44, content="Siri became confused when we reused to follow her directions.", createdAt="Fri Mar 18 2022 16:32:27", updatedAt="Mon Apr 04 2022 07:18:09")
     comment825b = Comment(videoId=119, channelId=48, content="She was sad to hear that fireflies are facing extinction due to artificial light, habitat loss, and pesticides.", createdAt="Sat Jan 15 2022 18:59:01", updatedAt="Sun Dec 05 2021 20:46:17")
     comment826b = Comment(videoId=619, channelId=90, content="He was an introvert that extroverts seemed to love.", createdAt="Mon Nov 15 2021 22:22:10", updatedAt="Mon Dec 20 2021 19:01:10")
-    comment827b = Comment(videoId=651, channelId=65, content="I really want to go to work, but I am too sick to drive.", createdAt="Sat Jul 10 2021 21:22:15", updatedAt="Tue Feb 01 2022 07:08:14")
     comment828b = Comment(videoId=185, channelId=62, content="The external scars tell only part of the story.", createdAt="Tue Sep 21 2021 09:26:07", updatedAt="Sat Oct 09 2021 12:57:14")
     comment829b = Comment(videoId=131, channelId=74, content="The book is in front of the table.", createdAt="Sat Aug 21 2021 01:58:44", updatedAt="Mon Aug 02 2021 03:46:01")
     comment830b = Comment(videoId=70, channelId=80, content="The father died during childbirth.", createdAt="Sat Dec 18 2021 05:18:29", updatedAt="Thu Sep 30 2021 12:41:29")
@@ -2921,7 +2844,6 @@ def seed_comments():
     comment848b = Comment(videoId=654, channelId=93, content="He kept telling himself that one day it would all somehow make sense.", createdAt="Sun Feb 06 2022 05:40:14", updatedAt="Tue Jan 25 2022 07:41:49")
     comment849b = Comment(videoId=279, channelId=54, content="As the asteroid hurtled toward earth, Becky was upset her dentist appointment had been canceled.", createdAt="Sun Jan 02 2022 11:36:44", updatedAt="Sun Apr 11 2021 00:18:34")
     comment850b = Comment(videoId=605, channelId=44, content="I'd always thought lightning was something only I could see.", createdAt="Wed Jul 21 2021 01:40:58", updatedAt="Wed Feb 16 2022 08:10:58")
-    comment851b = Comment(videoId=660, channelId=65, content="It was the first time he had ever seen someone cook dinner on an elephant.", createdAt="Fri Apr 01 2022 20:26:14", updatedAt="Sun Jan 23 2022 10:35:24")
     comment852b = Comment(videoId=530, channelId=10, content="He went back to the video to see what had been recorded and was shocked at what he saw.", createdAt="Fri Jul 23 2021 13:04:52", updatedAt="Wed Apr 06 2022 05:43:27")
     comment853b = Comment(videoId=158, channelId=50, content="Dan ate the clouds like cotton candy.", createdAt="Wed Jan 05 2022 13:07:50", updatedAt="Fri Nov 19 2021 07:49:44")
     comment854b = Comment(videoId=335, channelId=17, content="Flying fish flew by the space station.", createdAt="Fri Jan 07 2022 20:43:26", updatedAt="Mon Feb 28 2022 00:16:38")
@@ -2993,7 +2915,6 @@ def seed_comments():
     comment920b = Comment(videoId=499, channelId=9, content="Tuesdays are free if you bring a gnome costume.", createdAt="Sat Aug 14 2021 05:54:54", updatedAt="Fri Dec 31 2021 15:23:05")
     comment921b = Comment(videoId=90, channelId=100, content="A purple pig and a green donkey flew a kite in the middle of the night and ended up sunburnt.", createdAt="Fri Nov 19 2021 10:54:53", updatedAt="Thu Mar 10 2022 02:06:16")
     comment922b = Comment(videoId=339, channelId=85, content="I've always wanted to go to Tajikistan, but my cat would miss me.", createdAt="Tue Jan 25 2022 03:35:56", updatedAt="Sat Jul 24 2021 00:38:52")
-    comment923b = Comment(videoId=629, channelId=65, content="He's in a boy band which doesn't make much sense for a snake.", createdAt="Fri Nov 26 2021 09:36:35", updatedAt="Mon Jan 17 2022 10:46:28")
     comment924b = Comment(videoId=110, channelId=21, content="He excelled at firing people nicely.", createdAt="Mon Sep 13 2021 05:58:32", updatedAt="Mon Oct 11 2021 19:56:10")
     comment925b = Comment(videoId=714, channelId=12, content="You bite up because of your lower jaw.", createdAt="Sun Jul 18 2021 01:48:39", updatedAt="Tue Oct 05 2021 01:36:52")
     comment926b = Comment(videoId=364, channelId=37, content="The dead trees waited to be ignited by the smallest spark and seek their revenge.", createdAt="Thu Oct 28 2021 10:57:57", updatedAt="Sun Jun 27 2021 10:38:43")
@@ -3021,7 +2942,6 @@ def seed_comments():
     comment948b = Comment(videoId=368, channelId=39, content="The bird had a belief that it was really a groundhog.", createdAt="Sun Sep 26 2021 20:07:59", updatedAt="Tue Jan 11 2022 14:52:12")
     comment949b = Comment(videoId=571, channelId=51, content="We have young kids who often walk into our room at night for various reasons including clowns in the closet.", createdAt="Mon Apr 04 2022 15:33:28", updatedAt="Mon Apr 26 2021 02:00:48")
     comment950b = Comment(videoId=397, channelId=2, content="Garlic ice-cream was her favorite.", createdAt="Sat Oct 16 2021 04:53:51", updatedAt="Thu May 06 2021 16:58:35")
-    comment951b = Comment(videoId=532, channelId=1, content="", createdAt="Fri Oct 22 2021 02:42:12", updatedAt="Sun Jan 16 2022 12:54:18")
     comment952b = Comment(videoId=543, channelId=55, content="I only enjoy window shopping when the windows are transparent.", createdAt="Sat Aug 21 2021 15:01:58", updatedAt="Sun Aug 15 2021 02:55:37")
     comment953b = Comment(videoId=673, channelId=48, content="She learned that water bottles are no longer just to hold liquid, but they're also status symbols.", createdAt="Sun Mar 20 2022 12:05:45", updatedAt="Wed Dec 15 2021 20:43:05")
     comment954b = Comment(videoId=336, channelId=66, content="The underground bunker was filled with chips and candy.", createdAt="Thu Dec 09 2021 06:28:28", updatedAt="Sun Mar 20 2022 22:00:15")
@@ -3072,7 +2992,6 @@ def seed_comments():
     comment999b = Comment(videoId=654, channelId=37, content="Sometimes I stare at a door or a wall and I wonder what is this reality, why am I alive, and what is this all about?", createdAt="Tue Sep 21 2021 17:54:31", updatedAt="Fri Oct 08 2021 17:26:43")
     comment1000b = Comment(videoId=449, channelId=92, content="The rusty nail stood erect, angled at a 45-degree angle, just waiting for the perfect barefoot to come along.", createdAt="Sat May 15 2021 04:16:01", updatedAt="Fri Jan 07 2022 05:37:06")
     comment1001b = Comment(videoId=536, channelId=93, content="The complicated school homework left the parents trying to help their kids quite confused.", createdAt="Thu Apr 29 2021 10:16:23", updatedAt="Fri Apr 23 2021 03:31:22")
-    comment1002b = Comment(videoId=249, channelId=89, content="", createdAt="Thu Jan 06 2022 13:46:56", updatedAt="Mon May 03 2021 10:00:55")
     comment1003b = Comment(videoId=429, channelId=85, content="She let the balloon float up into the air with her hopes and dreams.", createdAt="Thu Jan 27 2022 09:55:34", updatedAt="Fri Apr 30 2021 15:39:13")
     comment1004b = Comment(videoId=44, channelId=94, content="No matter how beautiful the sunset, it saddened her knowing she was one day older.", createdAt="Wed Aug 04 2021 17:12:55", updatedAt="Sat Mar 05 2022 22:54:34")
     comment1005b = Comment(videoId=629, channelId=98, content="The fish listened intently to what the frogs had to say.", createdAt="Fri Jun 11 2021 05:22:22", updatedAt="Thu Jan 27 2022 03:25:23")
@@ -3090,7 +3009,6 @@ def seed_comments():
     comment1017b = Comment(videoId=594, channelId=97, content="She was amazed by the large chunks of ice washing up on the beach.", createdAt="Wed Oct 20 2021 07:54:02", updatedAt="Mon Apr 26 2021 16:25:24")
     comment1018b = Comment(videoId=11, channelId=94, content="It had been sixteen days since the zombies first attacked.", createdAt="Thu Jul 15 2021 09:24:04", updatedAt="Sun Aug 08 2021 17:17:09")
     comment1019b = Comment(videoId=282, channelId=94, content="So long and thanks for the fish.", createdAt="Wed Jan 26 2022 15:14:53", updatedAt="Sat Jun 05 2021 22:10:17")
-    comment1020b = Comment(videoId=781, channelId=98, content="The Japanese yen for commerce is still well-known.", createdAt="Sat Feb 19 2022 21:01:17", updatedAt="Tue Jan 18 2022 17:18:06")
     comment1021b = Comment(videoId=649, channelId=90, content="He liked to play with words in the bathtub.", createdAt="Mon Jul 26 2021 19:36:57", updatedAt="Sat Feb 12 2022 17:26:34")
     comment1022b = Comment(videoId=47, channelId=97, content="The blue parrot drove by the hitchhiking mongoose.", createdAt="Mon Nov 29 2021 22:41:52", updatedAt="Mon Sep 27 2021 08:51:38")
     comment1023b = Comment(videoId=530, channelId=87, content="As the rental car rolled to a stop on the dark road, her fear increased by the moment.", createdAt="Wed Sep 08 2021 21:46:11", updatedAt="Wed Apr 28 2021 15:52:37")
@@ -3123,9 +3041,7 @@ def seed_comments():
     comment1050b = Comment(videoId=535, channelId=91, content="He was an introvert that extroverts seemed to love.", createdAt="Tue May 04 2021 01:53:30", updatedAt="Thu Jan 20 2022 21:18:10")
     comment1051b = Comment(videoId=417, channelId=90, content="The lake is a long way from here.", createdAt="Tue Apr 05 2022 07:54:13", updatedAt="Fri Apr 16 2021 06:34:48")
     comment1052b = Comment(videoId=435, channelId=87, content="Swim at your own risk was taken as a challenge for the group of Kansas City college students.", createdAt="Sun Sep 05 2021 04:09:39", updatedAt="Tue Nov 09 2021 05:29:13")
-    comment1053b = Comment(videoId=732, channelId=98, content="", createdAt="Tue Aug 31 2021 17:47:28", updatedAt="Wed Apr 06 2022 19:26:51")
     comment1054b = Comment(videoId=74, channelId=97, content="She had that tint of craziness in her soul that made her believe she could actually make a difference.", createdAt="Sat Jun 05 2021 07:25:01", updatedAt="Sun Jul 25 2021 14:36:06")
-    comment1055b = Comment(videoId=787, channelId=96, content="Too many prisons have become early coffins.", createdAt="Fri Dec 31 2021 12:53:43", updatedAt="Sun Apr 18 2021 22:05:52")
     comment1056b = Comment(videoId=264, channelId=86, content="Separation anxiety is what happens when you can't find your phone.", createdAt="Wed Jul 28 2021 18:46:15", updatedAt="Mon Feb 07 2022 11:45:16")
     comment1057b = Comment(videoId=604, channelId=91, content="I love bacon, beer, birds, and baboons.", createdAt="Sun Mar 20 2022 02:37:54", updatedAt="Fri Nov 12 2021 21:15:48")
     comment1058b = Comment(videoId=319, channelId=88, content="The Guinea fowl flies through the air with all the grace of a turtle.", createdAt="Fri Sep 10 2021 01:33:08", updatedAt="Sat Dec 18 2021 15:14:31")
@@ -3224,7 +3140,6 @@ def seed_comments():
     comment1151b = Comment(videoId=642, channelId=96, content="I made myself a peanut butter sandwich as I didn't want to subsist on veggie crackers.", createdAt="Sun Jun 06 2021 21:30:16", updatedAt="Mon Aug 02 2021 15:05:11")
     comment1152b = Comment(videoId=329, channelId=98, content="The heat", createdAt="Tue Jul 20 2021 05:52:42", updatedAt="Sun Oct 31 2021 18:46:50")
     comment1153b = Comment(videoId=703, channelId=93, content="Normal activities took extraordinary amounts of concentration at the high altitude.", createdAt="Sun Apr 11 2021 11:30:01", updatedAt="Wed Feb 23 2022 12:51:08")
-    comment1154b = Comment(videoId=89, channelId=90, content="", createdAt="Tue May 25 2021 11:49:08", updatedAt="Mon Nov 29 2021 00:51:16")
     comment1155b = Comment(videoId=43, channelId=91, content="There's no reason a hula hoop can't also be a circus ring.", createdAt="Sun Jun 13 2021 12:25:07", updatedAt="Sun Apr 11 2021 21:57:24")
     comment1156b = Comment(videoId=723, channelId=85, content="I like to leave work after my eight-hour tea-break.", createdAt="Wed May 12 2021 18:38:33", updatedAt="Thu Dec 09 2021 05:00:02")
     comment1157b = Comment(videoId=576, channelId=88, content="I've always wanted to go to Tajikistan, but my cat would miss me.", createdAt="Sat Nov 13 2021 13:07:33", updatedAt="Sun Apr 11 2021 15:56:34")
@@ -3314,7 +3229,6 @@ def seed_comments():
     comment1241b = Comment(videoId=558, channelId=96, content="I cheated while playing the darts tournament by using a longbow.", createdAt="Thu May 06 2021 17:06:29", updatedAt="Tue Aug 31 2021 05:25:49")
     comment1242b = Comment(videoId=383, channelId=98, content="The efficiency with which he paired the socks in the drawer was quite admirable.", createdAt="Wed Jul 28 2021 05:11:34", updatedAt="Thu Jul 15 2021 20:10:08")
     comment1243b = Comment(videoId=180, channelId=90, content="Cursive writing is the best way to build a race track.", createdAt="Fri Jan 28 2022 02:17:06", updatedAt="Fri Aug 27 2021 05:39:53")
-    comment1244b = Comment(videoId=782, channelId=89, content="I'll have you know I've written over fifty novels", createdAt="Wed Mar 16 2022 03:11:24", updatedAt="Wed Apr 28 2021 00:04:31")
     comment1245b = Comment(videoId=412, channelId=93, content="The light in his life was actually a fire burning all around him.", createdAt="Wed Nov 24 2021 15:09:28", updatedAt="Thu Sep 09 2021 12:06:13")
     comment1246b = Comment(videoId=273, channelId=96, content="The two walked down the slot canyon oblivious to the sound of thunder in the distance.", createdAt="Sat Jul 17 2021 09:16:07", updatedAt="Tue Dec 14 2021 06:37:26")
     comment1247b = Comment(videoId=555, channelId=95, content="When transplanting seedlings, candied teapots will make the task easier.", createdAt="Sat Apr 02 2022 22:22:18", updatedAt="Mon Sep 20 2021 20:15:02")
@@ -3439,7 +3353,6 @@ def seed_comments():
     comment1366b = Comment(videoId=680, channelId=96, content="The virus had powers none of us knew existed.", createdAt="Thu Apr 29 2021 03:51:24", updatedAt="Wed Oct 20 2021 05:41:02")
     comment1367b = Comment(videoId=723, channelId=95, content="All you need to do is pick up the pen and begin.", createdAt="Tue Nov 02 2021 17:26:14", updatedAt="Sat Dec 11 2021 15:20:55")
     comment1368b = Comment(videoId=359, channelId=93, content="He had decided to accept his fate of accepting his fate.", createdAt="Tue Nov 23 2021 09:30:10", updatedAt="Sun Jul 25 2021 18:31:05")
-    comment1369b = Comment(videoId=788, channelId=94, content="It isn't difficult to do a handstand if you just stand on your hands.", createdAt="Mon May 31 2021 11:00:38", updatedAt="Sat Oct 09 2021 06:13:57")
     comment1370b = Comment(videoId=152, channelId=98, content="She looked at the masterpiece hanging in the museum but all she could think is that her five-year-old could do better.", createdAt="Sun May 09 2021 16:14:41", updatedAt="Thu Apr 29 2021 20:19:08")
     comment1371b = Comment(videoId=177, channelId=97, content="Today arrived with a crash of my car through the garage door.", createdAt="Sat Jan 22 2022 03:07:08", updatedAt="Mon Feb 21 2022 17:16:33")
     comment1372b = Comment(videoId=765, channelId=89, content="Various sea birds are elegant, but nothing is as elegant as a gliding pelican.", createdAt="Fri May 07 2021 02:03:18", updatedAt="Thu Jul 01 2021 03:00:37")
@@ -3455,7 +3368,6 @@ def seed_comments():
     comment1382b = Comment(videoId=177, channelId=97, content="There should have been a time and a place, but this wasn't it.", createdAt="Sun Jun 20 2021 07:14:57", updatedAt="Wed Oct 27 2021 23:25:27")
     comment1383b = Comment(videoId=774, channelId=85, content="I was very proud of my nickname throughout high school but today- I couldn’t be any different to what my nickname was.", createdAt="Tue May 11 2021 00:08:47", updatedAt="Tue Jan 04 2022 00:09:52")
     comment1384b = Comment(videoId=402, channelId=96, content="He poured rocks in the dungeon of his mind.", createdAt="Sat Jul 17 2021 23:25:27", updatedAt="Tue May 18 2021 11:45:13")
-    comment1385b = Comment(videoId=784, channelId=93, content="People keep telling me \"orange\" but I still prefer \"pink\".", createdAt="Fri Jul 30 2021 16:02:16", updatedAt="Wed Mar 02 2022 15:04:27")
     comment1386b = Comment(videoId=491, channelId=93, content="Patricia found the meaning of life in a bowl of Cheerios.", createdAt="Fri Jun 25 2021 09:25:01", updatedAt="Thu Nov 04 2021 14:11:26")
     comment1387b = Comment(videoId=78, channelId=90, content="Gwen had her best sleep ever on her new bed of nails.", createdAt="Thu Oct 21 2021 20:48:56", updatedAt="Wed Dec 01 2021 09:53:09")
     comment1388b = Comment(videoId=485, channelId=85, content="It caught him off guard that space smelled of seared steak.", createdAt="Fri May 14 2021 20:27:42", updatedAt="Mon May 31 2021 07:07:11")
@@ -3473,9 +3385,7 @@ def seed_comments():
     comment1400b = Comment(videoId=94, channelId=88, content="There can never be too many cherries on an ice cream sundae.", createdAt="Fri Mar 11 2022 00:42:47", updatedAt="Fri Feb 25 2022 00:53:05")
     comment1401b = Comment(videoId=337, channelId=92, content="All she wanted was the answer, but she had no idea how much she would hate it.", createdAt="Sun Jul 04 2021 14:31:29", updatedAt="Thu Dec 02 2021 01:56:22")
     comment1402b = Comment(videoId=269, channelId=95, content="She hadn't had her cup of coffee, and that made things all the worse.", createdAt="Sun Sep 26 2021 13:14:17", updatedAt="Thu Feb 03 2022 22:45:56")
-    comment1403b = Comment(videoId=788, channelId=86, content="I am my aunt's sister's daughter.", createdAt="Thu Jan 20 2022 08:57:42", updatedAt="Sat May 15 2021 04:29:25")
     comment1404b = Comment(videoId=487, channelId=92, content="Her scream silenced the rowdy teenagers.", createdAt="Thu Feb 24 2022 20:21:36", updatedAt="Tue Aug 17 2021 06:34:20")
-    comment1405b = Comment(videoId=724, channelId=94, content="", createdAt="Sun Jan 16 2022 22:00:26", updatedAt="Sun Aug 22 2021 03:39:27")
     comment1406b = Comment(videoId=289, channelId=93, content="He picked up trash in his spare time to dump in his neighbor's yard.", createdAt="Wed Jan 26 2022 21:30:49", updatedAt="Thu Oct 28 2021 11:28:50")
     comment1407b = Comment(videoId=575, channelId=92, content="The gruff old man sat in the back of the bait shop grumbling to himself as he scooped out a handful of worms.", createdAt="Sat May 01 2021 21:02:55", updatedAt="Sat Apr 09 2022 08:50:31")
     comment1408b = Comment(videoId=485, channelId=86, content="It's important to remember to be aware of rampaging grizzly bears.", createdAt="Mon Jan 31 2022 19:25:13", updatedAt="Fri Jun 11 2021 04:37:18")
@@ -3486,8 +3396,6 @@ def seed_comments():
     comment1413b = Comment(videoId=114, channelId=90, content="She traveled because it cost the same as therapy and was a lot more enjoyable.", createdAt="Sun Jan 23 2022 22:25:10", updatedAt="Thu Feb 24 2022 12:23:00")
     comment1414b = Comment(videoId=249, channelId=89, content="He went back to the video to see what had been recorded and was shocked at what he saw.", createdAt="Tue Nov 16 2021 12:47:12", updatedAt="Sat Mar 19 2022 02:15:03")
     comment1415b = Comment(videoId=308, channelId=91, content="Gary didn't understand why Doug went upstairs to get one dollar bills when he invited him to go cow tipping.", createdAt="Sun Oct 10 2021 06:43:29", updatedAt="Sat Dec 25 2021 15:39:17")
-    comment1416b = Comment(videoId=782, channelId=85, content="We should play with legos at camp.", createdAt="Sun Feb 06 2022 18:15:21", updatedAt="Thu Oct 14 2021 06:58:08")
-    comment1417b = Comment(videoId=789, channelId=97, content="It was getting dark, and we weren’t there yet.", createdAt="Wed Jun 23 2021 23:24:11", updatedAt="Mon May 24 2021 09:20:52")
     comment1418b = Comment(videoId=228, channelId=95, content="He stepped gingerly onto the bridge knowing that enchantment awaited on the other side.", createdAt="Thu Mar 10 2022 07:03:29", updatedAt="Sun Jun 27 2021 14:51:44")
     comment1419b = Comment(videoId=24, channelId=86, content="Shakespeare was a famous 17th-century diesel mechanic.", createdAt="Wed Jan 05 2022 05:54:26", updatedAt="Wed Dec 15 2021 18:55:06")
     comment1420b = Comment(videoId=759, channelId=95, content="Three years later, the coffin was still full of Jello.", createdAt="Fri Nov 05 2021 19:17:13", updatedAt="Fri Oct 29 2021 04:11:22")
@@ -3526,7 +3434,6 @@ def seed_comments():
     comment1453b = Comment(videoId=515, channelId=90, content="Each person who knows you has a different perception of who you are.", createdAt="Thu Aug 19 2021 17:32:04", updatedAt="Mon Aug 16 2021 10:00:41")
     comment1454b = Comment(videoId=607, channelId=94, content="I just wanted to tell you I could see the love you have for your child by the way you look at her.", createdAt="Sat Sep 11 2021 18:47:48", updatedAt="Tue Jun 01 2021 16:28:27")
     comment1455b = Comment(videoId=539, channelId=91, content="This is a Japanese doll.", createdAt="Wed Oct 13 2021 19:52:39", updatedAt="Wed Feb 09 2022 17:54:20")
-    comment1456b = Comment(videoId=579, channelId=95, content="", createdAt="Sun Apr 18 2021 03:08:06", updatedAt="Tue Oct 05 2021 10:30:09")
     comment1457b = Comment(videoId=150, channelId=95, content="Number of Sentences:", createdAt="Wed Aug 11 2021 09:35:28", updatedAt="Tue Jan 04 2022 05:39:47")
     comment1458b = Comment(videoId=309, channelId=92, content="50", createdAt="Thu Mar 03 2022 18:47:28", updatedAt="Tue Nov 30 2021 16:51:21")
     comment1459b = Comment(videoId=6, channelId=90, content="The father handed each child a roadmap at the beginning of the 2-day road trip and explained it was so they could find their way home.", createdAt="Sun May 16 2021 09:31:40", updatedAt="Sun Nov 14 2021 01:54:20")
@@ -3612,12 +3519,10 @@ def seed_comments():
     comment1539b = Comment(videoId=404, channelId=95, content="She cried diamonds.", createdAt="Sun May 23 2021 02:57:04", updatedAt="Wed Mar 16 2022 07:49:24")
     comment1540b = Comment(videoId=390, channelId=97, content="You'll see the rainbow bridge after it rains cats and dogs.", createdAt="Sat Oct 16 2021 17:38:11", updatedAt="Mon Feb 28 2022 23:58:53")
     comment1541b = Comment(videoId=43, channelId=94, content="The rusty nail stood erect, angled at a 45-degree angle, just waiting for the perfect barefoot to come along.", createdAt="Mon Sep 06 2021 18:26:51", updatedAt="Fri May 21 2021 19:30:55")
-    comment1542b = Comment(videoId=783, channelId=94, content="The old apple revels in its authority.", createdAt="Wed Sep 29 2021 13:54:53", updatedAt="Tue Jul 20 2021 11:30:36")
     comment1543b = Comment(videoId=762, channelId=89, content="25 years later, she still regretted that specific moment.", createdAt="Mon May 31 2021 12:52:35", updatedAt="Fri Apr 16 2021 20:32:36")
     comment1544b = Comment(videoId=536, channelId=85, content="Most shark attacks occur about 10 feet from the beach since that's where the people are.", createdAt="Fri Jun 11 2021 15:08:59", updatedAt="Wed Sep 15 2021 02:11:41")
     comment1545b = Comment(videoId=747, channelId=85, content="As time wore on, simple dog commands turned into full paragraphs explaining why the dog couldn’t do something.", createdAt="Sun Apr 18 2021 04:28:50", updatedAt="Thu Feb 03 2022 00:09:44")
     comment1546b = Comment(videoId=406, channelId=98, content="Getting up at dawn is for the birds.", createdAt="Wed Jul 14 2021 11:00:11", updatedAt="Sun Jul 11 2021 22:28:55")
-    comment1547b = Comment(videoId=786, channelId=91, content="More RVs were seen in the storage lot than at the campground.", createdAt="Fri Oct 15 2021 00:15:37", updatedAt="Sat May 22 2021 01:36:13")
     comment1548b = Comment(videoId=129, channelId=88, content="Car safety systems have come a long way, but he was out to prove they could be outsmarted.", createdAt="Mon Oct 25 2021 12:25:14", updatedAt="Sun May 16 2021 03:51:40")
     comment1549b = Comment(videoId=524, channelId=96, content="As the asteroid hurtled toward earth, Becky was upset her dentist appointment had been canceled.", createdAt="Tue Mar 08 2022 20:26:21", updatedAt="Sat Jan 22 2022 08:27:16")
     comment1550b = Comment(videoId=757, channelId=92, content="Despite multiple complications and her near-death experience", createdAt="Fri Aug 27 2021 09:27:51", updatedAt="Wed Feb 23 2022 06:32:55")
@@ -3629,7 +3534,6 @@ def seed_comments():
     comment1556b = Comment(videoId=289, channelId=95, content="He used to get confused between soldiers and shoulders, but as a military man, he now soldiers responsibility.", createdAt="Sun Aug 01 2021 12:23:18", updatedAt="Fri Aug 06 2021 21:15:57")
     comment1557b = Comment(videoId=141, channelId=89, content="Mom didn’t understand why no one else wanted a hot tub full of jello.", createdAt="Sat Jul 03 2021 09:55:46", updatedAt="Wed May 05 2021 22:16:57")
     comment1558b = Comment(videoId=237, channelId=89, content="I would have gotten the promotion, but my attendance wasn’t good enough.", createdAt="Tue Feb 08 2022 10:04:07", updatedAt="Tue May 04 2021 02:41:49")
-    comment1559b = Comment(videoId=309, channelId=93, content="", createdAt="Tue Dec 07 2021 16:56:50", updatedAt="Mon Dec 06 2021 10:29:29")
     comment1560b = Comment(videoId=457, channelId=94, content="She did not cheat on the test, for it was not the right thing to do.", createdAt="Sat Sep 11 2021 12:50:35", updatedAt="Thu Jan 27 2022 21:23:41")
     comment1561b = Comment(videoId=623, channelId=93, content="The fifty mannequin heads floating in the pool kind of freaked them out.", createdAt="Fri Dec 10 2021 01:39:44", updatedAt="Fri Jun 04 2021 14:58:00")
     comment1562b = Comment(videoId=730, channelId=95, content="Various sea birds are elegant, but nothing is as elegant as a gliding pelican.", createdAt="Fri Aug 27 2021 10:46:09", updatedAt="Wed Oct 27 2021 06:43:52")
@@ -3846,7 +3750,6 @@ def seed_comments():
     comment1773b = Comment(videoId=281, channelId=87, content="It's a skateboarding penguin with a sunhat!", createdAt="Fri Jan 28 2022 05:45:14", updatedAt="Tue Jan 04 2022 11:12:09")
     comment1774b = Comment(videoId=554, channelId=89, content="He embraced his new life as an eggplant.", createdAt="Wed Nov 10 2021 07:00:05", updatedAt="Wed May 26 2021 13:19:24")
     comment1775b = Comment(videoId=572, channelId=87, content="He found the end of the rainbow and was surprised at what he found there.", createdAt="Thu May 27 2021 05:50:17", updatedAt="Thu Jul 01 2021 01:59:16")
-    comment1776b = Comment(videoId=784, channelId=90, content="Doris enjoyed tapping her nails on the table to annoy everyone.", createdAt="Tue Nov 30 2021 16:36:14", updatedAt="Sat Jul 10 2021 06:30:53")
     comment1777b = Comment(videoId=266, channelId=92, content="His son quipped that power bars were nothing more than adult candy bars.", createdAt="Sun Sep 26 2021 02:57:55", updatedAt="Sat Oct 09 2021 16:41:04")
     comment1778b = Comment(videoId=507, channelId=92, content="He used to get confused between soldiers and shoulders, but as a military man, he now soldiers responsibility.", createdAt="Wed Feb 23 2022 20:58:43", updatedAt="Mon May 31 2021 19:58:43")
     comment1779b = Comment(videoId=40, channelId=98, content="Little Red Riding Hood decided to wear orange today.", createdAt="Wed Aug 11 2021 18:21:59", updatedAt="Sat Feb 12 2022 12:34:31")
@@ -3880,7 +3783,6 @@ def seed_comments():
     comment1807b = Comment(videoId=610, channelId=86, content="I met an interesting turtle while the song on the radio blasted away.", createdAt="Mon Mar 28 2022 08:51:40", updatedAt="Tue Apr 27 2021 22:59:20")
     comment1808b = Comment(videoId=21, channelId=96, content="Lets all be unique together until we realise we are all the same.", createdAt="Tue Mar 29 2022 08:05:11", updatedAt="Sat Dec 18 2021 13:20:10")
     comment1809b = Comment(videoId=294, channelId=85, content="There's a reason that roses have thorns.", createdAt="Sun Mar 13 2022 18:51:29", updatedAt="Tue Dec 07 2021 02:37:27")
-    comment1810b = Comment(videoId=624, channelId=91, content="", createdAt="Thu Feb 17 2022 02:15:36", updatedAt="Sun Nov 14 2021 18:49:17")
     comment1811b = Comment(videoId=630, channelId=94, content="The golden retriever loved the fireworks each Fourth of July.", createdAt="Thu Aug 05 2021 12:38:52", updatedAt="Thu Dec 09 2021 09:37:21")
     comment1812b = Comment(videoId=699, channelId=90, content="Lucifer was surprised at the amount of life at Death Valley.", createdAt="Mon Sep 27 2021 19:14:37", updatedAt="Tue Nov 09 2021 13:17:48")
     comment1813b = Comment(videoId=294, channelId=96, content="He swore he just saw his sushi move.", createdAt="Thu Dec 09 2021 19:30:04", updatedAt="Mon Nov 08 2021 18:50:35")
@@ -3889,7 +3791,6 @@ def seed_comments():
     comment1816b = Comment(videoId=281, channelId=92, content="We're careful about orange ping pong balls because people might think they're fruit.", createdAt="Thu Jun 10 2021 08:12:57", updatedAt="Mon May 17 2021 20:15:59")
     comment1817b = Comment(videoId=200, channelId=97, content="Smoky the Bear secretly started the fires.", createdAt="Thu Sep 09 2021 17:20:40", updatedAt="Fri Jun 25 2021 19:06:08")
     comment1818b = Comment(videoId=533, channelId=91, content="He decided to fake his disappearance to avoid jail.", createdAt="Wed Feb 02 2022 14:12:34", updatedAt="Sun Aug 29 2021 19:03:20")
-    comment1819b = Comment(videoId=785, channelId=85, content="There can never be too many cherries on an ice cream sundae.", createdAt="Tue Oct 05 2021 23:15:55", updatedAt="Sun May 09 2021 16:07:56")
     comment1820b = Comment(videoId=715, channelId=95, content="Flying fish flew by the space station.", createdAt="Mon Aug 09 2021 09:42:03", updatedAt="Wed Aug 11 2021 16:07:55")
     comment1821b = Comment(videoId=235, channelId=88, content="Please tell me you don't work in a morgue.", createdAt="Fri Dec 17 2021 18:16:48", updatedAt="Fri Apr 01 2022 19:03:53")
     comment1822b = Comment(videoId=602, channelId=88, content="They were excited to see their first sloth.", createdAt="Thu Apr 22 2021 00:28:10", updatedAt="Fri Mar 18 2022 03:07:28")
@@ -3931,7 +3832,6 @@ def seed_comments():
     comment1858b = Comment(videoId=643, channelId=85, content="The blinking lights of the antenna tower came into focus just as I heard a loud snap.", createdAt="Sun Oct 31 2021 18:31:31", updatedAt="Thu Mar 10 2022 18:32:54")
     comment1859b = Comment(videoId=583, channelId=96, content="Henry couldn't decide if he was an auto mechanic or a priest.", createdAt="Sat Jul 10 2021 04:47:38", updatedAt="Tue Oct 19 2021 04:37:15")
     comment1860b = Comment(videoId=82, channelId=93, content="She moved forward only because she trusted that the ending she now was going through must be followed by a new beginning.", createdAt="Tue Feb 08 2022 08:00:14", updatedAt="Sat Jul 10 2021 09:59:58")
-    comment1861b = Comment(videoId=168, channelId=90, content="", createdAt="Mon Sep 06 2021 20:34:55", updatedAt="Thu Apr 15 2021 16:33:41")
     comment1862b = Comment(videoId=136, channelId=96, content="Yeah, I think it's a good environment for learning English.", createdAt="Sun Oct 31 2021 00:53:58", updatedAt="Fri Feb 04 2022 06:20:13")
     comment1863b = Comment(videoId=49, channelId=86, content="The Guinea fowl flies through the air with all the grace of a turtle.", createdAt="Mon Aug 16 2021 08:15:09", updatedAt="Mon Sep 13 2021 17:08:57")
     comment1864b = Comment(videoId=210, channelId=92, content="The virus had powers none of us knew existed.", createdAt="Fri Apr 01 2022 22:02:13", updatedAt="Mon Mar 28 2022 01:08:20")
@@ -3998,7 +3898,6 @@ def seed_comments():
     comment1925b = Comment(videoId=29, channelId=97, content="It didn't make sense unless you had the power to eat colors.", createdAt="Sat Sep 04 2021 21:03:13", updatedAt="Sat Aug 21 2021 16:13:59")
     comment1926b = Comment(videoId=107, channelId=85, content="I hear that Nancy is very pretty.", createdAt="Wed Dec 29 2021 03:43:27", updatedAt="Wed Dec 22 2021 11:57:38")
     comment1927b = Comment(videoId=509, channelId=98, content="Toddlers feeding raccoons surprised even the seasoned park ranger.", createdAt="Tue Dec 28 2021 21:51:51", updatedAt="Sun Jun 27 2021 14:10:06")
-    comment1928b = Comment(videoId=782, channelId=94, content="It's important to remember to be aware of rampaging grizzly bears.", createdAt="Tue Jan 11 2022 15:13:55", updatedAt="Mon Jul 19 2021 12:25:55")
     comment1929b = Comment(videoId=104, channelId=92, content="I want more detailed information.", createdAt="Mon May 24 2021 23:46:20", updatedAt="Sun Sep 26 2021 03:32:16")
     comment1930b = Comment(videoId=331, channelId=94, content="Yeah, I think it's a good environment for learning English.", createdAt="Thu Jan 27 2022 03:16:49", updatedAt="Mon Apr 04 2022 13:55:50")
     comment1931b = Comment(videoId=120, channelId=89, content="The chic gangster liked to start the day with a pink scarf.", createdAt="Sun Nov 21 2021 07:30:30", updatedAt="Tue Jun 22 2021 13:10:14")
@@ -4022,7 +3921,6 @@ def seed_comments():
     comment1949b = Comment(videoId=315, channelId=88, content="This is the last random sentence I will be writing and I am going to stop mid-sent", createdAt="Sun Sep 12 2021 04:40:52", updatedAt="Sat May 08 2021 07:34:46")
     comment1950b = Comment(videoId=682, channelId=91, content="He stepped gingerly onto the bridge knowing that enchantment awaited on the other side.", createdAt="Sun Sep 05 2021 04:36:11", updatedAt="Sun Dec 05 2021 12:16:07")
     comment1951b = Comment(videoId=636, channelId=88, content="100 years old is such a young age if you happen to be a bristlecone pine.", createdAt="Mon Nov 29 2021 17:47:30", updatedAt="Sat Jul 31 2021 01:15:25")
-    comment1952b = Comment(videoId=789, channelId=87, content="They say that dogs are man's best friend, but this cat was setting out to sabotage that theory.", createdAt="Wed Jan 12 2022 03:41:30", updatedAt="Thu Jan 20 2022 05:28:41")
     comment1953b = Comment(videoId=349, channelId=90, content="his seven-layer cake only had six layers.", createdAt="Thu May 27 2021 21:06:43", updatedAt="Tue Jul 20 2021 18:39:25")
     comment1954b = Comment(videoId=207, channelId=98, content="He found rain fascinating yet unpleasant.", createdAt="Fri Dec 17 2021 03:12:04", updatedAt="Fri Sep 03 2021 05:10:10")
     comment1955b = Comment(videoId=98, channelId=91, content="It was her first experience training a rainbow unicorn.", createdAt="Mon Jun 21 2021 03:05:33", updatedAt="Mon Feb 14 2022 13:23:50")
@@ -4112,7 +4010,6 @@ def seed_comments():
     comment2039b = Comment(videoId=153, channelId=85, content="Getting up at dawn is for the birds.", createdAt="Sat Jun 26 2021 18:18:38", updatedAt="Mon Feb 14 2022 18:10:29")
     comment2040b = Comment(videoId=371, channelId=92, content="The irony of the situation wasn't lost on anyone in the room.", createdAt="Mon Aug 02 2021 05:27:40", updatedAt="Sun Oct 03 2021 23:08:47")
     comment2041b = Comment(videoId=67, channelId=89, content="I've traveled all around Africa and still haven't found the gnu who stole my scarf.", createdAt="Tue Jun 22 2021 09:00:41", updatedAt="Thu Mar 03 2022 05:50:14")
-    comment2042b = Comment(videoId=787, channelId=96, content="We're careful about orange ping pong balls because people might think they're fruit.", createdAt="Tue Jul 20 2021 12:54:31", updatedAt="Fri Jul 09 2021 06:07:27")
     comment2043b = Comment(videoId=299, channelId=86, content="If my calculator had a history, it would be more embarrassing than my browser history.", createdAt="Sat Sep 18 2021 01:24:35", updatedAt="Thu Mar 31 2022 06:43:03")
     comment2044b = Comment(videoId=674, channelId=93, content="Her hair was windswept as she rode in the black convertible.", createdAt="Mon Jul 19 2021 19:00:44", updatedAt="Wed May 26 2021 16:47:26")
     comment2045b = Comment(videoId=53, channelId=98, content="She insisted that cleaning out your closet was the key to good driving.", createdAt="Thu Dec 30 2021 04:42:24", updatedAt="Tue Apr 20 2021 22:02:27")
@@ -4137,75 +4034,75 @@ def seed_comments():
 
     comments = [
         comment1, comment2, comment3, comment4, comment5, comment6, comment7, comment8, comment9, comment10, comment11, comment12, comment13, comment14, comment15, comment16, comment17, comment18, comment19, comment20, comment21, comment22, comment23, comment24, comment25, comment26,
-        comment27, comment28, comment29, comment30, comment31, comment32, comment33, comment34, comment35, comment36, comment37, comment38, comment39, comment40, comment41, comment42, comment43, comment44, comment45, comment46, comment47, comment48, comment49, comment50, comment51, comment52,
+        comment27, comment28, comment29, comment30, comment31, comment32, comment33, comment34, comment35, comment37, comment38, comment39, comment40, comment41, comment42, comment43, comment44, comment45, comment46, comment47, comment48, comment49, comment50, comment51, comment52,
         comment53, comment54, comment55, comment56, comment57, comment58, comment59, comment60, comment61, comment62, comment63, comment64, comment65, comment66, comment67, comment68, comment69, comment70, comment71, comment72, comment73, comment74, comment75, comment76, comment77, comment78,
         comment79, comment80, comment81, comment82, comment83, comment84, comment85, comment86, comment87, comment88, comment89, comment90, comment91, comment92, comment93, comment94, comment95, comment96, comment97, comment98, comment99, comment100, comment101, comment102, comment103, comment104,
         comment105, comment106, comment107, comment108, comment109, comment110, comment111, comment112, comment113, comment114, comment115, comment116, comment117, comment118, comment119, comment120, comment121, comment122, comment123, comment124, comment125, comment126, comment127, comment128,
-        comment129, comment130, comment131, comment132, comment133, comment134, comment135, comment136, comment137, comment138, comment139, comment140, comment141, comment142, comment143, comment144, comment145, comment146, comment147, comment148, comment149, comment150, comment151, comment152,
-        comment153, comment154, comment155, comment156, comment157, comment158, comment159, comment160, comment161, comment162, comment163, comment164, comment165, comment166, comment167, comment168, comment169, comment170, comment171, comment172, comment173, comment174, comment175, comment176,
+        comment129, comment130, comment131, comment132, comment133, comment134, comment135, comment136, comment137, comment138, comment139, comment140, comment141, comment142, comment143, comment144, comment145, comment146, comment147, comment149, comment150, comment151, comment152,
+        comment153, comment154, comment155, comment156, comment157, comment158, comment160, comment161, comment162, comment163, comment164, comment165, comment166, comment167, comment168, comment169, comment170, comment171, comment172, comment173, comment174, comment175, comment176,
         comment177, comment178, comment179, comment180, comment181, comment182, comment183, comment184, comment185, comment186, comment187, comment188, comment189, comment190, comment191, comment192, comment193, comment194, comment195, comment196, comment197, comment198, comment199, comment200,
-        comment201, comment202, comment203, comment204, comment205, comment206, comment207, comment208, comment209, comment210, comment211, comment212, comment213, comment214, comment215, comment216, comment217, comment218, comment219, comment220, comment221, comment222, comment223, comment224,
+        comment201, comment202, comment203, comment204, comment205, comment206, comment207, comment208, comment209, comment210, comment211, comment212, comment213, comment214, comment215, comment216, comment217, comment218, comment219, comment220, comment222, comment223, comment224,
         comment225, comment226, comment227, comment228, comment229, comment230, comment231, comment232, comment233, comment234, comment235, comment236, comment237, comment238, comment239, comment240, comment241, comment242, comment243, comment244, comment245, comment246, comment247, comment248,
         comment249, comment250, comment251, comment252, comment253, comment254, comment255, comment256, comment257, comment258, comment259, comment260, comment261, comment262, comment263, comment264, comment265, comment266, comment267, comment268, comment269, comment270, comment271, comment272,
         comment273, comment274, comment275, comment276, comment277, comment278, comment279, comment280, comment281, comment282, comment283, comment284, comment285, comment286, comment287, comment288, comment289, comment290, comment291, comment292, comment293, comment294, comment295, comment296,
         comment297, comment298, comment299, comment300, comment301, comment302, comment303, comment304, comment305, comment306, comment307, comment308, comment309, comment310, comment311, comment312, comment313, comment314, comment315, comment316, comment317, comment318, comment319, comment320,
         comment321, comment322, comment323, comment324, comment325, comment326, comment327, comment328, comment329, comment330, comment331, comment332, comment333, comment334, comment335, comment336, comment337, comment338, comment339, comment340, comment341, comment342, comment343, comment344,
-        comment345, comment346, comment347, comment348, comment349, comment350, comment351, comment352, comment353, comment354, comment355, comment356, comment357, comment358, comment359, comment360, comment361, comment362, comment363, comment364, comment365, comment366, comment367, comment368,
+        comment345, comment346, comment347, comment348, comment349, comment350, comment351, comment352, comment353, comment354, comment355, comment356, comment357, comment358, comment359, comment360, comment362, comment363, comment364, comment365, comment366, comment367, comment368,
         comment369, comment370, comment371, comment372, comment373, comment374, comment375, comment376, comment377, comment378, comment379, comment380, comment381, comment382, comment383, comment384, comment385, comment386, comment387, comment388, comment389, comment390, comment391, comment392,
         comment393, comment394, comment395, comment396, comment397, comment398, comment399, comment400, comment401, comment402, comment403, comment404, comment405, comment406, comment407, comment408, comment409, comment410, comment411, comment412, comment413, comment414, comment415, comment416,
         comment417, comment418, comment419, comment420, comment421, comment422, comment423, comment424, comment425, comment426, comment427, comment428, comment429, comment430, comment431, comment432, comment433, comment434, comment435, comment436, comment437, comment438, comment439, comment440,
-        comment441, comment442, comment443, comment444, comment445, comment446, comment447, comment448, comment449, comment450, comment451, comment452, comment453, comment454, comment455, comment456, comment457, comment458, comment459, comment460, comment461, comment462, comment463, comment464,
-        comment465, comment466, comment467, comment468, comment469, comment470, comment471, comment472, comment473, comment474, comment475, comment476, comment477, comment478, comment479, comment480, comment481, comment482, comment483, comment484, comment485, comment486, comment487, comment488,
+        comment441, comment442, comment443, comment444, comment445, comment446, comment447, comment449, comment450, comment451, comment452, comment453, comment454, comment455, comment456, comment457, comment458, comment459, comment460, comment461, comment462, comment463, comment464,
+        comment465, comment466, comment467, comment468, comment469, comment470, comment471, comment472, comment473, comment474, comment475, comment476, comment477, comment479, comment480, comment481, comment482, comment483, comment484, comment485, comment486, comment487, comment488,
         comment489, comment490, comment491, comment492, comment493, comment494, comment495, comment496, comment497, comment498, comment499, comment500, comment501, comment502, comment503, comment504, comment505, comment506, comment507, comment508, comment509, comment510, comment511, comment512,
-        comment513, comment514, comment515, comment516, comment517, comment518, comment519, comment520, comment521, comment522, comment523, comment524, comment525, comment526, comment527, comment528, comment529, comment530, comment531, comment532, comment533, comment534, comment535, comment536,
-        comment537, comment538, comment539, comment540, comment541, comment542, comment543, comment544, comment545, comment546, comment547, comment548, comment549, comment550, comment551, comment552, comment553, comment554, comment555, comment556, comment557, comment558, comment559, comment560,
+        comment513, comment514, comment515, comment516, comment517, comment518, comment519, comment520, comment521, comment522, comment523, comment524, comment525, comment526, comment527, comment528, comment529, comment530, comment531, comment533, comment534, comment535, comment536,
+        comment537, comment538, comment539, comment540, comment541, comment542, comment543, comment544, comment545, comment546, comment547, comment548, comment549, comment550, comment551, comment552, comment553, comment554, comment555, comment556, comment558, comment559, comment560,
         comment561, comment562, comment563, comment564, comment565, comment566, comment567, comment568, comment569, comment570, comment571, comment572, comment573, comment574, comment575, comment576, comment577, comment578, comment579, comment580, comment581, comment582, comment583, comment584,
-        comment585, comment586, comment587, comment588, comment589, comment590, comment591, comment592, comment593, comment594, comment595, comment596, comment597, comment598, comment599, comment600, comment601, comment602, comment603, comment604, comment605, comment606, comment607, comment608,
+        comment585, comment586, comment588, comment589, comment590, comment591, comment592, comment593, comment594, comment595, comment596, comment597, comment598, comment599, comment600, comment601, comment602, comment603, comment604, comment605, comment606, comment607, comment608,
         comment609, comment610, comment611, comment612, comment613, comment614, comment615, comment616, comment617, comment618, comment619, comment620, comment621, comment622, comment623, comment624, comment625, comment626, comment627, comment628, comment629, comment630, comment631, comment632,
-        comment633, comment634, comment635, comment636, comment637, comment638, comment639, comment640, comment641, comment642, comment643, comment644, comment645, comment646, comment647, comment648, comment649, comment650, comment651, comment652, comment653, comment654, comment655, comment656,
-        comment657, comment658, comment659, comment660, comment661, comment662, comment663, comment664, comment665, comment666, comment667, comment668, comment669, comment670, comment671, comment672, comment673, comment674, comment675, comment676, comment677, comment678, comment679, comment680,
-        comment681, comment682, comment683, comment684, comment685, comment686, comment687, comment688, comment689, comment690, comment691, comment692, comment693, comment694, comment695, comment696, comment697, comment698, comment699, comment700, comment701, comment702, comment703, comment704,
+        comment633, comment634, comment635, comment636, comment637, comment638, comment639, comment641, comment642, comment643, comment646, comment647, comment648, comment649, comment650, comment651, comment652, comment653, comment654, comment655, comment656,
+        comment657, comment658, comment659, comment660, comment661, comment662, comment663, comment665, comment666, comment667, comment668, comment669, comment670, comment671, comment672, comment673, comment674, comment675, comment676, comment677, comment678, comment679, comment680,
+        comment681, comment682, comment683, comment684, comment685, comment686, comment687, comment688, comment689, comment690, comment692, comment693, comment694, comment695, comment696, comment697, comment698, comment699, comment700, comment701, comment702, comment703, comment704,
         comment705, comment706, comment707, comment708, comment709, comment710, comment711, comment712, comment713, comment714, comment715, comment716, comment717, comment718, comment719, comment720, comment721, comment722, comment723, comment724, comment725, comment726, comment727, comment728,
         comment729, comment730, comment731, comment732, comment733, comment734, comment735, comment736, comment737, comment738, comment739, comment740, comment741, comment742, comment743, comment744, comment745, comment746, comment747, comment748, comment749, comment750, comment751, comment752,
         comment753, comment754, comment755, comment756, comment757, comment758, comment759, comment760, comment761, comment762, comment763, comment764, comment765, comment766, comment767, comment768, comment769, comment770, comment771, comment772, comment773, comment774, comment775, comment776,
-        comment777, comment778, comment779, comment780, comment781, comment782, comment783, comment784, comment785, comment786, comment787, comment788, comment789, comment790, comment791, comment792, comment793, comment794, comment795, comment796, comment797, comment798, comment799, comment800,
+        comment777, comment778, comment779, comment780, comment781, comment782, comment783, comment785, comment786, comment787, comment788, comment789, comment790, comment791, comment792, comment793, comment794, comment795, comment796, comment797, comment798, comment799, comment800,
         comment801, comment802, comment803, comment804, comment805, comment806, comment807, comment808, comment809, comment810, comment811, comment812, comment813, comment814, comment815, comment816, comment817, comment818, comment819, comment820, comment821, comment822, comment823, comment824,
         comment825, comment826, comment827, comment828, comment829, comment830, comment831, comment832, comment833, comment834, comment835, comment836, comment837, comment838, comment839, comment840, comment841, comment842, comment843, comment844, comment845, comment846, comment847, comment848,
-        comment849, comment850, comment851, comment852, comment853, comment854, comment855, comment856, comment857, comment858, comment859, comment860, comment861, comment862, comment863, comment864, comment865, comment866, comment867, comment868, comment869, comment870, comment871, comment872,
+        comment849, comment850, comment851, comment852, comment853, comment854, comment856, comment857, comment858, comment859, comment860, comment861, comment862, comment863, comment864, comment865, comment866, comment867, comment868, comment869, comment870, comment871, comment872,
         comment873, comment874, comment875, comment876, comment877, comment878, comment879, comment880, comment881, comment882, comment883, comment884, comment885, comment886, comment887, comment888, comment889, comment890, comment891, comment892, comment893, comment894, comment895, comment896,
         comment897, comment898, comment899, comment900, comment901, comment902, comment903, comment904, comment905, comment906, comment907, comment908, comment909, comment910, comment911, comment912, comment913, comment914, comment915, comment916, comment917, comment918, comment919, comment920,
         comment921, comment922, comment923, comment924, comment925, comment926, comment927, comment928, comment929, comment930, comment931, comment932, comment933, comment934, comment935, comment936, comment937, comment938, comment939, comment940, comment941, comment942, comment943, comment944,
-        comment945, comment946, comment947, comment948, comment949, comment950, comment951, comment952, comment953, comment954, comment955, comment956, comment957, comment958, comment959, comment960, comment961, comment962, comment963, comment964, comment965, comment966, comment967, comment968,
-        comment969, comment970, comment971, comment972, comment973, comment974, comment975, comment976, comment977, comment978, comment979, comment980, comment981, comment982, comment983, comment984, comment985, comment986, comment987, comment988, comment989, comment990, comment991, comment992,
-        comment993, comment994, comment995, comment996, comment997, comment998, comment999, comment1000, comment1001, comment1002, comment1003, comment1004, comment1005, comment1006, comment1007, comment1008, comment1009, comment1010, comment1011, comment1012, comment1013, comment1014, comment1015,
+        comment945, comment946, comment947, comment948, comment949, comment950, comment952, comment953, comment954, comment955, comment956, comment958, comment959, comment960, comment961, comment962, comment963, comment964, comment965, comment966, comment967, comment968,
+        comment969, comment970, comment971, comment972, comment973, comment974, comment975, comment976, comment977, comment978, comment979, comment981, comment982, comment983, comment984, comment985, comment986, comment987, comment988, comment989, comment990, comment991, comment992,
+        comment993, comment994, comment995, comment996, comment997, comment998, comment999, comment1000, comment1001, comment1003, comment1004, comment1005, comment1006, comment1007, comment1008, comment1009, comment1010, comment1011, comment1012, comment1013, comment1014, comment1015,
         comment1016, comment1017, comment1018, comment1019, comment1020, comment1021, comment1022, comment1023, comment1024, comment1025, comment1026, comment1027, comment1028, comment1029, comment1030, comment1031, comment1032, comment1033, comment1034, comment1035, comment1036, comment1037,
-        comment1038, comment1039, comment1040, comment1041, comment1042, comment1043, comment1044, comment1045, comment1046, comment1047, comment1048, comment1049, comment1050, comment1051, comment1052, comment1053, comment1054, comment1055, comment1056, comment1057, comment1058, comment1059,
-        comment1060, comment1061, comment1062, comment1063, comment1064, comment1065, comment1066, comment1067, comment1068, comment1069, comment1070, comment1071, comment1072, comment1073, comment1074, comment1075, comment1076, comment1077, comment1078, comment1079, comment1080, comment1081,
+        comment1038, comment1039, comment1040, comment1041, comment1042, comment1043, comment1044, comment1045, comment1046, comment1047, comment1048, comment1049, comment1050, comment1051, comment1052, comment1054, comment1055, comment1056, comment1057, comment1058, comment1059,
+        comment1060, comment1061, comment1062, comment1063, comment1064, comment1065, comment1066, comment1067, comment1068, comment1069, comment1070, comment1071, comment1072, comment1074, comment1075, comment1076, comment1077, comment1078, comment1079, comment1080, comment1081,
         comment1082, comment1083, comment1084, comment1085, comment1086, comment1087, comment1088, comment1089, comment1090, comment1091, comment1092, comment1093, comment1094, comment1095, comment1096, comment1097, comment1098, comment1099, comment1100, comment1101, comment1102, comment1103,
         comment1104, comment1105, comment1106, comment1107, comment1108, comment1109, comment1110, comment1111, comment1112, comment1113, comment1114, comment1115, comment1116, comment1117, comment1118, comment1119, comment1120, comment1121, comment1122, comment1123, comment1124, comment1125,
         comment1126, comment1127, comment1128, comment1129, comment1130, comment1131, comment1132, comment1133, comment1134, comment1135, comment1136, comment1137, comment1138, comment1139, comment1140, comment1141, comment1142, comment1143, comment1144, comment1145, comment1146, comment1147,
-        comment1148, comment1149, comment1150, comment1151, comment1152, comment1153, comment1154, comment1155, comment1156, comment1157, comment1158, comment1159, comment1160, comment1161, comment1162, comment1163, comment1164, comment1165, comment1166, comment1167, comment1168, comment1169,
-        comment1170, comment1171, comment1172, comment1173, comment1174, comment1175, comment1176, comment1177, comment1178, comment1179, comment1180, comment1181, comment1182, comment1183, comment1184, comment1185, comment1186, comment1187, comment1188, comment1189, comment1190, comment1191,
-        comment1192, comment1193, comment1194, comment1195, comment1196, comment1197, comment1198, comment1199, comment1200, comment1201, comment1202, comment1203, comment1204, comment1205, comment1206, comment1207, comment1208, comment1209, comment1210, comment1211, comment1212, comment1213,
-        comment1214, comment1215, comment1216, comment1217, comment1218, comment1219, comment1220, comment1221, comment1222, comment1223, comment1224, comment1225, comment1226, comment1227, comment1228, comment1229, comment1230, comment1231, comment1232, comment1233, comment1234, comment1235,
+        comment1148, comment1149, comment1150, comment1151, comment1152, comment1153, comment1155, comment1157, comment1158, comment1159, comment1160, comment1161, comment1162, comment1163, comment1164, comment1165, comment1166, comment1167, comment1168, comment1169,
+        comment1170, comment1171, comment1172, comment1173, comment1174, comment1175, comment1176, comment1178, comment1179, comment1180, comment1181, comment1182, comment1183, comment1184, comment1185, comment1186, comment1187, comment1188, comment1189, comment1190, comment1191,
+        comment1192, comment1194, comment1195, comment1196, comment1197, comment1198, comment1199, comment1200, comment1201, comment1202, comment1204, comment1205, comment1206, comment1207, comment1208, comment1209, comment1210, comment1211, comment1212, comment1213,
+        comment1214, comment1215, comment1216, comment1217, comment1218, comment1219, comment1220, comment1221, comment1222, comment1223, comment1224, comment1225, comment1226, comment1228, comment1229, comment1230, comment1231, comment1232, comment1233, comment1234, comment1235,
         comment1236, comment1237, comment1238, comment1239, comment1240, comment1241, comment1242, comment1243, comment1244, comment1245, comment1246, comment1247, comment1248, comment1249, comment1250, comment1251, comment1252, comment1253, comment1254, comment1255, comment1256, comment1257,
         comment1258, comment1259, comment1260, comment1261, comment1262, comment1263, comment1264, comment1265, comment1266, comment1267, comment1268, comment1269, comment1270, comment1271, comment1272, comment1273, comment1274, comment1275, comment1276, comment1277, comment1278, comment1279,
-        comment1280, comment1281, comment1282, comment1283, comment1284, comment1285, comment1286, comment1287, comment1288, comment1289, comment1290, comment1291, comment1292, comment1293, comment1294, comment1295, comment1296, comment1297, comment1298, comment1299, comment1300, comment1301,
+        comment1280, comment1281, comment1282, comment1283, comment1284, comment1285, comment1287, comment1288, comment1289, comment1290, comment1291, comment1292, comment1293, comment1294, comment1295, comment1296, comment1297, comment1298, comment1299, comment1300, comment1301,
         comment1302, comment1303, comment1304, comment1305, comment1306, comment1307, comment1308, comment1309, comment1310, comment1311, comment1312, comment1313, comment1314, comment1315, comment1316, comment1317, comment1318, comment1319, comment1320, comment1321, comment1322, comment1323,
-        comment1324, comment1325, comment1326, comment1327, comment1328, comment1329, comment1330, comment1331, comment1332, comment1333, comment1334, comment1335, comment1336, comment1337, comment1338, comment1339, comment1340, comment1341, comment1342, comment1343, comment1344, comment1345,
-        comment1346, comment1347, comment1348, comment1349, comment1350, comment1351, comment1352, comment1353, comment1354, comment1355, comment1356, comment1357, comment1358, comment1359, comment1360, comment1361, comment1362, comment1363, comment1364, comment1365, comment1366, comment1367,
-        comment1368, comment1369, comment1370, comment1371, comment1372, comment1373, comment1374, comment1375, comment1376, comment1377, comment1378, comment1379, comment1380, comment1381, comment1382, comment1383, comment1384, comment1385, comment1386, comment1387, comment1388, comment1389,
-        comment1390, comment1391, comment1392, comment1393, comment1394, comment1395, comment1396, comment1397, comment1398, comment1399, comment1400, comment1401, comment1402, comment1403, comment1404, comment1405, comment1406, comment1407, comment1408, comment1409, comment1410, comment1411,
+        comment1324, comment1325, comment1326, comment1327, comment1329, comment1330, comment1331, comment1332, comment1333, comment1334, comment1335, comment1336, comment1337, comment1338, comment1339, comment1340, comment1341, comment1342, comment1343, comment1344, comment1345,
+        comment1346, comment1347, comment1348, comment1349, comment1350, comment1351, comment1352, comment1353, comment1354, comment1355, comment1356, comment1357, comment1358, comment1359, comment1360, comment1361, comment1362, comment1364, comment1365, comment1366, comment1367,
+        comment1368, comment1369, comment1370, comment1371, comment1372, comment1373, comment1374, comment1375, comment1376, comment1377, comment1378, comment1380, comment1381, comment1382, comment1384, comment1385, comment1386, comment1387, comment1388, comment1389,
+        comment1390, comment1391, comment1392, comment1393, comment1394, comment1395, comment1396, comment1397, comment1398, comment1399, comment1400, comment1401, comment1402, comment1403, comment1404, comment1406, comment1407, comment1408, comment1409, comment1410, comment1411,
         comment1412, comment1413, comment1414, comment1415, comment1416, comment1417, comment1418, comment1419, comment1420, comment1421, comment1422, comment1423, comment1424, comment1425, comment1426, comment1427, comment1428, comment1429, comment1430, comment1431, comment1432, comment1433,
-        comment1434, comment1435, comment1436, comment1437, comment1438, comment1439, comment1440, comment1441, comment1442, comment1443, comment1444, comment1445, comment1446, comment1447, comment1448, comment1449, comment1450, comment1451, comment1452, comment1453, comment1454, comment1455,
-        comment1456, comment1457, comment1458, comment1459, comment1460, comment1461, comment1462, comment1463, comment1464, comment1465, comment1466, comment1467, comment1468, comment1469, comment1470, comment1471, comment1472, comment1473, comment1474, comment1475, comment1476, comment1477,
+        comment1434, comment1435, comment1436, comment1437, comment1438, comment1439, comment1440, comment1441, comment1442, comment1444, comment1445, comment1446, comment1447, comment1448, comment1449, comment1450, comment1451, comment1452, comment1453, comment1454, comment1455,
+        comment1457, comment1458, comment1459, comment1460, comment1461, comment1462, comment1463, comment1464, comment1465, comment1466, comment1467, comment1468, comment1469, comment1470, comment1471, comment1472, comment1473, comment1475, comment1476, comment1477,
         comment1478, comment1479, comment1480, comment1481, comment1482, comment1483, comment1484, comment1485, comment1486, comment1487, comment1488, comment1489, comment1490, comment1491, comment1492, comment1493, comment1494, comment1495, comment1496, comment1497, comment1498, comment1499,
         comment1500, comment1501, comment1502, comment1503, comment1504, comment1505, comment1506, comment1507, comment1508, comment1509, comment1510, comment1511, comment1512, comment1513, comment1514, comment1515, comment1516, comment1517, comment1518, comment1519, comment1520, comment1521,
         comment1522, comment1523, comment1524, comment1525, comment1526, comment1527, comment1528, comment1529, comment1530, comment1531, comment1532, comment1533, comment1534, comment1535, comment1536, comment1537, comment1538, comment1539, comment1540, comment1541, comment1542, comment1543,
-        comment1544, comment1545, comment1546, comment1547, comment1548, comment1549, comment1550, comment1551, comment1552, comment1553, comment1554, comment1555, comment1556, comment1557, comment1558, comment1559, comment1560, comment1561, comment1562, comment1563, comment1564, comment1565,
-        comment1566, comment1567, comment1568, comment1569, comment1570, comment1571, comment1572, comment1573, comment1574, comment1575, comment1576, comment1577, comment1578, comment1579, comment1580, comment1581, comment1582, comment1583, comment1584, comment1585, comment1586, comment1587,
-        comment1588, comment1589, comment1590, comment1591, comment1592, comment1593, comment1594, comment1595, comment1596, comment1597, comment1598, comment1599, comment1600, comment1601, comment1602, comment1603, comment1604, comment1605, comment1606, comment1607, comment1608, comment1609,
-        comment1610, comment1611, comment1612, comment1613, comment1614, comment1615, comment1616, comment1617, comment1618, comment1619, comment1620, comment1621, comment1622, comment1623, comment1624, comment1625, comment1626, comment1627, comment1628, comment1629, comment1630, comment1631,
+        comment1544, comment1545, comment1546, comment1547, comment1548, comment1549, comment1550, comment1551, comment1552, comment1553, comment1554, comment1556, comment1557, comment1558, comment1560, comment1561, comment1562, comment1563, comment1564, comment1565,
+        comment1566, comment1567, comment1568, comment1569, comment1570, comment1571, comment1573, comment1574, comment1575, comment1576, comment1577, comment1578, comment1579, comment1580, comment1581, comment1582, comment1583, comment1584, comment1585, comment1586, comment1587,
+        comment1588, comment1589, comment1590, comment1591, comment1592, comment1593, comment1594, comment1595, comment1596, comment1597, comment1598, comment1600, comment1601, comment1602, comment1603, comment1604, comment1605, comment1606, comment1607, comment1608, comment1609,
+        comment1610, comment1611, comment1612, comment1613, comment1614, comment1615, comment1616, comment1617, comment1618, comment1619, comment1620, comment1621, comment1622, comment1623, comment1624, comment1625, comment1626, comment1627, comment1628, comment1629, comment1631,
         comment1632, comment1633, comment1634, comment1635, comment1636, comment1637, comment1638, comment1639, comment1640, comment1641, comment1642, comment1643, comment1644, comment1645, comment1646, comment1647, comment1648, comment1649, comment1650, comment1651, comment1652, comment1653,
         comment1654, comment1655, comment1656, comment1657, comment1658, comment1659, comment1660, comment1661, comment1662, comment1663, comment1664, comment1665, comment1666, comment1667, comment1668, comment1669, comment1670, comment1671, comment1672, comment1673, comment1674, comment1675,
         comment1676, comment1677, comment1678, comment1679, comment1680, comment1681, comment1682, comment1683, comment1684, comment1685, comment1686, comment1687, comment1688, comment1689, comment1690, comment1691, comment1692, comment1693, comment1694, comment1695, comment1696, comment1697,
@@ -4214,18 +4111,18 @@ def seed_comments():
         comment1742, comment1743, comment1744, comment1745, comment1746, comment1747, comment1748, comment1749, comment1750, comment1751, comment1752, comment1753, comment1754, comment1755, comment1756, comment1757, comment1758, comment1759, comment1760, comment1761, comment1762, comment1763,
         comment1764, comment1765, comment1766, comment1767, comment1768, comment1769, comment1770, comment1771, comment1772, comment1773, comment1774, comment1775, comment1776, comment1777, comment1778, comment1779, comment1780, comment1781, comment1782, comment1783, comment1784, comment1785,
         comment1786, comment1787, comment1788, comment1789, comment1790, comment1791, comment1792, comment1793, comment1794, comment1795, comment1796, comment1797, comment1798, comment1799, comment1800, comment1801, comment1802, comment1803, comment1804, comment1805, comment1806, comment1807,
-        comment1808, comment1809, comment1810, comment1811, comment1812, comment1813, comment1814, comment1815, comment1816, comment1817, comment1818, comment1819, comment1820, comment1821, comment1822, comment1823, comment1824, comment1825, comment1826, comment1827, comment1828, comment1829,
-        comment1830, comment1831, comment1832, comment1833, comment1834, comment1835, comment1836, comment1837, comment1838, comment1839, comment1840, comment1841, comment1842, comment1843, comment1844, comment1845, comment1846, comment1847, comment1848, comment1849, comment1850, comment1851,
-        comment1852, comment1853, comment1854, comment1855, comment1856, comment1857, comment1858, comment1859, comment1860, comment1861, comment1862, comment1863, comment1864, comment1865, comment1866, comment1867, comment1868, comment1869, comment1870, comment1871, comment1872, comment1873,
-        comment1874, comment1875, comment1876, comment1877, comment1878, comment1879, comment1880, comment1881, comment1882, comment1883, comment1884, comment1885, comment1886, comment1887, comment1888, comment1889, comment1890, comment1891, comment1892, comment1893, comment1894, comment1895,
+        comment1808, comment1809, comment1811, comment1812, comment1813, comment1814, comment1815, comment1816, comment1817, comment1818, comment1819, comment1820, comment1821, comment1822, comment1823, comment1824, comment1825, comment1826, comment1827, comment1828, comment1829,
+        comment1830, comment1832, comment1833, comment1834, comment1835, comment1836, comment1837, comment1838, comment1839, comment1840, comment1841, comment1842, comment1843, comment1844, comment1845, comment1846, comment1847, comment1848, comment1849, comment1850, comment1851,
+        comment1852, comment1853, comment1854, comment1855, comment1856, comment1857, comment1858, comment1859, comment1860, comment1862, comment1863, comment1864, comment1865, comment1866, comment1867, comment1868, comment1869, comment1870, comment1871, comment1872, comment1873,
+        comment1874, comment1875, comment1876, comment1877, comment1878, comment1879, comment1880, comment1881, comment1882, comment1883, comment1885, comment1886, comment1887, comment1888, comment1889, comment1890, comment1891, comment1892, comment1893, comment1894, comment1895,
         comment1896, comment1897, comment1898, comment1899, comment1900, comment1901, comment1902, comment1903, comment1904, comment1905, comment1906, comment1907, comment1908, comment1909, comment1910, comment1911, comment1912, comment1913, comment1914, comment1915, comment1916, comment1917,
-        comment1918, comment1919, comment1920, comment1921, comment1922, comment1923, comment1924, comment1925, comment1926, comment1927, comment1928, comment1929, comment1930, comment1931, comment1932, comment1933, comment1934, comment1935, comment1936, comment1937, comment1938, comment1939,
+        comment1918, comment1919, comment1920, comment1921, comment1922, comment1924, comment1925, comment1926, comment1927, comment1928, comment1929, comment1930, comment1931, comment1932, comment1933, comment1934, comment1935, comment1936, comment1937, comment1938, comment1939,
         comment1940, comment1941, comment1942, comment1943, comment1944, comment1945, comment1946, comment1947, comment1948, comment1949, comment1950, comment1951, comment1952, comment1953, comment1954, comment1955, comment1956, comment1957, comment1958, comment1959, comment1960, comment1961,
-        comment1962, comment1963, comment1964, comment1965, comment1966, comment1967, comment1968, comment1969, comment1970, comment1971, comment1972, comment1973, comment1974, comment1975, comment1976, comment1977, comment1978, comment1979, comment1980, comment1981, comment1982, comment1983,
-        comment1984, comment1985, comment1986, comment1987, comment1988, comment1989, comment1990, comment1991, comment1992, comment1993, comment1994, comment1995, comment1996, comment1997, comment1998, comment1999, comment2000, comment2001, comment2002, comment2003, comment2004, comment2005,
-        comment2006, comment2007, comment2008, comment2009, comment2010, comment2011, comment2012, comment2013, comment2014, comment2015, comment2016, comment2017, comment2018, comment2019, comment2020, comment2021, comment2022, comment2023, comment2024, comment2025, comment2026, comment2027,
-        comment2028, comment2029, comment2030, comment2031, comment2032, comment2033, comment2034, comment2035, comment2036, comment2037, comment2038, comment2039, comment2040, comment2041, comment2042, comment2043, comment2044, comment2045, comment2046, comment2047, comment2048, comment2049,
-        comment2050, comment2051, comment2052, comment2053, comment2054, comment2055, comment2056, comment2057, comment2058, comment2059, comment2060, comment2061,
+        comment1962, comment1963, comment1964, comment1965, comment1966, comment1968, comment1969, comment1970, comment1971, comment1972, comment1973, comment1974, comment1975, comment1976, comment1977, comment1978, comment1979, comment1980, comment1981, comment1982, comment1983,
+        comment1984, comment1985, comment1986, comment1987, comment1988, comment1990, comment1991, comment1992, comment1993, comment1994, comment1995, comment1996, comment1997, comment1998, comment1999, comment2000, comment2001, comment2002, comment2003, comment2004, 
+        comment2006, comment2007, comment2009, comment2010, comment2011, comment2012, comment2013, comment2014, comment2015, comment2016, comment2017, comment2018, comment2019, comment2020, comment2021, comment2022, comment2024, comment2025, comment2026, comment2027,
+        comment2028, comment2029, comment2030, comment2031, comment2032, comment2033, comment2034, comment2035, comment2037, comment2038, comment2039, comment2040, comment2041, comment2042, comment2043, comment2044, comment2045, comment2046, comment2047, comment2048, comment2049,
+        comment2050, comment2051, comment2052, comment2053, comment2054, comment2055, comment2056, comment2058, comment2059, comment2060, comment2061,
         
         # DUPLICATE COMMENTS:
         comment1b,
@@ -4320,7 +4217,6 @@ def seed_comments():
         comment90b,
         comment91b,
         comment92b,
-        comment93b,
         comment94b,
         comment95b,
         comment96b,
@@ -4329,8 +4225,6 @@ def seed_comments():
         comment99b,
         comment100b,
         comment101b,
-        comment102b,
-        comment103b,
         comment104b,
         comment105b,
         comment106b,
@@ -4360,7 +4254,6 @@ def seed_comments():
         comment130b,
         comment131b,
         comment132b,
-        comment133b,
         comment134b,
         comment135b,
         comment136b,
@@ -4426,7 +4319,6 @@ def seed_comments():
         comment196b,
         comment197b,
         comment198b,
-        comment199b,
         comment200b,
         comment201b,
         comment202b,
@@ -4438,9 +4330,7 @@ def seed_comments():
         comment208b,
         comment209b,
         comment210b,
-        comment211b,
         comment212b,
-        comment213b,
         comment214b,
         comment215b,
         comment216b,
@@ -4459,8 +4349,6 @@ def seed_comments():
         comment229b,
         comment230b,
         comment231b,
-        comment232b,
-        comment233b,
         comment234b,
         comment235b,
         comment236b,
@@ -4494,7 +4382,6 @@ def seed_comments():
         comment264b,
         comment265b,
         comment266b,
-        comment267b,
         comment268b,
         comment269b,
         comment270b,
@@ -4502,11 +4389,9 @@ def seed_comments():
         comment272b,
         comment273b,
         comment274b,
-        comment275b,
         comment276b,
         comment277b,
         comment278b,
-        comment279b,
         comment280b,
         comment281b,
         comment282b,
@@ -4545,14 +4430,12 @@ def seed_comments():
         comment315b,
         comment316b,
         comment317b,
-        comment318b,
         comment319b,
         comment320b,
         comment321b,
         comment322b,
         comment323b,
         comment324b,
-        comment325b,
         comment326b,
         comment327b,
         comment328b,
@@ -4597,7 +4480,6 @@ def seed_comments():
         comment367b,
         comment368b,
         comment369b,
-        comment370b,
         comment371b,
         comment372b,
         comment373b,
@@ -4633,7 +4515,6 @@ def seed_comments():
         comment403b,
         comment404b,
         comment405b,
-        comment406b,
         comment407b,
         comment408b,
         comment409b,
@@ -4707,7 +4588,6 @@ def seed_comments():
         comment477b,
         comment478b,
         comment479b,
-        comment480b,
         comment481b,
         comment482b,
         comment483b,
@@ -4757,7 +4637,6 @@ def seed_comments():
         comment527b,
         comment528b,
         comment529b,
-        comment530b,
         comment531b,
         comment532b,
         comment533b,
@@ -4767,7 +4646,6 @@ def seed_comments():
         comment537b,
         comment538b,
         comment539b,
-        comment540b,
         comment541b,
         comment542b,
         comment543b,
@@ -4779,7 +4657,6 @@ def seed_comments():
         comment549b,
         comment550b,
         comment551b,
-        comment552b,
         comment553b,
         comment554b,
         comment555b,
@@ -4824,7 +4701,6 @@ def seed_comments():
         comment594b,
         comment595b,
         comment596b,
-        comment597b,
         comment598b,
         comment599b,
         comment600b,
@@ -4843,9 +4719,7 @@ def seed_comments():
         comment613b,
         comment614b,
         comment615b,
-        comment616b,
         comment617b,
-        comment618b,
         comment619b,
         comment620b,
         comment621b,
@@ -4985,7 +4859,6 @@ def seed_comments():
         comment755b,
         comment756b,
         comment757b,
-        comment758b,
         comment759b,
         comment760b,
         comment761b,
@@ -5015,7 +4888,6 @@ def seed_comments():
         comment785b,
         comment786b,
         comment787b,
-        comment788b,
         comment789b,
         comment790b,
         comment791b,
@@ -5054,7 +4926,6 @@ def seed_comments():
         comment824b,
         comment825b,
         comment826b,
-        comment827b,
         comment828b,
         comment829b,
         comment830b,
@@ -5078,7 +4949,6 @@ def seed_comments():
         comment848b,
         comment849b,
         comment850b,
-        comment851b,
         comment852b,
         comment853b,
         comment854b,
@@ -5150,7 +5020,6 @@ def seed_comments():
         comment920b,
         comment921b,
         comment922b,
-        comment923b,
         comment924b,
         comment925b,
         comment926b,
@@ -5178,7 +5047,6 @@ def seed_comments():
         comment948b,
         comment949b,
         comment950b,
-        comment951b,
         comment952b,
         comment953b,
         comment954b,
@@ -5229,9 +5097,6 @@ def seed_comments():
         comment999b,
         comment1000b,
         comment1001b,
-        comment1002b,
-        comment1003b,
-        comment1004b,
         comment1005b,
         comment1006b,
         comment1007b,
@@ -5247,7 +5112,6 @@ def seed_comments():
         comment1017b,
         comment1018b,
         comment1019b,
-        comment1020b,
         comment1021b,
         comment1022b,
         comment1023b,
@@ -5280,9 +5144,7 @@ def seed_comments():
         comment1050b,
         comment1051b,
         comment1052b,
-        comment1053b,
         comment1054b,
-        comment1055b,
         comment1056b,
         comment1057b,
         comment1058b,
@@ -5381,7 +5243,6 @@ def seed_comments():
         comment1151b,
         comment1152b,
         comment1153b,
-        comment1154b,
         comment1155b,
         comment1156b,
         comment1157b,
@@ -5471,7 +5332,6 @@ def seed_comments():
         comment1241b,
         comment1242b,
         comment1243b,
-        comment1244b,
         comment1245b,
         comment1246b,
         comment1247b,
@@ -5596,7 +5456,6 @@ def seed_comments():
         comment1366b,
         comment1367b,
         comment1368b,
-        comment1369b,
         comment1370b,
         comment1371b,
         comment1372b,
@@ -5612,7 +5471,6 @@ def seed_comments():
         comment1382b,
         comment1383b,
         comment1384b,
-        comment1385b,
         comment1386b,
         comment1387b,
         comment1388b,
@@ -5630,9 +5488,7 @@ def seed_comments():
         comment1400b,
         comment1401b,
         comment1402b,
-        comment1403b,
         comment1404b,
-        comment1405b,
         comment1406b,
         comment1407b,
         comment1408b,
@@ -5643,8 +5499,6 @@ def seed_comments():
         comment1413b,
         comment1414b,
         comment1415b,
-        comment1416b,
-        comment1417b,
         comment1418b,
         comment1419b,
         comment1420b,
@@ -5683,8 +5537,6 @@ def seed_comments():
         comment1453b,
         comment1454b,
         comment1455b,
-        comment1456b,
-        comment1457b,
         comment1458b,
         comment1459b,
         comment1460b,
@@ -5769,12 +5621,10 @@ def seed_comments():
         comment1539b,
         comment1540b,
         comment1541b,
-        comment1542b,
         comment1543b,
         comment1544b,
         comment1545b,
         comment1546b,
-        comment1547b,
         comment1548b,
         comment1549b,
         comment1550b,
@@ -5786,8 +5636,6 @@ def seed_comments():
         comment1556b,
         comment1557b,
         comment1558b,
-        comment1559b,
-        comment1560b,
         comment1561b,
         comment1562b,
         comment1563b,
@@ -6003,7 +5851,6 @@ def seed_comments():
         comment1773b,
         comment1774b,
         comment1775b,
-        comment1776b,
         comment1777b,
         comment1778b,
         comment1779b,
@@ -6037,16 +5884,13 @@ def seed_comments():
         comment1807b,
         comment1808b,
         comment1809b,
-        comment1810b,
         comment1811b,
-        comment1812b,
         comment1813b,
         comment1814b,
         comment1815b,
         comment1816b,
         comment1817b,
         comment1818b,
-        comment1819b,
         comment1820b,
         comment1821b,
         comment1822b,
@@ -6088,10 +5932,8 @@ def seed_comments():
         comment1858b,
         comment1859b,
         comment1860b,
-        comment1861b,
         comment1862b,
         comment1863b,
-        comment1864b,
         comment1865b,
         comment1866b,
         comment1867b,
@@ -6155,7 +5997,6 @@ def seed_comments():
         comment1925b,
         comment1926b,
         comment1927b,
-        comment1928b,
         comment1929b,
         comment1930b,
         comment1931b,
@@ -6179,7 +6020,6 @@ def seed_comments():
         comment1949b,
         comment1950b,
         comment1951b,
-        comment1952b,
         comment1953b,
         comment1954b,
         comment1955b,
@@ -6269,7 +6109,6 @@ def seed_comments():
         comment2039b,
         comment2040b,
         comment2041b,
-        comment2042b,
         comment2043b,
         comment2044b,
         comment2045b,
