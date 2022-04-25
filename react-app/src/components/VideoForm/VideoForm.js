@@ -21,6 +21,7 @@ export default function VideoForm() {
     const titleSpanRef = useRef();
 
     const video = useSelector(state => state.videos[videoId]);
+    const sessionUser = useSelector(state => state.session.user);
     const [isLoaded, setIsLoaded] = useState(false);
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
@@ -44,6 +45,7 @@ export default function VideoForm() {
         (async () => {
             if (videoId) {
                 const video = await dispatch(fetchVideo(videoId));
+                if (video.channelId !== sessionUser.id) return history.push('/unauthorized');
                 setTitle(video.title);
                 setDescription(video.description);
                 setThumbnailUrl(video.thumbnailUrl);
