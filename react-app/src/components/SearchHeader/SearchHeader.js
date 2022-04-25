@@ -7,7 +7,6 @@ export default function SearchHeader() {
 
     const onSubmit = e => {
         e.preventDefault();
-        console.log('search submission');
     }
 
     return (
