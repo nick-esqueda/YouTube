@@ -98,7 +98,7 @@ export default function VideoForm() {
             const editedVideo = {
                 id: video.id, title, description, thumbnailUrl
             }
-        
+
             dispatch(editVideo(editedVideo))
                 .then(async video => {
                     window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
@@ -199,7 +199,7 @@ export default function VideoForm() {
                                             className={!thumbnailUrl ? "svg" : ""}
                                         />
                                     </div>
-                                    <span className='subcount'>Upload Thumbnail</span>
+                                    <span className='subcount'>{!thumbnailUrl ? "Upload Thumbnail" : "Processing image..."}</span>
                                 </>
                             )}
                         </div>
@@ -219,7 +219,7 @@ export default function VideoForm() {
                         {videoUrl.startsWith('https://')
                             ? (
                                 <iframe
-                                    src={videoUrl ? videoUrl : uploadVideo} 
+                                    src={videoUrl ? videoUrl : uploadVideo}
                                     title="YouTube video player"
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -236,7 +236,7 @@ export default function VideoForm() {
                                             style={{ width: "40px", height: "40px" }}
                                         />
                                     </div>
-                                    <span className='subcount'>Select Video</span>
+                                    <span className='subcount'>{!videoUrl ? "Select Video" : "Processing video..."}</span>
                                 </div>
                             )}
                     </div>
@@ -263,7 +263,14 @@ export default function VideoForm() {
                             name="video"
                             ref={videoInputRef}
                             hidden={true}
-                            onChange={e => s3Upload(e.target.files[0], 'video')}
+                            onChange={e => {
+                                if (e.target.files[0].size < 150 * 1024 ** 2) {
+                                    s3Upload(e.target.files[0], 'video');
+                                } else {
+                                    e.target.value = null;
+                                    window.alert('Oops, your file is too big! Please upload a video no larger than 150MB.');
+                                }
+                            }}
                         />
                     </div>
 
