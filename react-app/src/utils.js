@@ -20,6 +20,7 @@ export const getTimeElapsed = createdAt => {
     const monthsAgo = Math.floor(daysAgo / 30);
     const yearsAgo = Math.floor(daysAgo / 365);
   
+    if (secondsAgo < 1) return '0 seconds ago';
     if (secondsAgo === 1) return '1 second ago';
     else if (minutesAgo < 1) return secondsAgo + ' seconds ago';
     
