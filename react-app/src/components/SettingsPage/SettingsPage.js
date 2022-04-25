@@ -67,6 +67,12 @@ export default function SettingsPage() {
 				}
 			});
 	}
+	
+	const autoGrow = (e) => {
+        e.target.style.height = "36px";
+        e.target.style.height = (e.target.scrollHeight) + "px";
+    }
+	
 
 	return (
 		<div id='settings-page' className='test4'>
@@ -143,7 +149,10 @@ export default function SettingsPage() {
 				</div>
 
 				<div className='test3 right'>
-					<div>
+					<h4 className='subcount'>Channel Description</h4>
+					<span>Your channel description will appear under the 'about' tab on your channel page. Let other's know what your channel is all about!</span>
+
+					<div className='input-wrapper col-left'>
 						<textarea
 							type='text'
 							id='about-input'
@@ -152,16 +161,14 @@ export default function SettingsPage() {
 							name='about'
 							value={about}
 							onChange={(e) => setAbout(e.target.value)}
-						// onInput={autoGrow}
-						// onFocus={e => {
-						// 	descriptionWrapperRef.current.style.borderColor = 'var(--blue)';
-						// 	descriptionSpanRef.current.style.color = 'var(--blue)';
-						// }}
-						// onBlur={e => {
-						// 	descriptionWrapperRef.current.style.borderColor = ''
-						// 	descriptionSpanRef.current.style.color = '';
-						// }}
+							onInput={autoGrow}
 						></textarea>
+						<div className='full-size row-right'>
+							<small className='character-count'
+								style={about.length > 5000 ? { color: 'red' } : {}}
+							>{about.length}/5000</small>
+						</div>
+
 					</div>
 				</div>
 
