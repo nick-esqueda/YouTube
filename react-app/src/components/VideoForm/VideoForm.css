@@ -1,6 +1,6 @@
 #upload-page {
     width: calc(100% - 72px);
-    height: calc(100% - 56px);
+    min-height: calc(100% - 56px);
     background-color: var(--black);
     padding: 36px 0;
     position: absolute;
@@ -11,13 +11,14 @@
     width: 1056px;
     align-items: flex-start;
     gap: 24px;
+    background-color: var(--black);
     
     position: relative;
     right: 16px;
 }
 #video-upload-form .left {
     width: 54%;
-    height: 624px;
+    /* height: 624px; */
 }
 #video-upload-form .right {
     width: 42%;

@@ -174,7 +174,7 @@ export default function VideoForm() {
                                 descriptionSpanRef.current.style.color = '';
                             }}
                         ></textarea>
-                        <div className='full-size row-right'>
+                        <div className='row-right' style={{ width: '100%' }}>
                             <small className='character-count'
                                 style={description.length > 5000 ? { color: 'red' } : {}}
                             >{description.length}/5000</small>
