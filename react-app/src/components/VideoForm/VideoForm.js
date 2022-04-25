@@ -243,7 +243,7 @@ export default function VideoForm() {
 
                     <div className='row-space-between' style={video ? { visibility: 'hidden' } : { width: "100%" }}>
                         <div className='col-left'>
-                            <h4 style={{ fontWeight: 500, margin: '10px 0' }}>Choose a video file to upload</h4>
+                            <h4 style={{ fontWeight: 500, margin: '10px 0' }}>Choose a video file to upload <span className='subcount'>(required)</span></h4>
                             <span className='subcount'>Your video won't be posted just yet.</span>
                         </div>
 
