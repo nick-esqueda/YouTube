@@ -1,15 +1,15 @@
 # YouTube
 
-### This is intended to be a pixel-perfect clone of YouTube.com. Users can create a channel and engage with videos and channels via comments.
+This is intended to be a pixel-perfect clone of YouTube.com. Users can create a channel and engage with videos and channels via comments.
 
 ## Link to Live Site
 
 Hosted on Heroku: [YouTube](https://youtube-clone-nick-esqueda.herokuapp.com/)
 
+![image (8)](https://user-images.githubusercontent.com/93935486/167233943-a21ac875-04e4-4e65-a5c1-6b179ec7d6e9.png)
+
 ## Wiki
 [YouTube Clone Wiki](https://github.com/nick-esqueda/YouTube/wiki)
-
-
 
 ## Technologies
 
@@ -30,9 +30,27 @@ This YouTube clone was built using the following technologies:
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" style="width:60px;" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" style="width:60px;" />
 
+## Features
+
+### Videos
+* Users can watch and post videos to YouTube, as well as see them on a channel's page
+* Users that have posted a video can edit and delete those videos
+
+![image](https://user-images.githubusercontent.com/93935486/167234129-a7dea80b-5c75-42fe-9546-68f080937782.png)
+
+![image](https://user-images.githubusercontent.com/93935486/167234182-fb95ce18-a14b-4e4b-aa3b-dd7d60e810ca.png)
+
+
+### Comments
+* Users can seet comments on videos, and make a comment to join the discussion
+* Users can also edit and delete their comments if they wish
+
+![image](https://user-images.githubusercontent.com/93935486/167234138-c68a3a0f-8a00-4d58-a2b5-59b59497e5e2.png)
+
+
 
 ## Future Feature Ideas
-In the future, there are serveral feature additions and functionality enhancements that I would love to add to the site. Here are a few of those:
+There are serveral feature additions and functionality enhancements that I plan to add to the site. Here are a few of those:
 * Suggested videos algorithm
 * Video likes
 * Comment likes
