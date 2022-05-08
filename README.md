@@ -48,7 +48,6 @@ This YouTube clone was built using the following technologies:
 ![image](https://user-images.githubusercontent.com/93935486/167234138-c68a3a0f-8a00-4d58-a2b5-59b59497e5e2.png)
 
 
-
 ## Future Feature Ideas
 There are serveral feature additions and functionality enhancements that I plan to add to the site. Here are a few of those:
 * Suggested videos algorithm
