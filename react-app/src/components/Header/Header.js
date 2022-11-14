@@ -44,7 +44,7 @@ export default function Header() {
 				</Link>
 			</div>
 
-			<div id='header__middle' style={{ visibility: 'hidden' }}>
+			<div id='header__middle'>
 				<SearchHeader />
 			</div>
 
