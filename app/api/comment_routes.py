@@ -1,7 +1,7 @@
 from flask import Blueprint, session, request, jsonify
-from app.forms.comment_forms import CreateCommentForm, EditCommentForm
-from app.models import db, Comment
-from app.api.utils import validation_errors_to_error_messages
+from forms.comment_forms import CreateCommentForm, EditCommentForm
+from models import db, Comment
+from api.utils import validation_errors_to_error_messages
 
 comment_routes = Blueprint('comments', __name__)
 

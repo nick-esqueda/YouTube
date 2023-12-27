@@ -1,7 +1,7 @@
 from flask import Blueprint, jsonify
 from flask_login import login_required
 from sqlalchemy import desc
-from app.models import Channel, Video
+from models import Channel, Video
 
 channel_routes = Blueprint('channels', __name__)
 

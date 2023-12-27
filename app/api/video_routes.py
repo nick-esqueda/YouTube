@@ -1,8 +1,8 @@
 from flask import Blueprint, jsonify, session, request
 from sqlalchemy import desc
-from app.api.utils import validation_errors_to_error_messages
-from app.forms.video_forms import CreateVideoForm, EditVideoForm
-from app.models import db, Video, Channel
+from api.utils import validation_errors_to_error_messages
+from forms.video_forms import CreateVideoForm, EditVideoForm
+from models import db, Video, Channel
 
 video_routes = Blueprint('videos', __name__)
 

@@ -1,4 +1,4 @@
-from app.models import db, Video
+from models import db, Video
 
 def seed_videos():
     ######################################################################################################################

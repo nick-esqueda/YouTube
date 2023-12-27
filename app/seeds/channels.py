@@ -1,4 +1,4 @@
-from app.models import db, Channel
+from models import db, Channel
 
 def get_pfp(channelName):
     try:

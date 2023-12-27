@@ -1,4 +1,4 @@
-from app.models import db, Comment
+from models import db, Comment
 
 def seed_comments():
     comment1 = Comment(videoId=746, channelId=25, content="It was a really good Monday for being a Saturday.", createdAt="Mon Mar 14 2022 17:56:29", updatedAt="Wed Jul 21 2021 12:05:56")
