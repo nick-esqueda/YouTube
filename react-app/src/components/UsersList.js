@@ -6,7 +6,7 @@ function UsersList() {
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch('/api/channels/');
+      const response = await fetch(`${process.env.REACT_APP_BASE_URL}/api/channels/`);
       const responseData = await response.json();
       setUsers(responseData.channels);
     }

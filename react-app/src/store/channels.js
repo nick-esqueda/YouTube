@@ -15,7 +15,7 @@ const addChannel = (channel) => {
 
 // THUNK ACTION CREATORS **********************************
 export const fetchChannel = (channelId) => async dispatch => {
-    const res = await fetch(`/api/channels/${channelId}/`);
+    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/channels/${channelId}/`);
     
     if (res.ok) {
         const channel = await res.json();
