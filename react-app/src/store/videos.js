@@ -8,6 +8,7 @@ const LOAD_ADDITIONAL_VIDEOS = 'videos/LOAD_ADDITIONAL_VIDEOS';
 const REMOVE_VIDEO = 'videos/REMOVE_VIDEO';
 
 const ADD_COMMENT = 'comments/ADD_COMMENT';
+const LOAD_COMMENTS = 'comments/LOAD_COMMENTS'
 const UPDATE_COMMENT = 'comments/UPDATE_COMMENT';
 const REMOVE_COMMENT = 'comments/REMOVE_COMMENT';
 
@@ -47,6 +48,13 @@ const addComment = (comment) => {
     return {
         type: ADD_COMMENT,
         comment
+    }
+}
+
+const loadComments = (comments) => {
+    return {
+        type: LOAD_COMMENTS,
+        comments
     }
 }
 
@@ -153,6 +161,16 @@ export const deleteVideo = (videoId) => async dispatch => {
 }
 
 // COMMENTS ///////////////////
+export const fetchVideosComments = videoId => async dispatch => {
+    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/${videoId}/comments`);
+
+    if (res.ok) {
+        const videosComments = await res.json();
+        dispatch(loadComments(videosComments));
+        return videosComments;
+    }
+}
+
 export const createComment = comment => async dispatch => {
     const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/${comment.videoId}/comments/`, {
         method: 'POST',
@@ -252,6 +270,22 @@ const videosReducer = (state = {}, action) => {
                 [videoId]: {
                     ...state[videoId],
                     comments: [action.comment, ...state[videoId].comments]
+                }
+            }
+        }
+            
+        case LOAD_COMMENTS: {
+            const comments = action.comments;
+            if (comments === undefined || !comments.length) {
+                return newState;
+            }
+
+            const videoId = comments[0].videoId;
+            return {
+                ...state,
+                [videoId]: {
+                    ...state[videoId],
+                    comments: comments
                 }
             }
         }

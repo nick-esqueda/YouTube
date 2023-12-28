@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory, useParams } from 'react-router-dom'
-import { deleteVideo, fetchVideo } from '../../store/videos';
+import { deleteVideo, fetchVideo, fetchVideosComments } from '../../store/videos';
 import CommentCard from '../CommentCard/CommentCard';
 import CommentForm from '../CommentForm/CommentForm';
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
@@ -25,6 +25,7 @@ export default function VideoPage() {
 
     useEffect(() => {
         (async () => {
+            dispatch(fetchVideosComments(videoId));
             await dispatch(fetchVideo(videoId));
             setIsLoaded(true);
         })()
