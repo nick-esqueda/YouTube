@@ -6,7 +6,7 @@ import threeDots from '../../static/icons/three-dots.png';
 import pencil from '../../static/icons/pencil.png';
 import trash from '../../static/icons/trash.png';
 import './CommentCard.css';
-import { deleteComment } from '../../store/videos';
+import { deleteComment } from '../../store/comments';
 import CommentForm from '../CommentForm/CommentForm';
 
 export default function CommentCard({ comment, video }) {

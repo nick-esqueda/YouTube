@@ -7,14 +7,7 @@ const LOAD_VIDEOS = 'videos/LOAD_VIDEOS';
 const LOAD_ADDITIONAL_VIDEOS = 'videos/LOAD_ADDITIONAL_VIDEOS';
 const REMOVE_VIDEO = 'videos/REMOVE_VIDEO';
 
-const ADD_COMMENT = 'comments/ADD_COMMENT';
-const LOAD_COMMENTS = 'comments/LOAD_COMMENTS'
-const UPDATE_COMMENT = 'comments/UPDATE_COMMENT';
-const REMOVE_COMMENT = 'comments/REMOVE_COMMENT';
-
-
 // ACTION CREATORS ****************************************
-// VIDEOS
 const addVideo = (video) => {
     return {
         type: ADD_VIDEO,
@@ -42,38 +35,6 @@ const removeVideo = (videoId) => {
         videoId
     }
 }
-
-// COMMENTS
-const addComment = (comment) => {
-    return {
-        type: ADD_COMMENT,
-        comment
-    }
-}
-
-const loadComments = (comments) => {
-    return {
-        type: LOAD_COMMENTS,
-        comments
-    }
-}
-
-const updateComment = (comment) => {
-    return {
-        type: UPDATE_COMMENT,
-        comment
-    }
-}
-
-const removeComment = (videoId, commentId) => {
-    return {
-        type: REMOVE_COMMENT,
-        videoId,
-        commentId
-    }
-}
-
-
 
 // THUNK ACTION CREATORS **********************************
 export const fetchVideo = (videoId) => async dispatch => {
@@ -160,76 +121,12 @@ export const deleteVideo = (videoId) => async dispatch => {
     }
 }
 
-// COMMENTS ///////////////////
-export const fetchVideosComments = videoId => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/${videoId}/comments`);
-
-    if (res.ok) {
-        const videosComments = await res.json();
-        dispatch(loadComments(videosComments));
-        return videosComments;
-    }
-}
-
-export const createComment = comment => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/${comment.videoId}/comments/`, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(comment)
-    });
-
-    if (res.ok) {
-        const newComment = await res.json();
-        dispatch(addComment(newComment));
-        return newComment;
-    } else {
-        const errors = await res.json();
-        throw errors;
-    }
-}
-
-export const editComment = comment => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/${comment.videoId}/comments/${comment.id}/`, {
-        method: "PUT",
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(comment)
-    });
-
-    if (res.ok) {
-        const editedComment = await res.json();
-        dispatch(updateComment(editedComment));
-        return editedComment;
-    }
-}
-
-export const deleteComment = (commentId, videoId) => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/${videoId}/comments/${commentId}/`, {
-        method: 'DELETE',
-        headers: {
-            'Content-Type': 'application/json'
-        }
-    });
-
-    if (res.ok) {
-        const commentId = await res.json();
-        dispatch(removeComment(videoId, commentId));
-        return { videoId, commentId };
-    }
-}
-
-
-
 
 // REDUCER ************************************************
 const videosReducer = (state = {}, action) => {
     let newState = { ...state }
 
     switch (action.type) {
-
         case LOAD_VIDEOS: {
             return {
                 ...normalizeOneLevel(action.videos)
@@ -259,63 +156,6 @@ const videosReducer = (state = {}, action) => {
         case REMOVE_VIDEO: {
             delete newState[action.videoId];
             return newState;
-        }
-
-        // COMMENTS //////////////////////////
-        case ADD_COMMENT: {
-            const videoId = action.comment.videoId;
-            action.comment.createdAt = getTimeElapsed(action.comment.createdAt);
-            return {
-                ...state,
-                [videoId]: {
-                    ...state[videoId],
-                    comments: [action.comment, ...state[videoId].comments]
-                }
-            }
-        }
-            
-        case LOAD_COMMENTS: {
-            const comments = action.comments;
-            if (comments === undefined || !comments.length) {
-                return newState;
-            }
-
-            const videoId = comments[0].videoId;
-            return {
-                ...state,
-                [videoId]: {
-                    ...state[videoId],
-                    comments: comments
-                }
-            }
-        }
-
-        case UPDATE_COMMENT: {
-            const commentId = action.comment.id;
-            const videoId = action.comment.videoId;
-            const newCommentsArray = [...state[videoId].comments];
-            const commentIndex = newCommentsArray.findIndex(comment => comment.id === commentId);
-            action.comment.createdAt = getTimeElapsed(action.comment.createdAt);
-            newCommentsArray[commentIndex] = action.comment;
-
-            return {
-                ...state,
-                [videoId]: {
-                    ...state[videoId],
-                    comments: newCommentsArray
-                }
-            }
-        }
-
-        case REMOVE_COMMENT: {
-            const arrayWithoutComment = state[action.videoId].comments.filter(comment => comment.id !== action.commentId);
-            return {
-                ...state,
-                [action.videoId]: {
-                    ...state[action.videoId],
-                    comments: arrayWithoutComment
-                }
-            }
         }
 
         default:
