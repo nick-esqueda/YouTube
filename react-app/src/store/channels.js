@@ -1,4 +1,5 @@
 import { getTimeElapsed, sortByCreatedAt } from "../utils";
+import { customFetch } from "../utils";
 
 // ACTION VARIABLES ***************************************
 const ADD_CHANNEL = 'channels/ADD_CHANNEL';
@@ -15,7 +16,7 @@ const addChannel = (channel) => {
 
 // THUNK ACTION CREATORS **********************************
 export const fetchChannel = (channelId) => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/channels/${channelId}/`);
+    const res = await customFetch(`/api/channels/${channelId}/`);
     
     if (res.ok) {
         const channel = await res.json();

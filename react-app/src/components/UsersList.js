@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { customFetch } from '../utils';
 
 function UsersList() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch(`${process.env.REACT_APP_BASE_URL}/api/channels/`);
+      const response = await customFetch(`/api/channels/`);
       const responseData = await response.json();
       setUsers(responseData.channels);
     }

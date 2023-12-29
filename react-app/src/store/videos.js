@@ -1,4 +1,4 @@
-import { getTimeElapsed, sortByCreatedAt } from "../utils";
+import { customFetch, getTimeElapsed, sortByCreatedAt } from "../utils";
 import { normalizeOneLevel } from "./utils";
 
 // ACTION VARIABLES ***************************************
@@ -69,7 +69,7 @@ const removeComment = (videoId, commentId) => {
 
 // THUNK ACTION CREATORS **********************************
 export const fetchVideo = (videoId) => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/${videoId}`);
+    const res = await customFetch(`/api/videos/${videoId}/`);
 
     if (res.ok) {
         const video = await res.json();
@@ -79,7 +79,7 @@ export const fetchVideo = (videoId) => async dispatch => {
 }
 
 export const fetchHomeVideos = (pageNum = 1) => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/pages/${pageNum}/`);
+    const res = await customFetch(`/api/videos/pages/${pageNum}/`);
 
     if (res.ok) {
         const videos = await res.json();
@@ -90,7 +90,7 @@ export const fetchHomeVideos = (pageNum = 1) => async dispatch => {
 }
 
 export const fetchChannelVideos = (channelId, pageNum = 1) => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/channels/videos/${channelId}/pages/${pageNum}/`);
+    const res = await customFetch(`/api/channels/videos/${channelId}/pages/${pageNum}/`);
 
     if (res.ok) {
         const videos = await res.json();
@@ -101,11 +101,8 @@ export const fetchChannelVideos = (channelId, pageNum = 1) => async dispatch => 
 }
 
 export const createVideo = video => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/`, {
+    const res = await customFetch(`/api/videos/`, {
         method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
         body: JSON.stringify(video)
     });
 
@@ -120,11 +117,8 @@ export const createVideo = video => async dispatch => {
 }
 
 export const editVideo = video => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/${video.id}/`, {
+    const res = await customFetch(`/api/videos/${video.id}/`, {
         method: "PATCH",
-        headers: {
-            'Content-Type': 'application/json'
-        },
         body: JSON.stringify(video)
     });
 
@@ -136,7 +130,7 @@ export const editVideo = video => async dispatch => {
 }
 
 export const deleteVideo = (videoId) => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/${videoId}/`, {
+    const res = await customFetch(`/api/videos/${videoId}/`, {
         method: 'DELETE',
     });
 
@@ -154,11 +148,8 @@ export const deleteVideo = (videoId) => async dispatch => {
 
 // COMMENTS ///////////////////
 export const createComment = comment => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/${comment.videoId}/comments/`, {
+    const res = await customFetch(`/api/videos/${comment.videoId}/comments/`, {
         method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
         body: JSON.stringify(comment)
     });
 
@@ -173,11 +164,8 @@ export const createComment = comment => async dispatch => {
 }
 
 export const editComment = comment => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/${comment.videoId}/comments/${comment.id}/`, {
+    const res = await customFetch(`/api/videos/${comment.videoId}/comments/${comment.id}/`, {
         method: "PUT",
-        headers: {
-            'Content-Type': 'application/json'
-        },
         body: JSON.stringify(comment)
     });
 
@@ -189,11 +177,8 @@ export const editComment = comment => async dispatch => {
 }
 
 export const deleteComment = (commentId, videoId) => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/${videoId}/comments/${commentId}/`, {
+    const res = await customFetch(`/api/videos/${videoId}/comments/${commentId}/`, {
         method: 'DELETE',
-        headers: {
-            'Content-Type': 'application/json'
-        }
     });
 
     if (res.ok) {
