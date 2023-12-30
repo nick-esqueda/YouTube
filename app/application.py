@@ -71,6 +71,11 @@ def inject_csrf_token(response):
     return response
 
 
+@application.route('/health')
+def health_check():
+    return {'success': True}, 200, {'ContentType':'application/json'}
+
+
 @application.route('/', defaults={'path': ''})
 @application.route('/<path:path>')
 def react_root(path):
