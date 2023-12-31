@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { NavLink, Route, Router, Switch, useParams, useRouteMatch } from 'react-router-dom';
+import { NavLink, Route, Switch, useParams, useRouteMatch } from 'react-router-dom';
 import { fetchChannel } from '../../store/channels';
+import { fetchChannelsVideos } from '../../store/videos';
 
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 import AboutTab from './AboutTab';
@@ -23,6 +24,7 @@ export default function ChannelPage() {
 		if (!channelId) return;
 		(async () => {
 			await dispatch(fetchChannel(channelId));
+			await dispatch(fetchChannelsVideos(channelId, 1));
 			setIsLoaded(true);
 		})();
 	}, [channelId]);
@@ -82,7 +84,7 @@ export default function ChannelPage() {
 					{/* <User /> */}
 				</Route>
 				<Route exact path={`${path}/videos`}>
-					<VideosTab channel={channel} />
+					<VideosTab />
 				</Route>
 				<Route exact path={`${path}/channels`}>
 					<ChannelsTab channel={channel} />

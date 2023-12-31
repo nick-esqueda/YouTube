@@ -58,9 +58,10 @@ export const fetchHomeVideos = (pageNum = 1) => async dispatch => {
     }
 }
 
-export const fetchChannelVideos = (channelId, pageNum = 1) => async dispatch => {
-    const res = await customFetch(`/api/channels/videos/${channelId}/pages/${pageNum}/`);
+export const fetchChannelsVideos = (channelId, pageNum = 1) => async dispatch => {
+    const res = await customFetch(`/api/channels/${channelId}/videos/pages/${pageNum}/`);
 
+    console.log('running??');
     if (res.ok) {
         const videos = await res.json();
         if (pageNum === 1) dispatch(loadVideos(videos));
