@@ -1,4 +1,4 @@
-cd app/
+cd backend/
 pwd
 
 echo 'triggering RDS DB startup...'
@@ -16,4 +16,4 @@ aws autoscaling update-auto-scaling-group \
 --max-size 1 \
 --desired-capacity 1
 
-echo 'script completed successfully. some AWS processes may still be running.'
+echo 'script completed. some AWS processes may still be running.'

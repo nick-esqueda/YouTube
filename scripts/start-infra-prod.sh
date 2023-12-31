@@ -1,4 +1,4 @@
-cd app/
+cd backend/
 pwd
 
 echo "This script will start the PROD EB environment (DB, EC2 instances, ELB). Are you sure you want to proceed? (yes/no)"
@@ -26,4 +26,4 @@ aws autoscaling update-auto-scaling-group \
 --max-size 1 \
 --desired-capacity 1
 
-echo 'script completed successfully. some AWS processes may still be running.'
+echo 'script completed. some AWS processes may still be running.'
