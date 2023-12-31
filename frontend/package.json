@@ -1,0 +1,56 @@
+{
+  "name": "react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.26.1",
+    "http-proxy-middleware": "^1.0.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "redux": "^4.1.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy:uat": "npm run build:uat && npm run sync-s3:uat && npm run refresh-cdn:uat",
+    "deploy:prod": "npm run build && npm run sync-s3:prod && npm run refresh-cdn:prod",
+    "build:uat": "env-cmd -f .env.test npm run build",
+    "sync-s3:uat": "aws s3 sync ./build s3://uat.youtube.nickesqueda.com",
+    "sync-s3:prod": "aws s3 sync ./build s3://youtube.nickesqueda.com",
+    "refresh-cdn:uat": "aws cloudfront create-invalidation --distribution-id E31OEG5D9TJ6MB --paths \"/*\"",
+    "refresh-cdn:prod": "aws cloudfront create-invalidation --distribution-id EX1ZNN8R5UO7U --paths \"/*\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.3%",
+      "not ie 11",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}
