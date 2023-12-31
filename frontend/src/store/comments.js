@@ -100,6 +100,7 @@ const commentsReducer = (state = [], action) => {
             
         case LOAD_COMMENTS: {
             const comments = action.comments;
+            comments.forEach(comment => comment.createdAt = getTimeElapsed(comment.createdAt));
             return comments;
         }
 
