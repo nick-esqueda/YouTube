@@ -25,7 +25,14 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy:uat": "npm run build:uat && npm run sync-s3:uat && npm run refresh-cdn:uat",
+    "deploy:prod": "npm run build && npm run sync-s3:prod && npm run refresh-cdn:prod",
+    "build:uat": "env-cmd -f .env.test npm run build",
+    "sync-s3:uat": "aws s3 sync ./build s3://uat.youtube.nickesqueda.com",
+    "sync-s3:prod": "aws s3 sync ./build s3://youtube.nickesqueda.com",
+    "refresh-cdn:uat": "aws cloudfront create-invalidation --distribution-id E31OEG5D9TJ6MB --paths \"/*\"",
+    "refresh-cdn:prod": "aws cloudfront create-invalidation --distribution-id EX1ZNN8R5UO7U --paths \"/*\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -43,5 +50,7 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000"
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  }
 }

@@ -1,4 +1,4 @@
-import { getTimeElapsed, sortByCreatedAt } from "../utils";
+import { customFetch, getTimeElapsed, sortByCreatedAt } from "../utils";
 import { normalizeOneLevel } from "./utils";
 
 // ACTION VARIABLES ***************************************
@@ -38,7 +38,7 @@ const removeVideo = (videoId) => {
 
 // THUNK ACTION CREATORS **********************************
 export const fetchVideo = (videoId) => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/${videoId}`);
+    const res = await customFetch(`/api/videos/${videoId}/`);
 
     if (res.ok) {
         const video = await res.json();
@@ -48,7 +48,7 @@ export const fetchVideo = (videoId) => async dispatch => {
 }
 
 export const fetchHomeVideos = (pageNum = 1) => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/pages/${pageNum}/`);
+    const res = await customFetch(`/api/videos/pages/${pageNum}/`);
 
     if (res.ok) {
         const videos = await res.json();
@@ -59,7 +59,7 @@ export const fetchHomeVideos = (pageNum = 1) => async dispatch => {
 }
 
 export const fetchChannelVideos = (channelId, pageNum = 1) => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/channels/videos/${channelId}/pages/${pageNum}/`);
+    const res = await customFetch(`/api/channels/videos/${channelId}/pages/${pageNum}/`);
 
     if (res.ok) {
         const videos = await res.json();
@@ -70,11 +70,8 @@ export const fetchChannelVideos = (channelId, pageNum = 1) => async dispatch => 
 }
 
 export const createVideo = video => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/`, {
+    const res = await customFetch(`/api/videos/`, {
         method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
         body: JSON.stringify(video)
     });
 
@@ -89,11 +86,8 @@ export const createVideo = video => async dispatch => {
 }
 
 export const editVideo = video => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/${video.id}/`, {
+    const res = await customFetch(`/api/videos/${video.id}/`, {
         method: "PATCH",
-        headers: {
-            'Content-Type': 'application/json'
-        },
         body: JSON.stringify(video)
     });
 
@@ -105,7 +99,7 @@ export const editVideo = video => async dispatch => {
 }
 
 export const deleteVideo = (videoId) => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/${videoId}/`, {
+    const res = await customFetch(`/api/videos/${videoId}/`, {
         method: 'DELETE',
     });
 

@@ -39,3 +39,25 @@ export const getTimeElapsed = createdAt => {
     if (yearsAgo === 1) return '1 year ago';
     else return yearsAgo + ' years ago';
 }
+
+export const customFetch = (path, options = {}) => {
+    const customOptions = {
+        // must allow cookies to be sent in cross-origin requests.
+        // without credentials: 'include', cookies will not be sent to backend.
+        credentials: 'include', 
+        headers: {
+            'Content-Type': 'application/json',
+        }
+    }
+    
+    const mergedOptions = {
+        ...customOptions,
+        ...options,
+        headers: {
+            ...customOptions.headers,
+            ...(options.headers || {})
+        }
+    }
+
+    return fetch(`${process.env.REACT_APP_BASE_URL}${path}`, mergedOptions);
+}

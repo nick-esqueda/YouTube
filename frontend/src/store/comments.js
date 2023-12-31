@@ -1,4 +1,4 @@
-import { getTimeElapsed } from "../utils";
+import { customFetch, getTimeElapsed } from "../utils";
 
 // ACTION VARIABLES ***************************************
 const ADD_COMMENT = 'comments/ADD_COMMENT';
@@ -38,7 +38,7 @@ const removeComment = (videoId, commentId) => {
 
 // THUNK ACTION CREATORS **********************************
 export const fetchVideosComments = videoId => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/${videoId}/comments`);
+    const res = await customFetch(`/api/videos/${videoId}/comments`);
 
     if (res.ok) {
         const videosComments = await res.json();
@@ -48,11 +48,8 @@ export const fetchVideosComments = videoId => async dispatch => {
 }
 
 export const createComment = comment => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/${comment.videoId}/comments/`, {
+    const res = await customFetch(`/api/videos/${comment.videoId}/comments/`, {
         method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
         body: JSON.stringify(comment)
     });
 
@@ -67,11 +64,8 @@ export const createComment = comment => async dispatch => {
 }
 
 export const editComment = comment => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/${comment.videoId}/comments/${comment.id}/`, {
+    const res = await customFetch(`/api/videos/${comment.videoId}/comments/${comment.id}/`, {
         method: "PUT",
-        headers: {
-            'Content-Type': 'application/json'
-        },
         body: JSON.stringify(comment)
     });
 
@@ -83,11 +77,8 @@ export const editComment = comment => async dispatch => {
 }
 
 export const deleteComment = (commentId, videoId) => async dispatch => {
-    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/videos/${videoId}/comments/${commentId}/`, {
+    const res = await customFetch(`/api/videos/${videoId}/comments/${commentId}/`, {
         method: 'DELETE',
-        headers: {
-            'Content-Type': 'application/json'
-        }
     });
 
     if (res.ok) {
