@@ -31,7 +31,7 @@ export default function VideoPage() {
             await dispatch(fetchVideo(videoId));
             setIsLoaded(true);
         })()
-    }, [dispatch]);
+    }, [dispatch, videoId]);
 
     useEffect(() => {
         if (!showMenu) return;

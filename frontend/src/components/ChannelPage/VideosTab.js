@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { sortByCreatedAt } from '../../utils';
 
 import './VideosTab.css';
 import { useSelector } from 'react-redux';

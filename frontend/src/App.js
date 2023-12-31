@@ -9,7 +9,6 @@ import { authenticate } from './store/session';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import ChannelPage from './components/ChannelPage/ChannelPage';
-import SettingsPage from './components/SettingsPage/SettingsPage';
 import VideoPage from './components/VideoPage/VideoPage';
 import HomePage from './components/HomePage/HomePage';
 import VideoForm from './components/VideoForm/VideoForm';

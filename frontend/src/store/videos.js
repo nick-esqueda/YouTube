@@ -1,4 +1,4 @@
-import { customFetch, getTimeElapsed, sortByCreatedAt } from "../utils";
+import { customFetch } from "../utils";
 import { normalizeOneLevel } from "./utils";
 
 // ACTION VARIABLES ***************************************

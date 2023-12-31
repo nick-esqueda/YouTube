@@ -5,7 +5,6 @@ import logo from '../../static/yt_logo_rgb_dark.png'
 import hamburger from '../../static/icons/hamburger.png';
 import newVideo from '../../static/icons/new-video.png';
 import appsMenu from '../../static/icons/apps-menu.png';
-import bellIcon from '../../static/icons/bell-icon.png';
 import avatar from '../../static/icons/avatar.png';
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 import SearchHeader from '../SearchHeader/SearchHeader';

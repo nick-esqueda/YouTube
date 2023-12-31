@@ -23,21 +23,21 @@ export default function HomePage() {
     }, [dispatch]);
 
     useEffect(() => {
-        window.addEventListener('scroll', scrolling_function);
+        const scrollingFunction = async () => {
+            if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+                window.removeEventListener('scroll', scrollingFunction);
+                const newVideos = await dispatch(fetchHomeVideos(nextPage));
+                setVideos(prevVideos => [...prevVideos, ...newVideos]);
+                setNextPage(prev => prev + 1);
+            }
+        }
+
+        window.addEventListener('scroll', scrollingFunction);
 
         return () => {
-            window.removeEventListener('scroll', scrolling_function);
+            window.removeEventListener('scroll', scrollingFunction);
         }
-    }, [nextPage]);
-
-    const scrolling_function = async () => {
-        if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-            window.removeEventListener('scroll', scrolling_function);
-            const newVideos = await dispatch(fetchHomeVideos(nextPage));
-            setVideos(prevVideos => [...prevVideos, ...newVideos]);
-            setNextPage(prev => prev + 1);
-        }
-    }
+    }, [nextPage, dispatch]);
 
     return !isLoaded ? <img src={loadingWheel} alt='loading-wheel' style={{ width: "50px" }} className='absolute-center' /> : (
         <div id='home-page' className='col-space-even'>

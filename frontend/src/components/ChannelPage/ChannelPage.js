@@ -27,7 +27,7 @@ export default function ChannelPage() {
 			await dispatch(fetchChannelsVideos(channelId, 1));
 			setIsLoaded(true);
 		})();
-	}, [channelId]);
+	}, [dispatch, channelId]);
 
 	return !isLoaded ? <img src={loadingWheel} alt='loading-wheel' style={{ width: "50px" }} className='absolute-center' /> : (
 		<div id='channel-page' className='col-top'>

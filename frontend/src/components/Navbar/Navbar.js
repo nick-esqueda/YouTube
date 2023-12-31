@@ -2,9 +2,6 @@ import React from 'react'
 
 import './Navbar.css';
 import home from '../../static/icons/home.png';
-import explore from '../../static/icons/explore.png';
-import subscriptions from '../../static/icons/subscriptions.png';
-import library from '../../static/icons/library.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
