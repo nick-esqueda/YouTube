@@ -20,7 +20,7 @@ class Comment(db.Model):
             'videoId': self.videoId,
             'channelId': self.channelId,
             'content': self.content,
-            'channel': self.channel.to_dict_lite(),
+            'channel': self.channel.to_dict_no_relations(),
             'createdAt': self.createdAt,
             'updatedAt': self.updatedAt
         }

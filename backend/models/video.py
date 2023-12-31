@@ -25,8 +25,7 @@ class Video(db.Model):
             'videoUrl': self.videoUrl,
             'thumbnailUrl': self.thumbnailUrl,
             'createdAt': self.createdAt,
-            'channel': self.channel.to_dict_lite(),
-            'comments': [comment.to_dict() for comment in self.comments]
+            'channel': self.channel.to_dict_no_relations(),
         }
 
     def to_dict_no_relations(self):

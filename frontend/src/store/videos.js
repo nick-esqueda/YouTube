@@ -137,12 +137,6 @@ const videosReducer = (state = {}, action) => {
         case ADD_VIDEO: {
             const dateParts = action.video.createdAt.split(' ');
             action.video.createdAt = `${dateParts[2]} ${dateParts[1]}, ${dateParts[3]}`;
-
-            action.video.comments = sortByCreatedAt(action.video.comments);
-            action.video.comments.forEach(comment => {
-                comment.createdAt = getTimeElapsed(comment.createdAt);
-            });
-
             newState[action.video.id] = action.video;
             return newState;
         }

@@ -44,7 +44,7 @@ class Channel(db.Model, UserMixin):
             'videos': [video.to_dict_no_relations() for video in self.videos]
         }
         
-    def to_dict_lite(self):
+    def to_dict_no_relations(self):
         return {
             'id': self.id,
             'channelName': self.channelName,

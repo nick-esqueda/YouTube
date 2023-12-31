@@ -12,7 +12,6 @@ def get_video(videoId):
     """
     GET /api/videos/:videoId\n
     Get a single video and its associated data.
-    NOTE: 
     """
     video = Video.query.get(videoId).to_dict()
     return jsonify(video)
