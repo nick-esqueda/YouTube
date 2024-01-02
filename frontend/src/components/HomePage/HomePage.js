@@ -23,23 +23,21 @@ export default function HomePage() {
     }, [dispatch]);
 
     useEffect(() => {
-        // TODO try setting a new isLoaded to false then true to display loading spinner when getting next page?
-        const scrolling_function = async () => {
-            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-                window.removeEventListener('scroll', scrolling_function);
+        const scrollingFunction = async () => {
+            if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+                window.removeEventListener('scroll', scrollingFunction);
                 const newVideos = await dispatch(fetchHomeVideos(nextPage));
                 setVideos(prevVideos => [...prevVideos, ...newVideos]);
                 setNextPage(prev => prev + 1);
             }
         }
 
-        window.addEventListener('scroll', scrolling_function);
+        window.addEventListener('scroll', scrollingFunction);
 
         return () => {
-            window.removeEventListener('scroll', scrolling_function);
+            window.removeEventListener('scroll', scrollingFunction);
         }
-    }, [nextPage]);
-
+    }, [nextPage, dispatch]);
 
     return !isLoaded ? <img src={loadingWheel} alt='loading-wheel' style={{ width: "50px" }} className='absolute-center' /> : (
         <div id='home-page' className='col-space-even'>

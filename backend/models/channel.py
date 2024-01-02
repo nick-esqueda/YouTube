@@ -18,8 +18,8 @@ class Channel(db.Model, UserMixin):
     createdAt = db.Column(db.DateTime(timezone=True), server_default=func.now(), nullable=False)
     updatedAt = db.Column(db.DateTime(timezone=True), server_onupdate=func.now(), server_default=func.now())
     
-    videos = db.relationship('Video', back_populates='channel', cascade="all, delete")
-    comments = db.relationship('Comment', back_populates='channel', cascade="all, delete")
+    videos = db.relationship('Video', back_populates='channel', lazy=True, cascade="all, delete")
+    comments = db.relationship('Comment', back_populates='channel', lazy=True, cascade="all, delete")
 
     @property
     def password(self):
@@ -41,10 +41,10 @@ class Channel(db.Model, UserMixin):
             'about': self.about,
             'email': self.email,
             'createdAt': self.createdAt,
-            'videos': [video.to_dict_channel() for video in self.videos]
+            'videos': [video.to_dict_no_relations() for video in self.videos]
         }
         
-    def to_dict_lite(self):
+    def to_dict_no_relations(self):
         return {
             'id': self.id,
             'channelName': self.channelName,

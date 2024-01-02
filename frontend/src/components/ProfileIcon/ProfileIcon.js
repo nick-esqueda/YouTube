@@ -5,7 +5,6 @@ import './ProfileIcon.css';
 import defaultPfp from '../../static/default-profile-image.png';
 import channelIcon from '../../static/icons/channel.png';
 import logoutIcon from '../../static/icons/logout.png';
-import settingsIcon from '../../static/icons/settings.png';
 import { useDispatch } from 'react-redux';
 import { logout } from '../../store/session';
 

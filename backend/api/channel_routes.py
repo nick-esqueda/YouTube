@@ -17,7 +17,7 @@ def channels():
 @login_required
 def channel(id):
     channel = Channel.query.get(id)
-    return channel.to_dict()
+    return channel.to_dict_no_relations()
     
     
 # @channel_routes.route('/other/<int:id>/')
@@ -26,7 +26,7 @@ def channel(id):
 #     return channel.to_dict()
 
 
-@channel_routes.route('/videos/<int:channelId>/pages/<int:pageNum>')
+@channel_routes.route('/<int:channelId>/videos/pages/<int:pageNum>/')
 def get_videos_for_channel(channelId, pageNum):
     """
     GET /api/channels/videos/:channelId/pages/:pageNum \n
@@ -38,5 +38,5 @@ def get_videos_for_channel(channelId, pageNum):
     # videos = Video.query.filter(Video.channelId == channelId).order_by(desc(Video.createdAt)).paginate(page=pageNum, per_page=5, error_out=False)
     # videos = [video.to_dict() for video in videos.items]
     videos = Video.query.filter(Video.channelId == channelId).order_by(desc(Video.createdAt)).all()
-    videos = [video.to_dict() for video in videos.items]
+    videos = [video.to_dict() for video in videos]
     return jsonify(videos)

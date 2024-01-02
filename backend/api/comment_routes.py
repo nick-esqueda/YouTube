@@ -7,6 +7,13 @@ comment_routes = Blueprint('comments', __name__)
 
 
 # ROUTES #############################################################################
+@comment_routes.route('/<int:videoId>/comments')
+def get_videos_comments(videoId):
+    videos_comments = Comment.query.filter_by(videoId=videoId).order_by(Comment.createdAt.desc()).all()
+    videos_comments = [comment.to_dict() for comment in videos_comments]
+    return jsonify(videos_comments)
+
+    
 @comment_routes.route('/<int:videoId>/comments/', methods=["POST"])
 def create_comment(videoId):
     form = CreateCommentForm()

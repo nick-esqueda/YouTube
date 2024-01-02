@@ -1,9 +1,10 @@
 import { customFetch } from "../utils";
 
-// constants
+// ACTION VARIABLES ***************************************
 const SET_USER = 'session/SET_USER';
 const REMOVE_USER = 'session/REMOVE_USER';
 
+// ACTION CREATORS ****************************************
 const setUser = (user) => ({
   type: SET_USER,
   payload: user
@@ -13,6 +14,7 @@ const removeUser = () => ({
   type: REMOVE_USER,
 })
 
+// THUNK ACTION CREATORS **********************************
 export const authenticate = () => async (dispatch) => {
   const response = await customFetch(`/api/auth/`);
 
@@ -84,8 +86,9 @@ export const signUp = (channelName, email, password) => async (dispatch) => {
   }
 }
 
-const initialState = { user: null };
 
+// REDUCER ************************************************
+const initialState = { user: null };
 export default function reducer(state = initialState, action) {
   switch (action.type) {
     case SET_USER:

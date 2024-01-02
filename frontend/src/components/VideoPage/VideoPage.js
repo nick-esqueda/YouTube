@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory, useParams } from 'react-router-dom'
 import { deleteVideo, fetchVideo } from '../../store/videos';
+import { fetchVideosComments } from '../../store/comments';
 import CommentCard from '../CommentCard/CommentCard';
 import CommentForm from '../CommentForm/CommentForm';
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
@@ -19,16 +20,18 @@ export default function VideoPage() {
 
     const sessionUser = useSelector(state => state.session.user);
     const video = useSelector(state => state.videos[videoId]);
+    const videosComments = useSelector(state => state.comments);
     const [showMenu, setShowMenu] = useState(false);
     const [showMore, setShowMore] = useState(false);
     const [isLoaded, setIsLoaded] = useState(false);
 
     useEffect(() => {
         (async () => {
+            dispatch(fetchVideosComments(videoId));
             await dispatch(fetchVideo(videoId));
             setIsLoaded(true);
         })()
-    }, [dispatch]);
+    }, [dispatch, videoId]);
 
     useEffect(() => {
         if (!showMenu) return;
@@ -149,11 +152,11 @@ export default function VideoPage() {
 
 
                 <div id='comments-section' className='full-size col-left'>
-                    {video.comments.length} comments
+                    {videosComments.length} comments
 
                     {sessionUser && (<CommentForm videoId={video.id} />)}
 
-                    {video.comments.map(comment => (
+                    {videosComments.map(comment => (
                         <CommentCard key={comment.id} comment={comment} video={video} />
                     ))}
                 </div>

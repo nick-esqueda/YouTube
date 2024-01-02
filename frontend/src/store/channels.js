@@ -1,4 +1,3 @@
-import { getTimeElapsed, sortByCreatedAt } from "../utils";
 import { customFetch } from "../utils";
 
 // ACTION VARIABLES ***************************************
@@ -33,15 +32,10 @@ const channelsReducer = (state = {}, action) => {
     switch (action.type) {
         
         case ADD_CHANNEL: {
-            const dateParts = action.channel.createdAt.split(' ');
-            action.channel.createdAt = `${dateParts[2]} ${dateParts[1]}, ${dateParts[3]}`;
-            
-            sortByCreatedAt(action.channel.videos);
-            action.channel.videos.forEach(video => {
-                video.createdAt = getTimeElapsed(video.createdAt);
-            })
-            
-            newState[action.channel.id] = action.channel;
+            const channel = action.channel;
+            const dateParts = channel.createdAt.split(' ');
+            channel.createdAt = `${dateParts[2]} ${dateParts[1]}, ${dateParts[3]}`;
+            newState[channel.id] = channel;
             return newState;
         }
         

@@ -1,24 +1,22 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { sortByCreatedAt } from '../../utils';
 
 import './VideosTab.css';
+import { useSelector } from 'react-redux';
 
-export default function VideosTab({ channel }) {
-	
-	// console.log(channel.videos);
-	// sortByCreatedAt(channel.videos);
-	// console.log(channel.videos);
+export default function VideosTab() {
+	let channelsVideos = useSelector(state => state.videos);
+	channelsVideos = Object.values(channelsVideos);
 
 	return (
 		<div id="videos-tab">
-			{channel.videos.length === 0
+			{channelsVideos.length === 0
 				? <span className='subcount'>This channel does not have any videos yet.</span>
 				: <h4>Uploads</h4>
 			}
 
 			<div className='video-row-grid row-left'>
-				{channel.videos.map(video => (
+				{channelsVideos.map(video => (
 					<div key={video.id} className='video-grid-item col-top'>
 						<Link to={`/watch/${video.id}`} className='thumbnail-wrapper col-top'>
 							<img src={video.thumbnailUrl} alt='thumbnail'

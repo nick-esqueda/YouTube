@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { createComment, editComment } from '../../store/videos';
+import { createComment, editComment } from '../../store/comments';
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 
 import './CommentForm.css';

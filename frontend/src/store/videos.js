@@ -1,4 +1,4 @@
-import { customFetch, getTimeElapsed, sortByCreatedAt } from "../utils";
+import { customFetch } from "../utils";
 import { normalizeOneLevel } from "./utils";
 
 // ACTION VARIABLES ***************************************
@@ -7,13 +7,7 @@ const LOAD_VIDEOS = 'videos/LOAD_VIDEOS';
 const LOAD_ADDITIONAL_VIDEOS = 'videos/LOAD_ADDITIONAL_VIDEOS';
 const REMOVE_VIDEO = 'videos/REMOVE_VIDEO';
 
-const ADD_COMMENT = 'comments/ADD_COMMENT';
-const UPDATE_COMMENT = 'comments/UPDATE_COMMENT';
-const REMOVE_COMMENT = 'comments/REMOVE_COMMENT';
-
-
 // ACTION CREATORS ****************************************
-// VIDEOS
 const addVideo = (video) => {
     return {
         type: ADD_VIDEO,
@@ -42,31 +36,6 @@ const removeVideo = (videoId) => {
     }
 }
 
-// COMMENTS
-const addComment = (comment) => {
-    return {
-        type: ADD_COMMENT,
-        comment
-    }
-}
-
-const updateComment = (comment) => {
-    return {
-        type: UPDATE_COMMENT,
-        comment
-    }
-}
-
-const removeComment = (videoId, commentId) => {
-    return {
-        type: REMOVE_COMMENT,
-        videoId,
-        commentId
-    }
-}
-
-
-
 // THUNK ACTION CREATORS **********************************
 export const fetchVideo = (videoId) => async dispatch => {
     const res = await customFetch(`/api/videos/${videoId}/`);
@@ -89,9 +58,10 @@ export const fetchHomeVideos = (pageNum = 1) => async dispatch => {
     }
 }
 
-export const fetchChannelVideos = (channelId, pageNum = 1) => async dispatch => {
-    const res = await customFetch(`/api/channels/videos/${channelId}/pages/${pageNum}/`);
+export const fetchChannelsVideos = (channelId, pageNum = 1) => async dispatch => {
+    const res = await customFetch(`/api/channels/${channelId}/videos/pages/${pageNum}/`);
 
+    console.log('running??');
     if (res.ok) {
         const videos = await res.json();
         if (pageNum === 1) dispatch(loadVideos(videos));
@@ -146,57 +116,12 @@ export const deleteVideo = (videoId) => async dispatch => {
     }
 }
 
-// COMMENTS ///////////////////
-export const createComment = comment => async dispatch => {
-    const res = await customFetch(`/api/videos/${comment.videoId}/comments/`, {
-        method: 'POST',
-        body: JSON.stringify(comment)
-    });
-
-    if (res.ok) {
-        const newComment = await res.json();
-        dispatch(addComment(newComment));
-        return newComment;
-    } else {
-        const errors = await res.json();
-        throw errors;
-    }
-}
-
-export const editComment = comment => async dispatch => {
-    const res = await customFetch(`/api/videos/${comment.videoId}/comments/${comment.id}/`, {
-        method: "PUT",
-        body: JSON.stringify(comment)
-    });
-
-    if (res.ok) {
-        const editedComment = await res.json();
-        dispatch(updateComment(editedComment));
-        return editedComment;
-    }
-}
-
-export const deleteComment = (commentId, videoId) => async dispatch => {
-    const res = await customFetch(`/api/videos/${videoId}/comments/${commentId}/`, {
-        method: 'DELETE',
-    });
-
-    if (res.ok) {
-        const commentId = await res.json();
-        dispatch(removeComment(videoId, commentId));
-        return { videoId, commentId };
-    }
-}
-
-
-
 
 // REDUCER ************************************************
 const videosReducer = (state = {}, action) => {
     let newState = { ...state }
 
     switch (action.type) {
-
         case LOAD_VIDEOS: {
             return {
                 ...normalizeOneLevel(action.videos)
@@ -213,12 +138,6 @@ const videosReducer = (state = {}, action) => {
         case ADD_VIDEO: {
             const dateParts = action.video.createdAt.split(' ');
             action.video.createdAt = `${dateParts[2]} ${dateParts[1]}, ${dateParts[3]}`;
-
-            action.video.comments = sortByCreatedAt(action.video.comments);
-            action.video.comments.forEach(comment => {
-                comment.createdAt = getTimeElapsed(comment.createdAt);
-            });
-
             newState[action.video.id] = action.video;
             return newState;
         }
@@ -226,47 +145,6 @@ const videosReducer = (state = {}, action) => {
         case REMOVE_VIDEO: {
             delete newState[action.videoId];
             return newState;
-        }
-
-        // COMMENTS //////////////////////////
-        case ADD_COMMENT: {
-            const videoId = action.comment.videoId;
-            action.comment.createdAt = getTimeElapsed(action.comment.createdAt);
-            return {
-                ...state,
-                [videoId]: {
-                    ...state[videoId],
-                    comments: [action.comment, ...state[videoId].comments]
-                }
-            }
-        }
-
-        case UPDATE_COMMENT: {
-            const commentId = action.comment.id;
-            const videoId = action.comment.videoId;
-            const newCommentsArray = [...state[videoId].comments];
-            const commentIndex = newCommentsArray.findIndex(comment => comment.id === commentId);
-            action.comment.createdAt = getTimeElapsed(action.comment.createdAt);
-            newCommentsArray[commentIndex] = action.comment;
-
-            return {
-                ...state,
-                [videoId]: {
-                    ...state[videoId],
-                    comments: newCommentsArray
-                }
-            }
-        }
-
-        case REMOVE_COMMENT: {
-            const arrayWithoutComment = state[action.videoId].comments.filter(comment => comment.id !== action.commentId);
-            return {
-                ...state,
-                [action.videoId]: {
-                    ...state[action.videoId],
-                    comments: arrayWithoutComment
-                }
-            }
         }
 
         default:

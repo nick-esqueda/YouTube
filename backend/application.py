@@ -1,11 +1,9 @@
 import os
-from flask import Flask, render_template, request, session, redirect
+from flask import Flask
 from flask_cors import CORS
 from flask_migrate import Migrate
-from flask_wtf.csrf import CSRFProtect, generate_csrf
+from flask_wtf.csrf import generate_csrf
 from flask_login import LoginManager
-# from dotenv import load_dotenv
-# load_dotenv()
 
 from models import db, Channel
 from api.auth_routes import auth_routes
@@ -46,20 +44,6 @@ Migrate(application, db)
 CORS(application, supports_credentials=True)
 
 
-# Since we are deploying with Docker and Flask,
-# we won't be using a buildpack when we deploy to Heroku.
-# Therefore, we need to make sure that in production any
-# request made over http is redirected to https.
-# Well.........
-@application.before_request
-def https_redirect():
-    if os.environ.get('FLASK_ENV') == 'production':
-        if request.headers.get('X-Forwarded-Proto') == 'http':
-            url = request.url.replace('http://', 'https://', 1)
-            code = 301
-            return redirect(url, code=code)
-
-
 @application.after_request
 def inject_csrf_token(response):
     response.set_cookie(
@@ -74,14 +58,6 @@ def inject_csrf_token(response):
 @application.route('/health')
 def health_check():
     return {'success': True}, 200, {'ContentType':'application/json'}
-
-
-@application.route('/', defaults={'path': ''})
-@application.route('/<path:path>')
-def react_root(path):
-    if path == 'favicon.ico':
-        return application.send_static_file('favicon.ico')
-    return application.send_static_file('index.html')
 
 
 if __name__ == "__main__":

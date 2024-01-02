@@ -53,7 +53,7 @@ export default function VideoForm() {
             }
             setIsLoaded(true);
         })()
-    }, [dispatch]);
+    }, [dispatch, history, sessionUser.id, videoId]);
 
     const s3Upload = async (file, type) => {
         if (!file) return console.error('upload a file first');
