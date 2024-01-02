@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom/cjs/react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory, useParams } from 'react-router-dom'
-import { deleteVideo, fetchVideo } from '../../store/videos';
+import { deleteVideo, fetchRandomVideos, fetchVideo } from '../../store/videos';
 import { fetchVideosComments } from '../../store/comments';
 import CommentCard from '../CommentCard/CommentCard';
 import CommentForm from '../CommentForm/CommentForm';
@@ -12,6 +13,9 @@ import threeDots from '../../static/icons/three-dots.png';
 import pencil from '../../static/icons/pencil.png';
 import trash from '../../static/icons/trash.png';
 import './VideoPage.css';
+import VideoCard from '../VideoCard/VideoCard';
+import VideoCardSmall from '../VideoCardSmall/VideoCardSmall';
+import SuggestedVideos from './SuggestedVideos';
 
 export default function VideoPage() {
     const { videoId } = useParams();
@@ -21,6 +25,7 @@ export default function VideoPage() {
     const sessionUser = useSelector(state => state.session.user);
     const video = useSelector(state => state.videos[videoId]);
     const videosComments = useSelector(state => state.comments);
+    const [randomVideos, setRandomVideos] = useState([]);
     const [showMenu, setShowMenu] = useState(false);
     const [showMore, setShowMore] = useState(false);
     const [isLoaded, setIsLoaded] = useState(false);
@@ -29,6 +34,8 @@ export default function VideoPage() {
         (async () => {
             dispatch(fetchVideosComments(videoId));
             await dispatch(fetchVideo(videoId));
+            const randomVideos = await dispatch(fetchRandomVideos(2));
+            setRandomVideos(randomVideos);
             setIsLoaded(true);
         })()
     }, [dispatch, videoId]);
@@ -81,7 +88,7 @@ export default function VideoPage() {
                         <h4>{video.title}</h4>
                         <span className='subcount'>{video.createdAt}</span>
                     </div>
-                    
+
                     {/* <div className='row-space-between'>
                         {sessionUser.id !== video.channel.id ? null : (
                             <>
@@ -96,7 +103,7 @@ export default function VideoPage() {
                             </>
                         )}
                     </div> */}
-                    
+
                     {video.channelId === sessionUser?.id && (
                         <div className='svg-wrapper pointer' onClick={openMenu}>
                             <img src={threeDots} alt="menu-icon" className="svg" />
@@ -138,12 +145,12 @@ export default function VideoPage() {
                         {!showMore
                             ? <span
                                 className='subcount pointer show'
-                                style={!video.description ? { display: 'none' } : {} }
+                                style={!video.description ? { display: 'none' } : {}}
                                 onClick={e => setShowMore(true)}
                             >SHOW MORE</span>
                             : <span
                                 className='subcount pointer show'
-                                style={!video.description ? { display: 'none' } : {} }
+                                style={!video.description ? { display: 'none' } : {}}
                                 onClick={e => setShowMore(false)}
                             >SHOW LESS</span>
                         }
@@ -163,6 +170,9 @@ export default function VideoPage() {
 
             </div>
 
+            <div className='right left-align'>
+                <SuggestedVideos />
+            </div>
         </div>
     )
 }

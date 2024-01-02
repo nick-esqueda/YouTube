@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify, session, request
-from sqlalchemy import desc
+from sqlalchemy import desc, func
 from api.utils import validation_errors_to_error_messages
 from forms.video_forms import CreateVideoForm, EditVideoForm
 from models import db, Video, Channel
@@ -28,11 +28,11 @@ def get_videos(pageNum):
     # id = int(session['_user_id'])
     # sessionUser = Channel.query.get(id)
 
-    videos = Video.query.order_by(desc(Video.createdAt)).paginate(page=pageNum, per_page=20, error_out=False)
+    videos = Video.query.order_by(func.random()).paginate(page=pageNum, per_page=20, error_out=False)
     videos = [video.to_dict() for video in videos.items]
 
     return jsonify(videos)
-    
+
 
 @video_routes.route('/', methods=["POST"])
 def create_video():

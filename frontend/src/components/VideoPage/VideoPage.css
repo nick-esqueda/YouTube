@@ -1,8 +1,10 @@
 #video-page {
-    padding: 24px 64px;
+    width: 87%;
+    margin: 80px auto;
     display: grid;
     grid-template-columns: 70% 30%;
     grid-template-areas: "left right";
+    align-items: start;
 }
 
 #video-page .left {
@@ -11,6 +13,7 @@
 
 #video-page .right {
     grid-area: right;
+    width: 100%;
 }
 
 
@@ -79,4 +82,11 @@
 /* COMMENTS SECTION ********************/
 #comments-section {
     padding: 16px;
+}
+
+
+/* SUGGESTED VIDEOS *******************/
+.suggested-videos-container {
+    width: 100%;
+    padding: 0 20px;
 }
