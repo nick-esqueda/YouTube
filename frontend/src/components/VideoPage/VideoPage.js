@@ -64,7 +64,7 @@ export default function VideoPage() {
         }
     }
 
-    return !isLoaded ? <img src={loadingWheel} alt='loading-wheel' style={{ width: "50px", left: 'calc(50% - 72px)' }} className='absolute-center' /> : (
+    return !isLoaded ? <img src={loadingWheel} alt='loading-wheel' style={{ width: "30px", left: 'calc(50% - 72px)' }} className='absolute-center' /> : (
         <div id='video-page' className=''>
             <div className='left'>
                 <div className='video-wrapper'>
@@ -165,7 +165,7 @@ export default function VideoPage() {
             </div>
 
             <div className='right left-align'>
-                <SuggestedVideos />
+                <SuggestedVideos videoId={videoId} />
             </div>
         </div>
     )

@@ -6,7 +6,7 @@ import { fetchRandomVideos } from '../../store/videos';
 
 import './VideoPage.css';
 
-export default function SuggestedVideos() {
+export default function SuggestedVideos({ videoId }) {
   const dispatch = useDispatch();
 
   const [isLoaded, setIsLoaded] = useState(false);
@@ -18,8 +18,9 @@ export default function SuggestedVideos() {
       const suggestedVideos = await dispatch(fetchRandomVideos(2));
       setSuggestedVideos(suggestedVideos);
       setIsLoaded(true);
+      window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
     })()
-  }, [dispatch]);
+  }, [dispatch, videoId]);
 
   useEffect(() => {
     const scrollingFunction = async () => {
