@@ -42,9 +42,13 @@ export default function SuggestedVideos({ videoId }) {
   return !isLoaded ? null : (
     <>
       <div className='suggested-videos-container col-left'>
-        {suggestedVideos.map(video => (
-          <VideoCardSmall key={video.id} videoId={video.id} />
-        ))}
+        {suggestedVideos.map(video => {
+          // the video being viewed should not be in suggested videos list.
+          if (video.id === videoId) {
+            return;
+          }
+          return <VideoCardSmall key={video.id} videoId={video.id} />
+        })}
       </div>
 
       <img src={loadingWheel} alt='loading-wheel' style={{ width: '25px', height: '25px', margin: '25px' }} />
