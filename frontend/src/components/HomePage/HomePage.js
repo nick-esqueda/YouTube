@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux';
-import { Link } from 'react-router-dom';
 import { fetchRandomVideos } from '../../store/videos';
-import ProfileIcon from '../ProfileIcon/ProfileIcon';
 
 import './HomePage.css';
 import loadingWheel from '../../static/icons/loading-wheel.gif';
