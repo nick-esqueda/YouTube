@@ -6,6 +6,7 @@ import { fetchVideosComments } from '../../store/comments';
 import CommentCard from '../CommentCard/CommentCard';
 import CommentForm from '../CommentForm/CommentForm';
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
+import SuggestedVideos from './SuggestedVideos';
 
 import loadingWheel from '../../static/icons/loading-wheel.gif';
 import threeDots from '../../static/icons/three-dots.png';
@@ -63,7 +64,7 @@ export default function VideoPage() {
         }
     }
 
-    return !isLoaded ? <img src={loadingWheel} alt='loading-wheel' style={{ width: "50px", left: 'calc(50% - 72px)' }} className='absolute-center' /> : (
+    return !isLoaded ? <img src={loadingWheel} alt='loading-wheel' style={{ width: "30px", left: 'calc(50% - 72px)' }} className='absolute-center' /> : (
         <div id='video-page' className=''>
             <div className='left'>
                 <div className='video-wrapper'>
@@ -81,7 +82,7 @@ export default function VideoPage() {
                         <h4>{video.title}</h4>
                         <span className='subcount'>{video.createdAt}</span>
                     </div>
-                    
+
                     {/* <div className='row-space-between'>
                         {sessionUser.id !== video.channel.id ? null : (
                             <>
@@ -96,7 +97,7 @@ export default function VideoPage() {
                             </>
                         )}
                     </div> */}
-                    
+
                     {video.channelId === sessionUser?.id && (
                         <div className='svg-wrapper pointer' onClick={openMenu}>
                             <img src={threeDots} alt="menu-icon" className="svg" />
@@ -138,12 +139,12 @@ export default function VideoPage() {
                         {!showMore
                             ? <span
                                 className='subcount pointer show'
-                                style={!video.description ? { display: 'none' } : {} }
+                                style={!video.description ? { display: 'none' } : {}}
                                 onClick={e => setShowMore(true)}
                             >SHOW MORE</span>
                             : <span
                                 className='subcount pointer show'
-                                style={!video.description ? { display: 'none' } : {} }
+                                style={!video.description ? { display: 'none' } : {}}
                                 onClick={e => setShowMore(false)}
                             >SHOW LESS</span>
                         }
@@ -163,6 +164,9 @@ export default function VideoPage() {
 
             </div>
 
+            <div className='right left-align'>
+                <SuggestedVideos videoId={videoId} />
+            </div>
         </div>
     )
 }

@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux';
-import { Link } from 'react-router-dom';
-import { fetchHomeVideos } from '../../store/videos';
-import ProfileIcon from '../ProfileIcon/ProfileIcon';
+import { fetchRandomVideos } from '../../store/videos';
 
 import './HomePage.css';
 import loadingWheel from '../../static/icons/loading-wheel.gif';
+import VideoCard from '../VideoCard/VideoCard';
 
 export default function HomePage() {
     const dispatch = useDispatch();
@@ -16,7 +15,7 @@ export default function HomePage() {
 
     useEffect(() => {
         (async () => {
-            const videoArr = await dispatch(fetchHomeVideos(1))
+            const videoArr = await dispatch(fetchRandomVideos(1))
             setVideos(videoArr);
             setIsLoaded(true);
         })()
@@ -26,7 +25,7 @@ export default function HomePage() {
         const scrollingFunction = async () => {
             if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
                 window.removeEventListener('scroll', scrollingFunction);
-                const newVideos = await dispatch(fetchHomeVideos(nextPage));
+                const newVideos = await dispatch(fetchRandomVideos(nextPage));
                 setVideos(prevVideos => [...prevVideos, ...newVideos]);
                 setNextPage(prev => prev + 1);
             }
@@ -39,31 +38,14 @@ export default function HomePage() {
         }
     }, [nextPage, dispatch]);
 
-    return !isLoaded ? <img src={loadingWheel} alt='loading-wheel' style={{ width: "50px" }} className='absolute-center' /> : (
+    return !isLoaded ? <img src={loadingWheel} alt='loading-wheel' style={{ width: "30px" }} className='absolute-center' /> : (
         <div id='home-page' className='col-space-even'>
             <div className='video-row-grid'>
                 {videos.map(video => (
-                    <div key={video.id} className='video-grid-item col-top'>
-                        <Link to={`/watch/${video.id}`} className='thumbnail-wrapper col-top'>
-                            <img src={video.thumbnailUrl} alt='thumbnail'
-                                className='thumbnail'
-                            />
-                        </Link>
-
-                        <div className='video-thumbnail-details row-left row-top'>
-                            <div style={{ width: "36px", minWidth: '36px', height: "36px", marginRight: '12px' }}>
-                                <ProfileIcon channel={video.channel} />
-                            </div>
-                            <div className='col-left'>
-                                <h4 className='line-clamp2'>{video.title}</h4>
-                                <span className='line-clamp2'>{video.channel.channelName}</span>
-                                <span className='line-clamp2'>{video.createdAt}</span>
-                            </div>
-                        </div>
-                    </div>
+                    <VideoCard key={video.id} videoId={video.id} />
                 ))}
-
             </div>
+
             <img src={loadingWheel} alt='loading-wheel' style={{ width: '50px', height: '50px', margin: '10px 0 120px' }} />
         </div>
     )

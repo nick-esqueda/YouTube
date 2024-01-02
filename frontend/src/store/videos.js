@@ -47,7 +47,7 @@ export const fetchVideo = (videoId) => async dispatch => {
     }
 }
 
-export const fetchHomeVideos = (pageNum = 1) => async dispatch => {
+export const fetchRandomVideos = (pageNum = 1) => async dispatch => {
     const res = await customFetch(`/api/videos/pages/${pageNum}/`);
 
     if (res.ok) {
@@ -61,7 +61,6 @@ export const fetchHomeVideos = (pageNum = 1) => async dispatch => {
 export const fetchChannelsVideos = (channelId, pageNum = 1) => async dispatch => {
     const res = await customFetch(`/api/channels/${channelId}/videos/pages/${pageNum}/`);
 
-    console.log('running??');
     if (res.ok) {
         const videos = await res.json();
         if (pageNum === 1) dispatch(loadVideos(videos));
