@@ -15,10 +15,10 @@ export default function SuggestedVideos({ videoId }) {
 
   useEffect(() => {
     (async () => {
+      window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
       const suggestedVideos = await dispatch(fetchRandomVideos(2));
       setSuggestedVideos(suggestedVideos);
       setIsLoaded(true);
-      window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
     })()
   }, [dispatch, videoId]);
 
