@@ -1,8 +1,9 @@
 #video-page {
     width: 87%;
-    margin: 80px auto;
+    margin: 0 auto;
+    padding: 24px 0;
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 74% 26%;
     grid-template-areas: "left right";
     align-items: start;
 }
@@ -30,8 +31,8 @@
 
 .video-info {
     width: 100%;
-    padding: 16px;
-    border-bottom: 2px solid var(--gray-dark);
+    padding: 16px 0;
+    border-bottom: 1px solid var(--gray-dark);
     position: relative;
 }
 .video-info h4 {
@@ -48,8 +49,8 @@
 
 .video-description {
     width: 100%;
-    padding: 16px;
-    border-bottom: 2px solid var(--gray-dark)
+    padding: 16px 0;
+    border-bottom: 1px solid var(--gray-dark)
 }
 .show-more {
     height: auto;
