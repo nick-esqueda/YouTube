@@ -10,7 +10,7 @@ import ChannelsTab from './ChannelsTab';
 import VideosTab from './VideosTab';
 
 import './ChannelPage.css';
-import loadingWheel from '../../static/icons/loading-wheel.gif';
+import LoadingWheel from '../LoadingWheel/LoadingWheel';
 
 export default function ChannelPage() {
 	const { channelId } = useParams();
@@ -29,7 +29,7 @@ export default function ChannelPage() {
 		})();
 	}, [dispatch, channelId]);
 
-	return !isLoaded ? <img src={loadingWheel} alt='loading-wheel' style={{ width: "50px" }} className='absolute-center' /> : (
+	return !isLoaded ? <LoadingWheel /> : (
 		<div id='channel-page' className='col-top'>
 			<div id='channel-header'>
 				{!channel.bannerImageUrl ? null : (

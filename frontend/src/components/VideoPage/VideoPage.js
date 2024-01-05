@@ -8,9 +8,9 @@ import CommentForm from '../CommentForm/CommentForm';
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 import SuggestedVideos from './SuggestedVideos';
 
-import loadingWheel from '../../static/icons/loading-wheel.gif';
 import './VideoPage.css';
 import VideoInfo from './VideoInfo';
+import LoadingWheel from '../LoadingWheel/LoadingWheel';
 
 export default function VideoPage() {
     const { videoId } = useParams();
@@ -20,17 +20,13 @@ export default function VideoPage() {
     const video = useSelector(state => state.videos[videoId]);
     const videosComments = useSelector(state => state.comments);
     const [showMore, setShowMore] = useState(false);
-    const [isLoaded, setIsLoaded] = useState(false);
 
     useEffect(() => {
-        (async () => {
-            dispatch(fetchVideosComments(videoId));
-            await dispatch(fetchVideo(videoId));
-            setIsLoaded(true);
-        })()
+        dispatch(fetchVideo(videoId));
+        dispatch(fetchVideosComments(videoId));
     }, [dispatch, videoId]);
 
-    return !isLoaded ? <img src={loadingWheel} alt='loading-wheel' style={{ width: "30px", left: 'calc(50% - 72px)' }} className='absolute-center' /> : (
+    return !video ? <LoadingWheel /> : (
         <div id='video-page' className=''>
             <div className='left'>
                 <div className='video-wrapper'>

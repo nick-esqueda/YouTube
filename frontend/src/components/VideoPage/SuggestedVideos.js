@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import VideoCardSmall from '../VideoCardSmall/VideoCardSmall'
-import loadingWheel from '../../static/icons/loading-wheel.gif';
 import { useDispatch } from 'react-redux';
 import { fetchRandomVideos } from '../../store/videos';
 
 import './VideoPage.css';
+import LoadingWheel from '../LoadingWheel/LoadingWheel';
 
 export default function SuggestedVideos({ videoId }) {
   const dispatch = useDispatch();
@@ -51,7 +51,7 @@ export default function SuggestedVideos({ videoId }) {
         })}
       </div>
 
-      <img src={loadingWheel} alt='loading-wheel' style={{ width: '25px', height: '25px', margin: '25px' }} />
+      <LoadingWheel isCentered={false} />
     </>
   )
 }

@@ -3,8 +3,8 @@ import { useDispatch } from 'react-redux';
 import { fetchRandomVideos } from '../../store/videos';
 
 import './HomePage.css';
-import loadingWheel from '../../static/icons/loading-wheel.gif';
 import VideoCard from '../VideoCard/VideoCard';
+import LoadingWheel from '../LoadingWheel/LoadingWheel';
 
 export default function HomePage() {
     const dispatch = useDispatch();
@@ -38,7 +38,7 @@ export default function HomePage() {
         }
     }, [nextPage, dispatch]);
 
-    return !isLoaded ? <img src={loadingWheel} alt='loading-wheel' style={{ width: "30px" }} className='absolute-center' /> : (
+    return !isLoaded ? <LoadingWheel /> : (
         <div id='home-page' className='col-space-even'>
             <div className='video-row-grid'>
                 {videos.map(video => (
@@ -46,7 +46,7 @@ export default function HomePage() {
                 ))}
             </div>
 
-            <img src={loadingWheel} alt='loading-wheel' style={{ width: '50px', height: '50px', margin: '10px 0 120px' }} />
+            <LoadingWheel isCentered={false} />
         </div>
     )
 }
