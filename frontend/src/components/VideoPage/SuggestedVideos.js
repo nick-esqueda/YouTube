@@ -45,7 +45,7 @@ export default function SuggestedVideos({ videoId }) {
         {suggestedVideos.map(video => {
           // the video being viewed should not be in suggested videos list.
           if (video.id === videoId) {
-            return;
+            return null;
           }
           return <VideoCardSmall key={video.id} videoId={video.id} />
         })}

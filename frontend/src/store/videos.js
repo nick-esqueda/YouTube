@@ -6,6 +6,8 @@ const ADD_VIDEO = 'videos/ADD_VIDEO';
 const LOAD_VIDEOS = 'videos/LOAD_VIDEOS';
 const LOAD_ADDITIONAL_VIDEOS = 'videos/LOAD_ADDITIONAL_VIDEOS';
 const REMOVE_VIDEO = 'videos/REMOVE_VIDEO';
+const UPDATE_LIKE_COUNT = 'videos/UPDATE_LIKE_COUNT';
+const UPDATE_DISLIKE_COUNT = 'videos/UPDATE_DISLIKE_COUNT';
 
 // ACTION CREATORS ****************************************
 const addVideo = (video) => {
@@ -35,6 +37,25 @@ const removeVideo = (videoId) => {
         videoId
     }
 }
+
+const updateLikeCount = (videoId, likeCount, isLikedByCurrentUser) => {
+    return {
+        type: UPDATE_LIKE_COUNT,
+        videoId,
+        likeCount,
+        isLikedByCurrentUser,
+    }
+}
+
+const updateDislikeCount = (videoId, dislikeCount, isDislikedByCurrentUser) => {
+    return {
+        type: UPDATE_DISLIKE_COUNT,
+        videoId,
+        dislikeCount,
+        isDislikedByCurrentUser
+    }
+}
+
 
 // THUNK ACTION CREATORS **********************************
 export const fetchVideo = (videoId) => async dispatch => {
@@ -115,6 +136,27 @@ export const deleteVideo = (videoId) => async dispatch => {
     }
 }
 
+export const toggleVideoLike = (videoId) => async (dispatch) => {
+    const res = await customFetch(`/api/videos/${videoId}/likes/`, {
+        method: 'POST',
+    });
+    
+    if (res.ok) {
+        const { likeCount, isLikedByCurrentUser } = await res.json();
+        dispatch(updateLikeCount(videoId, likeCount, isLikedByCurrentUser));
+    }
+}
+
+export const toggleVideoDislike = (videoId) => async (dispatch) => {
+    const res = await customFetch(`/api/videos/${videoId}/dislikes/`, {
+        method: 'POST',
+    });
+
+    if (res.ok) {
+        const { dislikeCount, isDislikedByCurrentUser } = await res.json();
+        dispatch(updateDislikeCount(videoId, dislikeCount, isDislikedByCurrentUser));
+    }
+}
 
 // REDUCER ************************************************
 const videosReducer = (state = {}, action) => {
@@ -143,6 +185,20 @@ const videosReducer = (state = {}, action) => {
 
         case REMOVE_VIDEO: {
             delete newState[action.videoId];
+            return newState;
+        }
+
+        case UPDATE_LIKE_COUNT: {
+            const video = newState[action.videoId];
+            video.likeCount = action.likeCount;
+            video.isLikedByCurrentUser = action.isLikedByCurrentUser;
+            return newState;
+        }
+            
+        case UPDATE_DISLIKE_COUNT: {
+            const video = newState[action.videoId];
+            video.dislikeCount = action.dislikeCount;
+            video.isDislikedByCurrentUser = action.isDislikedByCurrentUser;
             return newState;
         }
 
