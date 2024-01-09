@@ -115,6 +115,17 @@ export const deleteVideo = (videoId) => async dispatch => {
     }
 }
 
+export const searchVideos = (query) => async (dispatch) => {
+    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/search?` 
+        + new URLSearchParams({query}));
+    
+    if (res.ok) {
+        const videos = await res.json();
+        dispatch(loadVideos(videos));
+        return videos;
+    }
+}
+
 
 // REDUCER ************************************************
 const videosReducer = (state = {}, action) => {
