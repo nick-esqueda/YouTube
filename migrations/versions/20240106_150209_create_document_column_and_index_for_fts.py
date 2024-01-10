@@ -28,7 +28,7 @@ def upgrade():
             "document_fts",
             TSVector(),
             sa.Computed(
-                "setweight(to_tsvector('english', title), 'A') || setweight(to_tsvector('english', coalesce(description, '')), 'B')",
+                "setweight(to_tsvector('english', title), 'A') || setweight(to_tsvector('english', coalesce(description, '')), 'D')",
                 persisted=True,
             ),
             nullable=True,

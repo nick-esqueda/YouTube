@@ -9,7 +9,7 @@ export default function VideoCardLarge({ videoId }) {
   const video = useSelector(state => state.videos[videoId]);
 
   return (
-    <div className='video-card-large full-size row-top'>
+    <div className='video-card-large full-size row-top row-left'>
       <Link to={`/watch/${video.id}`} className='thumbnail-wrapper col-top'>
         <img src={video.thumbnailUrl} alt='thumbnail'
           className='thumbnail'
