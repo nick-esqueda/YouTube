@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory, useParams } from 'react-router-dom'
-import { deleteVideo, fetchVideo } from '../../store/videos';
+import { clearVideosState, deleteVideo, fetchVideo } from '../../store/videos';
 import { fetchVideosComments } from '../../store/comments';
 import CommentCard from '../CommentCard/CommentCard';
 import CommentForm from '../CommentForm/CommentForm';
@@ -32,6 +32,8 @@ export default function VideoPage() {
             await dispatch(fetchVideo(videoId));
             setIsLoaded(true);
         })()
+        
+        return () => dispatch(clearVideosState());
     }, [dispatch, videoId]);
 
     useEffect(() => {

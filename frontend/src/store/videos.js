@@ -6,6 +6,7 @@ const ADD_VIDEO = 'videos/ADD_VIDEO';
 const LOAD_VIDEOS = 'videos/LOAD_VIDEOS';
 const LOAD_ADDITIONAL_VIDEOS = 'videos/LOAD_ADDITIONAL_VIDEOS';
 const REMOVE_VIDEO = 'videos/REMOVE_VIDEO';
+const CLEAR_VIDEOS = 'videos/CLEAR_VIDEOS';
 
 // ACTION CREATORS ****************************************
 const addVideo = (video) => {
@@ -33,6 +34,12 @@ const removeVideo = (videoId) => {
     return {
         type: REMOVE_VIDEO,
         videoId
+    }
+}
+
+export const clearVideosState = () => {
+    return {
+        type: CLEAR_VIDEOS
     }
 }
 
@@ -129,8 +136,6 @@ export const searchVideos = (query) => async (dispatch) => {
 
 // REDUCER ************************************************
 const videosReducer = (state = {}, action) => {
-    let newState = { ...state }
-
     switch (action.type) {
         case LOAD_VIDEOS: {
             return {
@@ -146,15 +151,24 @@ const videosReducer = (state = {}, action) => {
         }
 
         case ADD_VIDEO: {
-            const dateParts = action.video.createdAt.split(' ');
-            action.video.createdAt = `${dateParts[2]} ${dateParts[1]}, ${dateParts[3]}`;
-            newState[action.video.id] = action.video;
-            return newState;
+            const video = action.video;
+            const dateParts = video.createdAt.split(' ');
+            video.createdAt = `${dateParts[2]} ${dateParts[1]}, ${dateParts[3]}`;
+            
+            return {
+                ...state,
+                [video.id]: video,
+            }
         }
 
         case REMOVE_VIDEO: {
+            const newState = {...state};
             delete newState[action.videoId];
             return newState;
+        }
+            
+        case CLEAR_VIDEOS: {
+            return {};
         }
 
         default:
