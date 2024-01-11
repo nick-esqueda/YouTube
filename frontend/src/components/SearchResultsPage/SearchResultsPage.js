@@ -12,9 +12,9 @@ export default function SearchResultsPage() {
   const location = useLocation();
   const query = new URLSearchParams(location.search).get("q");
 
+  // must use isLoaded to prevent showing noResultsMessage before API response.
   const [isLoaded, setIsLoaded] = useState(false);
-  let searchResults = useSelector(state => state.videos);
-  searchResults = Object.values(searchResults);
+  const searchResultsIdList = useSelector(state => state.videos.idList);
 
   useEffect(() => {
     setIsLoaded(false);
@@ -24,8 +24,8 @@ export default function SearchResultsPage() {
     return () => dispatch(clearVideosState());
   }, [dispatch, query]);
 
-  const renderedSearchResults = searchResults.map(video => (
-    <VideoCardLarge key={video.id} videoId={video.id} />
+  const renderedSearchResults = searchResultsIdList?.map(videoId => (
+    <VideoCardLarge key={videoId} videoId={videoId} />
   ));
 
   const noResultsMessage = (
@@ -36,7 +36,7 @@ export default function SearchResultsPage() {
 
   return !isLoaded ? <img src={loadingWheel} alt='loading-wheel' style={{ width: "30px" }} className='absolute-center' /> : (
     <div id='search-results-page'>
-      {searchResults.length > 0
+      {searchResultsIdList.length > 0
         ? <div className='search-results-container'>{renderedSearchResults}</div>
         : noResultsMessage}
     </div>

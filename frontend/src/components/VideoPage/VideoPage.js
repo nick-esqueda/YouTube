@@ -20,7 +20,7 @@ export default function VideoPage() {
     const history = useHistory();
 
     const sessionUser = useSelector(state => state.session.user);
-    const video = useSelector(state => state.videos[videoId]);
+    const video = useSelector(state => state.videos.entities[videoId]);
     const videosComments = useSelector(state => state.comments);
     const [showMenu, setShowMenu] = useState(false);
     const [showMore, setShowMore] = useState(false);
@@ -28,6 +28,7 @@ export default function VideoPage() {
 
     useEffect(() => {
         (async () => {
+            setIsLoaded(false);
             dispatch(fetchVideosComments(videoId));
             await dispatch(fetchVideo(videoId));
             setIsLoaded(true);

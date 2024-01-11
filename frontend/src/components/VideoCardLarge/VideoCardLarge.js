@@ -6,7 +6,7 @@ import './VideoCardLarge.css';
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 
 export default function VideoCardLarge({ videoId }) {
-  const video = useSelector(state => state.videos[videoId]);
+  const video = useSelector(state => state.videos.entities[videoId]);
 
   return (
     <div className='video-card-large full-size row-top row-left'>

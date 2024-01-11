@@ -1,10 +1,11 @@
 import { customFetch } from "../utils";
-import { normalizeOneLevel } from "./utils";
+import { createNormalizedState, updateNormalizedState } from "./utils";
 
 // ACTION VARIABLES ***************************************
 const ADD_VIDEO = 'videos/ADD_VIDEO';
 const LOAD_VIDEOS = 'videos/LOAD_VIDEOS';
 const LOAD_ADDITIONAL_VIDEOS = 'videos/LOAD_ADDITIONAL_VIDEOS';
+const UPDATE_VIDEO = 'videos/UPDATE_VIDEO';
 const REMOVE_VIDEO = 'videos/REMOVE_VIDEO';
 const CLEAR_VIDEOS = 'videos/CLEAR_VIDEOS';
 
@@ -27,6 +28,13 @@ const loadAdditionalVideos = (videos) => {
     return {
         type: LOAD_ADDITIONAL_VIDEOS,
         videos
+    }
+}
+
+const updateVideo = (video) => {
+    return {
+        type: UPDATE_VIDEO,
+        video
     }
 }
 
@@ -100,7 +108,7 @@ export const editVideo = video => async dispatch => {
 
     if (res.ok) {
         const editedVideo = await res.json();
-        dispatch(addVideo(editedVideo));
+        dispatch(updateVideo(editedVideo));
         return editedVideo;
     }
 }
@@ -135,40 +143,66 @@ export const searchVideos = (query) => async (dispatch) => {
 
 
 // REDUCER ************************************************
-const videosReducer = (state = {}, action) => {
+const defaultState = {
+    idList: [],
+    entities: {},
+}
+const videosReducer = (state = defaultState, action) => {
     switch (action.type) {
         case LOAD_VIDEOS: {
-            return {
-                ...normalizeOneLevel(action.videos)
-            }
+            return createNormalizedState(action.videos);
         }
 
         case LOAD_ADDITIONAL_VIDEOS: {
-            return {
-                ...state,
-                ...normalizeOneLevel(action.videos)
-            }
+            return updateNormalizedState(action.videos, state);
         }
 
         case ADD_VIDEO: {
             const video = action.video;
             const dateParts = video.createdAt.split(' ');
             video.createdAt = `${dateParts[2]} ${dateParts[1]}, ${dateParts[3]}`;
-            
+
             return {
-                ...state,
-                [video.id]: video,
+                idList: [video.id, ...state.idList],
+                entities: {
+                    ...state.entities,
+                    [video.id]: video
+                }
+            }
+        }
+
+        // TODO: TEST UPDATE VIDEO
+        case UPDATE_VIDEO: {
+            const video = action.video;
+            const dateParts = video.createdAt.split(' ');
+            video.createdAt = `${dateParts[2]} ${dateParts[1]}, ${dateParts[3]}`;
+
+            return {
+                idList: [...state.idList],
+                entities: {
+                    ...state.entities,
+                    [video.id]: video
+                }
             }
         }
 
         case REMOVE_VIDEO: {
-            const newState = {...state};
-            delete newState[action.videoId];
-            return newState;
+            const videoId = action.videoId;
+            const newIdList = state.idList.filter(id => id !== videoId);
+            const newEntities = {...state.entities};
+            delete newEntities[videoId];
+
+            return {
+                idList: newIdList,
+                entities: newEntities
+            }
         }
-            
+
         case CLEAR_VIDEOS: {
-            return {};
+            return {
+                idList: [],
+                entities: {}
+            };
         }
 
         default:

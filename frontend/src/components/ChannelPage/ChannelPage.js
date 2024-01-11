@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink, Route, Switch, useParams, useRouteMatch } from 'react-router-dom';
 import { fetchChannel } from '../../store/channels';
-import { fetchChannelsVideos } from '../../store/videos';
 
 import ProfileIcon from '../ProfileIcon/ProfileIcon';
 import AboutTab from './AboutTab';
@@ -18,13 +17,12 @@ export default function ChannelPage() {
 	const dispatch = useDispatch();
 	const channel = useSelector(state => state.channels[channelId]);
 	const [isLoaded, setIsLoaded] = useState(false);
-	// const [activeTab, setActiveTab] = useState(1);
 
 	useEffect(() => {
+		setIsLoaded(false);
 		if (!channelId) return;
 		(async () => {
 			await dispatch(fetchChannel(channelId));
-			await dispatch(fetchChannelsVideos(channelId, 1));
 			setIsLoaded(true);
 		})();
 	}, [dispatch, channelId]);
