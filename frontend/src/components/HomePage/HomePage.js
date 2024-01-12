@@ -44,7 +44,7 @@ export default function HomePage() {
         <div id='home-page' className='col-space-even'>
             <div className='video-row-grid'>
                 {videos.map(video => (
-                    <VideoCard key={video.id} videoId={video.id} />
+                    <VideoCard key={video.id} videoId={video.id} videoDetailsStyle={'medium'} />
                 ))}
             </div>
 

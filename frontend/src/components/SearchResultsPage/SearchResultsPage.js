@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useLocation } from 'react-router-dom/cjs/react-router-dom'
 import { clearVideosState, searchVideos } from '../../store/videos';
-import VideoCardLarge from '../VideoCardLarge/VideoCardLarge';
 import loadingWheel from '../../static/icons/loading-wheel.gif';
 
 import './SearchResultsPage.css';
+import VideoCard from '../VideoCard/VideoCard';
 
 export default function SearchResultsPage() {
   const dispatch = useDispatch();
@@ -25,7 +25,8 @@ export default function SearchResultsPage() {
   }, [dispatch, query]);
 
   const renderedSearchResults = searchResultsIdList?.map(videoId => (
-    <VideoCardLarge key={videoId} videoId={videoId} />
+    <VideoCard key={videoId} videoId={videoId}
+      videoDetailsStyle={'large'} isVerticalOrientation={false} />
   ));
 
   const noResultsMessage = (

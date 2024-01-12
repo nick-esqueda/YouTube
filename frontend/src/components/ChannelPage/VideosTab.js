@@ -18,7 +18,7 @@ export default function VideosTab() {
 	}, [dispatch, channelId]);
 
 	const renderedVideos = channelVideosIdList?.map(videoId => (
-		<VideoCard videoId={videoId} showChannelDetails={false} />
+		<VideoCard videoId={videoId} videoDetailsStyle={'mediumNoChannelInfo'} />
 	));
 
 	return !channelVideosIdList ? null : (

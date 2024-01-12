@@ -7,3 +7,7 @@
   min-width: 860px;
   padding: 20px
 }
+
+.search-results-container .video-card {
+  margin: 8px;
+}

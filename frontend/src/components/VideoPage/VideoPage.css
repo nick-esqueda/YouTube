@@ -91,3 +91,7 @@
     width: 100%;
     padding: 0 20px;
 }
+
+.suggested-videos-container .video-card {
+    margin: 6px;
+}

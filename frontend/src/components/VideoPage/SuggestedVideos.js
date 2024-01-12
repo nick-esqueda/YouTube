@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import VideoCardSmall from '../VideoCardSmall/VideoCardSmall'
 import loadingWheel from '../../static/icons/loading-wheel.gif';
 import { useDispatch } from 'react-redux';
 import { fetchRandomVideos } from '../../store/videos';
 
 import './VideoPage.css';
+import VideoCard from '../VideoCard/VideoCard';
 
 export default function SuggestedVideos({ videoId }) {
   const dispatch = useDispatch();
@@ -47,7 +47,8 @@ export default function SuggestedVideos({ videoId }) {
           if (video.id === videoId) {
             return;
           }
-          return <VideoCardSmall key={video.id} videoId={video.id} />
+          return (<VideoCard key={video.id} videoId={video.id}
+            videoDetailsStyle={'small'} isVerticalOrientation={false} />);
         })}
       </div>
 
