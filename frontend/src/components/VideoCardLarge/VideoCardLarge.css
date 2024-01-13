@@ -1,0 +1,25 @@
+.video-card-large {
+  margin: 16px;
+  min-width: 800px;
+}
+
+.video-card-large .thumbnail-wrapper {
+  width: 380px;
+  min-width: 380px;
+}
+
+.video-card-large-details {
+  padding: 4px 16px;
+  align-items: flex-start;
+}
+
+.video-card-large-details h4 {
+  margin-bottom: 4px;
+  font-size: 18px;
+}
+
+.video-card-large-details span {
+  padding: 2px 0;
+  color: var(--gray-light);
+  font-size: 12px;
+}

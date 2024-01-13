@@ -4,10 +4,10 @@ from api.utils import validation_errors_to_error_messages
 from forms.video_forms import CreateVideoForm, EditVideoForm
 from models import db, Video, Channel
 
-video_routes = Blueprint('videos', __name__)
+video_routes = Blueprint("videos", __name__)
 
 
-@video_routes.route('/<int:videoId>/')
+@video_routes.route("/<int:videoId>/")
 def get_video(videoId):
     """
     GET /api/videos/:videoId\n
@@ -17,7 +17,7 @@ def get_video(videoId):
     return jsonify(video)
 
 
-@video_routes.route('/pages/<int:pageNum>/')
+@video_routes.route("/pages/<int:pageNum>/")
 def get_videos(pageNum):
     """
     GET /api/videos/pages/:pageNum \n
@@ -28,13 +28,15 @@ def get_videos(pageNum):
     # id = int(session['_user_id'])
     # sessionUser = Channel.query.get(id)
 
-    videos = Video.query.order_by(func.random()).paginate(page=pageNum, per_page=20, error_out=False)
+    videos = Video.query.order_by(func.random()).paginate(
+        page=pageNum, per_page=20, error_out=False
+    )
     videos = [video.to_dict() for video in videos.items]
 
     return jsonify(videos)
 
 
-@video_routes.route('/', methods=["POST"])
+@video_routes.route("/", methods=["POST"])
 def create_video():
     """
     POST /api/videos/ \n
@@ -42,11 +44,11 @@ def create_video():
     """
     form = CreateVideoForm()
 
-    form['csrf_token'].data = request.cookies['csrf_token']
+    form["csrf_token"].data = request.cookies["csrf_token"]
 
     if form.validate_on_submit():
         data = {
-            "channelId": session['_user_id'],
+            "channelId": session["_user_id"],
             "title": form.data["title"],
             "description": form.data["description"],
             "videoUrl": form.data["videoUrl"],
@@ -57,13 +59,13 @@ def create_video():
         db.session.add(video)
         db.session.commit()
         return jsonify(video.to_dict())
-        
-    print('\n\n\n FORM ERRORS HERE:', form.errors, '\n\n\n')
-    return {'errors': validation_errors_to_error_messages(form.errors)}, 401
+
+    print("\n\n\n FORM ERRORS HERE:", form.errors, "\n\n\n")
+    return {"errors": validation_errors_to_error_messages(form.errors)}, 401
 
 
-@video_routes.route('/<int:videoId>/', methods=["PATCH"])
-# TODO!!! check and make sure PATCH is supported just like PUT 
+@video_routes.route("/<int:videoId>/", methods=["PATCH"])
+# TODO!!! check and make sure PATCH is supported just like PUT
 def edit_post(videoId):
     """
     PATCH /api/videos/ \n
@@ -71,39 +73,41 @@ def edit_post(videoId):
     """
     form = EditVideoForm()
 
-    form['csrf_token'].data = request.cookies['csrf_token']
+    form["csrf_token"].data = request.cookies["csrf_token"]
 
     if form.validate_on_submit():
-        sessionUserId = int(session['_user_id'])
+        sessionUserId = int(session["_user_id"])
 
         video = Video.query.get(videoId)
         # checking to make sure the reqest is made by the owner of the video
         if video.channelId != sessionUserId:
-            return { 'not authorized': 'you are not authorized to update this video.' }, 403
-        
-        video.title = form['title'].data
-        video.description = form['description'].data
-        video.thumbnailUrl = form['thumbnailUrl'].data
+            return {
+                "not authorized": "you are not authorized to update this video."
+            }, 403
+
+        video.title = form["title"].data
+        video.description = form["description"].data
+        video.thumbnailUrl = form["thumbnailUrl"].data
         db.session.commit()
-        
+
         return jsonify(video.to_dict())
 
-    print('\n\n\n FORM ERRORS HERE:', form.errors, '\n\n\n')
-    return {'errors': validation_errors_to_error_messages(form.errors)}, 401
+    print("\n\n\n FORM ERRORS HERE:", form.errors, "\n\n\n")
+    return {"errors": validation_errors_to_error_messages(form.errors)}, 401
 
 
-@video_routes.route('/<int:videoId>/', methods=["DELETE"])
+@video_routes.route("/<int:videoId>/", methods=["DELETE"])
 def delete_post(videoId):
     """
     DELETE /api/videos/:videoId \n
     Delete a video by :videoId, then respond with the same :videoId.
     """
-    sessionUserId = int(session['_user_id'])
+    sessionUserId = int(session["_user_id"])
     video = Video.query.get(videoId)
 
-    if video.to_dict()['channelId'] == sessionUserId:
+    if video.to_dict()["channelId"] == sessionUserId:
         db.session.delete(video)
         db.session.commit()
         return jsonify(videoId)
     else:
-        return { 'notAuthorized': 'you are not authorized to update this video.' }, 403
+        return {"notAuthorized": "you are not authorized to update this video."}, 403

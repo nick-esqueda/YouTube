@@ -1,0 +1,9 @@
+.search-results-page {
+  margin: 0 auto;
+}
+
+.search-results-container {
+  width: 60%;
+  min-width: 860px;
+  padding: 20px
+}

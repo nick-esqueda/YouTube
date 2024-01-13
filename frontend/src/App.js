@@ -13,6 +13,7 @@ import VideoPage from './components/VideoPage/VideoPage';
 import HomePage from './components/HomePage/HomePage';
 import VideoForm from './components/VideoForm/VideoForm';
 import PageNotFound from './components/PageNotFound/PageNotFound';
+import SearchResultsPage from './components/SearchResultsPage/SearchResultsPage';
 
 function App() {
 	const dispatch = useDispatch();
@@ -72,6 +73,11 @@ function App() {
 				<Route path='/' exact={true} >
 					<Navbar />
 					<HomePage />
+				</Route>
+		
+				<Route path='/results'>
+					<Navbar />
+					<SearchResultsPage />
 				</Route>
 
 				<Route>
