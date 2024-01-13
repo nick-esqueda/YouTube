@@ -11,6 +11,9 @@ export default function SearchHeader() {
 
     const onSubmit = (e) => {
         e.preventDefault();
+        if (!searchQuery.length) {
+            return;
+        }
         history.push(`/results?q=${searchQuery}`);
     }
     
@@ -25,6 +28,7 @@ export default function SearchHeader() {
                     placeholder="Search" 
                     value={searchQuery}
                     onChange={updateSearchQuery}
+                    required
                 />
 
                 <button type='submit' className='search-submit-button'>
