@@ -20,7 +20,7 @@ export default function VideoForm() {
     const descriptionSpanRef = useRef();
     const titleSpanRef = useRef();
 
-    const video = useSelector(state => state.videos[videoId]);
+    const video = useSelector(state => state.videos.entities[videoId]);
     const sessionUser = useSelector(state => state.session.user);
     const [isLoaded, setIsLoaded] = useState(false);
     const [title, setTitle] = useState('');

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux';
-import { fetchRandomVideos } from '../../store/videos';
+import { clearVideosState, fetchRandomVideos } from '../../store/videos';
 
 import './HomePage.css';
 import VideoCard from '../VideoCard/VideoCard';
@@ -19,6 +19,8 @@ export default function HomePage() {
             setVideos(videoArr);
             setIsLoaded(true);
         })()
+        
+        return () => dispatch(clearVideosState());
     }, [dispatch]);
 
     useEffect(() => {

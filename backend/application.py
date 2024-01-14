@@ -11,6 +11,7 @@ from api.video_routes import video_routes
 from api.comment_routes import comment_routes
 from api.s3_routes import s3_routes
 from api.videos_likes_and_dislikes_routes import videos_likes_and_dislikes_routes
+from api.search_routes import search_routes
 
 from seeds import seed_commands
 
@@ -40,6 +41,7 @@ application.register_blueprint(s3_routes, url_prefix="/api/s3")
 application.register_blueprint(
     videos_likes_and_dislikes_routes, url_prefix="/api/videos"
 )
+application.register_blueprint(search_routes, url_prefix="/api/search")
 db.init_app(application)
 Migrate(application, db)
 

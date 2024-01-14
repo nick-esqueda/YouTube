@@ -15,11 +15,11 @@ export default function VideoInfo() {
   const history = useHistory();
 
   const sessionUser = useSelector(state => state.session.user);
-  const video = useSelector(state => state.videos[videoId]);
-  const isLiked = useSelector(state => state.videos[videoId]?.isLikedByCurrentUser);
-  const isDisliked = useSelector(state => state.videos[videoId]?.isDislikedByCurrentUser);
-  const videoLikeCount = useSelector(state => state.videos[videoId]?.likeCount);
-  const videoDislikeCount = useSelector(state => state.videos[videoId]?.dislikeCount);
+  const video = useSelector(state => state.videos.entities[videoId]);
+  const isLiked = useSelector(state => state.videos.entities[videoId]?.isLikedByCurrentUser);
+  const isDisliked = useSelector(state => state.videos.entities[videoId]?.isDislikedByCurrentUser);
+  const videoLikeCount = useSelector(state => state.videos.entities[videoId]?.likeCount);
+  const videoDislikeCount = useSelector(state => state.videos.entities[videoId]?.dislikeCount);
   const [showMenu, setShowMenu] = useState(false);
 
   useEffect(() => {
@@ -72,7 +72,7 @@ export default function VideoInfo() {
 
   }
 
-  return (
+  return !video ? null : (
     <div className='video-info row-space-between'>
       <div className='col-left'>
         <h4>{video.title}</h4>

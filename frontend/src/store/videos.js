@@ -1,13 +1,15 @@
 import { customFetch } from "../utils";
-import { normalizeOneLevel } from "./utils";
+import { createNormalizedState, updateNormalizedState } from "./utils";
 
 // ACTION VARIABLES ***************************************
 const ADD_VIDEO = 'videos/ADD_VIDEO';
 const LOAD_VIDEOS = 'videos/LOAD_VIDEOS';
 const LOAD_ADDITIONAL_VIDEOS = 'videos/LOAD_ADDITIONAL_VIDEOS';
+const UPDATE_VIDEO = 'videos/UPDATE_VIDEO';
 const REMOVE_VIDEO = 'videos/REMOVE_VIDEO';
 const UPDATE_LIKE_COUNT = 'videos/UPDATE_LIKE_COUNT';
 const UPDATE_DISLIKE_COUNT = 'videos/UPDATE_DISLIKE_COUNT';
+const CLEAR_VIDEOS = 'videos/CLEAR_VIDEOS';
 
 // ACTION CREATORS ****************************************
 const addVideo = (video) => {
@@ -28,6 +30,13 @@ const loadAdditionalVideos = (videos) => {
     return {
         type: LOAD_ADDITIONAL_VIDEOS,
         videos
+    }
+}
+
+const updateVideo = (video) => {
+    return {
+        type: UPDATE_VIDEO,
+        video
     }
 }
 
@@ -56,6 +65,12 @@ const updateDislikeCount = (videoId, dislikeCount, isDislikedByCurrentUser) => {
     }
 }
 
+
+export const clearVideosState = () => {
+    return {
+        type: CLEAR_VIDEOS
+    }
+}
 
 // THUNK ACTION CREATORS **********************************
 export const fetchVideo = (videoId) => async dispatch => {
@@ -114,7 +129,7 @@ export const editVideo = video => async dispatch => {
 
     if (res.ok) {
         const editedVideo = await res.json();
-        dispatch(addVideo(editedVideo));
+        dispatch(updateVideo(editedVideo));
         return editedVideo;
     }
 }
@@ -157,49 +172,112 @@ export const toggleVideoDislike = (videoId) => async (dispatch) => {
         dispatch(updateDislikeCount(videoId, dislikeCount, isDislikedByCurrentUser));
     }
 }
+export const searchVideos = (query) => async (dispatch) => {
+    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/api/search?` 
+        + new URLSearchParams({query}));
+    
+    if (res.ok) {
+        const videos = await res.json();
+        dispatch(loadVideos(videos));
+        return videos;
+    }
+}
+
 
 // REDUCER ************************************************
-const videosReducer = (state = {}, action) => {
-    let newState = { ...state }
-
+const defaultState = {
+    idList: [],
+    entities: {},
+}
+const videosReducer = (state = defaultState, action) => {
     switch (action.type) {
         case LOAD_VIDEOS: {
-            return {
-                ...normalizeOneLevel(action.videos)
-            }
+            return createNormalizedState(action.videos);
         }
 
         case LOAD_ADDITIONAL_VIDEOS: {
-            return {
-                ...state,
-                ...normalizeOneLevel(action.videos)
-            }
+            return updateNormalizedState(action.videos, state);
         }
 
         case ADD_VIDEO: {
-            const dateParts = action.video.createdAt.split(' ');
-            action.video.createdAt = `${dateParts[2]} ${dateParts[1]}, ${dateParts[3]}`;
-            newState[action.video.id] = action.video;
-            return newState;
+            const video = action.video;
+            const dateParts = video.createdAt.split(' ');
+            video.createdAt = `${dateParts[2]} ${dateParts[1]}, ${dateParts[3]}`;
+
+            return {
+                idList: [video.id, ...state.idList],
+                entities: {
+                    ...state.entities,
+                    [video.id]: video
+                }
+            }
+        }
+
+        // TODO: TEST UPDATE VIDEO
+        case UPDATE_VIDEO: {
+            const video = action.video;
+            const dateParts = video.createdAt.split(' ');
+            video.createdAt = `${dateParts[2]} ${dateParts[1]}, ${dateParts[3]}`;
+
+            return {
+                idList: [...state.idList],
+                entities: {
+                    ...state.entities,
+                    [video.id]: video
+                }
+            }
         }
 
         case REMOVE_VIDEO: {
-            delete newState[action.videoId];
-            return newState;
+            const videoId = action.videoId;
+            const newIdList = state.idList.filter(id => id !== videoId);
+            const newEntities = {...state.entities};
+            delete newEntities[videoId];
+
+            return {
+                idList: newIdList,
+                entities: newEntities
+            }
+        }
+
+        case CLEAR_VIDEOS: {
+            return {
+                idList: [],
+                entities: {}
+            };
         }
 
         case UPDATE_LIKE_COUNT: {
-            const video = newState[action.videoId];
-            video.likeCount = action.likeCount;
-            video.isLikedByCurrentUser = action.isLikedByCurrentUser;
-            return newState;
+            const {videoId, likeCount, isLikedByCurrentUser} = action;
+            
+            return {
+                idList: [...state.idList],
+                entities: {
+                    ...state.entities,
+                    [videoId]: {
+                        ...state.entities[videoId],
+                        likeCount,
+                        isLikedByCurrentUser
+                    }
+                }
+            }
+            
         }
             
         case UPDATE_DISLIKE_COUNT: {
-            const video = newState[action.videoId];
-            video.dislikeCount = action.dislikeCount;
-            video.isDislikedByCurrentUser = action.isDislikedByCurrentUser;
-            return newState;
+            const {videoId, dislikeCount, isDislikedByCurrentUser} = action;
+            
+            return {
+                idList: [...state.idList],
+                entities: {
+                    ...state.entities,
+                    [videoId]: {
+                        ...state.entities[videoId],
+                        dislikeCount,
+                        isDislikedByCurrentUser
+                    }
+                }
+            }
         }
 
         default:

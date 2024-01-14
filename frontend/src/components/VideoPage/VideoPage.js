@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom'
-import { fetchVideo } from '../../store/videos';
+import { clearVideosState, fetchVideo } from '../../store/videos';
 import { fetchVideosComments } from '../../store/comments';
 import CommentCard from '../CommentCard/CommentCard';
 import CommentForm from '../CommentForm/CommentForm';
@@ -17,13 +17,14 @@ export default function VideoPage() {
     const dispatch = useDispatch();
 
     const sessionUser = useSelector(state => state.session.user);
-    const video = useSelector(state => state.videos[videoId]);
+    const video = useSelector(state => state.videos.entities[videoId]);
     const videosComments = useSelector(state => state.comments);
     const [showMore, setShowMore] = useState(false);
 
     useEffect(() => {
-        dispatch(fetchVideo(videoId));
         dispatch(fetchVideosComments(videoId));
+        dispatch(fetchVideo(videoId));
+        return () => dispatch(clearVideosState());
     }, [dispatch, videoId]);
 
     return !video ? <LoadingWheel /> : (

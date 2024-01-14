@@ -1,7 +1,9 @@
 from .db import db
 from .video_like import video_like
 from .video_dislike import video_dislike
+from .types import TSVector
 from sqlalchemy.sql import func
+from sqlalchemy import Index
 
 
 class Video(db.Model):
@@ -40,6 +42,16 @@ class Video(db.Model):
         lazy=True,
         cascade="all, delete",
     )
+
+    # must create a tsvector column to store pre-computed values for faster full text search.
+    document_fts = db.Column(
+        TSVector(),
+        db.Computed(
+            "setweight(to_tsvector('english', title), 'A') || setweight(to_tsvector('english', coalesce(description, '')), 'B')",
+            persisted=True,
+        ),
+    )
+    __table_args__ = (Index("document_fts_idx", document_fts, postgresql_using="gin"),)
 
     def to_dict(self):
         return {

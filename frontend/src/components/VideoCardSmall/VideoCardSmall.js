@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom/cjs/react-router-dom';
 import './VideoCardSmall.css';
 
 export default function VideoCardSmall({ videoId }) {
-  const video = useSelector(state => state.videos[videoId]);
+  const video = useSelector(state => state.videos.entities[videoId]);
 
   return (
     <div className='video-card-small row-left row-top'>
