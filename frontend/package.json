@@ -29,10 +29,10 @@
     "deploy:uat": "npm run build:uat && npm run sync-s3:uat && npm run refresh-cdn:uat",
     "deploy:prod": "npm run build && npm run sync-s3:prod && npm run refresh-cdn:prod",
     "build:uat": "env-cmd -f .env.test npm run build",
-    "sync-s3:uat": "aws s3 sync ./build s3://uat.youtube.nickesqueda.com",
-    "sync-s3:prod": "aws s3 sync ./build s3://youtube.nickesqueda.com",
-    "refresh-cdn:uat": "aws cloudfront create-invalidation --distribution-id E31OEG5D9TJ6MB --paths \"/*\"",
-    "refresh-cdn:prod": "aws cloudfront create-invalidation --distribution-id EX1ZNN8R5UO7U --paths \"/*\""
+    "sync-s3:uat": "aws --profile nickesqueda3@gmail.com s3 sync ./build s3://uat.youtube.nickesqueda.com",
+    "sync-s3:prod": "aws --profile nickesqueda3@gmail.com s3 sync ./build s3://youtube.nickesqueda.com",
+    "refresh-cdn:uat": "aws --profile nickesqueda3@gmail.com cloudfront create-invalidation --distribution-id E62H17MY1H867 --paths \"/*\"",
+    "refresh-cdn:prod": "aws --profile nickesqueda3@gmail.com cloudfront create-invalidation --distribution-id EXX7L2UCDJ0S2 --paths \"/*\""
   },
   "eslintConfig": {
     "extends": "react-app"
