@@ -33,8 +33,8 @@ This YouTube clone was built using the following technologies:
 ## Features
 
 ### Videos
-* Users can watch and post videos to YouTube, as well as see them on a channel's page
-* Users that have posted a video can edit and delete those videos
+* Watch and post videos to YouTube.
+* Users that have posted a video can edit or delete those videos.
 
 ![image](https://user-images.githubusercontent.com/93935486/167234129-a7dea80b-5c75-42fe-9546-68f080937782.png)
 
@@ -42,11 +42,13 @@ This YouTube clone was built using the following technologies:
 
 
 ### Comments
-* Users can seet comments on videos, and make a comment to join the discussion
-* Users can also edit and delete their comments if they wish
+* View and create comments on videos.
+* Users can also edit and delete their comments if they wish.
 
 ![image](https://user-images.githubusercontent.com/93935486/167234138-c68a3a0f-8a00-4d58-a2b5-59b59497e5e2.png)
 
+### Search
+* Use the search bar to find videos.
 
 ## Future Feature Ideas
 There are serveral feature additions and functionality enhancements that I plan to add to the site. Here are a few of those:
