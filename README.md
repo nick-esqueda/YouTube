@@ -4,7 +4,7 @@ This is intended to be a pixel-perfect clone of YouTube.com. Users can create a 
 
 ## Link to Live Site
 
-Hosted on Heroku: [YouTube](https://youtube-clone-nick-esqueda.herokuapp.com/)
+Hosted on AWS Elastic Beanstalk and S3/CloudFront: [YouTube](https://youtube.nickesqueda.com/)
 
 ![image (8)](https://user-images.githubusercontent.com/93935486/167233943-a21ac875-04e4-4e65-a5c1-6b179ec7d6e9.png)
 
